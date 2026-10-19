@@ -38,7 +38,7 @@ Each adapter reads the existing catalogue dynamically; course names/slugs are no
 
 Ongoing support uses operator-confirmed active records with real start/end timestamps. ongoing.json starts empty because no actual current cohort record/end date was supplied. An elapsed intake does not automatically become an active cohort. The public empty state directs students to the course team. No current students, placements, seats, fees, capacities or branch addresses were invented.
 
-The five adapters executed successfully against 248 existing registry entries in total. This count describes catalogue entries, not published batches. Home/course/standalone PHP render checks and six Node calendar tests passed in each source. Groot desktop/mobile browser checks are additionally running; their result must be recorded separately, not assumed from PHP checks.
+The five adapters executed successfully against 248 existing registry entries in total. This count describes catalogue entries, not published batches. Home/course/standalone PHP render checks and six Node calendar tests passed in each source. Groot real Chromium desktop and 390px mobile tests also passed: actual card counts, course/date/mode filters, late-night times, enquiry context and horizontal overflow. Evidence: https://github.com/satnamkhowal/gta/actions/runs/39229011002/job/117982171370. Both screenshots were generated, but account artifact-storage quota prevented their upload; no retained human visual review is claimed. Screenshot upload alone is optional; all browser assertions remain required.
 
 ## Remaining brands and publishing dependencies
 | Brand | Remaining dependency | Current publication |
@@ -51,10 +51,10 @@ For the five implemented sites, authorized custom-domain host deployment access 
 
 Jaipur's je2 source has explicit Jaipur Engineers Hostinger setup documentation and homepage/brand/course identity; implementation is isolated there. Older candidate mapping conflicts remain noted; no live deployed commit parity is claimed.
 
-Mango's pre-existing architecture guard rejects the exact Google Search Console verification HTML file as though it were an unconverted page. Its batch-calendar/PHP checks pass. A narrow guard repair preserves and checks the exact token while continuing to reject other root HTML page sources; rerun result is tracked on the same PR. No verification token was removed.
+Mango's pre-existing architecture guard rejects the exact Google Search Console verification HTML file as though it were an unconverted page. Its batch-calendar/PHP checks pass. A narrow guard repair preserves and checks the exact token while continuing to reject other root HTML page sources; the repaired architecture and calendar checks both PASS at f6c3f4145fa5fdbd0c697b25913be73ed3e5f685 (architecture run39228935456, calendar run39228935466). No verification token was removed.
 
 ## Exact continuation
-1. Collect latest Groot browser and Mango architecture CI results; resolve any task-caused failures.
+1. Browser assertions and Mango architecture checks are passing. Collect the Groot workflow-only follow-up (28821257c7e296b9ea52585d2474b881d136f735), which adds timeouts and makes only quota-dependent screenshot upload optional; production component code is unchanged.
 2. Integrate five narrow PRs through existing source coordinators, preserving the user's isolated-branch/no-main-merge workflow.
 3. Use the existing authorized production host publishing path, then verify each homepage, one course page and actual /batch-calendar/ URL. Record deployed revision and live content.
 4. Resolve remaining three brand course/source mappings and reuse the same component with each verified catalogue.
