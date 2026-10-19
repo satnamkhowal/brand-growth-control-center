@@ -32,3 +32,11 @@ During existing Groot scheduled work cycles, first inspect current central main 
 Do not repeat full audits when source evidence is unchanged. Do not call a draft deployed, a source flag a live defect, or a missing metric a ranking diagnosis. Keep training-bot policy, public publishing and release approvals separate.
 
 Exact continuation: resolve CC-AUD-001 workstream mapping, then review PR1/2 status changes and append dated delta evidence. Existing audit findings are proposed for central review, not self-approved closure.
+
+## Delta — 2026-10-19: Groot candidate guard repair
+
+Central main and PR1/2/3 heads were unchanged at this review; no baseline crawl was repeated and CC-AUD-001/002/004 remain unresolved. No mapping or owner was reassigned.
+
+Groot checkpoint: [8afd0eee](https://github.com/satnamkhowal/gta/commit/8afd0eee6bd95d439428369a7903cfda75e66644), on the existing controller review branch/PR103. An imported static guard could return static PASS for an invalid candidate under optimized Python because asserts were removed. Explicit checks now remain active under normal Python, -O and -OO. Five invalid variants reject per mode; valid static candidates still return publication_approved=false. Full preparation suite70 PASS, ten candidate static checks PASS and queue validation29 IDs PASS; separate independent repair QA PASS. [Repair evidence](https://github.com/satnamkhowal/gta/blob/69ad06fc38490f394bc1820fb837fe5be56f4e58/marketing/blog-factory/work/B0001/qa/static-guard-optimization-repair-20261019.md).
+
+CC-AUD-003 evidence advances only for this validation repair: ten text drafts, ten SVGs, nine executed-code passes and one separate refresh remain; zero full-approved and zero published/live. Chromium executable and PHP binary remain absent. No browser assertions/manual zoom, rendered PHP/schema or HTTP release results are implied by70 preparation tests. Next Groot action remains GA16 browser execution when runtime availability changes, then independent execution review and pending PHP/HTTP release gates. Central mapping reconciliation remains with its existing owners.
