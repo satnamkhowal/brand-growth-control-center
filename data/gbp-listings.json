@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "last_checked": "2026-10-20",
+  "purpose": "Central inventory of user-submitted public Google Business Profile listings, for verification and follow-up. Inclusion does not assert account ownership or management access.",
+  "profiles": [
+    {
+      "record_id": "gbp-jaipur-advance-jyotish",
+      "business_name": "Advance jyotish",
+      "business_name_hindi": "एडवांस ज्योतिष",
+      "locality": "Vidyadhar Nagar",
+      "address": "Office no. 406, Unatti Tower, Vidyadhar Nagar, Jaipur, Rajasthan 302039, India",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India",
+      "google_maps_url": "https://maps.app.goo.gl/CXyTuPFzKpqFvgne6?g_st=ac",
+      "google_rating_snapshot": 4.8,
+      "google_review_count_snapshot": 361,
+      "hours_snapshot": "Open 24 hours, all seven days",
+      "website_url": null,
+      "website_status": "MISSING_ON_GOOGLE_MAPS",
+      "listing_ownership": "UNVERIFIED",
+      "next_action": "Verify authorized GBP access and the official website/domain before adding a website URL to the live profile.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "record_id": "gbp-jaipur-astrologer-amit-sharma",
+      "business_name": "Astrologer Amit Sharma",
+      "business_name_hindi": "एस्ट्रोलॉजर अमित शर्मा",
+      "locality": "Nirman Nagar / Padmavti Colony",
+      "address": "2nd Floor, Plot No. 34, Kings Rd, near Mansarover Metro station, Padmavti Colony, Nirman Nagar, Jaipur, Rajasthan 302019, India",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India",
+      "google_maps_url": "https://maps.app.goo.gl/gjaCGXAYQTz1xyuc6?g_st=ac",
+      "google_rating_snapshot": 4.6,
+      "google_review_count_snapshot": 37,
+      "hours_snapshot": "Monday–Saturday 11:00–17:00; Sunday closed",
+      "website_url": "https://www.famouspanditindia.com/",
+      "website_status": "PRESENT_ON_GOOGLE_MAPS",
+      "website_reachability": "NOT_CONFIRMED; independent fetch returned 502 on 2026-10-20 (not definitive site health)",
+      "user_provided_domain": true,
+      "listing_ownership": "UNVERIFIED",
+      "next_action": "Verify domain ownership/website availability and confirm GBP access. Do not confuse this domain with the similarly spelled famouspanditinindia.com.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "record_id": "gbp-jaipur-astrologer-peeyush-vashisth",
+      "business_name": "Astrologer Peeyush Vashisth",
+      "business_name_hindi": "पीयूष वशिष्ठ",
+      "locality": "Jhotwara",
+      "address": "106 A, Shanti Nagar, Joshi Marg, Kalwar Rd, near 21 South Park, Jhotwara, Jaipur, Rajasthan 302012, India",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India",
+      "google_maps_url": "https://maps.app.goo.gl/swWS8p3HbLgqcRR78?g_st=",
+      "google_rating_snapshot": 4.8,
+      "google_review_count_snapshot": 109,
+      "hours_snapshot": "Every day 09:00–23:00",
+      "website_url": null,
+      "website_status": "MISSING_ON_GOOGLE_MAPS",
+      "listing_ownership": "UNVERIFIED",
+      "next_action": "Identify and verify the official website (if any); add it to the live GBP only after confirming owner authorization.",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "limitations": [
+    "Public Google Maps limited-view snapshots; ratings, review counts and hours may change.",
+    "Addresses were transcribed from Maps place URLs; verify against GBP dashboard before editing.",
+    "No Google Business Profile management or ownership access has been verified.",
+    "Only the central GitHub inventory is updated; the live Google Maps listings are not changed."
+  ]
+}
