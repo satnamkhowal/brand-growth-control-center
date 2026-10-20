@@ -93,3 +93,11 @@ PR141 only adds the programs stylesheet to two existing workflow selectors plus 
 [Factory continuation8f209f9c](https://github.com/satnamkhowal/gta/commit/8f209f9c0a7753158e37368b2a1fc8779792653c): execution tool unavailable this run; no new tests, PHP lint, browser launch or publication approval. Eleven texts/SVGs/candidates,10 independent executed-code passes, one separate refresh, full-approved0/live0 unchanged. Previous79-test evidence remains historical. Source-only handoff committed; queue29IDs unchanged.
 
 Next central owner action: reconcile stale merged/review snapshots while retaining issue124's distinct new-artwork blocker; no duplicate homepage implementation or image generation. Mapping/calendar findings stay open with their existing owners. Groot next action remains actual runtime gates when execution becomes available. No owner takeover, source-main write, self-merge, deployment, social publication or indexing by this audit lane.
+
+## Delta — 2026-10-21 03:32 IST: runtime and alumni-source boundary
+
+Central README and open PR1/2/4/5 heads remain unchanged; no full crawl or duplicate AEO/GEO work was performed. GTA main advanced to014bb1a5 through alumni PR144. Compare files are confined to alumni page/data/CSS, four portrait binaries, documentation and sitemap-pages.xml. There is no marketing/blog-factory or shared blog layout/candidate overlap, so this source merge does not change Groot article ownership, QA stage or publication evidence.
+
+[Factory checkpoint c3681f22](https://github.com/satnamkhowal/gta/commit/c3681f224923c992fd70bf0f1483ce7ec4b97fd7) records restored shell execution:79 unittest methods PASS and all11 candidate static checks PASS/publication_approved=false. PHP and Chromium remain absent, so rendered schema, browser layout/focus, zoom and release gates remain open. Canonical queue blob a4210712 still contains all29 IDs; a stale malformed scratch copy was rejected and not uploaded.
+
+Counts remain11 drafts/11 SVGs, one separate refresh, full-approved0/live0. CC-AUD-001 Jaipur mapping and issue124 new-artwork-byte handoff remain open with their existing owners. Next action stays GA16 Chromium QA and exact-revision PHP/rendered-schema/HTTP review when those runtimes exist; no owner takeover, source-main write, self-merge, deploy, public publishing or indexing.
