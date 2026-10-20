@@ -81,3 +81,15 @@ Central README and PR1/2/4/5 unchanged; no unchanged crawl repeated and existing
 79 unittest methods PASS,9 optimized-import negative variants per normal/-O/-OO,11 actual static candidates PASS/publication_approved=false,29 queue IDs unchanged. This is a generated-source guard, not a PHP parser or runtime release gate. Counts unchanged:11 texts/11 SVGs/11 staging candidates,10 independent executed-code passes, one refresh, full-approved0/live0. No article/asset regeneration.
 
 Exact next action remains runtime-based GA16 browser QA and PHP/rendered-schema/HTTP release checks when available, with independent release review. Source implementation remains in GTA; no other owner files, main, deployment, public publishing or indexing changed by this lane.
+
+## Delta — 2026-10-20 17:04 UTC: source merges versus generated-only graphics
+
+Central main README and PR1/2/4/5 unchanged; no full audit/crawl repeated. Source review on current GTA main075a45a3e98bd07cd5a9d9254f75d03eca57bc38 confirms PR138 merged as624d243a (09:57:35UTC), PR134 as278a5a7d (10:43:32UTC) and PR141 as075a45a3 (12:40:52UTC), all20October. Do not resume these merged implementations from stale pending prose.
+
+Important CC-P0-08 boundary: PR138/134 reused historical catalogue originals; PR138 files contain only homepage/CSS/test mapping changes, no new image bytes. Issue124 is still OPEN for the distinct18-Oct generated-only graphics handoff. Thus merged original-card reuse does not close missing-new-binary evidence, and does not authorize regenerating suitable existing assets. Current source deployment/production image HTTP remains unverified by this audit.
+
+PR141 only adds the programs stylesheet to two existing workflow selectors plus its owned log. Direct Actions API confirms [homepage39423514909](https://github.com/satnamkhowal/gta/actions/runs/39423514909) and [mobile39423514830](https://github.com/satnamkhowal/gta/actions/runs/39423514830) completed/success on e1492484f4b3b41efaaef2d0fa26504eb6f9934d. This is exact-head CI evidence, not factory/article QA or hosting verification. Existing source owners retain PR139 and separate calendar/placement gates.
+
+[Factory continuation8f209f9c](https://github.com/satnamkhowal/gta/commit/8f209f9c0a7753158e37368b2a1fc8779792653c): execution tool unavailable this run; no new tests, PHP lint, browser launch or publication approval. Eleven texts/SVGs/candidates,10 independent executed-code passes, one separate refresh, full-approved0/live0 unchanged. Previous79-test evidence remains historical. Source-only handoff committed; queue29IDs unchanged.
+
+Next central owner action: reconcile stale merged/review snapshots while retaining issue124's distinct new-artwork blocker; no duplicate homepage implementation or image generation. Mapping/calendar findings stay open with their existing owners. Groot next action remains actual runtime gates when execution becomes available. No owner takeover, source-main write, self-merge, deployment, social publication or indexing by this audit lane.
