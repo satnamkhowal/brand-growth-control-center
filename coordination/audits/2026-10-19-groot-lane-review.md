@@ -71,3 +71,13 @@ Central main README and PR1/2/4/5 heads unchanged since preceding review; no rep
 Counts remain11 complete text drafts/11 SVGs and10 independent executed-code passes plus one separate refresh. Staging PHP candidates/static passes now11. Full-approved0/live0. Actual GA19 PHP lint exits3 because binary absent; rendered schema/layout/HTTP/browser gates are not passed. GA16 browser execution remains blocked. Queue retains all29 IDs.
 
 Next existing-owner action: actual PHP/rendered-schema and final HTTP/image/download/link QA on exact reviewed integration revision; GA16 browser checks resume when Chromium becomes available. No new article, owner reassignment, merge, deploy, publishing or indexing. Existing mapping and calendar PR4/5 reconciliation findings remain open.
+
+## Delta — 2026-10-20: generated-config validation repair
+
+Central README and PR1/2/4/5 unchanged; no unchanged crawl repeated and existing mapping/calendar findings stay open. Groot main advanced to278a5a7d9bfbd91f476b65954112dd4e2919c8d1 through homepage PR134. Commit files: index.php, assets/css/groot-programs-home.css, tests/mobile-shell-browser.cjs. Shared blog head/layout remain unchanged. This is source-merge evidence only; no live-deployment claim or homepage ownership transfer.
+
+[Factory checkpoint c230ab36](https://github.com/satnamkhowal/gta/commit/c230ab3680386d0309457e26fa23019d1d4b0add) repairs a real static false-positive: indexed robots config could pass when expected noindex text was placed in a comment. Config entries now follow a bounded generated-format grammar; exact canonical/robots values are checked inside it. Independent review caught alternate double-quoted-key overrides in the first repair; those and expression values were rejected before final independent repair PASS. [Evidence](https://github.com/satnamkhowal/gta/blob/d47cde9824735dc3240f64999ce057d9e188beac/marketing/blog-factory/work/B0001/qa/config-guard-repair-20261020.md).
+
+79 unittest methods PASS,9 optimized-import negative variants per normal/-O/-OO,11 actual static candidates PASS/publication_approved=false,29 queue IDs unchanged. This is a generated-source guard, not a PHP parser or runtime release gate. Counts unchanged:11 texts/11 SVGs/11 staging candidates,10 independent executed-code passes, one refresh, full-approved0/live0. No article/asset regeneration.
+
+Exact next action remains runtime-based GA16 browser QA and PHP/rendered-schema/HTTP release checks when available, with independent release review. Source implementation remains in GTA; no other owner files, main, deployment, public publishing or indexing changed by this lane.
