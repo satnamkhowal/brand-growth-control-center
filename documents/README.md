@@ -5,3 +5,4 @@ This directory holds privacy-redacted, clearly named source documents for centra
 ## Folders
 
 - [`clever-ape-academy/`](clever-ape-academy/) - Clever Ape Academy registration evidence.
+- [`swiggy-wala/`](swiggy-wala/) - Trusted Cab Jaipur / Swiggy Wala registration evidence; identifier conflict pending resolution.
