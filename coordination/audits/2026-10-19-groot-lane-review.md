@@ -101,3 +101,13 @@ Central README and open PR1/2/4/5 heads remain unchanged; no full crawl or dupli
 [Factory checkpoint c3681f22](https://github.com/satnamkhowal/gta/commit/c3681f224923c992fd70bf0f1483ce7ec4b97fd7) records restored shell execution:79 unittest methods PASS and all11 candidate static checks PASS/publication_approved=false. PHP and Chromium remain absent, so rendered schema, browser layout/focus, zoom and release gates remain open. Canonical queue blob a4210712 still contains all29 IDs; a stale malformed scratch copy was rejected and not uploaded.
 
 Counts remain11 drafts/11 SVGs, one separate refresh, full-approved0/live0. CC-AUD-001 Jaipur mapping and issue124 new-artwork-byte handoff remain open with their existing owners. Next action stays GA16 Chromium QA and exact-revision PHP/rendered-schema/HTTP review when those runtimes exist; no owner takeover, source-main write, self-merge, deploy, public publishing or indexing.
+
+## Delta — 2026-10-23 IST: merged research reuse and GA17 content QA
+
+Central open PR1/2/4/5 heads remain unchanged; existing Jaipur mapping, calendar and AEO/GEO owners remain intact. Central main adds a privacy-redacted company-registration inventory for coordination. Those records are verification inputs only, not evidence of repository ownership, deployment, GBP control or permission to alter another brand lane.
+
+GTA research PR68 is now merged to main as e0a5210d. The existing reviewed GA-B00017 proceed record was reused rather than recreating research. [Factory checkpoint 434478ef](https://github.com/satnamkhowal/gta/commit/434478ef80effcebbb8d74e8c7e0b7b7bc77bb7f) adds a distinct1,145-word accessible form-error article, local HTML/JS lab, counted verifier, metadata and authored state-flow SVG. Independent review initially failed the ARIA state, optimized-check, required-instruction, responsive, canonical and SVG details; all were repaired before final static/editorial/rendered-visual PASS.
+
+Executed evidence:15 counted lab checks PASS under normal Python, -O and -OO; extracted JavaScript syntax PASS;6 article/SVG/metadata checks PASS; existing79 factory regression tests and11 static candidates remain PASS/publication_approved=false. Canonical queue preserves29 IDs and advances GA-B00017 only from IDEA to CONTENT_QA. Counts are now12 complete drafts/12 authored SVGs plus one separate refresh; full-approved0/live0.
+
+Chromium and PHP remain absent, so GA17/GA16 browser, accessibility-tree, real zoom, shared PHP/schema/HTTP and independent release gates remain open. Issue124 new-artwork bytes and CC-AUD-001 Jaipur repository mapping also remain open with their current owners. No source-main write, self-merge, deployment, public publishing, indexing or ownership takeover occurred.
