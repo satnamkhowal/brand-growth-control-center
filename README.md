@@ -39,4 +39,4 @@ The [Jaipur GBP listings registry](data/gbp-listings.json) tracks user-submitted
 
 ## Company registration inventory
 
-The [company registration inventory](data/company-registrations.json) records verified business-registration facts needed for centralized coordination. It deliberately excludes contact details, full addresses, and other data not needed for that purpose. See the accompanying [provenance log](data/company-registration-provenance.md) for source and verification boundaries.
+The [company registration inventory](data/company-registrations.json) records verified business-registration facts needed for centralized coordination. It deliberately excludes contact details, full addresses, and other data not needed for that purpose. See the accompanying [provenance log](data/company-registration-provenance.md) for source and verification boundaries. Searchable, privacy-redacted source copies are organized under [documents/](documents/).
