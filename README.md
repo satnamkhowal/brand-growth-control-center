@@ -36,3 +36,7 @@ For every change, add: brand, repository, owner, priority, status, changed files
 The [Jaipur GBP listings registry](data/gbp-listings.json) tracks user-submitted Google Maps business profiles for centralized audit. The first batch (2026-10-20) records three astrology listings: Advance jyotish (website not listed), Astrologer Amit Sharma (Google Maps lists `famouspanditindia.com`; website reachability still unverified), and Astrologer Peeyush Vashisth (website not listed).
 
 **Important:** These are public listing snapshots, not proof of ownership or linked management access. Verify business/domain authorization before making GBP edits. Keep implementation in the relevant brand's own repository and record evidence of any live changes.
+
+## Company registration inventory
+
+The [company registration inventory](data/company-registrations.json) records verified business-registration facts needed for centralized coordination. It deliberately excludes contact details, full addresses, and other data not needed for that purpose. See the accompanying [provenance log](data/company-registration-provenance.md) for source and verification boundaries.

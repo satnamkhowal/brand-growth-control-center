@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Central inventory of business-registration facts used for brand coordination. Records only the minimum information needed for that purpose.",
+  "records": [
+    {
+      "record_id": "udyam-rj-17-0670876",
+      "brand": "Clever Ape Academy",
+      "registration_scheme": "Udyam Registration",
+      "registration_number": "UDYAM-RJ-17-0670876",
+      "registered_enterprise_name": "CLEVER APE ACADEMY",
+      "registered_units": [
+        "Clever Ape Academy",
+        "Cad Mate India"
+      ],
+      "enterprise_type": "Micro",
+      "classification_year": "2026-27",
+      "classification_date": "2026-08-07",
+      "major_activity": "Services",
+      "enterprise_registration_date": "2020-07-04",
+      "business_commencement_date": "2020-07-04",
+      "udyam_registration_date": "2026-08-07",
+      "industry_classifications": [
+        {
+          "nic_5_digit": "85500",
+          "description": "Educational support services"
+        },
+        {
+          "nic_5_digit": "62020",
+          "description": "Computer consultancy and computer facilities management activities"
+        }
+      ],
+      "proprietor_claim": {
+        "name": "Zile Singh",
+        "status": "USER_REPORTED_UNVERIFIED",
+        "note": "The supplied certificate does not visibly name a proprietor."
+      },
+      "source_status": "CERTIFICATE_REVIEWED",
+      "last_verified_on": "2026-10-22"
+    }
+  ],
+  "limitations": [
+    "This inventory is not proof of ownership, authority, or management access.",
+    "Do not infer a proprietor or other personal details unless they are directly supported by the cited source.",
+    "Contact details, full addresses, social category, and other unnecessary personal data from source certificates are intentionally excluded."
+  ]
+}
