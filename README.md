@@ -26,6 +26,7 @@ Central coordination hub for eight brands and their authorized workstreams.
 | --- | --- | --- | --- | --- |
 | P0 | Jaipur Engineers | Account 1 / Master Supervisor | In review | Validate the existing enquiry-form change and confirm production deployment. |
 | P0 | Central coordination | Account 1 / Master Supervisor | Active | Add each brand repository, access status, and active task after verification. |
+| P0 | Forsk Coding School | Forsk implementation / Central Controller | In review | [2026-10-23 work log + continuation prompt](documents/forsk-coding-school/WORK-LOG-2026-10-23.md): alumni PR #39 merged to code; trainers PR #38 still open; events hub branch and brochure/SEO QA pending. |
 
 ## Update format
 
