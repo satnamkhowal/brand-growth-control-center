@@ -132,3 +132,16 @@ Central README and open PR1/2/4/5 heads remain unchanged; no full audit, crawl, 
 GA-B00018 has no article, actual React example, metadata or integration candidate yet, so it receives no completed-draft, completed-visual, approved or live credit. Canonical queue retains all 29 IDs and moves GA-B00018 only from IDEA to DRAFT. Counts remain 12 complete drafts/12 counted authored SVGs/12 staging candidates, one separate refresh, full-approved 0/live 0. Browser control was unavailable and no browser claim was made; existing PHP/Chromium release gates remain open.
 
 CC-AUD-001 Jaipur mapping and issue124 new-artwork handoff remain open with existing owners. Exact next Groot action is to complete GA-B00018 article, real React example and metadata, then obtain independent complete QA before integration. No owner takeover, main write, self-merge, deployment, public publishing or indexing occurred.
+
+
+## Delta — 2026-10-23 15:36 IST: GA18 completed content package, browser gate open
+
+PR1/2/4/5 heads remain unchanged. Central main added the separately owned Forsk work handoff; it does not transfer Groot implementation ownership or change the Jaipur mapping/AEO-GEO queues. No repeated full audit was performed.
+
+GTA main advanced from 31df6d2 to b2b85ab through 12 commits. The delta includes brochure assets, unrelated course/team/research changes and a separate digital-marketing blog plus shared registry update. No GA-B00018 draft path overlaps, but the current shared registry must be refetched at integration rather than relying on the prior snapshot.
+
+[Factory checkpoint bc0d0102](https://github.com/satnamkhowal/gta/commit/bc0d0102b662a22ec10432cd4ce25c57c50214f2) completes GA-B00018's 1,264-word React list-identity article, actual React source lab, deterministic simulator, metadata and authored SVG. Independent QA initially failed the lab because React 19 removed UMD builds. The defect was repaired with matching pinned React/ReactDOM 19.3.1 ESM imports and a strengthened verifier before final independent PASS.
+
+Evidence: 16 draft checks PASS under normal Python, -O and -OO; extracted ES-module syntax PASS; deterministic simulator 8 checks PASS; article/identity boundaries and rendered visual PASS. Browser/CDN loading, actual React reorder/input behavior, keyboard/focus and integration were not executed, so GA-B00018 remains CONTENT_QA. Queue keeps all 29 IDs. Counts are now 13 complete drafts/13 counted authored SVGs, 12 staging candidates, one separate refresh, full-approved 0/live 0.
+
+Next Groot action: real browser interaction QA, then prepare a shared PHP candidate against the current registry and run independent static/runtime/schema/HTTP release gates. CC-AUD-001 Jaipur mapping and issue124 artwork handoff remain with existing owners. No main write, self-merge, deployment, public publishing, indexing or ownership takeover occurred.
