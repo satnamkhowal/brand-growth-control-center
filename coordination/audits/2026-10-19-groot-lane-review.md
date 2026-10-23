@@ -156,3 +156,14 @@ PR1/2/4/5 heads remain unchanged; PR3 advances only with this Groot coordination
 Evidence: 82 regression tests PASS, all 13 candidates static PASS with publication_approved=false, and GA18 deterministic regeneration matches. Canonical/noindex, escaping, shared H1/schema ownership, no dates/duplicate JSON-LD, exact image and two reader downloads pass. PHP lint correctly exits3 because PHP is absent. Browser control was unavailable, so CDN loading and actual React reorder/input/keyboard/focus behavior remain unverified.
 
 GA-B00018 advances CONTENT_QA to TECH_QA only. Counts remain 13 complete drafts/13 authored SVGs and one separate refresh; staging/static candidates rise to13; full-approved0/live0. Queue retains all29 IDs. Next action is real browser interaction plus PHP/rendered-schema/HTTP checks and independent release review. CC-AUD-001 Jaipur mapping and issue124 remain with existing owners; no main write, self-merge, deployment, publication or indexing occurred.
+
+
+## Delta — 2026-10-24 01:31 IST: GA20 repaired partial package only
+
+Central README, main and PR1/2/4/5 heads are unchanged; PR3 advances only with this bounded Groot coordination evidence. No repeated full audit, AEO/GEO recreation, Jaipur mapping assumption or other-owner implementation was performed. GTA main remains b31b25c, so existing dependency conclusions and runtime gates are unchanged.
+
+[Factory checkpoint c86a2c7c](https://github.com/satnamkhowal/gta/commit/c86a2c7cffd78e4a25a459a312c95265544818e6) starts GA-B00020 with a distinct schema-validation CLI brief, executable Python tool, nine regression tests, two fictional fixtures and an authored exit-status SVG. Independent review first found silent extra columns, permissive malformed CSV, unhandled report writes, source-overwrite aliases, inaccurate line wording and incomplete diagram routes. Repairs now make extra columns row errors; malformed/read/header/report failures exit2; identical and hard-linked output paths preserve input; reports use logical record wording; and the rendered diagram draws all fatal routes. Independent partial re-review PASS: 9/9 tests, py_compile, fixture exits0/1, fatal exit2 and SVG XML/render inspection.
+
+This remains a partial package: the article, metadata, PHP/schema integration and release review are absent. Therefore counts remain 13 complete text drafts, 13 counted authored SVGs, 13 staging/static candidates, one separate refresh, full-approved0/live0; queue retains all29 IDs. GA-B00020 moves only IDEA to DRAFT and receives no completed-article or publication credit.
+
+Next Groot action is to write the original article and metadata around the verified package, then obtain fresh independent complete-article QA before any integration candidate. CC-AUD-001 Jaipur mapping and issue124 remain with their existing owners. No source-main write, self-merge, deployment, public publishing, indexing or ownership takeover occurred.
