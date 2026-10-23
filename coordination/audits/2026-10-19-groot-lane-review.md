@@ -145,3 +145,14 @@ GTA main advanced from 31df6d2 to b2b85ab through 12 commits. The delta includes
 Evidence: 16 draft checks PASS under normal Python, -O and -OO; extracted ES-module syntax PASS; deterministic simulator 8 checks PASS; article/identity boundaries and rendered visual PASS. Browser/CDN loading, actual React reorder/input behavior, keyboard/focus and integration were not executed, so GA-B00018 remains CONTENT_QA. Queue keeps all 29 IDs. Counts are now 13 complete drafts/13 counted authored SVGs, 12 staging candidates, one separate refresh, full-approved 0/live 0.
 
 Next Groot action: real browser interaction QA, then prepare a shared PHP candidate against the current registry and run independent static/runtime/schema/HTTP release gates. CC-AUD-001 Jaipur mapping and issue124 artwork handoff remain with existing owners. No main write, self-merge, deployment, public publishing, indexing or ownership takeover occurred.
+
+
+## Delta — 2026-10-23 20:31 IST: GA18 static integration, runtime gates unchanged
+
+PR1/2/4/5 heads remain unchanged; PR3 advances only with this Groot coordination evidence. No duplicate AEO/GEO, Jaipur mapping or other-owner implementation was performed. GTA main advanced from b2b85ab to b31b25c with homepage faculty changes; there is no factory-draft overlap, while current shared registry/layout still requires exact-revision recheck at release.
+
+[Factory checkpoint b625321f](https://github.com/satnamkhowal/gta/commit/b625321f6074101b31ad250bd5955fc48384e3ca) adds GA-B00018's bounded shared PHP review candidate and exporter/checker profile. Independent review found a packaging ambiguity: the source-tree verifier was presented as a standalone reader download despite depending on article/metadata/SVG. The package was repaired to expose only the runnable React lab and simulator; the verifier is explicitly source-tree-only. Independent re-review PASS.
+
+Evidence: 82 regression tests PASS, all 13 candidates static PASS with publication_approved=false, and GA18 deterministic regeneration matches. Canonical/noindex, escaping, shared H1/schema ownership, no dates/duplicate JSON-LD, exact image and two reader downloads pass. PHP lint correctly exits3 because PHP is absent. Browser control was unavailable, so CDN loading and actual React reorder/input/keyboard/focus behavior remain unverified.
+
+GA-B00018 advances CONTENT_QA to TECH_QA only. Counts remain 13 complete drafts/13 authored SVGs and one separate refresh; staging/static candidates rise to13; full-approved0/live0. Queue retains all29 IDs. Next action is real browser interaction plus PHP/rendered-schema/HTTP checks and independent release review. CC-AUD-001 Jaipur mapping and issue124 remain with existing owners; no main write, self-merge, deployment, publication or indexing occurred.
