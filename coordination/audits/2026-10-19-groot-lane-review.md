@@ -121,3 +121,14 @@ Central README and open PR1/2/4/5 heads remain unchanged; no full audit, crawl o
 PHP lint remains correctly blocked with exit3 because the binary is absent. Chromium keyboard/focus/accessibility-tree/screen-reader/200%/400% zoom, rendered shared schema/H1, route/canonical/assets/download HTTP and final release review remain pending. Counts remain12 complete drafts/12 authored SVGs plus one separate refresh; staging candidates/static passes now12; full-approved0/live0. Canonical queue retains29 IDs.
 
 CC-AUD-001 Jaipur mapping and issue124 new-artwork handoff remain open with existing owners. No source-main write, self-merge, deployment, public publishing, indexing or ownership takeover occurred.
+
+
+## Delta — 2026-10-23 10:29 IST: GA18 partial evidence only
+
+Central README and open PR1/2/4/5 heads remain unchanged; no full audit, crawl, AEO/GEO recreation or other-owner file edit was performed. GTA main remains 31df6d2, so the shared blog dependency conclusion from the previous delta is unchanged.
+
+[Factory checkpoint 7896dc36](https://github.com/satnamkhowal/gta/commit/7896dc362483f9b0ae7232dc0d96ca2d4f11050f) starts GA-B00018 as bounded partial work: a current-source brief, deterministic list-identity simulator, authored exact SVG and independent partial review. Node syntax and eight deterministic checks PASS; XML parse/render and visual comparison PASS. The reviewer confirmed the fixture result and required the eventual article to state that the simulator is not React execution and to explain sibling-parent and component-type identity boundaries.
+
+GA-B00018 has no article, actual React example, metadata or integration candidate yet, so it receives no completed-draft, completed-visual, approved or live credit. Canonical queue retains all 29 IDs and moves GA-B00018 only from IDEA to DRAFT. Counts remain 12 complete drafts/12 counted authored SVGs/12 staging candidates, one separate refresh, full-approved 0/live 0. Browser control was unavailable and no browser claim was made; existing PHP/Chromium release gates remain open.
+
+CC-AUD-001 Jaipur mapping and issue124 new-artwork handoff remain open with existing owners. Exact next Groot action is to complete GA-B00018 article, real React example and metadata, then obtain independent complete QA before integration. No owner takeover, main write, self-merge, deployment, public publishing or indexing occurred.
