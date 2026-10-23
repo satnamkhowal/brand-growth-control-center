@@ -111,3 +111,13 @@ GTA research PR68 is now merged to main as e0a5210d. The existing reviewed GA-B0
 Executed evidence:15 counted lab checks PASS under normal Python, -O and -OO; extracted JavaScript syntax PASS;6 article/SVG/metadata checks PASS; existing79 factory regression tests and11 static candidates remain PASS/publication_approved=false. Canonical queue preserves29 IDs and advances GA-B00017 only from IDEA to CONTENT_QA. Counts are now12 complete drafts/12 authored SVGs plus one separate refresh; full-approved0/live0.
 
 Chromium and PHP remain absent, so GA17/GA16 browser, accessibility-tree, real zoom, shared PHP/schema/HTTP and independent release gates remain open. Issue124 new-artwork bytes and CC-AUD-001 Jaipur repository mapping also remain open with their current owners. No source-main write, self-merge, deployment, public publishing, indexing or ownership takeover occurred.
+
+## Delta — 2026-10-23 05:28 IST: GA17 shared candidate preparation
+
+Central README and open PR1/2/4/5 heads remain unchanged; no full audit, crawl or other-owner file was repeated. GTA main advanced by one commit31df6d2, changing only includes/course-layout.php to add matching course-page BreadcrumbList output. The shared blog layout and GA17 candidate path were not changed by that main delta; course-page schema success is not article release evidence.
+
+[Factory checkpoint 5dfbbb5c](https://github.com/satnamkhowal/gta/commit/5dfbbb5cc5e79eec5a8c8d88f4f123a25805a1d9) advances the existing GA-B00017 draft to TECH_QA with a bounded shared-exporter profile and PHP review candidate. Independent static integration PASS:82 unittest methods, prior-candidate regressions and all12 candidate checks PASS/publication_approved=false. Ordered-list/H3 support is GA17-profile-gated; canonical, noindex, exact companions/image, shared H1/schema ownership, escaping and absence of publication dates/duplicate JSON-LD were checked. Deterministic regeneration matches the candidate.
+
+PHP lint remains correctly blocked with exit3 because the binary is absent. Chromium keyboard/focus/accessibility-tree/screen-reader/200%/400% zoom, rendered shared schema/H1, route/canonical/assets/download HTTP and final release review remain pending. Counts remain12 complete drafts/12 authored SVGs plus one separate refresh; staging candidates/static passes now12; full-approved0/live0. Canonical queue retains29 IDs.
+
+CC-AUD-001 Jaipur mapping and issue124 new-artwork handoff remain open with existing owners. No source-main write, self-merge, deployment, public publishing, indexing or ownership takeover occurred.
