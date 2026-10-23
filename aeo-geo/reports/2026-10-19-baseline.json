@@ -1,0 +1,512 @@
+{
+  "checked_at_utc": "2026-10-19T02:46:24.775428+00:00",
+  "scope": "8 homepages, root robots and root sitemap only; not a full crawl",
+  "limitations": [
+    "No Google indexing, AI citation, CWV or deployment verification.",
+    "Robots allowance is path-specific and does not prove WAF access.",
+    "JSON-LD syntax/type inventory does not validate schema truth or eligibility.",
+    "Training bots and search bots are reported separately; no policy changes."
+  ],
+  "sites": [
+    {
+      "brand": "Jaipur Engineers",
+      "base_url": "https://jaipurengineers.com",
+      "home": {
+        "url": "https://jaipurengineers.com/",
+        "final_url": "https://jaipurengineers.com/",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "x_robots_tag": [],
+        "truncated": false
+      },
+      "titles": [
+        "Software & IT Training Institute in Jaipur | Jaipur Engineers"
+      ],
+      "h1s": [
+        "Build Job-Ready Skills with Practical IT Training in Jaipur"
+      ],
+      "canonicals": [
+        "https://jaipurengineers.com/"
+      ],
+      "descriptions": [
+        "Explore Java, Python, Full Stack, Data Science and IT courses in Mansarovar, Jaipur. Learn through practical projects, internships and career guidance."
+      ],
+      "meta_robots": [
+        {
+          "agent": "robots",
+          "value": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+        }
+      ],
+      "jsonld_blocks": 4,
+      "jsonld_invalid_blocks": 0,
+      "schema_types": [
+        "City",
+        "EducationalOrganization",
+        "ItemList",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "OfferCatalog",
+        "PostalAddress",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "robots": {
+        "url": "https://jaipurengineers.com/robots.txt",
+        "final_url": "https://jaipurengineers.com/robots.txt",
+        "status": 200,
+        "content_type": "text/plain",
+        "x_robots_tag": [],
+        "truncated": false,
+        "homepage_crawl_by_agent": {
+          "Googlebot": true,
+          "Bingbot": true,
+          "OAI-SearchBot": true,
+          "GPTBot": true,
+          "PerplexityBot": true
+        }
+      },
+      "sitemap": {
+        "url": "https://jaipurengineers.com/sitemap.xml",
+        "final_url": "https://jaipurengineers.com/sitemap.xml",
+        "status": 200,
+        "content_type": "application/xml",
+        "x_robots_tag": [],
+        "truncated": false,
+        "xml_root": "urlset",
+        "valid_sitemap_root": true
+      },
+      "findings": []
+    },
+    {
+      "brand": "Mango Engineers",
+      "base_url": "https://mangoengineers.com",
+      "home": {
+        "url": "https://mangoengineers.com/",
+        "final_url": "https://mangoengineers.com/",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "x_robots_tag": [],
+        "truncated": false
+      },
+      "titles": [
+        "Mango Engineers | Programming & Technology Training in Jaipur"
+      ],
+      "h1s": [
+        "Build Real Technology Skills in Jaipur"
+      ],
+      "canonicals": [
+        "https://mangoengineers.com/"
+      ],
+      "descriptions": [
+        "Mango Engineers provides practical programming, software development and technology training with learning centres in Jaipur."
+      ],
+      "meta_robots": [
+        {
+          "agent": "robots",
+          "value": "index,follow"
+        }
+      ],
+      "jsonld_blocks": 1,
+      "jsonld_invalid_blocks": 0,
+      "schema_types": [
+        "BreadcrumbList",
+        "EducationalOrganization",
+        "ListItem",
+        "Place",
+        "PostalAddress",
+        "WebPage",
+        "WebSite"
+      ],
+      "robots": {
+        "url": "https://mangoengineers.com/robots.txt",
+        "final_url": "https://mangoengineers.com/robots.txt",
+        "status": 200,
+        "content_type": "text/plain",
+        "x_robots_tag": [],
+        "truncated": false,
+        "homepage_crawl_by_agent": {
+          "Googlebot": true,
+          "Bingbot": true,
+          "OAI-SearchBot": true,
+          "GPTBot": true,
+          "PerplexityBot": true
+        }
+      },
+      "sitemap": {
+        "url": "https://mangoengineers.com/sitemap.xml",
+        "final_url": "https://mangoengineers.com/sitemap.xml",
+        "status": 200,
+        "content_type": "application/xml; charset=UTF-8",
+        "x_robots_tag": [],
+        "truncated": false,
+        "xml_root": "urlset",
+        "valid_sitemap_root": true
+      },
+      "findings": []
+    },
+    {
+      "brand": "Forsk Coding School",
+      "base_url": "https://forskcodingschool.com",
+      "home": {
+        "url": "https://forskcodingschool.com/",
+        "final_url": "https://forskcodingschool.com/",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "x_robots_tag": [],
+        "truncated": false
+      },
+      "titles": [
+        "Forsk Coding School Jaipur | Coding & IT Training"
+      ],
+      "h1s": [
+        "Coding & IT Training in Jaipur.Build practical skills."
+      ],
+      "canonicals": [
+        "https://forskcodingschool.com/"
+      ],
+      "descriptions": [
+        "Learn Python, Java, Full Stack, Data Analytics, AI and other practical IT skills in Jaipur with projects, mentor guidance, internships and career-focused training."
+      ],
+      "meta_robots": [
+        {
+          "agent": "robots",
+          "value": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        },
+        {
+          "agent": "googlebot",
+          "value": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        }
+      ],
+      "jsonld_blocks": 2,
+      "jsonld_invalid_blocks": 0,
+      "schema_types": [
+        "Answer",
+        "City",
+        "EducationalOrganization",
+        "FAQPage",
+        "ItemList",
+        "ListItem",
+        "PostalAddress",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "robots": {
+        "url": "https://forskcodingschool.com/robots.txt",
+        "final_url": "https://forskcodingschool.com/robots.txt",
+        "status": 200,
+        "content_type": "text/plain",
+        "x_robots_tag": [],
+        "truncated": false,
+        "homepage_crawl_by_agent": {
+          "Googlebot": true,
+          "Bingbot": true,
+          "OAI-SearchBot": true,
+          "GPTBot": true,
+          "PerplexityBot": true
+        }
+      },
+      "sitemap": {
+        "url": "https://forskcodingschool.com/sitemap.xml",
+        "final_url": "https://forskcodingschool.com/sitemap.xml",
+        "status": 200,
+        "content_type": "application/xml",
+        "x_robots_tag": [],
+        "truncated": false,
+        "xml_root": "sitemapindex",
+        "valid_sitemap_root": true
+      },
+      "findings": []
+    },
+    {
+      "brand": "Groot Academy",
+      "base_url": "https://grootacademy.com",
+      "home": {
+        "url": "https://grootacademy.com/",
+        "final_url": "https://grootacademy.com/",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "x_robots_tag": [],
+        "truncated": false
+      },
+      "titles": [
+        "Full Stack Development & IT Training in Jaipur | Groot Academy"
+      ],
+      "h1s": [
+        "Build skills for the work you want to do."
+      ],
+      "canonicals": [
+        "https://grootacademy.com/"
+      ],
+      "descriptions": [
+        "Explore career-focused Full Stack Development, MERN, Python, Data Analytics, AI and design learning paths at Groot Academy Jaipur. Compare practical courses and request current batch guidance."
+      ],
+      "meta_robots": [],
+      "jsonld_blocks": 0,
+      "jsonld_invalid_blocks": 0,
+      "schema_types": [],
+      "robots": {
+        "url": "https://grootacademy.com/robots.txt",
+        "final_url": "https://grootacademy.com/robots.txt",
+        "status": 200,
+        "content_type": "text/plain",
+        "x_robots_tag": [],
+        "truncated": false,
+        "homepage_crawl_by_agent": {
+          "Googlebot": true,
+          "Bingbot": true,
+          "OAI-SearchBot": true,
+          "GPTBot": true,
+          "PerplexityBot": true
+        }
+      },
+      "sitemap": {
+        "url": "https://grootacademy.com/sitemap.xml",
+        "final_url": "https://grootacademy.com/sitemap.xml",
+        "status": 200,
+        "content_type": "application/xml",
+        "x_robots_tag": [],
+        "truncated": false,
+        "xml_root": "sitemapindex",
+        "valid_sitemap_root": true
+      },
+      "findings": [
+        "REVIEW: no JSON-LD observed; assess appropriate schema against visible content"
+      ]
+    },
+    {
+      "brand": "Clever Ape Academy",
+      "base_url": "https://cleverapeacademy.com",
+      "home": {
+        "url": "https://cleverapeacademy.com/",
+        "final_url": "https://cleverapeacademy.com/",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "x_robots_tag": [],
+        "truncated": false
+      },
+      "titles": [
+        "Digital Marketing Course in Jaipur | Clever Ape Academy"
+      ],
+      "h1s": [
+        "Build practical digital marketing skills for modern campaigns."
+      ],
+      "canonicals": [
+        "https://cleverapeacademy.com/"
+      ],
+      "descriptions": [
+        "Learn SEO, Google Ads, social media, content, email and performance marketing through practical campaign-focused training at Clever Ape Academy Jaipur."
+      ],
+      "meta_robots": [
+        {
+          "agent": "robots",
+          "value": "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        }
+      ],
+      "jsonld_blocks": 1,
+      "jsonld_invalid_blocks": 0,
+      "schema_types": [
+        "EducationalOrganization",
+        "PostalAddress",
+        "WebSite"
+      ],
+      "robots": {
+        "url": "https://cleverapeacademy.com/robots.txt",
+        "final_url": "https://cleverapeacademy.com/robots.txt",
+        "status": 200,
+        "content_type": "text/plain",
+        "x_robots_tag": [],
+        "truncated": false,
+        "homepage_crawl_by_agent": {
+          "Googlebot": true,
+          "Bingbot": true,
+          "OAI-SearchBot": true,
+          "GPTBot": true,
+          "PerplexityBot": true
+        }
+      },
+      "sitemap": {
+        "url": "https://cleverapeacademy.com/sitemap.xml",
+        "final_url": "https://cleverapeacademy.com/sitemap.xml",
+        "status": 200,
+        "content_type": "application/xml",
+        "x_robots_tag": [],
+        "truncated": false,
+        "xml_root": "urlset",
+        "valid_sitemap_root": true
+      },
+      "findings": []
+    },
+    {
+      "brand": "CadMate India",
+      "base_url": "https://cadmateindia.com",
+      "home": {
+        "url": "https://cadmateindia.com/",
+        "final_url": "https://cadmateindia.com/",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "x_robots_tag": [],
+        "truncated": false
+      },
+      "titles": [
+        "CadMate India | CAD Training Institute in Jaipur | AutoCAD, Revit, SolidWorks & BIM"
+      ],
+      "h1s": [
+        "CAD Training Institute in Jaipur for CAD, BIM & Engineering Design"
+      ],
+      "canonicals": [
+        "https://cadmateindia.com/"
+      ],
+      "descriptions": [
+        "CadMate India offers practical CAD and engineering design training in Jaipur including AutoCAD, Revit, SolidWorks, BIM, Civil 3D, STAAD.Pro and ETABS, plus design and IT courses."
+      ],
+      "meta_robots": [],
+      "jsonld_blocks": 2,
+      "jsonld_invalid_blocks": 0,
+      "schema_types": [
+        "EducationalOrganization",
+        "PostalAddress"
+      ],
+      "robots": {
+        "url": "https://cadmateindia.com/robots.txt",
+        "final_url": "https://cadmateindia.com/robots.txt",
+        "status": 200,
+        "content_type": "text/plain",
+        "x_robots_tag": [],
+        "truncated": false,
+        "homepage_crawl_by_agent": {
+          "Googlebot": true,
+          "Bingbot": true,
+          "OAI-SearchBot": true,
+          "GPTBot": true,
+          "PerplexityBot": true
+        }
+      },
+      "sitemap": {
+        "url": "https://cadmateindia.com/sitemap.xml",
+        "final_url": "https://cadmateindia.com/sitemap.xml",
+        "status": 200,
+        "content_type": "application/xml; charset=UTF-8",
+        "x_robots_tag": [],
+        "truncated": false,
+        "xml_root": "urlset",
+        "valid_sitemap_root": true
+      },
+      "findings": []
+    },
+    {
+      "brand": "Groot Software",
+      "base_url": "https://grootsoftware.com",
+      "home": {
+        "url": "https://grootsoftware.com/",
+        "final_url": "https://grootsoftware.com/",
+        "status": 200,
+        "content_type": "text/html",
+        "x_robots_tag": [],
+        "truncated": false
+      },
+      "titles": [
+        "Groot Software | Software Development, Web & Mobile App Company"
+      ],
+      "h1s": [
+        "Grow Your Business with Smart IT Solutions"
+      ],
+      "canonicals": [
+        "https://grootsoftware.com/"
+      ],
+      "descriptions": [
+        "Groot Software builds custom software, web applications, mobile apps, cloud solutions and AI products for businesses from Jaipur, India."
+      ],
+      "meta_robots": [
+        {
+          "agent": "robots",
+          "value": "max-image-preview:large"
+        }
+      ],
+      "jsonld_blocks": 1,
+      "jsonld_invalid_blocks": 0,
+      "schema_types": [
+        "PostalAddress",
+        "ProfessionalService"
+      ],
+      "robots": {
+        "url": "https://grootsoftware.com/robots.txt",
+        "final_url": "https://grootsoftware.com/robots.txt",
+        "status": 200,
+        "content_type": "text/plain",
+        "x_robots_tag": [],
+        "truncated": false,
+        "homepage_crawl_by_agent": {
+          "Googlebot": true,
+          "Bingbot": true,
+          "OAI-SearchBot": true,
+          "GPTBot": true,
+          "PerplexityBot": true
+        }
+      },
+      "sitemap": {
+        "url": "https://grootsoftware.com/sitemap.xml",
+        "final_url": "https://grootsoftware.com/sitemap.xml",
+        "status": 200,
+        "content_type": "application/xml",
+        "x_robots_tag": [],
+        "truncated": false,
+        "xml_root": "urlset",
+        "valid_sitemap_root": true
+      },
+      "findings": []
+    },
+    {
+      "brand": "Forsk Technologies",
+      "base_url": "https://forsktechnologies.com",
+      "home": {
+        "url": "https://forsktechnologies.com/",
+        "final_url": "https://forsktechnologies.com/",
+        "status": 200,
+        "content_type": "text/html",
+        "x_robots_tag": [],
+        "truncated": false
+      },
+      "titles": [
+        "Business Consulting – Techco"
+      ],
+      "h1s": [
+        "Innovative Growth Strategies"
+      ],
+      "canonicals": [],
+      "descriptions": [],
+      "meta_robots": [
+        {
+          "agent": "robots",
+          "value": "max-image-preview:large"
+        }
+      ],
+      "jsonld_blocks": 0,
+      "jsonld_invalid_blocks": 0,
+      "schema_types": [],
+      "robots": {
+        "url": "https://forsktechnologies.com/robots.txt",
+        "status": 404,
+        "error": "HTTP Error 404: Not Found",
+        "homepage_crawl_by_agent": {}
+      },
+      "sitemap": {
+        "url": "https://forsktechnologies.com/sitemap.xml",
+        "status": 404,
+        "error": "HTTP Error 404: Not Found",
+        "valid_sitemap_root": false
+      },
+      "findings": [
+        "REVIEW: expected one non-empty canonical",
+        "REVIEW: no meta description observed",
+        "P0: template branding in title; verify business content before optimization",
+        "REVIEW: no JSON-LD observed; assess appropriate schema against visible content",
+        "REVIEW: robots policy not parsed (missing/error/HTML/truncated); not proof of blocking",
+        "P1: /sitemap.xml not confirmed as successful sitemap XML; inspect alternative discovery"
+      ]
+    }
+  ]
+}
