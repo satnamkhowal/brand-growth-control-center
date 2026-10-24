@@ -167,3 +167,16 @@ Central README, main and PR1/2/4/5 heads are unchanged; PR3 advances only with t
 This remains a partial package: the article, metadata, PHP/schema integration and release review are absent. Therefore counts remain 13 complete text drafts, 13 counted authored SVGs, 13 staging/static candidates, one separate refresh, full-approved0/live0; queue retains all29 IDs. GA-B00020 moves only IDEA to DRAFT and receives no completed-article or publication credit.
 
 Next Groot action is to write the original article and metadata around the verified package, then obtain fresh independent complete-article QA before any integration candidate. CC-AUD-001 Jaipur mapping and issue124 remain with their existing owners. No source-main write, self-merge, deployment, public publishing, indexing or ownership takeover occurred.
+
+
+## Delta — 2026-10-24 06:27 IST: GA20 complete content passes after consistency repair
+
+Central main and PR1/2/4/5 heads remain unchanged; PR3 advances only with this coordination delta. The existing AEO/GEO baseline, Jaipur repository-role reconciliation and other owners' files were not recreated or altered. GTA main remains b31b25c, with no GA-B00020 overlap.
+
+[Factory checkpoint 256b7656](https://github.com/satnamkhowal/gta/commit/256b76569399218f5f08120b6079ca1eb0659cc0) completes GA-B00020's 1,468-word original project article, executable Python CSV validator, nine-test suite, two fictional fixtures, metadata and authored SVG. Independent complete review initially failed three packaging inconsistencies: the article's shown invalid fixture differed from the download, the required test download was omitted, and runtime evidence named 3.12.12 instead of executed Python 3.12.14. All three were repaired; the verifier now asserts exact fixture content and the complete companion manifest.
+
+Final evidence: 20 draft checks PASS under normal Python, -O and -OO; nine unittest methods and py_compile PASS; valid/invalid fixtures return0/1 and fatal paths return2; SVG XML/render and distinctness from GA-B00010 PASS. One isolated post-review valid-case subprocess timeout occurred and was disclosed; immediate isolated and full reruns passed, so no unsupported uninterrupted-runtime claim is made.
+
+GA-B00020 advances DRAFT to CONTENT_QA. Counts become14 complete drafts/14 counted authored SVGs, while staging candidates remain13 plus one separate refresh; full-approved0/live0. Queue preserves all29 IDs. No PHP candidate, shared schema/layout check, rendered route, canonical/assets/four-download HTTP evidence or release approval exists yet.
+
+Next Groot action is a bounded shared PHP review candidate against freshly fetched dependencies followed by independent static integration QA; real PHP/schema/HTTP and final release gates remain mandatory. Existing Jaipur mapping and issue124 ownership remain unchanged. No main write, self-merge, deployment, publication, indexing or owner takeover occurred.
