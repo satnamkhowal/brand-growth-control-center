@@ -63,3 +63,26 @@ No runtime patch or duplicate sitemap entry warranted. No sitemap submitted/remo
 Next: when authenticated GSC access returns, review retirement/removal of obsolete sitemap_index.xml submission; current robots discovery already uses the new index. Continue separate mentor sitemap/profile inventory and bounded URL status/canonical checks. FCS-GSC-07 remains OPEN for those gates; higher-priority query/5xx/redirect-example work still awaits GSC evidence. No source-code task or indexing recovery is claimed complete.
 
 Source checkpoint commit: b511cd2597f440e0d239bddbb7e5af8acf47b57f.
+
+## 25 October 2026 — FCS-GSC-05 recovery deployment and indexing-gate reconciliation
+
+Reviewed latest main b511cd2597f440e0d239bddbb7e5af8acf47b57f and required audits/handoff. Open PR54, PR57 and PR58 scopes remain untouched. Reused docs/ai-ops/gsc-report-recovery-20261016.md (blob 2122205ba2164f8147531522495acc9e0a0b8961) and existing recovery decisions, rather than recreating articles or redirects.
+
+Bounded live check: all nine URLs listed in recovered-pages-sitemap.xml were fetched with GET and parsed with Python HTMLParser. Each returned HTTP 200 at its original URL, exactly one H1 and one matching self canonical, meta robots index/follow and no X-Robots-Tag exclusion. This advances the earlier sitemap XML-only check to page-level response/canonical/directive verification:
+- https://forskcodingschool.com/final-year-project-ideas/
+- https://forskcodingschool.com/5-mini-python-data-science-ai-projects-you-can-build-in-30-minutes/
+- https://forskcodingschool.com/it-career-roadmap-for-students/
+- https://forskcodingschool.com/10-java-projects-to-master-java-programming-beginner-to-advanced-guide/
+- https://forskcodingschool.com/ai-project-ideas-beginner-advanced/
+- https://forskcodingschool.com/data-science-roadmap-step-by-step-guide-to-become-a-data-scientist-in-2026/
+- https://forskcodingschool.com/dsa-in-python-complete-beginner-guide-with-examples/
+- https://forskcodingschool.com/why-classroom-learning-not-enough-software-jobs/
+- https://forskcodingschool.com/it-courses-non-it-students-jaipur/
+
+Control sample from the existing decisions registry: /courses/core-java-j2se-course-in-jaipur/lessons/what-is-java/ is CREATE with indexing_approved=false. Its live response is HTTP 200, matching self canonical, HTML robots noindex/follow AND X-Robots-Tag noindex/follow. This sample confirms the intended editorial gate remains deployed; it does not establish all 193 worksheets' behavior.
+
+No restoration, new URL, redirect, code patch or blanket noindex removal was needed. The nine substantive guide URLs are available and permit indexing; that is not proof Google indexed them, accepted content quality, or restored rankings. PR57's proposed content remains draft, not included in this deployment claim. No responsive/editorial review was performed by these HTTP checks. No GSC action, deployment or paused-workflow change occurred.
+
+Next: retain these nine URLs as existing recovered canonicals in subsequent 404 deduplication; inspect other legacy paths against the decisions registry before restoring. Review worksheets individually before indexing approval. GSC loss-query and exact 5xx/redirect-error exports remain unavailable pending authenticated access; FCS-GSC-05 stays OPEN for full reconciliation. Completed checks should not be repeated absent changes or a regression signal.
+
+Source checkpoint commit: 94d3c1a89dbb527cf535d54c046a3241e60de21e.
