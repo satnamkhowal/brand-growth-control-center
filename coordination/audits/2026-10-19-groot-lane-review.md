@@ -180,3 +180,16 @@ Final evidence: 20 draft checks PASS under normal Python, -O and -OO; nine unitt
 GA-B00020 advances DRAFT to CONTENT_QA. Counts become14 complete drafts/14 counted authored SVGs, while staging candidates remain13 plus one separate refresh; full-approved0/live0. Queue preserves all29 IDs. No PHP candidate, shared schema/layout check, rendered route, canonical/assets/four-download HTTP evidence or release approval exists yet.
 
 Next Groot action is a bounded shared PHP review candidate against freshly fetched dependencies followed by independent static integration QA; real PHP/schema/HTTP and final release gates remain mandatory. Existing Jaipur mapping and issue124 ownership remain unchanged. No main write, self-merge, deployment, publication, indexing or owner takeover occurred.
+
+
+## Delta — 2026-10-24 16:29 IST: GA20 static integration passes, runtime gates held
+
+Central main and draft PR1/2/4/5 heads remain unchanged; PR3 advances only with this Groot evidence. The existing AEO/GEO baseline, Jaipur repository-role reconciliation and other owners' implementation files were not recreated or altered. GTA main remains b31b25c.
+
+[Factory checkpoint cb002c9d](https://github.com/satnamkhowal/gta/commit/cb002c9d9143828f014ff624542d139a167fb2e2) adds GA-B00020's bounded shared-exporter profile, deterministic PHP review candidate, integration handoff and independent QA report. Current main's blogs/_shared/blog-registry.php and blog-layout.php were inspected before preparation.
+
+Independent evidence:84 shared exporter/checker tests PASS; nine GA20 CLI tests PASS; 20 draft checks PASS under normal Python, -O and -OO; all13 prior B0001 candidates and the new GA20 candidate static PASS with publication_approved=false. Canonical/noindex, shared H1/schema ownership, no dates/duplicate JSON-LD, escaping/unsafe-link rejection, authored SVG and all four absolute download paths pass. Regeneration matches exactly.
+
+PHP lint correctly stops with exit3 because PHP is absent. No rendered shared BlogPosting/BreadcrumbList/H1, registry entry, route, canonical, image, internal-link or four-download HTTP evidence exists. GA-B00020 advances CONTENT_QA to TECH_QA only. Counts remain14 complete drafts/14 counted SVGs and one separate refresh; staging/static candidates rise to14; full-approved0/live0. Queue preserves all29 IDs.
+
+Next Groot action is to refetch exact shared dependencies at release, run real PHP/rendered-schema/route/assets/download HTTP checks and obtain independent release review. Jaipur mapping and issue124 ownership remain unchanged. No main write, self-merge, deployment, publication or indexing occurred.
