@@ -6,7 +6,7 @@ Central repository: satnamkhowal/brand-growth-control-center
 
 ## Verified baseline
 
-Use the performance and indexing figures in [GSC-AUDIT-2026-10-24.md](GSC-AUDIT-2026-10-24.md) as dated 24 October evidence. They are not a live refresh. The 28-day comparison recorded 173 versus 236 clicks and 21,473 versus 24,910 impressions. Two highest-loss URLs remained indexed with matching user and Google-selected canonicals during that audit. A current Search Console sign-in is required to refresh exports and submit validation.
+Use the performance and indexing figures in [GSC-AUDIT-2026-10-24.md](GSC-AUDIT-2026-10-24.md) as dated 24 October evidence. They are not a live refresh. The 28-day comparison recorded 173 versus 236 clicks and 21,473 versus 24,910 impressions. Two highest-loss URLs remained indexed with matching user and Google-selected canonicals during that audit. The connected Google account currently lacks access to the property; an authorized account or read-only property access is needed to refresh exports and submit validation.
 
 ## Implementation state
 
@@ -14,7 +14,7 @@ Use the performance and indexing figures in [GSC-AUDIT-2026-10-24.md](GSC-AUDIT-
 - Change scope: two AMP boilerplate lines in the Android Studio Quail 4 and AWS DVA-C03 Web Stories.
 - Existing validator evidence: `amphtml-validator@1.0.38` passed both complete patched source files. Not rerun in this session; the GitHub status endpoint returned no statuses.
 - Live state: the Android story rendered in a browser. Live HTML/source parity was not checked, the AWS page was not checked, production deployment is unverified, and GSC Validate Fix is not submitted.
-- Current Search Console data: blocked by the sign-in page. No fresh GSC metrics are claimed.
+- Current Search Console data: the connected Google account lacks property access. No fresh GSC metrics are claimed.
 - Hourly `Forsk GSC Recovery` automation was created on 24 October (Asia/Kolkata). Runs are bounded by platform access and credits; no uninterrupted background work is promised.
 
 ## Next actions
