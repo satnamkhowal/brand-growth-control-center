@@ -29,3 +29,20 @@ Ownership check: fresh main and open PR review found PR57 (draft) owning final-y
 Next action: with verified authenticated GSC access, validate the reported repaired AMP URLs and record Google validation state; otherwise proceed to bounded FCS-GSC-02 current-error reproduction while respecting PR57 and PR54 ownership. No new code changes required for this verification.
 
 Implementation checkpoint commit: da2fc2f0599c185309cf681aaa20e31bb1798297.
+
+## 24 October 2026 23:47 IST — FCS-GSC-02 Core Java live reproduction
+
+Bounded task: reproduce the specifically documented dedicated Core Java host 404 before attempting any repair. Latest reviewed main checkpoint was da2fc2f0599c185309cf681aaa20e31bb1798297. Open drafts remain PR57 (final-year guide/shared renderer) and PR54 (editorial pilots); neither scope was edited. Read the audit, SESSION_HANDOFF, MASTER_TASK_BOARD, existing recovery notes and current root rewrite rules. No competing Core Java repair was found.
+
+Verified public GET evidence:
+- /core-java-course-jaipur: HTTP 200, no redirect, one H1 "Core Java Course in Jaipur", self canonical https://forskcodingschool.com/core-java-course-jaipur and robots index/follow.
+- /core-java-course-jaipur.php: HTTP 301 to the extensionless canonical, followed by HTTP 200; exactly one redirect, no observed loop, no X-Robots-Tag exclusion in captured response headers.
+- Referenced assets/images/core-java-course-jaipur-forsk-coding-school.webp: HTTP 200, image/webp, 234864 bytes, valid RIFF/WEBP signature.
+- Canonical GET HTML SHA-256: da47c64811c545f82f634c8bbabf8c317af2c34624c6b5d4bb6ae6be6afdd26d.
+- Current source core-java-course-jaipur.php blob: 47a85ebaaac5b173d0a4b9e24d66ef1444b3bd73; root .htaccess blob: 4690f3521ab432b75ce2a22b40af97ac105a414b.
+
+Conclusion: the earlier dedicated Core Java host-404 blocker is no longer reproducible and is superseded by the above live evidence. No runtime patch, redirect, link reversal, workflow restoration or deployment was needed or performed. Existing Java Full Stack card's verified Java Programming destination remains untouched. This confirms current availability, not when or which deployment restored it, editorial claim accuracy, responsive quality or Google indexing.
+
+FCS-GSC-02 remains OPEN: exact examples for the historical 19 5xx / 10 redirect errors still require GSC export and current reproduction; do not mark all technical errors resolved from this one page. Next action: obtain those specific example URLs through authenticated GSC access, or continue existing recovery-map triage with a bounded sample. PR57/54 QA and broader AMP/GSC validation remain separate work.
+
+Source evidence checkpoint: 6063e7bb8b47bea63d4fa2a865b7551e1b0380ab.
