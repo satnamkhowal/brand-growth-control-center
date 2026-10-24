@@ -16,7 +16,7 @@ Use the performance and indexing figures in [GSC-AUDIT-2026-10-24.md](GSC-AUDIT-
 - Current source main: `f0e8076aa2647e02de5cf682846518aac0c9dbd9` (documentation follow-up; parent is the #56 merge).
 - Existing validator evidence from PR #56: `amphtml-validator@1.0.38` failed the previous source document and passed the patched source document. No validator was run during this checkpoint.
 - Public deployment: the exact live URL below now renders the story. Its live `style[amp-boilerplate]` contains the full corrected animation block, including the `-o` and standard keyframes. This supersedes the earlier 21:48 note that publication was pending.
-- Live full-document AMP validation: not run in this checkpoint. Do not claim the live document passes AMP validation based only on the rendered style block.
+- Live full-document AMP validation: no valid result. The official validator UI raised a JavaScript TypeError (`setURLAndValidate is not a function`) before loading the URL; the displayed FAIL was for an empty document, not this story. No local `amphtml-validator` executable is installed in the current workspace. Do not treat this as a target-page failure or pass.
 - Search indexing: not checked in GSC. Do not claim reindexing or issue resolution in Google.
 
 Verified public URL: https://forskcodingschool.com/web-stories/claude-fable-5-1-coding-students-september-2026/
@@ -35,7 +35,7 @@ A fresh Search Console navigation in this browser redirected to the public Searc
 
 ## Next actions
 
-1. Run the official AMP validator against the exact live Claude URL and record the result separately from source validation.
+1. Run `amphtml-validator` against the exact live Claude HTML from a working local/source environment; the official web validator UI is currently failing to initialize. Record the result separately from source validation.
 2. When an authenticated account with property access is available, inspect the AMP issue and URL status; submit GSC Validate Fix only after the live AMP validation passes and deployment is verified.
 3. Resume P0 query/date diagnosis and reproduce reported 5xx, redirect, 403 and soft-404 examples only after acquiring current examples; verify each URL against the public host before route changes.
 4. Continue the final-year guide task only after reconciling current source and existing recovery work. Preserve all existing noindex gates.
