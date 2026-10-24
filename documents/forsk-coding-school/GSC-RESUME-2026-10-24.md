@@ -46,3 +46,20 @@ Conclusion: the earlier dedicated Core Java host-404 blocker is no longer reprod
 FCS-GSC-02 remains OPEN: exact examples for the historical 19 5xx / 10 redirect errors still require GSC export and current reproduction; do not mark all technical errors resolved from this one page. Next action: obtain those specific example URLs through authenticated GSC access, or continue existing recovery-map triage with a bounded sample. PR57/54 QA and broader AMP/GSC validation remain separate work.
 
 Source evidence checkpoint: 6063e7bb8b47bea63d4fa2a865b7551e1b0380ab.
+
+## 25 October 2026 — FCS-GSC-07 bounded sitemap discovery audit
+
+Reviewed main 6063e7bb8b47bea63d4fa2a865b7551e1b0380ab, required source/central audits and handoff. Open PR54 editorial pilots, PR57 final-year/shared renderer and PR58 brochure documentation retain their ownership; no overlapping edits. Browser connection attempt returned Unknown tool(browser.js), so authenticated GSC state/export/Validate Fix could not be checked. GitHub and public HTTP reads remained available.
+
+Live GET/XML checks:
+- /sitemap_index.xml: HTTP 404. This corroborates the old submitted path's fetch problem, not failure of the current sitemap.
+- /robots.txt: HTTP 200 and Sitemap: https://forskcodingschool.com/sitemap.xml; source agrees (blob a8e43eaaa916d027137ba59d8a5002106cd8a323).
+- /sitemap.xml: HTTP 200 application/xml, valid sitemapindex, 8 distinct child locations; source agrees (blob 3612243865731ea35bdd85ad6ac671f576d675d4).
+- All eight child sitemaps returned HTTP 200 and parsed successfully with Python ElementTree: sitemap-pages.xml 138 loc entries; blog/blogs-sitemap.xml 2095; images-sitemap.xml 31; branches/branches-sitemap.xml 2; news-sitemap.xml 38; local-student-resources-sitemap.xml 5; colleges-in-jaipur/colleges-sitemap.xml 31; recovered-pages-sitemap.xml 9. Counts are parsed loc entries, not unique sitewide pages or indexed totals. No duplicate loc text within each sampled child.
+- Core Java canonical occurs in sitemap-pages.xml. Final-year guide canonical https://forskcodingschool.com/final-year-project-ideas/ occurs in recovered-pages-sitemap.xml; its absence from sitemap-pages.xml is NOT a missing-sitemap fault.
+
+No runtime patch or duplicate sitemap entry warranted. No sitemap submitted/removed in GSC, no workflow enabled, no deployment initiated. XML parse success does not validate all child URLs' status/canonical/indexability, image schema semantics, profile identities or Google processing.
+
+Next: when authenticated GSC access returns, review retirement/removal of obsolete sitemap_index.xml submission; current robots discovery already uses the new index. Continue separate mentor sitemap/profile inventory and bounded URL status/canonical checks. FCS-GSC-07 remains OPEN for those gates; higher-priority query/5xx/redirect-example work still awaits GSC evidence. No source-code task or indexing recovery is claimed complete.
+
+Source checkpoint commit: b511cd2597f440e0d239bddbb7e5af8acf47b57f.
