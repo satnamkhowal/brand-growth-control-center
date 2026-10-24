@@ -193,3 +193,16 @@ Independent evidence:84 shared exporter/checker tests PASS; nine GA20 CLI tests 
 PHP lint correctly stops with exit3 because PHP is absent. No rendered shared BlogPosting/BreadcrumbList/H1, registry entry, route, canonical, image, internal-link or four-download HTTP evidence exists. GA-B00020 advances CONTENT_QA to TECH_QA only. Counts remain14 complete drafts/14 counted SVGs and one separate refresh; staging/static candidates rise to14; full-approved0/live0. Queue preserves all29 IDs.
 
 Next Groot action is to refetch exact shared dependencies at release, run real PHP/rendered-schema/route/assets/download HTTP checks and obtain independent release review. Jaipur mapping and issue124 ownership remain unchanged. No main write, self-merge, deployment, publication or indexing occurred.
+
+
+## Delta — 2026-10-24 21:28 IST: GA21 repaired partial SQLite package
+
+Central main and draft PR1/2/4/5 heads remain unchanged; PR3 advances only with this Groot delta. No repeated AEO/GEO audit, Jaipur mapping assumption or other-owner implementation occurred. GTA main remains b31b25c.
+
+[Factory checkpoint ae6de44e](https://github.com/satnamkhowal/gta/commit/ae6de44e3deef6ccea6577c5ab4e80c5943a2c13) starts GA-B00021 as a bounded partial: official SQLite/Python source brief, executable fictional checkout/return model, ten-test suite and authored state/constraint SVG. The intent is distinct from GA-B00009's JOIN filter lesson.
+
+Independent review first found that arbitrary/NULL timestamps were accepted, nested use could roll back a caller-owned transaction, and the SVG lacked directional arrows with a label collision. Repairs add a strict round-tripped UTC application contract before transaction start, reject already active caller transactions without altering them, target the selected open loan ID, add regressions and repair the rendered arrows. Independent re-review PASS:10 tests and py_compile PASS on Python3.12.14/SQLite3.53.1; XML/render PASS; two-connection duplicate checkout and writer-lock cleanup verified.
+
+Timestamp validation is application-level and direct SQL can bypass it; no production-concurrency claim is made. GA-B00021 moves IDEA to DRAFT only. Article, metadata and integration are absent, so counts remain14 complete drafts/14 counted SVGs/14 staging candidates, one separate refresh, full-approved0/live0; queue retains29 IDs.
+
+PHP, Chromium and container runtimes remain absent, so existing rendered/browser release gates were not falsely advanced. Next action is GA-B00021 article and metadata plus fresh independent complete-content QA. Jaipur mapping and issue124 ownership remain unchanged. No main write, self-merge, deployment, publication or indexing occurred.
