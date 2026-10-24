@@ -6,22 +6,38 @@ Central repository: satnamkhowal/brand-growth-control-center
 
 ## Verified baseline
 
-Use the performance and indexing figures in [GSC-AUDIT-2026-10-24.md](GSC-AUDIT-2026-10-24.md) as dated 24 October evidence. They are not a live refresh. The 28-day comparison recorded 173 versus 236 clicks and 21,473 versus 24,910 impressions. Two highest-loss URLs remained indexed with matching user and Google-selected canonicals during that audit. The connected Google account currently lacks access to the property; an authorized account or read-only property access is needed to refresh exports and submit validation.
+Use the performance and indexing figures in [GSC-AUDIT-2026-10-24.md](GSC-AUDIT-2026-10-24.md) as dated 24 October evidence, not a live refresh. The 28-day comparison recorded 173 versus 236 clicks and 21,473 versus 24,910 impressions. The two highest-loss URLs were indexed with matching user and Google-selected canonicals in that audit.
 
-## Implementation state
+## Latest execution — 24 October 2026, 22:00 IST
 
-- FCS-GSC-03 source repair: PR [#55](https://github.com/satnamkhowal/forsk-coding-school/pull/55) merged to source `main` as `f56881389148382b2fdb2e08dc3581c3116a8f95`; current `main` at checkpoint read: `2362ed63f6f4dc3b379bd246c0c241782191c76f`.
-- Change scope: two AMP boilerplate lines in the Android Studio Quail 4 and AWS DVA-C03 Web Stories.
-- Existing validator evidence: `amphtml-validator@1.0.38` passed both complete patched source files. Not rerun in this session; the GitHub status endpoint returned no statuses.
-- Live state: the Android story rendered in a browser. Live HTML/source parity was not checked, the AWS page was not checked, production deployment is unverified, and GSC Validate Fix is not submitted.
-- Current Search Console data: the connected Google account lacks property access. No fresh GSC metrics are claimed.
-- Hourly `Forsk GSC Recovery` automation was created on 24 October (Asia/Kolkata). Runs are bounded by platform access and credits; no uninterrupted background work is promised.
+### AMP source, public deployment and indexing states
+
+- Source fix: Forsk PR [#56](https://github.com/satnamkhowal/forsk-coding-school/pull/56) corrected the Claude Fable 5.1 Web Story AMP boilerplate and merged to main as `c5634c68a4d0eac01cff565a60c8294925904416`.
+- Current source main: `f0e8076aa2647e02de5cf682846518aac0c9dbd9` (documentation follow-up; parent is the #56 merge).
+- Existing validator evidence from PR #56: `amphtml-validator@1.0.38` failed the previous source document and passed the patched source document. No validator was run during this checkpoint.
+- Public deployment: the exact live URL below now renders the story. Its live `style[amp-boilerplate]` contains the full corrected animation block, including the `-o` and standard keyframes. This supersedes the earlier 21:48 note that publication was pending.
+- Live full-document AMP validation: not run in this checkpoint. Do not claim the live document passes AMP validation based only on the rendered style block.
+- Search indexing: not checked in GSC. Do not claim reindexing or issue resolution in Google.
+
+Verified public URL: https://forskcodingschool.com/web-stories/claude-fable-5-1-coding-students-september-2026/
+
+### Search Console access
+
+A fresh Search Console navigation in this browser redirected to the public Search Console about/sign-in page. The previous connected account had reported it lacked access to `https://forskcodingschool.com/`. No authenticated property view, fresh export, URL inspection, or Validate Fix submission was available. No new metrics or causes are claimed.
+
+## Current repository ownership
+
+- Forsk main is `f0e8076aa2647e02de5cf682846518aac0c9dbd9`.
+- Forsk open PR #54 remains the editorial pilot owner; do not duplicate its Python/Java article work.
+- Forsk PR #56 is merged; no open source AMP PR currently owns the Claude repair.
+- Central PR #9 is still the scoped draft for this checkpoint. It has not been merged.
+- No code change, deployment action, GSC submission, or noindex change occurred in this run.
 
 ## Next actions
 
-1. Restore authenticated Search Console access for the URL-prefix property and export daily, page and query comparisons.
-2. Verify both live story responses against merged source, run the live AMP validator, then use GSC Validate Fix only after deployment is verified.
-3. Reproduce reported 5xx, redirect, 403 and soft-404 examples before route changes.
-4. Resume unowned query/date diagnosis and final-year guide work; preserve noindex gates and existing recovery decisions.
+1. Run the official AMP validator against the exact live Claude URL and record the result separately from source validation.
+2. When an authenticated account with property access is available, inspect the AMP issue and URL status; submit GSC Validate Fix only after the live AMP validation passes and deployment is verified.
+3. Resume P0 query/date diagnosis and reproduce reported 5xx, redirect, 403 and soft-404 examples only after acquiring current examples; verify each URL against the public host before route changes.
+4. Continue the final-year guide task only after reconciling current source and existing recovery work. Preserve all existing noindex gates.
 
-Do not merge, deploy, submit GSC validation, remove noindex gates or redirect unrelated URLs without the required authorization and evidence.
+Never merge or deploy from this checkpoint, submit GSC validation without verified evidence and access, remove noindex gates, or redirect unrelated URLs.
