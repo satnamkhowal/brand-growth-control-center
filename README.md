@@ -41,3 +41,7 @@ The [Jaipur GBP listings registry](data/gbp-listings.json) tracks user-submitted
 ## Company registration inventory
 
 The [company registration inventory](data/company-registrations.json) records verified business-registration facts needed for centralized coordination. It deliberately excludes contact details, full addresses, and other data not needed for that purpose. See the accompanying [provenance log](data/company-registration-provenance.md) for source and verification boundaries. Searchable, privacy-redacted source copies are organized under [documents/](documents/).
+
+## Forsk Search Console checkpoint — 24 October 2026
+
+Owner-requested [live GSC audit and prioritized implementation queue](documents/forsk-coding-school/GSC-AUDIT-2026-10-24.md). Web clicks fell 236 to 173 across equal 28-day periods; losses concentrated in homepage and final-year project guide, both still indexed. Includes all 14 non-indexing counts, two malformed AMP Web Stories, sitemap/profile/schema/experience findings, existing recovery and PR #54 coordination, and tasks FCS-GSC-01–08. Audit COMPLETE; root-cause investigation and fixes OPEN; no deployment or recovery claimed. Source checkpoint: [6a6ddb4](https://github.com/satnamkhowal/forsk-coding-school/commit/6a6ddb4704b8c943956c12a52cf5f3707c9968b6). Start with query/date loss investigation and bounded technical reproduction; do not mass-create duplicate blogs or remove noindex gates.
