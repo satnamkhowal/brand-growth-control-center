@@ -31,7 +31,7 @@ A fresh Search Console navigation in this browser redirected to the public Searc
 - Forsk open PR #54 remains the editorial pilot owner; do not duplicate its Python/Java article work.
 - Forsk PR #56 is merged; no open source AMP PR currently owns the Claude repair.
 - Central PR #9 is still the scoped draft for this checkpoint. It has not been merged.
-- No code change, deployment action, GSC submission, or noindex change occurred in this run.
+- Source PR #57 now holds a scoped final-year guide improvement; no merge/deployment, GSC submission, or noindex change occurred.
 
 ## Next actions
 
@@ -41,3 +41,15 @@ A fresh Search Console navigation in this browser redirected to the public Searc
 4. Continue the final-year guide task only after reconciling current source and existing recovery work. Preserve all existing noindex gates.
 
 Never merge or deploy from this checkpoint, submit GSC validation without verified evidence and access, remove noindex gates, or redirect unrelated URLs.
+
+
+## Latest execution — final-year guide
+
+- Verified current live canonical `https://forskcodingschool.com/final-year-project-ideas/` renders the existing guide and its ten idea list. Current main source is `final-year-project-ideas/index.php` using the shared `includes/restored-content-page.php` renderer.
+- Open PR #54 does not touch either file. No other open source PR owns this page or renderer.
+- Draft PR [#57](https://github.com/satnamkhowal/forsk-coding-school/pull/57) proposes three practical project briefs (attendance tracker, placement application tracker, public dataset dashboard), test/demo guidance, two matching FAQs, and page-specific visible/Article freshness dates.
+- Branch: `seo/final-year-project-guide-20261024`. Commits: renderer `63aaf40da727cc655f31f73a98c99c4cc7b0521b`; guide `5658bda53a93039436316e8e70fc105a74135e15`. Compare reports only these two PHP files changed.
+- Tests: no PHP syntax/runtime check could run because `php` is not installed in this workspace; owner-paused CI was not triggered. Browser QA, schema/link checks and mobile review remain pending.
+- Source fix: draft only, not merged. Deployment: not deployed. Indexing: not checked in GSC. Preserve the current canonical, internal links and all noindex gates.
+
+Next: obtain PHP lint/render QA for PR #57, then verify its host deployment only after ordinary approval/merge; independently restore authenticated GSC access for live indexing checks.
