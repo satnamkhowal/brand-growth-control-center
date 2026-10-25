@@ -204,3 +204,20 @@ Result: the missing local PHP lint blocker is resolved for this exact PR57 head,
 Next: use the existing PR57 branch for full-site staging render with real config/head/header/footer, schema/robots/link and responsive QA, then required review before normal integration. Article briefs are useful planning material but are not runnable worked implementations; broader FCS-GSC-04 acceptance remains open. PR54/58/60 ownership unchanged. P0 query/error exports still require authenticated GSC evidence.
 
 Source evidence checkpoint: 9b99104955fd902c1386bd0bffca9f0425062b2a; handoff 43cb7eb0184a9fad4164688d21c2b967013759a0; task board bc06f70b55987a401eaa94881d999e555abaf31d.
+
+
+## 26 October 2026 — FCS-GSC-04 PR57 shared-template integration and links
+
+Bounded independent QA of existing PR57, not a competing implementation. Fresh main bc06f70b55987a401eaa94881d999e555abaf31d, required source/central audits, handoff, board, checkpoints and open PR60/58/57/54 read. Existing branch seo/final-year-project-guide-20261024 still resolves to 5658bda53a93039436316e8e70fc105a74135e15. Its ownership retained; no runtime source changes or merge.
+
+Advanced beyond the prior stubbed fixture: materialized 17 exact repository files at that head, including real config.php, head.php, header.php, footer.php, renderer, menu/contact/mobile-navigation helpers, course integrity/layout/catalog/pricing dependencies and batch-calendar embed/catalog/ongoing data. Git blob hashes of all materialized files verified. Temporary text materialization initially trimmed trailing whitespace; restored exact connector bytes before the successful hash verification and final execution. No remote source was changed. No dummy config or head/header/footer used in final test.
+
+Executed PHP 8.2.33 through @php-wasm/cli@3.1.60 with error_reporting=32767 and display_errors=1. Small local entry wrapper sets HTTP_HOST=forskcodingschool.com, HTTPS=on, SERVER_PORT=443, REQUEST_URI=/final-year-project-ideas/, SCRIPT_NAME=/final-year-project-ideas/index.php and requires the unchanged page. Render exited 0, stderr empty, no Warning/Fatal/Deprecated/Notice output. This is simulated production-request PHP execution, not actual deployed host or visual browser validation. Initial Python inspection lacked optional bs4; successful final assertions used standard-library HTMLParser instead.
+
+PASS: exactly one H1 and canonical https://forskcodingschool.com/final-year-project-ideas/; real shared head emits index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1; all emitted JSON-LD parses; exactly one Article with dateModified 2026-10-24 and one FAQPage with three question/answer pairs matching visible text. Prior same-head syntax/default/escaping checks remain applicable, not repeated as new work.
+
+Five distinct main-content link destinations checked with public GET (curl -L, max five redirects): coding-courses-jaipur -> HTTP200, zero redirects; enquiry.php -> HTTP200 /enroll-now, two redirects; final-year-projects-jaipur.php -> HTTP200 /final-year-projects-jaipur, one redirect; live-project-training-jaipur.php -> HTTP200 /live-project-training-jaipur, one redirect; resources.php -> HTTP200 /blog/, one redirect. No loop or HTTP error reproduced in this bounded set. This does not validate all navigation/footer URLs or destination editorial relevance. No form submitted. Existing two-hop enquiry and resources-to-blog behavior recorded, not changed speculatively.
+
+State: PHP integration/schema/directive/main-link checks PASS for exact PR57 head. Desktop/mobile visual layout, CSS/JS/assets, actual host PHP compatibility and required review remain pending. PR57 still draft/unmerged/undeployed; no GSC request, indexing/traffic recovery claim, CI run or owner-paused workflow change. Next: render existing PR57 in a browser with actual assets at phone/tablet/desktop widths, review content and normal integration readiness; only then check publication separately. FCS-GSC-04 remains open; P0 GSC query/error exports remain unavailable in this run.
+
+Source checkpoint: c6b23f7885d029f6f6ef9be5733f96ae98e55b3b.
