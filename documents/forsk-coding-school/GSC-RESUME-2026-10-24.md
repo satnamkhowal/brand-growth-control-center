@@ -126,3 +126,16 @@ This supersedes the previous old-501-entry host-publication blocker. PR59 source
 Next: check GSC processing when authenticated access is available; audit any mentor sitemap generator before running it to prevent reintroducing unverified catalogue entries. Continue other unfinished tasks without redoing this repair. Broader FCS-GSC-07 and FCS-GSC-01/02/03/04/05/06/08 acceptance gates are not closed by this result.
 
 Source checkpoint commit: 75a4ae02197f63fff3c1f9a5e200ac0247b1e979.
+
+
+## 25 October 2026 — FCS-GSC-07 publishing instructions regression guard
+
+REVIEW: documentation-only PR60 https://github.com/satnamkhowal/forsk-coding-school/pull/60 on docs/mentor-publishing-20261025, head ab14cc1f4b5f6ec1ffbc697da6fcc19e49cf6e07. Fresh main 75a4ae02197f63fff3c1f9a5e200ac0247b1e979 and PR54/57/58 changed-file lists confirmed no overlapping ownership. Existing PR59 repair remains complete; not repeated.
+
+Corrected mentors/README-MENTOR-PROFILES.txt, mentors/MENTOR-PROFILE-STRATEGY.txt and README-SITEMAP-PLACEMENT.txt: legacy verified=true alone is insufficient under includes/head.php's explicit approval guard; real-instructor-template.php derives that approval from approved_for_index. Old ZIP/catalogue/draft inventories must not overwrite the four-approved-profile sitemap. Root sitemap currently has eight children and does not include the separately submitted mentor sitemap.
+
+Checks: documentation cross-checked with head.php blob 5637300f4a6b66665e1f87da08e48edfc6d72ff1, registry 1613a69b192a98a323551705b82568e252c6a92a, real instructor template and root sitemap 3612243865731ea35bdd85ad6ac671f576d675d4. GitHub compare confirms exactly three text files, no runtime/workflow/approval changes. PHP/render tests not applicable; no CI, deployment or GSC action. Targeted searches for mentors-sitemap.xml and generate mentors found no executable generator; this does not rule out an external generator.
+
+Next: review PR60 before normal integration. Separately audit the 31 historical images-sitemap.xml page/image pairs against approved, indexable profile canonicals; existing placement instructions treated image existence as sufficient, which is not approval. No claim that these 31 entries have been validated. P0 loss-query/5xx/redirect examples remain blocked on authenticated GSC evidence; PR57/54 remain active independent scopes. Google processing/indexing/traffic recovery remains unverified.
+
+Source checkpoint commit: 645d1d5ab42688279e315bec23f73708c4f86559.
