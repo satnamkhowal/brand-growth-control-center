@@ -102,3 +102,15 @@ Tests: XML parse and exactly four unique approved URLs PASS; fresh GET of all fo
 State: tested source repair committed on branch; review/integration pending; served repaired sitemap and Google processing NOT verified. PR creation returned mergeable=false; do not infer conflict cause from that initial value—refresh PR state before integration. No deployment or GSC submission performed. Next: review exact one-file diff, refresh mergeability, integrate through normal process, then verify live XML contains exactly these four URLs. Check any sitemap generator before regeneration so it cannot reintroduce the catalogue. FCS-GSC-07 remains open through release verification.
 
 Source checkpoint: 65592c575dc29935a987bd2bd723e73bb27a5070.
+
+## 25 October 2026 — FCS-GSC-07 PR59 merged; publication pending
+
+Fresh audit/handoff/checkpoint and open-PR review confirmed existing mentor branch ownership. Compared main 65592c575dc29935a987bd2bd723e73bb27a5070 with branch: exactly one sitemap file changed; behind-main commit only documents prior work. Reviewed complete final XML at head 626fedca492589cce947a45d1855136b97af90c5 and unchanged approved registry blob 1613a69b192a98a323551705b82568e252c6a92a. Prior XML/four-profile live tests remain applicable; no implementation changes since those tests.
+
+Independent COMMENTED review submitted 25 Oct 04:58:56 UTC corroborated exact approved set, four live canonicals/indexable robots, mergeability and lack of review threads. Fresh thread list empty. No independent APPROVED status or CI success is claimed. Normal GitHub merge succeeded with expected-head guard; no protections bypassed and owner-paused workflows untouched.
+
+PR59 merged as 505818d7fa8dff58881186077b55526deee058f9. Immediately subsequent public GET /mentors/mentors-sitemap.xml returned HTTP 200 and parsed successfully but still contained 501 unique URLs; served Git blob d1a6b2e5ef801277b6e1d59c9ee996711ee17079 matches OLD source. Therefore source integration COMPLETE, host publication PENDING. Expected new XML blob is 90349c4c306794e6f77ef181bc13caad7a270080 containing exactly four approved URLs.
+
+Next: after established host publication, fetch this sitemap and verify new blob/four exact approved URLs, then separately verify Google processing when GSC access is available. Do not repeat/recreate PR59 or report live repair/indexing recovery yet. No host deployment action or GSC submission performed. Future generator audit remains separate; do not run an old generator that repopulates the unverified catalogue.
+
+Source checkpoint commit: 8d842ff3ab3ff7a9f354a0c9254eb7f62a8ddd25.
