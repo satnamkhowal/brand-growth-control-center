@@ -178,3 +178,14 @@ Bounded PR61 source integration (merge 9be4c0cc2d4971340acd2ac6d3502543bd1b7b58)
 Next: check GSC processing when authenticated access is available. Do not recreate or routinely repeat PR61. Continue unfinished queue, including PR60 documentation review, PR57 final-year QA and PR54 editorial validation within their existing ownership. FCS-GSC-07 overall and other audit acceptance gates remain open; completed image sitemap publication does not close them.
 
 Source checkpoint: a3fe9c3684a4d6f3d406b11467a161f2ea945236.
+
+
+## 25 October 2026 — FCS-GSC-07 PR60 review follow-up
+
+REVIEW: reused docs/mentor-publishing-20261025 and PR60; head 4a2dca8ff7a7fc95cd8e0cab263488e87778cfd3 (llms correction 9d80523af1fae4da3336dc43e867398ebd0a398d). Fresh main d65fb4b70e71fdd8cf680bf7194dd2de4e74253b, audits/handoff/checkpoint and open PRs reviewed. Existing COMMENTED review identified root llms.txt's incorrect mentor-in-root-index claim and requested documentation-owner review before merge. No inline threads. Continued this owned branch; PR54/57/58 scopes untouched.
+
+Corrected two discovery descriptions in llms.txt: root index covers its listed children and mentor sitemap is linked separately; mentor inventory is approved/indexable profiles, excluding the unverified catalogue. Updated README-SITEMAP-PLACEMENT.txt's stale current-31/pending-audit text to PR61's four approved pairs and released merge/blob evidence. No links/URLs, XML, PHP, portraits, identity approvals or workflows changed. PR description rewritten for final four-text-file scope and existing draft retained.
+
+Validation: cross-checked current main root sitemap blob 3612243865731ea35bdd85ad6ac671f576d675d4 and image sitemap bff5d91d32b4bed3e97e1037031be87760833a7e; asserted image child included, mentor child excluded and four image URL blocks. GitHub compare confirms exactly four text files. No PHP/render/CI tests required or claimed. No fresh deployment, Google processing or traffic claim.
+
+Next: documentation-owner review of PR60 updated head; then normal integration. Existing review was COMMENTED, not approval, so PR remains draft/unmerged. PR61 live confirmation remains complete and was not repeated. Other audit gates, especially GSC evidence and PR57/54 validation, remain pending.
