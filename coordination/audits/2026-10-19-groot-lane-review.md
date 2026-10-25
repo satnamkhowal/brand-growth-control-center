@@ -215,3 +215,12 @@ PHP, Chromium and container runtimes remain absent, so existing rendered/browser
 - Factory counts are 15 complete drafts, 15 technical visuals and 14 PHP review candidates; independent publication approvals and live articles remain 0/0.
 - All 29 canonical queue IDs remain present. Next source-owner action is GA-B00021 PHP candidate plus independent static integration QA; real PHP/schema/route/HTTP/release gates stay open.
 - Central PRs #1/#2/#4/#5 ownership is unchanged. The Jaipur `je2` social lane versus `jaipur-engieneers` website candidate mapping remains an explicit reconciliation item; neither is assumed wrong. No AEO/GEO baseline recreation or brand-source implementation occurred here.
+
+
+## Delta — 2026-10-25: GA-B00021 static integration
+
+- Groot factory checkpoint [`43dd8eb11da52ddf5366a1dbb64a5215f5c43449`](https://github.com/satnamkhowal/gta/commit/43dd8eb11da52ddf5366a1dbb64a5215f5c43449) advances GA-B00021 from `CONTENT_QA` to `TECH_QA` after independent static integration PASS.
+- Bounded evidence: 86 shared exporter/checker tests PASS, all 15 static article candidates PASS, ten lending tests and 22 draft checks in normal/`-O`/`-OO`, plus deterministic candidate regeneration.
+- Factory counts are now 15 complete drafts, 15 technical visuals and 15 PHP review candidates; independent publication approvals and live articles remain 0/0.
+- PHP binary remains absent (lint exit 3). Rendered schema/layout, registry, route/canonical, image, internal links, both download URLs and independent release review remain open.
+- Central PRs #1/#2/#4/#5 retain their owners and observed heads; this PR #3 records coordination evidence only. Jaipur social-versus-website mapping and the AEO/GEO baseline remain unchanged and were not recreated.
