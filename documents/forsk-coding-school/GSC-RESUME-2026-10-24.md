@@ -114,3 +114,15 @@ PR59 merged as 505818d7fa8dff58881186077b55526deee058f9. Immediately subsequent 
 Next: after established host publication, fetch this sitemap and verify new blob/four exact approved URLs, then separately verify Google processing when GSC access is available. Do not repeat/recreate PR59 or report live repair/indexing recovery yet. No host deployment action or GSC submission performed. Future generator audit remains separate; do not run an old generator that repopulates the unverified catalogue.
 
 Source checkpoint commit: 8d842ff3ab3ff7a9f354a0c9254eb7f62a8ddd25.
+
+## 25 October 2026 — FCS-GSC-07 mentor sitemap host publication verified
+
+Fresh required audits/handoff/checkpoints, main history and open PRs reviewed: main 8d842ff3ab3ff7a9f354a0c9254eb7f62a8ddd25; PR54/57/58 remain separate. No edits to those scopes and no repeated sitemap repair.
+
+Public GET https://forskcodingschool.com/mentors/mentors-sitemap.xml returned HTTP 200 at the same URL. XML parsed successfully and contains exactly the four approved profile URLs: satnam-singh-java-backend-trainer-jaipur, shivanshi-paliwal-java-programming-trainer-jaipur, jayakshi-agrawal-data-analytics-trainer-jaipur, kirti-sharma-data-science-machine-learning-trainer-jaipur (all under /mentors/ with trailing slash). Computed Git blob 90349c4c306794e6f77ef181bc13caad7a270080 exactly matches the tested merged XML.
+
+This supersedes the previous old-501-entry host-publication blocker. PR59 source merge 505818d7fa8dff58881186077b55526deee058f9 and host publication are now COMPLETE for this bounded sitemap fix. Earlier four destination HTTP/canonical/robots tests remain recorded separately. No deployment command, workflow revival, GSC submission or indexing request was performed. Google processing/indexing/traffic effects remain UNVERIFIED.
+
+Next: check GSC processing when authenticated access is available; audit any mentor sitemap generator before running it to prevent reintroducing unverified catalogue entries. Continue other unfinished tasks without redoing this repair. Broader FCS-GSC-07 and FCS-GSC-01/02/03/04/05/06/08 acceptance gates are not closed by this result.
+
+Source checkpoint commit: 75a4ae02197f63fff3c1f9a5e200ac0247b1e979.
