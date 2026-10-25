@@ -139,3 +139,16 @@ Checks: documentation cross-checked with head.php blob 5637300f4a6b66665e1f87da0
 Next: review PR60 before normal integration. Separately audit the 31 historical images-sitemap.xml page/image pairs against approved, indexable profile canonicals; existing placement instructions treated image existence as sufficient, which is not approval. No claim that these 31 entries have been validated. P0 loss-query/5xx/redirect examples remain blocked on authenticated GSC evidence; PR57/54 remain active independent scopes. Google processing/indexing/traffic recovery remains unverified.
 
 Source checkpoint commit: 645d1d5ab42688279e315bec23f73708c4f86559.
+
+
+## 25 October 2026 — FCS-GSC-07 image sitemap repair tested
+
+REVIEW: PR61 https://github.com/satnamkhowal/forsk-coding-school/pull/61, branch fix/image-sitemap-approved-20261025, commit 92a47e2407027edce48ec33f8e9bd6424eb68bc4, XML blob bff5d91d32b4bed3e97e1037031be87760833a7e. Main checked at e74070622eb3726cf316f47a8100ed84c6786be3; required audits/handoff and PR54/57/58/60 file lists refreshed, no overlap. Earlier attempt stopped on usage-limit review failure before any remote edit; local files were absent, so no prior test completion was assumed.
+
+Confirmed current source and served images-sitemap.xml match old blob 3b820e12a303d63daf94de56070b7dd2becfc578. All 31 listed profile URLs individually fetched: HTTP 200 and HTML noindex. None belongs to the four approved real instructor records. Replaced only this XML with four approved profile/portrait pairs selected from registry 1613a69b192a98a323551705b82568e252c6a92a (approved_for_index=true and photo_ready=true): Satnam Singh / assets/images/mentors/satnam_sir.webp; Shivanshi Paliwal / assets/images/mentors/shiib.jpg; Jayakshi Agrawal / assets/images/mentors/jaykshi.png; Kirti Sharma / assets/images/mentors/kiti.jpg. No identity claim, photo, page or publishing gate modified.
+
+Tests PASS: XML parse; 31 distinct old URLs; four approved replacements disjoint from old set; four fresh profile GETs HTTP 200 unchanged URL, exact self canonical, indexable robots, no X-Robots-Tag exclusion. Each approved portrait occurs in its profile HTML and GET returns HTTP 200 unchanged URL with image content type. Pillow verify succeeds: WEBP 16500 bytes, JPEG 191854, PNG 864496, JPEG 149829 respectively. Curl/Python audit exited 0. PR reports exactly one changed file. No PHP/CI/browser-layout test applicable to XML-only patch; no workflow revival.
+
+State: tested branch commit and draft PR only; review/integration pending, repaired host publication and GSC processing/indexing unverified. Live sitemap still old at pre-change check. Next: review PR61 exact diff, integrate via normal process, verify served blob/four pairs; then separately check GSC processing with authenticated access. PR60 documentation review remains separate. P0 query/error examples still await GSC evidence; PR54/57 active work remains untouched.
+
+Source checkpoint: 1ffaabf4151ac6d903426c002f6ceb008414e568.
