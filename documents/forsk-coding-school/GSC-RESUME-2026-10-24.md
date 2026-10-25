@@ -189,3 +189,18 @@ Corrected two discovery descriptions in llms.txt: root index covers its listed c
 Validation: cross-checked current main root sitemap blob 3612243865731ea35bdd85ad6ac671f576d675d4 and image sitemap bff5d91d32b4bed3e97e1037031be87760833a7e; asserted image child included, mentor child excluded and four image URL blocks. GitHub compare confirms exactly four text files. No PHP/render/CI tests required or claimed. No fresh deployment, Google processing or traffic claim.
 
 Next: documentation-owner review of PR60 updated head; then normal integration. Existing review was COMMENTED, not approval, so PR remains draft/unmerged. PR61 live confirmation remains complete and was not repeated. Other audit gates, especially GSC evidence and PR57/54 validation, remain pending.
+
+
+## 26 October 2026 — FCS-GSC-04 PR57 bounded PHP validation
+
+Read fresh required source/central audits, handoff, board, checkpoints, latest main 292587d646cbc7a95cd808a4d9810e4a2f25f63e and open PR60/58/57/54. PR57 retains ownership of final-year content/shared renderer; this run performed independent read-only validation, with no branch, runtime or competing content edits. Reused existing branch seo/final-year-project-guide-20261024 at exact head 5658bda53a93039436316e8e70fc105a74135e15.
+
+Exact downloaded file Git blobs verified before tests: final-year-project-ideas/index.php 9f9197f50b5adc3ba1d8bf78ab4485c01b883de6; includes/restored-content-page.php 30952f693509a359df9cd591791e8926a6dfc2d0. Earlier interrupted local preparation was absent, so no unfinished render result was assumed.
+
+Tests actually completed: npm-installed @php-wasm/cli@3.1.60 (ignore-scripts) ran PHP 8.2.33; both files PASS syntax lint via PHP=8.2 node node_modules/@php-wasm/cli/php-wasm.js -l <file>. Isolated renderer execution with error_reporting=32767 and display_errors=1 exited 0 and emitted no PHP diagnostics. Fixture substitutes config.php (SEO_BASE_URL and site_url), head.php (canonical and generated page_schema output), and empty header/footer; it is NOT full production integration or browser QA. Python assertions PASS: one H1; configured Article dateModified 2026-10-24 and October label; configured canonical URL; three FAQ schema question/answer pairs matching visible text; omitted freshness fields retain September label/2026-09-28; heading/text/title HTML escaping with script/img/quote/ampersand fixture. Exact source files remained unchanged. npm emitted engine warnings about its version; the reported PHP executions and assertions nevertheless completed successfully. Host PHP version was not established.
+
+Result: the missing local PHP lint blocker is resolved for this exact PR57 head, and isolated renderer checks pass. This does NOT establish actual shared-head canonical/robots output, full dependency integration, desktop/mobile layout, production runtime compatibility, link responses, editorial approval or release readiness. PR57 remains draft, unmerged and undeployed; no GSC action, indexing/traffic claim, CI execution or owner-paused workflow changes.
+
+Next: use the existing PR57 branch for full-site staging render with real config/head/header/footer, schema/robots/link and responsive QA, then required review before normal integration. Article briefs are useful planning material but are not runnable worked implementations; broader FCS-GSC-04 acceptance remains open. PR54/58/60 ownership unchanged. P0 query/error exports still require authenticated GSC evidence.
+
+Source evidence checkpoint: 9b99104955fd902c1386bd0bffca9f0425062b2a; handoff 43cb7eb0184a9fad4164688d21c2b967013759a0; task board bc06f70b55987a401eaa94881d999e555abaf31d.
