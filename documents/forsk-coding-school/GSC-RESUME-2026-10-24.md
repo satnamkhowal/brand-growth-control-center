@@ -152,3 +152,16 @@ Tests PASS: XML parse; 31 distinct old URLs; four approved replacements disjoint
 State: tested branch commit and draft PR only; review/integration pending, repaired host publication and GSC processing/indexing unverified. Live sitemap still old at pre-change check. Next: review PR61 exact diff, integrate via normal process, verify served blob/four pairs; then separately check GSC processing with authenticated access. PR60 documentation review remains separate. P0 query/error examples still await GSC evidence; PR54/57 active work remains untouched.
 
 Source checkpoint: 1ffaabf4151ac6d903426c002f6ceb008414e568.
+
+
+## 25 October 2026 — FCS-GSC-07 PR61 integrated; host pending
+
+PR61 merged normally as 9be4c0cc2d4971340acd2ac6d3502543bd1b7b58, expected head 92a47e2407027edce48ec33f8e9bd6424eb68bc4. Fresh required audit/handoff/open-PR review and compare confirmed exactly images-sitemap.xml changed; the three newer main commits touched only checkpoints. Registry approval/photo flags remain at blob 1613a69b192a98a323551705b82568e252c6a92a and root index already references images-sitemap.xml.
+
+Reviewed full XML and retained prior same-head page HTTP/canonical/robots/image-decode tests. This run repeated XML parse, four unique page/image pairs and exact blob check PASS (bff5d91d32b4bed3e97e1037031be87760833a7e). Local patch materialization initially added an extra trailing newline; normalized the temporary copy to source bytes and hash passed; remote code was unchanged. Separate COMMENTED review recorded 12 static checks, not an APPROVED review or release evidence. Its caution against merging on the comment alone was retained: integration used the existing approved registry, previous actual HTTP/image tests, current-main comparison and fresh exact-file checks. No review threads; marked ready, mergeable=true, then normal expected-head merge. No protections bypassed, CI claims or paused workflow changes.
+
+Immediate post-merge public GET https://forskcodingschool.com/images-sitemap.xml returned HTTP 200, valid XML but 31 entries; Git blob 3b820e12a303d63daf94de56070b7dd2becfc578 matches OLD source. Source integration COMPLETE; repaired host publication PENDING. No deployment command or GSC action was performed; indexing/traffic effects unverified.
+
+Next: verify established host publication serves expected bff5d91d32b4bed3e97e1037031be87760833a7e with four approved pairs, then GSC processing separately. Do not recreate PR61 or repeat its implementation. PR60 documentation review and other FCS-GSC acceptance gates remain open; PR54/57 ownership preserved.
+
+Source checkpoint: 9a62c5b9356fe3c1c7e915d30a77734bc9cd800f.
