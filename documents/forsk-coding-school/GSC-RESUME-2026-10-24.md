@@ -86,3 +86,19 @@ No restoration, new URL, redirect, code patch or blanket noindex removal was nee
 Next: retain these nine URLs as existing recovered canonicals in subsequent 404 deduplication; inspect other legacy paths against the decisions registry before restoring. Review worksheets individually before indexing approval. GSC loss-query and exact 5xx/redirect-error exports remain unavailable pending authenticated access; FCS-GSC-05 stays OPEN for full reconciliation. Completed checks should not be repeated absent changes or a regression signal.
 
 Source checkpoint commit: 94d3c1a89dbb527cf535d54c046a3241e60de21e.
+
+## 25 October 2026 — FCS-GSC-07 mentor sitemap repair ready for review
+
+Resumed existing branch fix/mentor-sitemap-approved-20261025 after fresh main/open-PR review. Main was 94d3c1a89dbb527cf535d54c046a3241e60de21e; PR54,57,58 did not overlap. Required audits/handoff reread. Previous interrupted preparation had created the branch but no commit; reused it.
+
+Confirmed mismatch: live mentors/mentors-sitemap.xml had 501 distinct entries: directory plus 500 catalogue records. Public catalogue JSON matched source Git blob 4df2d89a00829555256bc2420a480a275e3d69d4; all 500 records fail the verified publishing gate. Directory and first/last catalogue profile samples were live noindex. This is not a claim that all 500 pages were fetched or that identities are proven fictitious.
+
+Changed ONLY mentors/mentors-sitemap.xml: four approved_for_index profiles selected from existing real-instructor-profiles.php blob 1613a69b192a98a323551705b82568e252c6a92a: Satnam Singh, Shivanshi Paliwal, Jayakshi Agrawal and Kirti Sharma. Excluded pending Jivan profile and unverified catalogue; no biography, identity, claim, noindex gate or workflow edits.
+
+Commit: 626fedca492589cce947a45d1855136b97af90c5.
+PR59: https://github.com/satnamkhowal/forsk-coding-school/pull/59 (one changed file; ready for review, not merged).
+Tests: XML parse and exactly four unique approved URLs PASS; fresh GET of all four on 25 October returned HTTP 200, unchanged final URL, self canonical, indexable meta robots and no X-Robots-Tag exclusion. Temporary validation script indentation typo corrected before successful execution. No PHP changes or CI run.
+
+State: tested source repair committed on branch; review/integration pending; served repaired sitemap and Google processing NOT verified. PR creation returned mergeable=false; do not infer conflict cause from that initial value—refresh PR state before integration. No deployment or GSC submission performed. Next: review exact one-file diff, refresh mergeability, integrate through normal process, then verify live XML contains exactly these four URLs. Check any sitemap generator before regeneration so it cannot reintroduce the catalogue. FCS-GSC-07 remains open through release verification.
+
+Source checkpoint: 65592c575dc29935a987bd2bd723e73bb27a5070.
