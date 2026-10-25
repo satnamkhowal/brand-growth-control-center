@@ -224,3 +224,12 @@ PHP, Chromium and container runtimes remain absent, so existing rendered/browser
 - Factory counts are now 15 complete drafts, 15 technical visuals and 15 PHP review candidates; independent publication approvals and live articles remain 0/0.
 - PHP binary remains absent (lint exit 3). Rendered schema/layout, registry, route/canonical, image, internal links, both download URLs and independent release review remain open.
 - Central PRs #1/#2/#4/#5 retain their owners and observed heads; this PR #3 records coordination evidence only. Jaipur social-versus-website mapping and the AEO/GEO baseline remain unchanged and were not recreated.
+
+
+## Delta — 2026-10-25: GA-B00022 repaired partial
+
+- Groot checkpoint [`d2ae29e8b22fafc8a698799960c61a0f49cee59d`](https://github.com/satnamkhowal/gta/commit/d2ae29e8b22fafc8a698799960c61a0f49cee59d) starts GA-B00022 as `DRAFT` without altering completed-count or publication claims.
+- New bounded evidence: native-radio quiz lab, 18-check verifier and authored SVG; independent partial QA PASS only after score-announcement, focus-contrast and diagram-label repairs.
+- Static checks pass in normal/`-O`/`-OO`; JavaScript syntax, Python compilation and SVG XML/accessibility pass. Browser, assistive-technology and zoom assertions remain zero because Chromium is unavailable.
+- Counts remain 15 complete drafts, 15 technical visuals and 15 PHP candidates; approved/live remain 0/0. All 29 queue IDs remain present.
+- Central ownership and Jaipur mapping/AEO-GEO follow-ups are unchanged; no other worker files, source implementations, merges or deployments were altered.
