@@ -165,3 +165,16 @@ Immediate post-merge public GET https://forskcodingschool.com/images-sitemap.xml
 Next: verify established host publication serves expected bff5d91d32b4bed3e97e1037031be87760833a7e with four approved pairs, then GSC processing separately. Do not recreate PR61 or repeat its implementation. PR60 documentation review and other FCS-GSC acceptance gates remain open; PR54/57 ownership preserved.
 
 Source checkpoint: 9a62c5b9356fe3c1c7e915d30a77734bc9cd800f.
+
+
+## 25 October 2026 — FCS-GSC-07 image sitemap publication verified
+
+Fresh required audits/handoff/checkpoint, main history and open PRs checked: main 043e47f6e7a91c31bf88ae9c839d66a1d73d7d6b; PR60/58/57/54 remain separate. No repeated implementation or edits to their scopes.
+
+Public GET https://forskcodingschool.com/images-sitemap.xml returned HTTP 200 at the same effective URL. Python ElementTree parse and uniqueness assertions PASS: exactly four page/image pairs for Satnam Singh, Shivanshi Paliwal, Jayakshi Agrawal and Kirti Sharma. Served Git blob bff5d91d32b4bed3e97e1037031be87760833a7e exactly matches current main and the tested PR61 XML. This supersedes the earlier old-31-entry host-publication blocker.
+
+Bounded PR61 source integration (merge 9be4c0cc2d4971340acd2ac6d3502543bd1b7b58) and host publication are COMPLETE. Earlier profile HTTP/canonical/robots and portrait decode checks remain recorded separately; no claim of a fresh full page/image re-audit. No deployment command, workflow revival, GSC submission or indexing request performed. Google processing/indexing/traffic effects remain UNVERIFIED.
+
+Next: check GSC processing when authenticated access is available. Do not recreate or routinely repeat PR61. Continue unfinished queue, including PR60 documentation review, PR57 final-year QA and PR54 editorial validation within their existing ownership. FCS-GSC-07 overall and other audit acceptance gates remain open; completed image sitemap publication does not close them.
+
+Source checkpoint: a3fe9c3684a4d6f3d406b11467a161f2ea945236.
