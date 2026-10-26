@@ -298,3 +298,18 @@ No selector defect reproduced. Checkpoint-only change; PR54 stays draft/unmerged
 Next: full PR54 renderer integration/schema test using exact dependencies, then browser desktop/mobile QA and verified host asset selection after normal review/deployment. Do not treat this fixture matrix as proof of live publication or repeat unchanged prior tests.
 
 Source checkpoint: 7b25ae8e700e3a3f579c4f4b9f2a36675fde26f4.
+
+
+## 26 October 2026 — FCS-GSC-06 full PHP renderer integration
+
+Fresh required audits, handoff/board, main ee4a1eca25adb075d67977ff7193af4ca28c7cd3 and open PR58/57/54 reviewed. Existing PR54 ownership retained; unchanged head 1783307d73a21d0d1638d69bfe7edbb365064b3b. Read-only integration QA, no competing implementation edit.
+
+Materialized 27 real source dependencies from that exact head: config; blog renderer/library/SEO quality/quality-data/indexing-overrides/editorial-index; both actual wrappers and editorial articles; both SVG masters; shared head/header/footer, course-page-integrity/course-landing-layout/course-catalog-data, menu/floating-contact/mobile-app-navigation/live-emoji/course-pricing; batch-calendar embed/catalog/ongoing. Verified each Git blob against materialized bytes (allowing only terminal-newline normalization by patch writer). No head/header/footer or quality-function stubs. Renderer blob 6df0ec5c870cdab947cf5883f73c38dabea29de3; library 93529a201c0e4d184d5852a88064707704d0e17c; config 4e7390ae8feb63d1dd1c1072ada7c86aea996499.
+
+Ran each actual wrapper through @php-wasm/cli@3.1.60 with PHP=8.2, production HTTP_HOST/HTTPS/port and per-slug REQUEST_URI/SCRIPT_NAME. Generated Python 82,973 bytes and Java 83,688 bytes HTML; both stderr files empty, no PHP fatal/warning text. Parsed all emitted JSON-LD with Python standard library; explicit assertions PASS for each: exactly one H1; one BlogPosting and one BreadcrumbList; headline equals visible H1; article URL/mainEntityOfPage matches expected canonical; dateModified=2026-10-24; Organization author rather than unapproved personal attribution; robots index/follow; selected SVG hero URL equals BlogPosting image. Actual output canonical and robots inspected. No speculative runtime fix needed.
+
+Limits: the isolated source subset contains the two SVG masters, not a verified full host image inventory, so SVG selection is conditional on that subset. CSS/JS/browser loading, mobile/desktop layout, Google rich-result eligibility, live publication and indexing are not established. datePublished remains source fallback 2026-09-10, not independently verified historical publication evidence. Java prose findings and attribution review remain open. PR54 remains draft/unmerged/undeployed; no workflow revival or GSC action.
+
+Next: browser visual/responsive QA with real assets and review publication-date provenance, Java prose corrections and attribution in the existing PR54 workflow. Completed exact-head Python/Java/lint/selector/SVG checks need not repeat unless relevant source changes. P0 authenticated GSC export evidence remains pending.
+
+Source checkpoint: 8114f3330f61eece994f75734329920f3eaae2ed.
