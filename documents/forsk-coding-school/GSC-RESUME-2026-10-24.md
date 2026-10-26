@@ -253,3 +253,20 @@ Prior exact-head Python example tests remain valid and were not repeated. No imp
 Next: run existing Java example and its edge cases, then full staging rendering/visual QA on PR54. Preserve approval gates; do not repeat completed PHP/Python checks unless source changes. P0 GSC evidence still not obtained in this run.
 
 Source checkpoint: b7e7b090879f531eca28fef6a6869defc8b4d808.
+
+
+## 26 October 2026 — FCS-GSC-06 Java pilot execution and editorial findings
+
+Fresh source/central audits, handoff/board/checkpoints, main 2a406bb9608b29dbbb5365748410e45aed31d3b3 and open PR58/57/54 reviewed. PR54 retains ownership; read-only QA used unchanged head 1783307d73a21d0d1638d69bfe7edbb365064b3b, no competing branch or implementation edit. Java article blog/editorial/core-java-foundations-practical-roadmap-beginners.php exact Git blob 091caf3436b8de08aa697f6e6ef8485024336c40 verified. Extracted both HTML-unescaped language-java code blocks without changing example code.
+
+Executed with OpenJDK/Javac 17.0.20. The javac launcher was absent from PATH, but the installed jdk.compiler module was available: java --module jdk.compiler/com.sun.tools.javac.Main Main.java compiled unchanged article source; java Main exited0 with exactly true/false/false as documented. An initial java Main.java source-launch attempt selected the first class Book and reported missing main; this was a harness invocation mismatch, not failure of the documented compile-then-run approach. No package install or environment permission workaround needed.
+
+Separate EdgeChecks class compiled alongside unchanged Main.java. Article's exact empty-library snippet PASS. Additional checks PASS: first case-insensitive title loan succeeds, borrowing the same Book twice fails, missing title fails. Duplicate-title behavior reproduced: two separate Book objects with identical titles are added; after first loan, borrowByTitle returns false because it stops at the first match, while directly borrowing the second object still succeeds. This is the documented ambiguity made concrete, not proof of multi-copy lending support. No source fault patch was made while the existing editorial scope remains owned.
+
+Publication review findings: (1) prose says public methods, but Book getters/borrow and Library add/borrowByTitle have no public modifier and are package-private; correct prose or deliberately review API modifiers before publication. (2) explain the exact first-match duplicate-copy limitation, or teach a reviewed search-for-available-copy extension; current text only calls it ambiguous. Do not claim all edge cases or production safety. Null/blank title validation, persistence/concurrency and identity approval are not tested or solved by this exercise.
+
+State: Java compilation, documented output and selected edge behavior verified at exact head. Prior Python and PHP/preflight evidence remains applicable and was not repeated. Full rendered schema/image/responsive QA, above editorial review findings, approved attribution and remaining pilot work stay open. PR54 remains draft/unmerged/undeployed. No GSC action, workflow revival, CI success or traffic/indexing recovery claim.
+
+Next: existing PR54 owner/reviewer should resolve the two precise prose findings within that branch, then complete staging/browser QA and normal review. PR57 visual QA and P0 authenticated GSC exports remain separate pending gates.
+
+Source checkpoint: d86398e01692481b66a3228312121c10382102a4.
