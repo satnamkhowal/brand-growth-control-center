@@ -364,3 +364,12 @@ Commit 1f3c81553f64dff169bbcf7a9b326bfc22cf2026 changes only blog/editorial/core
 Validation: exact string checks PASS for both replacements; all pre/code blocks byte-identical before/after; manual review against actual method declarations and return inside first matching iteration. Prior compiled Java and duplicate-copy tests at old blob 091caf3436b8de08aa697f6e6ef8485024336c40 remain applicable to unchanged code. No PHP logic, date_modified, renderer, schema, image or attribution change; PHP/browser execution not repeated for prose-only change. No new publication-date claim.
 
 State: PR54 draft, not merged/deployed/indexed by this work. Browser/mobile QA, datePublished provenance, attribution approval and remaining eight pilots remain unfinished. Next: review corrected prose and proceed with outstanding browser/publication-date evidence; do not re-run unchanged code tests without cause. No workflow revival or GSC action.
+
+
+## 27 October 2026 — FCS-GSC-06 publication-date provenance checkpoint
+
+Required audits, handoff, latest main d017e5e7b8d699f50dabb9f02558958740ed87c1 and open PR65/64/58/57/54 reviewed. PR54 unchanged at 1f3c81553f64dff169bbcf7a9b326bfc22cf2026 with no new comments/editing claim. Bounded source-evidence review completed and existing branch QA report updated in 9ea74a093b822950a121c04f1809d55ae900ff28 (docs/blog-qa-report.md only).
+
+Both actual pilot wrappers omit date_published; renderer blob 6df0ec5c870cdab947cf5883f73c38dabea29de3 therefore supplies literal 2026-09-10. README records package generation on that date, not first public availability. Per-article publication provenance is still unverified. Targeted 10000 commit-message search had no matches; not exhaustive history. No runtime date changed or invented. QA report also links already completed exact-head lint/example/SVG/selector/integration evidence and explains later Java prose-only change, preventing duplicate test work caused by stale original unchecked boxes.
+
+Validation: direct source trace of both wrapper keys and renderer assignment; report references exact inspected blobs and prior checkpoint SHAs. Documentation-only, no new runtime tests claimed. Draft remains unmerged/undeployed; browser/mobile, host assets, publication evidence, attribution and remaining eight pilots pending. Next: obtain publishing/deployment history or reliable dated snapshot before choosing per-URL date metadata; continue normal review. No GSC action or workflow revival.
