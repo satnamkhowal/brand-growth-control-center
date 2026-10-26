@@ -269,3 +269,12 @@ PHP, Chromium and container runtimes remain absent, so existing rendered/browser
 - Independent review required repair of the related GA-B00020 route and verifier state guard before PASS.
 - Factory counts: 17 complete drafts, 17 counted technical visuals, 16 PHP candidates, approved/live 0/0; all 29 IDs preserved. PHP/schema/route/HTTP/release remain pending.
 - Central ownership, Jaipur repository-role reconciliation and the existing AEO/GEO baseline remain unchanged; no merge, deployment or cross-worker edit occurred.
+
+
+## Delta — 2026-10-27: GA-B00023 static integration
+
+- Groot checkpoint [`d9742452836c9a941a29392490167b7550d73276`](https://github.com/satnamkhowal/gta/commit/d9742452836c9a941a29392490167b7550d73276) advances GA-B00023 to `TECH_QA` after independent static integration PASS.
+- Evidence: 90 shared exporter/checker tests PASS, all 17 static candidates PASS, deterministic regeneration, exact canonical/noindex/shared H1-schema ownership, SVG and four downloads.
+- Current main and controller branch share the same blog-layout blob. PHP remains absent (lint exit 3); rendered schema/route/HTTP/release are unverified.
+- Factory counts: 17 complete drafts, 17 counted technical visuals and 17 PHP candidates; approved/live 0/0 and all 29 IDs preserved.
+- Central ownership, Jaipur repository-role reconciliation and existing AEO/GEO baseline are unchanged; no merge, deployment or cross-worker edit occurred.
