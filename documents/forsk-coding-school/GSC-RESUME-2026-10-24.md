@@ -333,3 +333,12 @@ Fresh main 21a44189dfa2b0b9a6c19ecee9a29e9ae62a5c2d, handoff and open PR65/64/58
 Commit 176abe3b1aa02abe8a3fdad0d5ef5422dc2d9798 removes only the unapproved fifth sitemap location and updates the explanatory comment. XML blob 3acd336bb18448397cb9925b2e2ac37e21bfce1c. Python ElementTree strict parse PASS; four unique locations; manual exact match to four approved registry records at blob 1613a69b192a98a323551705b82568e252c6a92a; pending Sourab/Jivan excluded. PR65 body rewritten for final four-URL scope. This supersedes earlier five-URL draft; no profile deletion or identity approval.
 
 State: draft, source fix committed; reviewer recheck and normal release pending. No merge/deployment or fresh live publication claim, no GSC submission, no workflow revival. Next: review corrected PR65, then after release verify raw live XML and all four URLs' status/canonical/robots. Root sitemap discovery strategy and source of inventory regression remain separate follow-ups. Google indexing requires separate evidence.
+
+
+## 26 October 2026 — FCS-GSC-07 retained URL live pre-release QA
+
+Fresh main ce4982722e6fc4f325772bcc9114973fd4631fbf, required source/central audits, handoff and open PR65/64/58/57/54 reviewed. PR65 remains draft/unmerged at 176abe3b1aa02abe8a3fdad0d5ef5422dc2d9798; no new review of corrected head found. Independent read-only QA; no runtime ownership takeover.
+
+Public HTTPS GET and Python HTMLParser checks completed for all four proposed retained /mentors/ routes: satnam-singh-java-backend-trainer-jaipur, shivanshi-paliwal-java-programming-trainer-jaipur, jayakshi-agrawal-data-analytics-trainer-jaipur, kirti-sharma-data-science-machine-learning-trainer-jaipur (each trailing slash). All four returned HTTP200 with final URL identical to requested URL, exactly one matching self canonical, robots and googlebot meta index/follow, and no X-Robots-Tag header. This confirms these sampled live response properties; it is not Google-selected canonical/indexing evidence, browser QA, or publication of the pending sitemap fix. urllib followed redirects; individual intermediate hops were not recorded.
+
+No further runtime change required by this check. PR65 still needs corrected-head review and normal release; after release verify raw live sitemap XML and exact approved URL set. Root discovery strategy and regression import provenance remain follow-ups. No GSC action or paused workflow revival. Prior completed QA was reused.
