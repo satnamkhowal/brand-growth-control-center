@@ -283,3 +283,18 @@ Scope limits: this completes standalone SVG-master validation only. It does not 
 Next: verify actual PR54 renderer image selection and structured data, then desktop/mobile page QA; existing editorial owner should resolve the recorded Java prose findings before publication. P0 GSC exports still unavailable in this run. Do not repeat unchanged Python/Java/PHP or standalone SVG tests without a relevant change.
 
 Source checkpoint: 72d394287be280e2bcfe36f3ccd6e7b112183526.
+
+
+## 26 October 2026 — FCS-GSC-06 image-selection execution
+
+Reviewed required audits, handoff/board/checkpoint, main c36c4bf7a2d3f0b504db15a4ee596de9aa3e33c4 and open PR58/57/54. PR54 retains ownership and unchanged head 1783307d73a21d0d1638d69bfe7edbb365064b3b; this was independent read-only QA, no branch takeover or runtime patch.
+
+Executed unchanged blog/blog-library.php blob 93529a201c0e4d184d5852a88064707704d0e17c with unchanged config.php blob 4e7390ae8feb63d1dd1c1072ada7c86aea996499 using @php-wasm/cli@3.1.60, PHP=8.2. Isolated file-existence fixtures, production HTTP_HOST/HTTPS values, both pilot stems read from their actual wrappers (each requests .webp). Thirteen explicit checks PASS, exit 0: for EACH pilot, missing assets return placeholder with exists=false; SVG-only selects SVG; visible/SEO URLs equal the expected production SVG URL; PNG overrides SVG when both exist; WebP overrides both when present; an explicitly requested SVG extension takes precedence over WebP. Empty image input returns exists=false. Fixture files contained marker text, not images: this tests selection/URL logic only, not image decoding. npm engine warnings did not prevent execution. Prior actual SVG render QA remains separate and was not repeated.
+
+Static wiring review of blog/blog-details.php blob 6df0ec5c870cdab947cf5883f73c38dabea29de3: visible hero uses selected visible_url; page_og_image uses selected seo_url; BlogPosting image is added only when exists=true; hero alt/title are HTML-escaped display-title text, eager load with 1200x675 attributes (same 16:9 ratio as the tested SVG masters). This is source review, not full renderer/schema/browser execution. More precise precedence: requested extension first, then webp/avif/jpg/jpeg/png/svg; WebP-first applies to these two actual wrappers, not every possible input.
+
+No selector defect reproduced. Checkpoint-only change; PR54 stays draft/unmerged/undeployed. Actual host inventory/image loading, full rendered structured data, responsive QA, Java prose findings and approved attribution remain pending. No workflow revival, GSC action or indexing/traffic claim.
+
+Next: full PR54 renderer integration/schema test using exact dependencies, then browser desktop/mobile QA and verified host asset selection after normal review/deployment. Do not treat this fixture matrix as proof of live publication or repeat unchanged prior tests.
+
+Source checkpoint: 7b25ae8e700e3a3f579c4f4b9f2a36675fde26f4.
