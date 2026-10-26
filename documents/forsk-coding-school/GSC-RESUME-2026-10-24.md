@@ -238,3 +238,18 @@ State: Python pilot executable-example checks complete for this exact head. PR54
 Next: continue PR54 validation on its existing head (CLI editorial preflight and Java example), or resume PR57 browser QA when available. Reuse this verified Python result unless its source changes; do not re-run it hourly or publish unreviewed bulk content.
 
 Source evidence checkpoint: 6e34c8c5e1e9b692835bbfc36d405a632891ecf6.
+
+
+## 26 October 2026 — FCS-GSC-06 PR54 PHP lint and editorial preflight
+
+Fresh required source/central audits, handoff, board, checkpoint, main and open PRs reviewed. Main 1ec8c4f512254822ef9174c00f7365ce43a3646f is the PR60 documentation merge; PR60 is no longer open, superseding earlier draft-status notes for source integration only (no host publication claim). Open PR58/57/54 ownership retained. PR54 unchanged head 1783307d73a21d0d1638d69bfe7edbb365064b3b used for bounded independent read-only QA, no competing branch or source edits.
+
+Materialized 11 exact files at PR54 head: seven changed PHP files (blog/blog-details.php, blog/blog-library.php, blog/editorial-index.php, blog/index.php, both blog/editorial pilot files, tools/verify-editorial-articles.php), both existing canonical wrappers and both supplied SVG heroes. All 11 Git blob hashes verified against connector contents; no placeholder files. Preflight script blob 2427b55da03552f6b10d26014f7a2a4c7223896b. Local @php-wasm/cli@3.1.60 installed with ignore-scripts and PHP=8.2 selected (same runtime family used for prior PR57 tests); npm version engine warnings did not prevent successful execution.
+
+Executed node node_modules/@php-wasm/cli/php-wasm.js -l on all nine PHP files: all PASS, exit0. Executed the unchanged tools/verify-editorial-articles.php from the source root: exit0, stderr empty, Static editorial checks passed. Script reported Python1679 words and Java1676 words. These are its whitespace counts after stripping HTML, including code text, not independently certified editorial quality. Checks establish existing wrappers, required nonempty fields, minimum count, H2/code/FAQ markers and availability of a topic-specific image file. They do NOT execute Java, render pages, validate image appearance/loading, structured-data semantics or prove useful/publish-ready content.
+
+Prior exact-head Python example tests remain valid and were not repeated. No implementation fault reproduced by these checks, so no speculative runtime patch. PHP lint/preflight blockers resolved for this exact head; Java execution, full renderer/browser/mobile/schema/image QA, Sourb Sir attribution approval and remaining editorial work are still pending. PR54 remains draft/unmerged/undeployed. PR57 visual QA remains separate. No CI job, owner-paused workflow restoration, GSC action or indexing/traffic claim.
+
+Next: run existing Java example and its edge cases, then full staging rendering/visual QA on PR54. Preserve approval gates; do not repeat completed PHP/Python checks unless source changes. P0 GSC evidence still not obtained in this run.
+
+Source checkpoint: b7e7b090879f531eca28fef6a6869defc8b4d808.
