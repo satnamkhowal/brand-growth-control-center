@@ -242,3 +242,12 @@ PHP, Chromium and container runtimes remain absent, so existing rendered/browser
 - Browser, assistive-technology and zoom assertions remain zero. Code approval is static only; PHP/schema/HTTP/release and publication remain unapproved.
 - Factory counts: 16 complete drafts, 16 technical visuals, 15 PHP candidates, approved/live 0/0; all 29 queue IDs preserved.
 - Central PR ownership, Jaipur repository-role reconciliation and existing AEO/GEO baseline remain unchanged; no merge, deployment or other worker-file changes occurred.
+
+
+## Delta — 2026-10-26: GA-B00022 static integration
+
+- Groot checkpoint [`8377ead7b44a9065ea5506269c59159b068b71bf`](https://github.com/satnamkhowal/gta/commit/8377ead7b44a9065ea5506269c59159b068b71bf) advances GA-B00022 to `TECH_QA` after independent static integration PASS.
+- Evidence: 88 shared exporter/checker tests PASS, all 16 static candidates PASS, 22 draft plus 18 lab checks in normal/`-O`/`-OO`, and deterministic candidate regeneration.
+- Current main's shared blog layout blob matches the controller branch. PHP remains absent (lint exit 3), and browser/assistive-technology/zoom assertions remain zero.
+- Counts are 16 complete drafts, 16 technical visuals and 16 PHP candidates; approved/live remain 0/0 and all 29 IDs are preserved.
+- Central PR ownership, Jaipur repository-role reconciliation and the existing AEO/GEO baseline remain unchanged; no merge, deployment or cross-worker edits occurred.
