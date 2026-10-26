@@ -313,3 +313,14 @@ Limits: the isolated source subset contains the two SVG masters, not a verified 
 Next: browser visual/responsive QA with real assets and review publication-date provenance, Java prose corrections and attribution in the existing PR54 workflow. Completed exact-head Python/Java/lint/selector/SVG checks need not repeat unless relevant source changes. P0 authenticated GSC export evidence remains pending.
 
 Source checkpoint: 8114f3330f61eece994f75734329920f3eaae2ed.
+
+
+## 26 October 2026 — FCS-GSC-07 regression reopened, PR65
+
+Fresh main 00c515cfac1eb837c745b8e396e0d0be5e8871cb, audits, handoff/board and open PR64/58/57/54 reviewed. New mentor/profile work is present on main; do not conflate Sourab Singhania with pending PR54 Sourb attribution. No open competing sitemap fix found. Claimed bounded sitemap regression repair only; new profile files remain untouched.
+
+Regression verified: mentors/mentors-sitemap.xml blob c8545637ca2c6125fa03f2f44097b8c8d632724a contains 502 loc entries, restoring the old directory/generated catalogue plus new Sourab route. Public GET https://forskcodingschool.com/mentors/mentors-sitemap.xml returned HTTP200; Python ElementTree strict parse FAIL: XML or text declaration not at start of entity, line2 column0. Parsing only after lstrip reveals 502 loc values. Thus earlier four-URL mentor sitemap completion is superseded by a new regression. images-sitemap.xml remains approved four-pair blob bff5d91d32b4bed3e97e1037031be87760833a7e; registry remains 1613a69b192a98a323551705b82568e252c6a92a, with four approved entries and pending Jivan.
+
+Draft PR65 https://github.com/satnamkhowal/forsk-coding-school/pull/65, branch seo/mentor-sitemap-regression-20261026, tested commit b3f196bd5bbe255172523a00b40f63e6b2a9cf0b. Reuses PR59 approved sitemap blob 90349c4c306794e6f77ef181bc13caad7a270080, restores its four URLs, removes the generated catalogue/directory and preserves the newly introduced Sourab route. Replacement strict XML parse PASS; five unique URLs; compare confirms one changed file, 1 ahead/0 behind the checked base. This is NOT five registry-approved profiles: Sourab is absent from that registry, so separate approval/canonical/indexability review is a release blocker. No profile deletion, identity edits or image-sitemap changes.
+
+State: source fix committed in draft only; not merged/deployed; live broken sitemap not repaired yet. No GSC submission, workflow revival or traffic/indexing claim. Next: review provenance/indexability of the retained Sourab route with its existing owner, review/merge PR65 normally, then verify raw live XML and exact URL set. Also identify the import/generation source that restored the catalogue to prevent recurrence. Do not redo unrelated PR54/57 completed QA.
