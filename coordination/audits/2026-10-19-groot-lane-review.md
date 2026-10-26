@@ -251,3 +251,12 @@ PHP, Chromium and container runtimes remain absent, so existing rendered/browser
 - Current main's shared blog layout blob matches the controller branch. PHP remains absent (lint exit 3), and browser/assistive-technology/zoom assertions remain zero.
 - Counts are 16 complete drafts, 16 technical visuals and 16 PHP candidates; approved/live remain 0/0 and all 29 IDs are preserved.
 - Central PR ownership, Jaipur repository-role reconciliation and the existing AEO/GEO baseline remain unchanged; no merge, deployment or cross-worker edits occurred.
+
+
+## Delta — 2026-10-26: GA-B00023 repaired partial
+
+- Groot checkpoint [`f45ed2b2a389318d721a4411a9475159beba18e3`](https://github.com/satnamkhowal/gta/commit/f45ed2b2a389318d721a4411a9475159beba18e3) starts GA-B00023 as a partial `DRAFT` without increasing completed or publication counts.
+- New evidence: strict Python sensor-log checker, two synthetic fixtures, 12-test suite and authored SVG. Tests pass in normal/`-O`/`-OO`; clean/findings/fatal exits are 0/1/2.
+- Independent partial QA PASS followed repairs for malformed CSV, elapsed-gap semantics, wrong-unit range interpretation and fractional-duration precision.
+- Article, metadata, integration and release approval are absent. Factory counts remain 16 complete drafts, 16 counted technical visuals and 16 PHP candidates; approved/live remain 0/0 and all 29 IDs are preserved.
+- Central ownership, Jaipur repository-role reconciliation and existing AEO/GEO baseline are unchanged; no source merge, deployment or cross-worker file changes occurred.
