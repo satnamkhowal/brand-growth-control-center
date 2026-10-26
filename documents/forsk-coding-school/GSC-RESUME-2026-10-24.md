@@ -221,3 +221,20 @@ Five distinct main-content link destinations checked with public GET (curl -L, m
 State: PHP integration/schema/directive/main-link checks PASS for exact PR57 head. Desktop/mobile visual layout, CSS/JS/assets, actual host PHP compatibility and required review remain pending. PR57 still draft/unmerged/undeployed; no GSC request, indexing/traffic recovery claim, CI run or owner-paused workflow change. Next: render existing PR57 in a browser with actual assets at phone/tablet/desktop widths, review content and normal integration readiness; only then check publication separately. FCS-GSC-04 remains open; P0 GSC query/error exports remain unavailable in this run.
 
 Source checkpoint: c6b23f7885d029f6f6ef9be5733f96ae98e55b3b.
+
+
+## 26 October 2026 — FCS-GSC-06 Python pilot executable-example QA
+
+Fresh main 3ca6ca75c038c5113ab63ed1652d0bfe436c4fbb, required audits/handoff/board/checkpoint and open PR60/58/57/54 reviewed. Chrome browser bootstrap retried through documented connector and returned Unknown tool(browser.js); authenticated GSC and connected-browser visual QA unavailable in this run. Did not substitute a different signed-in browser. Existing work remains incomplete, not fully access-blocked because GitHub and local execution work.
+
+Bounded independent read-only validation of PR54's existing Python pilot; no competing editorial branch or runtime/content edit. refs/pull/54/head resolved to exact commit 1783307d73a21d0d1638d69bfe7edbb365064b3b. Source blog/editorial/python-fundamentals-and-syntax-practical-roadmap-beginners.php Git blob 783ecb0e9e665b86db68e33ec07c8f17d5ccb0b9 verified against retrieved bytes. Extracted exactly two language-python pre/code blocks, HTML-unescaped without editing code, into temporary tracker.py and test_tracker.py. Only fictional names/marks used; temporary CSV deleted after execution.
+
+Python 3.12.14 tests PASS, subprocess exit0 and no stderr: article's exact validation assertions; Meena82 then Aman68 produces documented average75.0; CSV has one header and expected rows; 101/-1/abc scores rejected without modifying CSV; whitespace-only name rejected without modifying CSV; inclusive0/100 accepted; four saved rows contain82,68,0,100; average_score returns None for missing CSV and header-only CSV. This establishes actual example behavior within these cases, not universal correctness or production readiness. Corrupted CSV, concurrent writes, duplicate records, authentication and private data are explicitly outside the tutorial's declared scope; not silently claimed solved.
+
+Static editorial note: portfolio-extension paragraph suggests preventing blank names although main already does so; a minor redundant suggestion for the existing author to revise, not a runtime blocker. Attribution to Sourb Sir still requires identity/credentials/photo approval; no inferred identity substitution.
+
+State: Python pilot executable-example checks complete for this exact head. PR54 PHP lint/preflight, Java example execution, complete rendered schema/image/responsive QA, editorial attribution and remaining pilots remain pending. PR57 visual QA and PR60 owner review remain separate. No PR merge, host deployment, GSC action, CI run, workflow revival or indexing/traffic recovery claim.
+
+Next: continue PR54 validation on its existing head (CLI editorial preflight and Java example), or resume PR57 browser QA when available. Reuse this verified Python result unless its source changes; do not re-run it hourly or publish unreviewed bulk content.
+
+Source evidence checkpoint: 6e34c8c5e1e9b692835bbfc36d405a632891ecf6.
