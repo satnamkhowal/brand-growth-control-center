@@ -294,3 +294,14 @@ PHP, Chromium and container runtimes remain absent, so existing rendered/browser
 - Evidence: original 1,366-word article, JavaScript state model, 15 deterministic Node tests, metadata and authored SVG. 22 draft checks pass under normal/`-O`/`-OO`; syntax and adversarial state/clock boundaries pass.
 - Factory counts: 18 complete drafts, 18 counted technical visuals, 17 PHP candidates, approved/live 0/0; all 29 IDs preserved. PHP/schema/route/HTTP/release remain pending.
 - Central ownership, Jaipur repository-role reconciliation and existing AEO/GEO baseline are unchanged; no merge, deployment or cross-worker edit occurred.
+
+
+## Delta — 2026-10-27: GA-B00024 static integration
+
+- Groot controller branch advanced from complete-content checkpoint `8e89daef720ae9dbce7bac37fbe5e5b11f705511` to static-integration checkpoint `a4a02cfff3eb099172dbb5e0ac9df1158219be51`.
+- GA-B00024 shared PHP review candidate now independently passes static integration: 92 shared exporter/checker tests, all 18 article candidates, deterministic regeneration, canonical/noindex/shared-H1/schema ownership, exact SVG and two downloads.
+- Current GTA main observed at `65e906c230da61f1ef53d91c1725ff00164c5c08`; its guide-recovery commits do not change the shared blog-layout blob, which remains `7e19e1b4b87843d65b5aa7f1cb0fb33a5b154178` on main and the controller branch.
+- State remains draft-only: 18 complete drafts, 18 technical visuals and 18 PHP candidates; approved 0, live 0. PHP binary is absent (lint exit 3); browser/PHP/schema/route/HTTP and independent release gates remain open.
+- Central ownership, PR #2 AEO/GEO baseline, PR #3 coordination lane and Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate-site reconciliation are unchanged. No source implementation, merge, deployment or publishing occurred here.
+
+Exact next action: execute GA-B00024 PHP rendering and shared schema/H1 validation in a PHP-capable environment, then verify registry/route/canonical/image/internal links and both downloads over HTTP before independent release review.
