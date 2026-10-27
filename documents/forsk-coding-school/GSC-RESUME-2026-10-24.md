@@ -419,3 +419,14 @@ Important exception: Oracle Java21 List.html returned HTTP200 but only a 195-byt
 Commit 5495f89690b1769d8e958b4fdc3883e9f2c750b6 changes only the Java editorial's two internal hrefs to verified extensionless canonicals, avoiding the measured redirect hops. Blob 5a4812bbb6f21d24ec23fb7d34c22bb7b549614e. Validation: exactly one occurrence of each intended old href replaced; all pre/code blocks byte-identical; committed full-file readback matches intended content. Prior code/PHP/schema tests reused; no redundant execution or new browser-layout claim. Python article remains blob eef746ae62c46e56f4592fa48a6d956ccc34aedb.
 
 State: REVIEW/draft, not merged/deployed; no Google indexing/traffic claim. Remaining gates: Oracle reference content access, browser/mobile and host assets, publication-date provenance, approved attribution and remaining pilots. P0 GSC exports remain unavailable from last verified connector attempt; no repeated attempt this run. Next review the link-only diff, resolve outstanding evidence gates, and verify live article changes only after normal release. No workflow revival, form submission or GSC action.
+
+
+## 27 October 2026 — FCS-GSC-06 reference and QA status reconciliation
+
+Required audits, handoff/board, main a7de64db1eea3297d48dbc656b1be08920bfd287 and open PR70/69/65/64/58/57/54 reviewed. PR54 unchanged 5495f89690b1769d8e958b4fdc3883e9f2c750b6, no comments/new editing claim; existing branch reused for documentation only. PR65 remains unchanged awaiting review.
+
+Exact official URL https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html opened successfully via web retrieval: Java SE21 List interface documentation with ordered collection/duplicate-element semantics, ArrayList implementation and method descriptions. This resolves reference-content verification through that path; prior direct urllib 195-byte Site Unavailable response remains recorded, and direct/browser availability is not claimed retested. No need to replace the official link.
+
+Commit 97c58746e7ce1e14dba49f53fdbb030ca89fd6fd updates docs/blog-qa-report.md (blob 7fac5b2a8bd64030e947ae22b6fc8a8fd7d96e24): separates completed PHP checks from pending browser QA, removes stale unexecuted-preflight claim, records reference evidence and later prose/link commits. PR54 description reconciled to the same completed/pending evidence. Validation: source-content verification and prior exact-head evidence review only; no runtime tests rerun or runtime files edited.
+
+Status REVIEW/draft, unmerged/undeployed; no indexing claim. Remaining blockers: browser/mobile/host assets, publication-date evidence, approved attribution and eight pilots; P0 GSC exports still unavailable. Next complete these gates on existing branches, do not rerun unchanged tests merely because earlier historical checklists were pending. No workflow revival or GSC action.
