@@ -278,3 +278,11 @@ PHP, Chromium and container runtimes remain absent, so existing rendered/browser
 - Current main and controller branch share the same blog-layout blob. PHP remains absent (lint exit 3); rendered schema/route/HTTP/release are unverified.
 - Factory counts: 17 complete drafts, 17 counted technical visuals and 17 PHP candidates; approved/live 0/0 and all 29 IDs preserved.
 - Central ownership, Jaipur repository-role reconciliation and existing AEO/GEO baseline are unchanged; no merge, deployment or cross-worker edit occurred.
+
+
+## Delta — 2026-10-27: GA-B00024 repaired partial
+
+- Groot checkpoint [`8bf2b434d8c5c98471facf5063153871da5e7aa4`](https://github.com/satnamkhowal/gta/commit/8bf2b434d8c5c98471facf5063153871da5e7aa4) starts GA-B00024 as a partial `DRAFT` without increasing completed or publication counts.
+- New evidence: explicit JavaScript timer state model, 15 deterministic Node tests and authored SVG. Independent partial QA PASS after double-sampling, global clock-regression and diagram-route repairs.
+- Article, metadata, integration and release approval are absent. Factory counts remain 17 complete drafts, 17 counted technical visuals and 17 PHP candidates; approved/live 0/0 and all 29 IDs preserved.
+- Current main advanced through the branded reviews workstream; no overlap with this factory package was observed. Central ownership, Jaipur role reconciliation and AEO/GEO baseline remain unchanged; no merge or deployment occurred.
