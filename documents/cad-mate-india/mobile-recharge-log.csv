@@ -1,0 +1,2 @@
+brand,mobile_last4,operator,recharge_date,validity_days,amount_inr,estimated_renewal_date,source,status,notes
+Cad Mate India,7091,Airtel,2026-10-28,84,469.00,2027-01-20,user_provided_sms,payment_processed_activation_unverified,"Same 84-day plan per user. Airtel payment update reported as pending within 15 minutes. Exact activation/expiry unverified. Sensitive order ID omitted from public repository."
