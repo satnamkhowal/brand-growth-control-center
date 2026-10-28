@@ -452,3 +452,30 @@ Materialized and verified Git blob hashes for 17 actual PR57 files: page, restor
 Render exit0, stderr empty, no warning/fatal/deprecated/notice output. HTML 71,327 bytes, SHA256 10a4988edca7d9dc2ab926f704106f6fa2b3cd55d545a17cd5b7e7e70b21e179. Python HTMLParser/JSON assertions PASS: one H1, one expected self canonical, index/follow robots, all JSON-LD parses, one Article with dateModified=2026-10-27 and correct URL, one FAQPage with three question/answers matching visible text. New attendance heading, four fictional records, 50/100/75 percentages, empty-report wording and Updated October2026 label present in rendered text. This is actual PHP/shared-template output, not browser layout or host deployment proof.
 
 No code patch required. Prior SQLite acceptance arithmetic/constraint tests were not repeated. Status REVIEW/draft, unmerged/undeployed; browser/mobile CSS/JS/assets and release review still pending. Next visually check the new section at phone/tablet/desktop widths and reconcile any shared dependency changes before normal integration; then verify live publication/GSC separately. P0 exports remain blocked on authenticated access. No workflow revival, GSC action or indexing/traffic claim.
+
+
+## 28 October 2026 — FCS-GSC-03 expanded boilerplate repair
+
+Owner: this SEO continuation; status REVIEW, draft PR85 https://github.com/satnamkhowal/forsk-coding-school/pull/85. Required source/central audits, handoff/board/checkpoints, main 7ceda923a2ad641f398ccceb7b61b60ea9dd3426 and open PR84–75/74/70/69/65/58/57/54 reviewed. No open AMP PR; AMP branch search returned only the earlier completed repairs. Preserve other owners' work, including new interview mini-lab PRs. Prior three repaired stories not modified; new branch fix/remaining-story-amp-20261028 extends the unfinished wider-story audit.
+
+Search returned 19 story documents. Exact original Git blob hashes verified. amphtml-validator@1.0.38 with official validator_wasm.js (SHA256 f1f4629ab36f555f5a9937a5cf00f0ef780bf025883c035d06389b151c896f26) found five PASS and fourteen FAIL, each MANDATORY_CDATA_MISSING_OR_INCORRECT in head > style[amp-boilerplate]. Replacing only that style block with the complete previously validated boilerplate yields all 19 PASS. This expanded coverage justifies rechecking the five controls; prior unrelated tests were not repeated.
+
+Implementation head: 72b8c113cf2b0a4b57d9040fa24065b9c6228513. PR diff: 14 files, 14 additions/14 deletions. Every committed full file read back equal to the tested replacement. Titles, story prose, dates, canonical, assets and noscript styles unchanged. Changed paths and resulting Git blobs:
+- web-stories/google-adk-kotlin-ai-agents-students-september-2026/index.html: 05c674858e19262baded3d6c8b7447a0ce529cb3
+- web-stories/gemini-3-8-flash-cyber-coding-students-september-2026/index.html: 8a48dc713b0fba77703bcf40ed88be7ce1407d59
+- web-stories/aws-mla-c02-generative-agentic-ai-students-september-2026/index.html: 400e2d4d5a352c35616d149fe226deef84333b95
+- web-stories/aws-deception-benchmark-ai-security-students-september-2026/index.html: 44b770a57bd19a5b49c3fa31ed7509825a486d2d
+- web-stories/microsoft-ai-brand-phishing-security-students-september-2026/index.html: 23c95b8065ad4523d69b09c16392f15af305ce50
+- web-stories/anthropic-ai-cyber-autonomy-security-students-september-2026/index.html: 7e3fa1042c28d5a2e837ddbbd55857239721607c
+- web-stories/microsoft-cloud-web-app-threat-matrix-students-september-2026/index.html: 0894ad6dc66618b6aefdfb05c6a87237ae00cc51
+- web-stories/github-hydrafusion-multi-model-coding-students-september-2026/index.html: 6815d16efc7d0435f950ccdaaca6fc70e26a28a4
+- web-stories/google-cloud-developer-plugin-ai-coding-agents-september-2026/index.html: a843fe6e658155b958a6acb3884e47fa372870c7
+- web-stories/aws-nx-plugin-ai-scaffolding-full-stack-students-september-2026/index.html: 6db2840a516c6ee24815c1bc7ff9eac9b68f81fd
+- web-stories/github-copilot-code-review-autoresolution-students-september-2026/index.html: 43003ebacd125d11cbd43bf929766c339ef0203d
+- web-stories/github-secret-scanning-pr-merge-protection-students-september-2026/index.html: 4468408a67cfc0867299d3e2909de0c818557a12
+- web-stories/google-gtig-ai-coding-supply-chain-security-students-september-2026/index.html: 5792a5cfcfaab18f7725ea412d4aea44874b0214
+- web-stories/aws-agentcore-evaluations-ai-agent-monitoring-students-september-2026/index.html: fb2906ae30070560e786930a8724c712c8bf81c8
+
+No merge/deployment/live output/GSC validation/indexing or traffic improvement claimed; no owner-paused workflow enabled. Search-discovered 19 files are not proof of exhaustive inventory; shared generator not located. Factual vendor claims, asset delivery and responsive story QA remain release gates. PR85 creation reported mergeable=false (volatile, not diagnosed); inspect/reconcile current main before integration rather than force-updating. P0 query/daily/error-example exports still blocked on unverified authenticated GSC access, not retried here.
+
+Next: review PR85 and validate factual claims/assets/visuals; inspect mergeability and complete normal integration only after gates pass, then validate exact served HTML and GSC separately. Continue broader generator/inventory investigation without repeating these exact-source validations absent changes. FCS-GSC-03 remains open.
