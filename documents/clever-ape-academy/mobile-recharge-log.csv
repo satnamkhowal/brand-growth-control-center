@@ -1,2 +1,2 @@
-brand,mobile_number,recharge_date,validity_days,estimated_renewal_date,source,status,notes
-Clever Ape Academy,06367716188,2026-10-28,84,2027-01-20,user_reported,recorded,"Estimated renewal date is recharge date + 84 days; operator-confirmed expiry and amount not provided."
+brand,mobile_number,operator,recharge_date,validity_days,amount_inr,estimated_renewal_date,source,status,payment_reference,notes
+Clever Ape Academy,06367716188,Jio,2026-10-28,84,,2027-01-20,user_reported,recorded,,"Provider identified as Jio on 2026-10-28; expiry estimated from 84 days, operator confirmation and recharge amount not provided."
