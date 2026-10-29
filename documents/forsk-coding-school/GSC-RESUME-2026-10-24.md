@@ -567,3 +567,12 @@ PR54 tested head6316f617ee9b6d19451f9236754f46f9a7609fa3; fresh main3127dbe165bb
 Both actual wrappers rendered with real shared PHP includes under PHP8.2.33/@php-wasm/cli3.1.60;25 fetched source/image blobs verified exact before final render,20 repository PHP files executed per page. Simulated nonlocal request context in CLI, not HTTP/browser/host proof. Both exit0; E_ALL diagnostics converted to exceptions. Parsed complete output: one BlogPosting/H1, correct sole canonical/Article URL, datePublished omitted, visible Updated/dateModified2026-10-24 agree, robots/googlebot index/follow preserved. Final hashes and source manifest in report. Materialization-added trailing newlines were corrected and both outputs rerendered; only exact-byte final runs counted. Existing8 isolated tests not repeated.
 
 Integration gate PASS; no new runtime code or publication date. PR54 remains draft/review. Browser/mobile/host-image/attribution and deployment/GSC gates remain open; no merge/deploy/indexing/workflow action. Next real browser/host review on exact current source before normal release. P0 GSC exports still require authenticated access.
+
+
+## 29 October 2026 — FCS-GSC-03 Cloud Developer Plugin story review
+
+Existing PR85 branch resumed at f0c56d0fe0259f6d76251a8423e5ac2baf5f739b after main b7a2a2788f57fe4562936ca753c76886a1468098, audits/handoff/board/open PRs and PR85 comments reviewed. PR94/95 metadata scopes do not overlap; no competing story claim. [Evidence commit 538aa51589cf6080f84b06c171508f1864d07869](https://github.com/satnamkhowal/forsk-coding-school/commit/538aa51589cf6080f84b06c171508f1864d07869) adds docs/seo/WEB-STORY-CLOUD-PLUGIN-REVIEW-2026-10-29.md.
+
+Eight story pages/five skill labels and SVG cover text checked against two official Google sources; no copy fix warranted in this bounded comparison. Article outlink GET200 with matching canonical/title; exact URL, source blobs, body SHA256 and scope limits in report. No cloud/plugin execution, browser/mobile rendering, full article review or new AMP test claimed. No runtime edits.
+
+This one-story factual/link slice COMPLETE; PR85 DRAFT/REVIEW. Asset fixes, remaining stories, independent validation and mobile/host checks remain open. No merge/deployment/indexing/workflow change. Next prepare approved assets or review another unreviewed story. P0 exact GSC daily/query/error examples remain blocked on authenticated access; no repeated prior validations.
