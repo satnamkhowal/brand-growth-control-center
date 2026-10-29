@@ -521,3 +521,20 @@ Prior executed evidence (28 October UTC / 29 October IST): all 20 existing REDIR
 Continuation validation: committed evidence read back and checked for 20 unique table paths, 20 source-wrapper records and seven final destination hashes. No repeat live test claimed. Source evidence and central handoff now reconciled. This verification is COMPLETE; broader FCS-GSC-02/05 remain OPEN. Preserve 193 compact noindex entries and consolidation decisions. No code, merge, deployment, indexing submission or owner-paused workflow change.
 
 Blocker: authenticated GSC daily/query exports and exact historical 19 server-error/10 redirect-error examples remain unavailable; no traffic-causality or Google validation claim. Next: obtain exact examples and diagnose remaining errors; PR85 asset repair and existing editorial/browser review gates remain independently pending. Do not rerun these same 20 chains absent a source/deployment change or regression signal.
+
+
+## 29 October 2026 — FCS-GSC-05 registry deduplication and recovery-sitemap gate
+
+Bounded read-only source reconciliation at main 1e39f0f72f02b6e4ea7d27957c7495584cafbf52. Required source/central audits, handoff, board and open PR93/92/91/90/89/86/85/84–75/74/70/69/65/58/57/54 reviewed. No competing registry edit identified; existing editorial/AMP/profile owners retained. No runtime patch warranted.
+
+Inputs: docs/seo/gsc-full-restoration-20261016-decisions.json blob 9b619b09e5a2b536c493c7a99a619dec2c144b3a; recovered-pages-sitemap.xml blob a14cddd15d5532695402f79d5246c0de73dfffa4. Registry has 247 decisions: 193 CREATE, 31 KEEP_RETIRED_DEMO, 20 REDIRECT, 2 EXISTING_PR31, 1 BLOCKED_IDENTITY_EVIDENCE. Metadata states 250 review rows / 247 unique paths from a 1,000-row sample; original raw rows were not reprocessed, so that historical input coverage is not independently recounted.
+
+Executed JS checks: 247 unique paths after percent-decoding, lowercasing and trailing-slash normalization; zero collisions; zero self redirects; no redirect destination classified in this registry as CREATE, retired, blocked or another redirect. All 193 CREATE records explicitly indexing_approved=false; no exact duplicate nonempty titles. Distinct titles/path strings are NOT proof of distinct search intent or original page content.
+
+Executed Python JSON/ElementTree assertions (exit0): registry length/unique metadata agree at247; all193 false gates; recovery sitemap has9 unique loc URLs; zero intersections with the245 registry paths other than the two EXISTING_PR31 guides; both preserved guides included. Scope is this committed recovery sitemap only, not all site sitemaps, current HTTP responses or Google indexing. Existing20 live redirect tests were not repeated. No claim that all193 live pages enforce noindex or that full GSC404 reconciliation is complete.
+
+P0 access check: Browser skill loaded; connected browser initialization returned Unknown tool(browser.js). No authenticated GSC session or new export obtained; no alternate browser/session assumed. Blocker remains exact daily/query exports and historical19 server-error/10 redirect-error URL examples.
+
+Status: this registry/sitemap consistency slice COMPLETE; broader FCS-GSC-05 OPEN. Documentation only; no runtime code, noindex policy, page creation, merge, deployment, GSC action or paused workflow change. Next: reconcile new exact GSC examples against these existing247 decisions before proposing restoration; individually review compact page substance before any index approval. Pending PR85 assets and editorial/browser gates remain separate. Do not repeat this unchanged source consistency check without a regression signal.
+
+Evidence commit: https://github.com/satnamkhowal/forsk-coding-school/commit/c6ab146ec0574a6fb5e502d8da84e71c92ed5e42
