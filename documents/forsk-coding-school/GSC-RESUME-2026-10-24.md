@@ -576,3 +576,12 @@ Existing PR85 branch resumed at f0c56d0fe0259f6d76251a8423e5ac2baf5f739b after m
 Eight story pages/five skill labels and SVG cover text checked against two official Google sources; no copy fix warranted in this bounded comparison. Article outlink GET200 with matching canonical/title; exact URL, source blobs, body SHA256 and scope limits in report. No cloud/plugin execution, browser/mobile rendering, full article review or new AMP test claimed. No runtime edits.
 
 This one-story factual/link slice COMPLETE; PR85 DRAFT/REVIEW. Asset fixes, remaining stories, independent validation and mobile/host checks remain open. No merge/deployment/indexing/workflow change. Next prepare approved assets or review another unreviewed story. P0 exact GSC daily/query/error examples remain blocked on authenticated access; no repeated prior validations.
+
+
+## 29 October 2026 — FCS-GSC-03 threat matrix story review
+
+Main 54a224cea457482560c3f562ed5a1da1b81f84fd, required audits/handoff/current board and 26 open PRs checked. PR85 head538aa51589cf6080f84b06c171508f1864d07869 unchanged before write; no competing story claim. Existing branch reused. [Evidence commit 2bb695f35e4fefe1fbe2c0583ebada21ebc67e87](https://github.com/satnamkhowal/forsk-coding-school/commit/2bb695f35e4fefe1fbe2c0583ebada21ebc67e87) adds docs/seo/WEB-STORY-THREAT-MATRIX-REVIEW-2026-10-29.md.
+
+Eight story pages/five lessons and SVG cover text compared with the official Microsoft announcement; no copy correction warranted. Article GET returned200 with exactly one matching canonical and topic-matching title; Python assertions exit0. Source blobs, URL and body SHA256 recorded in report. No visual/security tests, full article factual review or new AMP validation claimed. No runtime edits.
+
+This one-story review COMPLETED; PR85 remains REVIEW/draft, unmerged/undeployed. Logo/poster repairs, remaining factual reviews, independent validation and mobile/host checks pending. Next prioritize approved asset preparation or a different unreviewed story, without repeating unchanged checks. P0 GSC daily/query/error examples still require authenticated access. No indexing or owner-paused workflow action.
