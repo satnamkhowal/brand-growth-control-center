@@ -1,4 +1,5 @@
 name: Merge all open PRs
+# owner-authorized sweep 2026-10-29
 
 on:
   push:
