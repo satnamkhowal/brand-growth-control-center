@@ -1,0 +1,50 @@
+name: Merge all open PRs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/merge-all-open-prs.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge-all:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Ready and merge every open PR newest first
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set +e
+          mapfile -t PRS < <(gh api --paginate "repos/${REPO}/pulls?state=open&per_page=100&sort=created&direction=desc" --jq '.[].number')
+          echo "Found ${#PRS[@]} open PRs"
+          merged=0
+          blocked=0
+          for pr in "${PRS[@]}"; do
+            state=$(gh api "repos/${REPO}/pulls/${pr}" --jq '.state')
+            [ "$state" = "open" ] || continue
+            draft=$(gh api "repos/${REPO}/pulls/${pr}" --jq '.draft')
+            if [ "$draft" = "true" ]; then
+              echo "PR #${pr}: marking ready"
+              gh pr ready "${pr}" --repo "${REPO}" || true
+            fi
+            sha=$(gh api "repos/${REPO}/pulls/${pr}" --jq '.head.sha')
+            echo "PR #${pr}: merge attempt at ${sha}"
+            out=$(gh api --method PUT "repos/${REPO}/pulls/${pr}/merge" -f merge_method=merge -f sha="${sha}" 2>&1)
+            rc=$?
+            if [ $rc -eq 0 ] && echo "$out" | jq -e '.merged == true' >/dev/null 2>&1; then
+              echo "PR #${pr}: MERGED"
+              merged=$((merged+1))
+            else
+              echo "PR #${pr}: BLOCKED: ${out}"
+              blocked=$((blocked+1))
+            fi
+          done
+          echo "SUMMARY merged=${merged} blocked=${blocked}"
