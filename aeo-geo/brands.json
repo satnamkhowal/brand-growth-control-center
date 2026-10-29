@@ -1,0 +1,66 @@
+[
+  {
+    "id": "JE",
+    "brand": "Jaipur Engineers",
+    "domain": "jaipurengineers.com",
+    "repository": "satnamkhowal/jaipur-engieneers",
+    "source_status": "Candidate source; production mapping requires version evidence",
+    "answer_topics": "Java/backend course prerequisites; Core Java vs Spring Boot; project outcomes"
+  },
+  {
+    "id": "ME",
+    "brand": "Mango Engineers",
+    "domain": "mangoengineers.com",
+    "repository": "satnamkhowal/mangoengineers.com",
+    "source_status": "Verified repository; deployment drift remains unverified",
+    "answer_topics": "45 vs 60 day internship; eligibility; project assessment; training vs internship"
+  },
+  {
+    "id": "FCS",
+    "brand": "Forsk Coding School",
+    "domain": "forskcodingschool.com",
+    "repository": "satnamkhowal/forsk-coding-school",
+    "source_status": "Existing AI discovery implementation must be reused",
+    "answer_topics": "Choosing a first programming language; mentor support; learning and assessment process"
+  },
+  {
+    "id": "GA",
+    "brand": "Groot Academy",
+    "domain": "grootacademy.com",
+    "repository": "satnamkhowal/gta",
+    "source_status": "Candidate current source; robots declares this domain",
+    "answer_topics": "MERN vs Java full stack; frontend vs full stack; portfolio requirements"
+  },
+  {
+    "id": "CAA",
+    "brand": "Clever Ape Academy",
+    "domain": "cleverapeacademy.com",
+    "repository": null,
+    "source_status": "Source repository not verified; no code writes",
+    "answer_topics": "SEO vs paid ads; digital marketing portfolio; campaign measurement"
+  },
+  {
+    "id": "CM",
+    "brand": "CadMate India",
+    "domain": "cadmateindia.com",
+    "repository": "satnamkhowal/CadMateIndia",
+    "source_status": "Candidate PHP foundation; distinguish from cadmateindia.com repository",
+    "answer_topics": "AutoCAD vs Revit; CAD vs BIM; mechanical vs civil design learning paths"
+  },
+  {
+    "id": "GS",
+    "brand": "Groot Software",
+    "domain": "grootsoftware.com",
+    "repository": "satnamkhowal/groot-software-new-website",
+    "source_status": "Candidate current source; robots declares this domain",
+    "answer_topics": "Software project discovery; web vs mobile applications; maintenance and delivery process"
+  },
+  {
+    "id": "FT",
+    "brand": "Forsk Technologies",
+    "domain": "forsktechnologies.com",
+    "repository": "satnamkhowal/forsktechnologies.com",
+    "source_status": "Template identity remediation required",
+    "answer_topics": "Owner-verified service scope; delivery process; technical capability evidence"
+  }
+]

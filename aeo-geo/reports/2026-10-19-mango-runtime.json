@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-19T02:47:39.590460+00:00",
+  "scope": "Recheck historical runtime blockers only; not deployment version verification",
+  "urls": [
+    {
+      "url": "https://mangoengineers.com/course-one.html",
+      "final_url": "https://mangoengineers.com/course-one.html",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "x_robots_tag": [],
+      "truncated": false
+    },
+    {
+      "url": "https://mangoengineers.com/contact-us.html",
+      "final_url": "https://mangoengineers.com/contact-us.html",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "x_robots_tag": [],
+      "truncated": false
+    },
+    {
+      "url": "https://mangoengineers.com/java-course-jaipur.html",
+      "final_url": "https://mangoengineers.com/java-course-jaipur.html",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "x_robots_tag": [],
+      "truncated": false
+    }
+  ]
+}
