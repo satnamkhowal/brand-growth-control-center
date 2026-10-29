@@ -538,3 +538,12 @@ P0 access check: Browser skill loaded; connected browser initialization returned
 Status: this registry/sitemap consistency slice COMPLETE; broader FCS-GSC-05 OPEN. Documentation only; no runtime code, noindex policy, page creation, merge, deployment, GSC action or paused workflow change. Next: reconcile new exact GSC examples against these existing247 decisions before proposing restoration; individually review compact page substance before any index approval. Pending PR85 assets and editorial/browser gates remain separate. Do not repeat this unchanged source consistency check without a regression signal.
 
 Evidence commit: https://github.com/satnamkhowal/forsk-coding-school/commit/c6ab146ec0574a6fb5e502d8da84e71c92ed5e42
+
+
+## 29 October 2026 — FCS-GSC-03 one-story factual review
+
+Resumed existing PR85 branch after fresh main 10a13a3d2632c18a1706dbd7be9e905c59491a79, required audits/handoff/board, open PRs and PR85 comments were checked. No competing story edit claim found. Report committed at f0c56d0fe0259f6d76251a8423e5ac2baf5f739b: [exact evidence](https://github.com/satnamkhowal/forsk-coding-school/blob/f0c56d0fe0259f6d76251a8423e5ac2baf5f739b/docs/seo/WEB-STORY-ADK-FACT-REVIEW-2026-10-29.md). Full committed report readback matched.
+
+Google ADK Kotlin story source blob 05c674858e19262baded3d6c8b7447a0ce529cb3 and cover SVG blob d6e77542fc139b589d11cbc558210f0b87e70d82 reviewed. Eight page IDs and five lesson labels checked; official source comparison and editorial/factual distinction documented in the report. No copy correction warranted within this bounded scope. No SDK/API execution, visual render, full linked-article review or new AMP test claimed; runtime bytes unchanged.
+
+This one-story factual-summary gate COMPLETE; remaining stories, poster/logo repair, mobile QA and requested independent validation remain OPEN. PR85 DRAFT/REVIEW; no release approval, merge, deployment, GSC action or paused workflow change. P0 exports remain blocked on authenticated GSC access. Next review a different unreviewed story or prepare approved replacement assets; do not repeat this unchanged comparison.
