@@ -3,16 +3,19 @@ name: Merge all open PRs
 on:
   push:
     branches: [main]
-    paths:
-      - .github/workflows/merge-all-open-prs.yml
   workflow_dispatch:
 
 permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: merge-all-open-prs
+  cancel-in-progress: false
+
 jobs:
   merge-all:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[merge-sweep]')
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
