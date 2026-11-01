@@ -101,3 +101,28 @@ Jaipur Engineers evidence:
 - No merge/deployment. Live, GSC indexing, GA4 engagement, qualified leads and ranking remain UNKNOWN.
 
 Next owned action: independently review PRs #30 and #31, reconcile them only against the latest main, and run the combined recovery suite before any owner-approved merge.
+
+
+## Verified portfolio ledger — 2026-11-02, Jaipur Engineers recovery integration
+
+Counts below are for this bounded integration batch only. No new article body was drafted; two independently owned existing resources were reconciled and tested together.
+
+| Brand | Planned | Drafted | Fact checked | QA passed | Committed | PR open | Merged | Images created | Deployed | Live | Indexed | Daily aspiration progress |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | ---: | --- | --- |
+| Jaipur Engineers | 1 | 0 | 2 | 1 | 1 | 1 | 0 | 0 | NO | 0 | UNKNOWN | 0/100 new drafts; 2 existing resources pass combined focused QA |
+| Groot Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate existing lane not duplicated |
+| Forsk Coding School | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate existing lane not duplicated |
+| Mango Engineers | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+| Clever Ape Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+| Swiggy Wala | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | BLOCKED | 0 | UNKNOWN | 0/100; authoritative implementer unresolved |
+| CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+
+Jaipur Engineers evidence:
+- Integrator draft PR: https://github.com/satnamkhowal/je2/pull/32
+- Exact merge `b60207d2609243ea193947cec94139d980923523`; exact main base `009658fac7383a73099d5933a1619c96fba061e7`; 8 commits ahead, 0 behind, 7 intended files.
+- Source PRs #30/#31 remain open, draft and unmerged.
+- DSA focused run 41343323524 SUCCESS; debugging focused run 41343323598 SUCCESS; NPE regression 41343323413 SUCCESS.
+- Full recovery run 41343323359 passed both integrated canonical owners and then failed on the next independent logical-thinking stub.
+- No image generation, merge or deployment. Live, GSC indexing, GA4 engagement, qualified leads and ranking remain UNKNOWN.
+
+Next owned action: human-review PR #32 as the single integrator candidate. Audit the logical-thinking stub in a separate branch; do not widen the integration diff.
