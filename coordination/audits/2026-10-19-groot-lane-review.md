@@ -361,3 +361,15 @@ Exact next action: write GA-B00026's complete original article and metadata arou
 - Existing central ownership, AEO/GEO baseline and Jaipur Engineers repository-role reconciliation are unchanged. No source merge, deployment, publication or owner reassignment occurred.
 
 Exact next action: prepare GA-B00026's bounded current-main-aware PHP review candidate and obtain independent static-integration QA. GA-B00025 exact-main runtime release gates remain held.
+
+
+## Delta — 2026-11-02: GA-B00026 static integration and verified repository successor
+
+- GitHub now permanently redirects the former Groot source name `satnamkhowal/gta` to verified successor `satnamkhowal/grootacademy.com` (same repository ID, branch and commit history). The controller records this mapping rather than treating either name as a second implementation source.
+- Successor checkpoint [`8c024911`](https://github.com/satnamkhowal/grootacademy.com/commit/8c024911f6f1f51a0ed987190e3e35e89529c500) advances GA-B00026 to `TECH_QA` after independent static-integration PASS.
+- Evidence: 96 shared exporter/checker tests, all 20 static candidates, 22 draft checks and six tests in normal/`-O`/`-OO`; deterministic candidate SHA-256 `a9392164f742d68cc95fb846d1f325d1c2cae2323ac26afea2d09a3e4394d1a2`. Candidate stays `noindex,follow` and `publication_approved=false`.
+- Counts are 20 complete drafts, 20 visuals and 20 PHP candidates; five main-integrated/live-unverified, approved 0 and live 0. All 29 IDs remain.
+- Successor main `3dbc8662441cd12d9412f8ab46183e241249b8e8` retains layout blob `43c1cbf64e0a96cffbafa3af4e0afa00f082218a`, different from the controller blob. PHP is absent (exit 3), so rendered schema/H1/TOC and final HTTP/MIME gates remain open.
+- Existing AEO/GEO ownership and Jaipur Engineers `je2` social versus `jaipur-engieneers` website-role reconciliation remain unchanged. No deployment, publication or owner reassignment occurred.
+
+Exact next action: apply/rebase the candidate onto verified successor main without overwriting shared layout, run PHP/rendered schema and registry/sitemap/route/assets/download HTTP checks, then obtain independent release review.
