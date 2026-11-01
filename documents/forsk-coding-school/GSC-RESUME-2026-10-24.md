@@ -585,3 +585,12 @@ Main 54a224cea457482560c3f562ed5a1da1b81f84fd, required audits/handoff/current b
 Eight story pages/five lessons and SVG cover text compared with the official Microsoft announcement; no copy correction warranted. Article GET returned200 with exactly one matching canonical and topic-matching title; Python assertions exit0. Source blobs, URL and body SHA256 recorded in report. No visual/security tests, full article factual review or new AMP validation claimed. No runtime edits.
 
 This one-story review COMPLETED; PR85 remains REVIEW/draft, unmerged/undeployed. Logo/poster repairs, remaining factual reviews, independent validation and mobile/host checks pending. Next prioritize approved asset preparation or a different unreviewed story, without repeating unchanged checks. P0 GSC daily/query/error examples still require authenticated access. No indexing or owner-paused workflow action.
+
+
+## 1 November 2026 — FCS-GSC-03 live boilerplate gate completed
+
+Required source/central audits, current handoff/board/open PRs checked at main 134e95dd8b0ac06cbeb7ba92901fd06537849b4e; other active course/brochure/schedule scopes preserved. PR85 is MERGED at 7561d529bc4b288507df41b4894572086f0f53c1, superseding prior draft-state checkpoints. No merge or deployment performed by this continuation.
+
+[Evidence 1c2180472a4dc56b3a22a81af23d8de55f937204](https://github.com/satnamkhowal/forsk-coding-school/commit/1c2180472a4dc56b3a22a81af23d8de55f937204) records 14 repaired story paths, exact source blobs and live body SHA256 values. All14 public GETs HTTP200; effective URLs and sole canonical match; one amp-story; entire live body byte-equal to exact current source. Git blob hashes checked. Downloaded complete HTML passed amphtml-validator@1.0.38, zero errors, combined assertions exit0. Official validator SHA256 f1f4629ab36f555f5a9937a5cf00f0ef780bf025883c035d06389b151c896f26. Python verification exit0. No redirect-hop count claimed. Earlier incomplete setup not treated as evidence; prior five control docs not repeated.
+
+This 14-URL live boilerplate gate COMPLETED. Overall FCS-GSC-03 remains OPEN: known poster/logo defects, remaining factual/mobile review and GSC validation are separate. Images not redownloaded or repaired; HTML references remain unchanged. Next prepare approved raster portraits/opaque square logo on current non-conflicting work, run asset/AMP/mobile checks, and verify Google separately. P0 daily/query/error exports still require authenticated access. No runtime, indexing, ranking, workflow or field-performance change claimed.
