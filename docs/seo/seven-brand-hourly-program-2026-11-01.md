@@ -12,7 +12,7 @@
 | Mango Engineers | https://mangoengineers.com/ | `satnamkhowal/mangoengineers.com` | Programming, full stack, analytics, AI/DevOps training in Jaipur | Repo README names the site; use `docs/agent-start-here.md` and `docs/task-board.csv`; do not mistake for industrial design firm |
 | Clever Ape Academy | https://cleverapeacademy.com/ | `satnamkhowal/clp` | Digital marketing, SEO, advertising, campaign analytics and adjacent courses | Repo `includes/config.php` names exact site/brand/logo; **do not use `cleverape.in`** (not current academy site) |
 | Swiggy Wala | https://swiggywala.com/ | **NOT YET LOCKED**: compare `satnamkhowal/swiggy-wala-new-website` vs `satnamkhowal/swiggy-wala-website` | Jaipur taxis, airport transfers, Rajasthan routes and practical travel guides | Both repos contain Swiggy Wala site configuration. Current live site could not be fetched; determine deployment/source authority before writing public routes or merges |
-| CadMate India | https://cadmateindia.com/ | **PROVISIONAL** `satnamkhowal/CadMateIndia`, verify vs `satnamkhowal/cadmateindia.com` | AutoCAD, BIM, Revit, SolidWorks, CATIA, CAD workflows | `CadMateIndia/index.php` title and content match public site's subject; confirm actual authoritative repo/deployment before production changes |
+| CadMate India | https://cadmateindia.com/ | `satnamkhowal/CadMateIndia` — **VERIFIED AUTHORITATIVE IMPLEMENTER** | AutoCAD, BIM, Revit, SolidWorks, CATIA, CAD workflows | Live title, H1, course tracks, enquiry wording, locations and footer match current PHP source; `cadmateindia.com` is a legacy static mirror. Evidence: `docs/seo/authoritative-repository-audit-2026-11-01.md` |
 
 Keep every brand's logo, colours, business facts, author identity, internal links, schema and canonical domain separate. Cross-brand links only when editorially relevant and transparent, never to boost ranks artificially. Do not fabricate course, placement, certification, price, date, travel amenity or location claims.
 
@@ -39,7 +39,7 @@ Every report states the real measured results (including zero), delta since prio
 
 ## First production safety gates
 
-- Confirm Swiggy Wala and CadMate India authoritative repositories and deployment identity; do not modify both alternative repos.
+- Confirm Swiggy Wala deployment identity before implementation; do not modify both candidates. CadMate is locked to `satnamkhowal/CadMateIndia` by the 2026-11-01 authority audit.
 - Read Clever Ape's `clp` logo path and URLs; avoid mistakenly reusing the historical `cleverape.in` domain, which currently presents unrelated content.
 - Preserve existing Groot Academy controller PR #405 and its validation/independent review blockers; coordinate with the existing worker registry rather than opening a duplicate.
 - Review existing Jaipur Engineers and Forsk image queues before generating any HD graphics.
