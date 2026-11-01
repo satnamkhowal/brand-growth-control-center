@@ -373,3 +373,15 @@ Exact next action: prepare GA-B00026's bounded current-main-aware PHP review can
 - Existing AEO/GEO ownership and Jaipur Engineers `je2` social versus `jaipur-engieneers` website-role reconciliation remain unchanged. No deployment, publication or owner reassignment occurred.
 
 Exact next action: apply/rebase the candidate onto verified successor main without overwriting shared layout, run PHP/rendered schema and registry/sitemap/route/assets/download HTTP checks, then obtain independent release review.
+
+
+## Delta — 2026-11-02: GA-B00027 repaired partial/static package
+
+- Groot successor checkpoint [`76a7fb96`](https://github.com/satnamkhowal/grootacademy.com/commit/76a7fb96a547acfc72389f9cfdb62e424a4390be) starts GA-B00027 as a partial `DRAFT` without increasing completed or publication counts.
+- New evidence: official Docker networking research, bounded brief, dependency-free API/client, Compose topology, five local tests, 20-check verifier and authored SVG. Tests and checks pass under normal Python, `-O` and `-OO`; compilation passes.
+- Independent QA first rejected short-form `depends_on` because start order did not guarantee API readiness. Repair adds a bounded healthcheck and `condition: service_healthy`; focused re-review PASS.
+- Docker and Podman are absent. Compose config, image execution, service DNS, namespaces, host port forwarding and cleanup remain unexecuted. This is static/local evidence only, not container-runtime QA.
+- Completed counts remain 20 drafts, 20 visuals and 20 PHP candidates; five main-integrated/live-unverified, approved 0 and live 0. All 29 IDs remain.
+- Central ownership, AEO/GEO baseline and Jaipur Engineers repository-role reconciliation remain unchanged. No deployment, publication or owner reassignment occurred.
+
+Exact next action: run the recorded config/service-DNS/published-port/health/cleanup sequence on a Docker-capable runner, then write GA-B00027 article and metadata and obtain independent complete-content QA.
