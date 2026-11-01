@@ -339,3 +339,14 @@ Exact next action: build GA-B00025's current-main-aware shared PHP review candid
 - Central ownership, the existing AEO/GEO baseline and Jaipur Engineers `je2` social versus `jaipur-engieneers` website-role reconciliation are unchanged. No source merge, deployment, publication or owner reassignment occurred.
 
 Exact next action: execute GA-B00025 against the exact current-main layout in a PHP-capable environment, verify single H1/TOC, BlogPosting/BreadcrumbList, registry/sitemap plan and route/canonical/assets/two-download HTTP MIME, then obtain independent release review.
+
+
+## Delta — 2026-11-02: GA-B00026 repaired partial
+
+- Groot checkpoint [`179ee385`](https://github.com/satnamkhowal/gta/commit/179ee38543c8b62f62a8283ac513d5e8fa338dfd) starts GA-B00026 as a partial `DRAFT` while GA-B00025's exact-main PHP release gate remains blocked by unavailable PHP/container runtimes.
+- New bounded evidence: official-source mocks-vs-stubs research, distinct brief, deterministic Python service fixture, six tests, 20-check verifier and authored 1200×720 SVG. Six tests and all verifier checks pass under normal Python, `-O` and `-OO`; compilation and SVG XML pass.
+- Independent QA first rejected a semantic mismatch claiming a returned receipt message where code returns only a Boolean. Brief and verifier were repaired; focused independent re-review PASS.
+- This is not a completed article: article and metadata are absent. Canonical completed counts remain 19 drafts, 19 visuals and 19 PHP candidates; five main-integrated/live-unverified, approved 0 and live 0. All 29 IDs remain.
+- Central ownership, existing AEO/GEO baseline and Jaipur Engineers `je2` social versus `jaipur-engieneers` website-role reconciliation are unchanged. No source merge, deployment, publication or owner reassignment occurred.
+
+Exact next action: write GA-B00026's complete original article and metadata around the reviewed fixture, then obtain independent complete-content QA. GA-B00025 exact-main PHP/schema/registry/route/HTTP gates remain held.
