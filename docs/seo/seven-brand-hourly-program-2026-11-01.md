@@ -49,3 +49,29 @@ Every report states the real measured results (including zero), delta since prio
 - Google Search Central: https://developers.google.com/search/docs/essentials/spam-policies
 - Helpful content: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
 - Image SEO: https://developers.google.com/search/docs/appearance/google-images
+
+
+## Verified portfolio ledger — 2026-11-01, Jaipur Engineers DSA Java lab batch
+
+Counts below are for this bounded batch only. “QA passed” means repository exact-head contract/CI passed; it is not deployment, live availability, indexing, traffic, lead or ranking evidence.
+
+| Brand | Planned | Drafted | Fact checked | QA passed | Committed | PR open | Merged | Images created | Deployed | Live | Indexed | Daily aspiration progress |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | ---: | --- | --- |
+| Jaipur Engineers | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 0 | NO | 0 | UNKNOWN | 1/100 QA-approved draft; 0/100 published |
+| Groot Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate existing lane not duplicated |
+| Forsk Coding School | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate existing lane not duplicated |
+| Mango Engineers | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+| Clever Ape Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+| Swiggy Wala | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | BLOCKED | 0 | UNKNOWN | 0/100; authoritative implementer unresolved |
+| CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+
+Jaipur Engineers evidence:
+- Draft PR: https://github.com/satnamkhowal/je2/pull/30
+- Exact head: `18335fe101b64a335a38fe93e6aca82c414e644e`; exact main base `009658fac7383a73099d5933a1619c96fba061e7`.
+- Four intended files: one improved existing PHP guide, one Java 17 lab, one exact contract and one focused workflow.
+- Focused CI run 41313139978 SUCCESS; NPE regression run 41313139790 SUCCESS.
+- Broader GSC recovery run 41313139762 FAILED after the improved DSA route passed, on the separate legacy `debugging-techniques-fixing-code-errors` canonical.
+- No image generated because the known Jaipur image queue path remains unavailable and no audited page-specific image need was approved.
+- No merge or deployment. Live, GSC indexing, GA4 engagement, qualified leads and ranking remain UNKNOWN.
+
+Next owned action: repair the unrelated legacy debugging stub as a separate bounded Jaipur Engineers batch, or wait for fresh GSC/GA4 evidence before selecting another page. Swiggy Wala implementation remains blocked until deployment authority is evidenced. Do not use control-plane counts as content-production counts.
