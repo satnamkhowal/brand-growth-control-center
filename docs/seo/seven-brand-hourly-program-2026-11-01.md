@@ -75,3 +75,29 @@ Jaipur Engineers evidence:
 - No merge or deployment. Live, GSC indexing, GA4 engagement, qualified leads and ranking remain UNKNOWN.
 
 Next owned action: repair the unrelated legacy debugging stub as a separate bounded Jaipur Engineers batch, or wait for fresh GSC/GA4 evidence before selecting another page. Swiggy Wala implementation remains blocked until deployment authority is evidenced. Do not use control-plane counts as content-production counts.
+
+
+## Verified portfolio ledger — 2026-11-01, Jaipur Engineers debugging-guide restoration
+
+Counts below are for this bounded batch only. No new article body was drafted: one existing substantive resource was restored to its canonical public wrapper and exact-head QA passed.
+
+| Brand | Planned | Drafted | Fact checked | QA passed | Committed | PR open | Merged | Images created | Deployed | Live | Indexed | Daily aspiration progress |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | ---: | --- | --- |
+| Jaipur Engineers | 1 | 0 | 1 | 1 | 1 | 1 | 0 | 0 | NO | 0 | UNKNOWN | 0/100 new drafts; 1 existing resource restored and QA-passed |
+| Groot Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate existing lane not duplicated |
+| Forsk Coding School | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate existing lane not duplicated |
+| Mango Engineers | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+| Clever Ape Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+| Swiggy Wala | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | BLOCKED | 0 | UNKNOWN | 0/100; authoritative implementer unresolved |
+| CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+
+Jaipur Engineers evidence:
+- Draft PR: https://github.com/satnamkhowal/je2/pull/31
+- Exact head `eac4339ae8d3b1af6f0c8111eecbc36aab02c2e6`; exact base `009658fac7383a73099d5933a1619c96fba061e7`; 3 commits ahead, 0 behind, 3 intended files.
+- Restored the exact existing debugging guide owner; did not create another URL or duplicate article body.
+- Focused CI run 41317608669 SUCCESS: PHP lint, rendered clean canonical, LearningResource schema, internal links and seven-case Node boundary contract.
+- Broader recovery run 41317608621 FAILED on the independent DSA stub that remains isolated in draft PR #30.
+- No image generated: known Jaipur queue remains unavailable and no approved image need was established.
+- No merge/deployment. Live, GSC indexing, GA4 engagement, qualified leads and ranking remain UNKNOWN.
+
+Next owned action: independently review PRs #30 and #31, reconcile them only against the latest main, and run the combined recovery suite before any owner-approved merge.
