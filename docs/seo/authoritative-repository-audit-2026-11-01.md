@@ -74,3 +74,28 @@ Checked 2026-11-01:
 - Google image SEO best practices: https://developers.google.com/search/docs/appearance/google-images
 
 Large-volume production must remain subordinate to original value, factual accuracy, independent review and actual indexing/lead evidence. A prompt is not an image; a commit is not deployment; sitemap inclusion is not indexing.
+
+## Bounded continuation checkpoint — 2026-11-01, 15:19 IST
+
+Jaipur Engineers PR #15 was reconciled from 365 commits behind to current main `009658fac7383a73099d5933a1619c96fba061e7` with non-forced merge head `de9d00680c77a32e4cef54f813673253cd9948ca`. Three-way edit inspection found zero overlaps in the shared templates and sitemap. The PR is now open, mergeable and 0 behind main with exactly six intended files.
+
+Exact-head evidence:
+- Java chooser PHP lint and four-route contract: PASS, run https://github.com/satnamkhowal/je2/actions/runs/41294895413
+- Spring Boot idempotency regression: PASS, run https://github.com/satnamkhowal/je2/actions/runs/41294895417
+- Communication rendered-browser job: PASS in run https://github.com/satnamkhowal/je2/actions/runs/41294895469
+- Separate communication PHP-render job: BLOCKED by sparse-checkout omission of `batch-calendar/embed.php`
+- GSC recovery suite: BLOCKED by an unrelated migrated DSA page linking to legacy `jaipurengineers.in`
+- Merge/deployment/live/indexing: not performed / UNKNOWN
+
+| Brand | Planned tasks | Articles drafted | Fact-checked articles | QA-passed batches | Brand commits | Existing PRs updated | New PRs | Merged | HD images | Optimized images | Deployed | Live verified | GSC indexed observed |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | ---: | --- |
+| Jaipur Engineers | 1 | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | NO | 0 | UNKNOWN |
+| Groot Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | 0 | UNKNOWN |
+| Forsk Coding School | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | 0 | UNKNOWN |
+| Mango Engineers | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | 0 | UNKNOWN |
+| Clever Ape Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | 0 | UNKNOWN |
+| Swiggy Wala | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | BLOCKED | 0 | UNKNOWN |
+| CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | 0 | UNKNOWN |
+
+Daily article progress remains 0/100 for each brand. This run completed technical integration/QA rather than creating thin articles or unaudited graphics.
+
