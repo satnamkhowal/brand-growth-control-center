@@ -305,3 +305,15 @@ PHP, Chromium and container runtimes remain absent, so existing rendered/browser
 - Central ownership, PR #2 AEO/GEO baseline, PR #3 coordination lane and Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate-site reconciliation are unchanged. No source implementation, merge, deployment or publishing occurred here.
 
 Exact next action: execute GA-B00024 PHP rendering and shared schema/H1 validation in a PHP-capable environment, then verify registry/route/canonical/image/internal links and both downloads over HTTP before independent release review.
+
+
+## Delta — 2026-11-01: GTA main release reconciliation and GA-B00025 partial
+
+- GTA main is now `40d5a134fa669999355e2d654103b74b1c084e07`. PR [#464](https://github.com/satnamkhowal/gta/pull/464) merged controller IDs GA-B00006–GA-B00010 into main production paths with recorded automated PHP/rendering, code, HTTP/MIME and responsive Chromium gates.
+- These five IDs are recorded as `PUBLISH_PR` / main-integrated, **not live-verified**. The PR explicitly leaves deployment, CDN/MIME, Google-selected canonical, rankings and indexation unverified, and it had no separate submitted GitHub reviewer at the recorded snapshot. Controller approved/live counts therefore remain 0/0; a new coordination count records five main-integrated/live-unverified items.
+- Main shared layout changed from controller blob `7e19e1b4b87843d65b5aa7f1cb0fb33a5b154178` to `5db47740975b88fa9fdae7c3a159831a4c7d1d09`. Later controller candidates require current-main rebase/render review before release.
+- Main commit `40d5a134` adds 2,000 review drafts outside the canonical 29-ID controller. They are not counted as finished, approved or live articles.
+- GA-B00025 now has a bounded, independently reviewed partial package on controller checkpoint `7318289c6ddd8cae9e0dee10fccbc1c1f14f5058`: official-source research/brief, strict Python integer boundary lab, seven tests, 18-check verifier and exact SVG. Article and metadata remain absent, so complete-draft/visual/PHP counts stay 18/18/18.
+- Current central open-PR query returned only #8 and #9. PRs #1/#2/#3 were not returned in the open set; this delta does not infer their merge/closure disposition. Existing AEO/GEO ownership and Jaipur Engineers `je2` social versus `jaipur-engieneers` website-role reconciliation are not reassigned or recreated.
+
+Exact next action: complete GA-B00025 article and metadata, then independent complete-content QA. Separately verify authorized production deployment for GA-B00006–GA-B00010 before any `LIVE_VERIFIED` transition.
