@@ -317,3 +317,14 @@ Exact next action: execute GA-B00024 PHP rendering and shared schema/H1 validati
 - Current central open-PR query returned only #8 and #9. PRs #1/#2/#3 were not returned in the open set; this delta does not infer their merge/closure disposition. Existing AEO/GEO ownership and Jaipur Engineers `je2` social versus `jaipur-engieneers` website-role reconciliation are not reassigned or recreated.
 
 Exact next action: complete GA-B00025 article and metadata, then independent complete-content QA. Separately verify authorized production deployment for GA-B00006–GA-B00010 before any `LIVE_VERIFIED` transition.
+
+
+## Delta — 2026-11-01: GA-B00025 complete content and bulk-main boundary
+
+- GA-B00025 complete-content checkpoint is now `48ef4defbfad1f0eecc8ab08bd28195ea4e96974` (content commit `a524ab4d85c01f7b81a91e45baac95c666372906`). It contains a 1,471-word original article, metadata, reviewed Python lab/seven-test suite and authored SVG.
+- Independent complete-content QA PASS: 22 verifier checks and seven tests under normal Python, `-O` and `-OO`; compilation, factual BVA scope, exact table/code agreement, metadata hold and SVG consistency verified. It remains `CONTENT_QA`; PHP/current-main integration and release are pending.
+- Canonical counts are now 19 complete drafts, 19 counted technical visuals, 18 PHP candidates, five main-integrated/live-unverified, approved 0 and live 0. All 29 IDs remain.
+- GTA main advanced to `7057d9e78010cbfcf429c5b6ad6d1b1a982228e5`. Commit `48ad8de780433e8619a12d99750681927c6d6203` claims 5,000 published study guides outside the canonical 29-ID controller. They receive zero controller completion/approval/live credit without ID mapping, originality/dedupe evidence, independent QA and live verification.
+- Central open PR #15 adds a seven-brand ownership ledger, locks CadMate's owner and leaves Swiggy Wala blocked; it does not reassign Groot implementation or resolve Jaipur Engineers `je2` social versus `jaipur-engieneers` website roles. Existing central ownership boundaries remain.
+
+Exact next action: build GA-B00025's current-main-aware shared PHP review candidate, run shared regression and independent static integration QA, and keep publication held. Separately audit the 5,000-guide main change before any canonical count is changed.
