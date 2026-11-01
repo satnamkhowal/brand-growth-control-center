@@ -328,3 +328,14 @@ Exact next action: complete GA-B00025 article and metadata, then independent com
 - Central open PR #15 adds a seven-brand ownership ledger, locks CadMate's owner and leaves Swiggy Wala blocked; it does not reassign Groot implementation or resolve Jaipur Engineers `je2` social versus `jaipur-engieneers` website roles. Existing central ownership boundaries remain.
 
 Exact next action: build GA-B00025's current-main-aware shared PHP review candidate, run shared regression and independent static integration QA, and keep publication held. Separately audit the 5,000-guide main change before any canonical count is changed.
+
+
+## Delta — 2026-11-01: GA-B00025 repaired static integration
+
+- Groot checkpoint [`6e47fdbb`](https://github.com/satnamkhowal/gta/commit/6e47fdbba757c6ce97e6d6c237d14aeec6a3c4a5) advances GA-B00025 to `TECH_QA` after an independent fail-repair-pass cycle. The first review rejected two stale internal links; article, metadata, verifier and regression now use two destinations verified on current main and registry.
+- Independent static-integration evidence: 94 shared exporter/checker tests PASS, all 19 candidates PASS with `publication_approved=false`, 22 draft checks and seven tests pass under normal/`-O`/`-OO`, and deterministic candidate SHA-256 is `9d8e7e53ebc02dbc23d89b6849b0219ec6da18cbb09c3b4b6c139626438a8941`.
+- Canonical counts are 19 complete drafts, 19 technical visuals and 19 PHP review candidates; five main-integrated/live-unverified, approved 0 and live 0. All 29 IDs remain. The separate 5,000-guide main claim remains outside these counts.
+- PHP is absent (lint exit 3). Main layout blob `43c1cbf64e0a96cffbafa3af4e0afa00f082218a` differs from controller blob `7e19e1b4b87843d65b5aa7f1cb0fb33a5b154178`; exact-main render/schema/registry/route/HTTP and independent release review remain open.
+- Central ownership, the existing AEO/GEO baseline and Jaipur Engineers `je2` social versus `jaipur-engieneers` website-role reconciliation are unchanged. No source merge, deployment, publication or owner reassignment occurred.
+
+Exact next action: execute GA-B00025 against the exact current-main layout in a PHP-capable environment, verify single H1/TOC, BlogPosting/BreadcrumbList, registry/sitemap plan and route/canonical/assets/two-download HTTP MIME, then obtain independent release review.
