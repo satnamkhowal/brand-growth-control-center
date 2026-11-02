@@ -417,3 +417,13 @@ Exact next action: obtain Docker runtime evidence and independent runtime QA, th
 - Evidence: 6/6 tests and 23/23 checks under normal/`-O`/`-OO`; compilation PASS. Article and metadata remain absent, so GA-B00028 is partial `DRAFT`.
 - Counts unchanged: 29 IDs; 21 complete drafts, 21 counted visuals, 21 PHP candidates; approved 0; live-verified 0. Root/capability, ACL/MAC/mount/attribute and release claims remain excluded.
 - Central ownership, AEO/GEO baseline and Jaipur Engineers repository-mapping reconciliation are unchanged.
+
+
+## Delta 2026-11-02 — GA-B00028 complete content
+
+- GA-B00028 advanced from repaired partial to independently reviewed complete content at factory commit `5a753a61153c340989661d1a8aac55933341d8a1`.
+- Added a 1,319-word original Linux path-permission article and metadata around the tested evaluator, temporary fixture and exact SVG.
+- Initial complete-content QA rejected confusing numeric-mode notation. The repair distinguishes chmod `755/0755`, Python `0o755`, typical GNU `stat %a` output and the optional special-bit digit; independent re-review PASS.
+- Evidence: 24/24 verifier checks and 6/6 tests under normal/`-O`/`-OO`; compilation PASS. Metadata remains `noindex,follow`, dates null and `publication_approved=false`.
+- Counts: 29 IDs; 22 complete drafts, 22 counted visuals, 21 PHP candidates; approved 0; live-verified 0. Shared PHP/static integration and exact-main release gates remain pending.
+- Central ownership, AEO/GEO baseline and Jaipur Engineers repository-mapping reconciliation are unchanged.
