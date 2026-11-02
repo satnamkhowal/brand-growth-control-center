@@ -226,3 +226,28 @@ Jaipur Engineers evidence:
 - No new article URL, image, merge or deployment. Live response, GSC indexation, GA4 engagement, qualified leads and rankings remain UNKNOWN.
 
 Next owned action: human review of PR #36 as the single integration candidate; separately audit the interview-guide owner. Do not widen the integrator or merge its source PRs independently.
+
+
+## Run checkpoint — 2026-11-02, fresher interview-guide recovery
+
+Verified run-local delta only; no continuous activity is claimed between runs.
+
+| Brand | Planned | Drafted | Fact checked | QA passed | Committed | PR open | Merged | Images | Deployed/live | Indexed | Daily aspiration |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|---|
+| Jaipur Engineers | 1 | 0 | 1 | 1 | 1 | 1 | 0 | 0 | 0 / 0 | UNKNOWN | 0/100 new articles |
+| Groot Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | UNKNOWN | 0/100 |
+| Forsk Coding School | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | UNKNOWN | 0/100 |
+| Mango Engineers | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | UNKNOWN | 0/100 |
+| Clever Ape Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | UNKNOWN | 0/100 |
+| Swiggy Wala | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | BLOCKED | UNKNOWN | 0/100; authority unresolved |
+| CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | UNKNOWN | 0/100 |
+
+Jaipur Engineers evidence:
+- Draft PR: https://github.com/satnamkhowal/jaipurengineers.com/pull/37
+- Exact head `f1b83a0bbf361303c1db476c58326d06211ef97a`; base `009658fac7383a73099d5933a1619c96fba061e7`; 4 ahead, 0 behind, 4 intended files.
+- Restored the existing eight-section fresher interview guide; no new article, universal question list, selection prediction or job/placement guarantee.
+- Focused interview QA 41448031775 **SUCCESS**.
+- Added the route to the broad workflow path filter. Recovery run 41448031759 triggered correctly but failed earlier at the independent DSA main stub already owned by PR #30 / integrator PR #36.
+- No image generation, merge or deployment. Live response, GSC indexation, GA4 engagement, qualified leads and rankings remain UNKNOWN.
+
+Next owned action: independent review of PR #37, then deliberate integration only after PR #36 review. Do not stack or merge either draft blindly.
