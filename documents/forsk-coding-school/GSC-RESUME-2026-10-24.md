@@ -666,3 +666,12 @@ Fresh main c0e50c6b1433aacb6887111a87d8c548f9d5c57a, required audits/handoff/boa
 At 17:42 IST plain directory and legacy-query variant both HTTP200/no redirects, sole directory canonical, robots/googlebot noindex, five registry cards, exactly four approved profile links. Pending Jivan role card unlinked. Legacy search UI/raw nested mentor path/sampled demo name absent. 18/18 bounded Python checks PASS, exit0. Initial link extraction included shared navigation and ignored document base; corrected to actual-link cards against identical response hashes, not a site fix.
 
 Code integration MERGED; public-directory response gate COMPLETE; visual/mobile/photo/GSC states unverified, FCS-GSC-07 overall OPEN. No fresh identity/consent or exhaustive legacy-endpoint claim. No PHP CLI available; no new CI claim. Prior five-profile/sitemap tests not repeated. Next remaining directory visual/photo QA or PR54 visual QA; P0 authenticated exports remain blocked. No runtime edit, merge/deploy/workflow revival/indexing action. Verification ownership released.
+
+
+## 2 November 2026 — FCS-GSC-06 desktop hero/code smoke COMPLETE
+
+Fresh main ba4677ce487a0952f34a714a8e9098cee69bb9b9, required audits/handoff/board/checkpoints/open PRs checked; no overlapping pilot visual-QA claim found. [Evidence 06835ec9700a407332fb1e8a749624a8e1e954fd](https://github.com/satnamkhowal/forsk-coding-school/commit/06835ec9700a407332fb1e8a749624a8e1e954fd), docs/seo/PR54-DESKTOP-SMOKE-2026-11-02.md.
+
+Both Java/Python pilots inspected in public cloud Chrome at1363x936: heading/hero/sidebar render, hero natural1920x1080 and rendered16:9, document scrollWidth1348, both code blocks per article clientWidth=scrollWidth869 with overflow-x:auto; scrolled code samples readable. Eight bounded browser checks PASS. No date/HTTP/AMP/learner-code tests repeated. Edge-strip overlays are not certified harmless across every position.
+
+Scope COMPLETE and ownership released; FCS-GSC-06 overall OPEN for mobile/full keyboard, attribution/editorial gates and remaining pilots. No personal-author approval inferred from public content; Java still shows attribution-review caveat. CWV/social-preview/GSC remain unverified. Next remaining browser-width/keyboard review with viewport control and existing attribution evidence. No runtime edit, merge/deploy/workflow revival/indexing action.
