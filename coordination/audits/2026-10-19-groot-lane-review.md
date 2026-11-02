@@ -385,3 +385,15 @@ Exact next action: apply/rebase the candidate onto verified successor main witho
 - Central ownership, AEO/GEO baseline and Jaipur Engineers repository-role reconciliation remain unchanged. No deployment, publication or owner reassignment occurred.
 
 Exact next action: run the recorded config/service-DNS/published-port/health/cleanup sequence on a Docker-capable runner, then write GA-B00027 article and metadata and obtain independent complete-content QA.
+
+
+## Delta — 2026-11-02: GA-B00027 complete content
+
+- Groot successor checkpoint [`f0eceed0`](https://github.com/satnamkhowal/grootacademy.com/commit/f0eceed0b7955fa7373adc058c087f90fca1d9da) advances GA-B00027 to `CONTENT_QA` after independent complete-content PASS.
+- New evidence: original 1,275-word article, metadata, dependency-free API/client, Compose topology, five local tests and authored SVG. Twenty-two draft checks and all five tests pass under normal Python, `-O` and `-OO`; compilation passes.
+- Independent review confirmed namespace/service/host targets, readiness and lifecycle caveats, conditional Docker Desktop/Engine guidance, two current-main links and metadata hold.
+- Docker and Podman remain absent. No Compose config, service DNS, namespace, published-port, health-orchestration or cleanup runtime PASS is claimed.
+- Canonical counts become 21 complete drafts, 21 visuals and 20 PHP candidates; five main-integrated/live-unverified, approved 0 and live 0. All 29 IDs remain.
+- Central ownership, AEO/GEO baseline and Jaipur Engineers repository-role reconciliation remain unchanged. No deployment, publication or owner reassignment occurred.
+
+Exact next action: obtain Docker runtime evidence and independent runtime QA, then prepare the GA-B00027 shared PHP candidate; release gates remain separate.
