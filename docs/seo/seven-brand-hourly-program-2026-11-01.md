@@ -176,3 +176,28 @@ Jaipur Engineers evidence:
 - No image generation, merge or deployment. Live response, Google-selected canonicals, GSC indexation, GA4 engagement, qualified leads and ranking remain UNKNOWN.
 
 Next owned action: human-review PR #34 as the single integration candidate. Audit the AWS/Azure resource in a separate branch; do not widen this integration or merge source PRs independently.
+
+
+## Verified portfolio ledger — 2026-11-02, Jaipur Engineers AWS/Azure recovery
+
+Counts are deltas for this bounded batch only. One existing substantive workload-comparison guide was restored and QA-passed; no new article body or image was created.
+
+| Brand | Planned | Drafted | Fact checked | QA passed | Committed | PR open | Merged | Images created | Deployed | Live | Indexed | Daily aspiration progress |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | ---: | --- | --- |
+| Jaipur Engineers | 1 | 0 | 1 | 1 | 1 | 1 | 0 | 0 | NO | 0 | UNKNOWN | 0/100 new drafts; 1 existing resource restored and QA-passed |
+| Groot Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate existing lane not duplicated |
+| Forsk Coding School | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate existing lane not duplicated |
+| Mango Engineers | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate card-production request not duplicated |
+| Clever Ape Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+| Swiggy Wala | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | BLOCKED | 0 | UNKNOWN | 0/100; authoritative implementer unresolved |
+| CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+
+Jaipur Engineers evidence:
+- Draft PR: https://github.com/satnamkhowal/jaipurengineers.com/pull/35
+- Exact head `af939d3d570fe352dd312431072ead7090545671`; exact base `009658fac7383a73099d5933a1619c96fba061e7`; 3 commits ahead, 0 behind, 3 intended files.
+- Restored the existing eight-section workload-specific AWS/Azure guide; did not add a provider-winner conclusion, current price, new URL or duplicate article.
+- Focused run 41402064038 SUCCESS: PHP lint, clean canonical, one H1, LearningResource schema, cloud-course links, official-source checks and weighted decision-matrix contract.
+- Broad recovery run 41402064025 FAILED at the independent DSA main stub already owned by PR #30 / integrator PR #34.
+- No image generation, merge or deployment. Live response, Google-selected canonical, GSC indexation, GA4 engagement, qualified leads and ranking remain UNKNOWN.
+
+Next owned action: independently review PR #35, then integrate it only through a deliberate latest-main candidate after PR #34 review. Do not widen or merge either draft blindly.
