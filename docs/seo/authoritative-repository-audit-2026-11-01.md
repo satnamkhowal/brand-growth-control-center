@@ -6,7 +6,7 @@ Status: **coordination evidence only**. This document does not publish, deploy, 
 
 | Brand | Website | Repository decision | Evidence and boundary |
 | --- | --- | --- | --- |
-| Jaipur Engineers | https://jaipurengineers.com/ | `satnamkhowal/je2` — VERIFIED | Existing continuous-growth checkpoint and merged/open SEO history identify this as the owned implementation repository. |
+| Jaipur Engineers | https://jaipurengineers.com/ | `satnamkhowal/jaipurengineers.com` — VERIFIED | Existing continuous-growth checkpoint and merged/open SEO history identify this as the owned implementation repository. |
 | Groot Academy | https://grootacademy.com/ | `satnamkhowal/gta` — VERIFIED | Existing controller and review-only blog-factory work already own this lane. No duplicate content task was opened. |
 | Forsk Coding School | repository canonical requires per-page verification | `satnamkhowal/forsk-coding-school` — VERIFIED | Existing hourly SEO/GSC work and open draft companions own this lane. No duplicate task was opened. |
 | Mango Engineers | https://mangoengineers.com/ | `satnamkhowal/mangoengineers.com` — VERIFIED | Repository README and project instructions identify the Mango Engineers training site. |
@@ -80,9 +80,9 @@ Large-volume production must remain subordinate to original value, factual accur
 Jaipur Engineers PR #15 was reconciled from 365 commits behind to current main `009658fac7383a73099d5933a1619c96fba061e7` with non-forced merge head `de9d00680c77a32e4cef54f813673253cd9948ca`. Three-way edit inspection found zero overlaps in the shared templates and sitemap. The PR is now open, mergeable and 0 behind main with exactly six intended files.
 
 Exact-head evidence:
-- Java chooser PHP lint and four-route contract: PASS, run https://github.com/satnamkhowal/je2/actions/runs/41294895413
-- Spring Boot idempotency regression: PASS, run https://github.com/satnamkhowal/je2/actions/runs/41294895417
-- Communication rendered-browser job: PASS in run https://github.com/satnamkhowal/je2/actions/runs/41294895469
+- Java chooser PHP lint and four-route contract: PASS, run https://github.com/satnamkhowal/jaipurengineers.com/actions/runs/41294895413
+- Spring Boot idempotency regression: PASS, run https://github.com/satnamkhowal/jaipurengineers.com/actions/runs/41294895417
+- Communication rendered-browser job: PASS in run https://github.com/satnamkhowal/jaipurengineers.com/actions/runs/41294895469
 - Separate communication PHP-render job: BLOCKED by sparse-checkout omission of `batch-calendar/embed.php`
 - GSC recovery suite: BLOCKED by an unrelated migrated DSA page linking to legacy `jaipurengineers.in`
 - Merge/deployment/live/indexing: not performed / UNKNOWN
@@ -99,3 +99,8 @@ Exact-head evidence:
 
 Daily article progress remains 0/100 for each brand. This run completed technical integration/QA rather than creating thin articles or unaudited graphics.
 
+
+
+## Repository rename checkpoint — 2026-11-02
+
+GitHub repository ID `1369588932`, previously named `satnamkhowal/je2`, now has the canonical name `satnamkhowal/jaipurengineers.com`. This is a rename of the verified implementation repository, not a change of codebase or deployment authority. Existing commit SHAs, branches and PR numbers remain the continuity evidence; future links and writes should use the new repository name.
