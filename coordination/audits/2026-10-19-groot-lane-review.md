@@ -427,3 +427,13 @@ Exact next action: obtain Docker runtime evidence and independent runtime QA, th
 - Evidence: 24/24 verifier checks and 6/6 tests under normal/`-O`/`-OO`; compilation PASS. Metadata remains `noindex,follow`, dates null and `publication_approved=false`.
 - Counts: 29 IDs; 22 complete drafts, 22 counted visuals, 21 PHP candidates; approved 0; live-verified 0. Shared PHP/static integration and exact-main release gates remain pending.
 - Central ownership, AEO/GEO baseline and Jaipur Engineers repository-mapping reconciliation are unchanged.
+
+
+## Delta 2026-11-02 — GA-B00028 static integration
+
+- GA-B00028 now has a deterministic shared PHP review candidate and independent static-integration PASS at factory commit `b4f3199cca732c5c8b86eccd9362a5bba234722a`.
+- Evidence: 100/100 shared tests, 9/9 B0002 candidates, 24 draft checks and 6 tests under normal/`-O`/`-OO`; candidate SHA-256 `304123d9dce567748d7a5006b732f195e0cb7c2f5e48b422ef8321380985088f`.
+- Candidate preserves canonical/noindex/shared ownership, exact SVG, two downloads, four sources and two current-main internal routes. No H1, dates, duplicate JSON-LD or unsafe payload.
+- Counts: 29 IDs; 22 complete drafts, 22 visuals, 22 PHP candidates; approved 0; live-verified 0.
+- PHP is unavailable (lint exit 3). Exact-main rendering/schema/route/HTTP and independent release review remain pending. No merge, deployment or publication.
+- Brand ownership, AEO/GEO baseline and Jaipur Engineers repository mapping remain unchanged.
