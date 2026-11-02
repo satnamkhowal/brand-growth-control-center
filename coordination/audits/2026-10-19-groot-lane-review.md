@@ -437,3 +437,12 @@ Exact next action: obtain Docker runtime evidence and independent runtime QA, th
 - Counts: 29 IDs; 22 complete drafts, 22 visuals, 22 PHP candidates; approved 0; live-verified 0.
 - PHP is unavailable (lint exit 3). Exact-main rendering/schema/route/HTTP and independent release review remain pending. No merge, deployment or publication.
 - Brand ownership, AEO/GEO baseline and Jaipur Engineers repository mapping remain unchanged.
+
+
+## Delta — 2026-11-03: GA-B00029 repaired defensive partial
+
+Current central main and open coordination work were read for delta scope; no prior baseline crawl, AEO/GEO queue, repository mapping or another owner's files were recreated. Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website mapping remains explicitly unresolved; neither repository role was reassigned.
+
+Groot [checkpoint 2952b8be](https://github.com/satnamkhowal/grootacademy.com/commit/2952b8bea54bd7cefd48f2852071b10a1d816ca4) advances only GA-B00029's partial defensive package. It adds official-source research, a distinct brief, in-memory fictional SQLite parameter-binding fixture, six query tests, four adversarial verifier regressions and an authored exact SVG. Independent QA first failed a non-enforced article/metadata absence claim and an overstated unsafe-preview execution claim. After explicit absence gates, narrowed evidence wording and exact SVG label-reference validation, independent re-review PASS: 23 checks, 6 query tests and 4 verifier tests in normal Python, `-O` and `-OO`; compilation PASS.
+
+CC-AUD-003 counts remain 22 complete text drafts, 22 counted technical visuals, 22 PHP candidates, 0 approved and 0 live-verified. GA-B00029 remains partial `DRAFT`; its article and metadata are absent and its SVG is not added to completed counts. PHP remains unavailable locally, so no exact-main render/schema/route/HTTP or release evidence is implied. Next Groot action is the complete original GA-B00029 article and metadata followed by independent complete-content QA. No source merge, deploy, publication, mapping closure or owner reassignment occurred.
