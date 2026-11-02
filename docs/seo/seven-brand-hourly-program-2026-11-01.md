@@ -201,3 +201,28 @@ Jaipur Engineers evidence:
 - No image generation, merge or deployment. Live response, Google-selected canonical, GSC indexation, GA4 engagement, qualified leads and ranking remain UNKNOWN.
 
 Next owned action: independently review PR #35, then integrate it only through a deliberate latest-main candidate after PR #34 review. Do not widen or merge either draft blindly.
+
+
+## Run checkpoint — 2026-11-02, four-guide exact-head integration
+
+Verified run-local delta only; no continuous activity is claimed between runs.
+
+| Brand | Planned | Drafted | Fact checked | QA passed | Committed | PR open | Merged | Images | Deployed/live | Indexed | Daily aspiration |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|---|
+| Jaipur Engineers | 1 | 0 | 4 | 1 batch | 1 | 1 | 0 | 0 | 0 / 0 | UNKNOWN | 0/100 new articles |
+| Groot Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | UNKNOWN | 0/100 |
+| Forsk Coding School | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | UNKNOWN | 0/100 |
+| Mango Engineers | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | UNKNOWN | 0/100 |
+| Clever Ape Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | UNKNOWN | 0/100 |
+| Swiggy Wala | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | BLOCKED | UNKNOWN | 0/100; authority unresolved |
+| CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | UNKNOWN | UNKNOWN | 0/100 |
+
+Jaipur Engineers evidence:
+- Draft integrator PR: https://github.com/satnamkhowal/jaipurengineers.com/pull/36
+- Exact two-parent head `33228a398c4fec7b6a71fd2230bb815057a9a72b`; main `009658fac7383a73099d5933a1619c96fba061e7`; 16 ahead, 0 behind, 13 intended files.
+- PR #34 and #35 changed-path overlap was 0; source PRs remain unchanged and unmerged.
+- Exact-head focused workflows all passed: DSA 41440015147, debugging 41440015069, logical thinking 41440015173, AWS/Azure 41440015287 and NPE regression 41440015104.
+- Broad recovery 41440015178 passed the four integrated route render/canonical checks, then failed at the independent `technical-interview-preparation-guide-freshers` legacy canonical.
+- No new article URL, image, merge or deployment. Live response, GSC indexation, GA4 engagement, qualified leads and rankings remain UNKNOWN.
+
+Next owned action: human review of PR #36 as the single integration candidate; separately audit the interview-guide owner. Do not widen the integrator or merge its source PRs independently.
