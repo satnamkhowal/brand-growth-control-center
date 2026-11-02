@@ -7,7 +7,7 @@
 | Brand | Website | Implementation repository | Unique editorial focus | Source confidence / gate |
 | --- | --- | --- | --- | --- |
 | Groot Academy | https://grootacademy.com/ | `satnamkhowal/gta` | Original course guides, programming, data, software careers | Verified repo; reuse existing blog registry and draft blog-factory controller PR #405; do not shortcut review-only PRs |
-| Jaipur Engineers | https://jaipurengineers.com/ | `satnamkhowal/je2` | Software engineering / Java-backend / job-relevant projects | Verified repo; continue existing `seo/continuous-growth-20261016` checkpoints and existing PR ownership |
+| Jaipur Engineers | https://jaipurengineers.com/ | `satnamkhowal/jaipurengineers.com` | Software engineering / Java-backend / job-relevant projects | Verified repo; continue existing `seo/continuous-growth-20261016` checkpoints and existing PR ownership |
 | Forsk Coding School | verify primary canonical from repo | `satnamkhowal/forsk-coding-school` | Practical coding tutorials, authentic student projects, original instructor examples | Verified repo; preserve existing Forsk SEO/GSC recovery task, URLs and draft QA boundaries |
 | Mango Engineers | https://mangoengineers.com/ | `satnamkhowal/mangoengineers.com` | Programming, full stack, analytics, AI/DevOps training in Jaipur | Repo README names the site; use `docs/agent-start-here.md` and `docs/task-board.csv`; do not mistake for industrial design firm |
 | Clever Ape Academy | https://cleverapeacademy.com/ | `satnamkhowal/clp` | Digital marketing, SEO, advertising, campaign analytics and adjacent courses | Repo `includes/config.php` names exact site/brand/logo; **do not use `cleverape.in`** (not current academy site) |
@@ -66,7 +66,7 @@ Counts below are for this bounded batch only. “QA passed” means repository e
 | CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
 
 Jaipur Engineers evidence:
-- Draft PR: https://github.com/satnamkhowal/je2/pull/30
+- Draft PR: https://github.com/satnamkhowal/jaipurengineers.com/pull/30
 - Exact head: `18335fe101b64a335a38fe93e6aca82c414e644e`; exact main base `009658fac7383a73099d5933a1619c96fba061e7`.
 - Four intended files: one improved existing PHP guide, one Java 17 lab, one exact contract and one focused workflow.
 - Focused CI run 41313139978 SUCCESS; NPE regression run 41313139790 SUCCESS.
@@ -92,7 +92,7 @@ Counts below are for this bounded batch only. No new article body was drafted: o
 | CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
 
 Jaipur Engineers evidence:
-- Draft PR: https://github.com/satnamkhowal/je2/pull/31
+- Draft PR: https://github.com/satnamkhowal/jaipurengineers.com/pull/31
 - Exact head `eac4339ae8d3b1af6f0c8111eecbc36aab02c2e6`; exact base `009658fac7383a73099d5933a1619c96fba061e7`; 3 commits ahead, 0 behind, 3 intended files.
 - Restored the exact existing debugging guide owner; did not create another URL or duplicate article body.
 - Focused CI run 41317608669 SUCCESS: PHP lint, rendered clean canonical, LearningResource schema, internal links and seven-case Node boundary contract.
@@ -118,7 +118,7 @@ Counts below are for this bounded integration batch only. No new article body wa
 | CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
 
 Jaipur Engineers evidence:
-- Integrator draft PR: https://github.com/satnamkhowal/je2/pull/32
+- Integrator draft PR: https://github.com/satnamkhowal/jaipurengineers.com/pull/32
 - Exact merge `b60207d2609243ea193947cec94139d980923523`; exact main base `009658fac7383a73099d5933a1619c96fba061e7`; 8 commits ahead, 0 behind, 7 intended files.
 - Source PRs #30/#31 remain open, draft and unmerged.
 - DSA focused run 41343323524 SUCCESS; debugging focused run 41343323598 SUCCESS; NPE regression 41343323413 SUCCESS.
@@ -143,7 +143,7 @@ Counts are deltas for this bounded batch only. One existing substantive guide wa
 | CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
 
 Jaipur Engineers evidence:
-- Draft PR: https://github.com/satnamkhowal/je2/pull/33
+- Draft PR: https://github.com/satnamkhowal/jaipurengineers.com/pull/33
 - Exact head `bc3fd5213da4e188a0f89a668db8b9fc23ee5668`; exact base `009658fac7383a73099d5933a1619c96fba061e7`; 3 commits ahead, 0 behind, 3 intended files.
 - Restored the existing eight-section logical-thinking registry guide through the shared renderer; no duplicate URL or article was added.
 - Focused run 41369123387 SUCCESS: PHP lint, clean rendered canonical, one H1, LearningResource schema, internal links, unsupported-claim guard and existing 12-case Node decision-table contract.
@@ -151,3 +151,28 @@ Jaipur Engineers evidence:
 - No image generation, merge or deployment. Live response, Google-selected canonical, GSC indexation, GA4 engagement, qualified leads and ranking remain UNKNOWN.
 
 Next owned action: independently review PR #33, then integrate only through a deliberate latest-main candidate after PR #32 review. Do not widen either draft blindly.
+
+
+## Verified portfolio ledger — 2026-11-02, Jaipur Engineers three-guide integration
+
+Counts are deltas for this bounded integration batch only. No new article body or image was created; three independently owned resources were reconciled and tested together.
+
+| Brand | Planned | Drafted | Fact checked | QA passed | Committed | PR open | Merged | Images created | Deployed | Live | Indexed | Daily aspiration progress |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | ---: | --- | --- |
+| Jaipur Engineers | 1 | 0 | 3 | 1 | 1 | 1 | 0 | 0 | NO | 0 | UNKNOWN | 0/100 new drafts; 3 existing resources pass combined focused QA |
+| Groot Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate existing lane not duplicated |
+| Forsk Coding School | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate existing lane not duplicated |
+| Mango Engineers | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate card-production request not duplicated |
+| Clever Ape Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+| Swiggy Wala | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | BLOCKED | 0 | UNKNOWN | 0/100; authoritative implementer unresolved |
+| CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+
+Jaipur Engineers evidence:
+- Canonical repository name is now `satnamkhowal/jaipurengineers.com`; GitHub repository ID `1369588932` is unchanged from former `satnamkhowal/je2`.
+- Draft integrator PR: https://github.com/satnamkhowal/jaipurengineers.com/pull/34
+- Exact two-parent merge `f4a0382a34729acdbed8438e1f945bd05329df58`; exact main base `009658fac7383a73099d5933a1619c96fba061e7`; 12 commits ahead, 0 behind, 10 intended files, 0 overlapping source paths.
+- Focused runs: DSA 41396033232 SUCCESS; debugging 41396033208 SUCCESS; logical-thinking 41396033231 SUCCESS; NPE regression 41396033215 SUCCESS.
+- Broad recovery 41396033268 passed the three integrated render owners, then failed at independent `aws-vs-azure-cloud-comparison` legacy canonical.
+- No image generation, merge or deployment. Live response, Google-selected canonicals, GSC indexation, GA4 engagement, qualified leads and ranking remain UNKNOWN.
+
+Next owned action: human-review PR #34 as the single integration candidate. Audit the AWS/Azure resource in a separate branch; do not widen this integration or merge source PRs independently.
