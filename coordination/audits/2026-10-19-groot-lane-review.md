@@ -397,3 +397,13 @@ Exact next action: run the recorded config/service-DNS/published-port/health/cle
 - Central ownership, AEO/GEO baseline and Jaipur Engineers repository-role reconciliation remain unchanged. No deployment, publication or owner reassignment occurred.
 
 Exact next action: obtain Docker runtime evidence and independent runtime QA, then prepare the GA-B00027 shared PHP candidate; release gates remain separate.
+
+
+## Delta 2026-11-02 — GA-B00027 static integration
+
+- Verified canonical repository continuity: former `satnamkhowal/gta` redirects to successor `satnamkhowal/grootacademy.com`; implementation remains isolated on `content/groot-100k-controller-20261016`.
+- GA-B00027 now has a deterministic shared PHP review candidate and independent static-integration PASS at factory commit `a0a4401b9834410182b5a6eb9571db89d72a14b8`.
+- Evidence: 98 shared tests, 8/8 B0002 candidates, 22 draft checks and 5 tests under normal/`-O`/`-OO`; candidate SHA-256 `701caf9e1082e47353d93dd2c515853a87ffcb2876bf91ae9fbf1e1ce54584d0`.
+- Counts: 29 IDs preserved; 21 complete drafts, 21 technical visuals and 21 PHP review candidates. Approved 0; live-verified 0; five main-integrated items remain live-unverified.
+- Docker, Podman and PHP remain unavailable. Compose runtime and exact-main PHP/schema/route/HTTP/release gates are still blocked; no merge, deploy, publication or ranking claim.
+- No ownership change: Groot source implementation stays in its brand repository. Existing AEO/GEO baseline and Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website reconciliation remain untouched.
