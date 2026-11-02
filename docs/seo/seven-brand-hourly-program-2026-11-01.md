@@ -126,3 +126,28 @@ Jaipur Engineers evidence:
 - No image generation, merge or deployment. Live, GSC indexing, GA4 engagement, qualified leads and ranking remain UNKNOWN.
 
 Next owned action: human-review PR #32 as the single integrator candidate. Audit the logical-thinking stub in a separate branch; do not widen the integration diff.
+
+
+## Verified portfolio ledger — 2026-11-02, Jaipur Engineers logical-thinking recovery
+
+Counts are deltas for this bounded batch only. One existing substantive guide was restored and QA-passed; no new article body or image was created.
+
+| Brand | Planned | Drafted | Fact checked | QA passed | Committed | PR open | Merged | Images created | Deployed | Live | Indexed | Daily aspiration progress |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | ---: | --- | --- |
+| Jaipur Engineers | 1 | 0 | 1 | 1 | 1 | 1 | 0 | 0 | NO | 0 | UNKNOWN | 0/100 new drafts; 1 existing resource restored and QA-passed |
+| Groot Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate existing lane not duplicated |
+| Forsk Coding School | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100; separate existing lane not duplicated |
+| Mango Engineers | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+| Clever Ape Academy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+| Swiggy Wala | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | BLOCKED | 0 | UNKNOWN | 0/100; authoritative implementer unresolved |
+| CadMate India | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | NO CHANGE | 0 | UNKNOWN | 0/100 |
+
+Jaipur Engineers evidence:
+- Draft PR: https://github.com/satnamkhowal/je2/pull/33
+- Exact head `bc3fd5213da4e188a0f89a668db8b9fc23ee5668`; exact base `009658fac7383a73099d5933a1619c96fba061e7`; 3 commits ahead, 0 behind, 3 intended files.
+- Restored the existing eight-section logical-thinking registry guide through the shared renderer; no duplicate URL or article was added.
+- Focused run 41369123387 SUCCESS: PHP lint, clean rendered canonical, one H1, LearningResource schema, internal links, unsupported-claim guard and existing 12-case Node decision-table contract.
+- Broader recovery run 41369123403 FAILED at the independent DSA main stub already isolated in PR #30 and integrated in PR #32.
+- No image generation, merge or deployment. Live response, Google-selected canonical, GSC indexation, GA4 engagement, qualified leads and ranking remain UNKNOWN.
+
+Next owned action: independently review PR #33, then integrate only through a deliberate latest-main candidate after PR #32 review. Do not widen either draft blindly.
