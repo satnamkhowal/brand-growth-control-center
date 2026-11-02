@@ -407,3 +407,13 @@ Exact next action: obtain Docker runtime evidence and independent runtime QA, th
 - Counts: 29 IDs preserved; 21 complete drafts, 21 technical visuals and 21 PHP review candidates. Approved 0; live-verified 0; five main-integrated items remain live-unverified.
 - Docker, Podman and PHP remain unavailable. Compose runtime and exact-main PHP/schema/route/HTTP/release gates are still blocked; no merge, deploy, publication or ranking claim.
 - No ownership change: Groot source implementation stays in its brand repository. Existing AEO/GEO baseline and Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website reconciliation remain untouched.
+
+
+## Delta 2026-11-02 — GA-B00028 repaired partial
+
+- With GA-B00027 runtime/release gates still blocked, the Groot lane advanced the next distinct canonical ID without changing finished or release counts.
+- GA-B00028 now has four-primary-source research, a bounded brief, executable classic-mode permission model, temporary fixture, six tests, 23-check verifier and original accessible SVG at factory commit `bf84c58a0aec92731928604c938c89b11a43f02d`.
+- First independent QA found bool/float owner/group IDs were accepted. Strict ID/name/directory validation plus adversarial tests repaired the ambiguity; independent re-review PASS.
+- Evidence: 6/6 tests and 23/23 checks under normal/`-O`/`-OO`; compilation PASS. Article and metadata remain absent, so GA-B00028 is partial `DRAFT`.
+- Counts unchanged: 29 IDs; 21 complete drafts, 21 counted visuals, 21 PHP candidates; approved 0; live-verified 0. Root/capability, ACL/MAC/mount/attribute and release claims remain excluded.
+- Central ownership, AEO/GEO baseline and Jaipur Engineers repository-mapping reconciliation are unchanged.
