@@ -466,3 +466,14 @@ Groot [checkpoint 680d1203](https://github.com/satnamkhowal/grootacademy.com/com
 CC-AUD-003 counts advance to 23 complete drafts, 23 counted technical visuals and 23 PHP review candidates; 18 independent code passes, approved 0 and live-verified 0. All 29 canonical IDs remain. Fresh comparison found current main and controller shared-layout blobs equal at `7e19e1b4b87843d65b5aa7f1cb0fb33a5b154178`, closing only the prior layout-divergence blocker. PHP is unavailable locally (checker exit 3), so exact-main rendering, single-H1/TOC, BlogPosting/BreadcrumbList, registry/sitemap, route/canonical/assets/download HTTP/MIME and independent release review remain open. No merge, deployment, publication, indexing, mapping closure or owner reassignment occurred.
 
 Exact next action: run GA-B00029 against exact current main in a PHP-capable environment, complete rendered schema and HTTP/MIME checks, then obtain independent release QA before any approval or live transition.
+
+
+## Delta — 2026-11-09: current-main successor and CI allocation blocker
+
+No baseline crawl, AEO/GEO queue recreation, ownership reassignment or another brand's source modification was performed. Central main remains `31af61b9a796472b7eb13d6b254aa6d9dc2ecc34`; the current open central set is unrelated draft PR #16. Earlier Jaipur Engineers reconciliation evidence remains proposed rather than promoted to approved ownership state.
+
+The historical Groot controller branch could not open a new review PR because GitHub reported no common history with current main. A bounded successor was therefore created from exact main `0648b79ee0775e810251192a61b8ae6d842980f4` and overlays only the canonical factory subtree plus a read-only PHP candidate workflow. [Draft PR #569](https://github.com/satnamkhowal/grootacademy.com/pull/569) and [handoff commit `3af16ed2`](https://github.com/satnamkhowal/grootacademy.com/commit/3af16ed2601e8f02204f8458188026ed95e945f8) preserve 29 IDs, 23 complete drafts, 23 visuals and 23 PHP candidates; approved and live-verified remain 0/0.
+
+The new workflow is limited to queue validation, the 102-test exporter/guard suite, all 23 static candidates and `php -l`. GitHub Actions run [42529151051](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42529151051) failed before runner allocation: job `128879248835` contains zero steps and no log blob. The existing base factory workflow failed in the same pre-step state. No CI queue, Python or PHP PASS is claimed. Production routes, registry, sitemap and deployment were unchanged.
+
+Exact next action: resolve PR #569 runner allocation and rerun the candidate gate; after PHP lint, execute exact-main rendered H1/TOC/schema and canonical/assets/links/download HTTP-MIME checks, then obtain independent release QA. Draft PR #569 must not be self-merged.
