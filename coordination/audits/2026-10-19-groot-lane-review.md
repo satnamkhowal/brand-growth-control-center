@@ -388,3 +388,15 @@ Coordination-only update; implementation ownership remains in Groot Academy's so
 - PR #15 remains draft; Jaipur Engineers' production/social repository-role mapping is still an open reconciliation, not a proven error. PR #3 is closed; the existing AEO/GEO PR #2 baseline is reused. No other brand files or owners were touched.
 
 No merge, deployment, publishing, indexing, ranking claim, or ownership reassignment occurred.
+
+
+## Delta — 2026-11-09: source-provenance and latest Actions cross-check
+
+- Rechecked the original planning PR #62 patch: exactly 29 unique canonical IDs, `GA-B00001`–`GA-B00029`.
+- Rechecked closed Research PR #68: 15 per-ID research records/proposal rows, comprising 14 proceed proposals and GA-B00014 as the single in-place refresh. Research records, proposal rows and refreshes are not counted as completed articles.
+- Groot PR #569 now restores six exact current-main research provenance blobs (GA-B00005/17/18/19, B0001 research HANDOFF and queue-proposals.csv). Ten other historical planning/worker/image/QA paths have documented supersession decisions in the Groot source repository at `marketing/blog-factory/reconciliation/PR569-legacy-artifact-disposition-20261109.md`. The canonical `queue/blogs.csv` remains the only operational queue.
+- PR #569 latest head is `db2f89e903eb9189a1c712029337dc347e50e269`, still draft/unmerged, 37 commits ahead / 0 behind the exact main snapshot. No production routes, registry, sitemap or deployment files changed.
+- The latest checkpoint-triggered runs `42643554008` and `42643554025` again failed before steps. Jobs `129250670708` and `129250667243` expose empty steps, no log URL and `BlobNotFound`; no CI/PHP result is inferred. Root cause remains unknown pending repository Actions administrator diagnosis.
+- Factory counts unchanged: 23 complete drafts, 23 visuals, 23 PHP candidates, 18 independent code passes, 0 independent publication approvals and 0 live-verified articles. No article was added or regenerated.
+
+Central PR #17 remains draft/unmerged. PR #15 remains draft; Jaipur Engineers production/social mapping is still open. PR #3 is closed and the existing AEO/GEO baseline is reused. No other brand owner/files, merge, deployment, publishing, indexing or ranking claim changed.
