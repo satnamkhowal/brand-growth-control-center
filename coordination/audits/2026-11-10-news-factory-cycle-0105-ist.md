@@ -277,7 +277,7 @@ This cycle adds one verified research item, one article draft and one original g
 
 | State | Cumulative |
 | --- | ---: |
-| Researched | 69 |
+| Researched | 70 |
 | Drafted | 59 |
 | Original graphics | 59 |
 | Independent QA-ready | 33 |
@@ -289,3 +289,10 @@ This cycle adds one verified research item, one article draft and one original g
 3. Recheck NMMSS before 15 November and AICTE/UGC scholarship forms before 30 November.
 4. Recheck Google Student Researcher 2027 before 4 December.
 5. Preserve all existing brand owners and draft-only release gates.
+
+
+### Additional scholarship status conflict — 10 November 2026
+- The current NSP PM-USP Special Scholarship Scheme for Jammu & Kashmir and Ladakh card displays a 22 October 2026 opening and a 30 November student deadline. However, the NSP announcement describes only renewal applications and gives 31 October as the student deadline; an institution notice attributed to the SSSJKL/AICTE cell also gives 31 October 2026 for fresh Phase II student registration and 15 November for institution verification.
+- These official/portal surfaces conflict. As of this check, fresh 2026–27 registration is **not safely confirmable as open**. Do not market the scheme as a newly open scholarship or direct students to a fresh application until AICTE/NSP confirms the current status. Existing 2026–27 scheme eligibility/benefit information must be checked against the current AICTE guideline before drafting.
+- Sources: https://scholarships.gov.in/All-Scholarships ; https://scholarships.gov.in/ViewMoreAnnouncement ; https://adgips.ac.in/2026/10/28/
+- This adds one researched status-hold item, not a new article, graphic or QA-ready item. Cumulative ledger is now 70 researched, 59 drafted, 59 original graphics, 33 independent QA-ready, 0 live.
