@@ -191,3 +191,108 @@ The canonical `je2` alias resolves to `satnamkhowal/jaipurengineers.com` (reposi
 3. Complete independent browser/media rendering and editorial review for Groot #580 and Forsk #146/#147.
 4. Verify the current PM YASASVI notified-institution/slot list before deciding whether a separate article is useful.
 5. Keep all current PRs unmerged and unpublished until their independent gates and owner approval are complete.
+
+
+## Fresh research and draft-production cycle — 10 November 2026, 00:25 IST
+
+### Four-track source scan
+
+Research was split into four non-overlapping tracks: student/developer opportunities; React/frontend; Node.js/backend; and AI/cloud/developer infrastructure. Primary sources were used for all facts. No YouTube lead was promoted without official corroboration.
+
+#### 1. Student, internship and scholarship status
+
+- **Google Student Researcher, 2027:** the live Google Careers listing still shows India as remote-eligible, Bachelor's/Master's/PhD enrolment, rolling review and an instruction to complete the application before **4 December 2026**. The listing does not state an opening date, fixed duration or stipend. Existing single-owner draft remains Forsk PR #146; no duplicate.
+  Source: https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+- **Google Research Scientist PhD Intern, Summer 2027:** the official Hyderabad listing shows an opening date of **28 October 2026**, closing date **30 November 2026**, current PhD enrolment in a relevant technical field, ML experience and Python/Java. Public compensation is not stated. Existing single-owner draft remains Mango PR #143; no duplicate.
+  Source: https://www.google.com/about/careers/applications/jobs/results/87534302853505734
+- **UGC National Scholarship for Post Graduate Studies 2026–27:** NSP currently lists the scheme window from **16 September to 30 November 2026**. The linked UGC scheme page says 10,000 slots per annum and ₹1,50,000 per annum for two years; the linked guideline expresses this as ₹15,000 per month for 10 months per year. Core conditions include Indian students in the first year of their first recognised PG degree, regular/full-time mode, below 30 at admission to the first PG semester/year and an eligible institution with a valid AISHE code. The FAQ says there is no income criterion, 30% of slots are reserved for women, and a student may not hold another scholarship/monetary benefit at the same time. The 2021 guideline PDF carries a 2026–27 note saying the 2025–26 HEI criteria may continue; institution eligibility must be checked. The NSP footer still says last update June 2026, so recheck the live form immediately before publication or submission. Existing single-owner draft remains Forsk PR #149; no duplicate.
+  Sources: https://scholarships.gov.in/All-Scholarships ; https://www.ugc.gov.in/Scholarships/stu_Scholarship6 ; https://scholarships.gov.in/public/schemeGuidelines/Guidelines_NATIONAL_SCHOLARSHIP_FOR_POSTGRADUATE_STUDIES_UGC_2324.pdf ; https://scholarships.gov.in/public/FAQ/FAQ_NSPG.pdf
+- **NMMSS:** NSP lists the student application deadline as **15 November 2026**. Existing Groot PR #577 remains the owner.
+- **AICTE Swanath and Pragati:** NSP lists the relevant 2026–27 student application deadlines as **30 November 2026**. Existing Forsk PR #147 and Mango PR #143 remain the owners.
+- **PM YASASVI Top Class Education in College:** NSP lists the student deadline as 30 November, but the current notified institution/slot list was not independently confirmed against the linked older guideline. Keep on research hold; no new draft.
+
+#### 2. React / frontend
+
+- The official React blog still lists React 19.3, published **9 September 2026**, as the latest major blog release in the checked feed. No new stable release or new React security advisory was found in this cycle.
+- Existing Forsk PR #145 remains the single owner for the October 2026 React Server Components security catch-up. No duplicate.
+Sources: https://react.dev/blog ; https://github.com/facebook/react/releases
+
+#### 3. Node.js / backend
+
+- The official Node.js security notice was last updated **3 November 2026**. It says new security versions for 26.x, 24.x and 22.x are expected on or shortly after **11 November 2026**, with HIGH as the highest severity in each line.
+- As of this 10 November 00:25 IST check, the notice still lists no CVE IDs, affected patch ranges or patched versions. It remains an advance notice, not a published patch. Existing Mango PR #143 remains the single readiness-guide owner.
+Source: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+#### 4. AI / cloud / developer infrastructure
+
+- **AWS Nitro Sandboxes:** AWS published its announcement on **9 November 2026**. It says the feature is available in all commercial AWS Regions on most Nitro-based EC2 instances, at no additional charge. Detailed EC2 documentation requires an instance type that supports Nitro Enclaves. EKS pods opt in through isolated/confidential RuntimeClasses; ECS documentation scopes isolated/confidential tasks to ECS Managed Instances; self-managed EC2 supports confidential and direct modes. Confidential-mode secrets must be gated by verified attestation; optional EKS network isolation removes the network device, IMDS and Pod Identity credentials. No separate event date is stated.
+  Sources: https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/ ; https://docs.aws.amazon.com/eks/latest/userguide/sandboxing.html ; https://docs.aws.amazon.com/AmazonECS/latest/developerguide/isolated-confidential-tasks.html ; https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-ec2-nitro-sandboxes.html
+- **Google TPU Sync:** Google Cloud published the introduction on **9 November 2026**. TPU Sync is an open-source C++ model-state layer for KV-cache tiering and weight transfer across TPU HBM, host DRAM, storage and remote nodes. The blog reports workload-specific results: Qwen3 235B median KV-transfer latency around 230 ms (from several seconds); 60% average TTFT reduction for 235B and 90% for 480B in controlled low-concurrency tests; separate 64K prefix-cache tests report up to 90% lower average TTFT, over 50% higher throughput and 30% lower P99 inter-token latency. The July 2026 test configuration and workload caveats are recorded in the draft. The upstream repository says APIs are evolving, only development/nightly wheels are available before the first stable release, and stable deployments should pin a tag or LKG commit. Its current README lists v7x/v6e hardware and JAX 0.12.0/0.11.2 compatibility. The current Compute Engine TPU region table lists no India zone for v7x or v6e. Current on-demand examples are Ironwood in Iowa at US$12/chip-hour and Trillium in Tokyo at US$3.24/chip-hour; these are infrastructure prices, not a TPU Sync fee.
+  Sources: https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu ; https://github.com/google/tpu-sync ; https://github.com/google/tpu-sync/blob/main/LICENSE ; https://docs.cloud.google.com/tpu/docs/regions-zones ; https://cloud.google.com/tpu/pricing
+
+### New draft production
+
+#### Forsk Coding School — AWS Nitro Sandboxes
+
+- Main baseline: `a690ef725029e8c7f96b6148e9012f82a481bd6d`
+- Branch: `content/news-factory-aws-nitro-sandboxes-20261110`
+- Draft PR #150: https://github.com/satnamkhowal/forsk-coding-school/pull/150
+- Head: `fc83d8794922d43fdb86954231aa260dc2f5af33`
+- Files: one 2,333-word English guide, one original 1200×675 SVG, one source/media provenance JSON.
+- The guide distinguishes EKS opt-in, ECS Managed Instances, self-managed EC2 modes, KMS attestation, network isolation, supported instance types and cost. It is distinct from the existing Google Agent Compute Engine preview article.
+- Local SVG: `/mnt/data/news-factory/2026-11-10/aws-nitro-sandboxes-eks-ecs.svg`.
+- GitHub compare: 3 commits ahead / 0 behind main; PR state open/draft; mergeable state clean.
+- Read-back: all three files fetched; metadata JSON parsed; SVG has 1200×675 dimensions, title/description and no external href or script. Local XML parse and 1200×675 CairoSVG render passed.
+- Independent editorial/security QA and browser rendering: PENDING. No CI check runs were returned.
+
+#### Groot Academy — Google TPU Sync
+
+- Canonical repository alias verified: `satnamkhowal/gta` redirects to `satnamkhowal/grootacademy.com` (same repository ID).
+- Main baseline: `a97dc07463a352ea924af3dea22af915a6f9bdb1`
+- Branch: `content/news-factory-google-tpu-sync-20261110`
+- Draft PR #582: https://github.com/satnamkhowal/grootacademy.com/pull/582
+- Head: `a774b49e443ee9c61c13c085f9dac3aa198ee341`
+- Files: one 2,506-word English guide, one original 1200×675 SVG, one source/media provenance JSON.
+- The guide is distinct from existing Groot PR #580 (Cloud Pathways GA on GKE): it covers TPU Sync's KV-cache/model-state library, RL weight transfer, software maturity, India TPU-region constraints and per-chip-hour pricing. No changed-path overlap with #580.
+- Local SVG: `/mnt/data/news-factory/2026-11-10/google-tpu-sync-architecture.svg`.
+- GitHub compare: 3 commits ahead / 0 behind main; PR state open/draft; mergeable state clean.
+- Read-back: all three files fetched; metadata JSON parsed; SVG has 1200×675 dimensions, title/description and no external href or script. Local XML parse and 1200×675 CairoSVG render passed.
+- Independent editorial/technical QA and browser rendering: PENDING. No CI check runs were returned.
+
+### Repository coordination and no-write decisions
+
+- Central main remains `31af61b9a796472b7eb13d6b254aa6d9dc2ecc34`. The existing central News Factory checkpoint PR #19 was reused; this section is appended to its existing checkpoint file.
+- Forsk main remains `a690ef725029e8c7f96b6148e9012f82a481bd6d`; PRs #145, #146, #147 and #149 remain separate and unchanged. New PR #150 owns three new paths only.
+- Groot main remains `a97dc07463a352ea924af3dea22af915a6f9bdb1`; existing PR #580 remains unchanged. New PR #582 owns three new paths only.
+- Mango main remains `8eeb57fdf05341aa0a5ec31846148a37b0be3ba6`; PR #143 continues to own Node.js readiness and existing opportunity drafts; PR #144 remains a separate graphics task. No Mango write was needed.
+- Jaipur Engineers remains the renamed `je2` application at `satnamkhowal/jaipurengineers.com`. Its main tree has a live `news/` directory but no approved non-public News Factory draft lane; no article was placed in a live route or guessed path.
+- No unverified brand repository was used.
+
+### Media, video and publication gates
+
+- Two original self-authored SVGs were produced; each is 1200×675, self-contained and has title/description and alt text.
+- Provenance records include original source, ownership/licence, attribution, repository path, local path and dimensions.
+- External graphic downloads: **0**. No third-party graphics were assumed reusable.
+- Verified story-specific YouTube IDs/embedding permission: **0**. No iframe was created.
+- New drafts are **RESEARCHED_DRAFT**, not QA-ready. Browser rendering and independent editorial/security review remain pending.
+- No merge, deployment, publication, application submission or indexing action occurred.
+
+### Cycle ledger
+
+| Metric | Carried-forward before this cycle | This cycle | Resulting ledger |
+| --- | ---: | ---: | ---: |
+| Researched items | 61 | +2 | 63 |
+| Drafted articles | 51 | +2 | 53 |
+| Original graphics | 51 | +2 | 53 |
+| Independent QA-ready | 33 | +0 | 33 |
+| Live/published | 0 | +0 | 0 |
+
+Existing opportunity drafts and the React/Node readiness items were revalidated, not counted as new drafts. The two new research items are AWS Nitro Sandboxes and Google TPU Sync.
+
+### Next exact actions
+
+1. Obtain independent editorial/security QA for Forsk PR #150 and independent technical/editorial QA for Groot PR #582; run browser rendering for both SVGs.
+2. Recheck the Node.js official notice on or after 11 November for actual CVEs, affected ranges and patched versions before replacing the readiness guide.
+3. Recheck NMMSS before 15 November, and UGC/AICTE/Google application pages before their listed 30 November and 4 December deadlines.
+4. Verify PM YASASVI Top Class College's current institution/slot list before deciding whether a separate article is useful.
+5. Keep both new PRs draft-only. No merge, deployment or publication without independent QA and owner approval.
