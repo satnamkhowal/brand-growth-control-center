@@ -392,3 +392,52 @@ This cycle adds two distinct research items (NIC Winter 2026 internship and Node
 - Current Mango branch head is 478ebcd000bfbeec34844bf1be02063b4a1395bc9. No workflow run was returned for this latest head; the combined-status endpoint returned 404/no status record.
 - The earlier PHP Architecture Check run 42715210065 remains a failed zero-step job with unavailable logs. Neither result provides a source-level PHP test verdict.
 - PR #147 remains a draft. Independent QA and the missing official guideline details remain blockers.
+
+
+### 10 November 2026 — 04:36 IST News Factory cycle
+
+#### New verified AI / cloud item and delivery
+- Google Cloud's BigQuery release notes dated **9 November 2026** mark the maximum number of concurrently executed pipeline tasks as **GA** and three Zstandard SQL functions (`ZSTD_COMPRESS`, `ZSTD_DECOMPRESS_TO_BYTES`, `ZSTD_DECOMPRESS_TO_STRING`) as **Preview**.
+- Official scheduling docs specify a maximum-concurrent-actions field from **1 to 5,000**; excess ready actions are queued. The docs also warn that if a scheduled run is still running at the next scheduled start, that next run is skipped and marked with an error. This is a control, not a performance/cost guarantee.
+- Zstd compression level defaults to 3 and accepts -5 to 22; decompression default and maximum size_limit is 128 MiB. Google says a lower limit can reduce memory risk. Preview functions remain subject to Pre-GA terms.
+- Separate related item: Google Cloud's Data Cloud roundup was published **5 November** and covers updates from **2–6 November**; it reports BigQuery data-agent observability GA. This is not the release-note date of the 9 November pipeline/Zstd changes.
+- Groot Academy [PR #592](https://github.com/satnamkhowal/grootacademy.com/pull/592) adds one original 1,958-word English article, one original self-authored 1200×675 SVG, and one provenance JSON sidecar. Branch `content/news-factory-bigquery-pipeline-concurrency-zstd-20261110` is **4 commits ahead / 0 behind main**, 3 changed files, PR open/draft/mergeable.
+- Local SVG XML parsing, 1200×675 PNG rendering and visual inspection passed; metadata JSON parsed; GitHub read-back passed for all three files. Independent editorial/technical QA and responsive browser review remain pending. No CI check-runs were returned.
+- No story-specific official/reputable original YouTube video was verified; no video ID or iframe was invented. No third-party graphic was downloaded; the diagram is self-authored. No public route, sitemap, schema, redirect, PHP template or production content changed.
+
+#### Opportunities and programme revalidation
+- Google Careers currently displays **Student Researcher, 2027** with Apply, remote location India, and a **4 December 2026** deadline with rolling review. Current enrolment in Bachelor's/Master's/PhD in the listed disciplines and experience in a CS area are minimum qualifications. No stipend amount or fixed duration is published. Existing Forsk PR #146 remains owner; no duplicate article.
+- NSP 2026–27 still lists NMMSS student applications to **15 November 2026** and AICTE Swanath/Pragati plus UGC PG Studies to **30 November 2026**. NSP page footer says last updated June 2026; check each current form and guideline before students rely on the deadline.
+- AICTE National Internship Portal's live-opening search rendered **0 postings** at check time. Edunet and Cisco partner pages say the next cohort opens shortly; AICTE Research page shows 0 internships found; Indian Army dashboard totals show 0 posted/ongoing/completed while data panels load. These programme pages are not evidence of an active individual application. No new internship was described as open and no article was drafted.
+- PM-USP J&K/Ladakh fresh-application status remains conflicting in NSP notices; do not advertise fresh applications as open without a new official clarification.
+
+#### React / Node status
+- React official GitHub releases still show patch tags **19.3.1, 19.2.9, 19.1.10 and 19.0.9**, all dated **14 October 2026**; React 19.3.0 feature release is dated **9 September**. No newer stable tag or fresh November security advisory was found. Existing Forsk PR #145 remains owner.
+- Node.js official release index still lists **26.13.0 LTS** and **24.22.2 LTS** dated **28 October**, **27.0.0-alpha.0.0.0** dated **29 October** (prerelease), and **22.23.4 LTS** dated **21 October**. The 3 November advance notice schedules 26.x/24.x/22.x security releases on or shortly after **11 November**, highest severity HIGH; no patched versions or CVE ranges are in the notice yet. Existing Mango PR #143 remains owner; no duplicate draft.
+
+#### Repository and queue coordination
+- Reviewed current accessible central coordination branch and open PR #19; appended this section to the existing checkpoint rather than creating a new coordinator chat or worker lane.
+- Groot current News Factory draft/media inventory contains no matching BigQuery pipeline-concurrency/Zstd draft. Existing Groot PRs #578 (S3 Tables), #580 (Cloud Pathways/GKE), #582 (TPU Sync), #583 (ISI AI-STEP) and #586 (Buildathon + TPU 8tx/8i Max) were reviewed; paths and story scopes are distinct.
+- Groot repo instruction note: `.agent/README.md` names `satnamkhowal/gta` as canonical, but that repository was not present in the accessible repository list. Existing News Factory draft files and open PRs are in `satnamkhowal/grootacademy.com`; this established draft-only lane was used for PR #592. Resolve the canonical-repository pointer before any production-route work.
+- Mango PR #143/#147 and Forsk PR #145/#146/#152/#153 remain existing owners; no duplicate write. Jaipur Engineers repository/root and docs inventory were inspected, but no approved non-public News Factory article lane was confirmed, so it remains read-only. Other brand repository mappings remain unverified and untouched.
+- No merge, deployment, publication or indexing claim.
+
+#### Cycle ledger
+Previous carried-forward ledger at 04:24: **72 researched, 60 drafted, 60 original graphics, 33 independent QA-ready, 0 live**.
+
+This cycle adds one distinct research item (BigQuery pipeline concurrency GA + Zstd Preview), one original draft and one original graphic. Opportunity, React and Node checks are status revalidations, not new stories.
+
+| State | Cumulative |
+| --- | ---: |
+| Researched | 73 |
+| Drafted | 61 |
+| Original graphics | 61 |
+| Independent QA-ready | 33 |
+| Live / published | 0 |
+
+#### Next actions
+1. Independent editorial/technical QA and responsive browser review of Groot PR #592; keep draft/unmerged.
+2. Recheck Node.js security releases on or after 11 November for actual patched versions and CVEs before updating Mango PR #143.
+3. Recheck NMMSS before 15 November, AICTE/UGC schemes before 30 November, and Google Student Researcher before 4 December.
+4. Recheck AICTE internship portal for actual individual postings; do not treat partner programme landing pages as active openings.
+5. Resolve the Groot canonical repository pointer before any production-route work; preserve all existing brand ownership and merge/deploy/publish gates.
