@@ -374,3 +374,17 @@ A fresh compare of PR #569 against current main shows the successor branch 28 co
 Targeted readback confirms the existing GA-B00017 and GA-B00018 briefs carry their key reader intent/evidence boundaries; the PR branch does not carry the GA-B00019 research record, although its completed article and QA artifacts remain. The original proposal CSV is also absent from the successor while the canonical 29-row queue is preserved. This is a provenance/merge-scope reconciliation item, not a rejection of the 23 completed drafts.
 
 The concern was recorded as a PR #569 review comment. No files were restored or removed, no main write occurred, and no self-approval/merge/deployment was performed. Independent reviewer should mark each legacy file intentionally superseded or request restoration before merging. Central owner and brand-source ownership remain unchanged.
+
+
+## Delta — 2026-11-09: PR #569 provenance-preservation repair
+
+Coordination-only update; implementation ownership remains in Groot Academy's source repository. Read current central main README at `b93187c353f8112a57fffab4b383e64236976394`, current main audit report at blob `4b8eff4134579b6ccb1723a24ebd48eb6e0dbaa0`, open PR #17, ownership PR #15, and closed coordination PR #3. Existing AEO/GEO baseline and Jaipur mapping were not recreated or changed.
+
+- Groot's canonical source remains repository ID `1375760757`, currently named `satnamkhowal/grootacademy.com`; `satnamkhowal/gta` is its prior alias. No second Groot owner or factory was created.
+- PR #569 head `db2f89e903eb9189a1c712029337dc347e50e269` now restores six exact current-main B0001 research provenance artifacts: GA-B00005, GA-B00017, GA-B00018, GA-B00019, research HANDOFF and queue-proposals.csv. These are evidence records, not additional articles or another queue.
+- Ten other historical planning/worker/image/QA files are intentionally superseded in the active controller tree, with source blob IDs and reasons recorded in Groot's `marketing/blog-factory/reconciliation/PR569-legacy-artifact-disposition-20261109.md`. They remain in Git history. Independent reviewer decision is still required before merge; no source merge was performed.
+- Canonical queue remains 29 rows / 29 unique IDs. Factory metrics remain 23 complete drafts, 23 visuals, 23 PHP candidates, 18 independent code passes, 0 independent publication approvals and 0 live-verified articles. GA-B00014 remains an in-place refresh.
+- Newest PR #569 Actions runs `42633981849` and `42633981783` both failed before step creation; jobs `129217185515` and `129217184843` expose zero steps and no log URL, with `BlobNotFound` on log retrieval. No CI/PHP result or root cause is claimed. Exact next action: repository Actions administrator diagnoses runner availability/permissions and triggers a real job; then the independent reviewer checks the file-disposition report.
+- PR #15 remains draft; Jaipur Engineers' production/social repository-role mapping is still an open reconciliation, not a proven error. PR #3 is closed; the existing AEO/GEO PR #2 baseline is reused. No other brand files or owners were touched.
+
+No merge, deployment, publishing, indexing, ranking claim, or ownership reassignment occurred.
