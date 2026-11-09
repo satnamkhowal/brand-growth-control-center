@@ -385,3 +385,10 @@ This cycle adds two distinct research items (NIC Winter 2026 internship and Node
 - After task-board and work-log validation follow-ups, the Mango branch is **8 commits ahead / 0 behind main**, with exactly five changed paths. The earlier 6-commit figure in the 04:08 entry described the branch before those two follow-up commits.
 - The PHP Architecture Check run 42715210065 has one failed job with an empty steps list; the log endpoint returned BlobNotFound. CI is therefore unverified/blocked, not a code-level PHP failure or pass.
 - PR #147 remains open and draft. No merge, deployment or publication.
+
+
+### Latest Mango branch-head check — 10 November 2026, 04:24 IST
+
+- Current Mango branch head is 478ebcd000bfbeec34844bf1be02063b4a1395bc9. No workflow run was returned for this latest head; the combined-status endpoint returned 404/no status record.
+- The earlier PHP Architecture Check run 42715210065 remains a failed zero-step job with unavailable logs. Neither result provides a source-level PHP test verdict.
+- PR #147 remains a draft. Independent QA and the missing official guideline details remain blockers.
