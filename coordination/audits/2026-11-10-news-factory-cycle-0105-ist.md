@@ -441,3 +441,10 @@ This cycle adds one distinct research item (BigQuery pipeline concurrency GA + Z
 3. Recheck NMMSS before 15 November, AICTE/UGC schemes before 30 November, and Google Student Researcher before 4 December.
 4. Recheck AICTE internship portal for actual individual postings; do not treat partner programme landing pages as active openings.
 5. Resolve the Groot canonical repository pointer before any production-route work; preserve all existing brand ownership and merge/deploy/publish gates.
+
+
+### Scholarship status detail addendum — 10 November 2026, 04:39 IST
+- Current NSP All-Scholarships listing (AY 2026–27) shows NMMSS student applications to **15 November**; AICTE Swanath/Pragati (technical degree/diploma), UGC National Scholarship for Post Graduate Studies, ISI UG/PG stipend and PM YASASVI Top Class Education in College to **30 November**; PM YASASVI Top Class Education in Schools to **15 November**.
+- The NSP Student Announcements page says PM YASASVI Top Class Schools fresh applications are currently accepted only for students outside **Rajasthan, Keralam and Karnataka**; students in those three states must wait. Do not promote it as open to Rajasthan students until NSP changes the notice.
+- PM-USP J&K/Ladakh remains a separate conflict: the scheme card shows an open date of 22 October and 30 November deadline, but the student announcement says renewal applications only with a 31 October student deadline. Fresh applications are not confirmed.
+- NSP pages still show “Last update on June 2026”; all deadlines are portal-listed dates, not proof that an individual student's form is valid or eligible. Verify scheme specifications, state/institute rules and the live application form before student action. These are revalidation details, not new story counts.
