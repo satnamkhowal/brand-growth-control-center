@@ -499,3 +499,14 @@ At [checkpoint `95bafeff`](https://github.com/satnamkhowal/grootacademy.com/comm
 This remains static handoff evidence only: `php_rendered=false`, `http_verified=false`, `deployed=false`, `publication_approved=false`. Counts remain 29 IDs, 23 drafts, 23 visuals, 23 PHP candidates, approved 0 and live-verified 0. Actions runner allocation is still blocked; no PHP, HTTP, merge, deployment, publication or ownership claim is added.
 
 Exact next action: restore PR #569 runner allocation, run PHP lint, then execute the saved four endpoint HTTP/MIME assertions plus rendered schema/H1/TOC checks and independent release QA.
+
+
+## Delta — 2026-11-09: bounded release-manifest batch extends to GA-B00028
+
+No crawl, queue recreation, ownership reassignment or other brand source edit occurred. With PR #569 runner allocation still blocked, the Groot lane extended the independently hardened static release handoff to one additional reviewed candidate rather than expanding article IDs or claiming runtime evidence.
+
+At [checkpoint `043ccf56`](https://github.com/satnamkhowal/grootacademy.com/commit/043ccf5641937b57026659d95eb9da1b30d059ad), GA-B00028 and GA-B00029 each have exact four-endpoint document/SVG/two-download status and MIME plans. Independent QA PASS: both saved manifests validate under normal Python, `-O` and `-OO`; 9/9 focused checks per mode; full local suite 118/118; wrong MIME/canonical/route, missing/extra/duplicate endpoint, path traversal and false runtime-state mutations reject. GA-B00029 regression remains PASS.
+
+Counts remain 29 IDs, 23 complete drafts, 23 visuals and 23 PHP candidates; approved 0, live-verified 0. Both manifests explicitly retain `php_rendered=false`, `http_verified=false`, `deployed=false` and `publication_approved=false`. No merge, production edit, deployment, publication, mapping closure or ownership change occurred.
+
+Exact next action: restore PR #569 runner allocation, run PHP lint, then execute the two saved four-endpoint HTTP/MIME plans and rendered schema/H1/TOC checks followed by independent release QA.
