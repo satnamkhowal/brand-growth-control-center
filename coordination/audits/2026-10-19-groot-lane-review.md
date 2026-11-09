@@ -337,3 +337,17 @@ Scope remains coordination-only. Current central main is `31af61b9a796472b7eb13d
 - Approved/live counts remain 0/0. No self-merge, deployment, publishing, mass indexing, cross-brand implementation or ownership reassignment occurred.
 
 This delta records verified repository identity and the new pre-step CI evidence only. Central coordination remains the owner; implementation stays in Groot Academy's current repository.
+
+
+## Delta — 2026-11-09: latest PR #569 Actions diagnostics
+
+This is a coordination-only delta against central main `31af61b9a796472b7eb13d6b254aa6d9dc2ecc34`. The central README's one-owner/source-repository rule remains unchanged. Existing AEO/GEO PR #2 baseline and follow-up queue were reused; no new portfolio crawl or brand implementation was created.
+
+- Groot's canonical controller remains the existing 100K lane in repository `satnamkhowal/grootacademy.com` (repository ID `1375760757`), with `satnamkhowal/gta` retained as the previous alias. No duplicate owner or second factory was created.
+- Re-read the controller branch README, CONTROLLER.json and canonical queue. Queue validation by readback found 29 rows and 29 unique IDs, GA-B00001–GA-B00029. All original planning IDs remain intact; GA-B00014 remains a single in-place refresh.
+- Factory counts remain 23 complete original drafts, 23 authored technical visuals, 23 PHP review candidates, 18 independent code passes, zero independent publication approvals and zero live-verified articles. Static candidate checks do not imply PHP rendering or deployment.
+- Current-main successor PR #569 is still draft/unmerged. Its branch `qa/groot-100k-current-main-20261109` is based on current main `0648b79ee0775e810251192a61b8ae6d842980f4`; after this run's review-only checkpoint commits its head is `533bfdebb871d77855a3d27a7934a15196c76543`. The branch remains 0 commits behind main; only factory documentation/controller and the existing review workflow were updated. No production routes, registry, sitemap or live assets changed.
+- Latest Actions runs `42629878885` (Blog factory QA) and `42629878636` (review candidates) both failed before any step. Jobs `129203105761` and `129203105169` expose zero steps and `logs_url=null`; log retrieval returns `BlobNotFound`. The workflow YAML was read back and contains the intended queue/regression/static/PHP-lint steps. The exact GitHub-side runner/permissions cause remains unknown; no CI or PHP-lint result is inferred and no speculative workflow edit or blind retry was made.
+- Exact next action: repository Actions administrator checks runner availability and repository Actions permissions/limits. Once a real job starts, require queue/regression/static checks and PHP lint, then separately complete rendered H1/TOC, BlogPosting/BreadcrumbList, canonical/internal-link/SVG/download HTTP-MIME checks and independent release review.
+- Central PR #17 remains draft/unmerged; central PR #15 remains draft and its Jaipur Engineers candidate-site role reconciliation remains open. PRs #1/#2/#3 remain merged; the AEO/GEO baseline is not recreated. No ownership reassignment, self-merge, deployment, publishing, indexing or cross-brand file edits occurred.
+
