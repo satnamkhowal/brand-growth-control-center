@@ -477,3 +477,14 @@ The historical Groot controller branch could not open a new review PR because Gi
 The new workflow is limited to queue validation, the 102-test exporter/guard suite, all 23 static candidates and `php -l`. GitHub Actions run [42529151051](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42529151051) failed before runner allocation: job `128879248835` contains zero steps and no log blob. The existing base factory workflow failed in the same pre-step state. No CI queue, Python or PHP PASS is claimed. Production routes, registry, sitemap and deployment were unchanged.
 
 Exact next action: resolve PR #569 runner allocation and rerun the candidate gate; after PHP lint, execute exact-main rendered H1/TOC/schema and canonical/assets/links/download HTTP-MIME checks, then obtain independent release QA. Draft PR #569 must not be self-merged.
+
+
+## Delta — 2026-11-09: repaired exact-main shared-layout guard
+
+This is a bounded follow-up to draft PR #569, not a new crawl, AEO/GEO queue or ownership change. The first independent review failed the new exact-main static guard because shared PHP files were absent from CI sparse checkout/triggers and H1/date checks admitted two decoy mutations. The lane repaired all four defects rather than treating the initial local PASS as release evidence.
+
+At Groot checkpoint [`b4344693`](https://github.com/satnamkhowal/grootacademy.com/commit/b434469332ccf804adfb75014271b09115d829f2), independent re-review PASS confirms: shared layout/head paths are in both triggers and sparse checkout; 7/7 focused checks pass under normal Python, `-O` and `-OO`; unsafe H1 plus escaped decoy rejects; an added unconditional schema date assignment rejects; and exact-main layout/head match the tightened textual contract. The full local exporter/guard suite is 109/109 PASS.
+
+Evidence remains deliberately bounded: `php_rendered=false`, `http_verified=false`, `publication_approved=false`. PR #569 Actions still fail before runner allocation, so no PHP PASS is claimed. Counts remain 29 IDs, 23 drafts, 23 visuals, 23 PHP candidates, approved 0 and live-verified 0. No merge, production route change, deployment, indexing, mapping closure or owner reassignment occurred.
+
+Exact next action: restore runner allocation and execute the PHP lint job, then rendered schema/H1/TOC and HTTP-MIME gates followed by independent release QA.
