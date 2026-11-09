@@ -218,3 +218,74 @@ This cycle adds one verified developer-news item, one article draft and one orig
 3. Recheck Node.js 26.x/24.x/22.x patched versions and CVEs when the announced 11 November security release is published.
 4. Recheck NMMSS before its 15 November deadline and Google Student Researcher before 4 December.
 5. Preserve current owners and draft-only release gates. No merge, deployment, publication or indexing claim is made.
+
+
+## 10 November 2026 — 03:11 IST research and draft-production cycle
+
+### Repository and ownership review
+- Re-read the central README and open central News Factory PR #19. The central repository remains coordination-only; brand implementation belongs in each verified brand repository. Central main is `31af61b9a796472b7eb13d6b254aa6d9dc2ecc34`; the existing checkpoint branch was 14 commits ahead / 0 behind before this append. Existing central PRs #17 and #18 remain untouched.
+- Verified current repository identities and main heads: Mango Engineers `8eeb57fdf05341aa0a5ec31846148a37b0be3ba6`; Groot Academy `a97dc07463a352ea924af3dea22af915a6f9bdb1`; Forsk Coding School `a690ef725029e8c7f96b6148e9012f82a481bd6d`; Jaipur Engineers `677da49970ffd2871514fd1d08a7fc94b3f42004`.
+- Mango required instructions were read: `AGENTS.md`, `docs/agent-start-here.md`, `docs/task-board.csv`, `docs/work-log.md` and `docs/integration-queue.md`. Existing Mango PR #143 owns the Node.js readiness and current News Factory batch; its Google Research Scientist PhD Intern listing is on hold because the official URL now returns “Job not found”. No Mango write was made.
+- Forsk has no root `README.md` or `AGENTS.md`; its existing News Factory draft/media lane, current PR #152, and `docs/IMAGE-PRODUCTION-WORKFLOW.md` were inspected. Existing PR #152 covers GitHub Copilot code-review API management, not the distinct Google Agent Distraction study. No duplicate article/media path or topic was found.
+- Groot's current main and active PR inventory were checked. Existing PR #586 owns Startup Buildathon Jaipur and Google TPU 8tx/8i Max; #580/#582/#583/#578/#577 remain separate owners. No Groot write was made.
+- Jaipur Engineers current main and `MIGRATION-NOTES.md` were checked. The current application history is canonical in the renamed `jaipurengineers.com` repository; active PR #43 owns readability changes and PR #41 owns batch-planning. No News Factory article lane was changed.
+- Central README continues to mark Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies repository/catalogue mappings unresolved. No writes were made to those brands.
+
+### 1. Student, internship and scholarship research
+- Google Careers still shows **Student Researcher, 2027** as India remote eligible, with an Apply control and a deadline of **4 December 2026**; review is rolling. Minimum qualifications include current enrolment in a Bachelor's, Master's or PhD programme in the listed relevant fields and experience in a computer-science area. The accessible listing does not state an opening date, fixed duration or stipend amount. Existing Forsk PR #146 remains the single draft owner.
+- NSP 2026–27 still lists NMMSS student applications through **15 November 2026**, and AICTE Swanath/Pragati and UGC National Scholarship for Post Graduate Studies through **30 November 2026**. The NSP listing footer still says last update June 2026, so applicants should recheck the individual live form and current scheme circular before submission. Existing drafts remain with their current owners; no duplicate opportunity article was created.
+- No new fully verified India-eligible student/developer programme with a fresh application window was added in this cycle.
+
+Sources:
+- https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+- https://scholarships.gov.in/All-Scholarships
+
+### 2. React / frontend
+- React's official blog still lists **React 19.3**, published 9 September 2026, as the latest stable announcement. No newer stable release or fresh security advisory was found. Existing Forsk PR #145 remains the React Server Components security owner; no duplicate was created.
+- Source: https://react.dev/blog
+
+### 3. Node.js / backend
+- Node.js's official advance notice was published **3 November 2026** and still schedules security releases for the 26.x, 24.x and 22.x lines on or shortly after **11 November 2026**. Highest severity is HIGH in each line.
+- As of this check, the notice still lists no patched version numbers, CVE IDs or affected patch ranges. Existing Mango PR #143 remains the single readiness owner; no final patch guide was written before the release.
+- Sources: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases and https://nodejs.org/en/blog
+
+### 4. AI / cloud / developer news — new verified item
+- Google Developers Blog published **“Agent Distraction”** on **6 November 2026**. The article does not state a separate event date.
+- Google reports that 13% of file-reading sessions were exposed to inline `TODO(bug/...)` / `FIXME(bug/...)` references; 6% of those encounters led to a secondary action, and 83% of those actions were unprompted. Google categorises 41% of the unprompted detours as closed dead ends and 57% as scope creep involving open tickets. It reports 70% more steps, 77% more tokens and 105% more wait time per unprompted-detour session.
+- The article attributes the findings to Google's own agent-session analysis and explicitly warns that they are not universal benchmarks. The research explains why stale comments should be checked for ticket status and task relevance before an agent expands scope.
+- Source: https://developers.googleblog.com/agent-distraction/
+
+### New Forsk Coding School delivery
+- Repository: `satnamkhowal/forsk-coding-school`
+- Base main: `a690ef725029e8c7f96b6148e9012f82a481bd6d`
+- Branch: `content/news-factory-agent-distraction-20261110`
+- Draft PR: https://github.com/satnamkhowal/forsk-coding-school/pull/153
+- Article: `docs/news-factory/drafts/google-agent-distraction-coding-agent-repository-hygiene.md` (2,122 words).
+- Original graphic: `docs/news-factory/media/google-agent-distraction-todo-workflow-20261110.svg` (1200×675).
+- Provenance sidecar: `docs/news-factory/drafts/google-agent-distraction-coding-agent-repository-hygiene.metadata.json`.
+- The graphic is an original self-authored SVG. Source, permission, attribution, local path, alt text and dimensions are recorded; no third-party image or logo was downloaded.
+- No story-specific official/reputable YouTube video was verified; no video ID or iframe was added.
+- Branch comparison: 3 commits ahead / 0 behind main; exactly three intended files added. GitHub read-back passed for the article, SVG and metadata.
+- Local checks: article word count checked; metadata JSON parsed; SVG XML parsed and rendered at 1200×675; graphic visually inspected. Official source/date and quantitative-claim attribution checks passed.
+- Independent editorial/technical QA and browser-responsive rendering remain PENDING. GitHub returned no combined status checks and no PR workflow runs for the latest draft commit. PR #153 is open, draft and unmerged.
+- No public route, sitemap, schema, redirect or production content changed. No merge, deployment, publication or indexing claim is made.
+
+### Cycle ledger
+Previous carried-forward ledger: 68 researched, 58 drafted, 58 original graphics, 33 independent QA-ready, 0 live.
+
+This cycle adds one verified research item, one article draft and one original graphic:
+
+| State | Cumulative |
+| --- | ---: |
+| Researched | 69 |
+| Drafted | 59 |
+| Original graphics | 59 |
+| Independent QA-ready | 33 |
+| Live / published | 0 |
+
+### Next actions
+1. Independent editorial/technical QA and browser-responsive review for Forsk PR #153; do not merge before review.
+2. Recheck the Node.js 26.x/24.x/22.x security release on or after 11 November for actual versions, CVEs and affected ranges before updating Mango PR #143.
+3. Recheck NMMSS before 15 November and AICTE/UGC scholarship forms before 30 November.
+4. Recheck Google Student Researcher 2027 before 4 December.
+5. Preserve all existing brand owners and draft-only release gates.
