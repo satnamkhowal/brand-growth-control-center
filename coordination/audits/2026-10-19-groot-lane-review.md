@@ -305,3 +305,35 @@ PHP, Chromium and container runtimes remain absent, so existing rendered/browser
 - Central ownership, PR #2 AEO/GEO baseline, PR #3 coordination lane and Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate-site reconciliation are unchanged. No source implementation, merge, deployment or publishing occurred here.
 
 Exact next action: execute GA-B00024 PHP rendering and shared schema/H1 validation in a PHP-capable environment, then verify registry/route/canonical/image/internal links and both downloads over HTTP before independent release review.
+
+
+## Delta — 2026-11-09: Groot repository rename and current-main release handoff
+
+Scope remains coordination-only. Current central main is `31af61b9a796472b7eb13d6b254aa6d9dc2ecc34`; its latest commit changes the Forsk Coding School desktop-smoke checkpoint only. The main README still requires one owner per task and keeps implementation in each verified brand repository. No unchanged AEO/GEO crawl was repeated.
+
+### Repository identity and ownership
+
+- The authoritative Groot Academy controller is still the existing 100K factory, not a second content lane.
+- Its controller on `content/groot-100k-controller-20261016` identifies current repository `satnamkhowal/grootacademy.com`, GitHub repository ID `1375760757`, and records `satnamkhowal/gta` as the previous repository alias with a permanent redirect observed 2026-11-02.
+- Repository search/API resolution finds the current `grootacademy.com` repository and its existing controller branch/PR history; `gta` is not a separate current repository result. Treat this as a repository rename/alias, not a second source or a new owner.
+- Central draft PR #15 still names `satnamkhowal/gta` as the verified Groot repository. That is consistent as the old alias but should be normalized to the current GitHub name during central-owner review; do not create a duplicate task or repository mapping.
+- Central PRs #1, #2 and #3 are merged. PR #2's existing eight-brand AEO/GEO baseline and follow-up queue remain the source of truth; no duplicate baseline was created.
+- PR #13 is merged as a separate P2 Groot review-index coordination log; its deployment remains unverified and it is not evidence of 100K blog publication.
+- PR #15 remains draft/unmerged. Its draft says Jaipur Engineers' `jaipurengineers.com` repository is the same repository ID formerly named `je2`; it does not explicitly resolve the separate `jaipur-engieneers` candidate-site role. Keep that mapping open rather than infer that either source is wrong.
+
+### Groot 100K factory evidence
+
+- Planning PR #62 is merged and preserves the 29 canonical IDs; research PR #68 is merged with 14 proceed proposals and one in-place GA-B00014 refresh. GA-B00014 is not a new article.
+- The controller reports 29 unique queue IDs, 23 complete drafts, 23 authored technical visuals, 23 deterministic PHP candidates, 18 independent code passes, one refresh package, zero independent publication approvals and zero published/live-verified articles.
+- GA-B00029 is complete and has independent content/static-integration PASS. Its PHP candidate remains a review artifact; static checks are not PHP rendering, HTTP delivery, publication approval or deployment.
+- Draft PR #569 is the current-main successor, based on main `0648b79e`, with head `814e3a5161ef0b7a0acece1d8fc6a99c86b64686`. It is still open/draft and does not change production blog routes, registry or sitemap.
+
+### Current Actions blocker and next action
+
+- After the documented retry, GitHub Actions runs `42587458022` (Blog factory QA) and `42587457707` (review candidates) failed before any steps; their latest jobs had zero steps, `logs_url=null`, and log retrieval returned `BlobNotFound`.
+- Updating the review branch triggered another pair: `42629878885` (QA) and `42629878636` (review candidates). Latest jobs `129203105761` and `129203105169` again report zero steps and no log URL. The exact GitHub-side cause is not exposed; no queue, Python CI or PHP-lint result is inferred.
+- The bounded workflow itself is present and includes queue validation, exporter/guard tests, static-candidate checks and `php -l`. No speculative workflow edit was made because the failures occur before the first step.
+- Exact next action: repository Actions administrator inspects runner availability and Actions permissions/limits, then reruns PR #569. Once a real job starts, require successful PHP lint and regression/static checks, then separately complete rendered H1/TOC, BlogPosting/BreadcrumbList, canonical/internal-link/SVG/download HTTP-MIME checks and independent release review.
+- Approved/live counts remain 0/0. No self-merge, deployment, publishing, mass indexing, cross-brand implementation or ownership reassignment occurred.
+
+This delta records verified repository identity and the new pre-step CI evidence only. Central coordination remains the owner; implementation stays in Groot Academy's current repository.
