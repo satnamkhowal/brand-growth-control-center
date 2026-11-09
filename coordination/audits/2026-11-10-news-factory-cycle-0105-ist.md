@@ -99,7 +99,7 @@ Sources:
 - TPU comparison graphic local path: `/mnt/data/news-factory/2026-11-10/media/google-tpu-8tx-vs-tpu-8i-max-20261110.svg`.
 - Both SVGs passed XML parsing, 1200×675 rendering and visual inspection. Metadata records source, original-artwork permission, attribution, local path, alt text and dimensions.
 - One official Google Cloud video was verified: ID `3Qw_CZkiQQg`, “Google TPU 8t and TPU 8i: Purpose-built for the Agentic Era”, channel Google Cloud, published 22 April 2026. It is included only as background because it predates and does not cover the 9 November 8tx/8i Max announcement.
-- TPU article contains responsive iframe markup using `youtube-nocookie`, a descriptive title, lazy loading, fullscreen support and a fallback watch link. Browser playback was not tested.
+- TPU article contains responsive iframe markup using `youtube-nocookie`, a descriptive title, lazy loading, fullscreen support and a fallback watch link. The channel's embed-permission setting and browser playback were not independently confirmed.
 - No verified story-specific Buildathon video was found; no iframe was added for that article.
 
 ## QA, release gate and limitations
