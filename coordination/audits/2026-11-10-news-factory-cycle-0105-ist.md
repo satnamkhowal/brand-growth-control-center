@@ -539,3 +539,10 @@ This cycle adds one distinct research item (India GDG DevFest event roundup), on
 - Existing workflow run [42724044015](https://github.com/satnamkhowal/forsk-coding-school/actions/runs/42724044015), “Forsk learning home copy QA”, was triggered by the PR's `docs/ai-ops` changes because those paths are included in the workflow filter.
 - Attempt 1 and one failed-job rerun (attempt 2) both failed before any runner/job steps were recorded: `runner_id=0`, no runner name, empty `steps` array, and no combined commit statuses. No PHP lint or learning-home regression test executed on the PR head. Treat this as a workflow/runner execution blocker, not a code-test failure or pass.
 - No third rerun and no workflow configuration change were made. Independent article/source QA and responsive browser QA remain pending. The PR stays draft-only; no merge, deployment or publication.
+
+
+### PR #154 state refresh — 10 November 2026, 05:18 IST
+
+- Forsk PR [#154](https://github.com/satnamkhowal/forsk-coding-school/pull/154) now has **5 changed files, 3 commits, 306 additions and 0 deletions**; GitHub reports open/draft/mergeable. Mergeability is not independent QA or publication approval.
+- The “Forsk learning home copy QA” workflow run #42724044015 failed on attempt 1 and one rerun (attempt 2) before any runner/job steps were recorded (`runner_id=0`, empty steps array, no combined status). No PHP lint or learning-home regression test executed on the PR head. Treat this as a runner/workflow execution blocker.
+- Forsk task board and session handoff were updated together to record the latest PR/CI state. No third rerun, workflow-file change, merge, deployment or publication.
