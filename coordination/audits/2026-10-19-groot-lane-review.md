@@ -365,3 +365,12 @@ The three review-only source checkpoint commits moved PR #569 to `533bfdebb871d7
 - Exact next action: repository Actions administrator checks runner availability and repository Actions permissions/limits; then trigger one real run. Continue PHP lint, rendered schema/route/HTTP and independent release review only after the job executes.
 
 Central ownership, PR #2 AEO/GEO baseline and all other brand ownership boundaries remain unchanged. No merge, deployment, publishing, indexing or cross-brand implementation occurred.
+
+
+## Delta — 2026-11-09: PR #569 merge-scope preservation review
+
+A fresh compare of PR #569 against current main shows the successor branch 28 commits ahead and 0 behind. Its diff includes 16 deletions within the existing `marketing/blog-factory/` subtree: the legacy master/pilot/R1/worker planning documents, the 2026-10-13 audit/inventory, B0001 image and QA handoffs, and B0001 research records/hand-off/proposal CSV. These may be superseded by the consolidated controller, but they are current-main files and should not disappear without an explicit reviewer decision.
+
+Targeted readback confirms the existing GA-B00017 and GA-B00018 briefs carry their key reader intent/evidence boundaries; the PR branch does not carry the GA-B00019 research record, although its completed article and QA artifacts remain. The original proposal CSV is also absent from the successor while the canonical 29-row queue is preserved. This is a provenance/merge-scope reconciliation item, not a rejection of the 23 completed drafts.
+
+The concern was recorded as a PR #569 review comment. No files were restored or removed, no main write occurred, and no self-approval/merge/deployment was performed. Independent reviewer should mark each legacy file intentionally superseded or request restoration before merging. Central owner and brand-source ownership remain unchanged.
