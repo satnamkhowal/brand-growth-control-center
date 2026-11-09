@@ -87,7 +87,7 @@ Differential cycle from the 2026-11-09 20:25 IST checkpoint through 21:43 IST. F
 - Third-party graphic downloads: **0**. Verified story-specific official/reputable YouTube IDs: **0**; no iframe markup added.
 - Independent source/date/version review of the five Mango drafts: PASS; one Django stable documentation URL corrected.
 - Full independent editorial QA remains pending for all five Mango drafts. Forsk PR #145 and Groot PR #577/#578 also remain draft/review, not QA-ready.
-- Mango PR #143 Actions run `42651456589`, job `129278607148`: failed before the first step; zero steps. Forsk PR #145 Actions run `42626520074`, job `129191603261`: failed before the first step; zero steps. Groot PR #577/#578 had no workflow runs returned. No CI/PHP/browser pass is claimed.
+- Mango PR #143 Actions run `42651456589`, job `129278607148`: failed before the first step; zero steps. A subsequent run after the task-board/work-log update, `42655108219`, job `129291401428`, also failed before the first step with zero steps. Forsk PR #145 Actions run `42626520074`, job `129191603261`: failed before the first step; zero steps. Groot PR #577/#578 had no workflow runs returned. No CI/PHP/browser pass is claimed.
 - No merge, deployment, publication, indexing or live verification.
 
 ## Counts
