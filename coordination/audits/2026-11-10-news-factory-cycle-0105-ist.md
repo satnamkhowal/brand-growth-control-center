@@ -81,7 +81,7 @@ Sources:
 - Base main: `a97dc07463a352ea924af3dea22af915a6f9bdb1`
 - Branch: `content/news-factory-tpu-8tx-buildathon-20261110`
 - Draft PR: https://github.com/satnamkhowal/grootacademy.com/pull/586
-- PR is open, draft, 8 commits ahead / 0 behind main, and GitHub currently reports it mergeable.
+- PR is open, draft, 9 commits ahead / 0 behind main, and GitHub currently reports it mergeable.
 - Files:
   - `docs/news-factory/drafts/startup-buildathon-india-2026-jaipur.md`
   - `docs/news-factory/media/startup-buildathon-india-2026-jaipur.svg`
