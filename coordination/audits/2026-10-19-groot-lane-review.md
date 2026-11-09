@@ -400,3 +400,15 @@ No merge, deployment, publishing, indexing, ranking claim, or ownership reassign
 - Factory counts unchanged: 23 complete drafts, 23 visuals, 23 PHP candidates, 18 independent code passes, 0 independent publication approvals and 0 live-verified articles. No article was added or regenerated.
 
 Central PR #17 remains draft/unmerged. PR #15 remains draft; Jaipur Engineers production/social mapping is still open. PR #3 is closed and the existing AEO/GEO baseline is reused. No other brand owner/files, merge, deployment, publishing, indexing or ranking claim changed.
+
+
+## Delta — 2026-11-09: local PHP evidence and MIME boundary
+
+- Groot source PR #569 added `work/B0002/qa/GA-B00029-local-runtime-20261109.md` and updated its controller/README checkpoint. Local PHP 8.4.24 lint passed for the GA-B00029 candidate and exact current-main shared `blog-layout.php` / `partials/head.php` blobs. An isolated local render with stubbed site chrome passed 9/9 H1/H2/TOC/canonical/robots/BlogPosting/BreadcrumbList/date/internal-link assertions. This is not production render or independent release approval.
+- Python 3.13.5 execution: GA-B00029 SQLite tests 6/6; draft verifier 25/25 in normal, `-O`, `-OO`; compilation PASS. The fixture's ordinary/apostrophe/injection-shaped checks preserved all three fictional rows.
+- Local PHP development-server HTTP returned article 200 `text/html`, SVG 200 `image/svg+xml`, but both `.py` downloads had no Content-Type. The manifest continues to require `text/plain` or `text/x-python`; production Apache MIME remains unverified and no manifest relaxation was made.
+- GA-B00016 browser remains blocked: Chromium 144 exists but Playwright is absent; custom CDP navigation did not reach DOM assertions. Zero browser assertions; manual zoom untested.
+- Latest factory Actions runs `42646113896` and `42646113900` again failed before steps. Jobs `129259699145` and `129259698935` have empty step arrays, no log URL and `BlobNotFound`. Root cause is not exposed; repository Actions administrator intervention remains required.
+- No factory counts changed: 29 queue IDs, 23 complete drafts, 23 visuals, 23 PHP candidates, approved 0, live-verified 0. PR #569 remains draft/unmerged. No other brand source files, ownership, AEO/GEO baseline or Jaipur mapping changed.
+
+Next: independent reviewer checks the legacy-file disposition; repository administrator restores actual Actions runner/job execution; verify `.py` MIME on authorized production-equivalent Apache; then complete remaining exact-main render/HTTP and independent release gates. No merge, publishing, deployment or indexing.
