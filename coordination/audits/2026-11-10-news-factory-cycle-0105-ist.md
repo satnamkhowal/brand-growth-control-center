@@ -144,3 +144,11 @@ This cycle adds two distinct researched stories, two article drafts and two orig
 - NSP's current student-announcements page says PM YASASVI Top Class Education in Schools for OBC/EBC/DNT students is open for fresh applications, but explicitly says students from **Rajasthan, Keralam and Karnataka must wait**. The announcement does not state a revised Rajasthan opening date. No Rajasthan-facing application article was created; monitor the official announcement rather than implying local eligibility.  
   Source: https://scholarships.gov.in/student-announcements
 - These are status rechecks of existing programmes, not newly announced opportunities; cumulative story counts remain unchanged.
+
+
+## Frontend/backend release list recheck — 10 November 2026
+
+- React's official blog's latest stable release announcement remains **React 19.3**, published 9 September 2026; the official versions page labels 19.3 as the latest version. No newer stable React announcement was found in this cycle. The earlier React Server Components security work remains owned by Forsk PR #145; no duplicate was created.  
+  Sources: https://react.dev/blog and https://react.dev/versions
+- Node.js official blog currently lists **Node.js 26.13.0 (LTS)** and **24.22.2 (LTS)** dated 28 October 2026; Node.js 27.0.0-alpha.0.0.0 is a prerelease dated 29 October and is not treated as a stable upgrade. The 3 November security advance notice still schedules releases for 26.x, 24.x and 22.x on or shortly after 11 November, with HIGH as the highest severity in each line. No patched security versions/CVE ranges are listed in the advance notice as of this check. Existing Mango PR #143 remains the Node.js readiness owner.  
+  Sources: https://nodejs.org/en/blog and https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
