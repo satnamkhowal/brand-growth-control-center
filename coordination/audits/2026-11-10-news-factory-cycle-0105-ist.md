@@ -296,3 +296,85 @@ This cycle adds one verified research item, one article draft and one original g
 - These official/portal surfaces conflict. As of this check, fresh 2026–27 registration is **not safely confirmable as open**. Do not market the scheme as a newly open scholarship or direct students to a fresh application until AICTE/NSP confirms the current status. Existing 2026–27 scheme eligibility/benefit information must be checked against the current AICTE guideline before drafting.
 - Sources: https://scholarships.gov.in/All-Scholarships ; https://scholarships.gov.in/ViewMoreAnnouncement ; https://adgips.ac.in/2026/10/28/
 - This adds one researched status-hold item, not a new article, graphic or QA-ready item. Cumulative ledger is now 70 researched, 59 drafted, 59 original graphics, 33 independent QA-ready, 0 live.
+
+
+## 10 November 2026 — 04:08 IST follow-up
+
+### New official opportunity — NIC Digital India Internship Winter 2026
+
+- Official NIC Training Division portal: https://dii.nic.in/
+- The official landing page lists **Digital India Internship — Winter 2026**, says registration starts **2 November 2026**, and shows the internship period **1 December 2026 to 31 January 2027**. The page explicitly states **offline only**.
+- The portal page's last-updated date is **10 November 2026**; it does not display a separate notice publication date.
+- The visible registration form includes a currently pursued degree selector and warns applicants not to register if their degree is not listed.
+- The accessible official landing-page text does not state the application deadline, exact degree/branch/year eligibility, stipend, application fee, seat count or posting centres. The official Winter 2026 guideline linked from the portal timed out in the research client. No such details are guessed or copied from third-party summaries.
+- Official contact displayed on the portal: internship-nic@nic.in; +91-11-24305869.
+- Jaipur/Rajasthan applicants must verify the actual offline reporting location; the official page does not confirm a Jaipur centre or remote option.
+- New Mango Engineers delivery: [PR #147](https://github.com/satnamkhowal/mangoengineers.com/pull/147), an original approximately 1,800-word English guide, one self-authored 1200×675 SVG and a provenance sidecar. Article/graphic/metadata are documentation-only; no live route or production content changed.
+- Local PNG preview: /mnt/data/news-factory/2026-11-10-nic-internship/nic-digital-india-internship-winter-2026-checklist.png.
+- No story-specific original YouTube video was verified; no ID or iframe was added.
+- Branch content/news-factory-nic-internship-20261110 is 6 commits ahead / 0 behind Mango main. Five intended files are present (article, SVG, JSON sidecar, task-board row, work-log entry). GitHub read-back passed for the three content/media files.
+- Mango PR #147 remains open and draft; PR creation returned mergeable=false. PHP Architecture Check run 42715210065 completed failure with zero steps; job logs were unavailable (BlobNotFound). No code-level PHP failure or pass is inferred. Independent QA remains pending.
+- No merge, deployment or publication.
+
+### Node.js / backend release recheck — new research candidate
+
+- Official Node.js blog index lists **Notable V8 changes from Node.js 26 to 27 (Alpha)**, published **5 November 2026**. The separate Node.js 27.0.0-alpha.0.0.0 tag was released **29 October 2026**; the blog publication date and release-tag date are distinct.
+- Node.js 27 Alpha upgrades V8 from 14.6 (Node 26) to 15.6. The official technical post covers Math.sumPrecise, Intl.Locale.prototype.variants, iterator methods, PowerSort, changes to Math.random, Date/time-zone offsets, serialization compatibility, heap limits and memory behaviour.
+- Node.js warns that Alpha/Current may receive breaking V8 changes; this is a prerelease, not an LTS recommendation for production.
+- Latest stable/LTS versions shown on the Node.js blog index remain **26.13.0 LTS** and **24.22.2 LTS**, both dated **28 October 2026**; 27.0.0-alpha.0.0.0 is prerelease. No newer stable patch was found in this check.
+- The 3 November security advance notice still schedules 26.x/24.x/22.x security releases on or shortly after **11 November 2026**, with highest severity HIGH in each line. No CVEs or patched versions are in the advance notice yet. Existing Mango PR #143 remains the single owner for that security-readiness article; no duplicate was created.
+- V8 Alpha research is logged as a research candidate only; no separate article or graphic was produced.
+- Sources: https://nodejs.org/en/blog/ ; https://nodejs.org/en/blog/announcements/notable-v8-changes-from-node-js-26-to-27-alpha ; https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+### React / frontend version correction
+
+- React's official feature blog still has **React 19.3** (9 September 2026) as its latest feature-release announcement.
+- The official React GitHub release list shows the latest patch tags dated **14 October 2026**: **19.3.1**, **19.2.9**, **19.1.10** and **19.0.9**. Therefore, “19.3.0 is the latest version” would be incomplete; distinguish the 19.3 feature release from current patch tags.
+- No newer stable release or fresh November security advisory was found. Existing Forsk PR #145 owns the 14 October RSC security advisories and patched-version guide; no duplicate article was created.
+- Sources: https://react.dev/blog ; https://github.com/react/react/releases
+
+### Student programme and scholarship status recheck
+
+- Google Careers still shows **Student Researcher, 2027** as India remote eligible, with an Apply control and **4 December 2026** deadline; applications are reviewed on a rolling basis. The listing requires current enrolment in a Bachelor's, Master's or PhD degree in one of the listed fields and experience in a computer-science area. No stipend amount or fixed duration is disclosed on the listing. Existing Forsk PR #146 remains the single article owner.
+- NSP 2026–27 listing currently shows NMMSS student applications through **15 November 2026** and AICTE Swanath/Pragati plus UGC National Scholarship for Post Graduate Studies through **30 November 2026**. The NSP page footer still says last updated June 2026; students should verify each live form and current guideline before submission.
+- PM-USP Special Scholarship Scheme for J&K/Ladakh remains a status conflict: the All-Scholarships card shows a 22 October opening and 30 November deadline, while the student announcement says renewal only and a 31 October student deadline. Fresh applications are not safely confirmable as open.
+- PM YASASVI Top Class Education in Schools fresh applications are listed as open, but the NSP announcement says Rajasthan, Keralam and Karnataka students must wait; no revised Rajasthan opening date is stated.
+- Sources: https://www.google.com/about/careers/applications/jobs/results/125423735539671750 ; https://scholarships.gov.in/All-Scholarships ; https://scholarships.gov.in/Students ; https://scholarships.gov.in/
+
+### AI / cloud / developer news
+
+- Google Cloud's **TPU 8tx and TPU 8i Max** announcement is dated **9 November 2026** and remains owned by Groot Academy PR #586. No duplicate article was created. The official post distinguishes TPU 8tx confidential inference from TPU 8i Max's larger context/memory configuration; no India region, SKU pricing or customer-access date is inferred.
+- Other already-owned AI/cloud stories in Groot PRs #580/#582 and Mango PR #143 were not duplicated.
+- Source: https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max
+
+### Repository/queue coordination and QA
+
+- Mango: new [PR #147](https://github.com/satnamkhowal/mangoengineers.com/pull/147); existing PR #143 remains owner for its current five-story batch.
+- Forsk: existing PR #145 (React RSC security), #146 (Google Student Researcher), #152 (Copilot code-review API) and #153 (Google Agent Distraction) remain separate owners; no Forsk write in this cycle.
+- Groot: PR #586 (Startup Buildathon + TPU 8tx/8i Max) and #580/#582/#583/#577/#578 remain owners; no Groot write in this cycle.
+- Jaipur Engineers: current repository was reviewed; central README/queue still provides no approved non-public News Factory article lane. Keep read-only; existing readability PR #43 and batch PR #41 are untouched.
+- Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies remain unverified for this News Factory source/repository mapping; no writes.
+- No merge, deployment, live verification, public posting or publication.
+
+### Cycle ledger
+
+Previous carried-forward ledger: 70 researched, 59 drafted, 59 original graphics, 33 independent QA-ready, 0 live.
+
+This cycle adds two distinct research items (NIC Winter 2026 internship and Node.js 27 Alpha V8 changes), one original Mango article draft and one original graphic. Google/NSP/React/Node security/TPU items are status rechecks or existing owners, not duplicate story counts.
+
+| State | Cumulative |
+| --- | ---: |
+| Researched | 72 |
+| Drafted | 60 |
+| Original graphics | 60 |
+| Independent QA-ready | 33 |
+| Live / published | 0 |
+
+### Next actions
+
+1. Retrieve the official NIC Winter 2026 guideline and verify closing date, exact eligibility, posting centres, stipend and any fee before updating or publishing PR #147.
+2. Investigate Mango PHP Architecture Check run 42715210065: it failed with zero steps and logs unavailable; do not infer source failure or success.
+3. Independently QA the NIC article and SVG; keep PR #147 draft/unmerged.
+4. Recheck Node.js 26.x/24.x/22.x security releases on or after 11 November for actual versions and CVEs before updating Mango PR #143.
+5. Recheck NMMSS before 15 November, AICTE/UGC applications before 30 November and Google Student Researcher before 4 December.
+6. Preserve current brand owners and all merge/deploy/publish approval gates.
