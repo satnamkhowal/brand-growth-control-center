@@ -155,3 +155,39 @@ Updated cycle production totals: 3 new article drafts, 3 original SVG graphics, 
 ## Jaipur Engineers write boundary
 
 The canonical `je2` alias resolves to `satnamkhowal/jaipurengineers.com` (repository ID 1369588932). Its current tree contains a live `news/` PHP article directory and `news/article-template.php`, but the inspected main branch has no `docs/news-factory/` draft lane and no root `AGENTS.md`. No article was added to the live news directory or a guessed draft path. Jaipur remains research-only until an approved draft convention or an isolated non-public draft path is established.
+
+
+## Revalidation — 9 November 2026, 23:09 IST
+
+### Fresh primary-source status
+
+- **Google Student Researcher, 2027:** the live Google Careers page still shows India — Remote eligible, an Apply control, rolling review, Bachelor's/Master's/PhD enrolment and a request to complete the application before **4 December 2026**. The listing does not state an opening date, fixed duration or stipend/salary amount. Existing single-owner draft: Forsk PR #146. No duplicate was created.
+- **Google Research Scientist PhD Intern, Summer 2027:** the live Google Careers listing shows Hyderabad, PhD enrolment, an opening date of **28 October 2026** and closing date of **30 November 2026**. Compensation is not stated on the public listing. Existing single-owner draft: Mango PR #143.
+- **NSP 2026–27:** current scheme cards show NMMSS student applications through **15 November 2026**; AICTE Swanath degree and diploma through **30 November 2026**; AICTE Pragati degree and diploma through **30 November 2026**. The portal footer still says “Last update on June 2026”, so each status must be checked again immediately before publication or student submission. Swanath's linked guideline is dated **May 2025** and states ₹50,000 per year, up to 2,000 annual awards, an ₹8 lakh income ceiling, AICTE-approved regular-mode study and category/other-scholarship conditions. Existing single-owner drafts: Groot PR #577 (NMMSS), Forsk PR #147 (Swanath), Mango PR #143 (Pragati).
+- **PM YASASVI Top Class Education in College:** NSP currently lists applications through 30 November, but the linked guideline is marked “as amended from 2023–2024” and the current notified institution/slot list was not independently confirmed. Research hold; no draft.
+- **React:** official release history remains 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026. The two current React Server Components advisories checked are also dated 14 October. Forsk PR #145 remains the single React security content owner.
+- **Node.js:** official advance notice remains dated 3 November 2026 and says 26.x, 24.x and 22.x security releases are expected on or shortly after 11 November, with HIGH as the highest severity in each line. No CVE IDs, affected patch ranges or patched versions are listed yet. Mango PR #143 remains the single Node.js readiness owner.
+- **Cloud Pathways:** Google Cloud's official post is dated 9 November 2026; GKE is GA and the separate Cluster Director/Slurm integration is Preview. Google says the versioned Pathways images support JAX 0.10.1+. The current GKE TPU table lists no Mumbai or Delhi TPU zone; the listed APAC Trillium zone is Tokyo. The official pricing page confirms the article's selected examples ($1.20 v5e, $4.20 v5p, $3.24 Trillium and $12.00 Ironwood per chip-hour in the named regions). Groot PR #580 remains the single owner.
+
+### Repository and PR reconciliation
+
+- Central main remains 31af61b9a796472b7eb13d6b254aa6d9dc2ecc34; this checkpoint branch is 4 commits ahead / 0 behind and changes only this checkpoint file.
+- Groot Academy canonical content repository is satnamkhowal/grootacademy.com. Its main advanced to a97dc07463a352ea924af3dea22af915a6f9bdb1 with one unrelated file, docs/ENGLISH-COMMUNICATION-IMAGE-WORKFLOW.md. PR #580 is 3 commits ahead / 1 behind; no changed-path overlap with the new draft/media files. Do not merge blindly; retain normal independent review.
+- Forsk Coding School main remains a690ef725029e8c7f96b6148e9012f82a481bd6d. PRs #145, #146 and #147 are separate, 3 commits ahead / 0 behind each, with distinct owned paths.
+- Mango Engineers main remains 8eeb57fdf05341aa0a5ec31846148a37b0be3ba6. PR #143 is 34 commits ahead / 0 behind and owns its five documented topics; PR #144 is a separate ME-B022 graphic handoff.
+- Jaipur Engineers canonical repository is verified as satnamkhowal/jaipurengineers.com (the renamed je2 application). MIGRATION-NOTES.md says the current application is canonical; root README and AGENTS.md were not found, and no News Factory draft lane was identified. No Jaipur write was made.
+- No unverified brand repository was used.
+
+### Independent revalidation and production accounting
+
+- Groot PR #580: independent article/source fact-check passed for publication date, GKE GA vs Slurm Preview, JAX minimum, GKE TPU region caveat, pricing basis and IAM/prerequisite claims. SVG source checks passed for 1200×675 dimensions, title/description, closed root element, no script, no external href and no embedded image. Browser rendering was not run; the metadata's prior local working path was not present in this run's local filesystem. Keep the PR **draft / not QA-ready** until media rendering and local-path provenance are resolved.
+- Forsk PR #146 and #147: current official listing/guideline facts were rechecked; both SVG sources have 1200×675 dimensions, title/description and no script, external href or embedded image. Local rendering was not independently repeated in this run. Keep both **draft / not QA-ready** pending independent editorial and media review.
+- This revalidation run added **0 article drafts, 0 graphics, 0 licensed external downloads and 0 YouTube embeds**. The preceding 22:09 cycle's checkpoint production remains **3 new drafts / 3 original SVGs / 0 independent QA-ready / 0 live**. No merge, deployment, publication, application submission or indexing action occurred.
+
+### Next actions
+
+1. Recheck NMMSS before 15 November and the current Google/AICTE application pages before their listed deadlines.
+2. On or after 11 November, recheck Node.js for actual release tags, CVEs, affected ranges and patched versions before replacing the readiness guide with a patch guide.
+3. Complete independent browser/media rendering and editorial review for Groot #580 and Forsk #146/#147.
+4. Verify the current PM YASASVI notified-institution/slot list before deciding whether a separate article is useful.
+5. Keep all current PRs unmerged and unpublished until their independent gates and owner approval are complete.
