@@ -109,3 +109,16 @@ No self-approval, self-merge, deployment, publication or mass indexing. No ranki
 - Blog-factory QA run `42681089899` / job `129375484833`: completed failure, `steps=null`, `logs_url=null`.
 - Both were triggered by the README checkpoint commit and failed at the same pre-step boundary. No queue, Python, PHP, or static assertion executed; this is not a code-test result.
 - PR #569 still has zero submitted reviews and zero review threads. No further retry was initiated. Repository Actions administrator diagnosis remains the required external action.
+
+
+## Post-checkpoint GA-B00029 current-main collision recheck — 2026-11-10
+
+- Groot main remains `a97dc07463a352ea924af3dea22af915a6f9bdb1`; the one main-only commit since the PR #569 base is unrelated Forsk communication-image documentation.
+- Rechecked the GA-B00029 candidate against exact current-main files. Shared layout blob `7e19e1b4b87843d65b5aa7f1cb0fb33a5b154178` and shared head blob `07aa1c4a092e419314f4579dd87263c2ee12b097` exactly match the successor branch.
+- Candidate slug `parameterized-queries-local-practice` occurs zero times in current-main `blog-registry.php` and zero times in the 33-URL `blogs/sitemap.xml`; the proposed route file is absent from main. Both existing internal-link target source files exist. The candidate remains `noindex,follow`; no production route, registry or sitemap change was made.
+- Current-main queue and successor queue both retain the same 29 IDs. No queue write occurred. Successor accounting remains 23 complete drafts / 23 visuals / 23 PHP candidates / 18 independent code passes; independent publication approvals 0 and live-verified 0.
+- PR #569 remains open/draft with zero reviews and zero review threads; current compare 65 ahead / 1 behind, 193 changed files. The exact current-main board still marks HAO-008 P3/REVIEW and holds new mass-blog batches behind higher-impact UX/QA gates. User controller P0 is preserved separately; no priority or ownership was changed.
+- New factory evidence: `marketing/blog-factory/work/B0002/qa/GA-B00029-current-main-delta-20261110.md` on the Groot successor branch. This is source-level collision evidence only, not production HTTP/schema approval.
+- Central PR #1/#2/#3 remain closed; PR #2's AEO/GEO baseline is reused. PR #19 remains the separate News Factory coordination lane; its drafts are not canonical 100K IDs. No other-brand implementation or owner mapping changed.
+
+Next: independent review of PR #569 and GA-B00016; authorized real browser zoom; Actions administrator diagnosis; authorized-origin Apache MIME/HTTP verification and remaining release checks. No self-approval, merge, deployment, publication or indexing.
