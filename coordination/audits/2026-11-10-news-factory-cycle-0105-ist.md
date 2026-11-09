@@ -531,3 +531,11 @@ This cycle adds one distinct research item (India GDG DevFest event roundup), on
 3. Recheck Node.js patched versions and CVEs on or after 11 November before updating Mango PR #143.
 4. Recheck NMMSS before 15 November, other portal-listed scholarship deadlines before 30 November, and Google Student Researcher before 4 December.
 5. Keep all drafts unmerged and unpublished until independent QA and explicit approval.
+
+
+### Forsk PR #154 CI execution addendum — 10 November 2026, 05:16 IST
+
+- PR [#154](https://github.com/satnamkhowal/forsk-coding-school/pull/154) now includes the paired Forsk task-board/session-handoff updates and a CI-status addendum; it remains open, draft and mergeable at last check.
+- Existing workflow run [42724044015](https://github.com/satnamkhowal/forsk-coding-school/actions/runs/42724044015), “Forsk learning home copy QA”, was triggered by the PR's `docs/ai-ops` changes because those paths are included in the workflow filter.
+- Attempt 1 and one failed-job rerun (attempt 2) both failed before any runner/job steps were recorded: `runner_id=0`, no runner name, empty `steps` array, and no combined commit statuses. No PHP lint or learning-home regression test executed on the PR head. Treat this as a workflow/runner execution blocker, not a code-test failure or pass.
+- No third rerun and no workflow configuration change were made. Independent article/source QA and responsive browser QA remain pending. The PR stays draft-only; no merge, deployment or publication.
