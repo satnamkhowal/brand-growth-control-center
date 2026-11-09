@@ -488,3 +488,14 @@ At Groot checkpoint [`b4344693`](https://github.com/satnamkhowal/grootacademy.co
 Evidence remains deliberately bounded: `php_rendered=false`, `http_verified=false`, `publication_approved=false`. PR #569 Actions still fail before runner allocation, so no PHP PASS is claimed. Counts remain 29 IDs, 23 drafts, 23 visuals, 23 PHP candidates, approved 0 and live-verified 0. No merge, production route change, deployment, indexing, mapping closure or owner reassignment occurred.
 
 Exact next action: restore runner allocation and execute the PHP lint job, then rendered schema/H1/TOC and HTTP-MIME gates followed by independent release QA.
+
+
+## Delta — 2026-11-09: GA-B00029 static HTTP/MIME handoff repaired
+
+No crawl, AEO/GEO baseline recreation, owner reassignment or other brand source change occurred. Groot draft PR #569 now contains a machine-readable four-endpoint release handoff for GA-B00029. Independent review initially failed it because contradictory limitations could pass and metadata paths lacked their own traversal guard; the lane repaired both before acceptance.
+
+At [checkpoint `95bafeff`](https://github.com/satnamkhowal/grootacademy.com/commit/95bafeff475dea60137b1025092b05e16444b5ca), independent re-review PASS confirms: 8/8 focused checks under normal Python, `-O` and `-OO`; full local suite 117/117; exact document/SVG/two-download status and MIME expectations; structured PHP/HTTP/deployed false gates; contradictory evidence text and relative/absolute path traversal mutations reject.
+
+This remains static handoff evidence only: `php_rendered=false`, `http_verified=false`, `deployed=false`, `publication_approved=false`. Counts remain 29 IDs, 23 drafts, 23 visuals, 23 PHP candidates, approved 0 and live-verified 0. Actions runner allocation is still blocked; no PHP, HTTP, merge, deployment, publication or ownership claim is added.
+
+Exact next action: restore PR #569 runner allocation, run PHP lint, then execute the saved four endpoint HTTP/MIME assertions plus rendered schema/H1/TOC checks and independent release QA.
