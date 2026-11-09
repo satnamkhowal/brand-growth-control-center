@@ -378,3 +378,10 @@ This cycle adds two distinct research items (NIC Winter 2026 internship and Node
 4. Recheck Node.js 26.x/24.x/22.x security releases on or after 11 November for actual versions and CVEs before updating Mango PR #143.
 5. Recheck NMMSS before 15 November, AICTE/UGC applications before 30 November and Google Student Researcher before 4 December.
 6. Preserve current brand owners and all merge/deploy/publish approval gates.
+
+
+### Mango PR #147 final branch/CI reconciliation — 10 November 2026, 04:22 IST
+
+- After task-board and work-log validation follow-ups, the Mango branch is **8 commits ahead / 0 behind main**, with exactly five changed paths. The earlier 6-commit figure in the 04:08 entry described the branch before those two follow-up commits.
+- The PHP Architecture Check run 42715210065 has one failed job with an empty steps list; the log endpoint returned BlobNotFound. CI is therefore unverified/blocked, not a code-level PHP failure or pass.
+- PR #147 remains open and draft. No merge, deployment or publication.
