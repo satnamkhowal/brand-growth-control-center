@@ -65,6 +65,13 @@ Differential cycle from the 2026-11-09 20:25 IST checkpoint through 21:43 IST. F
 - Google Student Researcher 2027 India remains an already-covered India-remote listing with a 2026-12-04 deadline. It was not duplicated.
 - Amazon **Systems Development Engineer Intern – 2027**, job 10498158, is currently visible on Amazon.jobs with an Apply now control and India locations Bengaluru, Chennai, Hyderabad and Gurugram. Basic qualification includes enrolment in or completion of a Bachelor's degree in CS or equivalent. The official listing does not state an application window/deadline, duration or compensation; retained as a research candidate, not drafted in this bounded batch.
 
+## Additional student-opportunity research candidates
+
+- **PM YASASVI Top Class Education in College (OBC/EBC/DNT):** NSP's current 2026–27 All-Scholarships list shows applications open through **2026-11-30**. The currently linked scheme document, amended from 2023–24, requires annual family income up to **₹2.50 lakh** and admission to a currently notified institution. It describes full tuition/non-refundable charges (private-institution cap ₹2 lakh/year), living expenses ₹3,000/month, books/stationery ₹5,000/year and a one-time laptop allowance up to ₹45,000. The current 2026–27 institution/slot list was not confirmed in this run, so this remains research-only; do not imply every college or course is covered. Sources: https://scholarships.gov.in/All-Scholarships ; https://scholarships.gov.in/public/schemeGuidelines/ApprovedmodifieddraftofTopClassCollege.pdf
+- **PM YASASVI Top Class Education in Schools:** NSP lists fresh applications through **2026-11-15**, but its current announcement explicitly says applicants from **Rajasthan, Keralam and Karnataka** must wait. It is therefore not currently a verified fresh-application opportunity for Jaipur/Rajasthan students. Source: https://scholarships.gov.in/student-announcements
+- **PM-USP CSSS renewal deadline discrepancy:** the current All-Scholarships listing says 2026-11-30, while the Students announcements page still says 2026-10-31. Do not publish a deadline until the portal clarifies the inconsistency. Sources: https://scholarships.gov.in/All-Scholarships ; https://scholarships.gov.in/Students
+- These three research-only findings are not drafts and are not included in the five-draft batch.
+
 ## Other developer/news findings
 
 - **React/frontend:** no newer stable React release/advisory found in this differential window. Official React blog lists 19.3 as the September 9 feature release; October 14 security patch versions are already covered by the Forsk RSC catch-up.
@@ -96,18 +103,18 @@ Baseline from the 2026-11-09 20:25 IST checkpoint: 61 researched / 51 drafted / 
 
 | State | Cumulative |
 |---|---:|
-| Researched | 66 |
+| Researched | 69 |
 | Drafted | 56 |
 | Original graphics | 56 |
 | Independent QA-ready | 33 |
 | Live | 0 |
 
-Differential in this window: **+5 researched, +5 drafted, +5 original graphics, +0 QA-ready, +0 live**. QA-ready does not include the five source-reviewed Mango drafts.
+Differential in this window: **+8 researched (five drafted stories plus three research-only candidates), +5 drafted, +5 original graphics, +0 QA-ready, +0 live**. QA-ready does not include the five source-reviewed Mango drafts.
 
 ## Next action
 
 1. Complete full independent editorial QA of Mango PR #143; resolve any remaining issues before considering approval.
 2. Recheck the official Node.js release after 2026-11-11 and only then add exact patched versions/CVEs.
 3. Recheck NMMSS before 2026-11-15, Google PhD Intern and AICTE Pragati before 2026-11-30, and Google Student Researcher before 2026-12-04.
-4. Keep Amazon job 10498158 as a candidate until its application window/terms can be confirmed or the listing changes.
+4. Verify the current PM YASASVI college institution/slot list and resolve the PM-USP renewal-date discrepancy before drafting; keep Amazon job 10498158 and GitHub Copilot API updates as research candidates until each story has a distinct brand fit.
 5. Do not merge, deploy or publish without approval.
