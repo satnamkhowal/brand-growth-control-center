@@ -133,3 +133,14 @@ This cycle adds two distinct researched stories, two article drafts and two orig
 3. Recheck Node.js 26.x/24.x/22.x patched versions and CVEs when the announced 11 November security release is published.
 4. Verify official TPU 8tx/8i Max customer access, India availability and pricing only when Google publishes those details.
 5. Preserve existing PR ownership. Do not merge, deploy or publish without independent QA and owner approval.
+
+
+## Additional official opportunity status recheck — 10 November 2026, 01:20 IST
+
+- Google Careers still lists **Student Researcher, 2027** with India as a remote-eligible location and asks applicants to complete the application before **4 December 2026**. Rolling review is stated. Minimum qualifications include current Bachelor's, Master's or PhD enrolment in a listed subject area and experience in a relevant computer-science area. The public listing does not state compensation or a fixed project duration. Existing Forsk PR #146 remains the single owner; no duplicate draft was created.  
+  Source: https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+- The current NSP 2026–27 All-Scholarships listing still shows NMMSS student applications through **15 November 2026**; AICTE Swanath, AICTE Pragati, UGC National Scholarship for Post Graduate Studies and ISI stipend applications through **30 November 2026**. The NSP footer still says last update June 2026, so the live form and scheme guideline must be checked again before student submission. Existing Groot/Forsk/Mango drafts remain the owners; no duplicate scholarship guide was written.  
+  Source: https://scholarships.gov.in/All-Scholarships
+- NSP's current student-announcements page says PM YASASVI Top Class Education in Schools for OBC/EBC/DNT students is open for fresh applications, but explicitly says students from **Rajasthan, Keralam and Karnataka must wait**. The announcement does not state a revised Rajasthan opening date. No Rajasthan-facing application article was created; monitor the official announcement rather than implying local eligibility.  
+  Source: https://scholarships.gov.in/student-announcements
+- These are status rechecks of existing programmes, not newly announced opportunities; cumulative story counts remain unchanged.
