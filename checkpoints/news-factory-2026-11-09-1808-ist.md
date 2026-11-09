@@ -11,7 +11,8 @@ Differential scan from the verified 2026-11-09 13:30 IST checkpoint through 18:0
 Repository: https://github.com/satnamkhowal/mangoengineers.com  
 Branch: content/news-factory-20261109-1808  
 Base: main at 8eeb57fdf05341aa0a5ec31846148a37b0be3ba6  
-Content commit: c541bccfe4e288ca4ee573f2f9f4c2a91ca160e7  
+Initial content commit: c541bccfe4e288ca4ee573f2f9f4c2a91ca160e7  
+Latest draft/media provenance commit: 107cb77d734ae41591119fa1fe9a52768b51040d  
 Task: ME-NEWS-20261109-B001
 
 1. Django November 2026 security updates:
@@ -32,7 +33,7 @@ Task: ME-NEWS-20261109-B001
    - Official application opened 28 October 2026 and closes 30 November 2026.
    - Hyderabad, India; current PhD enrolment, AI/ML experience and Python/Java are minimum requirements. Public listing does not disclose compensation.
 
-All three SVGs are original self-contained vector artwork authored in the Mango Engineers repository, 1200×675. No third-party media was downloaded. Alt text is recorded in article frontmatter; SVG title and description elements are included.
+All three SVGs are original self-contained vector artwork authored in the Mango Engineers repository, 1200×675. No third-party media was downloaded. Each SVG has a title, description and in-file provenance comment; article frontmatter records source, license/permission, attribution, repository path, alt text and dimensions.
 
 ### QA and publication state
 
