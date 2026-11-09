@@ -152,3 +152,69 @@ This cycle adds two distinct researched stories, two article drafts and two orig
   Sources: https://react.dev/blog and https://react.dev/versions
 - Node.js official blog currently lists **Node.js 26.13.0 (LTS)** and **24.22.2 (LTS)** dated 28 October 2026; Node.js 27.0.0-alpha.0.0.0 is a prerelease dated 29 October and is not treated as a stable upgrade. The 3 November security advance notice still schedules releases for 26.x, 24.x and 22.x on or shortly after 11 November, with HIGH as the highest severity in each line. No patched security versions/CVE ranges are listed in the advance notice as of this check. Existing Mango PR #143 remains the Node.js readiness owner.  
   Sources: https://nodejs.org/en/blog and https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+
+## 10 November 2026 — 02:09 IST research and draft-production cycle
+
+### Repository and queue review
+- Re-read the central README and the current open News Factory PR #19. The central repository remains coordination-only; brand implementation belongs in the source repository.
+- Re-read Mango Engineers AGENTS.md, docs/agent-start-here.md, docs/task-board.csv, docs/work-log.md and docs/integration-queue.md. No existing task-board owner or shared integration item was reassigned. Mango remains read-only in this cycle because its current news and Node.js topics already have owners.
+- Verified repository identities and permissions for Mango Engineers (satnamkhowal/mangoengineers.com), Groot Academy (satnamkhowal/grootacademy.com), Forsk Coding School (satnamkhowal/forsk-coding-school) and Jaipur Engineers (satnamkhowal/jaipurengineers.com). No guessed paths or live-site writes were made.
+- Forsk has no root AGENTS.md or README.md; the existing News Factory draft/media directory and prior draft PR conventions were inspected. docs/IMAGE-PRODUCTION-WORKFLOW.md was read; this work adds an editorial draft graphic only and does not claim website integration.
+- Current open News Factory PRs and branch names were searched across the four brand repositories. No existing Copilot code-review API management story or duplicate media path was found. Existing PRs #145–#151 remain untouched.
+- Central PR #19 branch is 13 commits ahead and 0 behind current main; the existing checkpoint file is being appended rather than creating a parallel coordination branch.
+
+### 1. Official programs, internships and scholarships
+- No newly opened, fully verified India-eligible student/developer programme with a fresh application window was found in this cycle.
+- Google Student Researcher 2027 remains listed for India remote applicants with a 4 December 2026 application deadline and rolling review. Existing Forsk PR #146 remains the single draft owner; no duplicate was created. Source: https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+- NSP 2026–27 still lists NMMSS through 15 November and AICTE Swanath/Pragati, UGC PG Studies and ISI stipend applications through 30 November. NSP's footer still reports June 2026 as its last update; check each live form and scheme guideline before advising submission. Existing draft owners remain unchanged. Source: https://scholarships.gov.in/All-Scholarships
+- COEP Technological University's scholarship page lists an ONGC Merit Scholarship 2026–27 notice dated 2 November 2026. The linked PDF timed out during retrieval, so eligibility, award value, deadline, fee and live application status could not be verified. It is a research hold, not a new open-opportunity article. Source: https://www.coeptech.ac.in/student-corner/student-services/scholarship/scholarship-notifications/
+- The IET India Scholarship Award 2026 page confirms applications closed on 5 July 2026; its current page invites visitors to sign up for the next edition. It is not a newly open opportunity. Source: https://scholarships.theietevents.com/
+
+### 2. React / frontend
+- React's official blog still identifies React 19.3, published 9 September 2026, as the latest stable announcement. No new stable release or security update was found in this cycle. Existing Forsk PR #145 remains the owner; no duplicate was created.
+- Source: https://react.dev/blog
+
+### 3. Node.js / backend
+- The Node.js official blog lists 26.13.0 LTS and 24.22.2 LTS (28 October 2026); 27.0.0-alpha.0.0.0 (29 October) is a prerelease, not a stable production upgrade.
+- The official 3 November advance notice still schedules security releases for 26.x, 24.x and 22.x on or shortly after 11 November, with HIGH as the highest severity in each line. It still provides no patched versions or CVE ranges. Existing Mango PR #143 remains the readiness owner.
+- Sources: https://nodejs.org/en/blog and https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+### 4. AI / cloud / developer news — new verified item
+- GitHub published “Copilot code review: API management and review overview updates” on 6 November 2026.
+- Selected code-review settings can now be managed through REST and GraphQL at enterprise, organization and repository scope. Copilot attribution and review-effort metadata are available; comments can report skills, MCP servers and custom instructions identified as sources.
+- Important authentication boundary: enterprise and organization settings endpoints, including the organization runner endpoint, do not support GitHub Apps or fine-grained PATs. Repository settings endpoints support GitHub Apps and fine-grained PATs with Administration: read / Administration: write; classic PATs require repository administrator access.
+- GitHub lists Copilot Pro, Pro+, Max, Business and Enterprise. The announcement states no separate API fee; AI credits and Actions minutes may still be consumed. Maximum review effort, billing and approval settings remain outside the documented settings API.
+- Sources: https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/ and https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/configure-code-review
+
+### New Forsk Coding School delivery
+- Repository: satnamkhowal/forsk-coding-school
+- Base main: a690ef725029e8c7f96b6148e9012f82a481bd6d
+- Branch: content/news-factory-copilot-code-review-api-20261110
+- Draft PR: https://github.com/satnamkhowal/forsk-coding-school/pull/152
+- Article: docs/news-factory/drafts/github-copilot-code-review-api-management-nov-2026.md (about 1,980 words).
+- Original graphic: docs/news-factory/media/github-copilot-code-review-api-control-layers-20261110.svg (1200×675).
+- Provenance: docs/news-factory/drafts/github-copilot-code-review-api-management-nov-2026.metadata.json.
+- No official or reputable original YouTube video covering the 6 November API-management changes was verified; no iframe was included.
+- Branch comparison: 3 commits ahead, 0 behind main; exactly three intended files added. GitHub read-back confirmed article, SVG and metadata sidecar.
+- Local checks: SVG XML parse and 1200×675 raster render passed; graphic visually inspected; metadata JSON parsed; article word count checked. Independent editorial/technical QA and browser rendering remain PENDING. PR #152 is draft-only and unmerged.
+
+### Cycle ledger
+Previous carried-forward ledger: 67 researched, 57 drafted, 57 original graphics, 33 independent QA-ready, 0 live.
+
+This cycle adds one verified developer-news item, one article draft and one original graphic:
+
+| State | Cumulative |
+|---|---:|
+| Researched | 68 |
+| Drafted | 58 |
+| Original graphics | 58 |
+| Independent QA-ready | 33 |
+| Live / published | 0 |
+
+### Next actions
+1. Independent technical/editorial QA of Forsk PR #152, including API-scope/authentication wording and the SVG at browser breakpoints.
+2. Recheck the ONGC scholarship attachment from COEP's official notice; do not draft until deadline, award and eligibility are verifiable.
+3. Recheck Node.js 26.x/24.x/22.x patched versions and CVEs when the announced 11 November security release is published.
+4. Recheck NMMSS before its 15 November deadline and Google Student Researcher before 4 December.
+5. Preserve current owners and draft-only release gates. No merge, deployment, publication or indexing claim is made.
