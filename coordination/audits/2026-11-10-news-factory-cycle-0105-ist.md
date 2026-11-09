@@ -448,3 +448,86 @@ This cycle adds one distinct research item (BigQuery pipeline concurrency GA + Z
 - The NSP Student Announcements page says PM YASASVI Top Class Schools fresh applications are currently accepted only for students outside **Rajasthan, Keralam and Karnataka**; students in those three states must wait. Do not promote it as open to Rajasthan students until NSP changes the notice.
 - PM-USP J&K/Ladakh remains a separate conflict: the scheme card shows an open date of 22 October and 30 November deadline, but the student announcement says renewal applications only with a 31 October student deadline. Fresh applications are not confirmed.
 - NSP pages still show “Last update on June 2026”; all deadlines are portal-listed dates, not proof that an individual student's form is valid or eligible. Verify scheme specifications, state/institute rules and the live application form before student action. These are revalidation details, not new story counts.
+
+
+### News Factory cycle — 10 November 2026, 05:09 IST
+
+#### Research summary
+
+**1. Student, developer and community opportunities**
+- Google Careers still lists **Student Researcher, 2027** as remote-eligible in India, with a **4 December 2026** deadline and rolling review. Minimum qualifications include current enrolment in a Bachelor's, Master's or PhD degree in the listed disciplines and experience in a CS area. The official listing does not publish a fixed stipend or project duration. Existing Forsk PR #146 remains the owner; no duplicate draft.
+- NSP's AY 2026–27 portal page still says the portal opened from 1 June 2026 and shows a June 2026 last-update footer. This cycle did not confirm a fresh individual scheme deadline or form-state change; retain the previous portal-listed dates only as provisional and recheck each scheme's live form before student action.
+- New event opportunity: the global DevFest 2026 season is listed for **1 October–31 December 2026**. Google for Developers says local events are independently run by GDG organizers and ticket prices vary by city. Local event pages do not expose separate publication dates; the new guide distinguishes event dates from the 10 November verification date.
+- Current India event findings: Mangaluru 14 Nov (ticket control visible; price not stated); Bengaluru 21 Nov (KonfHub ticket link; price not confirmed); Bhopal 22 Nov (regular passes sold out, ₹399 regular pass, limited reserved-pass waitlist for working professionals/content creators); Kolkata 22 Nov (ticket control visible; price not stated); Dehradun 28 Nov (RSVP control visible, page showed 198 RSVPs, venue TBA); Bhubaneswar 28–29 Nov (two-day hackathon + DevFest, ticket control visible, price not stated); Coimbatore 12 Dec (early-bird student ₹399 / professional ₹599, current-year college ID for student pass, non-refundable, early-bird end 22 Nov 11:59 PM IST or 300 passes); Nagpur 12 Dec (listed ₹599 Business / ₹1,699 First Class; remaining inventory not confirmed); Pune 13 Dec (ticket control visible, price not stated). Surat 13 Dec is watch-only because the organizer says registration has not started.
+- No upcoming citywide Jaipur DevFest 2026 listing surfaced in the official pages checked. The Jaipur DevFest result was the historical 27 December 2025 event; two Jaipur on-campus listings dated 3 November 2026 are already past and restricted to their respective campuses. This is not proof that no future Jaipur meetup will be announced.
+- DevFest is a community conference, not a scholarship, paid internship or job guarantee. Local eligibility and ticket conditions control.
+
+Primary event sources:
+- https://developers.google.com/community/devfest
+- https://gdg.community.dev/events/details/google-gdg-cloud-mangalore-presents-devfest-mangaluru-2026/
+- https://gdg.community.dev/events/details/google-gdg-cloud-bengaluru-presents-devfest-2026/
+- https://devfest.bhopal.dev/tickets
+- https://gdg.community.dev/events/details/google-gdg-kolkata-presents-devfest-kolkata-2026/
+- https://gdg.community.dev/events/details/google-gdg-dehradun-presents-devfest-dehradun-2026/
+- https://gdg.community.dev/events/details/google-gdg-bhubaneswar-presents-gdg-devfest-2026-bhubaneswar/
+- https://devfest26.gdgcbe.com/
+- https://www.theticket9.com/book/devfest-coimbatore-2026
+- https://gdg.community.dev/events/details/google-gdg-nagpur-presents-devfest-nagpur-2026/
+- https://gdg.community.dev/events/details/google-gdg-pune-presents-devfest-pune-2026-build-secure-scale-agentic-ai-tokenization-amp-quantum/
+- https://gdg.community.dev/events/details/google-gdg-surat-presents-gdg-devfest-surat-2026/
+
+**2. React / frontend**
+- React's official blog still lists **React 19.3** (9 September 2026) as its latest feature announcement; no newer November stable release or security post was found in this check. Existing Forsk PR #145 remains the owner; no duplicate article.
+- Source: https://react.dev/blog
+
+**3. Node.js / backend**
+- Node.js official blog still lists **26.13.0 LTS** and **24.22.2 LTS** (28 October), and **27.0.0-alpha.0.0.0** (29 October, prerelease).
+- The 3 November security notice still schedules 26.x, 24.x and 22.x security releases on or shortly after **11 November 2026**; highest severity is HIGH in each line. The notice still has no CVE IDs, affected patch ranges or patched versions. Existing Mango PR #143 remains owner; no duplicate article or graphic.
+- Sources: https://nodejs.org/en/blog and https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+**4. AI / cloud / developer news**
+- GitHub Changelog's November page still shows the latest relevant entries on 6 November, including Copilot code-review API management and the impact dashboard. Existing Forsk PR #152 owns the code-review API story.
+- Groot PR #592 already owns the 9 November BigQuery pipeline-concurrency GA / Zstandard SQL Preview article. No distinct new Google Cloud or AI announcement qualified in this cycle, so no duplicate cloud draft was created.
+- Source: https://github.blog/changelog/month/11-2026/
+
+#### New production — Forsk Coding School
+
+- Repository: `satnamkhowal/forsk-coding-school`; main at start: `a690ef725029e8c7f96b6148e9012f82a481bd6d`.
+- Reviewed Forsk `docs/ai-ops/MASTER_TASK_BOARD.md`, `SESSION_HANDOFF.md`, current News Factory drafts/media inventory, main branch, and open PR #152/#153 changed-file lists. No DevFest draft or branch existed; #152/#153 own different files.
+- Created isolated branch `content/news-factory-devfest-india-20261110`.
+- Draft PR [#154](https://github.com/satnamkhowal/forsk-coding-school/pull/154) is **open, draft and currently mergeable** after GitHub recomputed status; 5 changed files, 2 commits, 296 additions, 0 deletions. The PR includes the article, SVG, metadata sidecar and the paired AI task-board/session-handoff updates.
+- Article: `docs/news-factory/drafts/devfest-india-2026-student-guide.md`, approximately 2.1K words, English, SEO/AEO/GEO-focused for India/Jaipur learners.
+- Graphic: `docs/news-factory/media/devfest-india-2026-event-timeline.svg`, original self-authored 1200×675 SVG. Metadata sidecar: `docs/news-factory/drafts/devfest-india-2026-event-timeline.metadata.json`.
+- Local SVG XML parse, 1200×675 PNG rendering and visual inspection passed. Metadata JSON parsed. No third-party artwork, photos, maps or logos were downloaded.
+- Video candidate: official GDG Cloud Bhopal 2025 highlights reel, ID `z4VjNq03zzA`. The linked organizer page does not expose the upload date or independently confirm embedding permission, so the article includes a fallback watch link only; no iframe was added.
+- Independent editorial/source QA and responsive browser QA remain pending. No CI workflow run or check result was returned for the PR head. No news sitemap, runtime PHP, canonical, route, schema, redirect or production content changed.
+
+#### Repository coordination
+
+- Mango Engineers: current open PRs #143/#147/#148/#149 reviewed at repository level; #143 continues to own Node.js readiness. No new write.
+- Groot Academy: existing PR #592 (BigQuery) and #593 (Kubernetes graphic repair) plus prior News Factory owners remain intact. No new write.
+- Forsk Coding School: PRs #152/#153 checked for file overlap; new #154 uses separate article/media paths and paired governance docs.
+- Jaipur Engineers: canonical repo `satnamkhowal/jaipurengineers.com` and `MIGRATION-NOTES.md` read. Existing #41/#43 remain; no approved News Factory article lane was identified, so read-only.
+- Other brands remain untouched unless central repository/catalogue mapping is verified. No worker chats or duplicate queues were created.
+- Existing central News Factory PR #19 and branch `ops/news-factory-cycle-20261109-2209` reused; this is an append-only checkpoint update.
+
+#### Cycle ledger
+
+Previous carried-forward ledger: **73 researched, 61 drafted, 61 original graphics, 33 independent QA-ready, 0 live**.
+
+This cycle adds one distinct research item (India GDG DevFest event roundup), one original draft and one original graphic. React, Node.js, Google Student Researcher and scholarship checks are revalidations, not new stories.
+
+| State | Cumulative |
+| --- | ---: |
+| Researched | 74 |
+| Drafted | 62 |
+| Original graphics | 62 |
+| Independent QA-ready | 33 |
+| Live / published | 0 |
+
+#### Next actions
+1. Independent editorial/source QA and responsive review of Forsk PR #154; recheck local ticket status and fees before publication.
+2. Recheck Mangaluru before 14 November; do not assume a ticket is available just because a button is visible.
+3. Recheck Node.js patched versions and CVEs on or after 11 November before updating Mango PR #143.
+4. Recheck NMMSS before 15 November, other portal-listed scholarship deadlines before 30 November, and Google Student Researcher before 4 December.
+5. Keep all drafts unmerged and unpublished until independent QA and explicit approval.
