@@ -150,3 +150,8 @@ A third distinct article was produced from the current NSP 2026-27 list:
 NSP currently lists AICTE Saksham degree and diploma cards through 30 November 2026, but the linked degree guideline is dated July 2020. It contains older scheme-year wording and must not be presented as a fully current 2026-27 eligibility guide without a newer AICTE/NSP clarification. No draft was produced from that stale guideline.
 
 Updated cycle production totals: 3 new article drafts, 3 original SVG graphics, 0 external licensed downloads, 0 verified YouTube embeds, 0 independent QA-ready drafts and 0 live articles.
+
+
+## Jaipur Engineers write boundary
+
+The canonical `je2` alias resolves to `satnamkhowal/jaipurengineers.com` (repository ID 1369588932). Its current tree contains a live `news/` PHP article directory and `news/article-template.php`, but the inspected main branch has no `docs/news-factory/` draft lane and no root `AGENTS.md`. No article was added to the live news directory or a guessed draft path. Jaipur remains research-only until an approved draft convention or an isolated non-public draft path is established.
