@@ -351,3 +351,17 @@ This is a coordination-only delta against central main `31af61b9a796472b7eb13d6b
 - Exact next action: repository Actions administrator checks runner availability and repository Actions permissions/limits. Once a real job starts, require queue/regression/static checks and PHP lint, then separately complete rendered H1/TOC, BlogPosting/BreadcrumbList, canonical/internal-link/SVG/download HTTP-MIME checks and independent release review.
 - Central PR #17 remains draft/unmerged; central PR #15 remains draft and its Jaipur Engineers candidate-site role reconciliation remains open. PRs #1/#2/#3 remain merged; the AEO/GEO baseline is not recreated. No ownership reassignment, self-merge, deployment, publishing, indexing or cross-brand file edits occurred.
 
+
+
+## Delta — 2026-11-09: checkpoint-triggered Actions retry
+
+The three review-only source checkpoint commits moved PR #569 to `533bfdebb871d77855a3d27a7934a15196c76543` (28 commits ahead / 0 behind current main `0648b79ee0775e810251192a61b8ae6d842980f4`). Because the existing workflow path filter includes `marketing/blog-factory/**`, those documentation changes scheduled another QA and candidate run; no workflow YAML was altered.
+
+- Blog factory QA run `42633981849`, job `129217185515`: failure, zero steps, `logs_url=null`, log retrieval `BlobNotFound`.
+- Review candidates run `42633981783`, job `129217184843`: failure, zero steps, `logs_url=null`, log retrieval `BlobNotFound`.
+- Job-step readbacks are empty; log fetches independently return `BlobNotFound`. The failure remains before the first workflow step. Exact GitHub-side cause is unknown; no CI/PHP result is inferred.
+- This run stopped source-branch writes after observing that the documentation-only trigger itself creates more failed workflow runs. The latest run IDs and diagnostics are recorded in the PR #569 conversation; no additional blind retry or speculative workflow edit was made.
+- The canonical queue remains 29 rows / 29 unique IDs. Factory counts remain 23 complete drafts, 23 visuals, 23 PHP candidates, 18 independent code passes, approved 0, live-verified 0. GA-B00014 remains a refresh, not a new article.
+- Exact next action: repository Actions administrator checks runner availability and repository Actions permissions/limits; then trigger one real run. Continue PHP lint, rendered schema/route/HTTP and independent release review only after the job executes.
+
+Central ownership, PR #2 AEO/GEO baseline and all other brand ownership boundaries remain unchanged. No merge, deployment, publishing, indexing or cross-brand implementation occurred.
