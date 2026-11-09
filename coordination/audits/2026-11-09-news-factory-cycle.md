@@ -128,3 +128,25 @@ A second distinct opportunity article was added after the first checkpoint commi
 - Independent editorial QA remains PENDING. No YouTube ID was verified and no iframe was added. No external media was downloaded. No merge, publication or application was performed.
 
 Updated cycle production totals: 2 new article drafts, 2 original SVG graphics, 0 external licensed downloads, 0 verified YouTube embeds, 0 independent QA-ready drafts and 0 live articles.
+
+
+## Additional scholarship research and draft — Forsk Coding School
+
+A third distinct article was produced from the current NSP 2026-27 list:
+
+- **AICTE Swanath Scholarship:** NSP lists degree and diploma scheme cards as open from 1 June through 30 November 2026 when checked on 9 November.
+- The linked AICTE guideline is dated **May 2025**, and states ₹50,000 per annum, up to 2,000 annual awards (1,000 degree / 1,000 diploma), qualifying category requirements, an income ceiling of ₹8 lakh, regular-mode AICTE-approved study and a restriction on other Central/State/AICTE-sponsored scholarships.
+- The NSP page footer still states last update June 2026; the draft preserves this staleness caveat and instructs applicants to recheck the live form.
+- Repository: `satnamkhowal/forsk-coding-school`; base main `a690ef725029e8c7f96b6148e9012f82a481bd6d`.
+- Branch: `content/news-factory-aicte-swanath-2026-27-20261109`.
+- Draft PR: https://github.com/satnamkhowal/forsk-coding-school/pull/147
+- Files: `docs/news-factory/drafts/aicte-swanath-scholarship-2026-27.md`, `docs/news-factory/media/aicte-swanath-2026-27.svg`, and `docs/news-factory/drafts/aicte-swanath-scholarship-2026-27.metadata.json`.
+- Output: one original 2,106-word English guide, one original 1200×675 SVG and one source/media provenance sidecar.
+- Read-back: all three files verified; metadata JSON parsed; SVG title/description/dimensions verified; local XML parse and PNG rendering passed.
+- Independent editorial QA remains PENDING. No YouTube ID was verified and no iframe was added. No external media was downloaded. No merge, publication or application was performed.
+
+### Research hold — AICTE Saksham
+
+NSP currently lists AICTE Saksham degree and diploma cards through 30 November 2026, but the linked degree guideline is dated July 2020. It contains older scheme-year wording and must not be presented as a fully current 2026-27 eligibility guide without a newer AICTE/NSP clarification. No draft was produced from that stale guideline.
+
+Updated cycle production totals: 3 new article drafts, 3 original SVG graphics, 0 external licensed downloads, 0 verified YouTube embeds, 0 independent QA-ready drafts and 0 live articles.
