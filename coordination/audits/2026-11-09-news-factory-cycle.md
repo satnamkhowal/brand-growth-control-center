@@ -296,3 +296,66 @@ Existing opportunity drafts and the React/Node readiness items were revalidated,
 3. Recheck NMMSS before 15 November, and UGC/AICTE/Google application pages before their listed 30 November and 4 December deadlines.
 4. Verify PM YASASVI Top Class College's current institution/slot list before deciding whether a separate article is useful.
 5. Keep both new PRs draft-only. No merge, deployment or publication without independent QA and owner approval.
+
+
+## Additional verified findings and production — 10 November 2026, 00:25 IST
+
+### New opportunity research
+
+- **ISI stipend scheme 2026–27:** NSP currently lists the scheme with a student application deadline of **30 November 2026**. ISI's stipend rules state that the stipend is awarded at admission and renewed by semester; it is not a new admission route. The ISI 2026–27 admission prospectus lists application deadlines of **26 March 2026** for most programmes and **20 June 2026** for B.SDS, both already passed. Monthly rates: B.Stat/B.Math ₹5,000; M.Stat/M.Math/MS(QE)/MS(LIS)/MS(QMBA) ₹8,000; M.Tech(CS/CrS/QROR) ₹12,400; eligible North-East domicile PG Diploma in Statistical Methods and Analytics ₹3,000. Annual contingency grants are ₹5,000, ₹8,000, ₹8,000 and ₹3,000 respectively. Continuation depends on attendance (75% minimum), course performance and conduct; another government scholarship discontinues the ISI stipend. The NSP page's footer says last updated June 2026, and ISI's rules say the stipend is awarded at admission, so already admitted students must confirm the exact current NSP workflow with ISI.
+  Sources: https://scholarships.gov.in/All-Scholarships ; https://scholarships.gov.in/public/schemeGuidelines/STIPEND_STATICAL_GUIDLLINES.pdf ; https://admission.isical.ac.in/Documents/IsiAdmission2026/ISI-Prospectus-2026-27.pdf ; https://admission.isical.ac.in/Documents/IsiAdmission2026/Admission-Notice-2026.pdf
+  Draft: Forsk PR #151 — https://github.com/satnamkhowal/forsk-coding-school/pull/151
+- **ISI AI-STEP 2026 workshop:** official event page lists **30 November–4 December 2026**, ISI Kolkata, and Apply Now linking to a Google Form. Fees: UG/PG ₹5,000 + GST; research scholar ₹7,000 + GST; faculty/industry ₹12,000 + GST. Limited partial fee waivers for students in financial need; no accommodation. The official page does not display a publication date or application deadline. The Google Form endpoint could not be inspected, so response acceptance is unverified; draft explicitly avoids saying applications are confirmed open.
+  Sources: https://www.isical.ac.in/~caiml/aistep/ ; https://forms.gle/gsskkt39FKkr3kaJ7
+  Draft: Groot PR #583 — https://github.com/satnamkhowal/grootacademy.com/pull/583
+- **PM YASASVI Top Class Education in College (OBC/EBC/DNT):** NSP lists the 2026–27 student application window through **30 November 2026**. The Ministry's scheme page confirms that a 2026–27 notified-institution and slot-allocation document was published **28 July 2026** and remains listed through 31 March 2027. The Ministry page itself timed out when opened, so the PDF contents and any Jaipur/Rajasthan institution names were not retrieved. No institution-specific eligibility claim or new article is made until the actual list is read.
+  Sources: https://scholarships.gov.in/All-Scholarships ; https://socialjustice.gov.in/schemes/110
+- **National Renewable Energy Fellowship Scheme:** NSP lists a 2026–27 application window through **30 November 2026**, but the current MNRE fellowship page describes the funded NREF period as FY 2021–22 through FY 2025–26. This is a source-period mismatch. Hold the opportunity; do not describe it as a confirmed new 2026–27 fellowship until MNRE publishes current continuation terms.
+  Sources: https://scholarships.gov.in/All-Scholarships ; https://mnre.gov.in/fellowships-in-higher-studies-and-research/
+- **Other current deadlines:** NMMSS student applications close **15 November 2026**; AICTE Swanath/Pragati and UGC National Scholarship for Post Graduate Studies list **30 November 2026**. PM YASASVI Top Class Education in Schools opened **22 October 2026** and lists a **15 November 2026** student deadline. Existing single-owner drafts remain in their prior PRs; no duplicate articles were created.
+  Source: https://scholarships.gov.in/All-Scholarships
+
+### Google Careers status correction
+
+The official Google Careers URL previously used for the **Research Scientist PhD Intern, Summer 2027 — Hyderabad** draft in Mango PR #143 now returns **“Job not found”** when opened. The earlier search result had shown a 30 November closing date, but the live official job page is no longer verifiable. Do not call it open or definitely filled; status is **official listing unavailable / current application status unverified**. A revalidation comment was added to Mango PR #143 (comment ID 6748993465) asking the owner to hold that specific article until Google republishes a working listing. No PR file was edited.
+  Official URL checked: https://www.google.com/about/careers/applications/jobs/results/87534302853505734-research-scientist-phd-intern-summer-2027
+- Google Student Researcher 2027 remains the current Google student opportunity checked: India remote is listed, rolling review, application complete before **4 December 2026**. Existing Forsk PR #146 remains the single owner.
+  Source: https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+
+### Frontend/backend status
+
+- **React:** no new stable release or new security advisory in this cycle. Official React blog still shows React 19.3 (9 September 2026) as the latest major blog release; existing Forsk PR #145 remains the RSC security catch-up owner.
+  Source: https://react.dev/blog
+- **Node.js:** the official notice still says security releases for 26.x, 24.x and 22.x are expected on or shortly after **11 November 2026**, with HIGH as the highest severity. As of 10 November 00:25 IST, no patched versions, CVE IDs or affected patch ranges have been published. Existing Mango PR #143 remains the readiness-guide owner.
+  Source: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+### Additional production ledger
+
+- New Forsk PR #151: 1,900-word ISI stipend guide, 1 original 1200×675 SVG, 1 source/media JSON.
+- New Groot PR #583: 1,551-word ISI AI-STEP event guide, 1 original 1200×675 SVG, 1 source/media JSON.
+- Both new PRs are open, draft-only, 3 commits ahead / 0 behind their main branch, mergeable state clean. No changed paths overlap PR #150/#582 or existing PR #580.
+- Local SVGs were XML-parsed and rendered with CairoSVG at 1200×675; GitHub read-back verified. Browser rendering and independent editorial/eligibility QA remain pending.
+- The two new graphics are original self-authored vectors. No external graphics were downloaded or reuploaded. No story-specific YouTube ID was verified; no iframe was included.
+- No CI check runs were returned for the new draft commits.
+
+### Updated cumulative ledger
+
+| Metric | Carried-forward | Additional cycle | Current |
+| --- | ---: | ---: | ---: |
+| Researched items | 61 | +4 | 65 |
+| Drafted articles | 51 | +4 | 55 |
+| Original graphics | 51 | +4 | 55 |
+| Independent QA-ready | 33 | +0 | 33 |
+| Live/published | 0 | +0 | 0 |
+
+The four new research/draft items are AWS Nitro Sandboxes, Google TPU Sync, ISI stipend scheme and ISI AI-STEP. The PM YASASVI, NREF, React/Node and Google Careers status checks are revalidations/watch items, not new article drafts.
+
+### Next exact actions
+
+1. Independent editorial/security QA for Forsk PR #150 and Groot PR #582.
+2. Independent eligibility/benefit QA for Forsk PR #151; confirm the live NSP workflow with ISI before any publication.
+3. Confirm AI-STEP's Google Form still accepts responses and obtain the organiser's application deadline before publication.
+4. Hold the Google Research Scientist PhD Intern article in Mango PR #143 until Google republishes a working official listing.
+5. Recheck the Node.js official notice on or after 11 November for actual CVEs, affected ranges and patched versions.
+6. Recheck NMMSS before 15 November and UGC/AICTE/PM YASASVI/ISI NSP listings before their stated 30 November deadlines.
+7. Keep all new PRs draft-only. No merge, deployment or publication without independent QA and owner approval.
