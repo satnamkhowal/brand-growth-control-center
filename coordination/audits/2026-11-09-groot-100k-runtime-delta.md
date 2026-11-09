@@ -51,3 +51,10 @@ Scope: coordination-only evidence delta. No Groot source implementation, product
 4. Obtain independent release review. No self-approval, self-merge, deployment, publication or mass indexing.
 
 Status: draft evidence only. Approved articles: 0. Live-verified articles: 0. No ranking or traffic claim.
+
+## Post-checkpoint Actions recheck — 2026-11-09
+
+- The subsequent README checkpoint commit triggered two more PR #569 runs: Blog factory QA `42653846734` (job `129286961573`) and review candidates `42653846005` (job `129286957986`).
+- Both jobs again completed as failures with `steps=null` and `logs_url=null`; no log content or runner identity was exposed. This is the same pre-step infrastructure/policy symptom, not a test assertion result.
+- No additional retry was started. The current branch remains 46 commits ahead / 0 behind main after the evidence-only checkpoint commits; PR #569 remains draft/unmerged.
+- The factory controller checkpoint records the previous run pair; this later pair is preserved here and in the PR #569 conversation so no further factory-file write is needed merely to chase repeated pre-step run IDs.
