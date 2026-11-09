@@ -12,7 +12,8 @@ Repository: https://github.com/satnamkhowal/mangoengineers.com
 Branch: content/news-factory-20261109-1808  
 Base: main at 8eeb57fdf05341aa0a5ec31846148a37b0be3ba6  
 Initial content commit: c541bccfe4e288ca4ee573f2f9f4c2a91ca160e7  
-Latest draft/media provenance commit: 107cb77d734ae41591119fa1fe9a52768b51040d  
+Latest draft/media provenance commit before React catch-up: 107cb77d734ae41591119fa1fe9a52768b51040d  
+React RSC draft and original graphic commit: 475c44bd5f9ab7bcb2f949f0480ff642f2a28409  
 Task: ME-NEWS-20261109-B001
 
 1. Django November 2026 security updates:
@@ -33,11 +34,11 @@ Task: ME-NEWS-20261109-B001
    - Official application opened 28 October 2026 and closes 30 November 2026.
    - Hyderabad, India; current PhD enrolment, AI/ML experience and Python/Java are minimum requirements. Public listing does not disclose compensation.
 
-All three SVGs are original self-contained vector artwork authored in the Mango Engineers repository, 1200×675. No third-party media was downloaded. Each SVG has a title, description and in-file provenance comment; article frontmatter records source, license/permission, attribution, repository path, alt text and dimensions.
+All four SVGs are original self-contained vector artwork authored in the Mango Engineers repository, 1200×675. No third-party media was downloaded. Each SVG has a title, description and in-file provenance comment; article frontmatter records source, license/permission, attribution, repository path, alt text and dimensions.
 
 ### QA and publication state
 
-- Three drafts committed; three original graphics committed.
+- Four drafts committed; four original graphics committed.
 - Source/editorial self-check completed; independent technical/editorial QA is still PENDING.
 - QA-ready additions this run: 0.
 - No live routes or website templates changed.
@@ -56,8 +57,8 @@ All three SVGs are original self-contained vector artwork authored in the Mango 
 
 ### React/frontend
 
-- React's official blog continues to list React 19.3, published 9 September 2026, as the current published release in the checked source.
-- No new exact-window stable React release or new frontend security advisory verified.
+- React's official blog lists React 19.3.0 as the feature release dated 9 September 2026. The GitHub release list also shows patch releases 19.0.9, 19.1.10, 19.2.9 and 19.3.1 dated 14 October.
+- The React advisory list includes Critical GHSA-xqc2-xf4c-x3h3 (CVSS 9.5) and High GHSA-h3gv-c5rc-p453, both published 14 October. No newer exact-window React release/advisory was found. The earlier scan note that no React advisory was found was incomplete; this catch-up corrects it.
 
 ### Node.js/backend
 
@@ -90,14 +91,14 @@ All three SVGs are original self-contained vector artwork authored in the Mango 
 
 | State | Cumulative |
 |---|---:|
-| Researched | 61 |
-| Drafted | 51 |
-| Original graphics | 51 |
+| Researched | 62 |
+| Drafted | 52 |
+| Original graphics | 52 |
 | Independent QA-ready | 33 |
 | Live | 0 |
 
-Research count increased by three distinct story clusters. The Google Student Researcher India and Node.js pre-alert checks were status refreshes, not duplicate research items.
+Research count increased by four distinct story clusters. The Google Student Researcher India and Node.js pre-alert checks were status refreshes, not duplicate research items.
 
 ## Next action
 
-Independent QA for the three Mango drafts; recheck Google Research Scientist PhD Intern status before 30 November; watch for the official Node.js 11 November release and publish no patched-version claims until the actual versions/advisories are available.
+Independent QA for the four Mango drafts; recheck Google Research Scientist PhD Intern status before 30 November; watch for the official Node.js 11 November release and publish no patched-version claims until the actual versions/advisories are available.
