@@ -70,3 +70,12 @@ Status: draft evidence only. Approved articles: 0. Live-verified articles: 0. No
 - Central main README remains the control-plane authority. PRs #1/#2/#3 are merged; PR #2's AEO/GEO baseline is reused. PR #15's verified `je2` → `jaipurengineers.com` repository identity does not resolve the separate `jaipur-engieneers` candidate website role; keep that mapping open. PR #17/#18 remain the Groot coordination audit lanes; no owner reassignment or cross-brand source change.
 
 Next: independent reviewer checks the GA-B00016 evidence and PR #569 preservation decision; an authorized browser session completes real zoom; repository Actions administrator diagnoses pre-step failures; then continue the existing exact-main PHP/schema/HTTP and independent release gates. No self-approval, merge, publication, deployment or mass indexing.
+
+
+## Current-main priority and controller reconciliation — 2026-11-09
+
+- Re-read Groot current-main `docs/ai-ops/MASTER_TASK_BOARD.md`, `marketing/blog-factory/README.md` and `marketing/blog-factory/CONTROLLER.json` at current main `a97dc07463a352ea924af3dea22af915a6f9bdb1`.
+- Main's `HAO-008` is explicitly **P3 / REVIEW** and the board lists “Blog factory, Web Stories, routine social content” as P3, held until higher-impact UX and QA gates. The user's 100,000-article controller still labels its target P0. Do not silently overwrite either authority or promote the board priority in this lane; treat this as a master-owner priority reconciliation item. This run therefore advanced only an existing GA-B00016 QA repair, not a new article batch.
+- Current-main `CONTROLLER.json` is an older 2026-10-20 snapshot with 11 complete drafts / 11 visuals / 11 PHP candidates and GA-B00016 as its current article. The isolated successor branch records 23 complete drafts / 23 visuals / 23 PHP candidates. The successor is still PR #569, draft/unmerged; do not report its counts as current-main or live production counts.
+- PR #569 is 61 commits ahead / 1 behind current main; the one main-only commit changes only `docs/ENGLISH-COMMUNICATION-IMAGE-WORKFLOW.md` and does not overlap the factory diff. No rebase/import of that unrelated document was made. Independent reviews remain zero.
+- This is a coordination conflict only. No main task-board priority, production file, brand ownership, AEO/GEO baseline or other brand repository was changed.
