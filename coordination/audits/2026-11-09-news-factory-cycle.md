@@ -109,3 +109,22 @@ All remain review/draft items. No merge, deployment, publication, indexing claim
 3. Recheck NMMSS on the live NSP portal before 15 November and Pragati before 30 November; if a deadline/status changes, update existing drafts rather than creating duplicates.
 4. Keep React advisories and the existing Forsk PR #145 as the single React security content owner.
 5. Continue source-mapping verification before writing for the remaining central brands.
+
+
+## Additional opportunity draft — Forsk Coding School
+
+A second distinct opportunity article was added after the first checkpoint commit:
+
+- Official source: https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+- Current listing checked 9 November 2026: Student Researcher, 2027; India — Remote eligible; apply before 4 December 2026; rolling review.
+- The listing does not state an opening date, fixed duration, stipend/salary amount or application-fee details. The article preserves those unknowns.
+- It distinguishes this Bachelor's/Master's/PhD opportunity from the separate PhD-only Research Scientist PhD Intern role in Hyderabad.
+- Repository: `satnamkhowal/forsk-coding-school`; base main `a690ef725029e8c7f96b6148e9012f82a481bd6d`.
+- Branch: `content/news-factory-google-student-researcher-2027-20261109`.
+- Draft PR: https://github.com/satnamkhowal/forsk-coding-school/pull/146
+- Files: `docs/news-factory/drafts/google-student-researcher-2027-india.md`, `docs/news-factory/media/google-student-researcher-2027-india.svg`, and `docs/news-factory/drafts/google-student-researcher-2027-india.metadata.json`.
+- Output: one original 2,113-word English opportunity guide, one original 1200×675 SVG and one source/media provenance sidecar.
+- Read-back: all three files verified; metadata JSON parsed; SVG title/description/dimensions verified; local XML parse and PNG rendering passed.
+- Independent editorial QA remains PENDING. No YouTube ID was verified and no iframe was added. No external media was downloaded. No merge, publication or application was performed.
+
+Updated cycle production totals: 2 new article drafts, 2 original SVG graphics, 0 external licensed downloads, 0 verified YouTube embeds, 0 independent QA-ready drafts and 0 live articles.
