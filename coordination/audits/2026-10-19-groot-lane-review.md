@@ -510,3 +510,14 @@ At [checkpoint `043ccf56`](https://github.com/satnamkhowal/grootacademy.com/comm
 Counts remain 29 IDs, 23 complete drafts, 23 visuals and 23 PHP candidates; approved 0, live-verified 0. Both manifests explicitly retain `php_rendered=false`, `http_verified=false`, `deployed=false` and `publication_approved=false`. No merge, production edit, deployment, publication, mapping closure or ownership change occurred.
 
 Exact next action: restore PR #569 runner allocation, run PHP lint, then execute the two saved four-endpoint HTTP/MIME plans and rendered schema/H1/TOC checks followed by independent release QA.
+
+
+## Delta — 2026-11-09: GA-B00027 mixed-MIME release handoff
+
+No crawl, queue expansion, ownership reassignment or other brand source change occurred. The bounded static release-manifest batch now covers GA-B00027–GA-B00029. GA-B00027 adds a six-endpoint contract because its reviewed package contains three Python files plus `compose.yaml`; the validator now distinguishes Python and YAML MIME expectations rather than applying one blanket download type.
+
+At [checkpoint `4a1b8cae`](https://github.com/satnamkhowal/grootacademy.com/commit/4a1b8cae4d037249442f9c56dcbce7b1a2154b76), independent QA PASS confirms: all three manifests validate under normal Python, `-O` and `-OO`; 10/10 focused checks per mode; full local suite 119/119; exact GA27 document/SVG/three-Python/YAML endpoints and candidate links; wrong YAML MIME, unsupported extension, false runtime claims, missing/extra endpoints and traversal mutations reject. GA-B00028/29 regressions remain PASS.
+
+Counts remain 29 IDs, 23 drafts, 23 visuals and 23 PHP candidates; approved 0, live-verified 0. Every manifest retains `php_rendered=false`, `http_verified=false`, `deployed=false`, `container_runtime_verified=false` and `publication_approved=false`. Actions runner allocation and GA27 Docker execution remain blocked; no merge, deployment, publication or owner/mapping change occurred.
+
+Exact next action: restore PR #569 runner allocation, run PHP lint and GA27 Docker topology checks, then execute saved endpoint HTTP/MIME and rendered schema/H1/TOC gates followed by independent release QA.
