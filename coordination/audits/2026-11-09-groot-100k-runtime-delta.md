@@ -122,3 +122,13 @@ No self-approval, self-merge, deployment, publication or mass indexing. No ranki
 - Central PR #1/#2/#3 remain closed; PR #2's AEO/GEO baseline is reused. PR #19 remains the separate News Factory coordination lane; its drafts are not canonical 100K IDs. No other-brand implementation or owner mapping changed.
 
 Next: independent review of PR #569 and GA-B00016; authorized real browser zoom; Actions administrator diagnosis; authorized-origin Apache MIME/HTTP verification and remaining release checks. No self-approval, merge, deployment, publication or indexing.
+
+
+## Post-delta Actions recheck — 2026-11-10
+
+The GA-B00029 current-main collision report commit `827c69f405d367e88edbd9691cc14f5bff863cb6` triggered two PR #569 workflows:
+
+- Review candidates: run `42691275906`, job `129411321751`.
+- Blog factory QA: run `42691276166`, job `129411322585`.
+
+Both jobs completed as failures with `steps=null` and `logs_url=null`; no step or test assertion ran. The exact GitHub-side cause remains unknown. This repeats the pre-step infrastructure/policy symptom; no blind retry or speculative workflow edit was made. The Groot controller checkpoint now records these latest run IDs. Repository Actions administrator diagnosis remains required.
