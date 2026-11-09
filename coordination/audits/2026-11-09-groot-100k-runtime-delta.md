@@ -79,3 +79,25 @@ Next: independent reviewer checks the GA-B00016 evidence and PR #569 preservatio
 - Current-main `CONTROLLER.json` is an older 2026-10-20 snapshot with 11 complete drafts / 11 visuals / 11 PHP candidates and GA-B00016 as its current article. The isolated successor branch records 23 complete drafts / 23 visuals / 23 PHP candidates. The successor is still PR #569, draft/unmerged; do not report its counts as current-main or live production counts.
 - PR #569 is 61 commits ahead / 1 behind current main; the one main-only commit changes only `docs/ENGLISH-COMMUNICATION-IMAGE-WORKFLOW.md` and does not overlap the factory diff. No rebase/import of that unrelated document was made. Independent reviews remain zero.
 - This is a coordination conflict only. No main task-board priority, production file, brand ownership, AEO/GEO baseline or other brand repository was changed.
+
+
+## Post-checkpoint GA-B00016 viewport reflow and current coordination — 2026-11-10
+
+- On Groot successor branch `qa/groot-100k-current-main-20261109`, added a reproducible exact-source harness and report for GA-B00016. Exact lab Git blob remains `1e6832c50d3416fabfea7cb90c81c34202e20254` (SHA-256 `3368e946adb76cbe297f5853a0efcd351e01b3aee6b9790e812bd2d6c6fe61b0`).
+- Python 3.13.5 / Playwright 1.57.0 / Chromium 144.0.7559.96 passed 18/18 assertions at 640px and 320px CSS viewport widths, equivalent to the layout widths a 1280px baseline would expose at 200%/400% zoom. This is **not actual browser zoom**: `visualViewport.scale=1`; real zoom and production navigation remain untested. The existing 40/40 five-width test is unchanged. GA-B00016 remains CONTENT_QA; independent review pending.
+- Factory artifacts: `marketing/blog-factory/work/B0001/qa/GA-B00016-equivalent-viewport-20261110.py` and `.md`; controller and README now record the exact continuation. Queue readback remains 29 unique IDs. Counts remain 23 complete drafts, 23 visuals, 23 PHP candidates, 18 independent code passes; approvals 0, live-verified 0.
+- Latest PR #569 compare is 65 commits ahead / 1 behind current main, 193 changed files; PR remains open/draft and has zero submitted reviews. Its base SHA is still `0648b79e`; current main head is `a97dc074`, whose only main-only change is the unrelated `docs/ENGLISH-COMMUNICATION-IMAGE-WORKFLOW.md`. No rebase/import was made.
+- Current-main HAO-008 remains P3/REVIEW and holds mass blog factory work behind higher-impact UX/QA gates, while the user-owned 100K controller labels its target P0. No priority or owner was silently changed; only existing GA-B00016 QA advanced.
+- Current open PR #573 is still a draft readability/focus change touching root `head.php` and `assets/css/groot-accessibility.css`. The shared blog head includes root `head.php`; the added selectors in the reviewed diff target `.ga-lp`, `.ga-course-detail` and `.ga-course-directory`, not the blog shell class `.ga-blog-shell`. It is not merged or deployed and is not counted as a blog-factory release gate pass.
+- Current open PR #582 is a separate News Factory TPU Sync draft under `docs/news-factory`; it has no canonical GA-B00001–GA-B00029 queue ID and is excluded from 100K article counts. Do not merge it into the one canonical queue without a separate owner-approved mapping.
+- Central PRs #1/#2/#3 are closed; #2 remains the existing AEO/GEO baseline. PR #15 remains open; verified `je2` repository identity does not resolve the separate `jaipur-engieneers` candidate website role. No other-brand implementation or ownership changed.
+- Latest post-checkpoint Actions runs `42680857417` (QA) and `42680857225` (review candidates) failed before steps with empty steps and `logs_url=null`. A subsequent review-candidates run `42681089450` was queued at the last read; no CI result is inferred. Administrator diagnosis remains required.
+
+## Exact next actions
+
+1. Independent reviewer checks PR #569's legacy-artifact disposition and both GA-B00016 browser reports.
+2. Authorized browser session performs actual 200%/400% zoom; the 640/320 CSS viewport tests do not substitute for it.
+3. Repository Actions administrator diagnoses the zero-step runs and obtains a real workflow execution with logs.
+4. Continue exact-main PHP/schema/canonical/registry/sitemap/asset/internal-link/HTTP gates and independent release review.
+
+No self-approval, self-merge, deployment, publication or mass indexing. No ranking/traffic claim.
