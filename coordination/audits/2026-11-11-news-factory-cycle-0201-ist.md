@@ -179,3 +179,77 @@ Primary sources:
 | Live / published | 0 |
 
 Prior cumulative archive counts are not recalculated here.
+
+
+## 2026-11-11 — News Factory cycle, 03:03 IST (second production item)
+
+### New Mango Engineers draft
+
+- Opened Draft PR #167: https://github.com/satnamkhowal/mangoengineers.com/pull/167
+- Branch: `content/news-factory-ple-benchmark-20261111-0303`; base `main@8eeb57fdf05341aa0a5ec31846148a37b0be3ba6`; compare: 3 commits ahead / 0 behind.
+- Three documentation-only files: 2,051-word original English article, original 1200×675 SVG infographic, JSON provenance/SEO sidecar.
+- Topic: Google's Physical-Engineering's Last Exam (PLE), announced 3 November 2026; no separate event date stated. arXiv paper v2 date is 30 October 2026.
+- Facts reconciled: 85 total tasks = 29 public dev + 56 hidden; disciplines: mechanical 30, electrical 27, civil 18, structural 10; 6-hour task limit; gated Hugging Face dev set.
+- Licence distinction: dataset CC BY 4.0; Google research code Apache 2.0.
+- Competition page had no deadline, prize amount or entry fee listed; no India-specific eligibility list was found. Article directs readers to current Kaggle rules.
+- Google/Mercor announcement says 13 sponsored models can run free; current competition guide lists eight model IDs. Discrepancy is disclosed; live guide is used for implementation.
+- Strong safety caveat: benchmark is not a professional licence, engineering approval or evidence of Indian BIS/NBC/IS compliance.
+- Original vector graphic created in-house; no PLE screenshots or third-party graphics reused. Local PNG (122,545 bytes) visually inspected and local WebP (48,624 bytes) optimized; only SVG source is committed. Metadata records source, permission, attribution, alt text, dimensions and hashes.
+- No suitable verified YouTube ID plus embed permission; no iframe.
+
+Primary sources:
+- https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents
+- https://ple-bench.com/
+- https://ple-bench.com/competition
+- https://ple-bench.com/competition/guide
+- https://ple-bench.com/competition/agents
+- https://github.com/google-research/ple
+- https://huggingface.co/datasets/google/physical-engineerings-last-exam
+- https://arxiv.org/abs/2610.30537
+- https://www.mercor.com/blog/introducing-physical-engineering-s-last-exam-ple-with-google-cloud-ai-research/
+
+### Opportunities and programme verification
+
+- **Google Student Researcher, 2027:** direct Google Careers page still displays Apply, India / Remote eligible, deadline 4 December 2026 and rolling review. Minimum degree enrolment includes Bachelor's, Master's or PhD in listed fields. Stipend and application fee are not stated. Existing Forsk PR #146 remains owner; a status comment with the direct listing was added.
+- **Science Academies SRFP 2027:** official application and instruction pages confirm deadline 30 November 2026, two-month fellowship during 2027, students/teachers studying or teaching in India, listed degree/year combinations, 65% core-subject average for students, PhD students ineligible, one application per candidate, mark-sheet upload requirements and a current teacher contact for recommendation. Selected fellows receive entitled round-trip train fare plus a monthly fellowship; the amount is not stated. Existing Forsk PR #170 remains owner; official-status comment added.
+- **Digital India Internship — Winter 2026:** official NIC portal (last updated 11-11-2026) shows registration starts 2 November 2026 and duration 1 December 2026–31 January 2027, **offline mode only**. The public page does not expose the closing date, stipend or full eligibility in text. The official guideline PDF timed out in web and container retrieval. An E&ICT Academy social post claims 13 November deadline, 50 seats and ₹10,000/month, but those claims are not confirmed by the accessible official portal/PDF; do not publish them as verified until the guideline is accessible.
+- **E&ICT Academy IIT Roorkee Winter Training and Internship listing:** official course catalogue currently lists seven courses (Generative AI & Prompt Engineering, Data Science using Python, Machine Learning & Agentic AI, AI-Powered Full Stack Web Development, Ethical Hacking & Cyber Security, Semiconductor Technology, IoT & Edge AI), each showing ₹8,000 incl. GST and 29 November 2026 application deadline. Detailed individual course pages did not expose duration, eligibility, timetable, stipend or internship deliverables in this check; hold a full opportunity article until these facts are confirmed. The separate FDP on Recent Cyber Security Trends and Technologies is listed for 16–20 November 2026, ₹500 incl. GST, deadline 14 November; do not conflate an FDP with a student internship.
+
+### React / Node.js / AI-cloud
+
+- **React:** official releases page still shows 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026. No newer stable release or fresh November advisory found. Existing Forsk PR #145 remains owner.
+- **Node.js:** official 11 November security notice still describes a planned release on or shortly after 11 November; HIGH is the highest severity across 26.x, 24.x and 22.x. At 03:03 IST, no CVE IDs or patched versions were listed. Releases page latests: 26.13.0 LTS (28 Oct), 24.22.2 LTS (28 Oct), 22.23.4 LTS (21 Oct); 27.0.0-alpha.0.0.0 (29 Oct) is pre-release. Existing Mango PR #143 remains owner; no premature patch article.
+- **AI/cloud:** PLE is a new Mango topic. BigQuery DataFrames accessor remains Mango PR #166. Groot PR #608 already covers OpenRL, llm-d, KubeRay, Agent Substrate and gVisor; Groot #609 covers AgentCore Runtime V2. No duplicate created.
+
+### Repository access and coordination
+
+- Mango: latest main, root AGENTS, `docs/agent-start-here.md`, task board, work log, integration queue and open PR inventory checked before writes. PR #166 and #167 are separate, non-overlapping topics.
+- Mango task-board/work-log files were not edited because existing open PR #51 also modifies those shared files. Both new task IDs are recorded in this checkpoint; add task-board rows after #51 is reconciled.
+- Forsk: open PR inventory checked; README/AGENTS contents still returned 404 through the connector. Status comments were added to existing PRs #146 and #170; no source-file write.
+- Groot Academy: README is only `# gta`; root AGENTS absent. Existing #608/#609 owners preserved; no write.
+- Jaipur Engineers: `jaipurengineers.com` README/AGENTS unavailable through connector; existing PR #44 owner preserved; no write.
+- CadMate India and Forsk Technologies repositories were inspected read-only; no suitable new article/queue owner was established. Groot Software candidate repositories remain ambiguous. Clever Ape Academy root README is unavailable. No write to these repositories.
+
+### PR / QA state
+
+- Mango PR #167: 3 ahead / 0 behind, 3 added files; read-back passed; metadata JSON valid; SVG XML and 1200×675 dimensions valid; local PNG visually inspected; WebP optimized.
+- Mango PR #167 workflow run 42908957857, PHP Architecture Check: **failure**. Job step summary unavailable; log download returned BlobNotFound; combined status returned no statuses. Cause unknown. PR snapshot says `mergeable=false`; leave Draft.
+- Mango PR #166 remains Draft; prior run 42907577880 PHP Architecture Check also failed with unavailable job/log data (BlobNotFound). No CI pass is claimed.
+- Both articles' code/competition procedures are source-checked; no paid Cloud code execution or competition entry was performed.
+- Independent editorial/source QA and responsive browser QA remain pending for #166 and #167.
+- No merge, deployment, publication, application submission or indexing.
+
+### Incremental ledger for this cycle
+
+| Status | Increment |
+|---|---:|
+| New verified distinct research items | 1 (PLE benchmark) |
+| New original article drafts | 1 |
+| New original SVG graphics | 1 |
+| Local PNG/WebP derivatives | 2 |
+| Existing opportunity status rechecks | 2 (Google Student Researcher, SRFP 2027) |
+| New opportunity leads held for more evidence | 2 (DII Winter 2026, E&ICT IIT Roorkee winter courses) |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+
+Prior cumulative archive counts are not recalculated here.
