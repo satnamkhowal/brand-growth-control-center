@@ -322,3 +322,8 @@ Exact next action: execute GA-B00024 PHP rendering and shared schema/H1 validati
 ### Post-checkpoint ref verification — 2026-11-10 13:43 IST
 
 After the Groot checkpoint commits, final PR #569 head is `dfad026e8efdfefd4f1393f1fae5a28337c4a88a` (113 ahead / 2 behind, 204 changed files, Draft). The exact final head has no associated workflow runs and no combined status checks because the final documentation commit uses `[skip ci]`; this is not a CI pass. The prior 7dd9e324 head observation in the immediately preceding delta is superseded. Independent reviews and threads remain 0/0.
+
+
+### Final Groot checkpoint commit — 2026-11-10 13:43 IST
+
+The latest controller checkpoint commit is [`d9b107e`](https://github.com/satnamkhowal/grootacademy.com/commit/d9b107e3e49d384b30033602e6afc3d84d1ac8f0). PR #569 remains Draft/unmerged. The controller records the exact pre-commit observation at Groot PR head `5d332c7974d964ed4c14f04bd70a5610a6aa7306` (115 ahead / 2 behind); the controller checkpoint itself is the next branch commit. No review or release status is changed. The current-head workflow policy remains `[skip ci]` to avoid the known pre-step Actions retry loop; this is not a CI pass.
