@@ -118,3 +118,64 @@ AWS's 9 November roundup also covered DynamoDB bulk put items, Web Answer on Bed
 | Live/published articles | 0 |
 
 Historical cumulative totals were not recalculated from the full archive in this run; use the central master ledger for cumulative counts.
+
+## 2026-11-11 — News Factory cycle, 03:03 IST
+
+### New delivery — Mango Engineers
+
+- Opened Draft PR #166: https://github.com/satnamkhowal/mangoengineers.com/pull/166
+- Branch: `content/news-factory-bigquery-dataframes-20261111-0303`; base: `main@8eeb57fdf05341aa0a5ec31846148a37b0be3ba6`; compare: 3 commits ahead / 0 behind.
+- Three new paths only: a 2,100-word English guide, an original 1200×675 SVG, and a JSON provenance/SEO sidecar.
+- Topic: Google Cloud's BigQuery DataFrames `.bigquery` accessor article, published 6 November 2026. No separate event date was stated.
+- Covers embeddings, similarity, forecasting, TabFM prediction, `if_()`, IAM, billing, India-region caveats, synthetic student project and FAQs.
+- TabFM and TimesFM 3.0 are labelled Preview as stated in official sources; the whole accessor is not described as GA.
+- Distinct from Groot PR #592 (BigQuery pipeline concurrency/Zstandard SQL); no matching BigQuery DataFrames accessor draft was found in Mango's open PR inventory.
+- Original SVG source is committed. PNG preview (126,583 bytes) was visually inspected; WebP derivative (44,636 bytes) was optimized locally but neither derivative is committed. Asset metadata records source, self-authored permission, attribution, alt text, dimensions and hashes.
+- No relevant verified YouTube ID plus embed permission; no iframe. No video download/re-upload.
+
+Primary sources:
+- https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas
+- https://dataframes.bigquery.dev/
+- https://docs.cloud.google.com/bigquery/docs/permissions-for-ai-functions
+- https://docs.cloud.google.com/bigquery/docs/locations
+- https://docs.cloud.google.com/bigquery/docs/best-practices-costs
+- https://docs.cloud.google.com/bigquery/docs/control-genai-costs
+- https://cloud.google.com/model-garden/pricing
+- https://cloud.google.com/blog/products/data-analytics/tabfm-adds-predictive-ml-to-bigquery
+
+### Research tracks — current status
+
+- **Opportunities:** Google Careers' Student Researcher, 2027 page currently displays Apply, India / Remote eligible, and a 4 December 2026 deadline with rolling review. Existing Forsk PR #146 remains owner; no duplicate. Official MeitY Digital India Internship Scheme 2026 schedule shows applications closed 29 April 2026 and internship completed 31 July; do not promote it as open. E&ICT Academy IIT Roorkee's official course listing shows seven Winter Training and Internship offerings (Generative AI & Prompt Engineering, Data Science using Python, Machine Learning & Agentic AI, AI-Powered Full Stack Web Development, Ethical Hacking & Cyber Security, Semiconductor Technology, IoT & Edge AI), each listing ₹8,000 incl. GST and 29 November 2026 application deadline. Detailed individual course pages did not expose duration, eligibility, schedule, stipend or internship deliverables in this check; hold a full article until those facts are verified. A separate IIT Roorkee FDP on Recent Cyber Security Trends and Technologies lists ₹500, 16–20 November 2026, with application deadline 14 November on the E&ICT course listing; distinguish it from student internships.
+- **React/frontend:** Official React releases page still lists 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026. No newer stable tag or November release was found. Existing Forsk PR #145 remains owner for the October RSC advisory.
+- **Node.js/backend:** Official 11 November security notice still states releases are expected on or shortly after 11 November and HIGH is the highest severity in 26.x, 24.x and 22.x. At 03:03 IST the notice had no CVE IDs or patched versions; no release article is created ahead of the actual release.
+- **AI/cloud/developer:** The BigQuery DataFrames accessor article is assigned to Mango PR #166. TPU Sync (9 November) already has Groot PR #582; no duplicate. Other current AI/cloud owners remain unchanged.
+
+### Repository/access audit
+
+- Mango: read `AGENTS.md`, `docs/agent-start-here.md`, `docs/task-board.csv`, `docs/work-log.md`, `docs/integration-queue.md`, latest main commit and open News Factory PR inventory before the new branch. No matching BigQuery accessor draft existed.
+- Mango shared task-board file is also changed by open PR #51; this cycle did not modify the shared task board or work log to avoid a conflicting write. Task ID `NF-ME-BIGQUERY-DATAFRAMES-20261111-0303` is recorded here; add the task-board row after the existing shared-file PR is reconciled.
+- Forsk: open PR inventory was read; current default-branch README/AGENTS content requests returned 404 through the connector, so no write was made.
+- Groot: README is only `# gta`; root AGENTS.md was not present. Open News Factory PR inventory checked; no write was made.
+- Jaipur Engineers: verified candidate repository `satnamkhowal/jaipur-engieneers` has no accessible README and no open News Factory PRs in this check. Canonical repository/brand mapping remains unresolved; no write was made.
+- Other listed brands remain read-only unless canonical repo and instructions are verifiable.
+
+### Checks and blockers
+
+- Mango PR #166 read-back passed for article, SVG and metadata; metadata JSON parsed; SVG dimensions 1200×675; local PNG/WebP dimensions verified; PNG visually inspected; WebP optimized.
+- GitHub compare: 3 ahead / 0 behind, 3 added files. PR snapshot reports `mergeable=false`; do not merge.
+- Workflow run 42907577880 (PHP Architecture Check) completed with failure. The job step list was empty and log download returned BlobNotFound; combined commit status returned no statuses. Cause is unknown and must not be represented as a content failure or a pass.
+- Code snippets were matched to official documentation but not executed against a paid Google Cloud project. Independent editorial/source QA and responsive browser QA pending.
+- No PR merged; no deployment, live publication, application submission or indexing.
+
+### Incremental ledger for this cycle
+
+| Status | Increment |
+|---|---:|
+| New distinct verified research items | 1 (BigQuery DataFrames accessor article, publication 6 Nov) |
+| New original article drafts | 1 |
+| New original SVG graphics | 1 |
+| Local PNG/WebP derivatives | 2 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+
+Prior cumulative archive counts are not recalculated here.
