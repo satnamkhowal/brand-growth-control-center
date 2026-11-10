@@ -713,13 +713,13 @@ Previous carried-forward checkpoint: **74 researched, 62 drafted, 62 original gr
 
 Previous carried-forward checkpoint: **76 researched, 63 drafted, 63 original graphics, 33 independent QA-ready, 0 live**.
 
-- Added two new research items: GitHub Actions workflow-log secret scanning and PM YASASVI Top Class Schools 2026–27 listing.
+- Added three new research items: GitHub Actions workflow-log secret scanning, PM YASASVI Top Class Schools 2026–27 listing and Microsoft Imagine Cup 2027.
 - Added one original article and one original graphic for Groot Academy.
 - PM-USP is a status correction; Amazon/Google listings and React/Node releases are revalidations of existing owners.
 
 | State | Cumulative |
 | --- | ---: |
-| Researched | 78 |
+| Researched | 79 |
 | Drafted | 64 |
 | Original graphics | 64 |
 | Independent QA-ready | 33 |
@@ -742,3 +742,22 @@ Previous carried-forward checkpoint: **76 researched, 63 drafted, 63 original gr
 - **Forsk Coding School:** read README.txt, AI-ops master task board and session handoff, plus open PRs #150/#152/#153/#154. PR #154 owns the shared task-board and session-handoff paths, so no overlapping Forsk write was made. Existing PR #146 remains the Google Student Researcher owner.
 - **Jaipur Engineers:** MIGRATION-NOTES identifies je2 as the canonical application and warns against copying the legacy repository wholesale. The je2 alias resolves to the same repository ID as jaipurengineers.com, but the GitHub file connector could not resolve files through the je2 alias. Open PR #41 owns batch planning, #43 owns readability and #27 owns social production. No News Factory write was made.
 - **Central control:** PR #19 remains open/draft; the latest checkpoint is appended. Branch comparison is 27 ahead / 0 behind main; GitHub reports mergeable=true after refresh.
+
+
+#### Additional official opportunity check — Microsoft Imagine Cup 2027
+
+- **Current status:** Applications open. Official competition page says applications opened **2 November 2026** and the submission deadline is **28 February 2027 at 23:59 CST**. Official rules last updated **4 November 2026**; these dates are the competition/application timeline, not the publication date of a separate news article.
+- **What it is:** A startup competition, not a general internship or individual coding scholarship. Eligible early-stage startups build commercially viable software-based solutions using Microsoft Azure. Seven categories include Developer Tools, Cybersecurity, Deep Tech + Physical AI and Student Startup.
+- **General eligibility:** Individual team members must be at least 18; the startup must be a privately held, for-profit legal entity founded on or after **2 November 2024**, pre-seed through Series B (not Series C+), headquartered where Azure is available, and meet Microsoft for Startups requirements. It must not be an educational institution, government organisation, consultancy or agency, and must not have received more than USD 350,000 in lifetime free Startup Credits. Teams may register up to four official members.
+- **Student Startup category:** In addition to the general rules, every founding-team member must be enrolled at an accredited high-school/college/university (or equivalent) at some point between **30 September 2026 and 31 May 2027**. Student Startup entries are judged separately and are not eligible for the First/Second/Third prizes.
+- **India:** India is not among the comprehensive-sanctions exclusions listed in the rules, and Microsoft's Azure geography list includes India (Central India, South India and West India). India therefore appears eligible subject to all other requirements and Microsoft's verification; this is not a guarantee of acceptance or a prize.
+- **Azure requirement/cost:** A valid Azure Subscription ID is mandatory. By 28 February 2027 the startup must show at least USD 1 usage on each of ten unique eligible Azure services; the FAQ says this usage must be maintained while actively competing. This can create real usage costs. The rules do not state a separate entry fee; do not describe the competition as cost-free.
+- **Credits/prizes:** Eligible startups may receive USD 1,000 initial Azure credits after screening and onboarding, and may earn up to USD 150,000 in Azure Progress Credits based on verified usage and continued eligibility; neither is guaranteed. The Student Prize is USD 25,000 cash plus USD 250,000 Azure Prize Credits. The main First Prize is USD 250,000 cash plus USD 1 million Azure Prize Credits. Credits are not cash and are subject to terms/expiry.
+- **Required submission:** Award Force application, startup/team details, Microsoft for Startups account and valid Azure Subscription ID, written responses, pitch deck, 2–3 minute product demonstration video and Azure architecture/technical overview. Official rules require the completed entry in English.
+- **Application URL:** https://2027.imaginecup.com/ (official Award Force portal). The portal page returned a JavaScript/unsupported-browser message in this research environment; the official Imagine Cup page and FAQ still display Apply Now. No completed application was attempted.
+- Official FAQ: https://imaginecup.microsoft.com/en-us/support/faq
+- Official competition page: https://imaginecup.microsoft.com/en-us/compete
+- Official rules (last updated 4 November 2026): https://aka.ms/ImagineCup2027TCs
+- Azure geography availability: https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies
+- No existing Imagine Cup 2027 article or News Factory draft was found in the four verified brand repositories. No second draft was created in this run to keep the Groot write lane bounded to one new isolated article task; queue as a high-priority next-cycle candidate. Do not present Groot Academy or Forsk Coding School as eligible applicants merely because they teach technology—their education-institution status would conflict with the published Microsoft for Startups eligibility rule. The story should target eligible student founders and independent software startups.
+
