@@ -152,7 +152,7 @@ Checks:
 - Local SVG render, PNG visual inspection and WebP optimization: pass.
 - Metadata JSON parse and GitHub read-back: pass; article/SVG blob references match.
 - YouTube video ID and permitted embed: not verified; no iframe.
-- GitHub Actions PHP Architecture Check runs #1605 (42856984181) and #1606 (42857188990) both completed **failure** on PR commits. Combined-status queries returned no statuses; both job-log retrieval attempts returned BlobNotFound, so the failure cause is unresolved. No CI pass is claimed.
+- GitHub Actions PHP Architecture Check runs #1605 (42856984181), #1606 (42857188990) and #1607 (42857496965) all completed **failure** on successive PR commits. Combined-status queries returned no statuses; all three job-log retrieval attempts returned BlobNotFound, so the failure cause is unresolved. No CI pass is claimed.
 - GitHub PR snapshot reports mergeable=false despite 5 ahead / 0 behind and three new documentation/media paths. Keep draft and investigate; do not merge.
 - Independent editorial/source QA: pending.
 - Responsive/browser QA: pending.
@@ -193,7 +193,7 @@ PNG/WebP are derivatives of the one SVG and are not counted as separate graphics
 
 ## 10. Next actions
 
-1. Investigate the two failed PHP Architecture Check runs for Mango PR #163; logs were unavailable, so do not infer the cause.
+1. Investigate the three failed PHP Architecture Check runs for Mango PR #163; logs were unavailable, so do not infer the cause.
 2. Independent editorial/source QA and responsive/browser QA for Mango PR #163 and Forsk PR #166; keep both Draft.
 3. On/after **11 November 2026**, recheck Node.js 26.x/24.x/22.x release artifacts and CVEs before updating Mango PR #143.
 4. Recheck Google Student Researcher before **4 December** and ANRF PM ECRG before **2 December, 5 PM IST**.
