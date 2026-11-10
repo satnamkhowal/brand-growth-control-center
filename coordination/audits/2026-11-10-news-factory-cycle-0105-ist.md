@@ -971,3 +971,9 @@ Previous carried-forward checkpoint: **76 researched, 63 drafted, 63 original gr
 - Cumulative carried-forward ledger: **85 researched, 69 drafted, 69 original graphics, 33 independent QA-ready, 0 live/published**. This run adds one new verified research item, one draft and one original graphic. No merge, deployment, publication, indexing or application submission.
 - Next: independently QA Forsk PR #157; recheck Node.js security releases on/after 11 November; recheck 15 November NSP deadlines and the Rajasthan/Keralam/Karnataka restriction; reconcile Forsk shared board/handoff after PR #154 releases ownership; preserve current article owners.
 
+
+
+### Forsk PR #157 provenance and head reconciliation — 10 November 2026, 12:15 IST
+- PR #157's metadata was corrected so \`source_svg_blob_sha\` points to the actual committed SVG blob (\`8bcef6c796d8df45d6120485335403732a6acddf\`), not the metadata file's earlier blob SHA. The metadata also records that the local compact SVG is an equivalent render source and the repository SVG blob is authoritative.
+- The metadata correction is an additional commit. Forsk PR #157 now compares **5 commits ahead / 0 behind** current \`main\`, still exactly three changed paths; raw GitHub PR API reports open/draft, \`mergeable=true\`, \`mergeable_state=clean\`. No workflow runs or status entries returned.
+- This is a provenance correction only; the article and media counts do not change. Independent QA, responsive browser review and CI remain pending. No merge/deployment/publication.
