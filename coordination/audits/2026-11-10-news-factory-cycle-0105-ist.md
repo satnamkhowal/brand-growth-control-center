@@ -1288,3 +1288,11 @@ No PR was merged, no website deployed or published, no application submitted, an
 - Live/published: 0
 
 This cycle added one researched opportunity, one original draft and one original infographic. No article was merged, deployed, published or live-verified.
+
+
+### Google Student Researcher 2027 live-status recheck — 10 November 2026, 16:33 IST
+- Official Google Careers page still displays **Apply** for Student Researcher, 2027 and says applications must be completed before **4 December 2026**; review is rolling.
+- The posting explicitly lists **India — Remote eligible** and requires current enrolment in a Bachelor's, Master's or PhD programme in a relevant field; it also requires the candidate to be located in one of the listed country locations for the full engagement.
+- This is a current-status recheck of the existing Forsk Coding School owner PR #146, not a new programme or duplicate draft.
+- Official URL: https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher
+- No change to cumulative counts.
