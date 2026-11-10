@@ -253,3 +253,18 @@ Exact next action: MASTER resolves HAO-008 priority and the GA-B00005 queue disp
 - Counts remain: 29 canonical IDs, 23 complete drafts, 23 technical visuals, 23 PHP candidates, 18 independent code passes, 0 independent publication approvals and 0 live-verified. GA-B00014 remains an in-place refresh.
 
 Exact next action: continue GA-B00029 authorized-origin HTTP/MIME and production-equivalent PHP/schema/canonical/internal-link gates; retain `noindex,follow` and `publication_approved=false`. Master owner must resolve HAO-008 priority/topic ownership before a GA-B00005 brief or new batch. No merge, deploy, publication or indexing.
+
+
+## Delta — 2026-11-10 09:43 IST: GA-B00029 current-main shared render contract
+
+- Groot current main remains `a97dc07463a352ea924af3dea22af915a6f9bdb1`; isolated controller successor was at `2af2c6a23f5d3e399e607bcbde73d714e0792d52` before this evidence-only update.
+- Current-main shared blog layout/head partial were fetched and their local copies matched exact Git blob SHA-1 values `7e19e1b4b87843d65b5aa7f1cb0fb33a5b154178` and `07aa1c4a092e419314f4579dd87263c2ee12b097`. PHP 8.4.24 syntax checks passed.
+- Isolated render-contract fixture passed 9/9 assertions: single H1, nine TOC anchors, exactly one BlogPosting and one BreadcrumbList, noindex preserved, one canonical, two existing parent links, headline/H1 agreement and breadcrumb/canonical agreement.
+- The fixture used stubbed root chrome/registry and reconstructed candidate config/body; it is not exact candidate execution or production render. No publication approval follows.
+- Current-main registry/sitemap contain both parent targets and no candidate slug. Current .htaccess has no candidate route or .py MIME override. No main/source/config/queue change.
+- Production DNS remained unavailable in this environment. Local Apache MIME evidence does not verify the authorized origin.
+- HAO-008 remains P3/REVIEW on current main; controller P0 remains separate. Central main and other-brand source repositories remain unchanged. No priority/owner reassignment, merge, deployment, publication or indexing.
+
+Exact Groot evidence: [GA-B00029 current-main render contract](https://github.com/satnamkhowal/grootacademy.com/blob/qa/groot-100k-current-main-20261109/marketing/blog-factory/work/B0002/qa/GA-B00029-current-main-render-contract-20261110.md).
+
+Next: exact candidate + real root chrome/browser render in a full checkout, authorized production-equivalent Apache HTTP/MIME verification, then independent release review. Keep `noindex,follow` and all release gates closed.
