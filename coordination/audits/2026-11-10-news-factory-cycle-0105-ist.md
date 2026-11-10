@@ -1097,3 +1097,9 @@ The new Mango PR #156 adds one researched story, one draft and one original grap
 - Updated the Mango article metadata sidecar after fetching all three committed paths. It now records the article and SVG GitHub blob SHAs, verified 1,919-word read-back, and `github_read_back=pass`; independent editorial QA and responsive browser QA remain pending.
 - Mango PR #156 is now **4 commits ahead / 0 behind main**, exactly three added documentation/media paths, open/draft, `mergeable=true`, `mergeable_state=clean`. No status checks returned. The earlier 3-ahead / unstable state in the 14:09 entry was before the provenance read-back commit and is superseded here.
 - Current cumulative ledger is unchanged: **88 researched / 72 drafted / 72 original graphics / 33 independent QA-ready / 0 live**.
+
+
+### Final GitHub status snapshot
+- After the metadata read-back commit and subsequent refresh, Mango PR #156 still reports `mergeable=true` but its latest `mergeable_state` is `unstable`; the immediately preceding refresh had shown `clean`. Its branch remains 4 ahead / 0 behind with 3 files and 0 combined status checks. Keep it draft; do not merge until independent QA and repository checks are complete.
+- Forsk PR #158 remains `mergeable=true` / `clean`, 8 commits ahead, 0 behind, 3 files, 0 status checks.
+- Central PR #19 remains `mergeable=true` / `clean`, 48 commits ahead, 0 behind, 2 changed files, 0 status checks. All three PRs remain open/draft.
