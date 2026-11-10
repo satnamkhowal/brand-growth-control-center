@@ -1182,3 +1182,10 @@ No PR was merged, no website deployed or published, no student application submi
 - The subsequent commit-associated workflow query returned run 42794495312 (Forsk learning home copy QA, job learning-guide-card-copy), also conclusion failure with no steps/logs available. This is the same path-filtered workflow triggered by the paired task-board/session-handoff changes; its test does not validate the News Factory article/media. Cause remains unknown.
 - Forsk PR #160 now compares 16 commits ahead / 0 behind main, five changed paths; GitHub update recheck reports mergeable=true and draft. No combined status entries. Keep open/unmerged pending independent editorial and responsive QA.
 - Central PR #19 branch remains diverged 51 ahead / 2 behind current main; no rebase or merge was attempted.
+
+
+### Final asset-size and branch-head correction — 10 November 2026
+
+- Corrected the original SVG byte count in Forsk PR #160's provenance sidecar to **4,207 UTF-8 bytes** (the earlier 4,184 value was the decoded character count). PNG remains 102,628 bytes and WebP 41,828 bytes; all three are 1200×675 and have recorded SHA-256 hashes.
+- After this metadata-only correction, Forsk PR #160 compares **17 commits ahead / 0 behind** its current main, five changed paths; GitHub update recheck reports mergeable=true and draft. No PR-specific status entries were returned. The latest learning-home-copy workflow association remains unrelated to the new article/media and failed without steps/logs.
+- The central PR #19 branch was last compared at **51 ahead / 2 behind** current main before this append. It is now one checkpoint commit further ahead; no rebase or merge was attempted.
