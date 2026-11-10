@@ -2,11 +2,12 @@
 
 ## Run outcome
 
-- **New verified story:** Rubrik DevOps Protection cyber-recovery for GitHub and Microsoft Azure DevOps.
-- **New brand draft:** Mango Engineers PR #163, draft only.
-- **New original graphic:** one 1200×675 SVG; PNG and optimized WebP previews created and visually inspected locally.
+- **New verified stories:** (1) Rubrik DevOps Protection cyber-recovery for GitHub/Azure DevOps; (2) the currently listed AY 2026–27 PM YASASVI Top Class College scholarship window.
+- **New brand drafts:** Mango Engineers PR #163 and Forsk Coding School PR #166, both Draft.
+- **New original graphics:** two 1200×675 SVGs; PNG and optimized WebP previews created and visually inspected locally. One existing Google internship graphic was revised to show a direct-listing hold; that revision is not counted as a net-new story/graphic.
 - **Video:** no relevant official/reputable YouTube video ID plus permitted embed was verified; no iframe or video download.
-- **Other new drafts:** none. Existing opportunity, React, Node.js and AI/cloud owners were preserved.
+- **Existing-story correction:** Mango PR #143's Google Research Scientist PhD Intern article and SVG were corrected to ON HOLD after the direct official vacancy page returned “Job not found”; cached search dates are not treated as a live opening.
+- Existing React, Node.js and AI/cloud owners were preserved; no duplicates were created.
 - **Publication/live:** 0. No merge, deployment, public route, application submission or indexing claim.
 
 ## 1. Official student/developer opportunities
@@ -47,7 +48,7 @@ Sources: https://scholarships.gov.in/All-Scholarships ; https://scholarships.gov
 - IIIT Guwahati MeitY-funded project internship — Forsk PR #163; deadline 15 November; one vacancy; ₹15,000/month subject to notice conditions.
 - Chennai Mathematical Institute CS internship Summer 2027 — Forsk PR #164; deadline 31 January 2027; fellowship amount not published.
 - Google PhD internships — Forsk PR #160.
-- No new verified opportunity beyond existing owners was drafted in this run.
+- New opportunity draft: Forsk PR #166 covers the separate Top Class College sub-scheme; Forsk PR #156 remains the Schools sub-scheme. They have distinct beneficiaries and funding rules.
 
 ## 2. React / frontend
 
@@ -64,7 +65,7 @@ Source: https://github.com/react/react/releases
 - Highest severity in each line: **HIGH**.
 - As of this 22:04 IST check, the notice still publishes no CVE IDs or patched versions. Do not claim the release is already out.
 - Current download page lists **26.13.0 LTS**, **24.22.2 LTS**, **22.23.4 LTS**; **27.0.0-alpha.0.0.0** is Alpha, not LTS.
-- Existing owners: Mango PR #143 (security readiness) and Mango PR #153 (Node 27 Alpha). No duplicate draft.
+- Existing owners: Mango PR #143 (security readiness; also holds the Google Research Scientist listing after direct-page failure) and Mango PR #153 (Node 27 Alpha). No duplicate draft.
 
 Sources: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases ; https://nodejs.org/en/download ; https://nodejs.org/en/blog
 
@@ -78,6 +79,13 @@ Sources: https://nodejs.org/en/blog/vulnerability/november-2026-security-release
 - Rubrik says Foundation Edition now backs up broader collaboration metadata/settings, including issues, pull requests, Azure Boards, wikis, packages and organisation settings.
 - New Enterprise Edition cyber-recovery capabilities are **expected to be generally available in the coming months**. No firm GA date, price, minimum contract, India-specific availability or region is stated.
 - New Mango Engineers draft: **PR #163**, 1,832 words, original SVG and provenance metadata.
+
+### New Forsk Coding School draft — PM YASASVI College
+
+- PR #166: 2,139-word English guide, current 30 November 2026 student deadline, OBC/EBC/DNT and ₹2.50 lakh income eligibility, notified institution/slot conditions, detailed benefit components and Rajasthan/Schools distinction.
+- One original 1200×675 SVG, local PNG/WebP previews and provenance metadata. No government logo or third-party graphic used.
+- Existing Forsk PR #156 is the separate Top Class Schools sub-scheme; PR #166 is College-only, so no near-identical syndication.
+- No verified official/reputable YouTube video ID plus embed permission; no iframe.
 
 Sources:
 - https://ir.rubrik.com/news-events/press-releases/
@@ -98,14 +106,14 @@ Sources:
 
 - Read central README, current open PR #19, latest checkpoint coordination/audits/2026-11-10-news-factory-cycle-2137-ist.md, and separate PR #20's 100K cross-lane dedupe scope.
 - Expected coordination/MASTER_PRIORITY_QUEUE.md path is absent; use current PR inventories and existing checkpoint as live ownership evidence.
-- PR #19 branch ops/news-factory-cycle-20261109-2209 compared before this write: **63 ahead / 2 behind main (diverged) before this audit commit**. This audit is a new append-only file; no rebase, merge or main-tree write.
+- PR #19 branch ops/news-factory-cycle-20261109-2209 compared before this write: **64 ahead / 2 behind main (diverged) before this audit update**. This audit is a new append-only file; no rebase, merge or main-tree write.
 - PR #20's separate Groot 100K queue audit remains untouched.
 
 ### Mango Engineers — satnamkhowal/mangoengineers.com
 
 - Read README, AGENTS, docs/agent-start-here.md, current task board, work log and integration queue; reviewed open PRs #143, #151, #153, #159 and #162 plus changed-file lists.
-- Current owners: #143 Node.js security readiness; #153 Node 27 Alpha; #159 ANRF PM ECRG; #162 .NET lifecycle.
-- Default-branch search and open-PR checks found no Rubrik/DevOps Protection story.
+- Current owners: #143 Node.js security readiness plus Google Research Scientist status correction; #153 Node 27 Alpha; #159 ANRF PM ECRG; #162 .NET lifecycle; #163 new Rubrik DevOps recovery draft.
+- Default-branch search and open-PR checks found no Rubrik/DevOps Protection story before this run; new Mango PR #163 now owns it.
 - PR #151 owns shared docs/task-board.csv, docs/work-log.md and docs/integration-queue.md; this new draft deliberately avoids those paths and changes only three new News Factory files.
 
 ### Groot Academy — satnamkhowal/grootacademy.com repository alias / existing PR lane
@@ -117,7 +125,7 @@ Sources:
 ### Forsk Coding School — satnamkhowal/forsk-coding-school
 
 - Read current AI-ops session handoff, master task board and worker registry; reviewed current open PRs #145–#165.
-- Existing owners cover React, Google Student Researcher, Google internships, IIIT Guwahati, CMI, Node/AI/cloud and GitHub Dependabot. No duplicate draft or Forsk write.
+- Existing owners cover React, Google Student Researcher, Google internships, IIIT Guwahati, CMI, Node/AI/cloud, GitHub Dependabot and the Schools sub-scheme. New Forsk PR #166 owns the separate College sub-scheme; shared AI-ops files remain untouched.
 
 ### Jaipur Engineers — canonical repository satnamkhowal/jaipurengineers.com
 
@@ -150,23 +158,47 @@ Checks:
 - Responsive/browser QA: pending.
 - No production route, PHP, sitemap, schema, navigation, deployment or live content changed.
 
-## 7. Cumulative News Factory ledger
+
+
+## 7. Forsk PR #166 — PM YASASVI Top Class College
+
+PR: https://github.com/satnamkhowal/forsk-coding-school/pull/166
+
+- Compare: **4 commits ahead / 0 behind main**, exactly three new paths (article, SVG, metadata).
+- Article GitHub read-back and 2,139-word count: pass.
+- SVG read-back, title/description, 1200×675 dimensions and local render: pass.
+- PNG visually inspected; WebP optimized to 46,038 bytes at 1200×675.
+- Metadata JSON parsed after GitHub read-back; article/SVG blob references match.
+- Workflow-run and combined-status queries returned no runs/statuses; this is not a CI pass.
+- PR snapshot reports mergeable=false despite 4 ahead / 0 behind. Keep Draft; no merge.
+- Independent editorial/source QA and responsive/browser QA pending.
+
+## 8. Mango Google Research Scientist status correction
+
+Existing Mango PR #143 (branch content/news-factory-20261109-1808) was updated in place, not duplicated:
+- The official Google Careers search result still shows a cached Hyderabad listing with 28 October opening / 30 November closing dates.
+- The direct official vacancy page returned **“Job not found”** on 10 November 2026. The dates are therefore not treated as a confirmed live application window.
+- Existing article title/meta/status and SVG were revised to **ON HOLD**; a provenance sidecar records the direct-page failure and asset details.
+- PR #143 compare: **37 commits ahead / 0 behind main**, 13 paths. This correction does not add a new story to the ledger.
+
+## 9. Cumulative News Factory ledger
 
 Carried-forward 21:37 IST checkpoint: 96 researched · 80 drafted · 80 original graphics · 33 independent QA-ready · 0 live.
 
-This run: +1 distinct researched story · +1 original draft · +1 original graphic · +0 QA-ready · +0 live.
+This run: +2 distinct researched stories · +2 original drafts · +2 original graphics · +0 QA-ready · +0 live. One existing Google opportunity graphic was revised for a status hold and is not counted as an additional distinct story/graphic.
 
-**Updated ledger: 97 researched · 81 drafted · 81 original graphics · 33 independent QA-ready · 0 live.**
+**Updated ledger: 98 researched · 82 drafted · 82 original graphics · 33 independent QA-ready · 0 live.**
 
 PNG/WebP are derivatives of the one SVG and are not counted as separate graphics. Existing drafts rechecked are not counted again.
 
-## 8. Next actions
+## 10. Next actions
 
-1. Investigate the failed PHP Architecture Check for Mango PR #163; logs were unavailable, so do not infer the cause.
-2. Independent editorial/source QA and responsive/browser QA for Mango PR #163; keep it Draft.
+1. Investigate the two failed PHP Architecture Check runs for Mango PR #163; logs were unavailable, so do not infer the cause.
+2. Independent editorial/source QA and responsive/browser QA for Mango PR #163 and Forsk PR #166; keep both Draft.
 3. On/after **11 November 2026**, recheck Node.js 26.x/24.x/22.x release artifacts and CVEs before updating Mango PR #143.
 4. Recheck Google Student Researcher before **4 December** and ANRF PM ECRG before **2 December, 5 PM IST**.
-5. Correct NSP communications for Rajasthan students: PM YASASVI Schools fresh application is currently held for Rajasthan, Keralam and Karnataka according to the portal announcement; do not advertise it as open there.
-6. Keep central PR #19 divergence owner-led; no rebase/merge in this run.
+5. Keep the Google Research Scientist PhD Intern draft on hold until the direct official vacancy page loads.
+6. For PM YASASVI, keep the Schools state pause separate from College eligibility and recheck the institution-slot PDF/portal; no individual Jaipur college is confirmed here.
+7. Keep central PR #19 divergence owner-led; no rebase/merge in this run.
 
 No uninterrupted background execution, CI pass, live publication, deployment, application submission or indexing is claimed.
