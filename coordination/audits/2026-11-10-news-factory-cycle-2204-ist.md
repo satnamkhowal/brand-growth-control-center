@@ -98,7 +98,7 @@ Sources:
 
 - Read central README, current open PR #19, latest checkpoint coordination/audits/2026-11-10-news-factory-cycle-2137-ist.md, and separate PR #20's 100K cross-lane dedupe scope.
 - Expected coordination/MASTER_PRIORITY_QUEUE.md path is absent; use current PR inventories and existing checkpoint as live ownership evidence.
-- PR #19 branch ops/news-factory-cycle-20261109-2209 compared before this write: **62 ahead / 2 behind main (diverged)**. This audit is a new append-only file; no rebase, merge or main-tree write.
+- PR #19 branch ops/news-factory-cycle-20261109-2209 compared before this write: **63 ahead / 2 behind main (diverged) before this audit commit**. This audit is a new append-only file; no rebase, merge or main-tree write.
 - PR #20's separate Groot 100K queue audit remains untouched.
 
 ### Mango Engineers — satnamkhowal/mangoengineers.com
@@ -138,14 +138,14 @@ Changed paths:
 3. docs/news-factory/drafts/rubrik-devops-protection-cyber-recovery-2026.metadata.json
 
 Checks:
-- Compare: **4 commits ahead / 0 behind main**, three added paths.
+- Compare: **5 commits ahead / 0 behind main**, three added paths.
 - Article GitHub read-back and 1,832-word count: pass.
 - SVG GitHub read-back, title/description and 1200×675 dimensions: pass.
 - Local SVG render, PNG visual inspection and WebP optimization: pass.
 - Metadata JSON parse and GitHub read-back: pass; article/SVG blob references match.
 - YouTube video ID and permitted embed: not verified; no iframe.
-- GitHub Actions PHP Architecture Check run #1605 / run ID 42856984181 completed **failure** on the PR head. Combined-status query returned no statuses; job-log retrieval returned BlobNotFound, so the failure cause is unresolved. No CI pass is claimed.
-- GitHub PR snapshot reports mergeable=false despite 4 ahead / 0 behind and three new documentation/media paths. Keep draft and investigate; do not merge.
+- GitHub Actions PHP Architecture Check runs #1605 (42856984181) and #1606 (42857188990) both completed **failure** on PR commits. Combined-status queries returned no statuses; both job-log retrieval attempts returned BlobNotFound, so the failure cause is unresolved. No CI pass is claimed.
+- GitHub PR snapshot reports mergeable=false despite 5 ahead / 0 behind and three new documentation/media paths. Keep draft and investigate; do not merge.
 - Independent editorial/source QA: pending.
 - Responsive/browser QA: pending.
 - No production route, PHP, sitemap, schema, navigation, deployment or live content changed.
