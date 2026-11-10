@@ -30,8 +30,8 @@ Sources:
 
 ## 2. Opportunities and scholarships
 
-- Google Research Scientist PhD Intern, Summer 2027, Hyderabad: official page lists applications open **28 October–30 November 2026**. Minimum qualifications include current PhD enrolment in CS/Engineering, Machine Intelligence/Data Science, AI or related technical field; ML experience; Python or Java. Existing central research checkpoint records this role; no near-duplicate article was created alongside the existing Google PhD internship coverage.
-  - https://www.google.com/about/careers/applications/jobs/results/87534302853505734-research-scientist-phd-intern-summer-2027
+- Google Research Scientist PhD Intern, Summer 2027, Hyderabad: an indexed Google Careers result showed an application window of **28 October–30 November 2026**, but a direct page recheck at 18:14 IST returned “Job not found / may have been taken down.” Treat the listing as **unverified / unavailable**, not open; no application recommendation or article was made. The indexed result is not enough to establish current availability.
+  - Search result: https://www.google.com/about/careers/applications/jobs/results/87534302853505734-research-scientist-phd-intern-summer-2027
 - Google Student Researcher 2027: India remote eligibility and 4 December 2026 deadline remain in the existing Forsk PR #146 ownership.
 - Google Summer 2027 Software Engineering and Silicon Engineering PhD roles remain in Forsk PR #160 ownership.
 - NSP AY 2026–27 live portal lists NMMSS to 15 November; AICTE Pragati/Saksham/Swanath and UGC PG Studies to 30 November; PM YASASVI Schools to 15 November and College to 30 November. These are existing schemes, not new November launches. Portal footer says last updated June 2026; PM-USP renewal pages conflict (31 October announcement vs 30 November All-Scholarships listing), so that renewal deadline remains unresolved.
@@ -86,3 +86,7 @@ This run adds one distinct unowned research item (Copilot Fusion GA), one origin
 **Updated totals:** 93 researched · 76 drafted · 76 original graphics · 33 independent QA-ready · 0 live.
 
 No merge, deployment, application submission, live publication or indexing is claimed.
+
+
+### 18:14 IST direct Google Careers recheck correction
+The Research Scientist PhD Intern job page cited above no longer resolves to a live listing; Google Careers displays “Job not found / This job may have been taken down.” Its search-index snippet still carries the earlier 28 Oct–30 Nov dates, but current application status is not verified. Keep it out of the open-opportunity count until the direct listing returns. Google Student Researcher 2027 remains directly accessible with Apply and a 4 December 2026 deadline.
