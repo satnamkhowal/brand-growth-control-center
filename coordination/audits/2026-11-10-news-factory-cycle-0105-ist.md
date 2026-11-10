@@ -1056,3 +1056,8 @@ This cycle adds one verified research item, one original draft and one original 
 | Live / published | 0 |
 
 No PR was merged, no website was deployed or published, and no application was submitted.
+
+
+### PR mergeability recheck — 10 November 2026
+- Mango PR #156 was re-fetched after GitHub's initial create response: `mergeable=true`, `mergeable_state=unstable`, `rebaseable=true`, 3 commits ahead / 0 behind. Combined commit status currently has 0 status entries; independent QA and responsive review remain pending. The earlier create response's `mergeable=false` was transient and is superseded by this recheck.
+- Central PR #19 was re-fetched after the checkpoint append: `mergeable=true`, `mergeable_state=clean`, 43 commits ahead / 0 behind. Combined commit status currently has 0 status entries. PR remains open/draft; no merge was performed.
