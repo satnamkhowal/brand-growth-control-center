@@ -297,3 +297,11 @@ Exact next action: continue only the existing GA-B00029 exact-candidate/full-cur
 - No queue change, new article/asset, source implementation in another brand, owner reassignment, approval, merge, deployment, publication or indexing occurred.
 
 Exact next action: on an authorized network-enabled runner, execute the exact GA-B00029 candidate against a full current-main checkout with real root includes; verify article/SVG/two Python-download HTTP status and Content-Type at the authorized Apache/origin; obtain independent PR #569 and legacy-file review. Keep `noindex,follow`, and do not start a new batch or GA-B00005 brief until the Master owner resolves HAO-008 P3 versus the controller P0.
+
+
+## Post-checkpoint verification — 2026-11-10 11:40 IST
+
+- Groot's three review-only checkpoint commits are now present: report `b9d0116e6d0c37b5bcbb3b58d6cfbb727c6fc616`, controller `bf58ec87fb6bfb31a66b70ee62ef81b59dfab50b`, README `bc29ec7504ad8692aaf8c3790660ce2f769e21aa`.
+- PR #569 now compares **101 ahead / 2 behind** current main, **202 changed files**, head `bc29ec7504ad8692aaf8c3790660ce2f769e21aa`; it remains open/Draft with **0 submitted reviews** and **0 inline review threads**. The new head has no associated workflow runs, consistent with the documentation commits' `[skip ci]` messages; no CI result is inferred.
+- Controller `main_snapshot` and `main_last_observed` now both equal current main `99336e8d0b412f6e0f0bdc0464e0aec4b8fea2b5`. Canonical queue remains 29/29 unchanged; counts and release gates are unchanged.
+- No main, production route, registry, sitemap, deployment, publication or other-brand source was changed.
