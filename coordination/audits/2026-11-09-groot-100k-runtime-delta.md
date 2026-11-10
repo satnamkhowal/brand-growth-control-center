@@ -305,3 +305,17 @@ Exact next action: on an authorized network-enabled runner, execute the exact GA
 - PR #569 now compares **101 ahead / 2 behind** current main, **202 changed files**, head `bc29ec7504ad8692aaf8c3790660ce2f769e21aa`; it remains open/Draft with **0 submitted reviews** and **0 inline review threads**. The new head has no associated workflow runs, consistent with the documentation commits' `[skip ci]` messages; no CI result is inferred.
 - Controller `main_snapshot` and `main_last_observed` now both equal current main `99336e8d0b412f6e0f0bdc0464e0aec4b8fea2b5`. Canonical queue remains 29/29 unchanged; counts and release gates are unchanged.
 - No main, production route, registry, sitemap, deployment, publication or other-brand source was changed.
+
+
+## Delta — 2026-11-10 12:41 IST: exact-source and local Apache re-execution
+
+- Groot Academy canonical source remains repository ID 1375760757, current repository name satnamkhowal/grootacademy.com (user alias satnamkhowal/gta). Current main snapshot remains 99336e8d0b412f6e0f0bdc0464e0aec4b8fea2b5; HAO-008 Blog Factory remains P3/REVIEW in the current main task board. The user-authorized controller retains its separate P0 target; no priority or owner was reassigned.
+- Exact GA-B00029 source Git blob IDs were fetched and locally matched: parameterized_queries.py 132c9b1337988edd5221b85718b9e7846088eb9b; test_parameterized_queries.py 52777ba739587ea89d8e94271fba51f19466b4a7.
+- Fresh execution passed: six tests in normal Python, six with -O, six with -OO; py_compile and the executable fictional SQLite example passed.
+- A temporary local Apache 2.4.68 origin served both exact Python files as HTTP 200 text/x-python. GET body SHA-256 matched each source file byte-for-byte. This confirms only local /etc/mime.types behavior, not production.
+- grootacademy.com DNS did not resolve in this run. Production HTTP/MIME, exact candidate PHP rendering with full root chrome and independent release approval remain NOT_VERIFIED/PENDING. The earlier isolated 9/9 PHP shared-template contract is not promoted to production-render evidence.
+- Groot successor PR #569 remains open/Draft with zero independent reviews and zero review threads; its latest head is recorded in the source repository. No source PR, production route, registry, sitemap, robots or server configuration was changed.
+- Counts unchanged: 29 canonical IDs, 23 complete drafts, 23 authored visuals, 23 PHP candidates, 18 independent code passes, 0 independent publication approvals and 0 live-verified articles. GA-B00014 remains an in-place refresh.
+- Evidence: [Groot source/local Apache report](https://github.com/satnamkhowal/grootacademy.com/blob/qa/groot-100k-current-main-20261109/marketing/blog-factory/work/B0002/qa/GA-B00029-source-and-local-apache-reexecution-20261110-1241-ist.md).
+
+Exact next action remains with the Groot source lane: run exact-candidate PHP rendering and authorized-origin HTTP/MIME checks on a network-enabled runner, then obtain independent PR #569/legacy-file review. Central owner retains HAO-008 priority reconciliation and the missing Groot active-board row. PR #2 AEO/GEO baseline is reused; no AEO/GEO duplicate task, ownership change, merge, deployment, publishing or indexing was made.
