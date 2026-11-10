@@ -188,3 +188,11 @@ Historical cumulative archive totals are not recalculated in this checkpoint.
 5. Keep PM-USP CSSS / PM-USP Special, National Renewable Energy Fellowship and ICAR NTS on hold until current AY 2026–27 guideline and application status agree.
 6. Review the CloudWatch PromQL scaling feature as the next distinct Groot/DevOps candidate only after checking the current queue again.
 7. Preserve central PR #19 divergence; owner-led reconciliation only. No merge or deployment without approval.
+
+
+## Pull request links
+
+- [Groot Academy — OpenSearch clone-based upgrade draft, PR #611](https://github.com/satnamkhowal/grootacademy.com/pull/611)
+- [Forsk Coding School — C++ Language Server/MSBuild draft, PR #171](https://github.com/satnamkhowal/forsk-coding-school/pull/171)
+- [Mango Engineers — NIC Digital India Internship Winter 2026 updated draft, PR #147](https://github.com/satnamkhowal/mangoengineers.com/pull/147)
+- [Central News Factory coordination PR #19](https://github.com/satnamkhowal/brand-growth-control-center/pull/19)
