@@ -319,3 +319,10 @@ Exact next action: on an authorized network-enabled runner, execute the exact GA
 - Evidence: [Groot source/local Apache report](https://github.com/satnamkhowal/grootacademy.com/blob/qa/groot-100k-current-main-20261109/marketing/blog-factory/work/B0002/qa/GA-B00029-source-and-local-apache-reexecution-20261110-1241-ist.md).
 
 Exact next action remains with the Groot source lane: run exact-candidate PHP rendering and authorized-origin HTTP/MIME checks on a network-enabled runner, then obtain independent PR #569/legacy-file review. Central owner retains HAO-008 priority reconciliation and the missing Groot active-board row. PR #2 AEO/GEO baseline is reused; no AEO/GEO duplicate task, ownership change, merge, deployment, publishing or indexing was made.
+
+
+## Post-checkpoint Actions delta — 2026-11-10 12:41 IST
+
+The latest Groot PR #569 evidence commits triggered review-candidates run 42774261545/job129688965120 and Blog factory QA run 42774261316/job129688961235. Both failed before step creation; both jobs expose steps=null and both log fetches returned BlobNotFound. No workflow assertion ran. Exact GitHub-side cause is unknown and requires the Groot repository Actions administrator; no blind retry or workflow edit was made.
+
+This is an infrastructure/policy symptom, not a test assertion or source-code failure. Source implementation and remediation remain owned by the Groot repository lane. Central main, AEO/GEO PR #2 baseline, brand mappings and other workers' files remain unchanged.
