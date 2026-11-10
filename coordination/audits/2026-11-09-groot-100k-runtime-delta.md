@@ -240,3 +240,16 @@ Exact next action: Master owner resolves HAO-008 priority/topic ownership; the e
 - No central main or other-brand source change, no queue/priority/ownership reassignment, no merge, deployment, publication or indexing.
 
 Exact next action: MASTER resolves HAO-008 priority and the GA-B00005 queue disposition; continue GA-B00029 authorized-origin HTTP/MIME and rendered PHP/schema checks; independent reviewer assesses PR #569. Keep the 100K queue and News Factory ledger separate.
+
+
+## Delta — 2026-11-10 08:40 IST: GA-B00029 exact SVG render revalidation
+
+- Groot re-fetched the existing `GA-B00029` technical diagram and recomputed its Git blob SHA-1; exact source identity matched `5a62c42aca3eff45bd76f8f9d3cca7c40058bd3f`.
+- Python 3.13.5 / CairoSVG 2.8.2: XML parse, 1200×720 dimensions/viewBox, accessible title/description references, all three arrow-marker references, 1200×720 raster render and visual inspection PASS. No labels were clipped, no arrows were missing and the panels did not overlap. The temporary PNG is a QA preview only, not a replacement asset or an additional image count.
+- Exact evidence: [GA-B00029 SVG render revalidation](https://github.com/satnamkhowal/grootacademy.com/blob/qa/groot-100k-current-main-20261109/marketing/blog-factory/work/B0002/qa/GA-B00029-svg-render-revalidation-20261110.md). The original SVG, article, metadata, PHP candidate and canonical queue were not changed.
+- Groot PR #569 is still open/draft/unmerged at head `2af2c6a23f5d3e399e607bcbde73d714e0792d52`; current-main comparison is 92 ahead / 1 behind with 199 changed files. Submitted reviews and review threads remain zero.
+- Latest branch-associated Actions runs [42734928848](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42734928848) (review candidates) and [42734929208](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42734929208) (blog factory QA) still failed before steps. Their job step arrays are null and log retrieval returns `BlobNotFound`; no assertions ran. Exact GitHub-side cause remains unknown; administrator diagnosis is still required. The latest Groot docs commits used `[skip ci]`, so no retry loop was started.
+- Current-main HAO-008 remains P3/REVIEW. The user's controller P0 target is preserved separately; no priority/owner change. Central main and other-brand source repositories were not changed.
+- Counts remain: 29 canonical IDs, 23 complete drafts, 23 technical visuals, 23 PHP candidates, 18 independent code passes, 0 independent publication approvals and 0 live-verified. GA-B00014 remains an in-place refresh.
+
+Exact next action: continue GA-B00029 authorized-origin HTTP/MIME and production-equivalent PHP/schema/canonical/internal-link gates; retain `noindex,follow` and `publication_approved=false`. Master owner must resolve HAO-008 priority/topic ownership before a GA-B00005 brief or new batch. No merge, deploy, publication or indexing.
