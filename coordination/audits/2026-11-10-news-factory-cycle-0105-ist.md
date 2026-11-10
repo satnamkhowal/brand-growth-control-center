@@ -546,3 +546,82 @@ This cycle adds one distinct research item (India GDG DevFest event roundup), on
 - Forsk PR [#154](https://github.com/satnamkhowal/forsk-coding-school/pull/154) now has **5 changed files, 3 commits, 306 additions and 0 deletions**; GitHub reports open/draft/mergeable. Mergeability is not independent QA or publication approval.
 - The “Forsk learning home copy QA” workflow run #42724044015 failed on attempt 1 and one rerun (attempt 2) before any runner/job steps were recorded (`runner_id=0`, empty steps array, no combined status). No PHP lint or learning-home regression test executed on the PR head. Treat this as a runner/workflow execution blocker.
 - Forsk task board and session handoff were updated together to record the latest PR/CI state. No third rerun, workflow-file change, merge, deployment or publication.
+
+
+### News Factory cycle — 10 November 2026, 05:37 IST
+
+#### Coordination and repository review
+- Reused the existing News Factory PR #19 and branch \`ops/news-factory-cycle-20261109-2209\`; no duplicate controller or worker chat was created. Central branch compared 24 commits ahead / 0 behind main before this append.
+- Verified repository default branches and read current instructions/queues before writes:
+  - Mango Engineers: \`satnamkhowal/mangoengineers.com\`, main \`8eeb57fdf05341aa0a5ec31846148a37b0be3ba6\`. Read AGENTS.md, docs/agent-start-here.md, task board, integration queue and work log. Open PRs #143 and #147 both edit the task board and work log; no overlapping Mango write was made. Existing #143 owns Node.js and related news; #147 owns the NIC internship guide.
+  - Groot Academy: \`satnamkhowal/grootacademy.com\`, main \`a97dc07463a352ea924af3dea22af915a6f9bdb1\`. Verified the legacy \`satnamkhowal/gta\` pointer resolves to the same repository ID 1375760757. Read .agent README, master handoff, current state, backlog, decisions, migration status, dated migration handoff, current open PRs and current News Factory inventory. No Amazon internship story/PR was present.
+  - Forsk Coding School: \`satnamkhowal/forsk-coding-school\`, main \`a690ef725029e8c7f96b6148e9012f82a481bd6d\`. Read current README variants and docs/ai-ops master task board. Open PR #154 owns the task-board and session-handoff paths; no overlapping Forsk write was made. Existing #152/#153 cover other Copilot/agent topics.
+  - Jaipur Engineers: \`satnamkhowal/jaipurengineers.com\`, main \`677da49970ffd2871514fd1d08a7fc94b3f42004\`. Read MIGRATION-NOTES.md; it says the je2 application history is canonical and legacy SEO/content folders must not be copied wholesale. No approved News Factory article lane was identified; read-only.
+- Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies remain untouched because their repository/catalogue mappings are unresolved in the central queue.
+
+#### Research results
+
+**1. Official student/developer opportunities — new verified Amazon India listings**
+- Systems Development Engineer Intern – 2027, Job ID 10498158: https://www.amazon.jobs/en/jobs/10498158/systems-development-engineer-intern-2027
+- Data Engineer Intern – 2027, Job ID 10496769: https://amazon.jobs/en-gb/jobs/10496769/data-engineer-intern-2027
+- Both Amazon.jobs pages displayed an Apply now control when checked at 05:37 IST on 10 November 2026.
+- Neither accessible listing displays a separate publication date, application deadline, stipend/compensation amount, internship duration or application fee. The draft records each as not stated and does not call the listings newly opened, free, paid, remote or guaranteed.
+- Systems Development role: detailed qualification block lists Bachelor's or Master's in CS/Engineering or related field, Java/C/C++/Python and CS fundamentals. A generic qualification summary separately says enrolled in or completed a Bachelor's in CS/equivalent; the article flags this wording difference and directs applicants to the live form.
+- Data Engineer role: final-year Bachelor's or Master's in CS/Engineering or related field; SQL, Python, RDBMS, Big Data, NoSQL, ETL and data-warehousing fundamentals. Preferred AWS S3, EMR, RDS, Redshift and Glue.
+- Both listings identify India hiring locations and state applications may be considered across locations Amazon hires in India. Both mention full-time availability and a university-signed declaration for selected candidates.
+- This is one combined, role-comparison opportunity article, not a claim that a single Amazon internship programme has one shared eligibility rule.
+
+**2. React / frontend**
+- Official React blog and GitHub release history rechecked. Latest listed stable patch tags remain 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026.
+- No new stable release or fresh React security advisory qualified in this cycle. Existing Forsk PR #145 remains the owner of the React Server Components security catch-up.
+- Sources: https://react.dev/blog and https://github.com/react/react/releases
+
+**3. Node.js / backend**
+- Official Node.js blog still lists the advance notice published 3 November 2026 for 26.x, 24.x and 22.x security releases on or shortly after 11 November.
+- Highest severity is HIGH for each line. As of this 10 November check, the notice does not provide CVE IDs, affected patch ranges or patched versions; it is a pre-alert, not a completed patch release.
+- Existing Mango PR #143 remains the owner. No duplicate Node.js article was created.
+- Sources: https://nodejs.org/en/blog and https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+**4. AI / cloud / developer news**
+- GitHub Changelog published “Claude Fable 5.2 in GitHub Copilot” on 9 November 2026. It says the model is generally available to Copilot Pro+, Max, Business and Enterprise users, with gradual rollout; provider-list usage-based billing applies. Business/Enterprise administrators must enable the policy, which is off by default. Data retention is required by default for Anthropic safety classifiers; retained prompts/outputs are not used to train Anthropic models. Eligible enterprise customers may receive a time-bound zero-data-retention exemption through the end of 2026, subject to GitHub/Anthropic approval and additional controls thereafter.
+- This is a distinct research candidate; no article was created in this bounded batch because current Forsk PRs #152/#153 already cover adjacent Copilot/agent topics and the Amazon student opportunity was prioritised for production.
+- Source: https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot/
+- Google Cloud's 9 November BigQuery pipeline concurrency GA / Zstandard Preview announcement is already owned by Groot PR #592; no duplicate article was created.
+
+#### New production — Groot Academy
+- Created isolated branch \`content/news-factory-amazon-india-internships-20261110\` from current main.
+- Draft PR [#596](https://github.com/satnamkhowal/grootacademy.com/pull/596) is open and draft. It contains 4 new files, 4 commits, 328 additions / 0 deletions; compare shows 4 ahead / 0 behind main. GitHub currently reports mergeable=true; this is not independent QA or release approval.
+- Article: \`docs/news-factory/drafts/amazon-india-engineering-internships-2027.md\`, 1,956 words, English, India/Jaipur-focused, with distinct role requirements, application-status caveats and FAQs.
+- Original media: \`docs/news-factory/media/amazon-india-engineering-internships-2027.svg\`, self-authored 1200×675 SVG, 5,396 bytes. Metadata sidecar records source, permission, attribution, local path, alt text, dimensions and SHA-256. No third-party artwork was downloaded.
+- Handoff: \`logs/2026-11-10-amazon-india-internships-news-factory.md\`.
+- No story-specific official/reputable original YouTube video was verified; no video ID or iframe was added.
+
+#### Validation and release gate
+- SVG XML parsing, 1200×675 PNG rendering and visual inspection passed locally.
+- Metadata JSON parsed; article and SVG were read back from the PR branch.
+- PR #596 compare: 4 commits ahead / 0 behind; changed paths are exactly the article, metadata JSON, SVG and dated handoff.
+- Combined GitHub commit status returned no status entries; no CI pass is claimed.
+- Independent editorial/source QA and responsive browser QA remain pending.
+- No merge, deployment, sitemap/route/schema/redirect change or publication.
+
+#### Cumulative ledger
+Previous carried-forward checkpoint: **74 researched, 62 drafted, 62 original graphics, 33 independent QA-ready, 0 live**.
+- Added two new research items this cycle: Amazon India 2027 internship listings and GitHub Claude Fable 5.2 in Copilot.
+- Added one original draft and one original graphic for the Amazon internship opportunity.
+- React/Node/BigQuery checks are revalidations or existing owners, not duplicate stories.
+
+| State | Cumulative |
+| --- | ---: |
+| Researched | 76 |
+| Drafted | 63 |
+| Original graphics | 63 |
+| Independent QA-ready | 33 |
+| Live / published | 0 |
+
+#### Next actions
+1. Independent editorial/source QA and responsive rendering review for Groot PR #596.
+2. Reopen both Amazon job listings before any student-facing publication; confirm current Apply now status and check whether deadlines, duration, fee or compensation details have appeared.
+3. Recheck Node.js security release on or after 11 November; update Mango PR #143 only after official patched versions/CVEs are published.
+4. Keep the Claude Fable 5.2 story as a separate research candidate; avoid duplicating the active Forsk Copilot API/agent articles.
+5. Recheck the Google Student Researcher and NSP deadline owners in their existing PRs before their listed dates.
+6. Keep all new drafts unmerged and unpublished until independent QA and explicit approval.
