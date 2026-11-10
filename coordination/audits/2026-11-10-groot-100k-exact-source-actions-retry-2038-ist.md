@@ -39,3 +39,15 @@
 5. Recovery owner reconciles PR #533's two shared-file overlaps; independent GA-B00022 assistive-technology/production review remains pending.
 
 No new article, image, queue ID, production route, registry entry, sitemap URL, deployment, publication, indexing, brand owner reassignment or other-brand source change was made.
+
+
+## 21:35 IST follow-up — exact candidate syntax and current branch comparison
+
+- Groot owner-lane source repo independently fetched GA-B00029 candidate blob `18962c3f2ad7ad590083f6ec965b02b79ac01b9c`; local `git hash-object` matched exactly and PHP 8.4.24 `php -l` returned **PASS**. This is candidate syntax only, not full-root render, schema/route verification, production HTTP/MIME, or release approval.
+- Same runner reports Chromium 144 installed, but DNS returns no address for `github.com` or `grootacademy.com`; `git ls-remote` fails with `Could not resolve host: github.com`. Full-root rendering and authorized-origin HTTP/MIME remain blocked.
+- Fresh Groot PR #569 comparison against main `99336e8`: **162 ahead / 2 behind, 213 changed files**, merge base `0648b79`; independent reviews 0, threads 0. No owner-led base reconciliation has been recorded.
+- Groot current-main HAO-008 remains P3/REVIEW against the user-authorized P0 controller; no new batch or GA-B00005 brief started. Current-main integration count remains 0 for the five historical PR #464 article merges absent from main.
+- Central PR #20 branch comparison: **14 ahead / 2 behind, 10 files**, merge base `31af61b9`; reviews 0, threads 0. Central main remains `f76c20a`; this is a Draft coordination-only branch. Existing AEO/GEO PR #2 baseline is unchanged; Jaipur `je2` social vs `jaipur-engieneers` candidate website mapping remains unresolved.
+- Source implementation and QA checkpoint were written only to the Groot controller branch. This central addendum changes no source repo, queue, owner, priority, main branch, deployment, publication, or indexing.
+
+**Exact next action:** Master owner resolves HAO-008 priority; network-enabled authorized runner performs GA-B00029 full-root render and four HTTP/MIME checks; Actions/storage administrator diagnoses BlobNotFound; recovery owner reconciles PR #533; independent review remains mandatory for PR #569 and GA-B00022.
