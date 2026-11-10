@@ -201,3 +201,13 @@ Coordination-only reconciliation; source implementation ownership remains in Gro
 - Existing AEO/GEO PR #2 baseline and central one-owner rule are preserved. No central main edit, ownership reassignment, other-brand implementation, merge, deployment or publishing occurred.
 
 Exact next action: Master owner resolves HAO-008 priority/topic ownership; the existing recovery-stack owner rebases #533 onto current main and reruns exact-main gates; independent editorial/release review follows before any registry/sitemap or robots promotion. Keep all five out of current-main-integrated/approved/live counts until verified.
+
+
+## Delta — 2026-11-10 06:43 IST: exact-source GA-B00029 rerun
+
+- Groot re-fetched the existing GA-B00029 example and test files from the current successor branch and independently recomputed their Git blob SHA-1 values; both matched the recorded source blobs exactly.
+- Fresh Python 3.13.5 / SQLite 3.46.1 execution passed 6/6 tests under normal, `-O` and `-OO` (18/18 total), plus `py_compile` and the runnable fixture output. The injection-shaped input returned no rows and all three fictional fixture rows remained intact.
+- The host emitted a non-fatal spreadsheet-runtime warmup traceback at subprocess startup; all test and compile processes returned zero. Evidence is scoped to the local exact-source fixture, not production database security.
+- Groot evidence: [GA-B00029 exact-source rerun report](https://github.com/satnamkhowal/grootacademy.com/blob/qa/groot-100k-current-main-20261109/marketing/blog-factory/work/B0002/qa/GA-B00029-source-blob-rerun-20261110.md). Controller/README checkpoints are committed on the isolated successor branch; the 29-ID queue is unchanged.
+- No PHP/schema, production HTTP/MIME, deployment, independent release approval, publication or indexing claim was added. Counts remain 23 complete drafts, 23 visuals, 23 PHP candidates, 18 independent code passes, 0 approvals and 0 live-verified.
+- Central main and other brand implementations were not changed. Existing AEO/GEO baseline and one-owner rule remain intact.
