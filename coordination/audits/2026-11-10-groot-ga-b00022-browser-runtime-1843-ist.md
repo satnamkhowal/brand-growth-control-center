@@ -7,8 +7,9 @@
 
 ## New implementation evidence
 - GA-B00022 `quiz-lab.html` exact Git blob `f89635f8c11415dc98d82f902b4769c9c9239877` (SHA-256 `e99aef31f891593350bd8bfaecd409853fe1fd896e5cd11f37c3dd74dc0a3fd1`) was exercised locally with Python 3.13.5, Playwright 1.57.0 and Chromium 144.0.7559.96.
-- 34 interactive browser/layout assertions PASS; 18 Chromium accessibility-tree assertions PASS; 16 real headed desktop-zoom assertions PASS at 200%/400%; four forced-colors focus assertions PASS. Total: 72 local runtime assertions.
+- 34 interactive browser/layout assertions PASS; 21 Chromium accessibility-tree assertions PASS; 16 real headed desktop-zoom assertions PASS at 200%/400%; four forced-colors focus assertions PASS. Total: 75 local runtime assertions.
 - Desktop zoom was sent through X11/XTest. At 200%, DPR 2 / innerWidth 640; at 400%, DPR 4 / innerWidth 320; `visualViewport.scale=1` at both and no horizontal overflow was observed.
+- A post-submit Chromium accessibility-tree check also exposes the score-bearing result heading, keeps the status role present, and removes radios in the hidden form from the accessibility tree.
 - The exact lab was loaded with `page.set_content`, not via the production route. No manual screen-reader/AT announcement test, production navigation, independent approval, PHP/schema/HTTP release or publication is claimed.
 - Groot canonical queue remains 29/29 IDs. Current counts remain 23 complete original drafts, 23 authored technical visuals, 23 PHP candidates, 0 independent publication approvals and 0 live-verified articles. GA-B00022 stays `TECH_QA`, `noindex,follow`, `publication_approved=false`.
 - Full QA report: `marketing/blog-factory/work/B0002/qa/GA-B00022-browser-runtime-20261110-1843-ist.md` on Groot PR #569.
