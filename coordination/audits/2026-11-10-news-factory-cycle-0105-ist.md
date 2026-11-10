@@ -1296,3 +1296,44 @@ This cycle added one researched opportunity, one original draft and one original
 - This is a current-status recheck of the existing Forsk Coding School owner PR #146, not a new programme or duplicate draft.
 - Official URL: https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher
 - No change to cumulative counts.
+
+
+### 10 November 2026 — 17:02 IST follow-up
+
+#### New Groot Academy News Factory draft
+- Created [Groot Academy PR #605](https://github.com/satnamkhowal/grootacademy.com/pull/605), titled **Outreachy December 2026 status and India university-student eligibility**.
+- The original English article is 2,207 words and uses three new, non-overlapping paths: `docs/news-factory/drafts/outreachy-december-2026-india-eligibility-guide.md`, its provenance JSON sidecar, and `docs/news-factory/media/outreachy-december-2026-india-eligibility-timeline.svg`.
+- Official Outreachy guide confirms final application closed 9 Nov 2026 at 16:00 UTC (21:30 IST); mentor selection deadline 16 Nov; organisers finalise 20 Nov; public announcement 30 Nov at 16:00 UTC; internship 7 Dec 2026–8 Mar 2027.
+- Critical India eligibility: students at Indian universities are classified as Northern Hemisphere students and are eligible for the May–August cohort, not the December–March cohort. This is a cohort rule, not a claim that all Indian applicants are ineligible: non-students may apply to either cohort if they satisfy the programme rules, but new December applications are closed.
+- Official programme terms: US$7,000 total stipend for three months, remote, 30 hours/week; 18+ by 7 Dec; university students need 42 consecutive days free from school/exams; previous Outreachy/OPW/GSoC interns are excluded; no concurrent internship and no full-time job/contract. The current applicant guide says not to use generative AI to create or edit initial application essays.
+- The official applicant/community pages do not show a separate publication timestamp. Cohort event dates are recorded separately. Exact May–August 2027 dates are not yet published.
+- One original self-authored 1200×675 SVG created; local PNG preview (1200×675) visually inspected and WebP derivative generated (49,086 bytes). No third-party image, logo or font downloaded.
+- Official Outreachy Internships channel video candidate: ID `UGgiMU4krhE`, published 21 Feb 2024. It is historical contribution-stage background, not a current cohort announcement. Embed permission was not independently confirmed, so the draft contains a fallback link only; no iframe, download or re-upload.
+- PR #605 is open/draft with 3 commits ahead / 0 behind main and exactly 3 added files. GitHub read-back passed for article, SVG and metadata. PR creation returned mergeable=false; comparison is clean but mergeability is not claimed. CI was not run; independent editorial/source QA and responsive review remain pending. No shared `.agent` master files, content-radar, migration status, PHP, routes, sitemap, schema or production files changed.
+
+#### Additional student/research opportunity research (no new draft)
+- **YouTube Researcher Program** is currently accepting applications from eligible researchers at accredited degree-granting institutions in India. Eligible applicants include students, research-focused staff and faculty; the programme offers scaled access to public YouTube video metadata, technical support and additional API quota with justification. It is a research-data access programme, not a cash scholarship, stipend or internship; no application deadline or cash award is displayed. Eligibility requires a clear non-commercial research project, intended public findings and no Alphabet/Google/YouTube affiliation. No existing Outreachy/YouTube Researcher article or PR was found across the central and checked brand repositories. Retained as a research-only candidate for a later distinct guide.
+- Official sources: https://research.youtube.com/ ; https://research.youtube.com/how-it-works/ ; https://research.youtube.com/policies/
+- **Google Student Researcher 2027** remains Apply, India — Remote eligible, with 4 Dec 2026 deadline and rolling review; existing Forsk PR #146 remains owner.
+- **NSP 2026–27** current All-Scholarships listing: NMMSS student application through 15 Nov; AICTE Swanath/Pragati/Saksham degree and diploma variants and UGC Ishan Uday/PG Studies through 30 Nov; PM YASASVI Top Class Schools through 15 Nov. NSP's student announcement says fresh PM YASASVI Schools applications exclude Rajasthan, Keralam and Karnataka pending further notice.
+- **PM-USP renewal discrepancy:** NSP All-Scholarships page shows student renewal through 30 Nov, while the Students announcement says the student application closed 31 Oct and separately lists institute/L2 verification dates. Treat as conflicting official information; do not advise students to apply until the logged-in application and scheme notice resolve it. Do not mistake verification dates for student application deadlines. NSP pages still display a June 2026 last-update footer.
+- Google Student Researcher official URL: https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher
+- NSP URLs: https://scholarships.gov.in/All-Scholarships and https://scholarships.gov.in/Students
+
+#### React / Node / AI-cloud tracks
+- React official GitHub releases still show patch tags 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 Oct 2026; no newer stable tag found. Existing Forsk PR #145 remains owner.
+- Node.js official blog still lists 26.13.0 LTS and 24.22.2 LTS (28 Oct) and 27.0.0-alpha.0.0.0 (29 Oct, prerelease). The 3 Nov advance notice still schedules 26.x/24.x/22.x security releases on or shortly after 11 Nov, highest severity HIGH; at 17:02 IST on 10 Nov, no patched versions or CVE IDs had been published. Existing Mango PRs #143/#153 retain ownership.
+- GitHub Changelog's latest November entries are dated 9 Nov: Claude Fable 5.2 in Copilot and secret scanning of Actions workflow logs. Existing Forsk PR #159 and Groot PR #597 own these. Forsk PR #161 owns Microsoft Copilot harness in Foundry. No new distinct unowned 10 Nov AI/cloud release was verified.
+
+#### Repository / coordination checks
+- Groot canonical alias `satnamkhowal/gta` and `satnamkhowal/grootacademy.com` resolve to the same repository ID. Current main base for PR #605: `99336e8d0b412f6e0f0bdc0464e0aec4b8fea2b5`. Read .agent operating instructions, master handoff, current state, backlog, decisions, content-radar README, migration status and WordPress migration handoff; checked current open PR inventory and latest main commit. Existing #603 Amazon BI/Support, #602 Maps in AI Studio, #596 Amazon Systems/Data, and #597 secret scanning remain separate owners.
+- Forsk current open News Factory PRs #157–#161 were reviewed; no new write because the current Google PR #160 owns shared task-board/session-handoff files and existing opportunity/security/AI owners remain active.
+- Mango current task board, work log, integration queue and instructions were reviewed; no new write because existing owners include PR #159 and Node/security lanes.
+- Jaipur legacy repository remains read-only under the current migration notes; no News Factory write was made. Unverified brand mappings remain untouched.
+- Central PR #19 branch remains divergent from main at 56 ahead / 2 behind. This update is appended to the existing checkpoint without rebase or merge; PR #19 remains open/draft and requires owner-led reconciliation.
+
+#### Cumulative News Factory ledger
+- Carried forward from the prior checkpoint: 90 researched, 74 drafted, 74 original graphics, 33 independent QA-ready, 0 live.
+- This run adds 2 researched items (Outreachy cohort-status/India eligibility and YouTube Researcher Program), 1 original draft and 1 original graphic.
+- Updated cumulative ledger: **92 researched, 75 drafted, 75 original graphics, 33 independent QA-ready, 0 live**.
+- No merge, deployment, application submission, publication or indexing is claimed.
