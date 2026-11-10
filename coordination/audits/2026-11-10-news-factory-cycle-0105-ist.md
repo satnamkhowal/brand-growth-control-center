@@ -761,3 +761,60 @@ Previous carried-forward checkpoint: **76 researched, 63 drafted, 63 original gr
 - Azure geography availability: https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies
 - No existing Imagine Cup 2027 article or News Factory draft was found in the four verified brand repositories. No second draft was created in this run to keep the Groot write lane bounded to one new isolated article task; queue as a high-priority next-cycle candidate. Do not present Groot Academy or Forsk Coding School as eligible applicants merely because they teach technology—their education-institution status would conflict with the published Microsoft for Startups eligibility rule. The story should target eligible student founders and independent software startups.
 
+
+
+## 10 November 2026 — Cycle 11: Microsoft Imagine Cup 2027 India guide (07:09 IST)
+
+### Coordination and ownership
+- Reused the existing central News Factory PR [#19](https://github.com/satnamkhowal/brand-growth-control-center/pull/19), branch \`ops/news-factory-cycle-20261109-2209\`, and this append-only checkpoint. The central README and \`coordination/MASTER_PENDING_TASKS_2026-10-19.md\` were read; the October master queue is an index, while the current News Factory PR/checkpoint contains the active content ownership.
+- Current Forsk main at start: \`a690ef725029e8c7f96b6148e9012f82a481bd6d\`. Read \`README.txt\`, \`docs/ai-ops/MASTER_TASK_BOARD.md\`, \`docs/ai-ops/SESSION_HANDOFF.md\`, current News Factory inventory, open PRs and relevant changed-file ownership.
+- Forsk PR #154 already owns shared \`docs/ai-ops/MASTER_TASK_BOARD.md\` and \`SESSION_HANDOFF.md\` updates for its DevFest work. Those shared files were not modified to avoid a collision. The new article is isolated to three unique News Factory draft/media paths; reconcile the Forsk board/handoff after PR #154 releases those paths.
+- Other existing ownership preserved: Mango PR #143 owns Node.js readiness; Forsk PRs #145–#154 own React, Google Student Researcher, scholarships, Copilot/agent, DevFest and other active drafts; Groot PRs #580, #592, #596 and #597 own their respective cloud, internship and GitHub security stories. Jaipur Engineers remains read-only for this lane because no approved News Factory write scope was identified.
+
+### 1. Official student/startup opportunity — Microsoft Imagine Cup 2027
+- Official competition page still displays **Apply Now**. Official rules last updated **4 November 2026**; submission period opened **2 November 2026** and ends **28 February 2027 at 23:59 CST**. Rules update date and application opening date are recorded separately.
+- India-based startups can meet the published Azure-country availability test in principle: Microsoft lists Central India (Pune), South India (Chennai), West India (Mumbai) and India South Central (Hyderabad). This is not a guarantee; all business, founder, export-control, subscription and Microsoft verification rules still apply.
+- General requirements include: legal entity founded on/after 2 November 2024; privately held and for-profit; pre-seed through Series B and no Series C; no more than USD 350,000 lifetime free Startup Credits; not an educational institution, government organisation, consultancy or agency; no cryptocurrency mining; applicant at least 18 (guardian consent where required).
+- Student Prize path: all founding team members must be enrolled at an accredited institution at some point between 30 September 2026 and 31 May 2027. Up to four official team members unless the competition website sets another limit. Student Startup is a separate cross-industry category and its entries are not eligible for the main First/Second/Third prizes.
+- Student Prize: USD 25,000 cash plus USD 250,000 Azure prize credits. Credits are not cash; taxes and credit terms apply. Conditional Microsoft for Startups progress credits are separate and not guaranteed.
+- Azure judging requirement: valid Azure Subscription ID and ten unique eligible Azure services/workloads with at least USD 1 spend each by the deadline; the official FAQ says each workload must maintain at least USD 1 spend while the startup remains actively competing. The official rules do not state an application fee; actual Azure charges may apply.
+- Official FAQ lists a pitch deck, 2–3 minute product-demo video, Azure architecture/technical overview and written responses. No story-specific original YouTube video with verified ID and confirmed embed permission was found; no iframe is included.
+- Sources: https://imaginecup.microsoft.com/en-us/compete ; https://aka.ms/ImagineCup2027TCs ; https://imaginecup.microsoft.com/en-us/support/faq ; https://learn.microsoft.com/en-us/startups/imagine-cup-credits-eligibility ; https://learn.microsoft.com/en-in/azure/reliability/regions-list
+
+### 2. New Forsk Coding School draft and original media
+- Repository: \`satnamkhowal/forsk-coding-school\`.
+- Branch: \`content/news-factory-imagine-cup-2027-india-20261110\`, created from current main \`a690ef725029e8c7f96b6148e9012f82a481bd6d\`.
+- Draft PR [#155](https://github.com/satnamkhowal/forsk-coding-school/pull/155), open and draft; compare is 3 commits ahead / 0 behind main; GitHub reports mergeable=true at latest read-back.
+- Article: \`docs/news-factory/drafts/microsoft-imagine-cup-2027-india-student-startup-guide.md\`, 2,153 words, original English India-focused guide. It distinguishes the startup legal-entity requirement from an ordinary student project and explains student-founder enrolment, team size, deadline, Azure usage/cost, conditional credits and prize limitations.
+- Original SVG: \`docs/news-factory/media/microsoft-imagine-cup-2027-india-eligibility.svg\`, 1200×675; SHA-256 \`c4690fc6000519c07c19f93ef97b9960f156014bbf706788c93b324da053b9fe\`. Self-authored vector; no Microsoft logo, screenshot, third-party artwork, photograph or downloaded image.
+- Provenance sidecar: \`docs/news-factory/drafts/microsoft-imagine-cup-2027-india-student-startup-guide.metadata.json\`; records official source URLs, rule/application dates, fee/usage qualification, local path, licence/permission, attribution, alt text, dimensions and hash.
+- Local files: \`/mnt/data/news-factory/2026-11-10/imagine-cup/microsoft-imagine-cup-2027-india-student-startup-guide.md\`, \`/mnt/data/news-factory/2026-11-10/imagine-cup/microsoft-imagine-cup-2027-india-eligibility.svg\`, \`/mnt/data/news-factory/2026-11-10/imagine-cup/microsoft-imagine-cup-2027-india-eligibility.png\`, and the metadata JSON in the same folder.
+- GitHub read-back verified all three files. Compare reports exactly three new files and no unrelated paths. No CI workflow runs were returned. Independent editorial/legal/source QA and responsive browser review remain pending.
+- No merge, deployment, publication, application submission or indexing claim.
+
+### 3. Opportunity revalidation — no duplicate article
+- Google Student Researcher 2027 remains listed as India remote eligible; the official listing asks applicants to apply before **4 December 2026**, reviews on a rolling basis, and requires current enrolment in a relevant Bachelor's/Master's/PhD programme plus computer-science-area experience. The public listing does not state a fixed duration or stipend amount. Existing Forsk PR #146 remains owner.
+- Amazon.jobs listings currently show Apply Now for four India 2027 internships:
+  - Systems Development Engineer Intern — Job ID 10498158: https://www.amazon.jobs/en/jobs/10498158/systems-development-engineer-intern-2027
+  - Data Engineer Intern — Job ID 10496769: https://www.amazon.jobs/en/jobs/10496769/data-engineer-intern-2027
+  - Business Intelligence Engineer Intern — Job ID 10498165: https://www.amazon.jobs/en/jobs/10498165/business-intelligence-engineer-intern-2027
+  - Support Engineer Intern — Job ID 10498163: https://www.amazon.jobs/pl/jobs/10498163/support-engineer-intern-2027
+- These Amazon roles require full-time availability during the internship and a university availability declaration. Role-specific degree/skill requirements differ. The inspected pages did not expose a posting date, closing date, stipend, duration or application fee. Existing Groot PR #596 owns the Amazon opportunity guide; no duplicate article or overlapping edit was made. Its owner should recheck whether to add the two newly surfaced BIE/Support roles before publication.
+- Amazon Front-End Engineer Intern 2027 Job ID 10502000 appeared in search results, but opening the official listing returned HTTP 404; it is not counted as an active opportunity.
+- NSP 2026–27 current listing: NMMSS and PM YASASVI Top Class Schools show 15 November; AICTE Swanath/Pragati and PM-USP J&K/Ladakh show 30 November. PM-USP remains held for updated guideline verification because its linked document is still AY 2025–26 and prior renewal-status messaging conflicts with the scheme card. No duplicate scholarship article was created.
+
+### 4. React, Node.js and AI/cloud/developer watch
+- React official blog still lists React 19.3 (9 September 2026) as the latest feature release; no newer stable release or new qualifying advisory found. Existing Forsk PR #145 remains owner.
+- Node.js official advance notice (last updated 3 November) still schedules security releases for 26.x, 24.x and 22.x on or shortly after 11 November 2026; highest severity HIGH. No CVE IDs or patched versions were published at this 10 November check. Existing Mango PR #143 remains owner; no speculative patched-version article created.
+- GitHub Changelog’s latest relevant entry is 9 November: secret scanning detects secrets in GitHub Actions workflow logs; existing Groot PR #597 owns the guide.
+- Google Cloud 9 November Pathways on Cloud GA on GKE and BigQuery pipeline-concurrency GA/Zstandard preview are already owned by Groot PRs #580 and #592. No duplicate articles created.
+- GitHub Claude Fable 5.2 Copilot announcement remains a research-only candidate due existing Forsk Copilot/API and coding-agent PR ownership; no overlapping draft created.
+
+### 5. Validation, media and counts
+- Article front matter and source links reviewed against official rules/FAQ/regions pages.
+- Metadata JSON parse: PASS; SVG XML parse: PASS; 1200×675 PNG rendering: PASS; visual inspection: PASS.
+- GitHub read-back: PASS for article, SVG and metadata; branch compare: 3 ahead / 0 behind, exactly three intended files.
+- CI runs: none returned. Responsive browser QA: pending. Independent editorial/legal/security QA: pending.
+- Original graphics added this cycle: 1. Licensed third-party downloads: 0. Verified story-specific YouTube videos/embeds: 0.
+- Cumulative ledger carried forward: 79 researched, 65 drafted, 65 original graphics, 33 independent QA-ready, 0 live. Imagine Cup was already in the prior research candidate queue; this cycle converted it into one draft and one original graphic, so no new researched-item increment is claimed. QA-ready and live counts did not change.
+- Next action: independent QA of PR #155; refresh the Amazon PR #596 listing set; recheck Node.js patched versions/CVEs on or after 11 November; verify scholarship forms before their listed deadlines.
