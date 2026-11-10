@@ -116,3 +116,76 @@ Sources:
 Validation: PR #607 has 3 commits ahead / 0 behind main, 3 changed files, GitHub read-back passed, mergeable=true after recheck. No workflow runs returned. Independent editorial and responsive/browser QA remain pending.
 
 Both new Groot PRs (#606 and #607) use distinct article/media paths. No shared task-board or site-production path was changed.
+
+
+## 20:11 IST — News Factory research and draft-production cycle
+
+### 1. New distinct story and Mango Engineers draft
+
+Microsoft's current .NET support policy lists **10 November 2026** as the end-of-support date for both .NET 8 and .NET 9. This is a lifecycle event, not a new announcement published today. The support-policy page was last updated **25 October 2026** and lists:
+- .NET 8 LTS — latest patch 8.0.33 (25 October); end of support 10 November 2026.
+- .NET 9 STS — latest patch 9.0.22 (25 October); end of support 10 November 2026.
+- .NET 10 LTS — latest patch 10.0.14 (25 October); active.
+- .NET 11 — official download page still showed Preview / 11.0.0-rc.3 (latest release date 25 October) at the 20:11 IST check. Do not infer GA from the .NET Conf 2026 event banner.
+
+The current support-policy table lists .NET 10 end of support as **14 November 2028**, while Microsoft's original .NET 10 launch post says **10 November 2028**. The Mango article flags this four-day discrepancy and tells readers to recheck the current policy page before fixing lifecycle dates.
+
+**New draft:** [Mango Engineers PR #162](https://github.com/satnamkhowal/mangoengineers.com/pull/162)  
+Branch: content/news-factory-dotnet-eol-20261110  
+Article: docs/news-factory/drafts/dotnet-8-9-end-of-support-2026-migrate-to-dotnet-10.md — 2,081 words, original English technical guide with answer-first summary, migration checklist, SEO metadata, FAQs and Jaipur/India developer context.  
+Media: one original 1200×675 SVG at docs/news-factory/media/dotnet-8-9-eol-migration-timeline.svg; local 1200×675 PNG and optimized WebP derivatives are in /mnt/data/news-factory/2026-11-10/dotnet-eol/media/. Provenance, rights, attribution, alt text, dimensions, byte sizes and SHA-256 hashes are recorded in docs/news-factory/drafts/dotnet-8-9-end-of-support-2026.metadata.json.
+
+The article is a separate lifecycle explainer, not the owner-gated .NET course page in Mango PR #160. Mango PR #151 owns the shared task-board/work-log/integration-queue files, so this branch changes only the three new draft/media paths. Existing Node.js story ownership in Mango PR #143 is preserved.
+
+Validation: article word count 2,081; SVG XML/accessibility/no-external-reference checks PASS; PNG rendered and visually inspected with no clipped text; WebP optimized; metadata JSON and file hashes validated; all three files read back from GitHub. Branch compare: 3 commits ahead / 0 behind main. PR creation returned mergeable=false; no CI statuses were returned, so mergeability and independent editorial/browser QA remain pending. PR stays Draft; no merge, deploy or publication.
+
+No YouTube iframe was added: Microsoft's .NET 10 blog link resolved to a videoseries rather than a verified single video ID, and no specific official .NET 11 RC3 video was established. No video or third-party graphic was downloaded.
+
+### 2. Student/developer opportunities — rechecked, no duplicate draft
+
+- **Google Student Researcher, 2027:** direct Google Careers page still shows Apply; India, Remote eligible; currently enrolled Bachelor's/Master's/PhD in listed disciplines; deadline **4 December 2026**; rolling review. No stipend or application fee is stated on the listing. Existing owner: [Forsk PR #146](https://github.com/satnamkhowal/forsk-coding-school/pull/146).
+- **ANRF PM ECRG 2026:** existing owner [Mango PR #159](https://github.com/satnamkhowal/mangoengineers.com/pull/159); open through **2 December 2026, 5:00 PM IST**, up to ₹60 lakh plus institutional overheads for three years, subject to Indian-citizen, doctorate, regular-position, joining-date and age/role conditions.
+- **NSP AY 2026–27:** current All-Scholarships page lists NMMSS and PM YASASVI Schools through **15 November**; AICTE Swanath/Pragati/Saksham, UGC Ishan Uday/PG Studies and PM YASASVI College through **30 November**. The page footer still says last updated June 2026. PM-USP renewal remains unresolved: the All-Scholarships listing says 30 November, while the separate Students announcement says 31 October. Do not market the renewal as open without checking the logged-in application portal.
+- **AICTE National Internship Portal:** current public listing snapshot showed **0 postings**. This is a portal snapshot, not evidence of a new internship opening.
+- Outreachy December 2026 applications closed on 9 November; existing Groot PR #605 already describes the closed status. Google's Research Scientist PhD Intern listing remains unavailable on direct check; do not call it open.
+
+Official links: https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher ; https://anrf.gov.in/ ; https://scholarships.gov.in/All-Scholarships ; https://scholarships.gov.in/Students ; https://internship.aicte-india.org/internships
+
+### 3. React / frontend
+
+Official React blog and release page rechecked. Latest stable tags remain 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated **14 October 2026**. No newer stable release or new official security advisory was found in this check. Existing security-story owner: [Forsk PR #145](https://github.com/satnamkhowal/forsk-coding-school/pull/145). No duplicate article.
+
+Sources: https://react.dev/blog ; https://github.com/react/react/releases
+
+### 4. Node.js / backend
+
+The official Node.js advance notice remains last updated **3 November 2026** and schedules security releases on or shortly after **11 November 2026** for 26.x, 24.x and 22.x. Highest severity is HIGH; the advance notice still contains no CVE IDs or patched versions. The download page currently lists 26.13.0 LTS, 24.22.2 LTS and 22.23.4 LTS. Existing Mango PR #143 owns the readiness story; no duplicate or premature patched-version claim was created.
+
+Sources: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases ; https://nodejs.org/en/download
+
+### 5. AI / cloud / developer news
+
+- Google Cloud's **10 November** open AI-native Kubernetes stack article (OpenRL, llm-d 1.0, KubeRay/Kueue, Agent Substrate, gVisor and TorchTPU) is already owned by [Groot PR #608](https://github.com/satnamkhowal/grootacademy.com/pull/608).
+- GitHub Changelog's latest visible entries are 9 November: Claude Fable 5.2 in Copilot and secret scanning in GitHub Actions workflow logs. Existing owners [Forsk PR #159](https://github.com/satnamkhowal/forsk-coding-school/pull/159) and [Groot PR #597](https://github.com/satnamkhowal/grootacademy.com/pull/597) are preserved.
+- Google Cloud's Gemini for Healthcare announcement is dated 10 November but is a U.S.-only preview for healthcare organisations, not a useful education/developer opportunity for these brands; excluded from the draft queue.
+- No additional distinct AWS/Azure/Google Cloud developer story without an existing owner was verified.
+
+Sources: https://cloud.google.com/blog/topics/developers-practitioners/the-open-ai-native-stack-on-kubernetes-from-open-models-to-distributed-inference-and-agents/ ; https://github.blog/changelog/ ; https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare
+
+### 6. Repository and ownership review
+
+- **Mango Engineers** — current main and agent-start/task-board/work-log/integration-queue reviewed; current open PRs #143, #147, #151, #153, #156, #159, #160 reviewed. New PR #162 is file-disjoint from the active .NET course candidate (#160) and shared SEO audit (#151).
+- **Groot Academy** — current .agent handoff/state/backlog/decisions read; these documents are older than the active PR set. Current News Factory PRs #605–#608, #603, #602 and #597 reviewed; no new write because the current opportunities/AI-cloud topics already have owners.
+- **Forsk Coding School** — README, AI-ops master task board and session handoff reviewed; the board/handoff is dated 14 October, while current News Factory PRs #145–#161 own React, Google, AICTE, scholarships and AI/cloud topics. No write.
+- **Jaipur Engineers** — canonical repository verified as satnamkhowal/jaipurengineers.com; README-INSTALL.md read. Root README.md, AGENTS.md and docs/ai-ops/MASTER_TASK_BOARD.md were not present. Current open PR #43 owns readability work, #41 owns enquiry-first batch planning, and #27 owns social planning. No News Factory article write.
+- Central README lists eight brands, but this run did not verify canonical writable repositories for Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies; no writes were made to those brands.
+
+### 7. Central coordination and cumulative ledger
+
+This addendum is appended to the existing News Factory checkpoint file on PR #19's branch. At pre-write comparison the central branch was **60 commits ahead / 2 behind main (diverged)**; no rebase or merge was attempted. PR #20's separate Groot 100K deduplication audit remains open and untouched.
+
+Carried-forward ledger: 95 researched, 78 drafted, 78 original graphics, 33 independent QA-ready, 0 live. This run adds one distinct researched lifecycle story, one article draft and one original infographic.
+
+**Updated ledger:** 96 researched · 79 drafted · 79 original graphics · 33 independent QA-ready · 0 live.
+
+No brand article was merged, deployed, published or submitted to an application portal in this run.
