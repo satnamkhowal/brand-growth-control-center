@@ -327,3 +327,8 @@ After the Groot checkpoint commits, final PR #569 head is `dfad026e8efdfefd4f139
 ### Final Groot checkpoint commit — 2026-11-10 13:43 IST
 
 The latest controller checkpoint commit is [`d9b107e`](https://github.com/satnamkhowal/grootacademy.com/commit/d9b107e3e49d384b30033602e6afc3d84d1ac8f0). PR #569 remains Draft/unmerged. The controller records the exact pre-commit observation at Groot PR head `5d332c7974d964ed4c14f04bd70a5610a6aa7306` (115 ahead / 2 behind); the controller checkpoint itself is the next branch commit. No review or release status is changed. The current-head workflow policy remains `[skip ci]` to avoid the known pre-step Actions retry loop; this is not a CI pass.
+
+
+### Final verified Groot branch head — 2026-11-10 13:43 IST
+
+Groot PR #569 now points to controller checkpoint [`9c91241`](https://github.com/satnamkhowal/grootacademy.com/commit/9c9124197058b750adc157574fee42eba25c5d04). This is a documentation-only `[skip ci]` continuation update. The prior controller observation records the immediately preceding head `5d332c7974d964ed4c14f04bd70a5610a6aa7306` at 115 ahead / 2 behind; this new commit advances the branch one more commit. No new workflow result, independent approval, merge or release is claimed.
