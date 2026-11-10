@@ -1103,3 +1103,65 @@ The new Mango PR #156 adds one researched story, one draft and one original grap
 - After the metadata read-back commit and subsequent refresh, Mango PR #156 still reports `mergeable=true` but its latest `mergeable_state` is `unstable`; the immediately preceding refresh had shown `clean`. Its branch remains 4 ahead / 0 behind with 3 files and 0 combined status checks. Keep it draft; do not merge until independent QA and repository checks are complete.
 - Forsk PR #158 remains `mergeable=true` / `clean`, 8 commits ahead, 0 behind, 3 files, 0 status checks.
 - Central PR #19 remains `mergeable=true` / `clean`, 48 commits ahead, 0 behind, 2 changed files, 0 status checks. All three PRs remain open/draft.
+
+
+### 10 November 2026 — 15:06 IST research and production cycle
+
+#### Fresh opportunity research — Google Summer 2027 PhD internships in India
+
+- New distinct opportunity cluster researched and drafted for Forsk Coding School. Google Careers search results and both official job-detail pages were checked on 10 November 2026.
+- **Software Engineering PhD Intern, Summer 2027**, job ID 109976286780105414: official page displayed Apply; locations Bengaluru, Hyderabad and Pune; minimum qualification is a PhD in software development or a related technical field in progress; description says paid and 12+ weeks. No official publication date, closing date, stipend amount, application fee or confirmed remote arrangement is displayed.
+- **Silicon Engineering Intern, PhD, Summer 2027**, job ID 109375266236572358: official page displayed Apply; Bengaluru and Hyderabad; PhD in computer engineering, CS, ECE, EE or related field; apply before **30 April 2027**. The 12-week full-time availability outside university term is stated under preferred qualifications. Stipend, paid status, application fee and exact start date are not stated.
+- These are not newly announced vacancies: publication dates are not displayed on the official job pages. The article labels the check time and does not invent opening dates. Google Student Researcher 2027 remains a separate programme and stays with existing Forsk PR #146.
+- New Forsk draft: [PR #160](https://github.com/satnamkhowal/forsk-coding-school/pull/160). Original 2,182-word article, self-authored 1200×675 SVG and provenance JSON. Local PNG (1200×675, 102,628 bytes) and optimized WebP (1200×675, 41,828 bytes) were rendered and visually inspected; local derivatives are not committed to the repository.
+- Forsk task board and session handoff were updated together on the PR #160 branch, following the repository's session-handoff requirement. PR now has five changed paths (article, SVG, metadata, task board, handoff), 9 commits ahead / 0 behind main, and GitHub recheck reports mergeable=true / draft. No combined status entries or workflow runs were returned. Independent editorial and responsive browser QA remain pending.
+- Official sources: https://www.google.com/about/careers/applications/jobs/results/109976286780105414-software-engineering-phd-intern-summer-2027 ; https://www.google.com/about/careers/applications/jobs/results/109375266236572358-silicon-engineering-intern-phd-summer-2027 ; separate programme https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher
+
+#### Other opportunity and programme checks
+
+- Google Student Researcher 2027 remains India-remote eligible, with a 4 December 2026 deadline and rolling review; existing Forsk PR #146 remains owner.
+- MeitY Digital India Internship Scheme 2026 is not a new opening: its official schedule shows student applications 10–29 April 2026, results/offers on 19 May, and internship dates 1 June–31 July 2026. Current cycle is closed. Source: https://intern.meity.gov.in/schedules
+- DST NIDHI Entrepreneur-in-Residence is an evergreen centre-mediated fellowship description: support is listed at ₹10,000–₹30,000 per month for up to 12 months via selected Technology Business Incubators; the central page does not establish a currently open individual application window. Do not label it newly open. Source: https://nidhi.dst.gov.in/nidhieir/
+- NSP scheme deadlines and PM YASASVI state restrictions remain owned by existing Forsk/Mango/Groot drafts. No duplicate scholarship story was created.
+
+#### React / frontend
+
+- No new stable React release or new advisory was found. Official GitHub release history still lists 19.3.1, 19.2.9, 19.1.10 and 19.0.9 dated 14 October 2026.
+- The two October 14 React Server Components advisories remain with existing Forsk PR #145. Sources: https://github.com/react/react/releases ; https://github.com/react/react/security/advisories/
+
+#### Node.js / backend
+
+- The official Node.js notice remains the 3 November advance notice for 26.x, 24.x and 22.x security releases on or shortly after **11 November 2026**, highest severity HIGH. No patched versions or CVE list were published in the notice at this 15:06 check.
+- Node.js blog's latest checked entries remain the 5 November V8 15.6 explainer, 3 November security notice and 29 October Node.js 27 Alpha. Existing Mango PR #143 owns security readiness and PR #153 owns the Node.js 27/V8 15.6 guide. No duplicate backend article.
+- Source: https://nodejs.org/en/blog
+
+#### AI / cloud / developer news
+
+- Anthropic's latest official announcements list remains **Claude Fable 5.2 and Claude Mythos 5.2**, published 9 November 2026. Existing Forsk PR #159 owns the India-focused developer access/pricing guide.
+- GitHub Changelog's latest checked entries remain 9 November: Claude Fable 5.2 in Copilot and secret scanning for GitHub Actions workflow logs. Existing Groot PR #597 owns the workflow-log guide.
+- AWS AgentCore Web Search API GA remains with Forsk PR #157; Google Maps in AI Studio remains Groot PR #602; Amazon India BI/Support internships remain Groot PR #603. No distinct unowned 10 November AI/cloud announcement was verified.
+- Official/reputable YouTube candidate 8zBaa20mvoc from verified Google Cloud Tech, published 12 November 2025, covers general TPU architecture. Embed permission could not be independently confirmed; no iframe was added.
+
+#### Repository and ownership review
+
+- Central README, current News Factory checkpoint, PR #19 and the new central PR #20 dedupe audit were reviewed. PR #20 records the separate semantic comparison of Groot PR #602 against the 100K queue; no 100K IDs were reserved or reassigned by this cycle.
+- Mango: read README, docs/agent-start-here.md, task board, work log and integration queue. Existing PR #143/#153 own Node.js; #147 owns NIC Digital India Internship; #156 owns Octoverse; #151 owns internal-link audit. No new Mango write.
+- Groot: read .agent/README.md, master handoff, current state, backlog and decisions; reviewed current open PR inventory. Existing PR #602/#603/#597 own current news. No new Groot write.
+- Forsk: read README.txt, docs/ai-ops/MASTER_TASK_BOARD.md, SESSION_HANDOFF.md and current open PR inventory. New article uses separate paths; existing #146/#159 remain untouched.
+- Jaipur Engineers: central ownership audit maps the canonical repository to satnamkhowal/jaipurengineers.com (historical alias je2). Current open PR #43 owns readability improvements; #41 owns enquiry-first batch planning. MIGRATION-NOTES.md retains older je2 wording, so no News Factory write was made. Other brands remain read-only where the central mapping queue does not verify their repository/catalogue identity.
+
+#### Cycle ledger
+
+Previous verified cumulative ledger: 88 researched, 72 drafted, 72 original graphics, 33 independent QA-ready, 0 live.
+
+This cycle adds one researched opportunity cluster, one original draft and one original graphic:
+
+| State | Cumulative |
+| --- | ---: |
+| Researched | 89 |
+| Drafted | 73 |
+| Original graphics | 73 |
+| Independent QA-ready | 33 |
+| Live / published | 0 |
+
+No PR was merged, no website deployed or published, no student application submitted, and no indexing claim made.
