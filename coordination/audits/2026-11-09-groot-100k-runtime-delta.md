@@ -219,3 +219,11 @@ Exact next action: Master owner resolves HAO-008 priority/topic ownership; the e
 - The resulting docs checkpoint triggered [run 42734922730](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42734922730), job 129561712184 (`review-candidates`), and [run 42734923681](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42734923681), job 129561715067 (`validate-planning-system`). Both completed as failures before step creation; both step arrays are empty and log retrieval returns `BlobNotFound`.
 - No CI assertion executed. Cause remains unknown and is not attributed to application code. Repository Actions administrator diagnosis is still required. Groot's follow-up docs commits now use `[skip ci]` to avoid unnecessary retries.
 - No central main or other-brand source changes, queue changes, approval, publication or deployment occurred.
+
+
+## Delta — 2026-11-10: current branch comparisons refreshed
+
+- Groot current main remains `a97dc07463a352ea924af3dea22af915a6f9bdb1`.
+- The 100K controller successor branch compares **84 ahead / 1 behind**, with 197 changed files; its one main-only commit is unrelated documentation. PR #569 remains draft and unapproved.
+- The existing recovery stack top #533 remains **31 ahead / 27 behind** current main; compare still shows modified shared blog CSS/layout and the five original article paths/assets. Its historical render/browser/inventory runs are not fresh-main approval. The recovery lane remains owned by its existing worker; no branch rebase or worker-file edit occurred in this run.
+- HAO-008 remains P3/REVIEW on current-main board. No priority or ownership changed; no new batch, merge, deploy, publish or index action.
