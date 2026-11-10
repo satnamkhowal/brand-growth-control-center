@@ -49,3 +49,8 @@ Controller counts remain: 23 complete original text drafts, 23 authored technica
 4. Continue GA-B00016 browser/assistive-technology review and the existing GA-B00006–GA-B00010 release reconciliation. Do not generate a new batch while higher-priority gates and the master-priority conflict remain unresolved.
 
 No article, image, queue ID, production route, sitemap, schema, deployment or live content was changed by this coordination update.
+
+
+## 19:41 IST branch ancestry clarification
+
+GitHub compare of Groot `main` against `content/groot-100k-controller-20261016` returns 404 because there is no common ancestor. Keep that original branch as the canonical controller/reference only; do not attempt a direct PR, rebase or merge from its orphaned history. The main-based review successor is `qa/groot-100k-current-main-20261109`, currently 161 commits ahead / 2 behind current main with 212 changed files and no submitted reviews. Reconcile the successor's main lag before independent review. This is a branch-history finding, not a change to queue ownership or content priority.
