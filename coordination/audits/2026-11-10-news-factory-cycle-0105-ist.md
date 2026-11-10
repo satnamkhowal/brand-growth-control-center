@@ -1256,3 +1256,35 @@ No PR was merged, no website deployed or published, no application submitted, an
 - Existing News Factory PR #19 branch \`ops/news-factory-cycle-20261109-2209\` was reused; no new central PR was opened.
 - Before this append it compared 53 commits ahead / 2 behind current central main \`f76c20abf6c1ea6c45de073c5acbcd936333098c\`. The branch remains diverged; this append does not authorize a rebase or merge.
 - Next action: central owner reconciles PR #19 against the two newer main commits, then independently reviews the Forsk #161 editorial draft and the 11 November Node.js release when it is actually published.
+
+
+## 2026-11-10 16:32 IST — News Factory cycle 11
+
+### Research result and new production
+- New unowned opportunity identified: ANRF Prime Minister Early Career Research Grant (PM ECRG) 2026 current call. ANRF's official homepage displayed the call as open until 2 December 2026 at 5:00 PM. The ANRF online call listing shows the window beginning 2 November 2026; no separate public call-news publication timestamp was displayed. This is an existing grant with a current call, not a new 10 November launch.
+- Eligibility and funding checked against ANRF: up to ₹60 lakh excluding overheads plus institutional overheads for three years; up to 700 awards/year; qualifying Indian doctorate, regular academic/research position, within two years of joining, age cap 42 with stated relaxations, listed ineligible categories and one-time/prior-grant conditions. It is a PI project grant, not a student scholarship, internship or monthly stipend.
+- New Mango Engineers draft: PR #159, branch `content/news-factory-anrf-pm-ecrg-20261110-1632`. Article is 1,992 words; original 1200×675 SVG committed; source/date/eligibility/video/asset metadata committed. Task board row `ME-NF-ANRF-20261110` and append-only work-log entry added. Local 1200×675 PNG preview was visually inspected; local WebP derivative is 47,850 bytes and recorded in metadata.
+- PR #159 is open and draft. Branch compare is 5 ahead / 0 behind main; changed paths are the article, metadata, SVG, task board and work log. Combined status returned no checks. GitHub create-PR snapshot reported mergeable=false while branch comparison is clean; treat mergeability as unresolved and do not merge. Independent editorial and responsive QA remain pending.
+- ANRF official YouTube video candidate `_VYIxmW1vWQ` is from 16 October 2025 and is background only. YouTube fetch was throttled; embed permission is unverified. Article includes a fallback link only, no iframe. No third-party graphics or video were downloaded.
+
+### Other tracks checked
+- Student opportunities: NSP Academic Year 2026–27 currently lists NMMSS and PM YASASVI Top Class Schools student applications through 15 November; AICTE Swanath/Pragati/Saksham variants and UGC Ishan Uday/PG Studies through 30 November; PM YASASVI Top Class College through 30 November. PM-USP CSSS is explicitly shown as a **renewal** window through 30 November, not a new-student application. Recheck each scheme's eligibility and live form before student-facing advice.
+- Google Student Researcher 2027, Google PhD internship roles and Microsoft Imagine Cup remain assigned to existing Forsk PRs #146, #160 and #155; no duplicate was created.
+- Amazon India BI/Support and SDE/Data Engineer internship coverage remains assigned to Groot PRs #603 and #596; no duplicate was created.
+- React official releases page still shows 19.3.1, 19.2.9, 19.1.10 and 19.0.9 as the latest patch tags, all dated 14 October 2026. No newer stable release was found. Existing RSC advisory owner Forsk #145 remains.
+- Node.js official security notice still schedules 26.x, 24.x and 22.x security releases on or shortly after 11 November 2026; highest severity is HIGH. At 16:32 IST, no patched release/CVE details had been published in the notice. Existing Mango PRs #143 and #153 retain ownership.
+- Microsoft Copilot harness in Foundry public preview (28 October announcement; 5 November roundup) remains assigned to Forsk PR #161. Current Learn limits page confirms the feature-specific region table and Foundry Memory limitation. No new distinct unowned AI/cloud announcement was verified.
+
+### Repository and coordination state
+- Mango Engineers: read `AGENTS.md`, `docs/agent-start-here.md`, task board, append-only work log and integration queue before writing. Only article/media/provenance and the required task-board/work-log records changed; no shared/global or production files.
+- Groot Academy, Forsk Coding School and Jaipur Engineers: current open PR ownership reviewed. No new writes made in those repositories this cycle. Jaipur legacy repository remains read-only; migration notes identify `je2` as canonical.
+- Central PR #19 branch remains divergent from main at 54 ahead / 2 behind. This checkpoint was appended to its existing audit file without rebasing or merging; the branch remains draft and requires owner reconciliation. Central PR #20 deduplication audit remains separate.
+
+### Cumulative News Factory ledger (carried forward from previous run)
+- Researched: 90
+- Drafted: 74
+- Original graphics: 74
+- Independent QA-ready: 33
+- Live/published: 0
+
+This cycle added one researched opportunity, one original draft and one original infographic. No article was merged, deployed, published or live-verified.
