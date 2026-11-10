@@ -81,12 +81,38 @@ Sources:
 
 Carried forward from the existing checkpoint: 92 researched, 75 drafted, 75 original graphics, 33 independent QA-ready, 0 live.
 
-This run adds one distinct unowned research item (Copilot Fusion GA), one original draft and one original infographic.
+This run adds two distinct unowned research items (Copilot Fusion GA and AI applications scanning preview), two original drafts and two original infographics.
 
-**Updated totals:** 93 researched · 76 drafted · 76 original graphics · 33 independent QA-ready · 0 live.
+**Updated totals:** 94 researched · 77 drafted · 77 original graphics · 33 independent QA-ready · 0 live.
 
 No merge, deployment, application submission, live publication or indexing is claimed.
 
 
 ### 18:14 IST direct Google Careers recheck correction
 The Research Scientist PhD Intern job page cited above no longer resolves to a live listing; Google Careers displays “Job not found / This job may have been taken down.” Its search-index snippet still carries the earlier 28 Oct–30 Nov dates, but current application status is not verified. Keep it out of the open-opportunity count until the direct listing returns. Google Student Researcher 2027 remains directly accessible with Apply and a 4 December 2026 deadline.
+
+## 18:50 IST addendum — second distinct developer-security draft
+
+### GitHub AI applications scanning — Groot Academy
+
+- Official announcement publication date: **28 October 2026**.
+- Current status: public preview.
+- Current GitHub Docs narrow the preview coverage to **indirect prompt injection (XPIA) in AI agents only**, even though the announcement describes a broader AI-risk area.
+- Scans run when a pull request is created and after each new commit; no full-repository/backlog scan.
+- Fork and Dependabot pull requests are excluded.
+- Findings are advisory and cannot block merges.
+- Feature is off by default; organisation-level enablement is separate from enabling AI Scan for pull requests.
+- Requires GitHub Advanced Security on GitHub Enterprise Cloud (including data residency) and consumes AI credits on top of the licence; not available on GitHub Enterprise Server.
+
+**New draft:** [Groot Academy PR #607](https://github.com/satnamkhowal/grootacademy.com/pull/607)  
+Branch: `content/news-factory-ai-applications-scanning-preview-20261110-1811`  
+Files: 2,329-word article, original SVG infographic, provenance JSON.  
+Draft only; not merged or published.
+
+Sources:
+- https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview/
+- https://docs.github.com/en/code-security/concepts/code-scanning/ai-applications-scanning-for-pull-requests
+
+Validation: PR #607 has 3 commits ahead / 0 behind main, 3 changed files, GitHub read-back passed, mergeable=true after recheck. No workflow runs returned. Independent editorial and responsive/browser QA remain pending.
+
+Both new Groot PRs (#606 and #607) use distinct article/media paths. No shared task-board or site-production path was changed.
