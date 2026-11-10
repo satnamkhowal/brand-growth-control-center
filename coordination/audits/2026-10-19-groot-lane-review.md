@@ -305,3 +305,15 @@ PHP, Chromium and container runtimes remain absent, so existing rendered/browser
 - Central ownership, PR #2 AEO/GEO baseline, PR #3 coordination lane and Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate-site reconciliation are unchanged. No source implementation, merge, deployment or publishing occurred here.
 
 Exact next action: execute GA-B00024 PHP rendering and shared schema/H1 validation in a PHP-capable environment, then verify registry/route/canonical/image/internal links and both downloads over HTTP before independent release review.
+
+
+## Delta — 2026-11-10 13:43 IST: exact GA-B00029 contract and current PR head
+
+- Groot source repository remains `satnamkhowal/grootacademy.com` (user alias `satnamkhowal/gta`); source implementation stayed in its isolated `qa/groot-100k-current-main-20261109` branch.
+- A new 15/15 self-run static cross-artifact check covers the exact GA-B00029 PHP candidate, release manifest, metadata, article, current-main shared layout/head and original/successor queues. Exact report: [GA-B00029 cross-artifact contract](https://github.com/satnamkhowal/grootacademy.com/blob/qa/groot-100k-current-main-20261109/marketing/blog-factory/work/B0002/qa/GA-B00029-cross-artifact-contract-20261110-1343-ist.md). It is not independent QA, PHP execution, full root-chrome render or production HTTP evidence.
+- Original and successor queues remain 29 IDs, unique and sequence-identical. GA-B00014 remains a refresh, not a new article. GA-B00005 remains IDEA pending Master queue disposition.
+- Groot PR #569 at the time of this observation was Draft, 110 ahead / 2 behind, 0 submitted reviews and 0 review threads. Its then-current `[skip ci]` head had no workflow runs or combined status checks. Earlier Actions runs still failed before step creation; administrator diagnosis is required. No approval/merge/deployment/publication claim.
+- Current Groot main `99336e8d` still records HAO-008 Blog Factory as P3/REVIEW, while the user-authorized controller target remains P0. No priority/owner override was made.
+- Central main README still lists eight brands but its active control board has only three rows and no active Groot row. Preserve the central owner's authority; this is a visibility gap to resolve centrally, not a source-repository reassignment.
+- PR #1/#2/#3 remain merged; reuse PR #2's existing AEO/GEO baseline. Jaipur Engineers `je2` social repository versus `jaipur-engieneers` candidate website remains explicitly unresolved. No other brand files or ownership were changed.
+- Exact next: obtain an authorized full-root PHP render and four-endpoint HTTP/MIME evidence for GA-B00029; diagnose Actions pre-step failures; independent review of Groot PR #569 and the existing five-article recovery stack. No self-approval, merge, deploy, publish or indexing.
