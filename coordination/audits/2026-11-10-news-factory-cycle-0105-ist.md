@@ -1079,3 +1079,9 @@ No PR was merged, no website was deployed or published, and no application was s
 
 ### Ledger confirmation
 The new Mango PR #156 adds one researched story, one draft and one original graphic. The AICTE PR #158 update is a revalidation of an existing item and does not increment production counts. Current cumulative ledger remains **88 researched / 72 drafted / 72 original graphics / 33 independent QA-ready / 0 live**.
+
+
+### Forsk PR #158 metadata read-back and branch-head correction
+- After recording the updated AICTE media blob/read-back in the provenance sidecar, Forsk PR #158 is **8 commits ahead / 0 behind main**, still exactly three changed paths; GitHub reports `mergeable=true`, `mergeable_state=clean`. The previous 7-ahead figure in the 14:09 section was accurate before this final metadata commit and is superseded here.
+- All three PR files were fetched successfully from the branch. The updated SVG blob SHA recorded in the metadata matches the GitHub read-back. No combined status checks were returned; independent editorial QA and responsive browser review remain pending.
+- This metadata/read-back commit does not add a new article or graphic; cumulative ledger remains **88 researched / 72 drafted / 72 original graphics / 33 independent QA-ready / 0 live**.
