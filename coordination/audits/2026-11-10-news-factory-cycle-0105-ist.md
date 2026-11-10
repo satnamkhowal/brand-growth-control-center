@@ -1189,3 +1189,70 @@ No PR was merged, no website deployed or published, no student application submi
 - Corrected the original SVG byte count in Forsk PR #160's provenance sidecar to **4,207 UTF-8 bytes** (the earlier 4,184 value was the decoded character count). PNG remains 102,628 bytes and WebP 41,828 bytes; all three are 1200×675 and have recorded SHA-256 hashes.
 - After this metadata-only correction, Forsk PR #160 compares **17 commits ahead / 0 behind** its current main, five changed paths; GitHub update recheck reports mergeable=true and draft. No PR-specific status entries were returned. The latest learning-home-copy workflow association remains unrelated to the new article/media and failed without steps/logs.
 - The central PR #19 branch was last compared at **51 ahead / 2 behind** current main before this append. It is now one checkpoint commit further ahead; no rebase or merge was attempted.
+
+
+### News Factory cycle — 10 November 2026, 16:05 IST
+
+#### New production — Forsk Coding School
+
+- Draft PR [#161](https://github.com/satnamkhowal/forsk-coding-school/pull/161), branch \`content/news-factory-microsoft-copilot-harness-20261110-1605\`, based on current Forsk main \`a690ef725029e8c7f96b6148e9012f82a481bd6d\`.
+- One original 2,114-word English developer guide: \`docs/news-factory/drafts/microsoft-copilot-harness-foundry-agent-service.md\`.
+- One provenance JSON sidecar and one original 1200×675 SVG architecture infographic. No third-party graphics or logos were downloaded.
+- Local derivatives: PNG 1200×675 (137,019 bytes) and WebP 1200×675 (63,834 bytes). SVG source is committed; PNG/WebP are local preview files.
+- Microsoft announced the Copilot harness in public preview on 28 October 2026; the Microsoft Foundry October roundup was published 5 November. The draft explicitly does not call this a new 10 November launch.
+- South India appears in the current feature-specific supported-region list. BYOM is not supported; the TypeScript path requires Node.js 22+; preview has no SLA and is not recommended for production. Harness runtime is free before 1 December, while model/tool charges remain separate; published sandbox rates from 1 December are USD 0.0994/vCPU-hour and USD 0.0118/GiB-hour.
+- Official video ID \`N0cNzeCUeK4\` is linked by the Microsoft Foundry announcement. YouTube fetch was throttled and embed permission was not verified, so the article contains a fallback link only; candidate privacy-enhanced responsive iframe markup is recorded in metadata but disabled.
+- Local SVG render and PNG visual inspection PASS; article and metadata GitHub read-back PASS. TypeScript examples received static source review only, not an authenticated Azure execution. Independent editorial and responsive QA remain pending.
+- PR #161 is open/draft, 5 commits ahead / 0 behind main, GitHub mergeable=true on recheck. No merge, route, sitemap, PHP, deployment or publication change.
+
+#### Fresh research by track
+
+1. **Student/developer programmes and scholarships**
+   - Google Student Researcher 2027 and the two Google Summer 2027 PhD listings remain covered by existing Forsk PRs #146 and #160; no duplicate article.
+   - Microsoft Imagine Cup 2027 remains covered by existing Forsk PR #155.
+   - NSP's current scheme list shows AICTE Swanath and Pragati student applications through 30 November 2026.
+   - NSP's PM-USP CSSS renewal pages conflict: the Students announcement says student applications closed 31 October with institute verification through 15 November, while the All-Scholarships scheme listing shows renewal student applications through 30 November. Do not publish a definitive student deadline until the actual scheme/application flow or a corrected official notice resolves the conflict.
+   - Existing NMMSS/YASASVI and scholarship drafts remain with their current owners; no duplicate opportunity draft was created.
+
+2. **React / frontend**
+   - Official React releases still list 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026. No newer stable release found.
+   - Existing Forsk PR #145 owns the 14 October React Server Components security advisories; no duplicate.
+
+3. **Node.js / backend**
+   - The official advance notice says 26.x, 24.x and 22.x security releases are expected on or shortly after 11 November 2026; highest severity HIGH. At the 10 November 16:05 IST check, no patched versions or CVE list had been published in the notice.
+   - Existing Mango PRs #143 and #153 own the current Node.js security/readiness and 27 Alpha stories.
+
+4. **AI / cloud / developer**
+   - A new official Microsoft Foundry post, published 9 November 2026, introduces agentic mode in Azure Content Understanding as a preview. It uses API version \`2026-06-01-preview\` and \`workflow: agentic\`; Microsoft says it uses more model tokens and typically takes longer than standard mode. This is a researched lead only; no article was created in this cycle.
+   - The Forsk Copilot harness draft above is distinct from the existing AWS AgentCore, Claude and Google opportunity drafts. Existing owners in Forsk/Groot/Mango were left unchanged.
+
+#### Repository and ownership decisions
+
+- Central README and existing News Factory PR #19/#20 were reviewed. Central repository remains coordination-only.
+- Mango: re-read AGENTS.md, agent-start-here, task board, work log and integration queue. The board still contains P0 production/runtime and canonical-URL blockers; its existing content work is separately scoped. No Mango write was made.
+- Groot: re-read .agent operating rules, decisions, current state, backlog, AI-ops README, master board, session handoff and migration status. Blog factory remains a lower-priority existing lane with current PR owners; no duplicate article was created.
+- Forsk: re-read README.txt, image audit/workflow, worker registry, task board, session handoff and current PR inventory. PR #161 touches only its three unique draft/media paths; no shared board/handoff or production files changed.
+- Jaipur Engineers: canonical repository remains \`satnamkhowal/jaipurengineers.com\`; current readability/batch-planning owners were preserved and no News Factory write was made.
+- Other central brands remain read-only until current source/catalogue authority and active workstream are verified.
+
+#### Cumulative News Factory ledger after this cycle
+
+Previous verified ledger: 89 researched, 73 drafted, 73 original graphics, 33 independent QA-ready, 0 live.
+
+This cycle adds two researched topics (Copilot harness draft + Azure Content Understanding agentic-mode lead), one original article draft and one original graphic:
+
+| State | Cumulative |
+| --- | ---: |
+| Researched | 91 |
+| Drafted | 74 |
+| Original graphics | 74 |
+| Independent QA-ready | 33 |
+| Live / published | 0 |
+
+No PR was merged, no website deployed or published, no application submitted, and no indexing/ranking claim made.
+
+#### Central branch state
+
+- Existing News Factory PR #19 branch \`ops/news-factory-cycle-20261109-2209\` was reused; no new central PR was opened.
+- Before this append it compared 53 commits ahead / 2 behind current central main \`f76c20abf6c1ea6c45de073c5acbcd936333098c\`. The branch remains diverged; this append does not authorize a rebase or merge.
+- Next action: central owner reconciles PR #19 against the two newer main commits, then independently reviews the Forsk #161 editorial draft and the 11 November Node.js release when it is actually published.
