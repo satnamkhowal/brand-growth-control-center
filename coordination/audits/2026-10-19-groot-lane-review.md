@@ -317,3 +317,8 @@ Exact next action: execute GA-B00024 PHP rendering and shared schema/H1 validati
 - Central main README still lists eight brands but its active control board has only three rows and no active Groot row. Preserve the central owner's authority; this is a visibility gap to resolve centrally, not a source-repository reassignment.
 - PR #1/#2/#3 remain merged; reuse PR #2's existing AEO/GEO baseline. Jaipur Engineers `je2` social repository versus `jaipur-engieneers` candidate website remains explicitly unresolved. No other brand files or ownership were changed.
 - Exact next: obtain an authorized full-root PHP render and four-endpoint HTTP/MIME evidence for GA-B00029; diagnose Actions pre-step failures; independent review of Groot PR #569 and the existing five-article recovery stack. No self-approval, merge, deploy, publish or indexing.
+
+
+### Post-checkpoint ref verification — 2026-11-10 13:43 IST
+
+After the Groot checkpoint commits, final PR #569 head is `dfad026e8efdfefd4f1393f1fae5a28337c4a88a` (113 ahead / 2 behind, 204 changed files, Draft). The exact final head has no associated workflow runs and no combined status checks because the final documentation commit uses `[skip ci]`; this is not a CI pass. The prior 7dd9e324 head observation in the immediately preceding delta is superseded. Independent reviews and threads remain 0/0.
