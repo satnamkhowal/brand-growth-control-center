@@ -211,3 +211,11 @@ Exact next action: Master owner resolves HAO-008 priority/topic ownership; the e
 - Groot evidence: [GA-B00029 exact-source rerun report](https://github.com/satnamkhowal/grootacademy.com/blob/qa/groot-100k-current-main-20261109/marketing/blog-factory/work/B0002/qa/GA-B00029-source-blob-rerun-20261110.md). Controller/README checkpoints are committed on the isolated successor branch; the 29-ID queue is unchanged.
 - No PHP/schema, production HTTP/MIME, deployment, independent release approval, publication or indexing claim was added. Counts remain 23 complete drafts, 23 visuals, 23 PHP candidates, 18 independent code passes, 0 approvals and 0 live-verified.
 - Central main and other brand implementations were not changed. Existing AEO/GEO baseline and one-owner rule remain intact.
+
+
+## Delta — 2026-11-10: checkpoint-triggered Actions jobs still fail before execution
+
+- The new exact-source GA-B00029 test evidence remains local-only and passed as recorded above.
+- The resulting docs checkpoint triggered [run 42734922730](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42734922730), job 129561712184 (`review-candidates`), and [run 42734923681](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42734923681), job 129561715067 (`validate-planning-system`). Both completed as failures before step creation; both step arrays are empty and log retrieval returns `BlobNotFound`.
+- No CI assertion executed. Cause remains unknown and is not attributed to application code. Repository Actions administrator diagnosis is still required. Groot's follow-up docs commits now use `[skip ci]` to avoid unnecessary retries.
+- No central main or other-brand source changes, queue changes, approval, publication or deployment occurred.
