@@ -80,12 +80,6 @@ Sources: https://nodejs.org/en/blog/vulnerability/november-2026-security-release
 - New Enterprise Edition cyber-recovery capabilities are **expected to be generally available in the coming months**. No firm GA date, price, minimum contract, India-specific availability or region is stated.
 - New Mango Engineers draft: **PR #163**, 1,832 words, original SVG and provenance metadata.
 
-### New Forsk Coding School draft — PM YASASVI College
-
-- PR #166: 2,139-word English guide, current 30 November 2026 student deadline, OBC/EBC/DNT and ₹2.50 lakh income eligibility, notified institution/slot conditions, detailed benefit components and Rajasthan/Schools distinction.
-- One original 1200×675 SVG, local PNG/WebP previews and provenance metadata. No government logo or third-party graphic used.
-- Existing Forsk PR #156 is the separate Top Class Schools sub-scheme; PR #166 is College-only, so no near-identical syndication.
-- No verified official/reputable YouTube video ID plus embed permission; no iframe.
 
 Sources:
 - https://ir.rubrik.com/news-events/press-releases/
@@ -106,7 +100,7 @@ Sources:
 
 - Read central README, current open PR #19, latest checkpoint coordination/audits/2026-11-10-news-factory-cycle-2137-ist.md, and separate PR #20's 100K cross-lane dedupe scope.
 - Expected coordination/MASTER_PRIORITY_QUEUE.md path is absent; use current PR inventories and existing checkpoint as live ownership evidence.
-- PR #19 branch ops/news-factory-cycle-20261109-2209 compared before this write: **64 ahead / 2 behind main (diverged) before this audit update**. This audit is a new append-only file; no rebase, merge or main-tree write.
+- PR #19 branch ops/news-factory-cycle-20261109-2209 compared before this write: **65 ahead / 2 behind main (diverged) before this audit update**. This audit is a new append-only file; no rebase, merge or main-tree write.
 - PR #20's separate Groot 100K queue audit remains untouched.
 
 ### Mango Engineers — satnamkhowal/mangoengineers.com
