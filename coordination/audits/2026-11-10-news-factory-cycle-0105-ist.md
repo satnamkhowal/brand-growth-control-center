@@ -1165,3 +1165,12 @@ This cycle adds one researched opportunity cluster, one original draft and one o
 | Live / published | 0 |
 
 No PR was merged, no website deployed or published, no student application submitted, and no indexing claim made.
+
+
+### Post-commit QA evidence correction — Forsk PR #160
+
+- A later commit-associated workflow query returned two runs of the existing **Forsk learning home copy QA** workflow: run IDs 42793643005 and 42794174606, both with job name learning-guide-card-copy and conclusion failure.
+- The workflow's path filter includes the paired docs/ai-ops/MASTER_TASK_BOARD.md and docs/ai-ops/SESSION_HANDOFF.md files added to PR #160. Its job validates the existing learning-home partial and QA script, not the new News Factory article/SVG/metadata. Both runs returned no job steps and their log-download endpoints returned BlobNotFound; the cause is unknown.
+- No PR-specific combined status entries were returned. These failures are not an article QA result and must not be reported as a pass. Independent editorial and responsive QA remain pending.
+- After the paired board/handoff records and QA-boundary updates, Forsk PR #160 compares 15 commits ahead / 0 behind main, five changed paths; GitHub update recheck reports mergeable=true and draft. No merge was attempted.
+- Central PR #19 branch comparison at the preceding recheck was 50 ahead / 2 behind current central main. No rebase or merge was attempted; preserve the existing checkpoint branch for independent central-owner reconciliation.
