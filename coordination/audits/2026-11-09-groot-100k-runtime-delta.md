@@ -177,3 +177,27 @@ Next: independent reviewer checks PR #569's legacy-artifact disposition and GA-B
 - No self-review, self-approval, merge, deployment, publication, indexing, ranking claim or production edit occurred.
 
 Next: independent review of PR #569 and GA-B00016 evidence; Actions administrator diagnoses the two zero-step failures; authorized production-equivalent Apache/origin checks and exact-main PHP/schema/HTTP release gates continue. Central owner separately confirms the Groot control-board row and resolves the HAO-008 P3/P0 authority conflict.
+
+
+
+## Delta — 2026-11-10: historical first-five merge absent from current main
+
+Coordination-only reconciliation; source implementation ownership remains in Groot Academy's repository. The requested alias `satnamkhowal/gta` resolves to repository ID `1375760757`, currently named `satnamkhowal/grootacademy.com`. No Mango Engineers repository or files were touched.
+
+### Newly verified current-main discrepancy
+
+- Current main is `a97dc07463a352ea924af3dea22af915a6f9bdb1`. Historical PR #464 is marked merged at `02f62a46aac57043e9c53386ea03b88d1c8c14a3`, but GitHub compare reports no common ancestor between that merge commit and current main.
+- Current-main Contents reads return 404 for all five `blogs/<slug>/index.php` paths: GA-B00006 through GA-B00010. Current main's `blogs/_shared/blog-registry.php` blob `5ee928a76dfed41c18b03cbf068223f2737ff2c7` and `blogs/sitemap.xml` blob `b90f07291e76650037a783c9c5dfc38518a2c13a` contain 0/5 of those slugs. This is source-tree absence, not a public HTTP 404.
+- The five exact historical article blobs already have an existing recovery stack `#507→#511→#513→#517→#520→#531→#533`; all remain open/draft/unmerged. Top PR #533 head `56a11b94e573f3885c415ec64fa5b9a221bc66b3` sets all five previews to `noindex,follow`.
+- Historical top-stack exact-head runs #41797881347 (render), #41797881352 (browser 15/15) and #41797881364 (inventory 14/14) passed on the older stack. They do not certify current main: its original base `d9eba9445ac5d58652d9b36f026e3b6efb5e2bea` is 27 commits behind current main, and current-main-to-top comparison is diverged 31 ahead / 27 behind. Shared blog layout and CSS blob hashes differ between current main and the recovery top.
+- Independent editorial approval and Master topic ownership remain missing. The public domain could not be resolved from this execution environment, so public HTTP/live status remains UNKNOWN.
+
+### Coordination action and accounting
+
+- Groot's successor controller/queue now record GA-B00006–GA-B00010 as historical PR #464 merges absent from current main, with the existing recovery stack as the only current restoration lane. No edits were made to PRs #507–#533 or their worker-owned files.
+- The canonical 29 IDs are unchanged and identical between the original controller branch and current-main successor. The five rows remain `PUBLISH_PR`; no IDs, articles or assets were added.
+- Current-main-integrated count corrected from 5 to 0; historical-merge-but-absent 5; recovery-stack-open-draft 5. Complete drafts 23, visuals 23, PHP candidates 23, independent code passes 18; independent approvals 0; published/live 0.
+- Current main HAO-008 remains P3/REVIEW behind higher-impact UX/lead/privacy/runtime gates. The user's controller P0 target remains recorded separately; no priority or owner was changed.
+- Existing AEO/GEO PR #2 baseline and central one-owner rule are preserved. No central main edit, ownership reassignment, other-brand implementation, merge, deployment or publishing occurred.
+
+Exact next action: Master owner resolves HAO-008 priority/topic ownership; the existing recovery-stack owner rebases #533 onto current main and reruns exact-main gates; independent editorial/release review follows before any registry/sitemap or robots promotion. Keep all five out of current-main-integrated/approved/live counts until verified.
