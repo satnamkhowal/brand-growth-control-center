@@ -690,7 +690,7 @@ Previous carried-forward checkpoint: **74 researched, 62 drafted, 62 original gr
 #### New production — Groot Academy
 
 - Created isolated branch content/news-factory-github-actions-log-secret-scanning-20261110 from current main a97dc07463a352ea924af3dea22af915a6f9bdb1.
-- Draft PR [#597](https://github.com/satnamkhowal/grootacademy.com/pull/597) is open, draft and currently reported mergeable by GitHub. It contains four new files; branch comparison is 6 ahead / 0 behind main. The PR snapshot reports 8 commits and 4 changed files; no CI workflow runs or independent reviews were returned.
+- Draft PR [#597](https://github.com/satnamkhowal/grootacademy.com/pull/597) is open, draft and currently reported mergeable by GitHub. It contains four new files; branch comparison is 8 commits ahead / 0 behind main. The PR snapshot reports 8 commits and 4 changed files; no CI workflow runs or independent reviews were returned.
 - Article: docs/news-factory/drafts/github-actions-workflow-log-secret-scanning-preview-november-2026.md, 2,344 words, original English, Jaipur/India learner context without claiming India-specific feature access.
 - Original media: docs/news-factory/media/github-actions-workflow-log-secret-scanning-preview-20261110.svg, self-authored 1200×675 SVG. Local PNG preview rendered at 1200×675 and visually inspected.
 - Metadata: docs/news-factory/drafts/github-actions-workflow-log-secret-scanning-preview-20261110.metadata.json, including source dates, rights/permission, attribution, local path, alt text, dimensions, local SHA-256 and uploaded Git blob SHA.
