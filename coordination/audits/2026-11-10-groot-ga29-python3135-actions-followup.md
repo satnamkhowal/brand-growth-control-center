@@ -40,3 +40,9 @@ No queue, article, image, source-main, ownership, deployment, publication, or in
 
 ### Second Actions failure pair
 The subsequent source documentation head also triggered [review-candidates run 42874899058](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42874899058) / job `130035477040` and [Blog factory QA run 42874899317](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42874899317) / job `130035478737`. Both have `steps=null`, empty step summaries and Azure `BlobNotFound` logs; zero assertions ran. No manual retry was issued. The source lane now uses `[skip ci]` for evidence-only updates pending administrator diagnosis.
+
+
+## Final PR status after evidence-only updates
+
+- Groot PR #569 latest head `f68b3e7`, current main `99336e8`: **175 ahead / 2 behind**, merge base `0648b79`, 215 changed files; OPEN/DRAFT, unmerged, 0 independent reviews and 0 review threads. No self-merge or rebase.
+- Central PR #20 latest head `9bceaa7`, central main `f76c20a`: **17 ahead / 2 behind**, 12 changed files; OPEN/DRAFT, unmerged, 0 independent reviews. No central-main write.
