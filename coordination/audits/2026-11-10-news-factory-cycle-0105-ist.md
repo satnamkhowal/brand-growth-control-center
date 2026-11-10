@@ -625,3 +625,111 @@ Previous carried-forward checkpoint: **74 researched, 62 drafted, 62 original gr
 4. Keep the Claude Fable 5.2 story as a separate research candidate; avoid duplicating the active Forsk Copilot API/agent articles.
 5. Recheck the Google Student Researcher and NSP deadline owners in their existing PRs before their listed dates.
 6. Keep all new drafts unmerged and unpublished until independent QA and explicit approval.
+
+
+---
+
+### Fresh cycle — 10 November 2026, 06:06 IST
+
+#### New verified research
+
+**1. GitHub Actions workflow-log secret scanning — new developer-security story**
+
+- GitHub published the announcement on **9 November 2026**; no separate event date is stated.
+- The capability is **public preview**, disabled by default. It is available to eligible enterprises on GitHub Enterprise Cloud with GitHub Secret Protection or GitHub Advanced Security, including GHE.com data-residency customers.
+- After a workflow run completes, GitHub scans its log for supported provider patterns. Findings appear in repository secret-scanning alerts with a link to the workflow log; supported secret types may receive validity checks, and alerts remain available after logs are deleted.
+- Limits: no historical backfill; no generic, custom, AI-detected or Actions-masked values; no notifications for these alerts during the preview. The alert list must be checked directly.
+- No India-specific regional availability or feature-specific price is stated. No universal-detection claim is made.
+- Primary source: https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs/
+- Supporting docs: https://docs.github.com/en/enterprise-cloud@latest/code-security/concepts/secret-security/secret-scanning ; https://docs.github.com/en/actions/concepts/security/secrets ; https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets ; https://docs.github.com/en/actions/concepts/security/openid-connect
+
+**2. PM YASASVI Top Class Education in Schools — new current NSP listing**
+
+- NSP's AY 2026–27 listing shows the school scheme open from **22 October 2026** and student applications open until **15 November 2026**; defective/institute verification is listed until 30 November and DNO/SNO/MNO verification until 15 December.
+- The linked scheme specification covers OBC/EBC/DNT students in identified Top Class Schools from Class 9 through Class 12, with household annual income below ₹2.5 lakh, state-wise merit selection and at least 30% of awards reserved for girls.
+- The linked specification states assistance up to ₹75,000 per annum for Classes 9–10 and ₹1,25,000 per annum for Classes 11–12, for covered tuition/hostel/other school charges. The PDF does not display a publication date; the current application window comes from the NSP 2026–27 listing.
+- The NSP page footer still says last updated June 2026. The application form itself was not inspected; applicants should confirm the live form and school eligibility before relying on the listed window.
+- Official listing: https://scholarships.gov.in/All-Scholarships
+- Linked specification: https://scholarships.gov.in/public/schemeGuidelines/3061_G.pdf
+- No article was created in this cycle: this is a school-stage scholarship rather than a developer/IT opportunity, and no suitable non-overlapping Forsk News Factory write lane was available while its shared task-board/handoff paths are owned by open PR #154.
+
+**PM-USP Special Scholarship — status correction, not a new draft**
+
+- NSP now lists the J&K/Ladakh scheme open from **22 October 2026** through **30 November 2026**.
+- However, the linked AICTE specification PDF is still labelled AY 2025–26. Its domicile, admission and award conditions must not be presented as newly confirmed 2026–27 terms without an updated official guideline.
+- This is restricted to J&K/Ladakh domicile, not Rajasthan. Keep on hold for current-year guideline confirmation.
+- NSP listing: https://scholarships.gov.in/All-Scholarships
+- Linked PDF: https://scholarships.gov.in/public/schemeGuidelines/AICTE/PM_USPY%28SSSJKL%29SchemeSpecifications.pdf
+
+#### Revalidated existing opportunity owners
+
+- **Google Student Researcher 2027:** official listing still shows India remote eligible, Bachelor's/Master's/PhD enrolment in specified fields, relevant CS experience, rolling review and **4 December 2026** deadline. No fixed stipend or project duration is stated. Existing Forsk PR #146 remains owner; no duplicate.
+  - https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher-2027
+- **Amazon Systems Development Engineer Intern – 2027 (Job 10498158):** official page still displays Apply now; India location coverage and full-time commitment/university declaration are stated. No closing date, stipend, duration or application fee is shown.
+  - https://www.amazon.jobs/en/jobs/10498158/systems-development-engineer-intern-2027
+- **Amazon Data Engineer Intern – 2027 (Job 10496769):** official page still displays Apply now; final-year Bachelor's/Master's CS/Engineering or related field, SQL, Python and data/ETL concepts are stated. No closing date, stipend, duration or application fee is shown.
+  - https://www.amazon.jobs/en-gb/jobs/10496769/data-engineer-intern-2027
+- Existing Groot PR #596 remains owner of the two active Amazon roles. A separate search result for Amazon Front-End Engineer Intern – 2027 (Job 10502000) returned **HTTP 404** when opened and was excluded; it is not described as open.
+  - https://www.amazon.jobs/en/jobs/10502000/front-end-engineer-intern-2027
+
+#### React and Node.js recheck
+
+- **React:** official React blog still lists React 19.3, published 9 September 2026, as the latest blog/release entry. No newer stable release or new React security advisory was found in this check. Existing Forsk PR #145 remains owner.
+  - https://react.dev/blog
+- **Node.js:** official blog still lists Node.js 26.13.0 LTS (28 October), 24.22.2 LTS (28 October) and 27.0.0-alpha.0.0.0 (29 October). The security notice was published **3 November** and says 26.x, 24.x and 22.x security releases are expected on or shortly after **11 November 2026**; highest severity is HIGH. As of this 06:06 check, no patched versions or CVE ranges are published. Existing Mango PR #143 remains owner.
+  - https://nodejs.org/en/blog
+  - https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+#### Other AI / cloud developer updates
+
+- GitHub's **Claude Fable 5.2 in Copilot** announcement was published 9 November; existing Forsk Copilot/agent PRs #152/#153 already cover adjacent subject matter. Keep as a research candidate; no duplicate article.
+  - https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot/
+- Google Cloud BigQuery pipeline-concurrency GA and Zstandard SQL Preview are already owned by Groot PR #592; no duplicate.
+- The new workflow-log secret-scanning feature is distinct from pull-request secret merge protection and existing generic CI/CD guides.
+
+#### New production — Groot Academy
+
+- Created isolated branch content/news-factory-github-actions-log-secret-scanning-20261110 from current main a97dc07463a352ea924af3dea22af915a6f9bdb1.
+- Draft PR [#597](https://github.com/satnamkhowal/grootacademy.com/pull/597) is open, draft and currently reported mergeable by GitHub. It contains four new files; branch comparison is 6 ahead / 0 behind main. The PR snapshot reports 8 commits and 4 changed files; no CI workflow runs or independent reviews were returned.
+- Article: docs/news-factory/drafts/github-actions-workflow-log-secret-scanning-preview-november-2026.md, 2,344 words, original English, Jaipur/India learner context without claiming India-specific feature access.
+- Original media: docs/news-factory/media/github-actions-workflow-log-secret-scanning-preview-20261110.svg, self-authored 1200×675 SVG. Local PNG preview rendered at 1200×675 and visually inspected.
+- Metadata: docs/news-factory/drafts/github-actions-workflow-log-secret-scanning-preview-20261110.metadata.json, including source dates, rights/permission, attribution, local path, alt text, dimensions, local SHA-256 and uploaded Git blob SHA.
+- Handoff: logs/2026-11-10-github-actions-workflow-log-secret-scanning-news-factory.md.
+- No story-specific verified original YouTube video found; no video ID or iframe added.
+- No PHP route, blog registry, sitemap, schema, redirect, production asset or live content changed.
+
+#### Validation and release gate
+
+- Article read-back: PASS; 2,344 words.
+- Metadata JSON parse: PASS.
+- SVG XML parse: PASS.
+- SVG 1200×675 PNG render and visual inspection: PASS.
+- GitHub read-back of all four intended paths: PASS.
+- PR #597 changed-file list: exactly four intended paths; no review submissions/threads and no workflow runs returned.
+- Independent editorial/security QA and responsive browser QA remain pending.
+- No merge, deployment or publication.
+
+#### Cumulative ledger
+
+Previous carried-forward checkpoint: **76 researched, 63 drafted, 63 original graphics, 33 independent QA-ready, 0 live**.
+
+- Added two new research items: GitHub Actions workflow-log secret scanning and PM YASASVI Top Class Schools 2026–27 listing.
+- Added one original article and one original graphic for Groot Academy.
+- PM-USP is a status correction; Amazon/Google listings and React/Node releases are revalidations of existing owners.
+
+| State | Cumulative |
+| --- | ---: |
+| Researched | 78 |
+| Drafted | 64 |
+| Original graphics | 64 |
+| Independent QA-ready | 33 |
+| Live / published | 0 |
+
+#### Next actions
+
+1. Independent editorial/security QA and responsive rendering review for Groot PR #597.
+2. Recheck PM YASASVI's live NSP application form and current school list before any student-facing publication; deadline shown as 15 November.
+3. Obtain an updated 2026–27 AICTE guideline for PM-USP before publishing its eligibility/award details.
+4. Recheck Node.js actual patched versions/CVEs on or after 11 November; update Mango PR #143 only from the official release.
+5. Recheck Google Student Researcher and Amazon job listings before publication and before their application windows close.
+6. Keep all drafts unmerged and unpublished until independent QA and explicit approval.
