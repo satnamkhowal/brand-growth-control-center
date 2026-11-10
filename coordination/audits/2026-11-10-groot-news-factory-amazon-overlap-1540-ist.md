@@ -50,3 +50,11 @@ On PR #569 head `2dc2beec2effdb0b5f50e1c4f708070a06ac12d0`, two new workflow run
 | Blog factory QA | 42798178841 | 129768602393 | empty | `BlobNotFound` |
 
 No assertions ran; exact cause remains unknown and requires repository Actions administrator diagnosis. PR #569 is 131 ahead / 2 behind current main `99336e8d0b412f6e0f0bdc0464e0aec4b8fea2b5`, Draft, 206 files, 0 reviews/threads. No rebase/merge. The source branch's final documentation commits are marked `[skip ci]` to prevent another blind retry loop. GA-B00029 release gates remain closed.
+
+
+## Exact GA-B00029 candidate PHP lint — 2026-11-10 15:40 IST
+
+- Fetched the exact candidate from this branch and verified the local Git blob hash byte-for-byte: `18962c3f2ad7ad590083f6ec965b02b79ac01b9c` (13,486 bytes).
+- PHP 8.4.24 CLI: `php -l` **PASS**, no syntax errors.
+- This is syntax-only. The candidate include was not executed; full root head/header/footer rendering, H1/TOC/BlogPosting/BreadcrumbList, route and production HTTP/MIME remain pending. GA-B00029 stays `TECH_QA`, `noindex,follow`, `publication_approved=false`.
+- Evidence: `marketing/blog-factory/work/B0002/qa/GA-B00029-exact-candidate-php-lint-20261110-1540-ist.md`. This documentation/test record uses `[skip ci]` to avoid another pre-step workflow loop.
