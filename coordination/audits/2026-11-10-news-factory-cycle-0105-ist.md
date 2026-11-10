@@ -1174,3 +1174,11 @@ No PR was merged, no website deployed or published, no student application submi
 - No PR-specific combined status entries were returned. These failures are not an article QA result and must not be reported as a pass. Independent editorial and responsive QA remain pending.
 - After the paired board/handoff records and QA-boundary updates, Forsk PR #160 compares 15 commits ahead / 0 behind main, five changed paths; GitHub update recheck reports mergeable=true and draft. No merge was attempted.
 - Central PR #19 branch comparison at the preceding recheck was 50 ahead / 2 behind current central main. No rebase or merge was attempted; preserve the existing checkpoint branch for independent central-owner reconciliation.
+
+
+### Final Forsk PR #160 metadata and workflow recheck
+
+- Completed the provenance sidecar with SHA-256, byte size, 1200×675 dimensions, alt text, source/license/attribution and local path for the original SVG and its local PNG/WebP derivatives. This is a metadata correction; it does not add another graphic.
+- The subsequent commit-associated workflow query returned run 42794495312 (Forsk learning home copy QA, job learning-guide-card-copy), also conclusion failure with no steps/logs available. This is the same path-filtered workflow triggered by the paired task-board/session-handoff changes; its test does not validate the News Factory article/media. Cause remains unknown.
+- Forsk PR #160 now compares 16 commits ahead / 0 behind main, five changed paths; GitHub update recheck reports mergeable=true and draft. No combined status entries. Keep open/unmerged pending independent editorial and responsive QA.
+- Central PR #19 branch remains diverged 51 ahead / 2 behind current main; no rebase or merge was attempted.
