@@ -733,3 +733,12 @@ Previous carried-forward checkpoint: **76 researched, 63 drafted, 63 original gr
 4. Recheck Node.js actual patched versions/CVEs on or after 11 November; update Mango PR #143 only from the official release.
 5. Recheck Google Student Researcher and Amazon job listings before publication and before their application windows close.
 6. Keep all drafts unmerged and unpublished until independent QA and explicit approval.
+
+
+#### Brand repository audit and write-lane decision — 06:06 IST
+
+- **Mango Engineers:** read current README, agent start guide, task board, work log and integration queue. The repository's current verified positioning says technology/programming training in Jaipur; do not infer industrial-engineering services from the brand name. Existing PR #143 owns the Node.js/security and scholarship batch; PR #147 owns NIC Digital India Internship. No new Mango write was made.
+- **Groot Academy:** confirmed repository ID 1375760757; the alias satnamkhowal/gta resolves to the same repository. Read .agent/README.md, master handoff, current state, backlog, decisions and AI-ops handoff/task board. Existing PRs #592 and #596 have separate BigQuery and Amazon ownership; the new workflow-log security draft uses four unique paths in PR #597.
+- **Forsk Coding School:** read README.txt, AI-ops master task board and session handoff, plus open PRs #150/#152/#153/#154. PR #154 owns the shared task-board and session-handoff paths, so no overlapping Forsk write was made. Existing PR #146 remains the Google Student Researcher owner.
+- **Jaipur Engineers:** MIGRATION-NOTES identifies je2 as the canonical application and warns against copying the legacy repository wholesale. The je2 alias resolves to the same repository ID as jaipurengineers.com, but the GitHub file connector could not resolve files through the je2 alias. Open PR #41 owns batch planning, #43 owns readability and #27 owns social production. No News Factory write was made.
+- **Central control:** PR #19 remains open/draft; the latest checkpoint is appended. Branch comparison is 27 ahead / 0 behind main; GitHub reports mergeable=true after refresh.
