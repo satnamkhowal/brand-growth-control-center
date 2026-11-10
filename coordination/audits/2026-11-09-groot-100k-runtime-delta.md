@@ -326,3 +326,8 @@ Exact next action remains with the Groot source lane: run exact-candidate PHP re
 The latest Groot PR #569 evidence commits triggered review-candidates run 42774261545/job129688965120 and Blog factory QA run 42774261316/job129688961235. Both failed before step creation; both jobs expose steps=null and both log fetches returned BlobNotFound. No workflow assertion ran. Exact GitHub-side cause is unknown and requires the Groot repository Actions administrator; no blind retry or workflow edit was made.
 
 This is an infrastructure/policy symptom, not a test assertion or source-code failure. Source implementation and remediation remain owned by the Groot repository lane. Central main, AEO/GEO PR #2 baseline, brand mappings and other workers' files remain unchanged.
+
+
+## Final documentation-head Actions recheck — 2026-11-10 12:41 IST
+
+After the subsequent Groot controller/README checkpoint commits, review-candidates run 42774351647/job129689262262 and Blog factory QA run 42774351593/job129689261666 also failed before step creation. Both jobs expose steps=null and both log downloads returned BlobNotFound. No assertion ran; exact GitHub-side cause remains unknown. No further retry or workflow edit was made. This remains a Groot repository administrator diagnostic item, not a central ownership or AEO/GEO task.
