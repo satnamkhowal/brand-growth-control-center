@@ -592,7 +592,7 @@ This cycle adds one distinct research item (India GDG DevFest event roundup), on
 - Created isolated branch \`content/news-factory-amazon-india-internships-20261110\` from current main.
 - Draft PR [#596](https://github.com/satnamkhowal/grootacademy.com/pull/596) is open and draft. It contains 4 new files, 4 commits, 328 additions / 0 deletions; compare shows 4 ahead / 0 behind main. GitHub currently reports mergeable=true; this is not independent QA or release approval.
 - Article: \`docs/news-factory/drafts/amazon-india-engineering-internships-2027.md\`, 1,956 words, English, India/Jaipur-focused, with distinct role requirements, application-status caveats and FAQs.
-- Original media: \`docs/news-factory/media/amazon-india-engineering-internships-2027.svg\`, self-authored 1200×675 SVG, 5,396 bytes. Metadata sidecar records source, permission, attribution, local path, alt text, dimensions and SHA-256. No third-party artwork was downloaded.
+- Original media: \`docs/news-factory/media/amazon-india-engineering-internships-2027.svg\`, self-authored 1200×675 SVG, 5,395 bytes. Metadata sidecar records source, permission, attribution, local path, alt text, dimensions and SHA-256. No third-party artwork was downloaded.
 - Handoff: \`logs/2026-11-10-amazon-india-internships-news-factory.md\`.
 - No story-specific official/reputable original YouTube video was verified; no video ID or iframe was added.
 
