@@ -45,3 +45,14 @@ Central owner: reconcile the Groot row in the control board and review this coor
 - Groot current main remains `d880da02c51f2cdc62db059aaa49a0f14858feb1`; the Java retrospective in PR #624 remains outside the canonical 100K queue. Master-owner 10K/P3 versus 100K/P0 reconciliation, GA-B00029 network-enabled full-root/HTTP gates, and PR #533/#569 owner-led recovery remain pending.
 - Central main was not changed. Its README still registers eight brands but lists only three active control-board rows, with Groot's active row missing. PRs #1/#2/#3 remain merged; reuse AEO/GEO baseline PR #2. Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website mapping remains unresolved. Central PR #20 remains OPEN/DRAFT with independent review pending.
 - Source implementation stays in the Groot repository; this central report is coordination-only. No ownership transfer, central-main write, deployment, publishing or indexing.
+
+
+## Coordination delta — 11 November 2026, 15:37 IST: exact-source fixture execution
+
+- The Groot source lane materialized the five exact blobs required by PR #625's base-path regression harness. All local Git object hashes match the corresponding GitHub blob SHAs.
+- On PHP 8.4.24 / Python 3.13.5, PHP lint passed 4/4, Python compilation passed, and the exact-source isolated regression passed 2/2 (local subdirectory preview and production host). The rendered head had exactly one expected base element and expected canonical, noindex, BlogPosting and BreadcrumbList.
+- Scope is limited to the exact-source isolated fixture. It is not a full repository checkout, PHP 8.0 Actions result, browser/AT test, raw production HTTP/MIME verification or independent release approval.
+- Source PR [#625](https://github.com/satnamkhowal/grootacademy.com/pull/625) remains OPEN/DRAFT, five commits / four files, zero independent reviews and zero review threads. The PR body and comments now distinguish local exact-source evidence from blocked CI.
+- The three new Actions runs remain infrastructure failures: `steps: null` and Azure `BlobNotFound`; no assertion ran and no retry was triggered. Admin diagnosis remains the next action.
+- Canonical queue remains 29/29 IDs in exact planning order; counts remain 23 drafts / 23 visuals / 23 PHP candidates / 18 independent code passes / 0 approvals / 0 published / 0 live. No new article, image, queue ID, approval, merge, deployment or publication.
+- Central main/README remain unchanged; eight registered brands, three active control-board rows, Groot row missing. PRs #1/#2/#3 remain merged and existing AEO/GEO PR #2 baseline is reused. Jaipur Engineers `je2` social vs `jaipur-engieneers` candidate website mapping remains unresolved. Central PR #20 remains Draft for owner review.
