@@ -511,3 +511,63 @@ Three current programme pages were re-opened and the existing Forsk owners recei
 - **GIFT FutureLab Grand Challenge 2026–27 — Forsk #179:** open to students and researchers from technical, management and other higher-education institutions across India, individually or in teams. Deadline 20 November 2026; finale 22 December at IIT Gandhinagar; approximately 10–12 finalist teams; awards ₹3 lakh / ₹2 lakh / ₹1 lakh. The challenge spans AI/agentic systems, digital assets, quantum-ready infrastructure, cybersecurity, RegTech and other finance-relevant technologies. Fee details, if any, will be confirmed in final guidelines; no fee is asserted. Source: https://iieciitgn.com/gfc/
 
 Comments posted to existing owners: Forsk #146 comment 6806515948; Forsk #178 comment 6806516366; Forsk #179 comment 6806516722. No duplicate articles were created.
+
+
+## 2026-11-12 — News Factory cycle 11 (02:07 IST)
+
+### Research lanes and ownership
+
+Four non-overlapping research lanes were checked against primary sources: (1) student/developer programmes and scholarships, (2) React/frontend releases and security, (3) Node.js/backend releases and security, and (4) AI/cloud/developer announcements.
+
+**Student opportunities**
+- Google Student Researcher 2027 remains an existing Forsk owner (#146): India Remote is listed as eligible, deadline 4 December 2026; no stipend or application fee is stated on the listing.
+- GIFT FutureLab 2026–27, NMMSS and VSSC UG/PG project-work deadlines remain under existing Forsk owners (#179, #173 and #172 respectively); no duplicate drafts were created.
+- NeGD/Digital India Internship Winter 2026 is a current official watchlist lead: the NIC Digital India Internship portal shows registration starting 2 November and an offline programme period of 1 December 2026–31 January 2027 at NIC HQ, New Delhi. The linked official guidelines PDF timed out during this run; closing date, eligibility, stipend, seat count and fee were not verified from the accessible primary page. Secondary claims (including a 13 November close and ₹10,000 stipend) were not promoted as confirmed. No article was drafted.
+- No new opportunity without an existing owner had all critical fields (current acceptance, India eligibility, deadline, funding/fee and official application route) verified in this run.
+
+**React/frontend**
+- No new React stable release or security advisory was found. React 19.3.x maintenance tags and React Native 0.89.0-rc.1 remain existing owners (Forsk #145 and Groot #644). RC1 is not described as stable; no duplicate article was made.
+
+**Node.js/backend**
+- Official security releases dated 11 November are now published: Node.js 22.23.5, 24.22.3 and 26.13.1. Existing Mango PR #143 remains the sole Node.js November security article owner; a source-recheck comment was added with the patched versions and CVE scope. No second Node.js article was created.
+
+**AI/cloud/developer**
+- Google Cloud's Cloud Run Vulnerability Assessment documentation is labelled Preview / Pre-GA and was last updated 9 November 2026 UTC; no separate launch-event date is stated. A new, distinct Groot Academy guide was drafted as PR #647.
+- GitHub's 11 November issue-types/issue-fields announcement is already owned by Forsk PR #182; no duplicate was created.
+- .NET 11.0.0 GA, .NET 10.0.15, and the final .NET 8.0.34 / 9.0.23 patches and 8/9 end-of-support dates are already owned by Mango PR #162. A source-recheck comment was added, including the .NET 10.0.15 Identity scaffolding/template caveat.
+- Git security advisories announced 10 November were reviewed as a watchlist. GHSA-vp2w-7xxj-jvxr currently lists no patched upstream versions; no actionable article was drafted from an incomplete patch state.
+
+### New draft and media delivery
+
+**Groot Academy — PR #647**
+- Article: `docs/news-factory/drafts/cloud-run-vulnerability-assessment-preview-2026.md`, 2,212 words.
+- Metadata/provenance: `docs/news-factory/drafts/cloud-run-vulnerability-assessment-preview-2026.metadata.json`.
+- Original diagram: `docs/news-factory/media/cloud-run-vulnerability-assessment-flow-20261112.svg`, self-authored 1200×675 SVG.
+- Local optimized derivatives: PNG 1200×675 (142,881 bytes) and WebP 1200×675 (62,554 bytes); not committed to the PR.
+- Metadata records official sources, documentation date versus event date, Preview status, India/pricing caveats, source attribution, artwork permission basis, alt text, dimensions, local paths and SHA-256 hashes.
+- No verified story-specific YouTube video was found; no iframe or video download.
+- PR #647 is OPEN/DRAFT, 3 commits ahead / 0 behind main, exactly 3 files; current GitHub mergeable flag is true. GitHub Actions workflow runs and commit statuses returned empty; CI pass is not claimed. Independent editorial/technical QA and responsive browser QA remain pending.
+
+### Repository and coordination review
+
+- Groot Academy: reviewed `.agent/README.md`, master handoff/current state/backlog/decisions, `docs/ai-ops/README.md`, master task board, session handoff, sitemap/course URLs and current open PR inventory. Blog factory remains separate; GA-B00016 browser gate and 100K queue were not changed. Public blog registry, sitemap, route, PHP, canonical, redirect and production configuration were not changed.
+- Mango Engineers: reviewed `AGENTS.md`, `README.md`, `docs/agent-start-here.md`, `docs/task-board.csv`, `docs/work-log.md` and `docs/integration-queue.md`. Shared UI task ME-GUI-20261112 and P0 deployment/runtime blockers were preserved. No Mango source file was changed; only existing PR #143 and #162 received source-recheck comments.
+- Forsk Coding School: current PR #182 and ownership were checked. Repository content fetches for root README/AGENTS and candidate coordination paths returned 404, so no Forsk file write was attempted. Existing owners #145, #146, #172, #173, #178, #179, #180, #181 and #182 were not duplicated.
+- Jaipur Engineers: installed repository search returned only private certificate repositories (`Jaipur-engineers-certificates` and `jaipur-engineers-certification`), not a verified website/source repository. No Jaipur source write was attempted.
+- Central README still lists eight brands but its active control board only has Jaipur, Central and Forsk rows. Mango/Groot rows remain missing; no controller-owned board rewrite was made.
+
+### Cycle 11 ledger
+
+| Stage | New count |
+|---|---:|
+| Research lanes | 4 |
+| New verified, unowned story promoted | 1 |
+| New English article drafts | 1 |
+| Original SVG graphics committed | 1 |
+| Local optimized PNG/WebP derivatives | 2 |
+| Verified video embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+| Existing PR source-recheck comments | 2 (Mango #143 and #162) |
+
+No merge, rebase, deployment, live publication, application submission or production configuration change occurred. The new Groot article remains Draft and must pass independent editorial/technical and responsive QA before any publication decision.
