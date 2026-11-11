@@ -56,3 +56,13 @@ Central owner: reconcile the Groot row in the control board and review this coor
 - The three new Actions runs remain infrastructure failures: `steps: null` and Azure `BlobNotFound`; no assertion ran and no retry was triggered. Admin diagnosis remains the next action.
 - Canonical queue remains 29/29 IDs in exact planning order; counts remain 23 drafts / 23 visuals / 23 PHP candidates / 18 independent code passes / 0 approvals / 0 published / 0 live. No new article, image, queue ID, approval, merge, deployment or publication.
 - Central main/README remain unchanged; eight registered brands, three active control-board rows, Groot row missing. PRs #1/#2/#3 remain merged and existing AEO/GEO PR #2 baseline is reused. Jaipur Engineers `je2` social vs `jaipur-engieneers` candidate website mapping remains unresolved. Central PR #20 remains Draft for owner review.
+
+
+## Coordination delta — 11 November 2026, 15:39 IST: Master-owner priority conflict
+
+- Re-read current Groot main `d880da02c51f2cdc62db059aaa49a0f14858feb1`: `marketing/blog-factory/MASTER-PLAN.md` blob `e1ce95a0a926b5371abff735bd672d8aeb3f1a9c` still says exactly 10,000 possible IDs; `docs/ai-ops/MASTER_TASK_BOARD.md` blob `a1bc5aab018f72675e58e09e1e6cbfec421ddcc7` still lists HAO-008 P3/REVIEW.
+- The authorized controller branch records 100,000/P0; issue #401 defines M4=100,000 and M5=1,000,000 only conditionally. No explicit Master-owner decision was found in the recent issue ledger comments.
+- Added [issue #401 decision request #6793290897](https://github.com/satnamkhowal/grootacademy.com/issues/401#issuecomment-6793290897), asking the Master owner to distinguish a 10K pilot/capacity ceiling from the gated 100K target and identify one canonical queue/release owner. No priority, source or queue change.
+- New article batches remain held pending that owner decision; repairs and existing QA continue.
+- The exact-source PR #625 fixture passed PHP lint 4/4, Python compile and 2/2 tests on PHP 8.4.24/Python 3.13.5; this is not full-checkout CI or independent release approval. The three new Actions runs still have `steps: null` / Azure `BlobNotFound`, with zero assertions and no retry.
+- Central main remains unchanged at `80c75e2`; README still lists eight brands and three active rows, with Groot's row missing. PRs #1/#2/#3 remain merged; reuse AEO/GEO baseline PR #2. Jaipur Engineers `je2` social vs `jaipur-engieneers` candidate website mapping remains unresolved. Central PR #20 stays OPEN/DRAFT.
