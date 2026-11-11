@@ -253,3 +253,85 @@ The current-year eligibility and extension are explicitly confirmed by the Minis
 ### Additional brand-repository discovery — 12 November 2026, 00:05 IST
 
 A connected-repository search was run for the remaining brands named in the central README. It returned no installed repository for Clever Ape Academy or CadMate India. Jaipur Engineers returned only two private certificate/certification repositories, not a verified website source repository. Forsk Technologies returned a private internship-certificate repository only. Groot Software returned several private/public candidate repositories (GrootSoftwareConfidential-, Groot-Software-Website, groot-software-new-website, Groot-Software-Website-1); the available README content does not establish which is the canonical live-site source for the current grootsoftware.com website or identify an authorized News Factory lane. No files were written in any of these repositories. Canonical mapping and task ownership remain unverified; do not select one by name alone.
+
+
+## 12 November 2026 — 01:09 IST News Factory cycle
+
+### Research and source verification
+
+Four non-overlapping research lanes were checked: official student/developer opportunities; React/frontend releases and security; Node.js/backend releases and security; and AI/cloud/developer announcements. Fresh primary sources were preferred. Publication dates were recorded separately from event/effective dates.
+
+- **AWS SDK retry defaults:** AWS's follow-up announcement was published 10 November 2026 and says updated retry behaviour became the default for most SDKs/tools from that date. Python version gate: Boto3/Botocore 1.44.0. The original opt-in announcement was 20 May; the default rollout was 10 November. Java 2.x and Kotlin default versions remained to be announced. New Mango draft PR #182 covers the Boto3-specific behaviour; this is a reliability change, not a CVE. Sources: https://aws.amazon.com/blogs/developer/updated-default-retry-behavior-for-aws-sdks-and-tools/ ; https://github.com/boto/boto3/discussions/4789 ; https://pypi.org/project/boto3/1.44.0/
+- **GitHub issue types and fields:** GitHub Changelog published 11 November 2026 that issue types/fields are generally available on personal-account repositories. New Forsk draft PR #182 explains limits, privacy and student workflows. The article explicitly discloses a docs discrepancy: the changelog lists multi-select but the current issue-fields docs page lists four field types only. Sources: https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts/ ; https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/managing-issue-fields
+- **Honeywell internship:** official ATS Job ID 161318, “Intern Bachelors Software Eng”, posted 11 November 2026, Bengaluru, hybrid. New Jaipur Engineers draft PR #46. Required qualification: enrolled in a Bachelor's programme in Software Engineering or related field and basic software-development understanding. Java/Python/C++ are valued. No deadline, stipend, duration or application fee is published. Direct ATS page resolves, but the interactive Apply control was not text-readable; live submission was not tested. Source: https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/161318
+- **Node.js security:** actual 11 November releases are now published: 26.13.1, 24.22.3 and 22.23.5. Existing Mango PR #143 retains ownership; a source-refresh comment was added. Official release records: https://github.com/nodejs/node/releases/tag/v26.13.1 ; https://github.com/nodejs/node/releases/tag/v24.22.3 ; https://github.com/nodejs/node/releases/tag/v22.23.5 ; advisory: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+- **React core:** latest official patch tags remain 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026. No newer November stable tag found. Existing Forsk PR #145 retains RSC security article ownership. Source: https://github.com/react/react/releases
+- **React Native:** existing Groot PR #644 covers 0.89.0-rc.1; it remains a pre-release. The official schedule lists 0.89.x stable for 7 December 2026 (subject to change); do not call RC1 stable. Sources: https://github.com/facebook/react-native/releases/tag/v0.89.0-rc.1 ; https://reactnative.dev/releases/overview
+- **Student programmes and scholarships:** no new unowned government/Google scholarship story was fully verified in this cycle. Existing owners were refreshed rather than duplicated:
+  - Google Student Researcher 2027 remains an existing Forsk #146 topic, but the role-specific Google Careers page returned a generic/search-results view and the live application control was not independently verified this run. Prior listing stated India Remote and 4 December deadline; current acceptance is marked NOT RE-VERIFIED.
+  - PM YASASVI Top Class Schools 2026–27 is listed on NSP through 15 November, but the current NSP announcement explicitly says fresh applications can be submitted only by students outside Rajasthan, Keralam and Karnataka; students in those three states must wait. This state-specific block is critical for Rajasthan readers. Existing Forsk #156 was updated by comment. Sources: https://scholarships.gov.in/iver/student-announcements ; https://scholarships.gov.in/All-Scholarships
+  - NMMSS student deadline remains 15 November on the current NSP scheme list; verification dates are 30 November and 15 December. Existing Forsk #173 updated by comment.
+  - VSSC UG project-work deadline: 15 November; PG project-work deadline: 16 November, 23:59. Existing Forsk #172 updated by comment. Official portal: https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+  - NeGD Non-Technical Winter 2026 remains existing Forsk #180: official MeitY PDF published/listed 11 November, 12 positions, ₹15,000/month conditional remuneration paid after completion/report acceptance, deadline 20 November. Google Form acceptance was not independently verified. Separate NeGD Technical Internship listing dated 11 November has no matched current attachment/form; the old May PDF (15 June deadline) must not be reused as a newly open opportunity. Source: https://www.meity.gov.in/whats-new
+  - IndiaAI Fellowship portal was not accessible to this run; no open-status claim or new article was created.
+- **AI/cloud/developer news:** AWS retry defaults and GitHub personal-account issue fields are the two new unowned subjects drafted. Existing Google Cloud Agentic Architect, Gemini for Healthcare, AWS ParallelCluster, Kiro CLI, Deadline Cloud and other previously assigned topics remain with their existing PR owners; no near-duplicate was created.
+
+### Brand repository and ownership audit
+
+- **Mango Engineers** — main base at 8eeb57fdf05341aa0a5ec31846148a37b0be3ba6 when the draft branch was cut. Read AGENTS, README, agent-start guide, task board, work log, integration queue and image workflow. Existing Node.js security PR #143 and AWS API MCP PR #177 retained ownership. Main subsequently advanced by unrelated UI-polish commit dd76e0ad4a45f98bd2a7b5ca306d9f7998002c0c; the new News Factory branch is one commit behind and was not rebased to avoid mixing another worker's UI change.
+- **Groot Academy** — main 071ab8a5ed38864fc2c60828d01d6dcf328f0941. Read .agent handoff, AI task board, session handoff, migration status, blog-factory controller, queue and current open PR inventory. Existing #642, #643 and #644 ownership preserved; 100K controller/GA-B00016 gate not regenerated or modified.
+- **Forsk Coding School** — main a690ef725029e8c7f96b6148e9012f82a481bd6d. Read master task board, session handoff, worker registry, image workflow and current open PR inventory. Existing #145, #146, #156, #172, #173, #180 and other topic owners retained; only new isolated News Factory draft PR #182 was created.
+- **Jaipur Engineers** — canonical website repo verified as satnamkhowal/jaipurengineers.com. Read README-INSTALL, MIGRATION-NOTES and image workflow; checked open PRs #43–#45 and current docs/news-factory draft pattern. Existing NITI Aayog and Bharti Airtel owners retained; new isolated News Factory draft PR #46 created.
+- **Central Control Center** — README still lists eight brands but only Jaipur, Central and Forsk active control-board rows. The master pending-task document is dated 19 October and stale. It was read but not rewritten. Missing Mango/Groot active rows remain a controller-led reconciliation item. Existing central PR #19 was reused; PR #20 untouched. No rebase or merge.
+
+### New draft delivery
+
+1. **Mango Engineers PR #182** — “AWS SDK retry defaults from 10 November 2026: Boto3 1.44.0 migration guide”; 2,272-word original English article plus source/QA metadata. GitHub read-back and JSON parse PASS. Compare: 6 ahead / 1 behind main; only two draft/metadata paths changed; current PR mergeability true. Main's one-behind change is unrelated UI polish and was not rebased. PHP Architecture Check run 43091864956 failed before executing steps (steps=[]; log endpoint BlobNotFound); treat as runner/provisioning failure, not a validated code result. Independent editorial/technical QA pending. Link: https://github.com/satnamkhowal/mangoengineers.com/pull/182
+2. **Forsk Coding School PR #182** — “GitHub issue types and fields reach personal accounts: student team setup guide”; 2,167-word original English article plus source/QA metadata. GitHub read-back and JSON parse PASS. Compare: 6 ahead / 0 behind; exactly two draft/metadata paths changed; current PR mergeability true. No workflow run returned. Independent editorial/API QA pending. Link: https://github.com/satnamkhowal/forsk-coding-school/pull/182
+3. **Jaipur Engineers PR #46** — “Honeywell Bengaluru Software Engineering Intern 2026 — Job ID 161318”; 2,037-word original English opportunity guide plus source/QA metadata. GitHub read-back and JSON parse PASS. Compare: 5 ahead / 0 behind; exactly two draft/metadata paths changed; current PR mergeability true. No workflow run returned. Independent editorial QA pending. Link: https://github.com/satnamkhowal/jaipurengineers.com/pull/46
+
+### Media and video audit
+
+- No new graphic files were created in this cycle. Mango, Forsk and Jaipur image workflows require an approved canonical destination page/publication handoff before a P3 featured image; all three articles are documentation-only drafts with no canonical destination page. Status: BLOCKED-PAGE-MISSING, not an asset.
+- No story-specific YouTube video had all of video ID, original channel, upload date and embedding suitability verified. No iframe was added; no video was downloaded or re-uploaded.
+- No third-party image was downloaded. No image prompt was counted as an asset.
+
+### Existing-owner status comments
+
+Eight source/ownership comments were added and read-back IDs returned:
+- Mango #143 Node.js security release refresh — comment 6805952628.
+- Forsk #145 React release/RSC status — 6805953366.
+- Forsk #146 Google Student Researcher current acceptance not re-verified — 6805954105.
+- Forsk #156 PM YASASVI Rajasthan/Keralam/Karnataka application restriction — 6805954672.
+- Forsk #172 VSSC UG/PG deadlines — 6805955304.
+- Forsk #173 NMMSS 15 November deadline — 6805955907.
+- Forsk #180 NeGD form status and separate technical listing caveat — 6805956464.
+- Groot #644 React Native RC1/stable schedule status — 6805956984.
+
+### Production ledger — this cycle only
+
+| Stage | New count |
+|---|---:|
+| Research tracks checked | 4 |
+| New verified, unowned stories | 3 |
+| Original English article drafts | 3 |
+| Original graphics created | 0 |
+| Optimized image derivatives | 0 |
+| Verified YouTube embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+| Existing-owner status comments | 8 |
+| New brand draft PRs | 3 |
+
+All three new PRs remain OPEN and DRAFT. No merge, deployment, publication, application submission or production configuration change occurred. Existing drafts were not counted as new production.
+
+### Next actions
+
+1. Independent editorial/source QA for Mango #182, Forsk #182 and Jaipur #46.
+2. Mango #182 needs a controlled branch-base reconciliation after the unrelated main UI commit; do not mix UI files into the article PR.
+3. Recheck Honeywell Job ID 161318 live Apply control before describing the role as accepting applications; no stipend, duration or deadline is published.
+4. Recheck Google Student Researcher role-specific application page; do not claim acceptance is confirmed while the direct page remains generic.
+5. Recheck PM YASASVI Rajasthan portal state before 15 November; Rajasthan students are currently instructed to wait.
+6. Monitor VSSC UG/PG and NMMSS deadlines (15–16 November) and NeGD Non-Technical (20 November).
+7. Obtain the new NeGD Technical Internship attachment/application route; do not reuse the old May PDF.
+8. Preserve Groot GA-B00016/100K controller and central brand mapping ownership; no queue regeneration or controller-board rewrite.
