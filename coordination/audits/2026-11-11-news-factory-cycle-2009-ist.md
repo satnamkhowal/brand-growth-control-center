@@ -422,7 +422,7 @@ The official 11 November security release is published, not merely an advance no
 | 24.x | 24.22.3 | 11 November 2026 |
 | 26.x | 26.13.1 | 11 November 2026 |
 
-Across the three release notes, **16 distinct CVEs** are covered: seven HIGH, six MEDIUM and three LOW. CVE-2026-126051 is listed for 24.x and 26.x, not 22.x. A re-read of the individual release notes also confirmed that CVE-2026-123863 and CVE-2026-123874 are present in all three patched release notes. The existing Node.js draft in Mango #143 was corrected for those branch-specific applicability details and the work log was updated. No duplicate Node article was created.
+Across the three release notes, **16 distinct CVEs** are covered: seven HIGH, six MEDIUM and three LOW. CVE-2026-126051 is listed for 24.x and 26.x, not 22.x. The official security bulletin's individual Impact sections show that CVE-2026-123863 and CVE-2026-123874 affect 24.x and 26.x only, not 22.x; CVE-2026-126051 is also 24.x/26.x-only. Branch-specific applicability is kept separate. The existing Node.js draft in Mango #143 was corrected for those branch-specific applicability details and the work log was updated. No duplicate Node article was created.
 
 - https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
 - https://nodejs.org/en/blog/release/v22.23.5/
