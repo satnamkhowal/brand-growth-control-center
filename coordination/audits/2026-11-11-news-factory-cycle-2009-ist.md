@@ -498,6 +498,6 @@ No directly relevant YouTube video had a verifiable ID, channel, upload date and
 
 ### Central PR divergence check — 12 November 2026, 01:37 IST
 
-- PR #19 (this News Factory checkpoint): OPEN/DRAFT, **99 ahead / 4 behind main**, diverged, mergeable=false.
-- PR #20 (Groot 100K cross-lane audit): OPEN/DRAFT, **56 ahead / 4 behind main**, diverged, mergeable=false.
+- PR #19 (this News Factory checkpoint): OPEN/DRAFT, diverged from main and mergeable=false; read the live ahead/behind count from GitHub because this append-only checkpoint itself advances the branch.
+- PR #20 (Groot 100K cross-lane audit): OPEN/DRAFT, diverged from main and mergeable=false; unchanged by this News Factory cycle.
 - Neither PR was rebased or merged. PR #20 was not modified by this News Factory cycle.
