@@ -2,7 +2,7 @@
 
 ## Scope and source ownership
 
-Coordination-only delta for the existing Groot Academy 100K workstream. The source repository requested as `satnamkhowal/gta` resolves by GitHub permanent redirect to `satnamkhowal/grootacademy.com` (repository ID 1375760757). All implementation remains in that Groot repository. This file records evidence only; no other brand repository, central main, task owner, production route or publication state was changed.
+Coordination-only delta for the existing Groot Academy 100K workstream. The source repository requested as `satnamkhowal/gta` resolves by GitHub permanent redirect to `satnamkhowal/grootacademy.com` (repository ID 1375760757). All implementation remains in that Groot repository. The original `content/groot-100k-controller-20261016` branch was read but has no common ancestor with current main; the existing `qa/groot-100k-current-main-20261109` branch is the verified current-main successor used for this checkpoint. Production main was not changed. This file records evidence only; no other brand repository, central main, task owner, production route or publication state was changed.
 
 ## New Groot evidence
 
