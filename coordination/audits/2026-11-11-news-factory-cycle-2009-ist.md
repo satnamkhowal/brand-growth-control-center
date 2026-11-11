@@ -361,3 +361,12 @@ This correction supersedes any earlier wording in the 01:09 checkpoint that said
 - Existing owner comments added: Forsk #178 SDEF current deadline (comment 6806101517) and Jaipur #45 Bharti Airtel current application status (comment 6806102209).
 
 No new article was created for SDEF or Bharti Airtel because both already have active draft owners. No extra graphics or video embeds were created.
+
+
+### NSP PM YASASVI Schools deadline correction — 12 November 2026
+
+A later read of the current NSP scheme list shows the PM YASASVI Top Class Education in Schools student-application deadline as **30 November 2026**, not 15 November. The separate NSP Student Announcements page still explicitly blocks fresh submissions for students from Rajasthan, Keralam and Karnataka and says those students must wait. The NSP All-Scholarships page footer still reports “Last update on June 2026”, so applicants should recheck the live form before acting.
+
+- Scheme list: https://scholarships.gov.in/All-Scholarships
+- State restriction: https://scholarships.gov.in/iver/student-announcements
+- Existing Forsk PR #156 received a correction comment (issue-comment ID 6806131964). The earlier 15 November deadline note for PM YASASVI Schools is superseded. Do not confuse this scheme with NMMSS, whose student deadline remains listed as 15 November.
