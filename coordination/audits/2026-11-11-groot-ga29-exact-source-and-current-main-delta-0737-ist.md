@@ -14,7 +14,7 @@ Detailed source evidence: [Groot QA report](https://github.com/satnamkhowal/groo
 
 ## Current PR and owner boundaries
 
-- Groot PR #569 remains the current-main review successor, but its base is `0648b79`; it is now 202 commits ahead / 3 behind current main `83d20b3`, with 222 changed files, zero reviews and zero review threads. Owner-led base/legacy-artifact reconciliation and independent review remain required. No merge is implied by mergeability.
+- Groot PR #569 remains the current-main review successor, but its base is `0648b79`; it is now 203 commits ahead / 3 behind current main `83d20b3`, with 222 changed files, zero reviews and zero review threads. Owner-led base/legacy-artifact reconciliation and independent review remain required. No merge is implied by mergeability.
 - Groot recovery PR #533 remains open/Draft (8 commits, 8 files, zero reviews/threads) on its existing stacked recovery branch. Its shared layout/CSS overlap remains with the recovery owner; do not merge it independently.
 - Groot link-repair PR #614 remains open/Draft (3 commits, 2 files, zero reviews/threads). Its base `99336e8` is one commit behind current main after #616; owner should update the base before independent review. No production change is claimed.
 - Groot queue remains 29/29 IDs. Counts remain 23 complete drafts, 23 technical visuals, 23 PHP candidates, 18 independent code passes, zero independent approvals, zero published and zero live-verified. GA-B00014 remains an in-place refresh, not a new article.
