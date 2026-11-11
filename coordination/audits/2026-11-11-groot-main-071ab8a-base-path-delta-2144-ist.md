@@ -17,7 +17,7 @@ Merged PRs:
 - #639 — shared blog-head dynamic base path and stylesheet URL.
 - #640 — Python blog course CTA.
 
-A bounded PHP include-chain reproduction found that current `blogs/_shared/partials/head.php` emits a base element and then includes root `head.php`, which emits another. The blog partial appends a slash to `ga_url()` even though the helper already returns a trailing slash. Exact current-main shared-partial and site-path helper blobs were materialized and hash-matched; PHP lint was 4/4 and six local/production fixture assertions passed. This is a minimal source fixture, not a full checkout, browser test or production release check.
+A bounded PHP include-chain reproduction found that current `blogs/_shared/partials/head.php` emits a base element and then includes root `head.php`, which emits another. The blog partial appends a slash to `ga_url()` even though the helper already returns a trailing slash. Exact current-main shared-partial and site-path helper blobs were materialized and hash-matched; PHP lint was 4/4 and eight explicit local/production fixture checks passed (base count, two base values and CSS URL per mode). This is a minimal source fixture, not a full checkout, browser test or production release check.
 
 PR #625 is now 5 ahead / 20 behind current main, OPEN/DRAFT, four files, zero reviews. Its removal of the duplicate base is useful, but its old static stylesheet URL conflicts with merged #639's dynamic `ga_url()` URL. The owner should rebase and preserve the dynamic stylesheet while making root `head.php` the sole base owner. The Actions `steps: null` / Azure `BlobNotFound` blocker remains; no blind retry.
 
@@ -40,6 +40,6 @@ Other gates:
 The Groot owner/release owner resolves the 10K/P3 vs 100K/P0 governance and queue ownership; PR #625 owner reconciles the duplicate-base fix with the dynamic stylesheet path after Actions storage diagnosis; recovery owner handles the stacked #533 recovery; independent QA remains separate. Central coordinator reviews PR #20 normally. No deployment, publication or ranking/live claim is made.
 
 
-## Post-commit accounting
+## PR status
 
-This report itself adds one coordination file/commit to PR #20. After the append, the verified PR comparison is **48 commits ahead / 4 behind** central main, **30 changed files**, OPEN/DRAFT, with zero submitted reviews. Central main remains `80c75e28734ce22831e93d9f431f4c15ccad0f6c`.
+PR #20 remains OPEN/DRAFT with zero submitted reviews. This coordination report is append-only; use the live PR metadata for current ahead/behind and changed-file counts.
