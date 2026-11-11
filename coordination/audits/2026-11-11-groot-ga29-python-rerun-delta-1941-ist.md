@@ -63,3 +63,14 @@ Implementation remains in Groot Academy's source repository; the central reposit
 5. Recovery owner reconciles the stacked #507→#531→#533 work and shared-file overlaps; do not merge #533 independently.
 
 No self-approval, self-merge, central-main write, ownership transfer, deployment, publishing or mass indexing was performed.
+
+
+## Current-main coordination snapshot reconciliation
+
+Current Groot main `762285738191f0c3b9198d37889d15ab15e3b5e7` contains an older factory coordination snapshot:
+
+- `marketing/blog-factory/CONTROLLER.json` blob `81f755b7e05b2061f6ec680ca922774c813fd835`, last updated 20 October 2026, records 11 complete drafts, 11 visuals, 11 PHP candidates and 10 independent code passes.
+- The authorized controller branch records 23 complete drafts, 23 visuals, 23 PHP candidates and 18 independent code passes. The main copy is stale and was not used to reset or replace the branch.
+- `marketing/blog-factory/MASTER-PLAN.md` blob `e1ce95a0a926b5371abff735bd672d8aeb3f1a9c` says 10,000 possible IDs; `docs/ai-ops/MASTER_TASK_BOARD.md` blob `a1bc5aab018f72675e58e09e1e6cbfec421ddcc7` retains HAO-008 P3/REVIEW. The authorized branch remains 100,000/P0. This confirms the existing Master-owner reconciliation blocker; it does not authorize a main write or a new batch.
+
+Implementation repository remains the source of truth for the authorized controller work. Central main and Groot main were not changed.
