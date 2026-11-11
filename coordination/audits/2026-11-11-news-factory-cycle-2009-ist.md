@@ -243,3 +243,8 @@ Four non-overlapping research lanes were rechecked against primary sources: stud
 - No verified story-specific YouTube video ID, channel, publication date and embedding availability were established; no iframe or video download.
 - Independent editorial QA, technical QA, responsive browser QA and CI remain PENDING / NOT RUN. Combined GitHub status returned no status checks.
 - No merge, deployment, live publication, application submission or production configuration change occurred. Researched/drafted counts were not inflated with existing PRs; QA-ready and live increments are zero.
+
+
+### Source correction — NMMSS 2026–27 (12 November 2026, 00:05 IST)
+
+The current-year eligibility and extension are explicitly confirmed by the Ministry of Education / PIB release published **31 October 2026**, not only by the older linked 2022 guideline PDF. The 2026–27 application deadline is **15 November 2026**; L1 verification is 30 November and L2 verification is 15 December. The PIB notice confirms ₹12,000 per annum, fresh awards for eligible Class IX entrants selected through State/UT examinations, government/government-aided/local-body school eligibility, Class VII minimum 55% (5-percentage-point SC/ST relaxation) and parental income not above ₹3.50 lakh. The NSP 2026–27 portal independently shows student applications open through 15 November. Use the 31 October PIB release as the current-year source; the 2022 PDF is background guidance, not the primary source for the 2026–27 extension. Source: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2330936&lang=1&reg=3 and https://scholarships.gov.in/All-Scholarships
