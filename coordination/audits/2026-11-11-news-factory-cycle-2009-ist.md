@@ -501,3 +501,13 @@ No directly relevant YouTube video had a verifiable ID, channel, upload date and
 - PR #19 (this News Factory checkpoint): OPEN/DRAFT, diverged from main and mergeable=false; read the live ahead/behind count from GitHub because this append-only checkpoint itself advances the branch.
 - PR #20 (Groot 100K cross-lane audit): OPEN/DRAFT, diverged from main and mergeable=false; unchanged by this News Factory cycle.
 - Neither PR was rebased or merged. PR #20 was not modified by this News Factory cycle.
+
+### Additional opportunity-owner verification — 12 November 2026, 01:37 IST
+
+Three current programme pages were re-opened and the existing Forsk owners received exact eligibility/status comments:
+
+- **Google Student Researcher 2027 — Forsk #146:** India Remote is explicitly listed; apply before 4 December 2026; review is rolling. Minimums include current Bachelor's/Master's/PhD enrolment in a listed discipline and experience in a CS area. Full-time return-to-study and research/programming experience are preferred. No stipend or application fee is stated. Source: https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+- **SDEF India Scholarship 2026–27 — Forsk #178:** first-year full-time professional undergraduate study in India; at least 80% in Class XII; no post-Class-XII gap year; family income up to ₹12 lakh; applicable entrance thresholds include JEE Main AIR ≤50,000, JEE Advanced AIR ≤40,000, NEET UG AIR ≤50,000 or NATA ≥100. Award up to ₹50,000 per academic year / ₹2 lakh over four years, renewable; disbursed to the college/university account. Deadline 30 November 2026. No application fee is stated. Sources: https://www.swamidayanand.org/overview-and-eligibility-india ; https://www.swamidayanand.org/india-scholarships-2026-27
+- **GIFT FutureLab Grand Challenge 2026–27 — Forsk #179:** open to students and researchers from technical, management and other higher-education institutions across India, individually or in teams. Deadline 20 November 2026; finale 22 December at IIT Gandhinagar; approximately 10–12 finalist teams; awards ₹3 lakh / ₹2 lakh / ₹1 lakh. The challenge spans AI/agentic systems, digital assets, quantum-ready infrastructure, cybersecurity, RegTech and other finance-relevant technologies. Fee details, if any, will be confirmed in final guidelines; no fee is asserted. Source: https://iieciitgn.com/gfc/
+
+Comments posted to existing owners: Forsk #146 comment 6806515948; Forsk #178 comment 6806516366; Forsk #179 comment 6806516722. No duplicate articles were created.
