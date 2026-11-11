@@ -640,3 +640,93 @@ The Groot Academy PR #647 article and metadata were updated after a direct read 
 Forsk and Jaipur were not written to: Forsk repository file reads returned 404 despite the existing PR #182 being visible; Jaipur's installed-repository search returned only private certificate repositories, not a verified website source repository. Central README still lists eight brands but its active control board has only Jaipur, Central and Forsk rows; Mango/Groot rows remain a controller-owned reconciliation item.
 
 No merge, rebase, deployment, live publication, application submission or production configuration change occurred. Both new articles remain Draft and require independent editorial/technical and responsive QA.
+
+## Cycle 12 — 12 November 2026, 03:09 IST
+
+### Research result: no new unowned article cleared the evidence gate
+
+Four non-overlapping research lanes were checked against primary sources and the current open-PR inventory. All publishable fresh items found already have an owner. No duplicate article was created.
+
+#### 1) Student programmes, internships and scholarships
+
+- **Google Student Researcher 2027:** the live Google Careers listing explicitly allows Remote location: India; currently enrolled Bachelor's, Master's or PhD candidates in listed research/CS-related disciplines; application deadline **4 December 2026**, rolling review. No stipend or application fee is stated in the listing. Existing owner: Forsk #146.
+- **SDEF India Scholarship 2026–27:** official portal says applications remain open through **30 November 2026**. First-year full-time professional undergraduate students in India; minimum 80% in Class XII, annual family income at or below ₹12 lakh, no Class-XII gap year; up to **₹50,000 per year / ₹2 lakh over four years**, subject to renewal. The official page does not state an application fee. Existing owner: Forsk #178.
+- **NSP current windows:** National Means-cum-Merit Scholarship student application closes **15 November 2026**; PM YASASVI fresh applications close **15 November**; AICTE Pragati/Saksham/Swanath and PM-USP CSSS renewal windows shown on NSP close **30 November**. Existing owners include Forsk #173 (NMMSS), Forsk #156 (PM YASASVI), Forsk #147 (Swanath), and Mango #143 (Pragati). Do not conflate student-application deadlines with institute/L2 verification dates.
+- **VSSC academic project work:** official portal currently shows BE/BTech/BSc/Diploma project applications due **15 November 2026** and ME/MTech/Integrated MTech/MSc/BS-MS online applications due **16 November 2026, 23:59**. VSSC INT 08 internship is closed; the next internship window is **15 February–15 March 2027** for INT 09. Existing owner: Forsk #172.
+- **NeGD Non-Technical Winter Internship 2026:** existing Forsk #180 remains the sole article owner. Its official notice is distinct from the technical programme; keep the article scoped to non-technical eligibility and its published ₹15,000/month conditional stipend.
+- **NeGD Technical Internship 2026:** the official MeitY Vacancies page now confirms a separate listing with Published Date and Start date **11 November 2026**, due **20 November 2026**. The current technical PDF and full form URL were not retrievable; disciplines, seats, stipend, fee, work mode/location and detailed eligibility remain unverified. The older May 2026 technical notice is closed and must not be reused. A research-only clarification was added to Forsk #180; no technical article was drafted.
+- **Digital India BHASHINI Division Young Professionals:** official MeitY vacancies listing shows 8 roles, published/start **10 November 2026**, due **10 December 2026**. The detailed current advertisement PDF was not accessible in this run, so role-by-role qualifications, experience, remuneration, fee and posting details are not promoted as verified. Research-only watchlist; no draft.
+- **NeGD careers roles due 18 November:** official careers listing shows Front-End Developer, Junior Backend/Mobile Developer, Junior QA & Security Support and junior application-support roles, but the role PDFs were not retrievable. No article until official qualifications, experience, pay and application details can be read.
+
+Sources:
+- Google Careers: https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+- SDEF: https://www.swamidayanand.org/india-scholarships-2026-27 and https://www.swamidayanand.org/overview-and-eligibility-india
+- NSP: https://scholarships.gov.in/All-Scholarships
+- VSSC: https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+- MeitY vacancies: https://www.meity.gov.in/offerings/vacancies?page=1&target_lang=en
+- NeGD careers: https://negd.gov.in/careers/
+
+#### 2) React / frontend
+
+- React's public releases index still shows **19.3.1, 19.2.9, 19.1.10 and 19.0.9**, all published **14 October 2026**; no newer November stable React release was found. Existing Forsk #145 remains the RSC-security owner.
+- React Native **0.89.0-rc.1** is now directly verified in the official React Native Maven mirror: the RC1 artifact directory lists the artifacts and POM timestamped **10 November 2026, 01:24 UTC**. It remains a release candidate, not stable. Public GitHub Releases still shows 0.88.1 as latest visible stable and 0.89.0-rc.0 as the latest visible prerelease entry; no separate RC1 GitHub release-note page was found. Stable 0.89.x is scheduled for 7 December, subject to schedule changes. Existing Groot #644 remains the sole owner; a source-verification comment was added.
+- Sources: https://github.com/react/react/releases ; https://github.com/facebook/react-native/releases ; https://repostage.reactnative.dev/maven2/com/facebook/react/react-native-artifacts/0.89.0-rc.1/ ; https://reactnative.dev/releases/overview
+
+#### 3) Node.js / backend
+
+- Official security releases dated **11 November 2026**: Node.js **22.23.5**, **24.22.3** and **26.13.1**.
+- CVE-2026-126051 (remotely reachable TLS server crash) is listed in the 24.x and 26.x release notes, not in 22.23.5. Repeated CVE-2026-123872 bullets describe separate SNI/session protections and must not be counted as distinct CVE IDs.
+- Existing Mango #143 owns the Node.js security article and already has a source-precision comment. No duplicate article.
+- Sources: https://nodejs.org/en/blog/ ; https://nodejs.org/en/blog/release/v22.23.5 ; https://nodejs.org/en/blog/release/v24.22.3 ; https://nodejs.org/en/blog/release/v26.13.1 ; https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+#### 4) AI / cloud / developer news
+
+- Google Cloud **TPU Sync** (9 November; open-source native C++ state-transfer/KV-cache library): existing Groot #582.
+- Google Cloud **Cloud Pathways GA** on GKE (9 November): existing Groot #580.
+- **Gemini for healthcare** (10 November, Preview): existing Groot #631.
+- **Gemini Omni 1.2 Flash GA** (5 November; up to 15-second video generation/editing, API, $0.07/second for 720p per Google Cloud announcement): existing Mango #143.
+- GitHub **Issue types and fields for personal accounts** (11 November): existing Forsk #182.
+- GitHub Copilot Gemini 4 Carbon, C++ MSBuild auto-configuration, and Dependabot inactive-repository policy: existing Forsk #168, #171 and #165.
+- AWS Cloud Run Vulnerability Assessment, AWS ParallelCluster CLI CVE, and Git security updates: existing Groot #647, Groot #642 and Mango #185.
+- No unowned story passed the duplicate and source checks.
+
+Sources:
+- https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu
+- https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga
+- https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare
+- https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available
+- https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts/
+
+### Repository and ownership audit
+
+- **Central Control Center:** README confirms coordination-only scope and lists eight brands. The active control board currently has rows for Jaipur Engineers, Central coordination and Forsk Coding School; Mango/Groot rows are still absent and remain a controller-owned reconciliation item. Existing PR #19 is the current News Factory checkpoint branch; it remains open, diverged and unmergeable. No rebase/merge.
+- **Mango Engineers:** current main work log and open PRs reviewed. docs/news-factory is not present on main; News Factory drafts are on their isolated PR branches. Node.js/Gemini Omni owner #143, Git-security owner #185 and other current PR owners were preserved.
+- **Groot Academy:** .agent registry and docs/news-factory/drafts / media locations verified. Existing owners #580, #582, #631, #642, #644 and #647 were preserved. No new files.
+- **Forsk Coding School:** repository is accessible as private satnamkhowal/forsk-coding-school. Current README.txt and docs/ai-ops/MASTER_TASK_BOARD.md were read; the board's last audit is 14 October and it has no News Factory rows, while the current PR inventory includes the existing opportunity and developer-news owners. Existing PR #180 remains open/draft/mergeable. The previous cycle's statement that Forsk file reads returned 404 is superseded: the earlier attempts used absent README.md/AGENTS.md paths; the correct root guide is README.txt.
+- **Jaipur Engineers:** satnamkhowal/jaipurengineers.com is accessible as the website repository. MIGRATION-NOTES.md identifies je2 as the canonical application and warns against copying the legacy jaipur-engieneers repository wholesale; README-INSTALL.md documents protected hosting-only configuration. Existing PR #45/#46 and the current source mapping were left untouched. The previous cycle's statement that no verified website repository was found is superseded by this direct repository audit.
+- **Other listed brands:** Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies still lack a verified canonical News Factory website-repository mapping in the current control board. No speculative writes.
+
+### Actual actions this cycle
+
+- Added a primary-source confirmation comment to Groot #644 for the official RC1 Maven artifact timestamp and release status.
+- Added a research-only clarification to Forsk #180 for the separate NeGD technical-internship listing; no technical article was created.
+- Appended this cycle's findings to the existing central checkpoint file on the existing PR #19 branch.
+- No article draft, graphic, video embed, QA-ready increment or live publication was produced in this cycle.
+- No merge, rebase, deployment, application submission or production configuration change occurred.
+
+### Cycle 12 ledger
+
+| Stage | New count |
+| --- | ---: |
+| Research tracks | 4 |
+| New verified, unowned stories promoted | 0 |
+| New English article drafts | 0 |
+| New original graphics | 0 |
+| New optimized derivatives | 0 |
+| Verified YouTube embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+| Existing-owner source/eligibility comments | 2 |
+| Central checkpoint commits | 1 |
+
+Next actions: retrieve the current NeGD technical-internship and BHASHINI Young Professional PDFs/forms; continue source rechecks for 15–20 November deadlines; independently QA existing open drafts rather than creating duplicate stories.
