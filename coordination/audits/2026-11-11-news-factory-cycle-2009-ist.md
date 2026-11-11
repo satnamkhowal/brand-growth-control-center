@@ -495,3 +495,9 @@ No directly relevant YouTube video had a verifiable ID, channel, upload date and
 5. Recheck the NeGD non-technical form's live response state before any application-status claim.
 6. Recheck VSSC UG/PG and NMMSS deadlines before 15–16 November.
 7. Keep the Groot canonical repository mapping and the missing central Mango/Groot control-board rows controller-gated.
+
+### Central PR divergence check — 12 November 2026, 01:37 IST
+
+- PR #19 (this News Factory checkpoint): OPEN/DRAFT, **97 ahead / 4 behind main**, diverged, mergeable=false.
+- PR #20 (Groot 100K cross-lane audit): OPEN/DRAFT, **56 ahead / 4 behind main**, diverged, mergeable=false.
+- Neither PR was rebased or merged. PR #20 was not modified by this News Factory cycle.
