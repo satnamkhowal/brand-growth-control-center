@@ -131,7 +131,7 @@ Primary sources:
 ### Central control center
 
 - Central News Factory PR #19 remains the append-only checkpoint lane. PR #20 (Groot 100K deduplication) was not modified.
-- Before the new 07:05 audit append, PR #19's branch `ops/news-factory-cycle-20261109-2209` was **76 commits ahead / 2 behind** central main. The last observed comparison before the final audit corrections was **79 commits ahead / 3 behind**; the branch remains diverged, and no rebase or merge was attempted.
+- Before the new 07:05 audit append, PR #19's branch `ops/news-factory-cycle-20261109-2209` was **76 commits ahead / 2 behind** central main. The last observed comparison before this audit amendment was **82 commits ahead / 3 behind**; the branch remains diverged, and no rebase or merge was attempted.
 - Brand implementation stays in each brand repository.
 
 ### Mango Engineers
@@ -168,13 +168,13 @@ Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies were no
 ### Mango Engineers PR #170
 - URL: https://github.com/satnamkhowal/mangoengineers.com/pull/170
 - Branch: `content/news-factory-ncdc-internship-20261111-0705`
-- Initial compare: 3 commits ahead / 0 behind main; after five sequential source-wording and metadata/hash corrections, final compare is 9 commits ahead / 0 behind; exactly three additive files.
+- Initial compare: 3 commits ahead / 0 behind main; after the seat-count and provenance refreshes, final compare is 11 commits ahead / 0 behind; exactly three additive files.
 - After source-wording correction, the article, SVG and provenance JSON were updated sequentially. No shared file was changed.
 - GitHub read-back: article 1,935 words; metadata JSON parses and records 1,935; SVG has 1200×675 dimensions, title/description and no scripts/external hrefs.
 - Local PNG: 1200×675, 124,020 bytes, visually inspected.
 - Local WebP: 1200×675, 56,936 bytes; dimensions and SHA-256 recorded in metadata.
 - PR creation initially reported `mergeable=false`; after GitHub metadata refresh the PR snapshot reports `mergeable=true`. Independent editorial/source QA and responsive/browser QA remain pending.
-- PHP Architecture Check run 42941486566 completed with failure. Its only job, php-architecture (130264099531), reports failure but exposes no steps; fetching the job log returned Azure Blob Storage BlobNotFound (404). Combined status list is empty. This is an infrastructure/log-retrieval blocker, not a confirmed source-code defect; no blind rerun was started and no CI pass is claimed.
+- Two PHP Architecture Check runs on the earlier and current Mango PR heads (42941486566 and 42941989357) completed with failure. The latest job, php-architecture (130265737584), exposes no steps; fetching its log returned Azure Blob Storage BlobNotFound (404). The earlier job showed the same no-steps / BlobNotFound pattern. Combined status list is empty. This is an infrastructure/log-retrieval blocker, not a confirmed source-code defect; no blind rerun was started and no CI pass is claimed.
 
 ### Groot Academy PR #615
 - URL: https://github.com/satnamkhowal/grootacademy.com/pull/615
