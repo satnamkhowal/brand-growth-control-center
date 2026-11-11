@@ -9,7 +9,7 @@ This run completed four non-overlapping research lanes and produced two new, bra
 
 Each draft has an original self-authored 1200×675 SVG and a provenance sidecar. Four local raster derivatives (two PNG and two WebP) were generated, visually inspected and dimension-checked. No third-party image or video was downloaded. No story-specific YouTube ID and embedding availability were verified, so no iframe was added.
 
-No merge, deployment, live publication, indexing or application submission occurred. Both new PR creation responses reported `mergeable=false`; keep them Draft pending independent QA and mergeability investigation.
+No merge, deployment, live publication, indexing or application submission occurred. Both PR creation responses initially reported `mergeable=false`; after GitHub metadata refresh, both PR snapshots report `mergeable=true`. They remain Draft pending independent QA and approval.
 
 ## 1. Official student, developer and scholarship opportunities
 
@@ -29,7 +29,7 @@ No merge, deployment, live publication, indexing or application submission occur
 - The NCDC page says the coordinating division submits a proposed plan of action for the 2027 cycle for approval; the page does not state the approval outcome. The article retains this caveat.
 - The official page links to a Google Form. During this run the link redirected to Google sign-in, so the form itself could not be independently inspected. The article directs applicants to use the official page's link and confirm form status before paying.
 
-**Article:** `docs/news-factory/drafts/ncdc-internship-2027-statistics-biostatistics-eligibility.md` — 1,925 words.  
+**Article:** `docs/news-factory/drafts/ncdc-internship-2027-statistics-biostatistics-eligibility.md` — 1,935 words.  
 **Original SVG:** `docs/news-factory/media/ncdc-internship-2027-eligibility.svg` — 1200×675.  
 **Metadata:** `docs/news-factory/drafts/ncdc-internship-2027-statistics-biostatistics-eligibility.metadata.json`.  
 **PR:** https://github.com/satnamkhowal/mangoengineers.com/pull/170
@@ -168,12 +168,12 @@ Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies were no
 ### Mango Engineers PR #170
 - URL: https://github.com/satnamkhowal/mangoengineers.com/pull/170
 - Branch: `content/news-factory-ncdc-internship-20261111-0705`
-- Initial compare: 3 commits ahead / 0 behind main; three additive files.
+- Initial compare: 3 commits ahead / 0 behind main; after three sequential source/metadata corrections, final compare is 7 commits ahead / 0 behind; exactly three additive files.
 - After source-wording correction, the article, SVG and provenance JSON were updated sequentially. No shared file was changed.
 - GitHub read-back: article 1,925 words; metadata JSON parses; SVG has 1200×675 dimensions, title/description and no scripts/external hrefs.
 - Local PNG: 1200×675, 124,020 bytes, visually inspected.
 - Local WebP: 1200×675, 56,936 bytes; dimensions and SHA-256 recorded in metadata.
-- PR creation response reported `mergeable=false`; independent editorial/source QA and responsive/browser QA remain pending.
+- PR creation initially reported `mergeable=false`; after GitHub metadata refresh the PR snapshot reports `mergeable=true`. Independent editorial/source QA and responsive/browser QA remain pending.
 - No workflow run or combined status check was returned; no CI pass is claimed.
 
 ### Groot Academy PR #615
@@ -183,7 +183,7 @@ Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies were no
 - GitHub read-back: article 2,610 words; metadata JSON parses; SVG has 1200×675 dimensions, title/description and no scripts/external hrefs.
 - Local PNG: 1200×675, 125,774 bytes, visually inspected.
 - Local WebP: 1200×675, 48,060 bytes; dimensions and SHA-256 recorded in metadata.
-- PR creation response reported `mergeable=false`; independent editorial/source QA and responsive/browser QA remain pending.
+- PR creation initially reported `mergeable=false`; after GitHub metadata refresh the PR snapshot reports `mergeable=true`. Independent editorial/source QA and responsive/browser QA remain pending.
 - No workflow run or combined status check was returned; no CI pass is claimed.
 
 ### Video and media policy
@@ -200,7 +200,7 @@ Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies were no
 | Status | Increment this cycle |
 |---|---:|
 | New distinct researched items | 2 (NCDC January 2027 internship; DynamoDB bulk put items GA) |
-| Existing opportunity status rechecks | 4 (Google Student Researcher, NMMSS, VSSC and NCDC source verification) |
+| Existing opportunity status rechecks | 3 (Google Student Researcher, NMMSS and VSSC); NCDC is counted as a new research item |
 | React / Node status rechecks | 2 lanes; no new release articles |
 | New English article drafts | 2 |
 | Existing articles materially rewritten | 0 |
@@ -214,7 +214,7 @@ Carried-forward checkpoint from 06:05 IST: 76 researched, 64 drafted, 64 origina
 ## 8. Next actions
 
 1. Independent editorial/source QA and responsive/browser QA for Mango #170 and Groot #615.
-2. Investigate why both new GitHub PR creation responses report `mergeable=false` despite their compare results showing no commits behind main; do not merge until resolved.
+2. Keep both new PRs Draft. Their refreshed GitHub snapshots now report `mergeable=true`, but independent QA and explicit approval are still required before any merge.
 3. Recheck NCDC's official form and the 2027 approval status before the 30 November window closes; the form redirected to Google sign-in in this run.
 4. Recheck the official Node.js release index and security advisories when the 11 November patches actually publish; update Mango #143 only with real CVEs and patched versions.
 5. Keep Forsk #145 as React owner unless the official React team announces a new release/advisory.
