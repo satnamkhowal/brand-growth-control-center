@@ -131,7 +131,7 @@ Primary sources:
 ### Central control center
 
 - Central News Factory PR #19 remains the append-only checkpoint lane. PR #20 (Groot 100K deduplication) was not modified.
-- Before the new 07:05 audit append, PR #19's branch `ops/news-factory-cycle-20261109-2209` was **76 commits ahead / 2 behind** central main. After this run's three checkpoint commits and a concurrent main-branch advance, the current compare is **79 commits ahead / 3 behind**. It remains diverged; no rebase or merge was attempted.
+- Before the new 07:05 audit append, PR #19's branch `ops/news-factory-cycle-20261109-2209` was **76 commits ahead / 2 behind** central main. At the last comparison check before this final audit correction, the branch was **79 commits ahead / 3 behind**; it remains diverged. It remains diverged; no rebase or merge was attempted.
 - Brand implementation stays in each brand repository.
 
 ### Mango Engineers
