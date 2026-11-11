@@ -370,3 +370,128 @@ A later read of the current NSP scheme list shows the PM YASASVI Top Class Educa
 - Scheme list: https://scholarships.gov.in/All-Scholarships
 - State restriction: https://scholarships.gov.in/iver/student-announcements
 - Existing Forsk PR #156 received a correction comment (issue-comment ID 6806131964). The earlier 15 November deadline note for PM YASASVI Schools is superseded. Do not confuse this scheme with NMMSS, whose student deadline remains listed as 15 November.
+
+
+## 12 November 2026 — 01:37 IST active News Factory cycle
+
+### Summary
+
+Four non-overlapping research lanes were checked again: official student/developer opportunities; React/frontend releases and security; Node.js/backend releases and security; AI/cloud/developer announcements. The current central README, active Mango/Forsk/Groot/Jaipur repositories, News Factory PR ownership, Mango task board/work log/integration queue and existing checkpoint branch were reviewed before writes.
+
+**One new unowned security story was drafted and added to the existing Mango News Factory PR #143.** Other fresh items already have owners or do not yet have sufficient current primary-source detail for a safe new article. No cross-brand near-duplicate was created.
+
+### 1. Student, developer, internship and scholarship lane
+
+- **Google Student Researcher 2027 — existing Forsk #146:** the official Google Careers page still shows the application route, lists India under Remote eligibility, and gives **4 December 2026** as the application deadline. No stipend or application fee is published. No duplicate article.
+  - https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+- **SDEF India Scholarship 2026–27 — existing Forsk #178:** the official page remains open through **30 November 2026**. Existing article remains the sole owner.
+  - https://www.swamidayanand.org/india-scholarships-2026-27
+- **GIFT FutureLab Grand Challenge 2026–27 — existing Forsk #179:** current official page says applications close **20 November 2026**, the finale is **22 December 2026** at IIT Gandhinagar, and total awards are **₹6,00,000** (₹3 lakh / ₹2 lakh / ₹1 lakh). Students and researchers from higher-education institutions across India may apply individually or as teams. The FAQ says fee details, if any, will be confirmed in final guidelines; no fee is asserted.
+  - https://iieciitgn.com/gfc/
+- **NMMSS — existing Forsk #173:** NSP's current scheme list shows student applications through **15 November 2026**, defective/institute verification through 30 November and DNO/SNO/MNO verification through 15 December. NSP's footer says the list was last updated in June 2026, so applicants should recheck the live login. Existing owner received a status comment.
+  - https://scholarships.gov.in/All-Scholarships
+- **VSSC Academic Project Work — existing Forsk #172:** the official portal shows the next UG project slot (1 January–31 March 2027) with a **15 November 2026** last date, and the next PG project slot (1 January–30 June 2027) with an online deadline of **16 November 2026, 23:59**. INT 08 is closed; INT 09 is scheduled for May–July 2027 with a February–March application window. Existing owner received a status comment.
+  - https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+- **NeGD Non-Technical Internship Winter 2026 — existing Forsk #180:** the official MeitY vacancies listing shows publication **11 November 2026** and deadline **20 November 2026**. The existing Forsk draft's source metadata points to the November 2026 Winter Programme PDF and records 12 positions, India-recognised university eligibility routes, mandatory institutional forwarding, ₹15,000/month conditional remuneration paid only after completion and accepted report, 2–3 month tentative duration, and no fee stated. The live Google Form response state is not independently verified. A status comment links the official listing; do not reuse May Summer Programme details for the Winter notice.
+  - https://www.meity.gov.in/offerings/vacancies?page=1&target_lang=en
+  - https://www.meity.gov.in/static/uploads/2026/11/53935d4075991e5c3f211f053b583270.pdf
+- **NeGD Technical Internship Winter 2026:** the official MeitY listing shows publication **11 November** and deadline **20 November**, but the current Winter PDF and full eligibility/stipend details were not independently retrieved in this cycle. The older May Summer PDF has a 15 June deadline and must not be used as the Winter notice. No new technical-internship article was created.
+- **Digital India BHASHINI Young Professionals:** the official MeitY listing shows publication **10 November 2026**, eight positions and a **10 December 2026** due date. The current advertisement PDF and full eligibility/remuneration details were not independently retrieved; no article was created.
+- **NEC Winter Internship 2026:** the official listing advertises a 30 November deadline, but current notice attachments return 404 and the application portal provides no readable details. Eligibility, stipend and form status remain unverified; no article was created.
+- **PM YASASVI Top Class Schools — existing Forsk #156:** NSP currently lists the application window as **22 October–30 November 2026**. The linked specification PDF does not display a 2026–27 year label and the linked FAQ returns “Not Available”; a caution comment was added. Do not treat the undated PDF as confirmed current-year terms.
+  - https://scholarships.gov.in/All-Scholarships
+  - https://scholarships.gov.in/public/schemeGuidelines/3061_G.pdf
+- **PM-USP Special Scholarship for J&K/Ladakh:** NSP lists the current application window through 30 November, but its linked specification PDF is explicitly 2025–26. No new 2026–27 eligibility or funding claims were made.
+- Existing owners for SDEF, GIFT, Bharti Airtel, NCDC and the other tracked programmes were preserved; no duplicate articles were opened.
+
+### 2. React / frontend lane
+
+- React core's official release list still shows 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated **14 October 2026**. No newer November stable release was found.
+  - https://github.com/facebook/react/releases
+- React Native **0.88.1** is the latest stable patch visible in the release list (27 October). **0.89.0-rc.1** is a release candidate, not stable; the official schedule still places 0.89.x in the future for **7 December 2026**. Existing Groot #644 remains the sole owner and received a status comment.
+  - https://github.com/facebook/react-native/releases
+  - https://reactnative.dev/releases/overview
+
+### 3. Node.js / backend security lane
+
+The official 11 November security release is published, not merely an advance notice:
+
+| Release line | Fixed version | Release date |
+|---|---:|---|
+| 22.x | 22.23.5 | 11 November 2026 |
+| 24.x | 24.22.3 | 11 November 2026 |
+| 26.x | 26.13.1 | 11 November 2026 |
+
+Across the three release notes, **16 distinct CVEs** are covered: seven HIGH, six MEDIUM and three LOW. CVE-2026-126051 is listed for 24.x and 26.x, not 22.x. A re-read of the individual release notes also confirmed that CVE-2026-123863 and CVE-2026-123874 are present in all three patched release notes. The existing Node.js draft in Mango #143 was corrected for those branch-specific applicability details and the work log was updated. No duplicate Node article was created.
+
+- https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+- https://nodejs.org/en/blog/release/v22.23.5/
+- https://nodejs.org/en/blog/release/v24.22.3/
+- https://nodejs.org/en/blog/release/v26.13.1/
+
+### 4. AI / cloud / developer lane
+
+- **Amazon Braket SDK and Schemas security bulletin 2026-175-AWS:** AWS published it on **9 November 2026 at 14:15 PST** (10 November 03:45 IST). CVE-2026-124034 affects amazon-braket-sdk >=1.10.0 and <1.127.7; fixed minimum 1.127.7; Moderate, CVSS 6.4. CVE-2026-124035 affects amazon-braket-schemas >=1.17.0 and <1.32.2; fixed 1.32.2; High, CVSS 7.1. Both require an authenticated principal with S3 write access to the relevant Braket input/output location; do not describe them as unauthenticated public exploits. PyPI checked 12 November: SDK 1.127.8 and Schemas 1.32.2, both uploaded 9 November.
+  - https://aws.amazon.com/security/security-bulletins/2026-175-aws/
+  - https://github.com/amazon-braket/amazon-braket-sdk-python/security/advisories/GHSA-4hhf-mfx9-3877
+  - https://github.com/amazon-braket/amazon-braket-schemas-python/security/advisories/GHSA-9r5x-g8jm-9mjj
+  - https://pypi.org/project/amazon-braket-sdk/
+  - https://pypi.org/project/amazon-braket-schemas/
+- **GitHub secret scanning audit-log compatibility change — existing Groot #597:** changelog published **20 October 2026**, schema change effective **12 November 2026**. In affected secret_scanning_alert.* and secret_scanning_push_protection.bypass events, the string business field changes from enterprise display name to enterprise slug; event names and numeric business_id remain unchanged. GitHub recommends accepting both values during transition or using business_id. Existing owner received a comment; no duplicate article was created.
+  - https://github.blog/changelog/2026-10-20-updates-to-github-secret-scanning/
+- Google Cloud Agentic Architect certification and the other current GitHub/AWS stories already have existing owners; no duplicate drafts were created.
+
+### 5. Actual Mango delivery
+
+Existing task ME-NEWS-20261112-BRAKET-001 was claimed on the current News Factory branch and moved to REVIEW. Added to the existing Mango News Factory PR #143:
+- docs/news-factory/drafts/amazon-braket-sdk-cves-2026-11-09.md — **1,904-word** original English technical guide.
+- docs/news-factory/drafts/amazon-braket-sdk-cves-2026-11-09.metadata.json — source URLs, publication/event-date distinction, CVE/version facts, local media paths, source/permission, attribution, alt text, dimensions, preview hashes and video status.
+- docs/news-factory/media/amazon-braket-sdk-cves-2026-11-09.svg — original 1200x675 vector educational diagram, created without third-party graphics or logos.
+- Local PNG and WebP derivatives were rendered at 1200x675 and visually inspected. The SVG is committed; PNG/WebP are local preview derivatives only.
+- Existing Node.js article was corrected for CVE-2026-123863 and CVE-2026-123874 applicability across all three release lines.
+
+Mango PR #143 is OPEN/DRAFT, currently **50 commits ahead / 1 behind main**, and mergeable=false. It remains unmerged. The branch divergence must be reviewed before any merge. The article, metadata and SVG were read back from GitHub; JSON and SVG validation passed. Independent editorial, technical and browser QA remain pending. No CI pass is claimed.
+
+### 6. Existing ownership and coordination updates
+
+Status comments were posted to:
+- Mango #143 — Braket draft delivery and Node.js applicability correction.
+- Forsk #172 — VSSC current UG/PG deadlines and INT 09 window.
+- Forsk #173 — NMMSS current portal deadline and verification dates.
+- Forsk #180 — MeitY NeGD Winter Non-Technical listing date/deadline and form-status caveat.
+- Forsk #156 — PM YASASVI Schools portal deadline and undated guideline caveat.
+- Groot #597 — GitHub secret-scanning audit-log field change effective 12 November.
+- Groot #644 — React Native RC1 vs stable release status.
+
+Repository/instruction review:
+- Mango: root AGENTS, agent-start guide, task board, work log and integration queue reviewed; implementation stayed in the existing News Factory branch.
+- Groot: .agent handoff/current-state/backlog/decisions reviewed. Its guidance names satnamkhowal/gta as canonical while active News Factory PRs are in satnamkhowal/grootacademy.com; no new source write was made there because this mapping remains unresolved.
+- Forsk: private repository and existing PRs were reviewed, but root README/AGENTS and the expected coordination instruction paths were not retrievable; comments only, no source-file writes.
+- Jaipur Engineers: existing repository inventory reviewed; root instructions were not retrievable, so no source write.
+- Central README says this repository is coordination-only and its active board still lacks Mango and Groot rows. Those rows were not added without controller approval.
+
+### 7. Media, video and publication ledger
+
+| Deliverable | New count |
+|---|---:|
+| Research lanes | 4 |
+| New verified unowned story drafted | 1 |
+| New English article draft | 1 |
+| Original SVG graphics committed | 1 |
+| Local optimized PNG/WebP derivatives | 2 |
+| Verified YouTube embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+| Existing-PR status comments | 7 |
+
+No directly relevant YouTube video had a verifiable ID, channel, upload date and embedding availability for the Braket security article. No iframe was added and no video was downloaded. No third-party graphic was downloaded or reuploaded. No merge, deployment, publication, application submission, live-route change or production configuration change occurred.
+
+### Next actions
+
+1. Independent editorial and technical review of the Braket article and the two CVE preconditions.
+2. Browser inspection of the SVG and article layout; keep PNG/WebP local unless an authorized media-upload route is confirmed.
+3. Review the Mango PR #143 50-ahead / 1-behind divergence before any merge consideration.
+4. Retrieve current NeGD Technical Internship and BHASHINI Young Professional PDFs; do not reuse older Summer or 2025 PDFs for 2026 Winter terms.
+5. Recheck the NeGD non-technical form's live response state before any application-status claim.
+6. Recheck VSSC UG/PG and NMMSS deadlines before 15–16 November.
+7. Keep the Groot canonical repository mapping and the missing central Mango/Groot control-board rows controller-gated.
