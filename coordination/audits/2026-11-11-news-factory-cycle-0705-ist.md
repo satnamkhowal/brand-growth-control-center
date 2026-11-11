@@ -131,7 +131,7 @@ Primary sources:
 ### Central control center
 
 - Central News Factory PR #19 remains the append-only checkpoint lane. PR #20 (Groot 100K deduplication) was not modified.
-- Before this run's new audit file, PR #19's branch `ops/news-factory-cycle-20261109-2209` was **76 commits ahead / 2 behind** central main. It is diverged; no rebase or merge was attempted.
+- Before the new 07:05 audit append, PR #19's branch `ops/news-factory-cycle-20261109-2209` was **76 commits ahead / 2 behind** central main. After this run's three checkpoint commits and a concurrent main-branch advance, the current compare is **79 commits ahead / 3 behind**. It remains diverged; no rebase or merge was attempted.
 - Brand implementation stays in each brand repository.
 
 ### Mango Engineers
@@ -168,7 +168,7 @@ Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies were no
 ### Mango Engineers PR #170
 - URL: https://github.com/satnamkhowal/mangoengineers.com/pull/170
 - Branch: `content/news-factory-ncdc-internship-20261111-0705`
-- Initial compare: 3 commits ahead / 0 behind main; after three sequential source/metadata corrections, final compare is 7 commits ahead / 0 behind; exactly three additive files.
+- Initial compare: 3 commits ahead / 0 behind main; after five sequential source-wording and metadata/hash corrections, final compare is 9 commits ahead / 0 behind; exactly three additive files.
 - After source-wording correction, the article, SVG and provenance JSON were updated sequentially. No shared file was changed.
 - GitHub read-back: article 1,935 words; metadata JSON parses and records 1,935; SVG has 1200×675 dimensions, title/description and no scripts/external hrefs.
 - Local PNG: 1200×675, 124,020 bytes, visually inspected.
