@@ -46,3 +46,10 @@ Public content retrieval and GitHub source mapping do not establish raw origin H
 Central owner: independently review PR #20 and reconcile the missing Groot active control-board row without taking over source ownership. Reuse PR #2's AEO/GEO baseline and PR #3's existing follow-ups. Groot owner: independently review PR #614, keep 100K release gates and the canonical queue intact, and preserve the Master priority/capacity hold before any new batch.
 
 No central main, other-brand source, Groot main, queue, deployment, publication or indexing changes. No self-approval or self-merge.
+
+
+## CI runner/log artifact delta — 11 November 2026, 06:42 IST
+
+- Groot PR #614 workflow run [42938984790](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42938984790) and PR #569 runs [42939224874](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42939224874) / [42939225079](https://github.com/satnamkhowal/grootacademy.com/actions/runs/42939225079) concluded failure.
+- Each job exposed `steps: null`; downloading job logs returned Azure `BlobNotFound`. No assertion-level result is available. Do not call this a code/test failure or PASS without logs.
+- Repository Actions/storage administrator diagnosis is required; no blind retry. PR #614 remains a narrow source fix Draft; PR #569 remains a separate controller Draft. Source ownership stays in Groot Academy. Central main and other brand repositories are untouched.
