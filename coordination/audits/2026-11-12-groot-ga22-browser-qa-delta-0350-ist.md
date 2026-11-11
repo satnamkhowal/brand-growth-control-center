@@ -72,3 +72,32 @@ Groot PR #649's subsequent Blog factory review-candidates run [43111093876](http
 ### Third exact-head CI failure — 2026-11-12 03:55 IST
 
 The latest Groot PR #649 head triggered run [43111427372](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43111427372). Job `130828162544` returned `steps: null`; log retrieval returned Azure Storage `BlobNotFound` (HTTP 404). Zero assertions are evidenced as executed. No retry was triggered. This is the third pre-step failure; the source branch's subsequent evidence-only commits use `[skip ci]` pending administrator diagnosis.
+
+
+### Supplemental source-lane reflow evidence — 2026-11-12 04:43 IST
+
+Groot PR [#649](https://github.com/satnamkhowal/grootacademy.com/pull/649) was advanced on its existing isolated QA branch; it remains OPEN/DRAFT against the canonical controller branch. No source-main or central-main change occurred.
+
+- Added a reproducible exact-blob harness: `marketing/blog-factory/work/B0002/qa/ga-b00022-zoom-reflow.py`.
+- Exact quiz-lab Git blob `f89635f8c11415dc98d82f902b4769c9c9239877` (4,379 bytes).
+- Python 3.13.5 / Playwright 1.57.0 / Chromium 144.0.7559.96.
+- **18/18 coordinator-run checks PASS** at 640 CSS px (200%-equivalent reflow width from 1280 CSS px) and 320 CSS px (400%-equivalent reflow width). Both widths exercise overflow, fieldset fit, 44px submit target, unanswered state/focus, result state/focus and restart/focus.
+- This is effective-viewport reflow evidence, not actual browser zoom-control automation, screen-reader/AT review, or production PHP-page QA. GA-B00022 remains `TECH_QA`; no independent approval or release count changes.
+- Source PR #649 remains Draft; no independent reviews or threads are recorded. The new script/report/README/controller updates are review artifacts only; queue remains unchanged.
+
+### Fresh owner-scope / release-gate delta — 2026-11-12 04:19 IST
+
+The latest source issue #401 owner-scope inventory comment [6809152738](https://github.com/satnamkhowal/grootacademy.com/issues/401#issuecomment-6809152738) reports:
+
+- 76 accessible owner repositories; 70 exact remote default-branch SHAs resolved and six refs were empty/unresolvable (not deletion claims).
+- All 76 open-PR collections were checked; Groot Academy and Mango Engineers were paginated.
+- 28 non-draft PRs had review submissions checked; **zero independent APPROVED reviews**.
+- New merges: 0; deployments verified: 0. No force-push, auto-merge, bypass or approval.
+- Current Groot main remains `0923feed95358ed967e0d783440fd28ba6d77a54`.
+- Groot PR #648 is a Software Testing hero-graphic draft and PR #649 is QA evidence; neither is a new article or publication.
+
+### Runtime reachability recheck — 2026-11-12 04:43 IST
+
+The coordinator runtime has PHP CLI 8.4.24, Playwright 1.57.0 and Chromium 144.0.7559.96. A fresh `git ls-remote https://github.com/satnamkhowal/grootacademy.com.git HEAD` failed before remote resolution with `Could not resolve host: github.com`; a separate raw.githubusercontent.com fetch failed DNS resolution too. Therefore the full checkout, GA-B00029 full-root render and authorized-origin HTTP/MIME checks remain unavailable in this run. This does not invalidate prior candidate `php -l` or minimal-fixture results, but those do not satisfy the full-root/production gates.
+
+No central main/source main change, owner reassignment, self-approval, self-merge, deployment, publication, mass indexing or ranking claim is made.
