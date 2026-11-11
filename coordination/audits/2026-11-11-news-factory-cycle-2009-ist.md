@@ -350,3 +350,14 @@ A further verification pass was completed after the first 01:09 checkpoint appen
 - Primary evidence: https://github.com/react/react-native/compare/v0.89.0-rc.0...v0.89.0-rc.1 ; https://www.npmjs.com/package/react-native?activeTab=versions ; https://github.com/react/react-native/tree/v0.89.0-rc.1
 
 This correction supersedes any earlier wording in the 01:09 checkpoint that said the GitHub Releases list itself displayed a published RC1 entry or that WebSocket inspection was newly added in RC1.
+
+
+### Additional 12 November verification — opportunity and issue-field corrections
+
+- **Forsk #182 word count/source correction:** the article is now 2,223 words. GitHub's 7 August 2026 changelog confirms multi-select issue fields were already generally available; the 11 November personal-account announcement includes them. The current Managing issue fields docs page inspected on 12 November still lists four types, so the article now describes that as documentation lag rather than uncertainty about multi-select availability. Metadata and PR body were updated. Source: https://github.blog/changelog/2026-08-07-connecting-issues-and-multi-select-field-support/
+- **SDEF India Scholarship 2026–27:** official page currently says applications are being accepted and the deadline is extended to 30 November 2026. Detailed page states first-year full-time professional undergraduate study in India, minimum 80% in Class XII, no post-Class-XII gap year, family income up to ₹12 lakh, up to ₹50,000 annually / ₹2 lakh over four years subject to renewal. Existing Forsk #178 received a source-status comment. Sources: https://www.swamidayanand.org/india-scholarships-2026-27 ; https://www.swamidayanand.org/overview-and-eligibility-india
+- **Bharti Airtel Scholarship 2026–27:** official Foundation page currently says applications are open, 100% annual fee coverage, Indian citizen/resident, family income up to ₹8 lakh, and first-year undergraduate engineering or five-year integrated technology courses at top-50 NIRF Engineering institutions. The current page does not display a closing date. Existing Jaipur #45 received a source-status comment. Source: https://www.bhartiairtelfoundation.org/bharti-airtel-scholarship
+- **React core release recheck:** official React releases page still lists 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026. No newer November stable release was found. Source: https://github.com/react/react/releases
+- Existing owner comments added: Forsk #178 SDEF current deadline (comment 6806101517) and Jaipur #45 Bharti Airtel current application status (comment 6806102209).
+
+No new article was created for SDEF or Bharti Airtel because both already have active draft owners. No extra graphics or video embeds were created.
