@@ -571,3 +571,14 @@ Four non-overlapping research lanes were checked against primary sources: (1) st
 | Existing PR source-recheck comments | 2 (Mango #143 and #162) |
 
 No merge, rebase, deployment, live publication, application submission or production configuration change occurred. The new Groot article remains Draft and must pass independent editorial/technical and responsive QA before any publication decision.
+
+
+### Cycle 11 post-review correction — article billing detail
+
+The Groot Academy PR #647 article and metadata were updated after a direct read of Google's Artifact Analysis pricing page:
+- Billing begins immediately when the Container Scanning API is enabled.
+- The first push of an image triggers the initial automatic scan and charge; subsequent scans of the same image digest are free.
+- Adding or editing tags does not create a new scan charge.
+- Existing images are not automatically scanned merely because the API is enabled; they must be pushed again to trigger a scan.
+- Updated article length: **2,236 words**. Updated metadata SHA-256 is recorded in the sidecar.
+- PR #647 now compares **5 commits ahead / 0 behind** main, still OPEN/DRAFT and mergeable. Workflow runs and commit statuses remain empty; CI pass is not claimed.
