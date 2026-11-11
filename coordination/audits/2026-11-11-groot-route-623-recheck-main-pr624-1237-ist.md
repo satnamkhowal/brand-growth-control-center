@@ -50,7 +50,7 @@ Current central main is `80c75e28734ce22831e93d9f431f4c15ccad0f6c`; README blob 
 - The current control board has three rows: Jaipur Engineers, Central coordination, and Forsk Coding School. Only two rows are brand-specific; Groot Academy has no active owner/status row.
 - Central PRs #1, #2 and #3 are merged. Reuse the existing AEO/GEO baseline in PR #2; do not recreate it.
 - Jaipur Engineers `je2` social repository vs `jaipur-engieneers` candidate website/deployed-origin mapping remains unresolved; no ownership transfer or incorrect-repository assumption.
-- Central PR #20 remains OPEN/DRAFT, 34 commits ahead / 4 behind main, 22 changed files and 0 independent reviews.
+- Central PR #20 remains OPEN/DRAFT with 23 changed files and 0 independent reviews. Ahead/behind is dynamic as this audit checkpoint is committed; use the live PR comparison.
 
 ## Exact next action
 
