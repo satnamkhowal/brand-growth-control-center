@@ -62,3 +62,8 @@ Current central README still registers eight brands but its active control board
 5. Master owner: record the 10K/P3 versus user-authorized 100K/P0 alignment and one canonical queue/release owner.
 
 No central main or source main change, owner reassignment, self-approval, self-merge, deployment, publication, mass indexing or ranking claim is made. This file is coordination-only.
+
+
+### Second exact-head CI failure — 2026-11-12 03:53 IST
+
+Groot PR #649's subsequent Blog factory review-candidates run [43111093876](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43111093876) also failed before steps. Job `130827001595` returned `steps: null`; log retrieval returned Azure Storage `BlobNotFound` (HTTP 404). Zero assertions are evidenced as executed. No retry was triggered. This confirms the same Actions/storage infrastructure blocker; it does not change the local 34/34 result or the independent/release gates.
