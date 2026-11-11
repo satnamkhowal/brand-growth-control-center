@@ -214,7 +214,7 @@ Carried-forward checkpoint from 06:05 IST: 76 researched, 64 drafted, 64 origina
 ## 8. Next actions
 
 1. Independent editorial/source QA and responsive/browser QA for Mango #170 and Groot #615.
-2. Keep both new PRs Draft. Their refreshed GitHub snapshots now report `mergeable=true`, but independent QA and explicit approval are still required before any merge. Investigate Mango PHP Architecture Check run 42941486566 / job 130264099531 through repository administrators because the job has no visible steps and its log endpoint returned BlobNotFound; do not blindly rerun.
+2. Keep both new PRs Draft. Their refreshed GitHub snapshots now report `mergeable=true`, but independent QA and explicit approval are still required before any merge. Investigate the latest Mango PHP Architecture Check run 42941989357 / job 130265737584 through repository administrators because the job has no visible steps and its log endpoint returned BlobNotFound; the earlier run 42941486566 showed the same pattern. Do not blindly rerun.
 3. Recheck NCDC's official form and the 2027 approval status before the 30 November window closes; the form redirected to Google sign-in in this run.
 4. Recheck the official Node.js release index and security advisories when the 11 November patches actually publish; update Mango #143 only with real CVEs and patched versions.
 5. Keep Forsk #145 as React owner unless the official React team announces a new release/advisory.
