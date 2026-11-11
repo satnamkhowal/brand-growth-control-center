@@ -582,3 +582,61 @@ The Groot Academy PR #647 article and metadata were updated after a direct read 
 - Existing images are not automatically scanned merely because the API is enabled; they must be pushed again to trigger a scan.
 - Updated article length: **2,236 words**. Updated metadata SHA-256 is recorded in the sidecar.
 - PR #647 now compares **5 commits ahead / 0 behind** main, still OPEN/DRAFT and mergeable. Workflow runs and commit statuses remain empty; CI pass is not claimed.
+
+
+### Cycle 11 final delivery addendum — 12 November 2026
+
+#### Second new draft: Mango Engineers Git security update
+
+**PR #185:** https://github.com/satnamkhowal/mangoengineers.com/pull/185
+- Original English draft: 1,949 words, six Git vulnerability classes and GitHub's announced Git 2.56.1 / 2.55.1 / 2.54.1 / 2.53.1 / 2.52.1 / 2.51.3 / 2.50.2 version matrix.
+- Original 1200×675 SVG committed at `docs/news-factory/media/git-security-november-2026-vulnerability-map.svg`.
+- Local PNG 1200×675 / 151,195 bytes and WebP 1200×675 / 70,316 bytes; both decoded and visually inspected. Metadata records original-artwork permission, attribution, alt text, dimensions, local paths and SHA-256.
+- The article explicitly preserves the primary-source conflict: GitHub Blog names patched releases, while the Git project's GHSA for CVE-2026-111760 still lists all versions affected and no patched versions. It does not claim the recursive-clone RCE is fixed; it recommends avoiding recursive clones of untrusted repositories.
+- PR #185 is OPEN/DRAFT, mergeable, 3 commits ahead / 0 behind main, exactly 3 files. PHP Architecture Check is queued; no CI pass is claimed. Independent security/editorial QA and responsive browser QA remain pending.
+- No verified story-specific YouTube video was found; no iframe or video download.
+
+#### First new draft: Groot Academy Cloud Run vulnerability assessment
+
+**PR #647:** https://github.com/satnamkhowal/grootacademy.com/pull/647
+- Original English draft now **2,262 words** after pricing-source corrections.
+- Original 1200×675 SVG committed; local PNG/WebP derivatives remain uncommitted.
+- Pricing section now includes API-enable billing, first-push scan billing, same-digest subsequent scan/tag behavior, SCC Premium PAYG rates and the published US$15,000 minimum annual cost for Premium and Enterprise subscriptions.
+- PR #647 is OPEN/DRAFT, mergeable, 7 commits ahead / 0 behind main, exactly 3 files. No workflow run or commit status returned; CI pass is not claimed. Independent QA remains pending.
+
+#### Existing-owner source updates and release verification
+
+- Mango #143 received the 11 November Node.js security release matrix: 22.23.5, 24.22.3 and 26.13.1, with the CVE-2026-126051 branch distinction. No duplicate Node.js article was created.
+- Mango #162 received a Microsoft source recheck: .NET 11.0.0 GA / SDK 11.0.100 on 10 November; .NET 10.0.15 remains active LTS; .NET 8.0.34 and 9.0.23 were final patches and reached end of support on 10 November. The .NET 10.0.15 Identity scaffolding/template CVE-2026-118741 caveat was highlighted.
+- Groot #644 received a React Native RC1 verification caveat: the current indexed releases page surfaced 0.88.0 stable and 0.89.0-rc.0, while the direct 0.89.0-rc.1 tag/API fetch did not return a verifiable page. Keep RC1 as its existing owner, but require direct primary-source confirmation before publication.
+- Forsk #182 already owns the 11 November GitHub issue-types/issue-fields announcement; no duplicate was created.
+- React core: no new November stable release or new security advisory verified; existing Forsk #145 remains the owner.
+- Git security announcement was published 10 November; the individual package/tag timestamps were not independently verified. The recursive-clone GHSA conflict remains an explicit publication blocker for any claim that CVE-2026-111760 is fully fixed.
+
+#### Opportunity status — existing owners, no new article
+
+- Google Student Researcher 2027: India Remote eligible; 4 December deadline; no stipend/fee stated in the listing; existing Forsk #146.
+- SDEF India Scholarship: open through 30 November; first-year professional undergraduate eligibility, Class XII minimum 80%, family income up to ₹12 lakh, no gap year; up to ₹50,000 per year / ₹2 lakh over four years; fee not stated on the official page; existing Forsk #178.
+- NMMSS: 15 November deadline; existing Forsk #173.
+- VSSC UG/PG academic project routes: 15/16 November deadlines; existing Forsk #172.
+- GIFT FutureLab 2026–27: 20 November deadline and ₹6 lakh total awards; application fee not confirmed in the current official page; existing Forsk #179.
+- NIC Digital India Internship Winter 2026 remains a watchlist lead only. The portal/PDF could not be fully revalidated in this run; no deadline, eligibility, stipend, seat count or fee was promoted as confirmed.
+- No new programme article was created because current open opportunities are already owned or missing critical primary-source details.
+
+#### Cycle 11 final ledger
+
+| Stage | New count |
+|---|---:|
+| Research tracks | 4 |
+| New verified, unowned stories promoted | 2 |
+| New English article drafts | 2 |
+| Original SVG graphics committed | 2 |
+| Local optimized PNG/WebP derivatives | 4 |
+| Verified video embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+| Existing-owner source-recheck comments | 3 (Mango #143, Mango #162, Groot #644) |
+
+Forsk and Jaipur were not written to: Forsk repository file reads returned 404 despite the existing PR #182 being visible; Jaipur's installed-repository search returned only private certificate repositories, not a verified website source repository. Central README still lists eight brands but its active control board has only Jaipur, Central and Forsk rows; Mango/Groot rows remain a controller-owned reconciliation item.
+
+No merge, rebase, deployment, live publication, application submission or production configuration change occurred. Both new articles remain Draft and require independent editorial/technical and responsive QA.
