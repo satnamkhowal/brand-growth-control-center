@@ -41,3 +41,22 @@ Central main remains `80c75e28734ce22831e93d9f431f4c15ccad0f6c`; this report is 
 6. Continue independent GA-B00016 and GA-B00022 runtime/accessibility review.
 
 Central PR #20 remains a draft coordination review. No central merge, source deployment, publication, indexing or live-ranking claim is made.
+
+
+## 23:41 IST — complete historical recovery dependency-chain delta
+
+A fresh PR metadata/patch review found that the previous shorthand `#507 → #531 → #533` omitted four required stacked dependencies. The verified chain is **#507 → #511 → #513 → #517 → #520 → #531 → #533**; all seven remain OPEN/DRAFT:
+
+- #507 restores 22 exact historical article/asset/lab files for GA-B00006–GA-B00010.
+- #511 adds opt-in intrinsic featured-image dimensions in shared layout/CSS.
+- #513 adds PHP/HTTP/asset/code release checks.
+- #517 adds responsive 320/390/1440 browser/CLS checks.
+- #520 adds effective registry/sitemap draft-vs-release inventory and negative tests.
+- #531 fixes the SQL lesson's mobile table readability and extends browser assertions.
+- #533 changes the five unreleased articles to `noindex,follow` and adds negative robots-state tests.
+
+Current Groot main is `071ab8a5ed38864fc2c60828d01d6dcf328f0941`. GitHub compare shows root #507 is **1 ahead / 56 behind** current main from merge base `d9eba9445ac5d58652d9b36f026e3b6efb5e2bea`; cumulative #533 is **31 ahead / 56 behind**, with 31 changed paths including shared `blogs/_shared/blog-layout.php` and `blogs/_shared/assets/blog.css`. #533's direct eight-file patch is not the whole stack. Owner-led recovery must rebase root #507 onto current main and replay each child in dependency order, resolving shared files without dropping intrinsic-image or SQL mobile-table fixes. No child merge is safe independently.
+
+No article, image, PHP route, registry, sitemap, redirect, production file, queue ID/status, approval or publication changed. The five historical routes remain absent from current-main source at the pinned 071ab8a5 check; live HTTP/indexation remains unverified. The 100K controller remains at 23 complete drafts, 23 visuals, 23 PHP candidates, 22 independent editorial passes, 18 independent code passes, 0 independent approvals, 0 published and 0 live verified. Master HAO-008 P3/REVIEW versus authorized 100K/P0 is still unresolved; no new batch.
+
+Central coordination remains unchanged on main: README lists eight brands but three active owner/status rows, with Groot missing; PR #1/#2/#3 merged and AEO/GEO #2 reused; Jaipur Engineers `je2` social vs `jaipur-engieneers` candidate website/deployed-origin mapping unresolved. This is a coordination-only delta on the existing Draft PR #20 branch; source implementation remains in the Groot repository.
