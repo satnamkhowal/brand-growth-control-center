@@ -232,3 +232,43 @@ Carried-forward checkpoint from 06:05 IST: 76 researched, 64 drafted, 64 origina
 - Forsk Coding School — Git security / NMMSS: https://github.com/satnamkhowal/forsk-coding-school/pull/173
 - Groot Academy — OpenSearch clone-upgrade owner: https://github.com/satnamkhowal/grootacademy.com/pull/611
 - Central News Factory coordination: https://github.com/satnamkhowal/brand-growth-control-center/pull/19
+
+## 11 November 2026 — 12:10 IST research / ownership recheck
+
+### Opportunity and scholarship lane
+- Google Student Researcher, 2027 remains directly listed with an Apply control: India / Remote eligible; currently enrolled Bachelor's, Master's or PhD candidates in the named disciplines; relevant CS-area experience; apply before 4 December 2026; rolling review. No stipend amount or publication date is displayed. Existing Forsk PR #146 remains owner. Official page: https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher-2027
+- Google Careers' current India internship search results still list Software Engineering PhD Intern, Summer 2027 (job 109976286780105414) and Silicon Engineering Intern, PhD, Summer 2027 (job 109375266236572358). The two direct detail URLs did not load in this check, so today's Apply state, qualifications and deadlines are not reverified. Forsk PR #160 retains its 10 November direct-page verification as historical evidence only; do not upgrade the current status based on search-result snippets. Search page: https://www.google.com/about/careers/applications/jobs/results/cloud?hl=en&location=India&q=Internship
+- VSSC current portal: INT 08 internship is closed; INT 09 is scheduled for 1 May–31 July 2027 with applications 15 February–15 March 2027. For UG/BE/BTech/BSc/Diploma academic project forms, the current Oct–Dec 2026 slot is closed; the next Jan–Mar 2027 slot lists 15 November 2026 as the form-submission deadline. For ME/MTech/Integrated MTech/MSc/BS-MS, the next Jan–June 2027 slot accepts online applications 15 October 2026 10:00 AM–16 November 2026 11:59 PM. The page also states Indian citizenship and at least 60% / CGPA 6.32 in its general project instructions. Existing Forsk PR #172 remains owner. Official portal: https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+- NSP AY 2026–27 currently lists NMMSS student applications through 15 November 2026; defective/institute verification through 30 November and L2 through 15 December. AICTE Swanath (Technical Degree) and several other named schemes are listed through 30 November. The portal footer still says “Last update on June 2026”; treat the displayed dates as current portal status, but re-open each scheme's live form and current guideline before advising an individual applicant. Existing Forsk PR #173 / existing scheme owners remain unchanged. Official portal: https://scholarships.gov.in/All-Scholarships
+
+### React / frontend lane
+- React's latest stable blog announcement remains 19.3 (9 September 2026). Official patch tags remain 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026; no newer stable tag was found.
+- The 14 October security advisories remain the current owner scope: critical unauthenticated RCE GHSA-xqc2-xf4c-x3h3 / CVE-2026-126187 and high Server Functions DoS GHSA-h3gv-c5rc-p453. Fixed RSC package versions include 19.0.9, 19.1.10, 19.2.9 and 19.3.1. Existing Forsk PR #145 remains owner; no duplicate article. Sources: https://github.com/react/react/releases and https://github.com/react/react/security/advisories
+
+### Node.js / backend lane
+- The official Node.js blog release index still lists 26.13.0 LTS (28 October), 24.22.2 LTS (28 October), 22.23.4 LTS (21 October), and 27.0.0-alpha.0.0.0 (29 October, Alpha). No 11 November security patch tag or CVE bulletin was visible at 12:10 IST.
+- The security notice title refers to the planned release date (11 November); the notice itself was published/last updated 3 November 2026, schedules 26.x/24.x/22.x updates “on or shortly after” 11 November, and rates the highest issue HIGH. It does not disclose CVE IDs, affected patch ranges or fixed versions. Existing Mango PR #143 remains owner; do not mark patches shipped. Sources: https://nodejs.org/en/blog/release and https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+### AI / cloud / developer lane
+- GitHub's November changelog currently shows its latest entries dated 10 November: Enterprise Copilot seat-management API support, Gemini 4 Carbon in Copilot, C++ MSBuild auto-configuration and the inactive-repository Dependabot policy. Existing Forsk PRs #176, #168, #171 and #165 remain owners; no duplicate stories.
+- AWS ElastiCache Serverless Valkey 9 search announcement (10 November) remains Groot PR #617; DynamoDB bulk-put GA remains Groot PR #615. No distinct new 11 November AWS/GCP/Azure developer announcement was verified.
+- Research-only candidate, not a new news story: Microsoft's Azure AI Cloud Developer Associate / AI-200 exam. Certification page last updated 7 October; study guide last updated 30 October. The official guide lists a 120-minute exam and four domains: containerized Azure solutions (20–25%), AI data management (25–30%), connecting/consuming Azure services (20–25%), and securing/monitoring/troubleshooting (20–25%). India-specific exam price is not published on the page (price varies by proctored country); exam languages shown do not include Hindi. Official pages: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-cloud-developer-associate/ and https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200
+- Official Microsoft Learn video candidate: “Preparing for Exam AI-200: Develop containerized solutions on Azure (1 of 4)”, video ID XHOBLJQZBCU, channel Microsoft Learn, source https://www.youtube.com/watch?v=XHOBLJQZBCU (linked from the Microsoft Learn certification page). Exact upload date and embed availability were not independently verified; no iframe or embed-tested claim is recorded.
+
+### Repository / ownership gate
+- Forsk's current master board and session handoff require paired updates. Open News Factory PRs #160, #175 and #176 all modify those shared governance files; no new Forsk article branch was started to avoid conflicting edits.
+- Mango's current News Factory ownership includes PRs #143 and #171; shared task-board/work-log paths are not reused for a new draft. Existing PR #170 remains its separate article/media scope.
+- Groot alias satnamkhowal/grootacademy.com still points in its repository instructions to canonical satnamkhowal/gta; the canonical repository was not present in the accessible installed-repository search. Existing alias PRs #615/#617 were not modified; no new write until canonical identity is resolved.
+- Jaipur Engineers remains read-only: no approved non-public News Factory article lane was found. Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies remain unverified repository/source mappings; no writes.
+- Central PR #19 remains diverged: 85 commits ahead / 4 behind current main. This append-only checkpoint is on the existing PR branch; no rebase, merge, PR #20 change or deployment.
+
+### Production delta for this run
+- New fully verified unowned story candidates: 0.
+- Research-only content candidate: 1 (AI-200 guide; no new announcement and no safe non-overlapping write lane).
+- Existing opportunity/release status lanes rechecked: Google Student Researcher, Google PhD listings, VSSC, NSP, React, Node.js and AI/cloud.
+- New article drafts: 0; new original SVGs: 0; PNG/WebP derivatives: 0; verified YouTube embeds: 0; independent QA-ready increment: 0; live increment: 0.
+- No third-party graphics or videos downloaded/re-uploaded. No new article was forced from an old announcement.
+
+### Ledger reconciliation note
+- The 07:05 checkpoint's carried-forward provisional ledger was 78 researched / 66 drafted / 66 original SVGs / 33 independent QA-ready / 0 live.
+- Four subsequent News Factory PRs were verified on GitHub after that checkpoint: Mango #171, Forsk #175, Groot #617 and Forsk #176. Provisional carried-forward totals are therefore 82 researched / 70 drafted / 70 original SVGs / 33 independent QA-ready / 0 live. This remains a carried-forward estimate, not a full historical archive reconciliation.
