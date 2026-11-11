@@ -450,7 +450,7 @@ Existing task ME-NEWS-20261112-BRAKET-001 was claimed on the current News Factor
 - Local PNG and WebP derivatives were rendered at 1200x675 and visually inspected. The SVG is committed; PNG/WebP are local preview derivatives only.
 - Existing Node.js article was corrected for CVE-2026-123863 and CVE-2026-123874 applicability across all three release lines.
 
-Mango PR #143 is OPEN/DRAFT, currently **50 commits ahead / 1 behind main**, and mergeable=false. It remains unmerged. The branch divergence must be reviewed before any merge. The article, metadata and SVG were read back from GitHub; JSON and SVG validation passed. Independent editorial, technical and browser QA remain pending. No CI pass is claimed.
+Mango PR #143 is OPEN/DRAFT, currently **51 commits ahead / 1 behind main**, and mergeable=false. It remains unmerged. The branch divergence must be reviewed before any merge. The article, metadata and SVG were read back from GitHub; JSON and SVG validation passed. Independent editorial, technical and browser QA remain pending. No CI pass is claimed.
 
 ### 6. Existing ownership and coordination updates
 
