@@ -170,11 +170,11 @@ Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies were no
 - Branch: `content/news-factory-ncdc-internship-20261111-0705`
 - Initial compare: 3 commits ahead / 0 behind main; after three sequential source/metadata corrections, final compare is 7 commits ahead / 0 behind; exactly three additive files.
 - After source-wording correction, the article, SVG and provenance JSON were updated sequentially. No shared file was changed.
-- GitHub read-back: article 1,925 words; metadata JSON parses; SVG has 1200×675 dimensions, title/description and no scripts/external hrefs.
+- GitHub read-back: article 1,935 words; metadata JSON parses and records 1,935; SVG has 1200×675 dimensions, title/description and no scripts/external hrefs.
 - Local PNG: 1200×675, 124,020 bytes, visually inspected.
 - Local WebP: 1200×675, 56,936 bytes; dimensions and SHA-256 recorded in metadata.
 - PR creation initially reported `mergeable=false`; after GitHub metadata refresh the PR snapshot reports `mergeable=true`. Independent editorial/source QA and responsive/browser QA remain pending.
-- No workflow run or combined status check was returned; no CI pass is claimed.
+- PHP Architecture Check run 42941486566 completed with failure. Its only job, php-architecture (130264099531), reports failure but exposes no steps; fetching the job log returned Azure Blob Storage BlobNotFound (404). Combined status list is empty. This is an infrastructure/log-retrieval blocker, not a confirmed source-code defect; no blind rerun was started and no CI pass is claimed.
 
 ### Groot Academy PR #615
 - URL: https://github.com/satnamkhowal/grootacademy.com/pull/615
@@ -184,7 +184,7 @@ Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies were no
 - Local PNG: 1200×675, 125,774 bytes, visually inspected.
 - Local WebP: 1200×675, 48,060 bytes; dimensions and SHA-256 recorded in metadata.
 - PR creation initially reported `mergeable=false`; after GitHub metadata refresh the PR snapshot reports `mergeable=true`. Independent editorial/source QA and responsive/browser QA remain pending.
-- No workflow run or combined status check was returned; no CI pass is claimed.
+- No PR-triggered workflow runs or combined status checks were returned for the Groot PR head; no CI pass is claimed.
 
 ### Video and media policy
 
@@ -214,7 +214,7 @@ Carried-forward checkpoint from 06:05 IST: 76 researched, 64 drafted, 64 origina
 ## 8. Next actions
 
 1. Independent editorial/source QA and responsive/browser QA for Mango #170 and Groot #615.
-2. Keep both new PRs Draft. Their refreshed GitHub snapshots now report `mergeable=true`, but independent QA and explicit approval are still required before any merge.
+2. Keep both new PRs Draft. Their refreshed GitHub snapshots now report `mergeable=true`, but independent QA and explicit approval are still required before any merge. Investigate Mango PHP Architecture Check run 42941486566 / job 130264099531 through repository administrators because the job has no visible steps and its log endpoint returned BlobNotFound; do not blindly rerun.
 3. Recheck NCDC's official form and the 2027 approval status before the 30 November window closes; the form redirected to Google sign-in in this run.
 4. Recheck the official Node.js release index and security advisories when the 11 November patches actually publish; update Mango #143 only with real CVEs and patched versions.
 5. Keep Forsk #145 as React owner unless the official React team announces a new release/advisory.
