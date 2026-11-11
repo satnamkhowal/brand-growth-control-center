@@ -183,3 +183,21 @@ Carried-forward checkpoint from 05:02 IST: 74 researched, 62 drafted, 62 origina
 - Mango Engineers — Node.js security owner, PR #143: https://github.com/satnamkhowal/mangoengineers.com/pull/143
 - Groot Academy — OpenSearch clone-upgrade owner, PR #611: https://github.com/satnamkhowal/grootacademy.com/pull/611
 - Central News Factory coordination PR #19: https://github.com/satnamkhowal/brand-growth-control-center/pull/19
+
+
+## Official Google Student Researcher 2027 revalidation — 11 November 2026
+
+The live Google Careers listing was opened again after the initial four-lane snapshot:
+
+- Listing title: Student Researcher, 2027.
+- Application status: page displays Apply.
+- Country / location: India; Remote eligible.
+- Deadline: **4 December 2026**; Google says applications are reviewed on a rolling basis and encourages early application.
+- Minimum enrolment: Bachelor's, Master's or PhD in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics or Natural Sciences.
+- Relevant computer-science experience required in an area such as NLP, HCI, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Quantum Information Science, Data Science or Software Engineering.
+- The candidate must remain located in one of the listed country locations for the full engagement. Project duration and location vary by team.
+- The listing does not publish a stipend amount, application fee or one fixed programme duration.
+
+Official listing: https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+
+This is a status revalidation for the existing Forsk PR #146 owner, not a new story or draft. A status-only comment was added to that PR; ownership remains unchanged.
