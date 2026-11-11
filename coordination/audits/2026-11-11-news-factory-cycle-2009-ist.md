@@ -335,3 +335,18 @@ All three new PRs remain OPEN and DRAFT. No merge, deployment, publication, appl
 6. Monitor VSSC UG/PG and NMMSS deadlines (15–16 November) and NeGD Non-Technical (20 November).
 7. Obtain the new NeGD Technical Internship attachment/application route; do not reuse the old May PDF.
 8. Preserve Groot GA-B00016/100K controller and central brand mapping ownership; no queue regeneration or controller-board rewrite.
+
+
+### Groot React Native RC1 source correction — 12 November 2026
+
+A further verification pass was completed after the first 01:09 checkpoint append.
+
+- The immutable React Native tag `v0.89.0-rc.1` exists in `react/react-native`; its release commit is `2b01cc2d900ce6f0124352ea2f2a45a943509070`, dated 9 November 2026 at 23:52 UTC (10 November in India).
+- npm's React Native version history lists `0.89.0-rc.1` published on 10 November and tagged `next`; `0.88.1` remains tagged `latest`. The GitHub Releases list inspected did not show a separate published RC1 release entry, so the article now uses the immutable tag, npm version history and RC0-to-RC1 comparison rather than claiming that a separate GitHub Releases entry proves RC1 publication.
+- RC1's WebSocket-event inspection change is more precisely described as promotion of `fuseboxWebSocketEventsEnabled` from Canary to Stable, not as a brand-new capability. The source comparison confirms the promotion commit `3d8a7a0296e8ee9ae9db4ec23456dd6f26ab43bb`. Other RC1 changes in the article were cross-checked against the eight commits from RC0 to RC1.
+- Existing Groot PR #644 article and metadata were corrected and read back. Word count is now 2,157. Existing original SVG was retained; no new graphic was created.
+- PR #644 remains OPEN/DRAFT and currently mergeable. Its branch is 7 ahead / 1 behind because main received the unrelated Java retrospective commit #645 (`0923feed`). No rebase or merge was performed. No CI workflow run returned; independent editorial, technical and browser QA remain pending.
+- Updated PR: https://github.com/satnamkhowal/grootacademy.com/pull/644
+- Primary evidence: https://github.com/react/react-native/compare/v0.89.0-rc.0...v0.89.0-rc.1 ; https://www.npmjs.com/package/react-native?activeTab=versions ; https://github.com/react/react-native/tree/v0.89.0-rc.1
+
+This correction supersedes any earlier wording in the 01:09 checkpoint that said the GitHub Releases list itself displayed a published RC1 entry or that WebSocket inspection was newly added in RC1.
