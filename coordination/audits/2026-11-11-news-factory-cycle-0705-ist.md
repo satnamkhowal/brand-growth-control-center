@@ -104,11 +104,11 @@ Sources:
 - Standard tier: up to **100 GB** per operation; available in all commercial AWS Regions and AWS GovCloud (US).
 - Accelerated tier: up to **1 TB** per operation; the current regional list includes Asia Pacific (Mumbai) and Asia Pacific (Hyderabad).
 - The AWS Database Blog's US East (N. Virginia) examples are **$0.10/GB Standard** and **$0.20/GB Accelerated**. These are not India price quotes. The article directs readers to the current regional pricing page.
-- The article includes table/account concurrency limits, global-table and vector-index launch restrictions, whole-item-only behaviour, S3 error reports, downstream stream-consumer considerations and the critical warning that cancellation does not roll back already-written items.
+- The article includes table/account concurrency limits, global-table and vector-index launch restrictions, whole-item-only behaviour, S3 error reports, downstream stream-consumer considerations, current pricing-page caveats and the critical warning that cancellation does not roll back already-written items.
 - No claim is made that Groot Academy is an AWS partner, reseller or customer.
 - Groot's AWS Cloud Computing course route was verified before adding an internal learning link: https://grootacademy.com/courses/aws-course-jaipur/
 
-**Article:** `docs/news-factory/drafts/dynamodb-bulk-put-items-s3-import-guide-2026.md` — 2,610 words.  
+**Article:** `docs/news-factory/drafts/dynamodb-bulk-put-items-s3-import-guide-2026.md` — 2,696 words.  
 **Original SVG:** `docs/news-factory/media/dynamodb-bulk-put-items-architecture.svg` — 1200×675.  
 **Metadata:** `docs/news-factory/drafts/dynamodb-bulk-put-items-s3-import-guide-2026.metadata.json`.  
 **PR:** https://github.com/satnamkhowal/grootacademy.com/pull/615
@@ -171,16 +171,16 @@ Clever Ape Academy, CadMate India, Groot Software and Forsk Technologies were no
 - Initial compare: 3 commits ahead / 0 behind main; after the seat-count and provenance refreshes, final compare is 11 commits ahead / 0 behind; exactly three additive files.
 - After source-wording correction, the article, SVG and provenance JSON were updated sequentially. No shared file was changed.
 - GitHub read-back: article 1,935 words; metadata JSON parses and records 1,935; SVG has 1200×675 dimensions, title/description and no scripts/external hrefs.
-- Local PNG: 1200×675, 124,020 bytes, visually inspected.
-- Local WebP: 1200×675, 56,936 bytes; dimensions and SHA-256 recorded in metadata.
+- Local PNG: 1200×675, 124,103 bytes, visually inspected.
+- Local WebP: 1200×675, 57,860 bytes; dimensions and SHA-256 recorded in metadata.
 - PR creation initially reported `mergeable=false`; after GitHub metadata refresh the PR snapshot reports `mergeable=true`. Independent editorial/source QA and responsive/browser QA remain pending.
 - Two PHP Architecture Check runs on the earlier and current Mango PR heads (42941486566 and 42941989357) completed with failure. The latest job, php-architecture (130265737584), exposes no steps; fetching its log returned Azure Blob Storage BlobNotFound (404). The earlier job showed the same no-steps / BlobNotFound pattern. Combined status list is empty. This is an infrastructure/log-retrieval blocker, not a confirmed source-code defect; no blind rerun was started and no CI pass is claimed.
 
 ### Groot Academy PR #615
 - URL: https://github.com/satnamkhowal/grootacademy.com/pull/615
 - Branch: `content/news-factory-dynamodb-bulk-put-20261111-0705`
-- Compare: 3 commits ahead / 0 behind main; exactly three additive News Factory files.
-- GitHub read-back: article 2,610 words; metadata JSON parses; SVG has 1200×675 dimensions, title/description and no scripts/external hrefs.
+- Initial compare: 3 commits ahead / 0 behind main; after two pricing/provenance updates, final compare is 5 commits ahead / 0 behind; exactly three additive News Factory files.
+- GitHub read-back: article 2,696 words; metadata JSON parses and records 2,696; SVG has 1200×675 dimensions, title/description and no scripts/external hrefs.
 - Local PNG: 1200×675, 125,774 bytes, visually inspected.
 - Local WebP: 1200×675, 48,060 bytes; dimensions and SHA-256 recorded in metadata.
 - PR creation initially reported `mergeable=false`; after GitHub metadata refresh the PR snapshot reports `mergeable=true`. Independent editorial/source QA and responsive/browser QA remain pending.
