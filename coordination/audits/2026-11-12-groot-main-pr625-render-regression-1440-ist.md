@@ -91,3 +91,12 @@ Central main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; its README stil
 5. Master owner reconciles 10K/P3 vs 100K/P0 and names one canonical queue/release owner before new batches.
 
 No self-approval, self-merge, deployment, publication, mass indexing, queue mutation or cross-brand ownership change occurred.
+
+
+### Immediate current-main follow-up — 202b7f26
+
+After the 15:35 IST report, Groot main advanced to [`202b7f26`](https://github.com/satnamkhowal/grootacademy.com/commit/202b7f26c1f9e4d6c4ccdacc4c578b2d446a35e4), a single-file `courses/index.php` change to explain empty catalogue search results. It does not overlap the recovery articles, shared blog head or QA workflow.
+
+Fresh comparisons: #507 **3 ahead / 16 behind** (merge base `f048dedf`); #625 **6 ahead / 18 behind** (merge base `071ab8a5`). Source-owner follow-up comments: [#507 comment](https://github.com/satnamkhowal/grootacademy.com/pull/507#issuecomment-6820841302), [#625 comment](https://github.com/satnamkhowal/grootacademy.com/pull/625#issuecomment-6820842017). Both remain Draft and unapproved. No branch was rebased or merged.
+
+The 29-ID queue, controller counts, Master 10K/P3 versus authorized 100K/P0 discrepancy, missing Groot control-board owner row and unresolved Jaipur repository mapping are unchanged. No new article or asset was generated; no publication/deployment/live claim.
