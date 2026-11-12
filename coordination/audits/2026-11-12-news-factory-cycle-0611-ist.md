@@ -106,3 +106,95 @@ No ownership reassignment, shared-file edit, merge, rebase, deployment, applicat
 ## PR #184 final status correction — 12 November 2026, 06:13 IST
 
 After the checkpoint was first committed, Forsk PR #184 was re-fetched after GitHub completed mergeability calculation. The latest PR snapshot reports **OPEN / DRAFT / UNMERGED / mergeable=true**, with 2 commits, 2 changed files and 307 additions; the main comparison remains 2 ahead / 0 behind. The earlier creation-time `mergeable=false` observation is superseded. Combined commit-status endpoint still returns an empty list, so no CI pass is claimed. Independent editorial/fact QA remains pending. No merge or publication occurred.
+
+
+## 12 November 2026 — 07:03 IST active News Factory cycle
+
+**Scope:** Four non-overlapping research lanes, current ownership/deduplication review, one bounded original article draft and one original graphic. This update is appended to the existing checkpoint; no new controller branch or worker chat was created.
+
+### 1. New verified story and Groot delivery
+
+AWS announced on **5 November 2026** that Amazon Q Developer in the AWS Management Console and Console Mobile Application is now named **AWS Assistant**. AWS says the same account-aware guidance/actions continue, the assistant is currently available at no additional charge, existing Q Developer Pro subscribers retain Pro-tier capabilities and the assistant is globally available. The current product page describes resource/cost analysis and troubleshooting; the user guide confirms the name applies to console/mobile only and that the technical `q` prefix remains in IAM actions, managed policies, service principals, ARNs, CloudTrail events and resource names.
+
+Separate timeline: AWS's documentation history records the IDE plugin end-of-support notice on **17 August 2026**; the official end-of-support page states Amazon Q Developer IDE plugin support ends **30 April 2027** and points users to Kiro. This is not the end date for AWS Assistant in the console.
+
+New original guide:
+- [Groot Academy PR #655](https://github.com/satnamkhowal/grootacademy.com/pull/655) — OPEN / DRAFT / UNMERGED / mergeable=true.
+- Branch: `news-factory/aws-assistant-console-ide-20261112-0703`, based on Groot main `0923feed95358ed967e0d783440fd28ba6d77a54`.
+- Article: 2,306 words; docs-only. Metadata JSON and article read-back verified; duplicate YAML publication-status field corrected.
+- Original SVG: 1200×675, 4,501 bytes, committed. PNG 1200×675 (581,189 bytes) and optimized WebP 1200×675 (48,518 bytes) are local derivatives; both decoded and dimension-checked, PNG visually inspected. Only the SVG is committed.
+- Media source/rights: original Groot Academy editorial artwork, no AWS logo, product screenshot or third-party asset. Local paths, attribution and alt text are recorded in the metadata sidecar.
+- No story-specific YouTube video met the video-ID, channel, publication-date and embedding-permission checks; no iframe, video download or reupload.
+- PR: 4 commits ahead / 0 behind main; 3 files; 386 additions; GitHub reports mergeable=true. Combined commit-status endpoint returned no statuses. Independent editorial, technical/security and responsive browser QA remain pending. No merge, deployment or publication.
+
+Official sources:
+- https://aws.amazon.com/about-aws/whats-new/2026/11/q-developer-renamed-aws-assistant/ (published 5 November 2026)
+- https://aws.amazon.com/products/assistant/
+- https://docs.aws.amazon.com/assistant/latest/userguide/what-is.html
+- https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/doc-history.html (notice recorded 17 August 2026)
+- https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/q-developer-ide-end-of-support.html (support ends 30 April 2027)
+
+### 2. Student programmes and opportunities
+
+- Google Student Researcher 2027 remains open on the direct Google Careers listing: India Remote is shown; Bachelor's/Master's/PhD students in listed relevant disciplines; application deadline **4 December 2026**; rolling review. No stipend or application fee is stated in the accessible listing. Existing owner: [Forsk #146](https://github.com/satnamkhowal/forsk-coding-school/pull/146).
+- Sage IT India Scholarship remains open through **15 November 2026**: 17–30 years, enrolled in a recognised Indian college/university, all majors/degree levels; original unpublished 1,000–1,500-word individual article; ₹50,000 one-time payment to the selected winner's institution; no entry fee; winner announcement 30 November. Existing owner: [Forsk #184](https://github.com/satnamkhowal/forsk-coding-school/pull/184). Sponsor may modify/cancel; recheck before submission.
+- Current NSP 2026–27 All-Scholarships listing shows **NMMSS through 15 November 2026** and AICTE Pragati/Saksham/Swanath schemes through **30 November 2026**; verification dates differ and are shown separately. NSP page footer says last update June 2026. Existing Forsk owners: #173, #183 and #147; no duplicate articles.
+- PM YASASVI Top Class Education in Schools remains listed through 30 November on the current NSP page, but the separate official announcement says fresh applications from Rajasthan, Keralam and Karnataka are not yet open. Preserve the state restriction in Forsk #156; do not tell Rajasthan students to apply as if the fresh route were available.
+- E&ICT Academy IIT Roorkee's official short-term training listing currently shows seven Winter Training and Internship programmes (Generative AI & Prompt Engineering; Data Science using Python; Machine Learning & Agentic AI; AI-Powered Full Stack Web Development; Ethical Hacking & Cyber Security; Semiconductor Technology; IoT & Edge AI), each listed at ₹8,000 including GST with a displayed application deadline of **29 November 2026**. Several recent secondary reports say 30 November and add six-week/two-batch/eligibility details, but the directly accessible official listing does not expose those detailed fields. Existing Forsk #181 already owns the Data Science using Python course. This candidate remains research-only: no article until the official course detail/application pages resolve the deadline discrepancy and confirm individual eligibility, dates and terms.
+- NeGD Technical Internship PDF/application details remain unverified; no new open-program claim or article.
+
+Primary sources:
+- https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher-2027
+- https://sageitinc.com/scholarship/india
+- https://scholarships.gov.in/All-Scholarships
+- https://scholarships.gov.in/ViewMoreAnnouncement
+- https://eict.iitr.ac.in/programs/course/short-term-training/
+
+### 3. React / frontend
+
+- React official blog still lists React 19.3 (9 September 2026) as the latest feature announcement; visible stable patch tags remain 19.3.1, 19.2.9, 19.1.10 and 19.0.9 (14 October 2026). No newer November React core stable release was found.
+- React Native 0.89.0-rc.1 remains a pre-release; the official release schedule lists 0.89.x as Future with a planned 7 December 2026 release. Existing owner: [Groot #644](https://github.com/satnamkhowal/grootacademy.com/pull/644). No duplicate article.
+
+Sources: https://react.dev/blog ; https://github.com/react/react/releases ; https://reactnative.dev/releases/overview
+
+### 4. Node.js / backend security
+
+The official 11 November 2026 security release provides:
+- Node.js 22.x: **22.23.5**
+- Node.js 24.x: **24.22.3**
+- Node.js 26.x: **26.13.1**
+
+The bulletin lists 16 distinct CVEs across the release matrix (7 HIGH, 6 MEDIUM, 3 LOW); applicability differs by release line. Existing Mango [PR #143](https://github.com/satnamkhowal/mangoengineers.com/pull/143) already contains the corrected release-line matrix and article update; Groot [PR #650](https://github.com/satnamkhowal/grootacademy.com/pull/650) owns the separate Node.js 27 Alpha/V8 guide. No duplicate article or extra code change.
+
+Source: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+### 5. AI / Cloud / developer news
+
+- New unowned item selected: AWS Assistant console rename plus the separate IDE plugin support timeline — Groot #655 above.
+- GitHub personal-account Issue Types/Fields, Gemini 4 Carbon in Copilot, C++/MSBuild auto-configuration, Dependabot inactive-repository policy, AWS SDK retry-default change, AWS Lambda MicroVM and other current AI/cloud items remain assigned to existing Mango/Groot/Forsk PRs; no duplicate drafts created.
+
+### 6. Repository and coordination review
+
+- Mango: private canonical repo `satnamkhowal/mangoengineers.com`; README, agent-start instructions, task board, integration queue and current open PRs read. Node security remains owned by Mango #143. README positioning says technology/programming training in Jaipur; no unverified industrial-engineering-service claim added.
+- Groot: private canonical repo `satnamkhowal/grootacademy.com`; root README, .agent README/master handoff/current state/backlog/decisions, content-radar README, course sitemap and current open PRs read. News Factory work remains documentation-only; content-radar Auto Publish is OFF. New work is isolated to docs/news-factory paths; no canonical route or sitemap change.
+- Forsk: private canonical repo `satnamkhowal/forsk-coding-school`; README.txt, current News Factory draft inventory and open PR ownership read. Existing programme owners retained.
+- Jaipur Engineers: installed-repository search resolved the canonical website repo as `satnamkhowal/jaipurengineers.com` (not the similarly named legacy `jaipur-engieneers`). Current open PRs #46 Honeywell, #45 Bharti Airtel, #44 NITI Aayog, #43 readability, #41 batch/enquiry and #27 social were reviewed. Conventional root README.md was not found; no write made.
+- Central Control Center: README, control-board excerpt and existing News Factory PR #19/checkpoint read. Current control board still shows Jaipur, Central and Forsk rows; Mango/Groot ownership rows remain absent. No controller-owned board edit made.
+
+Central PR #19 remains OPEN/DRAFT and diverged from main; no rebase or merge. This update reuses its existing branch and append-only checkpoint file.
+
+### 7. Production ledger — this run only
+
+| Stage | Delta |
+|---|---:|
+| Non-overlapping research tracks | 4 |
+| New primary-source-verified unowned story selected | 1 |
+| Original English article drafts | 1 |
+| New Draft PRs | 1 |
+| Original SVG graphics committed | 1 |
+| Local optimized PNG/WebP derivatives | 2 |
+| Verified YouTube embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+
+**Next actions:** independent editorial/technical QA of Groot #655; retrieve the E&ICT Academy course-specific official detail pages and resolve the 29/30 November deadline discrepancy; recheck Sage IT and NMMSS before 15 November; preserve current Node/React and scholarship owners. No merge, deployment, application submission or live publication in this cycle.
