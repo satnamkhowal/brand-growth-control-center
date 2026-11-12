@@ -198,3 +198,42 @@ Central PR #19 remains OPEN/DRAFT and diverged from main; no rebase or merge. Th
 | Live/published increment | 0 |
 
 **Next actions:** independent editorial/technical QA of Groot #655; retrieve the E&ICT Academy course-specific official detail pages and resolve the 29/30 November deadline discrepancy; recheck Sage IT and NMMSS before 15 November; preserve current Node/React and scholarship owners. No merge, deployment, application submission or live publication in this cycle.
+
+
+## 12 November 2026 — 07:03 IST source recheck corrections
+
+This supplemental note records two corrections discovered while validating the four research lanes. It does not create a second story owner.
+
+### React / frontend security correction
+
+The current official React GitHub advisory page for **GHSA-xqc2-xf4c-x3h3** now displays **CVE-2026-126187** (Critical, CVSS 9.5). The earlier Forsk article said no CVE was listed; that statement was no longer accurate on the current advisory page. Existing [Forsk PR #145](https://github.com/satnamkhowal/forsk-coding-school/pull/145) was updated in place on its existing branch: `verified_on` changed to 2026-11-12 and the CVE cross-reference was added. Commit: `f2fdd893c787e30ed9ab2f2e29a85439118ba665`. Read-back verified; PR remains OPEN/DRAFT/UNMERGED, 7 commits ahead / 0 behind, mergeable=true. A PR comment records the correction. Independent editorial/security QA remains pending.
+
+The separate **GHSA-h3gv-c5rc-p453** Server Functions denial-of-service advisory remains High (CVSS 8.2); the current page does not show a CVE ID. Both advisories are dated **14 October 2026**, not new November disclosures. Both list patched React Server Components package versions **19.0.9, 19.1.10, 19.2.9 and 19.3.1** for `react-server-dom-webpack`, `react-server-dom-parcel` and `react-server-dom-turbopack`, with affected ranges differing slightly by advisory. Official release tags 19.0.9, 19.1.10, 19.2.9 and 19.3.1 are all dated 14 October 2026.
+
+Sources:
+- https://github.com/react/react/security/advisories/GHSA-xqc2-xf4c-x3h3
+- https://github.com/react/react/security/advisories/GHSA-h3gv-c5rc-p453
+- https://github.com/react/react/releases
+
+### React Native release-channel precision
+
+The current official React Native Maven cache lists `0.89.0-rc.1` with timestamp **10 November 2026, 01:24 UTC**. The GitHub Releases page currently displays `0.89.0-rc.0` as its latest formal release entry, so the existing Groot [PR #644](https://github.com/satnamkhowal/grootacademy.com/pull/644) correctly relies on the immutable RC1 tag, npm version history and RC0-to-RC1 comparison rather than claiming a separate GitHub Releases entry. `0.88.1` is the latest stable React Native tag; `0.89.x` remains Future with a planned **7 December 2026** release. Release candidates/nightlies are not for production.
+
+Sources:
+- https://repostage.reactnative.dev/maven2/com/facebook/react/react-native-artifacts/
+- https://github.com/react/react-native/releases
+- https://reactnative.dev/releases/overview
+
+### Updated production delta after recheck
+
+| Deliverable | Delta |
+|---|---:|
+| New original article drafts | 1 (Groot #655) |
+| Existing article corrections | 1 (Forsk #145 CVE cross-reference) |
+| Original SVG committed | 1 (Groot #655) |
+| Local PNG/WebP derivatives | 2 |
+| Additional duplicate React/Node drafts | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+
+No merge, rebase, deployment or publication occurred.
