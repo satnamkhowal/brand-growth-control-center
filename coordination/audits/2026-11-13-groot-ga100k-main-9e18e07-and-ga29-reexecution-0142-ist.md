@@ -102,3 +102,17 @@ Current main source inventory remains 68 unique registry slugs and 41 blog-sitem
 Governance delta remains unchanged: central main 21af139cc32a7b67aab6908c61edeb5998bd4544; eight brands listed, three active owner/status rows, Groot row missing; PRs #1/#2/#3 merged with the existing AEO/GEO PR #2 baseline reused; Jaipur Engineers je2 social vs jaipur-engieneers candidate website mapping unresolved. Latest issue #401 checkpoint at 02:21 IST adds no explicit 10K/P3 vs 100K/P0 alignment, canonical queue owner or independent release approver. PR #22 remains OPEN/DRAFT for independent review.
 
 No source merge, approval, deployment, publication, indexing, owner reassignment or central-main write occurred.
+
+
+## Supplemental delta — current-main registry route reconciliation (13 November 2026, 03:35 IST)
+
+Groot source-side evidence is committed on the isolated controller branch in [report](https://github.com/satnamkhowal/grootacademy.com/blob/content/groot-100k-controller-20261016/marketing/blog-factory/work/B0002/qa/2026-11-13-main-registry-route-reconciliation-0335-ist.md).
+
+- The requested `satnamkhowal/gta` alias resolves to the canonical `satnamkhowal/grootacademy.com` repository; no Mango Engineers source was used.
+- Current main remains `9e18e07`. Exact source blobs: registry `a07129fa`, blog sitemap `60662a5a`, pages sitemap `212b3182`, blog index `bcb93b31`.
+- Correct top-level registry count is **68**, not 65 as stated in issue #401's 02:21 IST checkpoint. Route mapping is **40 blog routes** (13 explicit + 27 fallback) and **28 root-level routes**. All 40 blog routes match the 40 article sitemap URLs; all 28 root routes match `sitemap-pages.xml`. Duplicate keys/URLs and route mismatches: 0.
+- The discrepancy is source-count interpretation only; it does not establish HTTP status, canonical/robots on the deployed origin, live publication or indexation.
+- Planning/current controller queue blobs were compared directly: all 29 IDs remain unique and in exact order. Controller totals remain 23 complete drafts/visuals/PHP candidates; independent approvals, published and live-verified counts remain 0.
+- Central main remains `21af139`; PRs #1/#2/#3 remain merged and existing AEO/GEO PR #2 is reused. PR #22 remains OPEN/DRAFT with zero independent reviews. Central README still lists eight brands but only three active owner/status rows; Groot's row is missing. Jaipur Engineers `je2` social vs `jaipur-engieneers` candidate website mapping remains unresolved.
+
+No central-main write, other-brand source change, merge, approval, deployment, publication or indexing occurred. Exact next action remains independent GA-B00029/runtime release gates and Master-owner 100K/P0 + queue/release ownership alignment.
