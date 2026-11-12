@@ -35,7 +35,7 @@ Primary sources:
 - Cost: no separate UAEF licence fee under Apache 2.0; Bedrock judge calls, DynamoDB/S3 persistence and deployed AWS resources can incur variable charges. No fixed UAEF workflow price is published.
 - Media: no image created. Forsk's P3 News Factory image workflow defers featured-image creation until publication stage. No third-party artwork copied.
 - Video: no story-specific YouTube video with verified ID, channel, date and embed permission found; no iframe and no video download.
-- PR status at check: OPEN, DRAFT, mergeable=true; 7 commits, 2 changed files, 7 ahead / 0 behind main. Main base SHA: 9a25fd5a11641420ac716d3fd25103e6e8362fbf. The Python example and metric names were checked against the official quick-start and metrics catalog; source review only, not executed in an AWS-configured environment.
+- PR status at check: OPEN, DRAFT, mergeable=true; 7 commits, 2 changed files, 7 ahead / 0 behind main. Main base SHA: 9a25fd5a11641420ac716d3fd25103e6e8362fbf. YAML front matter parse and metadata JSON parse/read-back: PASS. The Python example, metric names and dataset schema were checked against the official quick-start and metrics catalog; source review only, not executed in an AWS-configured environment.
 - CI workflow runs and combined status were empty. Independent editorial, technical and responsive QA remain pending.
 
 Primary sources:
