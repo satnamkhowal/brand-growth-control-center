@@ -47,3 +47,16 @@ Scope: bounded source/QA and coordination delta only. No full-site crawl, rankin
 5. Central owner reconciles Groot's control-board row and the JE repository/workstream mapping without moving implementation into the coordination repository.
 
 No self-approval, self-merge, deployment, publication, mass indexing or ranking/live claim was made.
+
+
+## Supplemental delta — 2026-11-12 11:39 IST (Groot CSS escape + current-main reconciliation)
+
+- Groot current main advanced from `f048dedf22da86e93b5b505cc1ebc84884f3a5c8` to `dc2d76ec4e81600fceaf36066715f6b7b0418cee` via the homepage Python course-link fix. Its only changed path is root `index.php`; current PR #664's 21-ahead/1-behind comparison has no path overlap with that main delta. The recovery stack remains separate and open/draft; no rebase, merge or main write was made.
+- New source repair on Groot PR [#664](https://github.com/satnamkhowal/grootacademy.com/pull/664): CSS hexadecimal escape terminators must consume CRLF as one unit. The prior normalizer consumed CR only, left LF, and could miss a URL function even though tinycss2 tokenized it as an external URL. Regex now handles CRLF atomically; the regression fixture contains an actual CRLF.
+- Coordinator-equivalent local unit suite: **11/11 PASS**. Differential fuzzing against tinycss2: **10,000 generated CSS variants, 0 external-URL bypasses after repair**; the pre-repair bypass was reproduced. These are focused local checks, not full repository CI or independent approval.
+- Exact-head Actions run [43166872184](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43166872184), job `131010669501`, returned `steps: null`; log retrieval returned Azure `BlobNotFound` 404. Zero assertions ran. Administrator diagnosis remains required; no blind retry.
+- PR #664 head `4662082997dba40dfab6d847d609b2bb6cf8fa5c`; #507/#654/#660/#664 all remain OPEN/DRAFT with zero independent reviews. Five recovered pages remain noindex and outside registry/sitemap pending owner-approved all-five transition.
+- Factory queue remains 29 IDs in the exact PR #62 order; status counts unchanged. Factory accounting remains 23 complete text drafts, 0 independently approved, 0 published; live verification remains unverified. No article, asset, queue, registry, sitemap or deployment change.
+- Latest owner-scope evidence in issue #401 (11:22 IST) records 399 open PRs (365 drafts, 34 non-drafts) across the owner's listed scope; the 28 non-draft candidates checked had zero independent approvals. This is a dated snapshot, not a current complete re-audit. Central main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; PR #22 remains OPEN/DRAFT with zero independent reviews. Existing AEO/GEO PR #2 baseline is reused; Groot's active control-board row and Jaipur Engineers `je2` vs `jaipur-engieneers` mapping remain owner-reconciliation items.
+
+No source ownership, central main, other-brand files, deployment, publication or indexing changed.
