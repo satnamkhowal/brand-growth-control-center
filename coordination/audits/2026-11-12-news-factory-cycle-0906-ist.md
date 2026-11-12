@@ -28,7 +28,7 @@ Primary sources:
 ### Forsk Coding School — AWS UAEF Python agent-evaluation guide
 - Draft PR: https://github.com/satnamkhowal/forsk-coding-school/pull/188
 - Branch: news-factory/aws-uaef-agent-evaluation-python-guide-20261112-0906
-- Article: 2,541 words; original English SEO/AEO/GEO-ready guide.
+- Article: 2,687 words; original English SEO/AEO/GEO-ready guide.
 - Source publication date: **11 November 2026** (AWS Machine Learning Blog).
 - Explains framework adapters, canonical AgentTrace, 36 built-in metrics across seven dimensions, experiment tracking, baseline comparison, synthetic-data Python portfolio lab and evaluation limits.
 - The official awslabs/uaef repository is Apache License 2.0. README, LICENSE and SECURITY.md were read. The guide preserves the SECURITY.md tenant-isolation restriction and explains that LLM-as-judge scores are evaluation signals, not runtime security controls.
