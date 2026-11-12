@@ -153,3 +153,8 @@ No other brand's files or ownership were changed. No queue/registry/sitemap/main
 
 ### Disposition
 Coordination-only evidence. No source implementation in this repository, central-main write, owner reassignment, self-approval, merge, deployment, publication or indexing. Next action: independent review of #507/#654/#660, preserve/reconcile #533's tests, complete exact-checkout/PHP/browser/HTTP gates, and keep the single 29-ID queue unchanged until the Master owner resolves 10K/P3 versus 100K/P0 and names one canonical queue/release owner.
+
+
+### Supplemental exact-head CI delta — PR #660
+- Source [PR #660](https://github.com/satnamkhowal/grootacademy.com/pull/660) triggered Markdown parity run [43148169077](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43148169077). Job `130950812242` completed failure with `steps: []`; log retrieval returned Azure `BlobNotFound` (404). No assertion is evidenced as executed. This is an Actions/artifact-storage infrastructure failure, not an application test failure or CI pass. No retry was triggered; repository Actions/storage administrator diagnosis is required.
+- Source controller README/CONTROLLER.json now records this exact blocker; canonical queue remains 29 IDs, draft/approval/live counts unchanged. No central-main or production write.
