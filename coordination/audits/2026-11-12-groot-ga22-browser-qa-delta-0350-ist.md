@@ -287,3 +287,27 @@ No central-main write, source ownership transfer, self-approval, self-merge, dep
 - No central-main write, other-brand source change, owner reassignment, merge, deployment, publication, indexing or ranking/live claim.
 
 
+
+
+## Supplemental coordination delta — 2026-11-13 00:44 IST (GA-B00029 current-main dedupe/route)
+
+### Groot source evidence (implementation remains in the Groot repository)
+
+- Canonical source remains `satnamkhowal/grootacademy.com` (historical alias `satnamkhowal/gta`); no Mango Engineers repository or files were accessed.
+- Groot current main remains `c57a7c3b24ca2dfc2c61aca54ae3735a0565f3bb`. The controller branch remains isolated; no main integration or deployment was attempted.
+- GA-B00029 current-main duplicate/cannibalization and route review passed **17/17 coordinator-run exact-source assertions**. Its specific HOW_TO intent—replace SQL string concatenation with bound parameters using a fictional Python SQLite lab—has no equivalent standalone how-to in the inspected login, SQL-career, PHP/MySQL, DBMS or course pages. Existing pages contain only broad prepared-statement/parameterized-query/security mentions.
+- The candidate remains `noindex,follow` and absent from the current-main registry and blog sitemap. Its parent topic and two related guide links resolve in both registry and sitemap.
+- The single canonical queue row GA-B00029 changed only `duplicate_check: REQUIRED → DONE`; article status remains `TECH_QA`. Queue blob is now `2766216c3f47982fdba1934c96873a6892968ef1`; all 29 IDs/order still match immutable planning PR #62. PR #68's 14 research proposals and GA-B00014 refresh remain non-article planning/research records.
+- Source evidence: [GA-B00029 current-main dedupe and route report](https://github.com/satnamkhowal/grootacademy.com/blob/content/groot-100k-controller-20261016/marketing/blog-factory/work/B0002/qa/2026-11-13-ga29-current-main-dedupe-and-route-check-0044-ist.md). Source commits: queue `21df839`, report `23fcb8e`, controller `6d10c5c`, README `1f6522e`.
+- Factory accounting remains 23 complete text drafts, 23 technical visuals, 23 PHP candidates; independent editorial/code/visual PASS 22/18/23; independent approvals 0, published 0, live verified 0. No new article/image or URL was created.
+
+### Ownership, QA and governance delta
+
+- Latest source comments on #507/#625 still show only prior coordinator handoffs; no owner response or independent review was found. PRs #507/#625/#654/#660/#664 remain OPEN/DRAFT with zero independent reviews. Stale-base reconciliation and the Azure Actions `BlobNotFound` administrator diagnosis remain required; no blind retry.
+- Issue #401 comments through 2026-11-13 00:24 IST contain no explicit master-owner decision reconciling 10K/P3 with the user-authorized 100K/P0, no single canonical queue owner, no independent release approver and no next-batch criteria. New article batches remain HOLD.
+- Central main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; this is a coordination-only append on the existing PR #22 branch. Central PRs #1/#2/#3 remain merged and the existing AEO/GEO PR #2 baseline is reused. The central README still lists eight brands but only three active owner/status rows; Groot's active row remains missing. Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website/deployed-origin mapping remains unresolved; neither is assumed wrong.
+- No other brand's source files, central main, ownership assignments, deployment, publication or indexing were changed.
+
+### Exact next action
+
+Continue existing Groot repairs only: independent GA-B00029 review and PHP 8.0/full-root/schema/route/HTTP/MIME gates; GA-B00016 independent editorial/browser/zoom/AT; GA-B00022 production/browser/AT; owner-led #507/#625 reconciliation and independent recovery-stack review after Azure diagnosis. Keep the 29-ID queue and new-batch HOLD until the Master owner records the capacity/priority and single queue/release-owner decision.
