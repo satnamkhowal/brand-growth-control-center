@@ -77,3 +77,93 @@ Primary links:
 | Live/published increment | 0 |
 
 Next actions: independent QA of Groot #650; recheck the NeGD Technical Internship current PDF/form and BHASHINI Young Professional advertisement; monitor 15–20 November deadlines; keep Node.js 27 Alpha separate from the supported LTS security updates.
+
+
+---
+
+# News Factory cycle — 12 November 2026, 05:36 IST
+
+## Summary
+
+Four non-overlapping research lanes were rechecked against primary sources and current open-PR ownership. Two distinct, useful drafts were added in isolated brand branches: a Google Sheets/Gemini event-and-practice guide for Groot Academy and a current NSP Saksham scholarship guide for Forsk Coding School. Existing Mango/Forsk/Groot story owners were preserved. No Jaipur or other unverified-brand writes were made.
+
+## 1. Student, developer and opportunity lane
+
+- **Google Student Researcher 2027:** Google Careers currently lists India as remote eligible; Bachelor's/Master's/PhD students in the listed disciplines with experience in a computer-science area; application deadline **4 December 2026**, rolling review. Stipend and application fee are not stated. Existing owner: Forsk PR #146.
+  - https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher
+- **AICTE Saksham 2026-27:** Current NSP page lists both technical-degree and technical-diploma entries open from 1 June through **30 November 2026**; institute/defective verification through 15 December; DNO/SNO/MNO verification through 31 December. The linked degree/diploma guidelines are **July 2020 (2020-21)**; FAQ says at least 40% disability, family income <= INR 8 lakh, AICTE-approved course, INR 50,000/year and entry-route-specific duration. No newer 2026-27 Saksham guideline was visible from the current scheme card. Existing Swanath #147 and Mango Pragati #143 are separate schemes; no duplicate was made.
+  - New Forsk Draft PR #183: https://github.com/satnamkhowal/forsk-coding-school/pull/183
+  - https://scholarships.gov.in/All-Scholarships
+  - https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf
+  - https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2013_G.pdf
+- **AICTE Swanath and Pragati:** current NSP listing still shows 30 November student deadlines, 15 December institute/defective verification and 31 December DNO/SNO/MNO verification. NSP footer says last update June 2026. Existing Forsk #147 and Mango #143 received source-recheck comments; no new articles.
+- **NMMSS:** 15 November student deadline (Forsk #173). **VSSC UG/PG project routes:** 15 and 16 November deadlines (Forsk #172). Existing owners preserved.
+- **NeGD Technical Internship:** separate 11 November listing and 20 November due date remain a research-only lead because the current technical PDF/form was not retrieved. Do not reuse the closed May Summer Internship PDF.
+- **BHASHINI Young Professionals:** listing showed 8 positions and 10 December due date in the prior official notice, but detailed advertisement, eligibility and remuneration were not verified; no new article.
+
+## 2. React / frontend lane
+
+- React core release page still lists 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026; no newer November stable release found.
+- React Native **0.89.0-rc.1** is still the latest visible release candidate, published 10 November 2026 at 01:35 UTC and marked Pre-release. Latest visible stable is **0.88.1**.
+- Existing Groot PR #644 received a source recheck comment; no duplicate article.
+
+Sources:
+- https://github.com/react/react/releases
+- https://github.com/react/react-native/releases
+
+## 3. Node.js / backend lane
+
+- Official Node.js blog currently lists **26.13.1**, **24.22.3** and **22.23.5**, each published 11 November 2026.
+- The 11 November security bulletin lists 16 CVEs across active release lines (7 HIGH, 6 MEDIUM, 3 LOW); CVE-2026-126051 is listed for 24.x/26.x, not 22.x.
+- Node.js 27.0.0-alpha.0.0.0 remains the separate Alpha story already owned by Groot PR #650. No new release or duplicate article selected.
+- Existing Mango PR #143 received a source-recheck comment.
+
+Sources:
+- https://nodejs.org/en/blog
+- https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+## 4. AI / cloud / developer lane
+
+- **New event story:** Google Cloud Events lists “Outgrowing Excel: Built-in AI and Real-Time Analysis with Gemini in Google Sheets” for 12 November 2026, 09:00–09:30 GMT (14:30–15:00 IST), online, described as a free session. Event listing has no publication date; event date is not presented as announcement date. Registration requires Google/email sign-in; seat availability and India-specific access could not be independently verified.
+- Google's separate Workspace product announcement is dated 10 March 2026 and describes Gemini-in-Sheets capabilities; it is cited as product background, not as a November launch.
+- New Groot Draft PR #653: https://github.com/satnamkhowal/grootacademy.com/pull/653
+- A verified Google Workspace YouTube demo (video ID J0NsBA6o8IA, published 6 May 2025) is linked as a fallback. Embed permission was not independently verified; no iframe was included.
+- GitHub personal-account issue types/fields and Gemini 4 Carbon remain assigned to existing Forsk PRs #182 and #168; no duplicate drafts.
+
+Sources:
+- https://cloud.google.com/events
+- https://cloudonair.withgoogle.com/events/analyzing-data-with-gemini-in-google-sheets
+- https://workspace.google.com/blog/product-announcements/reimagining-content-creation
+- https://www.youtube.com/watch?v=J0NsBA6o8IA
+
+## Repository review and ownership
+
+- Mango main HEAD observed: dd76e0ad…; existing News Factory PR #143 remains owner of Node.js November security and Pragati draft. No Mango file write.
+- Groot main HEAD observed: 0923feed…; .agent handoff/current-state/backlog/decisions and migration status reviewed. Existing #644/#647/#650/#651 ownership preserved; new #653 is isolated. GA-B00016 browser gate and 100K queue untouched.
+- Forsk main HEAD observed: a690ef7…; README/task board, current News Factory PR inventory and docs/IMAGE-PRODUCTION-WORKFLOW.md / docs/FORSK-IMAGE-AUDIT.md reviewed. Existing #146/#147/#172/#173/#178/#180/#182 ownership preserved; new #183 is isolated. Forsk P3 blog-image rule blocks a featured image until a canonical article page/publication handoff exists, so no graphic was created for #183.
+- Jaipur website repository satnamkhowal/jaipurengineers.com main HEAD observed: 677da49…; no Jaipur story had a sufficiently fresh unowned primary-source angle, so no write. Standard root README/AGENTS paths were not found.
+- Central main HEAD observed: 80c75e2…; existing PR #19 branch ops/news-factory-cycle-20261109-2209 reused. It remains diverged/unmergeable; no rebase or merge.
+
+## New delivery and QA ledger
+
+- Groot PR #653: 2,324-word original article, original 1200x675 SVG, provenance metadata JSON; 4 commits, 3 files, 438 additions. Local PNG (97,704 bytes) and WebP (35,186 bytes) decoded and visually inspected; derivatives are not committed. Draft only; mergeability currently false/unknown.
+- Forsk PR #183: 2,012-word original article and provenance metadata JSON; 2 commits, 2 files, 297 additions. No image because repo-local P3 policy blocks featured media before canonical page/publication handoff. Draft only; mergeability currently false/unknown.
+- Existing PR comments: Mango #143 (Node/Pragati recheck), Forsk #147 (Swanath recheck), Groot #644 (React Native release recheck).
+- No verified YouTube iframe; one verified official video link only.
+- Independent editorial QA, scholarship-policy review, technical QA and responsive browser QA remain pending.
+- No workflow run or CI status returned; CI pass is not claimed.
+- No merge, deployment, live publication, application submission or production configuration change occurred.
+
+| Stage | This cycle |
+|---|---:|
+| Research lanes | 4 |
+| New verified unowned stories selected | 2 |
+| New English article drafts | 2 |
+| Original SVG graphics committed | 1 |
+| Local optimized PNG/WebP derivatives | 2 |
+| Verified video embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+| Existing-owner source-recheck comments | 3 |
+
+Next actions: independent editorial/technical QA of Groot #653; independent scholarship review of Forsk #183 with special attention to July 2020 guideline caveat; recheck NeGD Technical Internship PDF/form; monitor 15–20 November deadlines; keep all current drafts unpublished until QA and approval.
