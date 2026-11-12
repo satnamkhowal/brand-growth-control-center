@@ -828,3 +828,8 @@ Next actions: retrieve the current NeGD technical/non-technical internship and B
 - Central News Factory branch ops/news-factory-cycle-20261109-2209: **130 ahead / 5 behind main**, comparison status **diverged**. Existing PR #19 remains open. No rebase, force-push or merge was attempted.
 - Canonical Groot A2UI owner PR #658: **6 ahead / 5 behind main**, comparison status **diverged**; GitHub PR metadata currently reports mergeable=true. No rebase or merge was attempted. Workflow runs and combined status entries remain empty; CI is unverified.
 - Forsk duplicate PR #191 remains **closed, not merged**.
+
+
+### Cycle 13 ledger correction
+
+The cycle ledger above records one central checkpoint commit, but the post-write comparison refresh was also committed. The accurate Cycle 13 central checkpoint commit count is **2**: 03cd86e0160b4fced89ef4d7b987cdbe423c39c1 (research/ownership section) and b3b9f56fc3274943308dad00eb31f1e4cb1520f9 (branch-comparison refresh). No merge or rebase was performed.
