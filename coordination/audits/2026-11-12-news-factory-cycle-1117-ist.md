@@ -454,3 +454,53 @@ Current relevant owners retained:
 4. Keep React #145, React Native #644 and Node.js #143 with their existing owners; do not duplicate.
 5. Keep Forsk #190 draft-only and verify checkout/ticket access before event coverage is published.
 6. Keep central PR #19 and all brand PRs unmerged until independent QA and explicit release approval.
+
+
+---
+
+## News Factory cycle — 12 November 2026, 16:08 IST
+
+### Research and deduplication
+- Four non-overlapping lanes rechecked: student/developer opportunities; React/frontend releases and security; Node.js/backend releases and security; AI/cloud/developer announcements.
+- Google Student Researcher 2027 remains an existing Forsk #146 owner (India/Remote, 4 December 2026 deadline; Apply visible; rolling review; stipend/fee not stated).
+- NIC Digital India Internship Winter 2026 remains Mango #147. The official portal is now accessible and shows the Winter 2026 notice, registration start 2 November 2026, registration/login controls, and an offline internship period of 1 December 2026–31 January 2027. The portal's last-updated label is 12 November 2026. It does not show an application closing date; the previously reported 13 November claim remains unverified and must not be presented as an official deadline.
+- NMMSS, VSSC academic projects, NeGD Non-Technical Winter Internship and existing scholarship drafts remain assigned to their current Forsk owners; no duplicate opportunity article was created.
+- React repository release page still shows 19.3.1 / 19.2.9 / 19.1.10 / 19.0.9 as the latest stable patch tags, all dated 14 October 2026. The two RSC advisories retain their existing Forsk #145 owner; fixed versions remain 19.3.1 / 19.2.9 / 19.1.10 / 19.0.9.
+- Node.js official 11 November security release lines remain 22.23.5, 24.22.3 and 26.13.1. The prior CVE mapping discrepancy between the November bulletin and individual release notes remains unresolved; Mango #143 stays blocked for independent security QA and no new Node article was made.
+- New unowned AI/cloud story selected: AlloyDB AI ai.classify and ai.extract. Google Cloud Blog publication is 11 November 2026; AlloyDB release notes show the functions in Preview from 27 October 2026. PostgreSQL 18+, google_ml_integration 1.6.1+, AI query/Preview flags, optional smart-batching flag, India region caveat and pricing are documented from official sources.
+
+### New delivery — Groot Academy
+- Draft PR: https://github.com/satnamkhowal/grootacademy.com/pull/681
+- Branch: news-factory/alloydb-ai-classify-extract-20261112-1608
+- One original 2,067-word English developer guide plus JSON metadata and one original 1200×675 SVG workflow diagram.
+- Local optimized PNG (128,776 bytes) and WebP (40,330 bytes) previews are present in the run workspace; only the SVG is committed.
+- Official Google Cloud Tech video candidate EG9nayN3c88, published 26 July 2024, is background context only. Embed permission was not independently confirmed; fallback link only, no iframe, no download.
+- Branch comparison: 1 ahead / 0 behind main; exactly three added files; GitHub PR is OPEN, DRAFT and mergeable=true. Combined status has no entries and no workflow run was returned for this branch; CI is UNVERIFIED.
+- Independent editorial, technical and responsive QA remain PENDING. No production route, sitemap, canonical, redirect, live registry, merge, deployment or publication changed.
+
+### Central coordination
+- Existing checkpoint file updated append-only; no duplicate checkpoint file created.
+- Central PR #19 remains the coordination vehicle. Its branch is diverged from main; no rebase, force-push or merge was attempted.
+
+### Production ledger — this cycle only
+| Stage | New count |
+| --- | ---: |
+| Research lanes | 4 |
+| New verified unowned stories selected | 1 |
+| New original English article drafts | 1 |
+| Existing article status comments | 1 (Mango #147 NIC portal status) |
+| New Draft PRs | 1 (Groot #681) |
+| Original committed SVGs | 1 |
+| Local optimized PNG/WebP derivatives | 2 |
+| Verified YouTube candidates | 1 (background only) |
+| Verified iframe embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+| Merges/deployments | 0 |
+
+### Next actions
+1. Independent editorial and technical QA of Groot #681; keep draft-only until reviewed.
+2. Recheck NIC portal and application route before any closing-date claim; no official closing date is currently displayed.
+3. Resolve the Node.js November bulletin/release-note CVE mapping before Mango #143 can pass security QA.
+4. Recheck VSSC and NMMSS deadlines on 15–16 November.
+5. Preserve current React/Node/security ownership; do not duplicate existing Forsk/Mango/Groot drafts.
