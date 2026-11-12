@@ -202,3 +202,12 @@ Coordination-only evidence. No source implementation in this repository, central
 - The separate main-integrated Agentic Architect article is not added to the 29-ID queue or the complete/approved/live factory counts.
 - New article batches remain held until the Master owner resolves the controller's 100K/P0 mandate against the current 10K/P3 task-board/master-plan controls and records one canonical queue/release owner.
 - No self-approval, self-merge, deployment, publication, indexing, or edits to other brand repositories.
+
+
+### Supplemental isolated QA execution — 2026-11-12 09:40 IST
+- On source [PR #664](https://github.com/satnamkhowal/grootacademy.com/pull/664), exact Git blob contents of the release-inventory module and synthetic transition tests were executed in an isolated temporary fixture.
+- Python 3.13.5 \`-S -m py_compile\`: PASS; synthetic transition suite: **14/14 PASS**.
+- Tests cover draft/release robots boundaries, partial promotion, registry/sitemap disagreement, duplicate sitemap URLs, metadata drift, duplicate route ownership, noncanonical aliases and stale lastmod.
+- The fixture mocks the PHP registry and is not a full repository, production PHP render, or exact-head CI pass. Exact-head Actions run 43154126148 still failed before steps with Azure \`BlobNotFound\` 404; zero assertions executed.
+- Source controller branch checkpoint commits now include \`67285e5\` (CONTROLLER.json) and \`5f57443\` (README); queue remains unchanged at 29 IDs. No new article or image was generated.
+- This evidence does not change approval or publication state: source PRs #507/#654/#660/#664 and central PR #22 remain Draft; independent approvals 0; published/live verified 0.
