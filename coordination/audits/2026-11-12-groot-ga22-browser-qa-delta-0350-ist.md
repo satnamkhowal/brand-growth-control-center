@@ -101,3 +101,33 @@ The latest source issue #401 owner-scope inventory comment [6809152738](https://
 The coordinator runtime has PHP CLI 8.4.24, Playwright 1.57.0 and Chromium 144.0.7559.96. A fresh `git ls-remote https://github.com/satnamkhowal/grootacademy.com.git HEAD` failed before remote resolution with `Could not resolve host: github.com`; a separate raw.githubusercontent.com fetch failed DNS resolution too. Therefore the full checkout, GA-B00029 full-root render and authorized-origin HTTP/MIME checks remain unavailable in this run. This does not invalidate prior candidate `php -l` or minimal-fixture results, but those do not satisfy the full-root/production gates.
 
 No central main/source main change, owner reassignment, self-approval, self-merge, deployment, publication, mass indexing or ranking claim is made.
+
+
+### Supplemental source-lane evidence — GA-B00029 exact-source rerun, 2026-11-12 07:40 IST
+
+Groot's historical repository alias `satnamkhowal/gta` resolves to canonical private repository `satnamkhowal/grootacademy.com`; current main remains `0923feed95358ed967e0d783440fd28ba6d77a54`. No Mango Engineers repository or work queue was used.
+
+The 100K controller branch was re-read before testing. Its canonical queue remains 29 unique IDs in the exact planning-PR-#62 sequence; status counts and all article/release counts are unchanged.
+
+Coordinator-run exact-source rerun for existing GA-B00029 (`TECH_QA`, noindex, unpublished):
+- Exact Git blob hashes match for the PHP candidate, Python lab/tests, authored SVG, current-main shared blog layout, shared head partial and site-path helper.
+- Python 3.13.5 compile PASS; six unit tests PASS in normal, `-O` and `-OO`; demo output matches the fictional fixture.
+- PHP 8.4.24 lint PASS for exact candidate and exact current-main shared layout/head partial.
+- SVG XML and 7/7 structural/accessibility checks PASS.
+- Exact candidate + exact shared layout/head/site-path helper rendered locally with 10/10 assertions. Root `head.php`, `header.php`, `footer.php` and the registry were stubs; this is a bounded include-chain test, not full-root production rendering. Both intended internal-link targets exist in the current-main registry and blog sitemap; candidate slug remains absent pending approval.
+- Full-root render and authorized-origin HTTP/MIME remain unverified because DNS for github.com and grootacademy.com returned no addresses. PHP 8.0 is not installed. No independent approval or publication status change.
+
+Evidence report: [GA-B00029 exact-source rerun](https://github.com/satnamkhowal/grootacademy.com/blob/content/groot-100k-controller-20261016/marketing/blog-factory/work/B0002/qa/2026-11-12-ga29-exact-source-php-shared-render-rerun-0740-ist.md). Controller checkpoint commits: [8d01e16](https://github.com/satnamkhowal/grootacademy.com/commit/8d01e160a377cae7ea3e6531b5e7921240477d33) and [bf5170c](https://github.com/satnamkhowal/grootacademy.com/commit/bf5170c72c3ba870863b750df04d9a71de8f6033).
+
+### Fresh owner-scope coordination delta — issue #401 comment at 07:28 IST
+
+The latest owner-scope inventory reports 76 accessible repositories, 377 open PRs (349 drafts + 28 non-drafts), zero independent APPROVED reviews among the 28 non-drafts, and no new merges or deployments. Groot Academy has 172 open PRs (171 drafts, one non-draft); canonical main remains `0923feed`. The only non-draft Groot PR [#618](https://github.com/satnamkhowal/grootacademy.com/pull/618) is 2 ahead / 28 behind with three failed exact-head checks and no independent approval; it is outside the 100K repair stack.
+
+- 100K source PR [#654](https://github.com/satnamkhowal/grootacademy.com/pull/654): OPEN/DRAFT, 3 commits, 2 files, zero submitted reviews; exact-head Azure BlobNotFound runs remain unresolved.
+- Historical recovery parent [#507](https://github.com/satnamkhowal/grootacademy.com/pull/507): OPEN/DRAFT, 22 exact historical additions, zero reviews.
+- Shared-head repair [#625](https://github.com/satnamkhowal/grootacademy.com/pull/625): OPEN/DRAFT, four files, zero reviews, based on an older main SHA and still requires independent review/reconciliation.
+- New [#655](https://github.com/satnamkhowal/grootacademy.com/pull/655) is a separate News Factory draft; [#656](https://github.com/satnamkhowal/grootacademy.com/pull/656) is a course-graphic draft. Neither has a canonical GA-B ID and neither is counted as a 100K article.
+- Central PRs #1/#2/#3 remain closed; existing AEO/GEO baseline #2 is reused. Central PR #20 remains OPEN/DRAFT (34 files, zero reviews); this PR #22 remains OPEN/DRAFT with zero reviews. Central main `80c75e2` is unchanged.
+- The central main README still lists eight brands but only three active owner/status rows; Groot's row remains missing. Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website mapping remains unresolved and is not changed here.
+
+No other brand's files or ownership were changed. No queue/registry/sitemap/main change, self-approval, self-merge, deployment, publication, mass indexing or ranking claim is made. Next: keep the source-lane independent QA/release gates intact; obtain Master-owner resolution of 10K/P3 versus 100K/P0 and one canonical queue/release owner before new article batches.
