@@ -821,3 +821,10 @@ Primary sources:
 | Central checkpoint commits | 1 |
 
 Next actions: retrieve the current NeGD technical/non-technical internship and BHASHINI Young Professional PDFs/forms; independently QA Groot #658 and existing Forsk #145 / Mango #143 rather than creating duplicate stories; recheck NMMSS before 15 November and NeGD listings before 18–20 November.
+
+
+### Cycle 13 post-write comparison refresh
+
+- Central News Factory branch ops/news-factory-cycle-20261109-2209: **130 ahead / 5 behind main**, comparison status **diverged**. Existing PR #19 remains open. No rebase, force-push or merge was attempted.
+- Canonical Groot A2UI owner PR #658: **6 ahead / 5 behind main**, comparison status **diverged**; GitHub PR metadata currently reports mergeable=true. No rebase or merge was attempted. Workflow runs and combined status entries remain empty; CI is unverified.
+- Forsk duplicate PR #191 remains **closed, not merged**.
