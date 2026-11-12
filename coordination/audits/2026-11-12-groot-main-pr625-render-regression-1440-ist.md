@@ -51,3 +51,14 @@ PR #625 remains OPEN/DRAFT with zero independent reviews, zero review threads an
 4. Continue existing GA-B00029, GA-B00016 and GA-B00022 release gates. Preserve all 29 IDs.
 
 No self-approval, self-merge, deployment, publication, indexing or cross-brand ownership change occurred.
+
+
+## Follow-up delta — latest Groot main ref during this audit
+
+Groot main advanced from `52e2b83f77e7607f411bf8011276c98172ea0216` to `73f4cd51a23f4bf2a4978815114d059210325dfc` during this run. The two new commits (`a018050`, `73f4cd5`) touch only `includes/course-layout.php` to improve course-image fallback accessibility. They do not touch the shared blog head or the five recovered article folders.
+
+Current comparisons are now:
+- PR #507: 3 ahead / 9 behind current main; merge base `f048dedf`.
+- PR #625: 6 ahead / 11 behind current main; merge base `071ab8a5`.
+
+The shared blog-head blobs are unchanged, so the exact-source duplicate-base reproduction and PR #625 fix evidence remains applicable. Both source PRs received updated owner-coordination comments; neither was approved, rebased, merged or deployed. The canonical 29-ID queue and current Master Plan/HAO-008 governance findings remain unchanged.
