@@ -226,3 +226,34 @@ Coordination-only evidence. No source implementation in this repository, central
 - Current \`HAO-008\` is P3 / REVIEW and explicitly warns against 10,000-post quotas, draft-only SEO claims, duplicate frameworks and unverified publication.
 - The user's requested 100,000 finished useful original articles remains the north-star, not authorization to reserve 100,000 IDs, invent demand, create keyword-swapped pages or mass-publish.
 - Keep the existing 29-ID repair queue and independent QA gates. Hold new batches until the Master owner explicitly reconciles capacity/priority and names one canonical queue/release owner.
+
+
+## Supplemental delta — 2026-11-12 12:36 IST (CSS URL parser boundary + current-main update)
+
+### Groot source evidence
+- Requested alias `satnamkhowal/gta` was resolved by GitHub's permanent repository redirect to repository ID `1375760757`, canonical name `satnamkhowal/grootacademy.com`. The controller branch and requested factory paths were read from that repository; Mango Engineers was not involved.
+- Current Groot main advanced from `dc2d76ec` to `6c2597efbebc36c6a13f1cb4c6b860854603e2c4` through two course-page/layout commits. Changed paths: `assets/css/groot-course-migration.css`, `assets/css/groot-course-page-v2.css`, `courses/full-stack-development-jaipur/index.php`, `includes/course-layout.php`, `includes/course-page.php`, `includes/full-stack-landing-sections.php`, `head.php`, and `includes/theme-head.php`.
+- These paths do not overlap the five recovery pages, blog CSS or QA tests. However, `blogs/_shared/partials/head.php` includes root `head.php`; its current base/head behavior must be rechecked in exact full-root rendering. No direct path overlap is not equivalent to a runtime pass.
+- PR #507 now compares **3 ahead / 3 behind** current main, merge base `f048dedf`. It remains OPEN/DRAFT and must be reconciled by its source owner before the recovery stack is reviewable. PR #654 (4 commits), #660 (9 commits) and #664 (8 commits) remain sequentially stacked on their exact parent branches. All four have zero independent reviews.
+
+### New bounded QA repair in source PR #664
+- A second bypass was reproduced in the regex-based CSS URL scan: quoted external `url()` values containing a literal or escaped closing parenthesis could evade the regex. The same occurred with a CSS hexadecimal escape for `)`.
+- The source branch now uses a string/comment-aware CSS lexical scanner. It preserves quoted-string boundaries, removes comments only outside strings, decodes CSS escapes and CRLF continuations, parses quoted/unquoted URL arguments, and rejects malformed URL functions. Existing local SVG fragment references are allowed only when the target ID exists.
+- Added 11 targeted tests. Coordinator-run local suite: **22/22 PASS**. Differential fuzzing generated 10,000 variants; tinycss2 recognized 7,641 external URL tokens and the repaired scanner missed **0**.
+- This is local helper/test-equivalent evidence, not execution of the exact committed file in a full repository checkout, not GitHub Actions CI, and not independent review. Source PR #664 remains Draft; do not claim CI PASS or release approval.
+- Latest source commits: checker `bb7d4ff`, regression tests `4564bca`. The prior Azure Actions `BlobNotFound` pre-step blocker remains unresolved; no blind retry was made.
+
+### Coordination and accounting
+- Central main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; PR #23 is merged and records eight source merges with deployment/live state still UNVERIFIED. Central PR #22 remains OPEN/DRAFT for independent review.
+- Current central README still lists eight brands but only three active control-board rows; Groot Academy's row is missing. PRs #1/#2/#3 remain merged; reuse the existing AEO/GEO PR #2 baseline. Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website mapping remains unresolved.
+- The factory controller branch was updated with current main `6c2597ef` and this exact QA continuation. Queue remains **29 unique IDs** with status counts MERGE 3, REFRESH 2, IDEA 1, PUBLISH_PR 5, TECH_QA 17, CONTENT_QA 1; no queue write occurred.
+- Factory accounting remains 23 complete text drafts, 23 technical visuals, 23 PHP candidates, 22 independent editorial passes, 18 independent code passes, 0 independent approvals, 0 published and 0 live verified. No new article or image was generated.
+- The 100K/P0 user target remains the north-star; current-main Master Plan capacity remains 10K possible IDs with HAO-008 P3/REVIEW. The Master owner has not supplied the required reconciliation or single canonical queue/release owner. Keep new batches held and finish repairs.
+
+### Exact next action
+1. Diagnose Actions/storage and restore an authorized exact checkout; run the exact-head #664 workflow, including the 22-case CSS regression suite and five-page PHP 8.0/full-root/schema/canonical/noindex/registry/sitemap/HTTP/MIME checks.
+2. Have the #507 owner reconcile its 3-behind current-main base; then obtain independent review of #507 → #654 → #660 → #664.
+3. Recheck root-head/blog include behavior against current main `6c2597ef`; continue GA-B00029 full-root gates, GA-B00016 editorial/AT review, GA-B00022 production/AT review and PR #625 independent review.
+4. Keep the 29-ID queue and PR #68 decisions intact; no new batch until the Master owner resolves 10K/P3 versus 100K/P0 and names one canonical queue/release owner.
+
+No central-main write, source ownership transfer, self-approval, self-merge, deployment, publication, indexing or ranking/live claim occurred.
