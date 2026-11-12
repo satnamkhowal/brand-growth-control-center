@@ -144,3 +144,120 @@ No merge, deployment, publication, indexing, scholarship submission or video dow
 - The separate INT 08 internship slot (1 November 2026–31 January 2027) now explicitly says application submission is closed. Next INT 09 is scheduled for 1 May–31 July 2027, with an application window 15 February–15 March 2027.
 - This does not change the separate Academic Project Work routes already covered by PR #172: BE/BTech/BSc/Diploma form route due 15 November 2026; M.E/M.Tech/Integrated M.Tech/M.Sc/Integrated M.Sc/BS-MS online route closes 16 November 2026 at 23:59 IST.
 - No new article was created; existing Forsk #172 remains the single owner. Official portal: https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+
+
+## Cycle 11 — 12 November 2026, 12:08 IST
+
+### 1. Research lanes and source verification
+
+Four non-overlapping research lanes were reviewed: (1) student/developer programmes and scholarships, (2) React/frontend releases and security, (3) Node.js/backend releases and security, and (4) AI/cloud/developer announcements. Primary-source checks were prioritised. No YouTube news claim was used without official corroboration.
+
+#### Student programmes and opportunities
+
+- **Google Student Researcher, 2027:** Google Careers still displays an Apply action and a **4 December 2026** deadline, with rolling review. The role is marked **India / Remote eligible**. Applicants must currently be enrolled in a Bachelor's, Master's or PhD programme in a listed field and have experience in a relevant CS/research area. Google says applicants must remain in one of the specified country locations for the full engagement. No stipend or application fee is stated on the posting. Existing owner: Forsk PR #146; no duplicate article.
+  - Official: https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher-2027
+- **IIIT Guwahati MeitY Project Intern:** the official vacancy page still lists one full-time CSE/allied-discipline project intern, a **₹15,000/month** fellowship from MeitY until **15 September 2027**, a tentative 10-month period (November 2026–September 2027), application deadline **15 November 2026**, and online selection on **20 November 2026**. On-campus participation is preferred; remote may be considered only exceptionally. No hostel is available; the selected intern must arrange accommodation at their own cost. The official notice is dated **30 October 2026**, distinct from the application deadline. The notice links to a Google Form, but response acceptance could not be independently confirmed.
+  - Official: https://www.iiitg.ac.in/vacancy-for-project-intern-position-in-a-1
+  - Existing owner: Forsk PR #163. Article and metadata research timestamps were refreshed; comment: https://github.com/satnamkhowal/forsk-coding-school/pull/163#issuecomment-6816863742
+- Existing opportunity owners retained without duplicate drafts: Google Student Researcher #146; NMMSS #173 (15 Nov); Ishan Uday #186 (30 Nov); Sage IT Scholarship #184 (15 Nov); PM YASASVI #156 (30 Nov listing with state restrictions); Jaipur Engineers #44 NITI Aayog, #45 Bharti Airtel, #46 Honeywell, and #47 PM Scholarship.
+- No new unowned scholarship/internship article qualified in this lane.
+
+#### React / frontend
+
+- React's official community conference list currently includes **React Summit US 2026** for **17 and 20 November 2026**, in-person in New York plus online (hybrid): https://react.dev/community/conferences
+- The organiser's event page currently lists a regular remote ticket at **US$260**, in-person Late Bird at **US$1,199**, and a remote combo ticket at **US$330**. The remote schedule's UTC timestamps convert to 19:45 IST on 17 Nov (closing 04:10 IST on 18 Nov) and 20:30 IST on 20 Nov (closing 00:30 IST on 21 Nov). The organiser says remote access is available from anywhere; India payment-method acceptance is not explicitly confirmed.
+- The event page lists a free React + Firebase + Google Cloud workshop on 12 Nov, 10:00–13:00 EST (20:30–23:30 IST). Its registration action says “Get Full Ticket”, so standalone free access is not confirmed. The page also advertises a limited free-ticket referral promotion; terms/availability require recheck.
+- Event-page original publication date is not stated; the event dates are recorded separately. This is a paid conference, not a scholarship or internship.
+- New original Forsk article: PR #190, 1,806 words; original SVG 1200×675 committed. Local WebP (1200×675, 48,324 bytes) and PNG (1200×675, 102,149 bytes) previews were generated; only SVG is committed in the PR. Source/license/attribution/alt text/dimensions/local paths/hashes are recorded in metadata.
+  - PR: https://github.com/satnamkhowal/forsk-coding-school/pull/190
+  - Official event: https://reactsummit.us/
+  - Schedule: https://reactsummit.us/schedule
+  - Checkout: https://reactsummit.us/checkout
+- No event-specific official YouTube video was verified. A GitNation video for the Amsterdam June 2026 edition was reviewed and rejected as not specific to the US event; no iframe or video download.
+
+- React Server Components advisory GHSA-xqc2-xf4c-x3h3 is **Critical (CVSS 9.5)** and was published 14 October 2026. It affects the RSC packages `react-server-dom-webpack`, `react-server-dom-parcel` and `react-server-dom-turbopack`; fixed tags listed by the official advisory are **19.0.9, 19.1.10, 19.2.9 and 19.3.1**. Applications without a React server or an RSC-supporting framework/bundler are not affected. Existing owner: Forsk PR #145; no duplicate article.
+  - Official: https://github.com/react/react/security/advisories/GHSA-xqc2-xf4c-x3h3
+
+#### Node.js / backend
+
+- Official Node.js security releases dated **11 November 2026**:
+  - 22.x → **22.23.5**
+  - 24.x → **24.22.3**
+  - 26.x → **26.13.1**
+- The release pages list 16 distinct CVEs across the release set: 7 HIGH, 6 MEDIUM and 3 LOW. Applicability differs by branch; for example CVE-2026-126051 appears on 24.x/26.x but not 22.x. The LOW-severity Permission Model change is **CVE-2026-123873**, “check heap snapshot destination”.
+- Existing owner: Mango PR #143. Corrected an incorrect CVE ID/description in the existing article from CVE-2026-106071 to CVE-2026-123873 and refreshed its last-verified timestamp. Correction comment: https://github.com/satnamkhowal/mangoengineers.com/pull/143#issuecomment-6816884410
+- Official release pages:
+  - https://nodejs.org/en/blog/release/v22.23.5
+  - https://nodejs.org/en/blog/release/v24.22.3
+  - https://nodejs.org/en/blog/release/v26.13.1
+- No duplicate Node.js article was created.
+
+#### AI / cloud / developer news
+
+- No new unowned AI/cloud product announcement qualified after checking official sources.
+- Existing owners retained: Mango #192 (Google Antigravity CLI in Agent Platform Workbench), Mango #195 (GitHub Secret Scanning audit-log business slug change), Forsk #188 (AWS UAEF), Forsk #189 (Google Agent Gateway), Groot #662 (AWS AI-PDLC), and existing GitHub/Copilot changelog drafts.
+- No duplicate AI/cloud article created.
+
+### 2. Repository and ownership audit
+
+Reviewed current repository metadata, open PR inventory, and available instructions before writes:
+
+- **Forsk Coding School:** README/task-board and image-production workflow reviewed. New topic had no matching open PR or branch. Existing PR #163 remained the IIIT Guwahati owner; new React Summit topic is isolated in PR #190.
+- **Mango Engineers:** task board/work log and open PR inventory reviewed. Node.js security remains owned by PR #143; its existing draft received a targeted CVE correction only. Existing PR #195 owns the GitHub audit-log change.
+- **Groot Academy:** current open PR inventory reviewed; no new write because current News Factory owners and other concurrent course/graphics work were retained.
+- **Jaipur Engineers:** canonical repository `satnamkhowal/jaipurengineers.com` verified. Current open News Factory owners include PRs #44–#47; no duplicate opportunity draft. Root README/AGENTS instructions were not accessible, so no write.
+- **Clever Ape Academy, CadMate India and Forsk Technologies:** repository metadata/open PR inventory reviewed; no new unowned story selected. Groot Software's guessed repository name did not resolve, so no write.
+- **Central Control Center:** README operating rules and existing PR #19/checkpoint branch reviewed. Central repository remains coordination-only; implementation is in brand repositories.
+
+### 3. GitHub implementation and validation
+
+#### Forsk PR #190 — new React Summit US draft
+
+- URL: https://github.com/satnamkhowal/forsk-coding-school/pull/190
+- Branch: `content/news-factory-react-summit-us-2026-20261112-1208`
+- 3 commits ahead / 0 behind main; GitHub reports OPEN / DRAFT / mergeable=true.
+- 3 files: 1,806-word article, JSON research/asset metadata, original 1200×675 SVG.
+- Metadata JSON parses; article/SVG/metadata read-back verified.
+- Local SVG rendered to PNG; PNG visual inspection passed; WebP decode passed. WebP/PNG previews are local only, not committed.
+- Combined status has no status entries and workflow-runs endpoint returned no runs. CI is **unverified**, not passed.
+- Independent editorial/source QA, technical QA and responsive review remain PENDING.
+
+#### Forsk PR #163 — existing IIIT Guwahati draft
+
+- Existing article and metadata updated on its existing branch only; no duplicate story.
+- Research timestamp refreshed to 12 November 2026, 12:08 IST.
+- Official page still lists the 15 November deadline; Google Form response acceptance remains unverified.
+- Branch comparison: 7 commits ahead / 1 behind main; GitHub currently reports OPEN / DRAFT / mergeable=true. No rebase or merge.
+- Status comment: https://github.com/satnamkhowal/forsk-coding-school/pull/163#issuecomment-6816863742
+- No status entries or workflow runs returned for the latest commit; CI unverified.
+
+#### Mango PR #143 — existing Node.js security draft
+
+- Existing article corrected to use CVE-2026-123873 for the heap-snapshot destination permission check.
+- Branch comparison: 54 commits ahead / 2 behind main; status diverged; GitHub reports mergeable=false.
+- No rebase, merge or force-push. No status entries or workflow runs returned for the latest commit; CI unverified.
+- Status/correction comment: https://github.com/satnamkhowal/mangoengineers.com/pull/143#issuecomment-6816884410
+
+### 4. Production ledger — this cycle's delta
+
+| Stage | Count |
+|---|---:|
+| Non-overlapping research lanes | 4 |
+| New verified unowned stories selected | 1 |
+| New original English article drafts | 1 |
+| Existing article/source corrections | 2 |
+| New Draft PRs | 1 |
+| Original committed SVG graphics | 1 |
+| Local optimized WebP previews | 1 |
+| Local PNG previews | 1 |
+| Verified event-specific YouTube videos | 0 |
+| Verified iframe embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+| Merges/deployments | 0 |
+
+### 5. Central branch state and next actions
+
+- Existing central PR #19 branch `ops/news-factory-cycle-20261109-2209` compared **125 commits ahead / 5 behind main**, status **diverged**, GitHub reports mergeable=false. This checkpoint is appended to the existing 11:17 file on that branch; no rebase, merge or force-push.
+- Next: independent QA for Forsk #190; recheck React Summit tickets and workshop conditions before 17/20 Nov; monitor IIITG deadline 15 Nov and Google Student Researcher deadline 4 Dec; continue React RSC and Node.js security owner checks; do not publish or deploy without approval.
+- No application was submitted, no video was downloaded, and no article was published live.
