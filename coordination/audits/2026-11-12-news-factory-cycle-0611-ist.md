@@ -101,3 +101,8 @@ No ownership reassignment, shared-file edit, merge, rebase, deployment, applicat
 | Live/published increment | 0 |
 
 **Next actions:** independent editorial/fact review of Forsk #184; recheck NMMSS and Sage IT deadlines before 15 November; continue source-owner monitoring for Node.js/React and the existing AI/cloud PRs. Keep all current drafts separate from QA-ready and live counts.
+
+
+## PR #184 final status correction — 12 November 2026, 06:13 IST
+
+After the checkpoint was first committed, Forsk PR #184 was re-fetched after GitHub completed mergeability calculation. The latest PR snapshot reports **OPEN / DRAFT / UNMERGED / mergeable=true**, with 2 commits, 2 changed files and 307 additions; the main comparison remains 2 ahead / 0 behind. The earlier creation-time `mergeable=false` observation is superseded. Combined commit-status endpoint still returns an empty list, so no CI pass is claimed. Independent editorial/fact QA remains pending. No merge or publication occurred.
