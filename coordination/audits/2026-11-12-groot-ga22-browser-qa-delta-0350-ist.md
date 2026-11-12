@@ -257,3 +257,9 @@ Coordination-only evidence. No source implementation in this repository, central
 4. Keep the 29-ID queue and PR #68 decisions intact; no new batch until the Master owner resolves 10K/P3 versus 100K/P0 and names one canonical queue/release owner.
 
 No central-main write, source ownership transfer, self-approval, self-merge, deployment, publication, indexing or ranking/live claim occurred.
+
+
+### Exact-head Actions follow-up — 2026-11-12 12:36 IST
+- After the CSS URL parser repair, exact-head workflow runs [43173445898](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43173445898) (checker commit `bb7d4ff`, job `131031954117`) and [43173470504](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43173470504) (test commit `4564bca`, job `131032032584`) both completed failure with `steps=[]`.
+- Zero assertions executed. This is a pre-step infrastructure failure, not a source-test failure or CI pass. The Actions/storage administrator diagnosis remains required; no blind retry.
+- Source PR #664 and central PR #22 remain Draft with zero independent reviews. No approval, deployment, publication or indexing state changed.
