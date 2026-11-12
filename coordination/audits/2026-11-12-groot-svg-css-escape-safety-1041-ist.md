@@ -60,3 +60,11 @@ No self-approval, self-merge, deployment, publication, mass indexing or ranking/
 - Latest owner-scope evidence in issue #401 (11:22 IST) records 399 open PRs (365 drafts, 34 non-drafts) across the owner's listed scope; the 28 non-draft candidates checked had zero independent approvals. This is a dated snapshot, not a current complete re-audit. Central main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; PR #22 remains OPEN/DRAFT with zero independent reviews. Existing AEO/GEO PR #2 baseline is reused; Groot's active control-board row and Jaipur Engineers `je2` vs `jaipur-engieneers` mapping remain owner-reconciliation items.
 
 No source ownership, central main, other-brand files, deployment, publication or indexing changed.
+
+
+## Governance clarification — current-main reads at 11:39 IST
+
+- Groot current-main controller blob `81f755b7` still explicitly sets the user-authorized target to **100,000 / P0**.
+- Current-main Master Plan blob `e1ce95a0` supports **10,000 possible IDs**, explicitly not 10,000 validated opportunities or a quota. The controller's governance snapshot records HAO-008 as **P3/REVIEW**. Issue #401 defines M4 as 100,000 and M5 as 1,000,000 only conditionally on sustained demand and independently reviewed quality.
+- The latest issue #401 owner-scope comment at 11:22 IST does not explicitly reconcile these records or name one canonical queue/release owner. Keep the existing 29-ID repair queue and new-batch HOLD; do not reinterpret the 100K target as 100K reserved URLs or a mass-publishing quota.
+- This is a capacity/priority/ownership reconciliation request, not a reversal of the user's 100K quality target. No owner assignment or control-board row was changed.
