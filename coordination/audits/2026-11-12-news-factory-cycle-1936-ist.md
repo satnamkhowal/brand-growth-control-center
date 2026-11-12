@@ -227,3 +227,12 @@
 
 **Central coordination status:** existing PR #19 branch remains diverged from main (141 ahead / 5 behind at this check). This checkpoint is appended to its existing branch; no rebase or merge was attempted.
 
+
+
+### NSP eligibility clarification — 12 November 2026, 22:14 IST
+
+- Current NSP All-Scholarships page lists PM YASASVI Top Class Education in Schools through 30 November 2026, but the Student Announcements page says fresh applications are currently accepted only from students outside Rajasthan, Keralam and Karnataka. Students in those three states must wait for a further notice. Forsk PR #156 received a status comment; do not advise Rajasthan applicants to apply yet.
+- NSP All-Scholarships lists PM-USP CSSS and PM-USP J&K/Ladakh renewal through 30 November, while the Student Announcements page says renewal applications closed 31 October. Keep those renewal claims on hold pending official clarification.
+- NMMSS remains separately listed through 15 November 2026. Do not conflate that date with PM YASASVI's 30 November listing.
+- Sources: https://scholarships.gov.in/All-Scholarships ; https://scholarships.gov.in/home
+
