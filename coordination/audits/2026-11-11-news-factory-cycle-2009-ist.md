@@ -833,3 +833,85 @@ Next actions: retrieve the current NeGD technical/non-technical internship and B
 ### Cycle 13 ledger correction
 
 The table's “Central checkpoint commits” field counts substantive cycle updates: **2** — 03cd86e0160b4fced89ef4d7b987cdbe423c39c1 (research/ownership section) and b3b9f56fc3274943308dad00eb31f1e4cb1520f9 (branch-comparison refresh). Two bookkeeping commits (11fe0fef621fffe78e55ac4114e49cc80d982add and this correction) bring the total cycle-associated central branch commits to **4**. No merge or rebase was performed.
+
+
+## News Factory active cycle — 12 November 2026, 20:05 IST
+
+### Summary
+Four non-overlapping research lanes were checked against primary sources: student/developer opportunities; React/frontend releases and security; Node.js/backend releases and security; AI/cloud/developer announcements. The current central checkpoint branch and the Mango Engineers, Groot Academy, Forsk Coding School and Jaipur Engineers repository inventories were reviewed before the only source write. One fresh, verified and previously unowned opportunity story was drafted for Forsk Coding School. Existing React, Node.js, scholarship, internship and AI/Copilot owners were preserved.
+
+### 1. Student / developer opportunity lane
+
+- **New DIBD/BHASHINI Young Professional recruitment — Forsk PR #197.** Official Advertisement No. N/351/2024-DIC/06 is dated 10 November 2026. The six-page official PDF lists eight contractual Young Professional positions (one each: AI Engineer, ML Engineer, API Developer, Cloud Technology Engineer, MLOps, Creative Design & Multimedia, Content & Social Media Management, Support/Onboarding). The official NeGD Careers page currently lists the eight openings and displays 10 December 2026. Five technical roles require a listed technology degree and at least one year of role-specific professional experience; the other three require a graduate qualification and at least one year of relevant experience. The notice explicitly excludes internship/training experience from the minimum experience calculation. Maximum age is 32 on the last date. Remuneration is ₹50,000/month consolidated inclusive of all, subject to statutory deductions/TDS. Current location is Noida, with possible posting anywhere in India. Initial tenure is one year or co-terminus with the project, whichever is earlier. The notice says online applications must be submitted within 30 days of 10 November; the current careers page supplies the 10 December displayed date. The application form could not be opened in the research browser, so live response acceptance is NOT_VERIFIED. The notice does not state an application fee; the draft does not call it free.
+  - Official advertisement: https://www.meity.gov.in/static/uploads/2026/11/85919e7c97bf40016ebe0a799cd7f8a7.pdf
+  - Official current openings: https://negd.gov.in/careers/
+  - Official form URL printed in PDF: https://forms.gle/roPA5Xrd1EZ1QHg59
+  - New Draft PR: https://github.com/satnamkhowal/forsk-coding-school/pull/197
+  - Isolated branch: content/news-factory-bhashini-young-professional-20261112-2005
+  - Two files only: original 2,566-word article and source/QA metadata JSON. Read-back verified; metadata parses and its word count matches.
+- **NeGD Non-Technical Winter Internship — existing Forsk PR #180 remains owner.** This is a different programme and applicant profile from the new Young Professional recruitment. No combined/duplicate article was created. PR #180 was given a coordination comment linking #197 and clarifying the distinction.
+- **NeGD Technical Winter Internship — research lead only.** The current official NeGD Careers page lists “Technical Internship (Winter Programme – 2026)” with 20 November 2026 beside it, but its linked official PDF returns HTTP 403. The older May 2026 technical-internship notice has a 15 June deadline and is closed. No current eligibility, stipend, seats or work-mode facts were inferred; no article created.
+- **Google Student Researcher 2027 — Forsk #146 remains owner.** Direct Google Careers page still shows India as Remote eligible, enrolled Bachelor's/Master's/PhD categories in listed disciplines, relevant CS experience and 4 December 2026 deadline with rolling review. No stipend or application fee is stated.
+  - Official listing: https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher-2027
+- **NSP — existing Forsk owners retained.** The current NSP 2026–27 page now shows NMMSS student applications through 15 November 2026; AICTE Swanath/Pragati/Saksham, UGC PG Studies, Ishan Uday and PM YASASVI Top Class Schools/College entries through 30 November 2026. Scheme-specific eligibility remains distinct. NSP's page footer still says last update June 2026, so linked scheme rules and current state notices remain required before student action. Existing Forsk PR #156 (YASASVI Schools), #166 (College), #173 (NMMSS), #178 (SDEF), and other scheme owners were not duplicated.
+  - Official portal: https://scholarships.gov.in/All-Scholarships
+- **VSSC academic project and internship status — Forsk #172 remains owner.** The live official portal confirms INT 08 is closed; INT 09 runs 1 May–31 July 2027 with applications 15 February–15 March 2027. For academic project work, BE/BTech/BSc/Diploma forms have a 15 November 2026 deadline for the January–March 2027 slot; ME/MTech/Integrated/MSc/BS-MS online applications run until 16 November 2026, 11:59 PM, for the January–June 2027 slot. The PhD route is by downloaded form/email, not the online PG application.
+  - Official portal: https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+
+### 2. React / frontend
+- Official React release list still shows 19.3.1, 19.2.9, 19.1.10 and 19.0.9 as the latest maintenance tags, all dated 14 October 2026. No newer stable release or November security advisory was found.
+- Existing Forsk PR #145 remains the RSC security owner; no duplicate draft.
+- Sources: https://github.com/react/react/releases and https://react.dev/blog
+
+### 3. Node.js / backend
+- Official Node.js security release dated 11 November is now available for 22.x, 24.x and 26.x: v22.23.5, v24.22.3 and v26.13.1.
+- The bulletin lists 16 distinct CVEs: 7 HIGH, 6 MEDIUM and 3 LOW. Notable areas include HTTP/2 session teardown/stream handling, TLS/HTTPS memory and authentication behaviour, proxy credential redaction, recursive fs.watch Permission Model leakage and wildcard filesystem over-grant.
+- Existing Mango PR #143 already owns the Node.js security draft and includes the current fixed versions/CVE table; no duplicate article or conflicting edit was made.
+- Official source: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+### 4. AI / cloud / developer news
+- GitHub's official changelog shows 11 November: Issue Types and Fields available for personal accounts. Existing Forsk PR #182 remains owner.
+- 10 November: Gemini 4 Carbon in GitHub Copilot; existing Forsk PR #168 remains owner.
+- 10 November: Enterprise Copilot seat-management API and other platform updates remain assigned to existing owners.
+- Google Cloud Gemini 4 Argon article is dated 13 October, not a new 12 November launch. Existing Google Cloud/AI owner records remain; no old announcement was presented as fresh.
+- Official changelog: https://github.blog/changelog/
+
+### 5. Repository and ownership audit
+- Central: read current README and the existing News Factory checkpoint/PR #19 history. Central README still has a control-board governance gap (eight brands listed, but Mango and Groot active rows are missing); this worker did not rewrite the central README or reassign ownership.
+- Mango Engineers: read README, AGENTS.md, docs/agent-start-here.md, task-board.csv, work-log.md and integration-queue.md. Existing #143 owns Node.js; no Mango write.
+- Groot Academy: read current README and open PR inventory. The current 100K controller/29-ID QA gate remains a separate priority; no Groot News Factory write or duplicate story.
+- Forsk Coding School: read README.txt, docs/ai-ops/MASTER_TASK_BOARD.md, SESSION_HANDOFF.md, WORKER_REGISTRY.md and worker-registry.json; reviewed current open PR inventory. Existing #180 owns the Non-Technical Internship; #197 is a distinct Young Professional notice. No shared task-board, handoff or worker-registry files were changed because the Master Controller owns aggregation.
+- Jaipur Engineers: read current README-INSTALL.md/open PR inventory from the prior current checkpoint and rechecked current PR titles. Existing #44–#47 and readability work remain owners. Central governance still marks the News Factory lane read-only; no Jaipur write.
+- Unverified/ambiguous brand mappings remain untouched.
+
+### 6. New draft, media and validation
+- New article: Forsk PR #197, 2,566 words, original English SEO/AEO/GEO-ready draft.
+- New media: 0. No featured image was created because Forsk's current image workflow requires a verified canonical/current destination page or publication handoff before a P3 News Factory featured image; this article is draft-only and has no verified destination page.
+- Video: 0 verified embeds. No relevant original YouTube video with independently verified ID, channel, upload date and permitted embedding was established; no iframe or video download was added.
+- GitHub read-back: article and metadata both retrieved; metadata JSON parses; word count 2,566 matches; exactly two new files; branch is 2 ahead / 0 behind main; no task-board or shared source files changed.
+- GitHub PR #197 snapshot: OPEN/DRAFT, unmerged, mergeable=false at creation. Combined status returned no entries and no PR workflow runs were returned; this is not a CI pass.
+- Independent editorial/source QA, responsive/browser QA and live application-form verification remain pending. No merge, deployment, publication or application submission occurred.
+
+### 7. Production delta — this cycle
+
+| Deliverable | Count |
+| --- | ---: |
+| Research lanes reviewed | 4 |
+| New fresh verified unowned stories selected | 1 |
+| New English article drafts | 1 |
+| New original graphics | 0 |
+| PNG/WebP derivatives | 0 |
+| Verified YouTube embeds | 0 |
+| Existing owner comments | 1 (Forsk #180 distinction note) |
+| Central checkpoint append | 1 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+
+### 8. Next actions
+1. Independent editorial and source QA for Forsk #197; recheck the official application form's live acceptance through an accessible official route.
+2. Respect the image workflow gate: wait for canonical destination/publication handoff before any featured-image production.
+3. Monitor VSSC 15/16 November, NMMSS 15 November, NeGD Non-Technical Internship 20 November, Google Student Researcher 4 December and BHASHINI Young Professional 10 December.
+4. Recheck the current NeGD Technical Internship attachment; do not use the closed May notice as a substitute.
+5. Keep Forsk #145, Mango #143 and existing AI/Copilot owners separate; no duplicate drafts.
+6. Keep central PR #19 and all brand PRs draft-only until their respective owners complete independent QA. No merge, rebase, deployment, publication or indexing claim.
+
