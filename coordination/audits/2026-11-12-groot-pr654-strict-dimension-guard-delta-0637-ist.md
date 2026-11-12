@@ -15,7 +15,7 @@
 
 ## Validation and CI boundary
 
-- PHP CLI 8.4.24 isolated fixture: syntax check PASS and 12/12 input cases PASS, including malformed numeric-prefix, fractional, boolean, overflow and leading-zero values.
+- Reproducible fixture is committed on the canonical controller branch: [ga-featured-dimension-guard-fixture.php](https://github.com/satnamkhowal/grootacademy.com/blob/content/groot-100k-controller-20261016/marketing/blog-factory/work/B0002/qa/ga-featured-dimension-guard-fixture.php), Git blob `b7c19f5d40d42f7189650aa8838f1154280f9162`; its SHA matches the local Git blob. PHP CLI 8.4.24 lint PASS and 12/12 input cases PASS, including malformed numeric-prefix, fractional, boolean, overflow and leading-zero values.
 - This is coordinator-run helper-fixture evidence only; it is not full-root PHP rendering, PHP 8.0 hosted lint, production browser/CLS/AT testing or independent review.
 - Exact-head Actions runs [43132691797](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43132691797) and [43132691768](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43132691768) both failed before steps (steps:null). Log retrieval returned Azure BlobNotFound (404); zero assertions are evidenced as executed. Repository Actions/storage administrator diagnosis is required; no retry was triggered.
 - PR #654 remains OPEN/DRAFT with zero independent reviews and zero review threads. Parent PR #507 remains independently gated and unmerged.
