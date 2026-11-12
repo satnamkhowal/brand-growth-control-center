@@ -129,3 +129,101 @@
 | Merged / deployed | 0 |
 
 **Next action:** independent editorial and source QA on Mango #200 and Forsk #196; investigate Mango Actions runner failure (jobs have zero steps); recheck NeGD PDFs and dynamic Homingo registration acceptance; continue existing Node.js/React security owners and monitor the 15–16 November VSSC/NMMSS deadlines. No merge or publication without approval.
+
+
+# News Factory cycle — 12 November 2026, 22:06 IST
+
+**Scope:** Four non-overlapping lanes rechecked across Mango Engineers, Groot Academy, Forsk Coding School, Jaipur Engineers and verified education/IT brands. Existing topic owners and current repository instructions were reviewed before writes. One new, unowned Google Cloud BigQuery lineage GA topic was drafted in Forsk; other current topics were status-checked and left with their existing owners.
+
+## 1. New Forsk Coding School draft — BigQuery pipeline data lineage GA
+
+- Task/issue: [Forsk #198](https://github.com/satnamkhowal/forsk-coding-school/issues/198).
+- Draft PR: [Forsk #198](https://github.com/satnamkhowal/forsk-coding-school/pull/198), OPEN/DRAFT.
+- Branch: news-factory/bigquery-pipeline-lineage-ga-20261112-2206.
+- Base main: 9a25fd5a11641420ac716d3fd25103e6e8362fbf.
+- Current head: a567bf565ca4009424510ddb750372b977e0fcf8.
+- Comparison: 7 commits ahead / 0 behind main; exactly 5 changed files; 442 additions; PR reports mergeable=true / mergeable_state=unstable.
+- Article: 2,540-word original English SEO/AEO/GEO-ready guide. It distinguishes the 12 November 2026 release-note publication date from an unstated separate event date.
+- Scope: table-level lineage only for BigQuery pipeline actions; no column-level claim. Covers initial-rollout opt-in, API/IAM and service-account setup, end-user credential limitation, Mumbai asia-south1 and Delhi asia-south2 availability, 30-day retention, Premium Processing and metadata-storage charges, and the Standard-only free tier.
+- Original graphic: 1200×675 SVG at docs/news-factory/media/bigquery-pipeline-data-lineage-ga-flow.svg. Self-authored vector; no third-party image, logo, screenshot, icon pack or font. Attribution, source/rights, alt text, dimensions and local repository path are in the metadata sidecar.
+- Metadata: docs/news-factory/drafts/bigquery-pipeline-table-level-data-lineage-ga-guide.metadata.json.
+- Article path: docs/news-factory/drafts/bigquery-pipeline-table-level-data-lineage-ga-guide.md.
+- No verified original YouTube video ID, channel, upload date and embed permission were established; no iframe or video download.
+- Forsk master task board and session handoff were both appended with the task and later CI blocker. Exact GitHub read-back passed; JSON parses; article word count 2,540; SVG source dimensions/title/description checked and no external image/script reference found.
+
+### CI and QA status
+
+- Workflow run [43262875079](https://github.com/satnamkhowal/forsk-coding-school/actions/runs/43262875079) completed with failure. Job learning-guide-card-copy reports runner_id=0, no runner name and an empty steps array. No PHP lint or source-level test ran. This is a runner/workflow provisioning blocker, not an article/code failure and not a CI pass.
+- Independent editorial QA: PENDING.
+- Independent BigQuery technical QA: PENDING.
+- Independent responsive/browser visual QA: PENDING.
+- CI: BLOCKED before steps; no source-level test result.
+- No merge, deployment, publication, indexing or live-page claim.
+
+## 2. Student, developer and scholarship opportunities
+
+- **Google Student Researcher 2027:** official Google Careers listing still shows Apply, India / Remote, deadline 4 December 2026 and rolling review. Requires current enrolment in a relevant Bachelor's, Master's or PhD programme and experience in a listed CS/research area. Stipend and application fee are not specified. Existing owner: [Forsk #146](https://github.com/satnamkhowal/forsk-coding-school/pull/146). Status comment added.
+  - https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+- **BHASHINI Young Professionals:** MeitY advertisement dated 10 November 2026 confirms 8 contractual positions, ₹50,000 consolidated monthly remuneration, maximum age 32 on the last application date, minimum one year of relevant professional experience, and explicitly excludes internship/training experience from that minimum. Current location is Noida, with possible posting anywhere in India. Applications are invited within 30 days of the advertisement (10 December 2026). Form URL is present, but live response acceptance was not independently confirmed; the PDF does not state an application fee. Existing owner: [Forsk #197](https://github.com/satnamkhowal/forsk-coding-school/pull/197). Status comment added.
+  - https://www.meity.gov.in/static/uploads/2026/11/85919e7c97bf40016ebe0a799cd7f8a7.pdf
+  - https://forms.gle/roPA5Xrd1EZ1QHg59
+- **NeGD Winter Internships:** current official careers page lists Technical and Non-Technical Winter Programme 2026 in Delhi-NCR with 20 November 2026 date. Both linked PDFs returned HTTP 403 in this review; eligibility, stipend, duration, seats, fees and conditions for the Technical route remain unverified. Existing Non-Technical owner: [Forsk #180](https://github.com/satnamkhowal/forsk-coding-school/pull/180). Status comment added; no new Technical article.
+  - https://negd.gov.in/careers/
+- **VSSC:** official portal confirms INT 08 internship is closed; INT 09 is 1 May–31 July 2027 with applications 15 February–15 March 2027. Separate academic project routes for BE/BTech/BSc/Diploma applicants (next slot 1 January–31 March 2027) have a 15 November 2026 last date and use a downloaded form emailed to VSSC; ME/MTech/Integrated MTech/MSc/Integrated MSc/BS-MS online applications close 16 November 2026 at 11:59 PM. These project routes are not described as paid internships; no stipend or fee is listed. Existing owner: [Forsk #172](https://github.com/satnamkhowal/forsk-coding-school/pull/172). Status comment added.
+  - https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+- **NMMSS 2026–27:** NSP current All-Scholarships listing still shows 15 November 2026 as the student application deadline. Other AICTE/UGC listings show 30 November, but the portal footer still says last updated June 2026; verify each scheme's current guideline and form before student action. Existing owner: [Forsk #173](https://github.com/satnamkhowal/forsk-coding-school/pull/173). Status comment added.
+  - https://scholarships.gov.in/All-Scholarships
+- **Google Gemini 4 Carbon scientist access:** Google's 10 November announcement says the programme opened four weeks earlier for 10,000 scientists to receive six months of free Argon access; Carbon is now being added for current and future participants. Applications remain open and onboarding continues weekly on a rolling basis, subject to eligibility, capacity and selection. The announcement does not specify India eligibility, stipend or application fee; the linked Google Form could not be fetched, so live response acceptance is not independently confirmed. Existing owner: [Forsk #168](https://github.com/satnamkhowal/forsk-coding-school/pull/168). Status comment added; no duplicate article.
+  - https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/
+
+## 3. React / frontend
+
+- Official React release list still shows 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026. No newer stable React core release was found.
+- Existing owners preserved: Forsk #145 (React Server Components security) and Groot #644 (React Native 0.89 release-candidate coverage). No duplicate React article or graphic.
+- https://github.com/react/react/releases
+- https://reactnative.dev/releases/overview
+
+## 4. Node.js / backend
+
+- Official 11 November security bulletin links patched LTS versions 22.23.5, 24.22.3 and 26.13.1. It lists 16 distinct CVEs: 7 HIGH, 6 MEDIUM and 3 LOW. Existing Mango #143 owns the security article; its current draft correctly maps CVE-2026-106071 to the Permission Model wildcard filesystem over-grant and CVE-2026-123874 to the HTTP/2 file-response use-after-free; it explicitly excludes the incorrect CVE-2026-123873 mapping.
+- Node.js 27.0.0-alpha.0.1.0 was published 12 November 2026 at 13:35:13 UTC. It is Alpha, not stable/LTS. Existing owners: Mango #153 and Groot #650; no duplicate article.
+- https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+- https://github.com/nodejs/node/releases/tag/v27.0.0-alpha.0.1.0
+
+## 5. AI / cloud / developer news
+
+- **New unowned item:** BigQuery table-level data lineage for BigQuery pipelines in Knowledge Catalog reached GA in the 12 November 2026 release notes. The new Forsk #198 draft is the only new article from this cycle.
+- **Gemini 4 Carbon:** existing Forsk #168 remains owner; scientist-access programme status rechecked above.
+- Other existing AI/Cloud owners were preserved, including current Groot AWS Emulator / Model Armor / VS Code and Forsk Copilot / Agent Gateway drafts. No duplicate story or cross-brand near-copy was created.
+- https://docs.cloud.google.com/bigquery/docs/release-notes
+- https://docs.cloud.google.com/bigquery/docs/manage-pipelines
+
+## 6. Repository and coordination safety
+
+- **Mango Engineers:** current README, AGENTS instructions, agent-start guide, task board, work log, integration queue and open PR ownership were read. Existing Node.js, React and BigQuery/BigFrames owners were preserved; no new Mango write.
+- **Groot Academy:** current .agent instructions and active queue reviewed. Routine blog factory is P3/HOLD until higher-impact UX and QA gates are cleared; no new Groot article write.
+- **Forsk Coding School:** current main and master task board/session handoff read. Main was 9a25fd5a11641420ac716d3fd25103e6e8362fbf before branch creation. New work is isolated to the five PR #198 paths listed above.
+- **Jaipur Engineers:** canonical repository and current opportunity owners reviewed; no new unowned topic or approved News Factory draft lane selected. Read-only this cycle.
+- Unverified brand aliases remain untouched.
+- Central README confirms coordination-only use; implementation remains in each brand source repository. Existing central PR #19 is reused; no duplicate central PR or checkpoint file created.
+
+## 7. Production ledger — this run's delta
+
+| Stage | New count |
+| --- | ---: |
+| Research lanes checked | 4 |
+| New verified unowned stories | 1 |
+| New original English articles | 1 |
+| Existing-owner status comments | 6 |
+| New original SVG graphics | 1 |
+| New optimized PNG/WebP derivatives | 0 |
+| Verified YouTube videos | 0 |
+| Verified iframe embeds | 0 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+**Next action:** independent editorial, BigQuery technical and responsive visual QA for Forsk #198; investigate the zero-step runner failure separately. Recheck the 15–16 November VSSC/NMMSS deadlines and obtain the NeGD internship PDFs before writing more opportunity content. Do not merge, deploy or publish without independent QA and separate approval.
+
+**Central coordination status:** existing PR #19 branch remains diverged from main (141 ahead / 5 behind at this check). This checkpoint is appended to its existing branch; no rebase or merge was attempted.
+
