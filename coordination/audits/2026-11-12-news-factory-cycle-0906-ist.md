@@ -119,3 +119,70 @@ Central checkpoint branch reused: ops/news-factory-cycle-20261109-2209. Current 
 | Production deployments | 0 |
 
 **Important status:** both new PRs are OPEN and DRAFT, currently mergeable, but not independently QA-ready. No CI workflow run or combined status was returned for either latest commit. No merge, deployment, application submission, live publication or indexing occurred.
+
+
+---
+
+## Cycle 10:07 IST — 12 November 2026
+
+### Research summary
+
+Four non-overlapping lanes were checked against current primary sources:
+
+1. **Student/developer opportunities:** Google Student Researcher 2027 remains listed for India Remote with a 4 December 2026 deadline and rolling review (existing Forsk #146). NeGD Non-Technical Winter Internship remains owned by Forsk #180: 12 positions, 20 November deadline, ₹15,000/month conditional on satisfactory completion and accepted report. The separate NeGD Technical Internship 2026 appeared in the MeitY vacancy listing on 11 November with a 20 November deadline, but its current official PDF/application endpoint could not be retrieved; it remains a research-only lead, not a verified article. NMMSS (15 November), Sage IT (15 November), Ishan Uday (30 November), AICTE schemes (30 November) and PM YASASVI remain with their existing owners; Rajasthan fresh-applicant restrictions for PM YASASVI remain disclosed.
+2. **React/frontend:** no new November stable React core release verified. React stable patch tags reviewed: 19.3.1, 19.2.9, 19.1.10 and 19.0.9 (14 October). React Server Components CVE-2026-126187 remains with Forsk #145; React Native 0.89.0-rc.1 is pre-release, not stable; 0.88.1 remains stable (existing Groot #644).
+3. **Node/backend:** official 11 November security releases remain Node.js 22.23.5, 24.22.3 and 26.13.1. The existing Mango #143 owns this bulletin; no duplicate article.
+4. **AI/cloud/developer:** AWS AI-PDLC (11 November) remains Groot #662; AWS UAEF (11 November) remains Forsk #188. Two fresh unowned Google Cloud stories were selected: Antigravity CLI in Agent Platform Workbench (10 November, Preview) and Agent Gateway for cross-cloud (11 November, Limited Preview).
+
+### New draft deliveries
+
+- **Mango Engineers — PR #192:** [Google Antigravity CLI in Agent Platform Workbench: India setup, IAM and safety](https://github.com/satnamkhowal/mangoengineers.com/pull/192). Original 2,155-word English draft; three files (Markdown article, original SVG, provenance/SEO JSON); three commits ahead / zero behind main; GitHub reports mergeable=true. Official release-note date 10 November; dedicated documentation last updated 10 November UTC; no separate event date. Preview only. Covers Debian 12 / workbench-instances-2603+, JupyterLab/agy, notebook skills, %%agy, roles/aiplatform.user for user and instance service account, APIs, approval gates, direct-to-disk edits, India Workbench zones and Preview data-residency caveat. Pricing is not invented: no separate CLI fee in the release note; Workbench/Compute/disk/management charges may apply; $300 new-customer credit is conditional.
+  - Original self-authored SVG: docs/news-factory/media/antigravity-cli-workbench-flow.svg, 1200×675, XML/render/visual inspection PASS.
+  - Local optimized derivatives: /mnt/data/news-factory/2026-11-12/1007/mango-antigravity-workbench/antigravity-cli-workbench-flow.png (1200×675, 132,960 bytes) and .webp (1200×675, 58,182 bytes). Only SVG committed, consistent with Mango's current asset convention.
+  - Video candidate: am0lg5-ofvQ, Google Antigravity channel, 19 May 2026; general CLI walkthrough, not the Workbench feature. Embed permission not independently verified, so fallback link only; no iframe and no download.
+- **Forsk Coding School — PR #189:** [Google Agent Gateway for cross-cloud: Kubernetes governance and Preview access](https://github.com/satnamkhowal/forsk-coding-school/pull/189). Original 2,393-word English draft and provenance/SEO JSON; four commits ahead / zero behind main; GitHub reports mergeable=true. Official release-note date 11 November; documentation last updated 11 November UTC; no separate event date. Limited Preview, request form required and submission does not guarantee access. India-specific eligibility/region matrix is not published. Covers EKS/AKS/OpenShift/bare-metal CNCF clusters, three-plane architecture, Envoy, IAP/Model Armor, Workload Identity Federation, namespace/RBAC controls, TLS inspection CA Secret risk, known fail-open/readiness/URL issues and cost caveats. Agent Gateway has no charge during Limited Preview; Model Armor public pricing lists 2M tokens/month free then US$0.10 per extra million; Cloud Logging/Trace and infrastructure remain separate.
+  - No featured image: Forsk's existing P3 News Factory image workflow defers featured-image creation until a canonical/current destination page or publication handoff. No prompt counted as an asset.
+  - No relevant verified original YouTube video found; no iframe or download.
+
+### Repository and deduplication audit
+
+- **Mango:** read README, AGENTS, agent-start guide, task board, work log and integration queue. No existing Antigravity task row, PR or branch; existing Gemini 4 Argon PR #173 is a different story. Only isolated News Factory draft/media paths changed.
+- **Groot Academy:** canonical repo ID resolves as grootacademy.com / gta; current open PR inventory and branch search reviewed. No Agent Gateway match. Current README/.agent handoff paths did not resolve on the default branch, so no Groot write was made.
+- **Forsk:** read README.txt and existing News Factory PR #188 conventions; no root AGENTS or News Factory README found. Default-branch search, target-path checks and branch search showed no Agent Gateway draft/owner before writing. Only two isolated draft files added; no live blog page or production files changed.
+- **Jaipur Engineers:** canonical repository and open PR inventory reviewed; root README/AGENTS were not readable in this pass, so no write.
+- **CadMate India:** private cadmateindia.com README confirms CAD/BIM-first Jaipur training positioning; no AGENTS or open PRs returned; no News Factory write.
+- **Clever Ape Academy:** cleverapeacademy.com open readability PR #22 and SEO PR #20 retained; README/AGENTS not readable; no News Factory write.
+- **Forsk Technologies:** public forsktechnologies.com README identifies a converted static theme/demo and warns that demo contact/promotional claims and third-party theme assets require owner verification; existing readability PR #25 retained; no News Factory write.
+- **Groot Software:** Groot-Software-Website README contains only a minimal marker; groot-software-new-website has active readability PR #35 and internship lineage PRs #33/#32. No news write to either.
+
+### Validation and QA status
+
+- Mango #192: GitHub read-back PASS; Markdown front matter PASS; metadata JSON parse PASS; article word count 2,155 matches metadata; SVG 1200×675; local PNG render/visual inspection and WebP decode PASS; compare 3 ahead / 0 behind; mergeable=true. Combined commit status returned no status entries and no PR workflow runs; CI is unverified. No review threads or submitted reviews returned.
+- Forsk #189: GitHub read-back PASS; Markdown front matter PASS; metadata JSON parse PASS; article word count 2,393 matches metadata; compare 4 ahead / 0 behind; mergeable=true. Combined commit status returned no status entries and no PR workflow runs; CI is unverified. No review threads or submitted reviews returned.
+- Independent editorial/fact QA, independent technical QA and responsive/browser QA remain pending for both. No merge, deployment, publication, indexing or application submission occurred.
+
+### Production ledger — this cycle's delta
+
+| Stage | Count |
+|---|---:|
+| Research lanes completed | 4 |
+| Fresh verified unowned stories selected | 2 |
+| Research-only unverified opportunity leads | 1 |
+| Original English drafts | 2 |
+| New GitHub Draft PRs | 2 |
+| New committed original graphics | 1 SVG |
+| Local optimized derivatives | 2 |
+| Verified video candidates | 1 |
+| Verified iframe embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+
+### Next action
+
+1. Independent editorial and technical QA for Mango #192 and Forsk #189.
+2. Recheck the NeGD Technical Internship official PDF/form and whether applications are actually accepted before any draft.
+3. Recheck NMMSS and Sage IT before their 15 November deadlines; recheck NeGD by 20 November.
+4. Continue monitoring existing Node.js #143, React/RSC #145 and React Native #644 owners; do not duplicate.
+5. Preserve Forsk image P3 gate and the central control-board ownership model.
+
+Central News Factory PR #19 remains on its existing branch, currently 121 commits ahead / 5 behind main. This checkpoint is append-only; no rebase or merge was performed.
