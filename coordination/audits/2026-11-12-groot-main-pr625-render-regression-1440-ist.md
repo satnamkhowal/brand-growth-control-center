@@ -1,0 +1,53 @@
+# Central coordination delta — Groot Academy current main and shared-head regression
+
+**Observed:** 12 November 2026, 14:40 IST  
+**Source implementation repository:** `satnamkhowal/grootacademy.com` (requested alias `satnamkhowal/gta` redirects to repository ID `1375760757`)  
+**Central repository:** `satnamkhowal/brand-growth-control-center`  
+**Central main:** `21af139cc32a7b67aab6908c61edeb5998bd4544`  
+**Central review branch:** `audit/groot-ga22-browser-delta-20261112-0350`
+
+## New source-side evidence
+
+Groot current main advanced to `52e2b83f77e7607f411bf8011276c98172ea0216`. Since the prior `6c2597` snapshot, two course-catalogue accessibility/search commits landed and PR #676 merged a separate Spring Boot REST API project roadmap with registry and sitemap entries. PR #676 has zero independent review submissions and no PR-triggered workflow run returned for its merge commit; live/deployment/indexation remain UNVERIFIED. It has no canonical GA-B ID and is outside the 29-ID factory queue.
+
+### PR #625 — duplicate shared `<base>` regression
+
+Current main emits one base in `blogs/_shared/partials/head.php` and another in root `head.php`. PR #625 removes the partial-owned base while preserving the dynamic `ga_url()` stylesheet.
+
+Exact Git-blob local fixture evidence:
+- Exact current root `head.php`, `includes/site-paths.php`, PR #625 partial, PHP harness and Python test blobs were materialized and hash-verified.
+- Current-main partial reconstructed from the one-line patch matched its exact current-main blob.
+- Baseline current-main partial fails both render tests as expected: duplicate base values `/groot-preview//` + `/groot-preview/`, and `//` + `/`.
+- Proposed PR #625 partial passes 2/2 tests in normal Python, `-O` and `-OO` (6/6 executions).
+- PHP 8.4.24 lint 4/4 and Python `py_compile` PASS.
+
+PR #625 remains OPEN/DRAFT with zero independent reviews, zero review threads and no workflow run returned for its current head. Against current main it is 6 ahead / 9 behind (merge base `071ab8a5`); owner-led rebase/reconciliation is required before independent review. A source PR comment records the evidence; no approval or merge was made.
+
+### Recovery stack
+
+- PR #507 is now 3 ahead / 7 behind current main `52e2b83f` (merge base `f048dedf`); owner-led reconciliation is required.
+- PR #654 → #660 → #664 remain sequential stacked drafts; PR #664 has zero independent reviews.
+- The source owner received a current-main reconciliation comment on #507. No recovery branch was rebased, approved, merged or deployed in this delta.
+
+## Queue, quality and governance
+
+- Canonical queue blob remains `4e087f8cda5479ff9d1124f24ff427a0dbf2b4ad`; all 29 IDs and PR #62 order preserved, no queue write.
+- Current factory accounting remains 23 complete original drafts, 23 technical visuals, 23 PHP candidates, 22 independent editorial passes, 18 independent code passes, 23 independent visual passes, 0 independent approvals, 0 published and 0 live verified.
+- Main Master Plan blob `e1ce95a0a926b5371abff735bd672d8aeb3f1a9c` still defines 10,000 possible IDs, not validated opportunities or a quota. HAO-008 remains P3/REVIEW.
+- User-authorized target remains 100,000/P0; issue #401 records 100,000 as M4 and 1,000,000 as conditional M5. Latest owner checkpoint/comment available through 14:19 IST does not explicitly reconcile 10K/P3 vs 100K/P0 or name one canonical queue/release owner. New batches remain HOLD; repairs continue.
+
+## Central ownership and prior lanes
+
+- Central main README blob remains `b93187c353f8112a57fffab4b383e64236976394`: eight brands listed, three active owner/status rows, Groot Academy active row missing.
+- Central PR #1/#2/#3 remain CLOSED/MERGED; reuse the existing AEO/GEO PR #2 baseline and do not recreate it.
+- Jaipur Engineers `je2` social repository versus `jaipur-engieneers` candidate website mapping remains unresolved; neither is assumed wrong.
+- Source implementation stays in Groot's repository. This report is coordination-only; central main and other brand repositories/files are untouched.
+
+## Exact next action
+
+1. Master owner to reconcile 10K/P3 and 100K/P0 and name one canonical queue/release owner.
+2. Groot source owner to rebase/reconcile #625 and #507 against current main, then obtain independent reviews.
+3. Actions/Azure administrator to diagnose `BlobNotFound`; restore authorized exact-checkout/DNS access.
+4. Continue existing GA-B00029, GA-B00016 and GA-B00022 release gates. Preserve all 29 IDs.
+
+No self-approval, self-merge, deployment, publication, indexing or cross-brand ownership change occurred.
