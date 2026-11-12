@@ -730,3 +730,94 @@ Sources:
 | Central checkpoint commits | 1 |
 
 Next actions: retrieve the current NeGD technical-internship and BHASHINI Young Professional PDFs/forms; continue source rechecks for 15–20 November deadlines; independently QA existing open drafts rather than creating duplicate stories.
+
+---
+
+## Cycle 13 — 12 November 2026, 13:09 IST
+
+### Research lane 1 — official student/developer programmes, internships and scholarships
+
+- **Google Student Researcher, 2027:** the current Google Careers listing is still open for applications, explicitly marks India as a remote location, requests applications by **4 December 2026**, and says review is rolling. Applicants must be currently enrolled in a Bachelor's, Master's or PhD programme in a listed quantitative/computing/science discipline and have experience in a relevant computer-science research area. The posting does not state a stipend or application fee. Existing sole owner: Forsk #146; no duplicate article.
+- **NeGD Technical Internship 2026:** MeitY's current vacancies listing shows publication/start date **11 November 2026** and a **20 November 2026** application deadline. The detailed current PDF and complete form URL were not retrievable from the listing, so eligibility, disciplines, seats, stipend, fees and work mode remain unverified. The older May 2026 technical notice is closed and was not reused. Research-only; no article.
+- **NeGD Non-Technical Internship 2026:** the same MeitY listing shows publication/start date **11 November 2026** and a **20 November 2026** deadline. Existing Forsk #180 remains the owner; no duplicate article.
+- **Digital India BHASHINI Division Young Professionals:** MeitY lists **8 roles**, published/started **10 November 2026**, with a **10 December 2026** deadline. NeGD's current careers page lists Support/Onboarding, Content & Social Media, Creative Design & Multimedia, MLOps, Cloud Technology Engineer, API Developer, ML Engineer and AI Engineer in Noida. The detailed current advertisement was not retrievable, so qualifications, experience, remuneration, fees and full application details were not promoted as verified. Research-only.
+- **NeGD current careers roles due 18 November:** the official careers page lists Frontend Developer, Junior L1/L2 Application Support, Junior QA & Security Support and Junior Backend/Mobile Developer for Delhi-NCR. The detailed role PDFs/qualifications/pay were not retrievable; no article.
+- **NSP 2026–27 live listing:** the portal currently shows NMMSS student applications through **15 November 2026**; several AICTE Pragati/Saksham/Swanath schemes, Ishan Uday, PM YASASVI school/college, PMSS CAPF/Assam Rifles and other listed schemes through **30 November 2026**. PM-USP CSSS is explicitly **renewal-only**. The portal footer still says last update June 2026; scheme-specific eligibility and any state restrictions must be checked before application. Existing Forsk/Jaipur owners were preserved; no duplicate scholarship article.
+
+Primary sources:
+- https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher-2027
+- https://www.meity.gov.in/offerings/vacancies?page=1&target_lang=en
+- https://negd.gov.in/careers/
+- https://scholarships.gov.in/All-Scholarships
+
+### Research lane 2 — React/frontend
+
+- Official React releases page still lists **19.3.1, 19.2.9, 19.1.10 and 19.0.9**, all dated **14 October 2026**; no newer stable React core release was found on 12 November.
+- The RSC Critical advisory **GHSA-xqc2-xf4c-x3h3 / CVE-2026-126187** (CVSS 9.5) and the separate Server Functions DoS advisory **GHSA-h3gv-c5rc-p453** (CVSS 8.2) both point to the same fixed React package versions. Existing Forsk #145 already covers both advisories and the version matrix; no duplicate.
+- React Native **0.89.0-rc.1** remains an RC, not stable; existing Groot #644 is the owner.
+
+Primary sources:
+- https://github.com/react/react/releases
+- https://github.com/react/react/security/advisories/GHSA-xqc2-xf4c-x3h3
+- https://github.com/react/react/security/advisories/GHSA-h3gv-c5rc-p453
+- https://reactnative.dev/releases/overview
+
+### Research lane 3 — Node.js/backend
+
+- The Node.js Project published its security release on **11 November 2026**. Patched versions are **22.23.5**, **24.22.3** and **26.13.1**. The advisory lists **16 CVEs: 7 HIGH, 6 MEDIUM and 3 LOW**; impact differs by release line and API/configuration.
+- Existing Mango #143 already owns the Node.js November security article and includes the current release versions/CVE count. No second Node.js article was created.
+
+Primary source:
+- https://nodejs.org/zh-cn/blog/vulnerability/november-2026-security-releases
+- https://nodejs.org/en/blog
+
+### Research lane 4 — AI/cloud/developer news
+
+- **A2UI 1.0:** Google Developers Blog published the first stable generative-UI protocol announcement on **11 November 2026**. This topic was already owned by Groot Academy **PR #658**, created at 08:10 IST, with an original article and diagram. Compatibility caveats are explicit: Jetpack Compose supports 0.9.1 today with 1.0 coming soon; Gemini supports 0.9.1 today while its 1.0 upgrade is in progress. The v1.0 protocol adds bidirectional function calls, accessibility and extension metadata. No separate event date is stated.
+- A duplicate Forsk PR **#191** was created before the current canonical Groot repository search surfaced #658. It was **closed without merge** to preserve a single cross-brand owner. Its branch is retained for audit history only; no public route or production file changed. Do not reopen or syndicate this topic under Forsk.
+- The Google blog links an A2UI walkthrough at https://youtu.be/kZ7fzADj1HM, but uploader/channel, upload date and embed suitability were not independently verified. No iframe was authored and no video was downloaded.
+- Existing AI/cloud owners were preserved: Mango #192/#195; Forsk #188/#189; Groot #647/#662 and other current AWS/GCP owners. No other fresh unowned AI/cloud story passed the duplicate check.
+
+Primary sources:
+- https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/
+- https://a2ui.org/quickstart/
+- https://a2ui.org/concepts/catalogs/
+- https://a2ui.org/concepts/data-binding/
+- https://a2ui.org/concepts/actions-and-functions/
+- https://github.com/a2ui-project/a2ui/blob/main/specification/v1_0/README.md
+- https://github.com/a2ui-project/a2ui/blob/main/LICENSE
+
+### Current repository/ownership review
+
+- **Central Control Center:** current README, coordination scope and this existing News Factory checkpoint reviewed. This cycle was appended to the existing PR #19 checkpoint branch; no rebase or merge.
+- **Mango Engineers:** read README, agent-start instructions, task board, integration queue and work log. Existing Node.js/Gemini Omni #143 and GitHub security #195 owners were preserved; no new Mango write.
+- **Groot Academy:** canonical website repository satnamkhowal/grootacademy.com and its .agent/README.md, master handoff, current state, backlog, decisions, migration status, recent handoff and current open-PR inventory reviewed. Existing A2UI #658 is the sole owner; no Groot article write.
+- **Forsk Coding School:** read README.txt, master task board, session handoff, image audit/workflow, blog publishing log and current News Factory PRs #188–#191. Duplicate PR #191 was closed without merge.
+- **Jaipur Engineers:** read README-INSTALL.md and MIGRATION-NOTES.md. The latter identifies je2 as the canonical application and warns against wholesale copying from the legacy repository. Existing opportunity owners #44–#47 were preserved; no Jaipur write.
+- **CadMate India / Clever Ape Academy:** current README/AGENTS paths did not resolve in the reviewed repositories; no speculative write. Forsk Technologies/Groot Software canonical News Factory repository mappings remain unverified; no write.
+
+### Actual actions and validation this cycle
+
+- Created Forsk #191 (3 commits, 3 files, 2,773-word draft and one original 1200×675 SVG) before the Groot duplicate was found; **closed #191 without merge**. The SVG/PNG/WebP previews remain local or on the closed branch only and are not counted as active production assets.
+- Added a top-level ownership/source-verification comment to canonical Groot #658. Its existing article/graphic remain the active A2UI owner.
+- Groot #658 read-back: OPEN / DRAFT / mergeable; six commits, three files. No workflow runs or combined status entries were returned; CI is unverified. Independent editorial/technical QA remains pending.
+- Forsk #191 read-back: CLOSED / NOT MERGED. No production route, sitemap, redirect, public blog folder or live asset changed.
+- No verified YouTube embed, no video download, no independent QA-ready increment, no live publication, no merge and no deployment.
+
+### Cycle 13 ledger
+
+| Stage | New count |
+| --- | ---: |
+| Research tracks | 4 |
+| New verified unowned stories promoted | 0 (A2UI already owned by Groot #658) |
+| New active English article drafts | 0 |
+| Duplicate draft PRs closed without merge | 1 (Forsk #191) |
+| New active committed graphics | 0 |
+| Temporary original SVG on closed duplicate branch | 1 |
+| Local PNG/WebP previews from closed duplicate branch | 2 |
+| Verified YouTube embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+| Central checkpoint commits | 1 |
+
+Next actions: retrieve the current NeGD technical/non-technical internship and BHASHINI Young Professional PDFs/forms; independently QA Groot #658 and existing Forsk #145 / Mango #143 rather than creating duplicate stories; recheck NMMSS before 15 November and NeGD listings before 18–20 November.
