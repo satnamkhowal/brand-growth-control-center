@@ -158,3 +158,8 @@ Coordination-only evidence. No source implementation in this repository, central
 ### Supplemental exact-head CI delta — PR #660
 - Source [PR #660](https://github.com/satnamkhowal/grootacademy.com/pull/660) triggered Markdown parity run [43148169077](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43148169077). Job `130950812242` completed failure with `steps: []`; log retrieval returned Azure `BlobNotFound` (404). No assertion is evidenced as executed. This is an Actions/artifact-storage infrastructure failure, not an application test failure or CI pass. No retry was triggered; repository Actions/storage administrator diagnosis is required.
 - Source controller README/CONTROLLER.json now records this exact blocker; canonical queue remains 29 IDs, draft/approval/live counts unchanged. No central-main or production write.
+
+
+### Canonical queue integrity verification
+- Current controller queue blob `4e087f8cda5479ff9d1124f24ff427a0dbf2b4ad` was compared directly with the immutable planning snapshot `567b6b27445191d6705624607dfb3cbeb5c72c32` / blob `df30f7f4e7de86f41f6b04fb765221d6757bb513`.
+- Exact 29-ID sequence match: PASS; missing IDs 0; extra IDs 0. Status counts remain MERGE 3, REFRESH 2, IDEA 1, PUBLISH_PR 5, TECH_QA 17, CONTENT_QA 1. Queue was not modified.
