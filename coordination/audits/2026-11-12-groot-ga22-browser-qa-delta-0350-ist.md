@@ -219,3 +219,10 @@ Coordination-only evidence. No source implementation in this repository, central
 - Current canonical queue has 29 rows. Its ID sequence exactly matches the immutable 29-ID planning snapshot from PR #62 (missing 0, extra 0). The CSV blob hashes differ because current status/metadata fields have progressed; no queue mutation occurred in this run.
 - Current B0001 status snapshot: GA-B00005 IDEA; GA-B00006–10 PUBLISH_PR; GA-B00011–13 and GA-B00015/17/18/19 TECH_QA; GA-B00014 REFRESH; GA-B00016 CONTENT_QA.
 - Research proposals and queue IDs are not completed articles. This does not change the 23 complete-draft count or independent approval/live counts.
+
+
+### Master capacity / priority clarification — 2026-11-12 09:40 IST
+- Current-main \`marketing/blog-factory/MASTER-PLAN.md\` is titled “10,000 Blog Capacity” and says it supports 10,000 possible IDs, **not** 10,000 validated opportunities; empty slots are not ID reservations or publication quotas.
+- Current \`HAO-008\` is P3 / REVIEW and explicitly warns against 10,000-post quotas, draft-only SEO claims, duplicate frameworks and unverified publication.
+- The user's requested 100,000 finished useful original articles remains the north-star, not authorization to reserve 100,000 IDs, invent demand, create keyword-swapped pages or mass-publish.
+- Keep the existing 29-ID repair queue and independent QA gates. Hold new batches until the Master owner explicitly reconciles capacity/priority and names one canonical queue/release owner.
