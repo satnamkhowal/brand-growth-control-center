@@ -215,9 +215,9 @@ Reviewed current repository metadata, open PR inventory, and available instructi
 
 - URL: https://github.com/satnamkhowal/forsk-coding-school/pull/190
 - Branch: `content/news-factory-react-summit-us-2026-20261112-1208`
-- 3 commits ahead / 0 behind main; GitHub reports OPEN / DRAFT / mergeable=true.
+- 4 commits ahead / 0 behind main; GitHub reports OPEN / DRAFT / mergeable=true.
 - 3 files: 1,806-word article, JSON research/asset metadata, original 1200×675 SVG.
-- Metadata JSON parses; article/SVG/metadata read-back verified.
+- Metadata JSON parses; article/SVG/metadata read-back verified. A fourth commit records the final 1,806-word count and successful repository-readback/XML checks.
 - Local SVG rendered to PNG; PNG visual inspection passed; WebP decode passed. WebP/PNG previews are local only, not committed.
 - Combined status has no status entries and workflow-runs endpoint returned no runs. CI is **unverified**, not passed.
 - Independent editorial/source QA, technical QA and responsive review remain PENDING.
