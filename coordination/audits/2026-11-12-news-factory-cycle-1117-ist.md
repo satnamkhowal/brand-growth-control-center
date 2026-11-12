@@ -131,3 +131,9 @@ Before this append, central PR #19 branch compared **122 commits ahead / 5 behin
 | Production deployments | 0 |
 
 No merge, deployment, publication, indexing, scholarship submission or video download occurred. Next action: independent editorial/source QA and technical review for Mango #195; continue monitoring current opportunity deadlines and existing React/Node owners without creating duplicate drafts.
+
+
+### CI status recheck — 12 November 2026, after PR creation
+- Mango PR #195 later exposed GitHub Actions run [PHP Architecture Check #43164888964](https://github.com/satnamkhowal/mangoengineers.com/actions/runs/43164888964) on head `ead1d7dfbca07db92ec8e44df902aceb6d86987d`; conclusion: **failure**.
+- The only job, `php-architecture` (job ID `131004343759`), returned an empty steps list. The job-log endpoint returned `BlobNotFound`; no runner/test-step output was available.
+- This is a workflow/runner/log-availability blocker, not evidence of a PHP or Markdown source-test failure. Do not claim CI passed or infer a source-code failure. Independent editorial, technical and responsive QA remain pending.
