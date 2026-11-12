@@ -137,3 +137,10 @@ No merge, deployment, publication, indexing, scholarship submission or video dow
 - Mango PR #195 later exposed GitHub Actions run [PHP Architecture Check #43164888964](https://github.com/satnamkhowal/mangoengineers.com/actions/runs/43164888964) on head `ead1d7dfbca07db92ec8e44df902aceb6d86987d`; conclusion: **failure**.
 - The only job, `php-architecture` (job ID `131004343759`), returned an empty steps list. The job-log endpoint returned `BlobNotFound`; no runner/test-step output was available.
 - This is a workflow/runner/log-availability blocker, not evidence of a PHP or Markdown source-test failure. Do not claim CI passed or infer a source-code failure. Independent editorial, technical and responsive QA remain pending.
+
+
+### VSSC application-status comment — 12 November 2026
+- Rechecked the live VSSC HRDD portal and added a dated status comment to Forsk Coding School PR #172: https://github.com/satnamkhowal/forsk-coding-school/pull/172
+- The separate INT 08 internship slot (1 November 2026–31 January 2027) now explicitly says application submission is closed. Next INT 09 is scheduled for 1 May–31 July 2027, with an application window 15 February–15 March 2027.
+- This does not change the separate Academic Project Work routes already covered by PR #172: BE/BTech/BSc/Diploma form route due 15 November 2026; M.E/M.Tech/Integrated M.Tech/M.Sc/Integrated M.Sc/BS-MS online route closes 16 November 2026 at 23:59 IST.
+- No new article was created; existing Forsk #172 remains the single owner. Official portal: https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
