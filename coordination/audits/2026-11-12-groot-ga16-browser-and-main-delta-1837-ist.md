@@ -38,3 +38,8 @@
 ## Next action
 
 Obtain independent editorial re-review of the corrected GA-B00016 copy; request owner-led #507/#625 reconciliation against main `b3237ed`; obtain Azure Actions/storage administrator diagnosis; continue GA-B00029 PHP 8.0/full-root/schema/HTTP/MIME and GA-B00022 production/AT gates. Preserve source ownership and the 29-ID queue. No central-main write, self-approval, merge, deployment, publication or indexing occurred.
+
+
+## Controller-branch lineage guard — 2026-11-12 18:39 IST
+
+GitHub compare of Groot current main `b3237edb94ef1788a5f4c7ed4636e256ce5e83a6` against controller branch head `566f31825070b5d768dd6dfed72a601476b95c35` returns 404: no common ancestor. Comparing the controller README's documented starting-main SHA `f8f800cdfe2097af5648c8654f38946c789ab536` with current main returns the same result. Therefore no ahead/behind count or normal main integration PR is claimed for the controller branch. Keep it isolated as the authorized 100K work record; do not merge, force-push or rebase onto main until the Master owner reconciles the intended lineage. Exact branch files remain readable and the GA-B00016 local QA evidence remains valid within its stated scope.
