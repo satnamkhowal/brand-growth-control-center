@@ -211,3 +211,11 @@ Coordination-only evidence. No source implementation in this repository, central
 - The fixture mocks the PHP registry and is not a full repository, production PHP render, or exact-head CI pass. Exact-head Actions run 43154126148 still failed before steps with Azure \`BlobNotFound\` 404; zero assertions executed.
 - Source controller branch checkpoint commits now include \`67285e5\` (CONTROLLER.json) and \`5f57443\` (README); queue remains unchanged at 29 IDs. No new article or image was generated.
 - This evidence does not change approval or publication state: source PRs #507/#654/#660/#664 and central PR #22 remain Draft; independent approvals 0; published/live verified 0.
+
+
+### Supplemental research and queue identity check — 2026-11-12 09:40 IST
+- Merged source research PR #68 was re-read: 14 RESEARCH/PASS proposals across GA-B00005–13 and GA-B00015–19; GA-B00014 is REFRESH; MERGE/REJECT/BLOCKED counts are all zero.
+- GA-B00014 is an in-place refresh of \`/ai-chatbot-development/\`; the proposed \`/retrieval-chatbot-unsupported-answer-tests/\` new URL must not be created because the reader intent overlaps the existing chatbot guide.
+- Current canonical queue has 29 rows. Its ID sequence exactly matches the immutable 29-ID planning snapshot from PR #62 (missing 0, extra 0). The CSV blob hashes differ because current status/metadata fields have progressed; no queue mutation occurred in this run.
+- Current B0001 status snapshot: GA-B00005 IDEA; GA-B00006–10 PUBLISH_PR; GA-B00011–13 and GA-B00015/17/18/19 TECH_QA; GA-B00014 REFRESH; GA-B00016 CONTENT_QA.
+- Research proposals and queue IDs are not completed articles. This does not change the 23 complete-draft count or independent approval/live counts.
