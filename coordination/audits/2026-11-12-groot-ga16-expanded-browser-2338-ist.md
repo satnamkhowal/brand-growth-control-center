@@ -50,3 +50,11 @@ New exact-head Actions observations:
 Keep new article batches on HOLD until the Master owner records the 100K/P0 alignment and names the queue/release owners. Continue independent GA-B00016 editorial/browser review and existing GA-B00029 PHP 8.0/full-root/schema/route/HTTP gates. Recovery PR owners must refresh/reconcile #507/#625; repository Actions/storage administration must diagnose `BlobNotFound`.
 
 No central-main write, brand-source merge, self-approval, owner reassignment, deployment, public publishing or indexing occurred.
+
+
+## Research and immutable queue lineage — verified 23:38 IST
+
+- Planning PR [#62](https://github.com/satnamkhowal/grootacademy.com/pull/62) is merged at head `567b6b27445191d6705624607dfb3cbeb5c72c32`; its original queue blob is `df30f7f4e7de86f41f6b04fb765221d6757bb513`.
+- The current controller queue blob is `a623583e4196e7c126773562a8f3fedd482a8ff0`. Parsed ID sequence is exactly equal to the planning source: **29/29 unique IDs, same order, zero missing/extra**.
+- Research PR [#68](https://github.com/satnamkhowal/grootacademy.com/pull/68) is merged at head `52a051f84b86d3ba9d5f65a4b2addfbd2fbcd981`. Its merged proposal file on main (blob `b1cf501b350fbd903cc77b31c1cbec058455cd75`) contains **14 RESEARCH records and one REFRESH record**. GA-B00014 is the existing `/ai-chatbot-development/` refresh; it is not a new article or URL.
+- No research proposal, planning ID or refresh was counted as a finished article.
