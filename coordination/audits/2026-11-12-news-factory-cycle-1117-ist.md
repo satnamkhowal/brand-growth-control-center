@@ -344,3 +344,113 @@ No fresh unowned story met the full verification/ownership gate. Existing owners
 4. Continue React RSC and Node.js release-owner QA; do not mark either QA-ready until independent review runs.
 5. Recheck Gemini for healthcare preview geography and the official YouTube video's channel/date before any iframe is added.
 6. Keep every PR draft-only; no merge, deployment or publication without approval.
+
+
+## Cycle 15 — 12 November 2026, 15:11 IST
+
+### Research lanes
+
+#### 1. Student, developer and scholarship opportunities
+
+- **Google Student Researcher, 2027:** Google Careers still displays Apply. The role explicitly lists India as a remote location, requires current enrolment in a relevant Bachelor's, Master's or PhD programme and experience in a computer-science research area. Apply by **4 December 2026**; applications are reviewed on a rolling basis. Existing owner: Forsk PR #146. Stipend and application fee are not stated in the accessible posting.
+- **National Means-cum-Merit Scholarship (NMMSS):** the live NSP 2026–27 list shows the student application deadline as **15 November 2026**. The NSP page footer still says “Last update on June 2026”; students should confirm their state/institute workflow in the portal before submission. Existing owner: Forsk PR #173.
+- **VSSC academic project work:** the official portal shows the next BE/BTech/BSc/Diploma project slot as 1 January–31 March 2027 with a **15 November 2026** application cutoff; the ME/MTech/Integrated/MSc/BS-MS next slot is 1 January–30 June 2027 with an online window ending **16 November 2026, 11:59 PM**. The current INT 08 internship slot is closed; INT 09 is 1 May–31 July 2027 with applications 15 February–15 March 2027. Existing owner: Forsk PR #172. Read the course-specific instructions carefully; BE/BTech/BSc/Diploma and PhD use a downloaded form rather than the online PG route.
+- **NeGD current openings — new watchlist lead, not an article:** the official Careers page currently lists eight Young Professional roles in Noida (including MLOps, Cloud Technology Engineer, API Developer, ML Engineer and AI Engineer) with a 10 December 2026 deadline, plus four junior/frontend/backend/QA-support roles in Delhi-NCR with an 18 November deadline. The linked role-detail PDFs returned HTTP 403 in both the page fetch and direct download attempt. Qualifications, experience, remuneration, contract terms, fees and application-form details therefore remain unverified. Do not publish an eligibility or salary claim until the official PDFs are accessible. The separate Winter Technical and Non-Technical Internship listings show 20 November; existing non-technical owner is Forsk PR #180, and its PDF also returned 403.
+- PM YASASVI and the AICTE/UGC schemes remain in the NSP 2026–27 listing with student deadlines shown as 30 November, but the portal footer's June 2026 update and the earlier state-specific YASASVI restriction remain caveats. No duplicate opportunity draft was created.
+
+Primary links:
+- Google Careers: https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher-2027
+- NSP: https://scholarships.gov.in/All-Scholarships
+- VSSC portal: https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+- NeGD Careers: https://negd.gov.in/careers/
+
+#### 2. React / frontend
+
+- React stable release page still lists 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all released 14 October 2026. No newer stable React core release was found on 12 November.
+- The RSC unauthenticated RCE advisory remains Critical; affected react-server-dom packages list fixed versions 19.0.9, 19.1.10, 19.2.9 and 19.3.1. Existing owner: Forsk PR #145.
+- React Native 0.89.0-rc.1 was released 10 November and is marked Pre-release; 0.88.1 remains the latest stable release (27 October). Existing owner: Groot PR #644. Do not recommend the RC for production.
+- Existing Forsk React Summit US PR #190 was corrected after a fresh check of the dedicated Firebase/Google Cloud workshop page. That page lists 12 November at 15:00 without a timezone label and explicitly requires a Multipass or Full conference ticket for live remote attendance. The article no longer calls this a standalone free workshop or converts the time to IST. Article and metadata were updated; a correction comment and PR-description update were added. The event itself remains scheduled for 17 November (hybrid) and 20 November (remote); ticket prices remain subject to checkout recheck.
+
+Primary links:
+- React releases: https://github.com/react/react/releases
+- React RSC advisory: https://github.com/react/react/security/advisories/GHSA-xqc2-xf4c-x3h3
+- React Native releases: https://github.com/react/react-native/releases
+- Workshop access: https://gitnation.com/contents/production-react-apps-with-firebase-and-google-cloud
+- React Summit schedule: https://reactsummit.us/schedule
+
+#### 3. Node.js / backend
+
+- The latest official security release set remains 11 November 2026: Node.js 22.23.5, 24.22.3 and 26.13.1.
+- The bulletin lists 16 distinct CVEs (7 HIGH, 6 MEDIUM, 3 LOW). The official page confirms CVE-2026-106071 is the Permission Model wildcard filesystem over-grant; it is not the heap-snapshot mapping previously suspected. Existing Mango owner: PR #143; no duplicate Node article was created.
+- No newer Node.js security or stable release dated 12 November was found.
+
+Primary link: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+#### 4. AI / cloud / developer news
+
+- **AWS SageMaker HyperPod silent data corruption guide:** AWS Machine Learning Blog publication date is 11 November 2026. This is a technical how-to, not a new product launch or event. It covers per-step non-finite gradient checks, selected cross-node ring-replay audits, replica weight fingerprints and operator-reviewed recovery. AWS's experiments used synthetic data and software-injected faults; they do not establish a real-hardware failure rate.
+- The companion repository is MIT-0. The current README's benchmark estimates differ slightly from the AWS blog table; the new draft flags the revision drift rather than mixing values.
+- No relevant official YouTube video with independently verified channel and upload date was found. No iframe or video download was made.
+- Existing GitHub/AWS/AI topics in the other open News Factory PRs were left with their current owners; no near-identical article was syndicated.
+
+Primary links:
+- AWS announcement (published 11 Nov 2026): https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/
+- AWS companion sample (MIT-0): https://github.com/awslabs/awsome-distributed-ai/tree/main/examples/use-cases/pytorch-ddp-sdc-detection
+- HyperPod regions: https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod.html
+- SageMaker pricing caveats: https://aws.amazon.com/sagemaker/ai/pricing/
+- AWS Pricing Calculator: https://calculator.aws/
+
+### New implementation
+
+**Groot Academy — new Draft PR #678**
+- https://github.com/satnamkhowal/grootacademy.com/pull/678
+- One original 2,519-word English article: `docs/news-factory/drafts/aws-sagemaker-hyperpod-silent-data-corruption-pytorch-ddp-guide.md`.
+- One source/SEO/rights/QA metadata JSON sidecar.
+- One original 1200×675 SVG diagram: `docs/news-factory/media/aws-hyperpod-sdc-three-checks.svg`.
+- No public blog route, PHP template, registry, sitemap, canonical, redirect or production page changed.
+- Branch `news-factory/aws-hyperpod-sdc-ddp-guide-20261112-1511-r2`: 3 commits ahead / 0 behind main at comparison. PR is OPEN and DRAFT; latest GitHub snapshot reports mergeable=true. No workflow runs or combined-status entries were returned, so CI is UNVERIFIED.
+- SVG XML parse, PNG render, WebP decode and visual inspection PASS. Local derivatives: `/mnt/data/news-factory/2026-11-12/1511/groot-sdc/aws-hyperpod-sdc-three-checks.png` (114,247 bytes) and `.../aws-hyperpod-sdc-three-checks.webp` (56,106 bytes). Only the original SVG is committed.
+- Independent editorial, technical and responsive QA remain PENDING. No merge, deployment or publication.
+
+The first attempt branch `news-factory/aws-hyperpod-sdc-ddp-guide-20261112-1511` was not used because main advanced by two commits during creation. The clean `-r2` branch was recreated from current main and is the only branch referenced by PR #678; the abandoned branch has no PR and was not merged.
+
+**Forsk Coding School — existing Draft PR #190 correction**
+- https://github.com/satnamkhowal/forsk-coding-school/pull/190
+- Article corrected from 1,806 to 1,882 words; metadata updated with the dedicated workshop access source and timezone caveat.
+- Branch comparison: 6 commits ahead / 0 behind main; PR remains OPEN, DRAFT and mergeable=true. No workflow runs or combined-status entries were returned; CI is UNVERIFIED.
+- Independent editorial QA remains PENDING; no publication.
+
+### Repository and deduplication audit
+
+Reviewed current repository/PR ownership for Mango Engineers, Groot Academy, Forsk Coding School, Jaipur Engineers, Clever Ape Academy, CadMate India, and Forsk Technologies, plus the central coordination repository. Groot Software's canonical implementation repository remains ambiguous among similarly named repositories; no write was made there. CadMate's verified repository is `cadmateindia.com`; no matching SDC topic was found. Searches across the reviewed brand PRs found no matching silent-data-corruption draft. Mango PR #172 mentions HyperPod only in a separate AWS APT CVE/image-update context; it is not an SDC article and remains independently owned.
+
+Current relevant owners retained:
+- Forsk #146 Google Student Researcher; #145 React RSC; #172 VSSC; #173 NMMSS; #180 NeGD internship; #190 React Summit.
+- Mango #143 Node.js security; #172 AWS APT CVE; #195 GitHub audit-log migration.
+- Groot #644 React Native RC; #662 AWS AI-PDLC; #678 new SDC guide.
+
+### Production ledger — 15:11 IST
+
+| Stage | New count |
+| --- | ---: |
+| Non-overlapping research lanes | 4 |
+| New verified, unowned story selected | 1 |
+| New original English article drafts | 1 |
+| Existing article corrections | 1 |
+| New Draft PRs | 1 |
+| Original committed SVGs | 1 |
+| Local optimized PNG/WebP derivatives | 2 |
+| Verified relevant YouTube videos | 0 |
+| Verified iframe embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+| Merges/deployments | 0 |
+
+### Next actions
+
+1. Independent editorial and technical review of Groot #678; do not mark QA-ready based only on source read-back.
+2. Recheck the NeGD role-detail PDFs and application endpoint before drafting the new 18 November / 10 December openings.
+3. Recheck VSSC academic-project submission route and NMMSS student deadline before 15–16 November.
+4. Keep React #145, React Native #644 and Node.js #143 with their existing owners; do not duplicate.
+5. Keep Forsk #190 draft-only and verify checkout/ticket access before event coverage is published.
+6. Keep central PR #19 and all brand PRs unmerged until independent QA and explicit release approval.
