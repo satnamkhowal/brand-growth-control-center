@@ -116,3 +116,18 @@ Groot source-side evidence is committed on the isolated controller branch in [re
 - Central main remains `21af139`; PRs #1/#2/#3 remain merged and existing AEO/GEO PR #2 is reused. PR #22 remains OPEN/DRAFT with zero independent reviews. Central README still lists eight brands but only three active owner/status rows; Groot's row is missing. Jaipur Engineers `je2` social vs `jaipur-engieneers` candidate website mapping remains unresolved.
 
 No central-main write, other-brand source change, merge, approval, deployment, publication or indexing occurred. Exact next action remains independent GA-B00029/runtime release gates and Master-owner 100K/P0 + queue/release ownership alignment.
+
+
+## Supplemental delta — GA-B00022 exact-source keyboard/accessibility follow-up (13 November 2026)
+
+Groot Academy's source-side evidence is recorded in Draft [PR #699](https://github.com/satnamkhowal/grootacademy.com/pull/699), based on the isolated successor to the 100K controller branch. This is a QA-evidence-only change in the Groot repository; no central-main or other-brand source file changed.
+
+- Exact GA-B00022 quiz-lab source blob: `f89635f8c11415dc98d82f902b4769c9c9239877` (4,379 bytes).
+- New exact-source Playwright/Chromium harness: **43/43 coordinator-run local checks PASS** across 320/390/640/768/1280 CSS px. It adds assertions for all nine radio accessible names, all three fieldset/legend group names, keyboard Tab/ArrowRight navigation, visible focus, unanswered-state status/focus, result status/focus and restart/reset.
+- Environment: Python 3.13.5, Playwright 1.57.0, Chromium 144.0.7559.96. Harness commit `01cf98d`; report commit `de0eaf5`; Groot successor PR #699 head `56349cd`.
+- Earlier PR #649 evidence remains separate: 34/34 responsive/quiz assertions and 18/18 reflow-equivalent assertions. PR #699 adds a third harness; the results are not represented as independent approvals.
+- GA-B00022 remains `TECH_QA`. Independent screen-reader/keyboard review, production PHP/shared-schema/canonical/robots/assets/internal-link/HTTP/MIME checks remain pending. No queue status, approval, publication, deployment or indexing changed.
+
+Central coordination delta remains unchanged: central main `21af139`; PRs #1/#2/#3 merged; existing AEO/GEO PR #2 baseline reused; eight brands listed with three active owner/status rows and Groot's row missing; Jaipur Engineers `je2` social vs `jaipur-engieneers` candidate website mapping unresolved. The Master owner has not explicitly reconciled the 10K/P3 board with the authorized 100K/P0 controller or named one canonical queue owner and independent release approver. Keep new batches on HOLD.
+
+No central-main write, source merge, independent approval, deployment, publication, indexing, owner reassignment or cross-brand implementation occurred.
