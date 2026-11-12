@@ -163,3 +163,8 @@ Coordination-only evidence. No source implementation in this repository, central
 ### Canonical queue integrity verification
 - Current controller queue blob `4e087f8cda5479ff9d1124f24ff427a0dbf2b4ad` was compared directly with the immutable planning snapshot `567b6b27445191d6705624607dfb3cbeb5c72c32` / blob `df30f7f4e7de86f41f6b04fb765221d6757bb513`.
 - Exact 29-ID sequence match: PASS; missing IDs 0; extra IDs 0. Status counts remain MERGE 3, REFRESH 2, IDEA 1, PUBLISH_PR 5, TECH_QA 17, CONTENT_QA 1. Queue was not modified.
+
+
+### Local execution environment / checkout blocker
+- Container runtime inventory: PHP 8.4.24, Python 3.13.5, Node v22.16.0, Chromium `/usr/bin/chromium`, Playwright installed.
+- Exact repository checkout could not be materialized because `git ls-remote https://github.com/satnamkhowal/grootacademy.com.git refs/heads/recovery/embed-five-original-diagrams-20261112` failed with `Could not resolve host: github.com`. GitHub connector file reads remain available; exact-source V8 read-back assertions ran, but the committed Python test script was smoke-tested only against synthetic fixtures. Full-root PHP/browser tests remain pending until authorized checkout/network access is restored.
