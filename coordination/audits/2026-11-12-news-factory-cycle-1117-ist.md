@@ -417,7 +417,7 @@ The first attempt branch `news-factory/aws-hyperpod-sdc-ddp-guide-20261112-1511`
 **Forsk Coding School — existing Draft PR #190 correction**
 - https://github.com/satnamkhowal/forsk-coding-school/pull/190
 - Article corrected from 1,806 to 1,882 words; metadata updated with the dedicated workshop access source and timezone caveat.
-- Branch comparison: 6 commits ahead / 0 behind main; PR remains OPEN, DRAFT and mergeable=true. No workflow runs or combined-status entries were returned; CI is UNVERIFIED.
+- Branch comparison after the workshop and ticket-source corrections: 8 commits ahead / 0 behind main; PR remains OPEN, DRAFT and mergeable=true. No workflow runs or combined-status entries were returned; CI is UNVERIFIED.
 - Independent editorial QA remains PENDING; no publication.
 
 ### Repository and deduplication audit
