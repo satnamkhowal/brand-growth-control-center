@@ -263,3 +263,27 @@ No central-main write, source ownership transfer, self-approval, self-merge, dep
 - After the CSS URL parser repair, exact-head workflow runs [43173445898](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43173445898) (checker commit `bb7d4ff`, job `131031954117`) and [43173470504](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43173470504) (test commit `4564bca`, job `131032032584`) both completed failure with `steps=[]`.
 - Zero assertions executed. This is a pre-step infrastructure failure, not a source-test failure or CI pass. The Actions/storage administrator diagnosis remains required; no blind retry.
 - Source PR #664 and central PR #22 remain Draft with zero independent reviews. No approval, deployment, publication or indexing state changed.
+
+
+
+
+## Supplemental delta — 12 November 2026, 12:51 IST (SVG href integrity + latest main)
+
+### Groot source evidence
+- Canonical alias remains `satnamkhowal/gta` → `satnamkhowal/grootacademy.com`; no Mango Engineers repository was touched.
+- Groot current main is now `b011929add5297a9e0295af385ec8a1331aec512`, one commit beyond `6c2597ef`. The four changed paths are course-only (`assets/css/groot-course-migration.css`, `courses/full-stack-development-jaipur/index.php`, `includes/course-catalog.php`, `includes/course-layout.php`); none overlaps the five-blog recovery stack.
+- PR #507 is 3 ahead / 4 behind current main and diverged; its owner must reconcile the current base before the stack is reviewable. Sequential child comparisons remain #654 +4/0, #660 +9/0, and #664 +12/0 relative to their immediate parents.
+- Source PR [#664](https://github.com/satnamkhowal/grootacademy.com/pull/664) received a bounded SVG href integrity repair. The checker previously allowed any `href="#…"` without verifying the referenced ID. New `check_svg_href_safety()` requires an exact local fragment ID present in the same SVG; external, data, relative, missing and query-suffixed fragments fail closed.
+- Six committed href tests were added to the existing 22-case CSS regression module. Coordinator-equivalent helper checks: **7/7 PASS**. This is not a full committed-module run, exact repository checkout, GitHub Actions pass or independent review.
+- Five exact original SVGs were re-read: no href attributes exist; each has unique `title`, `desc`, `arrow` IDs and observed CSS local fragment references resolve. No diagram or bitmap was regenerated.
+- Latest #664 head: `df467e92b3e595b6f6b771b92b1d17234f90a652`; OPEN/DRAFT, 12 ahead / 0 behind #660, 0 independent reviews, 0 review threads. No new Actions run was triggered. Previous run 43173470504 failed before steps with Azure `BlobNotFound` 404; zero assertions.
+- Controller branch checkpoint commits: README `a71e416`, CONTROLLER.json `4007d25`. Main observation updated to `b011929`; canonical queue remains 29 IDs in exact PR #62 order with unchanged status counts. Article/asset/registry/sitemap/publication counts are unchanged.
+
+### Central coordination delta
+- Central main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; PR #22's isolated audit branch compares 24 ahead / 0 behind before this append, remains OPEN/DRAFT, with 0 independent reviews. This report update stays on that owned audit branch; central main is untouched.
+- Central PRs #1, #2 and #3 are closed. Reuse PR #2's existing eight-brand AEO/GEO baseline; do not recreate it.
+- Current central README lists eight brands but only three active owner/status rows; Groot Academy's row remains missing. Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website mapping remains unresolved; no ownership inference or transfer.
+- Latest issue #401 owner-inventory comment (11:22 IST) still records Groot main as `dc2d76ec`, which is stale relative to the current source main `b011929`; it does not explicitly reconcile the 10K/P3 Master Plan with the user-authorized 100K/P0 controller or name one canonical queue/release owner. Preserve the 29-ID queue and keep new batches on HOLD.
+- No central-main write, other-brand source change, owner reassignment, merge, deployment, publication, indexing or ranking/live claim.
+
+
