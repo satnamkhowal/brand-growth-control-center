@@ -167,3 +167,15 @@ Sources:
 | Existing-owner source-recheck comments | 3 |
 
 Next actions: independent editorial/technical QA of Groot #653; independent scholarship review of Forsk #183 with special attention to July 2020 guideline caveat; recheck NeGD Technical Internship PDF/form; monitor 15–20 November deadlines; keep all current drafts unpublished until QA and approval.
+
+
+## Post-readback correction — 12 November 2026, 05:44 IST
+
+Final GitHub read-back after the last metadata and article updates:
+
+- Groot PR #653 now contains **7 commits, 3 files, 454 additions**; head `265f374f3cf51a6221905c057287ce9ab1272b13`. GitHub currently reports it **mergeable**, but it remains OPEN and DRAFT. Article word count after the graphic reference is **2,316**. No CI status was returned.
+- Forsk PR #183 contains **2 commits, 2 files, 297 additions**; head `4b2a276a65f6081dbb5d847e8641fe98fe46edb0`. GitHub currently reports it **mergeable**, but it remains OPEN and DRAFT. No CI status was returned.
+- Groot SVG is committed as an original 1200×675 asset. Its local PNG (97,704 bytes) and WebP (35,186 bytes) derivatives were decoded and visually inspected; they are not committed. Metadata now distinguishes the GitHub SVG blob from the visually equivalent local render-source file and records derivative hashes/paths.
+- The earlier “mergeability false/unknown” wording in this checkpoint is superseded by this read-back. Central PR #19 itself remains diverged and unmergeable.
+
+No merge, deployment or publication occurred.
