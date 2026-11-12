@@ -504,3 +504,24 @@ Current relevant owners retained:
 3. Resolve the Node.js November bulletin/release-note CVE mapping before Mango #143 can pass security QA.
 4. Recheck VSSC and NMMSS deadlines on 15–16 November.
 5. Preserve current React/Node/security ownership; do not duplicate existing Forsk/Mango/Groot drafts.
+
+
+---
+
+## Node.js November security-source reconciliation — 12 November 2026, 16:30 IST
+
+A direct line-by-line read of the official Node.js 11 November security bulletin and all three patched release pages confirms a source discrepancy that must remain visible in the Mango #143 QA record:
+
+- The security bulletin lists **CVE-2026-106071** as a LOW-severity Permission Model wildcard/radix-lookup filesystem over-grant (bulletin section “Permission Model filesystem over-grant via wildcard radix lookup”).
+- The individual release notes for **22.23.5**, **24.22.3** and **26.13.1** list **CVE-2026-123873** as a LOW-severity Permission Model heap-snapshot-destination check.
+- The individual release commit lists also include “src: fix the fs permission tree node on wildcard nodes”, matching the wildcard Permission Model fix described by CVE-2026-106071.
+- These are different descriptions. The latest Mango #143 article includes the 106071 row but currently does not include 123873 as a separate release-note-only item. Do not treat one CVE as a replacement for the other, and do not claim the official sources agree on a single 16-CVE set until Node.js maintainers clarify the discrepancy.
+- The 11 November patched versions remain 22.23.5, 24.22.3 and 26.13.1. The 24.x/26.x-only applicability for CVE-2026-126051 and the relevant HTTP/2 findings must remain branch-specific.
+
+Primary sources:
+- https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+- https://nodejs.org/en/blog/release/v22.23.5
+- https://nodejs.org/en/blog/release/v24.22.3
+- https://nodejs.org/en/blog/release/v26.13.1
+
+Mango #143 is 53 commits ahead / 1 behind main and remains diverged. No file edit, rebase or merge was made in this run; the discrepancy is recorded for the existing owner and independent security reviewer.
