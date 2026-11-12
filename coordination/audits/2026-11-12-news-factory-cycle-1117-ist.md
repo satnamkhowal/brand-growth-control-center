@@ -261,3 +261,86 @@ Reviewed current repository metadata, open PR inventory, and available instructi
 - Existing central PR #19 branch `ops/news-factory-cycle-20261109-2209` compared **diverged from main (ahead/behind count changes as append-only checkpoints are committed)**, status **diverged**, GitHub reports mergeable=false. This checkpoint is appended to the existing 11:17 file on that branch; no rebase, merge or force-push.
 - Next: independent QA for Forsk #190; recheck React Summit tickets and workshop conditions before 17/20 Nov; monitor IIITG deadline 15 Nov and Google Student Researcher deadline 4 Dec; continue React RSC and Node.js security owner checks; do not publish or deploy without approval.
 - No application was submitted, no video was downloaded, and no article was published live.
+
+
+## 2026-11-12 — 14:02 IST: four-lane revalidation and Node.js CVE correction
+
+### Research lanes
+
+#### 1. Student, internship and scholarship opportunities
+
+- **Google Student Researcher, 2027:** the current Google Careers listing shows an Apply control, **India — Remote eligible**, and asks applicants to complete the application before **4 December 2026**; review is rolling. Minimum requirements include current enrolment in a Bachelor's, Master's or PhD programme in a listed discipline and experience in a relevant computer-science area. The listing does not state stipend, fixed duration or application fee. Existing single owner: Forsk PR #146.  
+  Source: https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+- **NMMSS 2026–27:** the current NSP scheme card lists **15 November 2026** as the student-application deadline; 30 November and 15 December are verification milestones, not the student deadline. Existing owner: Forsk PR #173.  
+  Source: https://scholarships.gov.in/All-Scholarships
+- **NeGD Non-Technical Internship, Winter 2026:** current official Careers listing shows Delhi-NCR and **20 November 2026**. The current MeitY-hosted four-page notice specifies 12 positions, recognised Indian university/student routes with at least 60% in the last-held degree/certificate and 15 years of formal education (or listed pre-final/final-year routes), institutional sponsorship/forwarding, minimum two months extendable by one month, and conditional token remuneration of **₹15,000/month** paid after full tenure and mentor/report acceptance. The PDF does not publish a fixed application fee. Existing owner: Forsk PR #180.  
+  Sources: https://negd.gov.in/careers/ ; https://www.meity.gov.in/static/uploads/2026/11/53935d4075991e5c3f211f053b583270.pdf
+- **NeGD Technical Internship, Winter 2026:** the same official Careers page separately lists a Delhi-NCR technical internship with **20 November 2026** deadline. The linked official PDF currently returns HTTP 403 from the media host; eligibility, disciplines, seats, stipend, duration, application fee and form state remain unverified. No article was created and no non-technical terms were copied to this programme. Status comment on existing Forsk PR #180: https://github.com/satnamkhowal/forsk-coding-school/pull/180#issuecomment-6818935451  
+  Listing: https://negd.gov.in/careers/  
+  Linked PDF: https://negd-media.digitalindiacorporation.in/wp-content/uploads/2026/11/Advertisement-Announcement-for-Winter-Technical-Internship.pdf
+- **VSSC:** the official portal says INT 08 internship applications are closed; INT 09 is scheduled for 1 May–31 July 2027 with applications 15 February–15 March 2027. Separate academic-project routes remain time-sensitive: BE/BTech/BSc/Diploma application last date **15 November 2026**; M.E/M.Tech/Integrated M.Tech/M.Sc/Integrated M.Sc/BS-MS online window through **16 November 2026**. Eligibility and course-specific restrictions remain in the existing Forsk PR #172; no duplicate was created.  
+  Sources: https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller ; https://www.vssc.gov.in/STUDENTS/
+- **Google PhD Fellowship 2026:** official page says the 2026 cycle is closed (applications 5 March–30 April). India is an eligible region and the page lists different early-/late-stage PhD award amounts, but this is not a newly open opportunity.  
+  Source: https://research.google/programs-and-events/phd-fellowship/
+
+#### 2. React / frontend
+
+- No new stable React release was found in this cycle. Official React releases remain **19.3.1, 19.2.9, 19.1.10 and 19.0.9**, all dated 14 October 2026; React 19.3.0 was released 9 September.
+- The Critical React Server Components RCE advisory GHSA-xqc2-xf4c-x3h3 was published 14 October; fixed package versions are 19.0.9, 19.1.10, 19.2.9 and 19.3.1. Server/RSC support is required for exposure; applications without a server or RSC-supporting framework/bundler/plugin are not affected by this advisory.
+- Existing owner remains Forsk PR #145; no duplicate article.  
+  Sources: https://react.dev/blog ; https://github.com/react/react/releases ; https://github.com/react/react/security/advisories/GHSA-xqc2-xf4c-x3h3
+
+#### 3. Node.js / backend
+
+- Official Node.js security release published **11 November 2026** and links patched versions **22.23.5**, **24.22.3** and **26.13.1**. The bulletin lists **16 distinct CVEs: 7 HIGH, 6 MEDIUM, 3 LOW**; affected release lines vary by CVE.
+- A fresh line-by-line review found that Mango's existing article still had one incorrect low-severity Permission Model row after the earlier applicability-only correction. The official bulletin lists **CVE-2026-106071** for wildcard filesystem over-grant and does **not** list CVE-2026-123873 in this release. The article now replaces the incorrect heap-snapshot row with CVE-2026-106071 and records the exact affected-line matrix for all 16 CVEs.
+- Mango PR #143 existing branch `content/news-factory-20261109-1808`: article, task-board row and work log updated sequentially; article is now 2,132 words. The aggregate SVG remains accurate (16 CVEs and severity totals) and contains no incorrect identifier, so no graphic change was needed.
+- Commits: article `964c432c63fb2118b1f57159342387587d6b4fc5`; task board `8613083ff2d0e27262142b9f4d57d9c85ea68f63`; work log / current branch head `3d7c73c46d552ef7da9642fc1da7bc4f10db842f`.
+- PR #143 remains OPEN / DRAFT / mergeable=false because its branch is diverged from main. No rebase, force-push or merge. Comment: https://github.com/satnamkhowal/mangoengineers.com/pull/143#issuecomment-6818893451
+- Combined-status and workflow-run lookups for the updated head returned no status entries and no workflow runs; CI is unverified, not passed.  
+  Source: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+#### 4. AI / cloud / developer news
+
+- **Gemini for healthcare:** Google Cloud's announcement publication date is 10 November 2026. The current product page labels it Preview and says product preview is available in the **United States** for Gemini Enterprise Standard and Plus customers. Global connector locations do not establish India product availability. Product-specific pricing is not published; the page directs organisations to contact Google Cloud. Existing owner: Groot PR #631. Current product-page revalidation comment: https://github.com/satnamkhowal/grootacademy.com/pull/631#issuecomment-6818934248
+- The official product page embeds a 1:48 YouTube link with video ID `uqmXoKOs_o0`. The link is visible on Google's page, but YouTube metadata retrieval was throttled, so channel and upload date remain unverified. No iframe was added and no video was downloaded.
+- **Gemini 4 Carbon in GitHub Copilot:** GitHub changelog publication date 10 November 2026; generally available to Copilot Pro+, Max, Business and Enterprise, with gradual rollout and provider-list usage-based billing. Existing owner: Forsk PR #168; status comment records this as a separate Copilot distribution channel, not a new duplicate article: https://github.com/satnamkhowal/forsk-coding-school/pull/168#issuecomment-6818934938
+- **GitHub Copilot model retirements:** official notice says selected models are deprecated on **16 November 2026**; existing Forsk PR #185 remains owner.  
+  Sources: https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot/ ; https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/
+
+### Repository, ownership and implementation
+
+- Current central README, PR #19 branch and the existing 11:17 IST checkpoint were reviewed. Central repository remains coordination-only.
+- Mango README, AGENTS, agent-start, task board, work log and integration queue were reviewed before the existing Node.js draft correction.
+- Current open PR inventories were reviewed for Mango, Groot, Forsk and Jaipur. Existing owners were retained: Mango #143/#195; Groot #631; Forsk #145/#146/#168/#172/#173/#180/#185/#190; Jaipur #44–#47. No duplicate topic or overlapping new article was created.
+- Groot root README contains only `# gta`; expected docs agent-start/task-board/work-log/integration-queue files were not found at those paths. Forsk and Jaipur expected docs/AGENTS/task-board paths were not found. No new writes were made to those repositories.
+- Other candidate brands remain unmodified where canonical repository/source mapping or instructions were not verified.
+
+### Production ledger — 14:02 IST delta
+
+| Stage | Count |
+| --- | ---: |
+| Non-overlapping research lanes | 4 |
+| New verified unowned stories selected | 0 |
+| New original English article drafts | 0 |
+| Existing article corrections | 1 |
+| Existing PR status/research comments | 4 |
+| New Draft PRs | 0 |
+| New graphics | 0 |
+| New optimized previews | 0 |
+| Verified video candidates with complete channel/date metadata | 0 |
+| Verified iframe embeds | 0 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+| Merges/deployments | 0 |
+
+No fresh unowned story met the full verification/ownership gate. Existing owners already cover the current Google, NMMSS, NeGD non-technical, VSSC, React RSC, Node.js, Gemini healthcare, Gemini 4 Carbon and Copilot-retirement topics. The only article file change in this cycle was the Node.js CVE correction; no new graphic or embed was produced.
+
+### Next actions
+
+1. Independent technical/editorial QA for Mango PR #143; resolve its main-branch divergence without rebase/force-push shortcuts.
+2. Recheck NMMSS and VSSC academic-project deadlines on 15–16 November.
+3. Retrieve the current NeGD technical internship PDF from an accessible official endpoint before considering a separate draft.
+4. Continue React RSC and Node.js release-owner QA; do not mark either QA-ready until independent review runs.
+5. Recheck Gemini for healthcare preview geography and the official YouTube video's channel/date before any iframe is added.
+6. Keep every PR draft-only; no merge, deployment or publication without approval.
