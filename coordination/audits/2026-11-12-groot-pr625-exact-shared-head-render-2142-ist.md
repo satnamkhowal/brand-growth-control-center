@@ -76,3 +76,17 @@ The Groot main task board still places the blog factory at P3/REVIEW. The user-a
 5. Master owner records 10K/P3 versus user-authorized 100K/P0 alignment and names one canonical queue owner plus an independent release approver.
 
 No central-main/source-main write, owner reassignment, self-approval, self-merge, deployment, publishing, mass indexing or ranking claim occurred. This file is coordination-only.
+
+
+## Supplemental PR base/diff freshness finding — 21:42 IST
+
+The PR metadata/paginated file-list view is anchored to older base SHAs and differs from a fresh compare against current Groot main `c57a7c3`:
+
+| PR | Metadata base SHA | PR metadata / file-list count | Current-main compare | Net paths vs current main |
+|---|---|---:|---|---:|
+| #507 | `f048dedf22da86e93b5b505cc1ebc84884f3a5c8` | 48 | 4 ahead / 4 behind; merge base `813a66fa` | 22 |
+| #625 | `071ab8a5ed38864fc2c60828d01d6dcf328f0941` | 34 | 7 ahead / 4 behind; merge base `813a66fa` | 4 |
+
+The fresh current-main compare is the net delta. The larger PR API lists include intervening main changes and must not be represented as PR-authored paths. This is a base/diff freshness discrepancy, not proof of a source conflict. Owners should refresh/reconcile the base and inspect the refreshed PR diff before independent review; no base update was performed by this coordinator.
+
+Owner handoff: [Groot PR #625 comment #6829265146](https://github.com/satnamkhowal/grootacademy.com/pull/625#issuecomment-6829265146).
