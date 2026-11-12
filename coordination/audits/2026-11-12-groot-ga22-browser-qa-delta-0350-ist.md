@@ -131,3 +131,25 @@ The latest owner-scope inventory reports 76 accessible repositories, 377 open PR
 - The central main README still lists eight brands but only three active owner/status rows; Groot's row remains missing. Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website mapping remains unresolved and is not changed here.
 
 No other brand's files or ownership were changed. No queue/registry/sitemap/main change, self-approval, self-merge, deployment, publication, mass indexing or ranking claim is made. Next: keep the source-lane independent QA/release gates intact; obtain Master-owner resolution of 10K/P3 versus 100K/P0 and one canonical queue/release owner before new article batches.
+
+
+## Supplemental delta — 2026-11-12: five recovered diagram assets integrated for review
+
+### Source-repository evidence
+- Groot canonical source remains `satnamkhowal/grootacademy.com` (historical `satnamkhowal/gta` alias); current `main` remains `0923feed95358ed967e0d783440fd28ba6d77a54`. No main write or production deployment occurred.
+- The 29-ID controller queue is unchanged; 23 complete original drafts, 23 existing technical visuals, 23 PHP candidates, 0 independent approvals and 0 published articles remain the controller counts. The five recovery diagrams are existing assets, not five new articles or newly generated images.
+- Recovery PR #507 contains five original 1200×630 PNG social cards and five original accessible SVG diagrams. Exact PNG signature/IHDR/dimensions/chunk-bounds/CRC checks passed 5/5; SVG dimensions/viewBox/role/aria/title/description/path/marker/no-script/no-external-reference checks passed 5/5.
+- A bounded exact-source comparison found all five SVGs were orphaned: none of the five PHP article pages referenced its SVG, and each had zero inline figures/body images.
+- New source [PR #660](https://github.com/satnamkhowal/grootacademy.com/pull/660) is a 7-file, 8-commit DRAFT stacked on current-parent-compatible [PR #654](https://github.com/satnamkhowal/grootacademy.com/pull/654), itself dependent on [PR #507](https://github.com/satnamkhowal/grootacademy.com/pull/507). It embeds each existing SVG with descriptive alt/caption, intrinsic dimensions and lazy loading; adds shared diagram styling and a Python regression script; and keeps all five draft pages `noindex,follow`.
+- Exact-source read-back after the patch: 9 assertions per article, 45/45 total. The Python regression script passed 5/5 on synthetic fixtures; it has not yet run against a full checkout. No browser screenshots, CLS, PHP 8.0/full-root render, production HTTP/MIME or release approval is claimed.
+- PR #533's earlier noindex/release-inventory work touches the same five article pages on a stale stacked chain. Preserve its negative tests and release-transition checks; an independent integrator must reconcile/rebase them onto #654/#660 rather than merging overlapping page edits blindly.
+- Controller checkpoint commits: README `6503bce`, CONTROLLER.json `05f6a5d`; queue file untouched.
+
+### Central governance delta
+- Latest issue #401 owner-scope checkpoint (2026-11-12 08:23 IST) reports 76 accessible repositories, 380 open PRs (352 drafts + 28 non-drafts), 0 independent APPROVED reviews across the 28 non-draft PRs, 0 merges and 0 verified deployments in that cycle. Groot Academy had 173 open PRs (172 drafts + 1 non-draft). These are GitHub review/PR counts, not content or live-article counts.
+- Central main remains `80c75e28734ce22831e93d9f431f4c15ccad0f6c`. README still lists eight brands but only three active control-board rows; Groot Academy's active row remains missing. Central PRs #1/#2/#3 are closed/merged; the existing AEO/GEO PR #2 baseline is reused.
+- Jaipur Engineers `je2` social workstream versus `jaipur-engieneers` candidate website/deployed-origin mapping remains unresolved; no repository-role or owner reassignment was made.
+- Groot PR #657 is a separate course-hero asset repair, not a 100K blog article or canonical queue item.
+
+### Disposition
+Coordination-only evidence. No source implementation in this repository, central-main write, owner reassignment, self-approval, merge, deployment, publication or indexing. Next action: independent review of #507/#654/#660, preserve/reconcile #533's tests, complete exact-checkout/PHP/browser/HTTP gates, and keep the single 29-ID queue unchanged until the Master owner resolves 10K/P3 versus 100K/P0 and names one canonical queue/release owner.
