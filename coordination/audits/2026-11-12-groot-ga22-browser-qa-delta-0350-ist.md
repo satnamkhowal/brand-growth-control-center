@@ -168,3 +168,37 @@ Coordination-only evidence. No source implementation in this repository, central
 ### Local execution environment / checkout blocker
 - Container runtime inventory: PHP 8.4.24, Python 3.13.5, Node v22.16.0, Chromium `/usr/bin/chromium`, Playwright installed.
 - Exact repository checkout could not be materialized because `git ls-remote https://github.com/satnamkhowal/grootacademy.com.git refs/heads/recovery/embed-five-original-diagrams-20261112` failed with `Could not resolve host: github.com`. GitHub connector file reads remain available; exact-source V8 read-back assertions ran, but the committed Python test script was smoke-tested only against synthetic fixtures. Full-root PHP/browser tests remain pending until authorized checkout/network access is restored.
+
+
+## Supplemental delta — 2026-11-12 09:40 IST: current-main and release-gate reconciliation
+
+### Groot source repository
+- Canonical source is \`satnamkhowal/grootacademy.com\`; \`satnamkhowal/gta\` is the verified historical alias.
+- Current source \`main\` advanced to \`f048dedf22da86e93b5b505cc1ebc84884f3a5c8\` via one commit adding \`blogs/google-cloud-professional-agentic-architect-certification-2026/index.php\`, a registry entry and a blog-sitemap entry.
+- Source snapshot now has 65 unique registry entries and 38 blog-sitemap URLs (1 index + 37 article URLs); 28 registry entries are outside this blog sitemap and zero sitemap-only article slugs were reported. These are source counts only, not live/indexed totals.
+- The new Groot article is [PR #661](https://github.com/satnamkhowal/grootacademy.com/pull/661), outside the canonical 29-ID factory queue. The merged cross-brand record [central PR #23](https://github.com/satnamkhowal/brand-growth-control-center/pull/23) states 8/8 source merges but deployment, live HTTP, final canonical, rendered page and sitemap verification remain UNVERIFIED. Do not count it as a finished or live-verified factory article.
+- The five-article recovery stack was advanced onto current main with non-overlapping paths:
+  - [#507](https://github.com/satnamkhowal/grootacademy.com/pull/507) head \`68db39f\`, 3 ahead / 0 behind main, 22 files.
+  - [#654](https://github.com/satnamkhowal/grootacademy.com/pull/654) head \`fc25231\`, 4 ahead / 0 behind #507, 2 files.
+  - [#660](https://github.com/satnamkhowal/grootacademy.com/pull/660) head \`46dcc21\`, 9 ahead / 0 behind #654, 7 files.
+  - All remain OPEN/DRAFT with zero independent reviews; no merge or deployment occurred.
+
+### Recovery release QA port
+- New [source PR #664](https://github.com/satnamkhowal/grootacademy.com/pull/664) is a Draft QA-only child of #660. It ports the five-article PHP render QA, registry/sitemap release inventory and draft/release negative tests from stale #533 without copying #533's overlapping article-page edits.
+- Added exact-head PHP 8.0, Python 3.12, Node 22 and Java 17 workflow; the workflow runs PHP lint, transition tests, SVG checks, draft inventory, five rendered routes and executable Python/Node/Java companions.
+- SVG test coverage now includes duplicate IDs, unresolved accessible/fragment references, event attributes, script/foreignObject elements, external href/CSS URLs and CSS imports. Coordinator-run exact-source V8 inspection passed 5/5 existing SVGs; this is not execution of the committed Python test or full checkout.
+- Exact-head workflow [43154126148](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43154126148), job \`130969977135\`, failed before steps (\`steps: []\`); log fetch returned Azure \`BlobNotFound\` 404. Zero assertions executed. Administrator diagnosis remains required; no blind retry.
+- Exact local checkout remains blocked by \`github.com\` DNS resolution. Full-root PHP/browser/HTTP/MIME and production deployment are not verified.
+
+### Central current-main delta
+- Central \`main\` advanced from \`80c75e2\` to \`21af139cc32a7b67aab6908c61edeb5998bd4544\` through merged [PR #23](https://github.com/satnamkhowal/brand-growth-control-center/pull/23), which added \`documents/cross-brand/google-agentic-architect-publication-2026-11-12.md\`. The document records eight brand source merges and explicitly keeps deployment/live verification UNVERIFIED.
+- Central \`README.md\` still lists eight brands but only three active owner/status rows; Groot Academy's row remains missing. Existing AEO/GEO PR #2 baseline is reused. PR #1/#2/#3 remain closed/merged.
+- Central PR #22 has been advanced onto current central main with a non-overlapping merge commit; it remains OPEN/DRAFT for independent review. No central main write or owner reassignment occurred.
+- Jaipur Engineers \`je2\` social repository versus \`jaipur-engieneers\` candidate website mapping remains unresolved; no assumption or mapping change was made.
+- Latest owner-scope evidence available in issue #401 is the 09:20 IST checkpoint: 76 repositories listed, but secondary-rate-limit HTTP 403 prevented a complete PR inventory of the remaining 65 repositories. Do not infer they have zero PRs.
+
+### Accounting and next action
+- The canonical queue remains exactly 29 IDs/order/statuses from planning PR #62. Counts remain 23 complete factory drafts, 23 technical visuals, 23 PHP candidates, 22 independent editorial passes, 18 independent code passes, 0 independent approvals, 0 published and 0 live verified.
+- The separate main-integrated Agentic Architect article is not added to the 29-ID queue or the complete/approved/live factory counts.
+- New article batches remain held until the Master owner resolves the controller's 100K/P0 mandate against the current 10K/P3 task-board/master-plan controls and records one canonical queue/release owner.
+- No self-approval, self-merge, deployment, publication, indexing, or edits to other brand repositories.
