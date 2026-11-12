@@ -62,3 +62,32 @@ Current comparisons are now:
 - PR #625: 6 ahead / 11 behind current main; merge base `071ab8a5`.
 
 The shared blog-head blobs are unchanged, so the exact-source duplicate-base reproduction and PR #625 fix evidence remains applicable. Both source PRs received updated owner-coordination comments; neither was approved, rebased, merged or deployed. The canonical 29-ID queue and current Master Plan/HAO-008 governance findings remain unchanged.
+
+
+## Follow-up delta — latest Groot main e6dd951 (12 November 2026, 15:35 IST)
+
+Current Groot main advanced from `73f4cd51a23f4bf2a4978815114d059210325dfc` to `e6dd951a20cef66bb6048292efbde6824e80480c`. The intervening merged commits were reviewed; changes are confined to homepage image delivery/paths, course-data JSON, homepage graphics checks, hero CSS and root homepage asset versioning. None overlaps the 22 historical article/asset paths in #507 or the four shared-head/test/workflow paths in #625. No blog registry, sitemap or canonical 29-ID queue change was found in this delta.
+
+Fresh GitHub comparisons against the actual current main:
+- Source [#507](https://github.com/satnamkhowal/grootacademy.com/pull/507): **3 ahead / 15 behind**, merge base `f048dedf22da86e93b5b505cc1ebc84884f3a5c8`, 22 files, OPEN/DRAFT, 0 independent reviews.
+- Source [#625](https://github.com/satnamkhowal/grootacademy.com/pull/625): **6 ahead / 17 behind**, merge base `071ab8a5ed38864fc2c60828d01d6dcf328f0941`, 4 files, OPEN/DRAFT, 0 independent reviews. Its diff includes the spoken-English QA workflow for test wiring; source owner should confirm that workflow is the intended PHP 8.0 runner or isolate the blog-head test wiring.
+- [#654](https://github.com/satnamkhowal/grootacademy.com/pull/654) remains based on #507; [#660](https://github.com/satnamkhowal/grootacademy.com/pull/660) remains based on #654; [#664](https://github.com/satnamkhowal/grootacademy.com/pull/664) remains based on #660. All are OPEN/DRAFT with no independent reviews.
+
+Fresh owner-coordination comments with these exact comparisons were posted on #507 and #625. No rebase, approval, merge or deployment was made. The previously recorded exact-source tests remain bounded local evidence only; Azure Actions `BlobNotFound` and authorized checkout/DNS blockers remain unresolved.
+
+The canonical controller queue was re-read and compared with the immutable PR #62 planning source: both contain 29 unique IDs in the exact original order (GA-B00001–GA-B00029); current queue SHA `4e087f8cda5479ff9d1124f24ff427a0dbf2b4ad`, planning SHA `df30f7f4e7de86f41f6b04fb765221d6757bb513`. No queue write. Controller accounting remains 23 complete drafts, 23 technical visuals, 23 PHP candidates, 22 editorial passes, 18 code passes, 23 visual passes, 0 independent approvals, 0 published and 0 live verified.
+
+A separate [Groot PR #678](https://github.com/satnamkhowal/grootacademy.com/pull/678) is an OPEN/DRAFT AWS SageMaker HyperPod news article candidate outside the canonical 29-ID queue. It was not imported, assigned a queue ID, counted, approved or published by this lane.
+
+Governance remains unchanged: current-main Master Plan = 10,000 possible IDs; HAO-008 = P3/REVIEW; user-authorized controller = 100,000/P0; issue #401 = M4 100,000 and conditional M5 1,000,000. The latest 15:19 IST issue comment is a PR-inventory snapshot correction, not the required Master-owner reconciliation or canonical queue/release-owner decision. New batches remain HOLD while existing repairs continue.
+
+Central main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; its README still lists eight brands but only three active owner/status rows, with Groot's row missing. Central PRs #1/#2/#3 are CLOSED/MERGED; reuse the existing AEO/GEO baseline from #2. Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website mapping remains unresolved. This is coordination-only evidence; no central-main or other brand source change.
+
+### Exact next action
+1. Source owner reconciles #507 and #625 against Groot `main@e6dd951`; preserve noindex and release-inventory gates, root-owned single `<base>`, and dynamic `ga_url()` stylesheet.
+2. Independent review follows the owner reconciliation; then review the dependent #507 → #654 → #660 → #664 stack.
+3. Actions/storage administrator diagnoses Azure `BlobNotFound`; restore authorized checkout/DNS, then execute PHP 8.0/full-root/schema/registry/sitemap/browser/HTTP/MIME gates.
+4. Continue GA-B00029 full-root, GA-B00016 editorial/AT and GA-B00022 production/AT gates.
+5. Master owner reconciles 10K/P3 vs 100K/P0 and names one canonical queue/release owner before new batches.
+
+No self-approval, self-merge, deployment, publication, mass indexing, queue mutation or cross-brand ownership change occurred.
