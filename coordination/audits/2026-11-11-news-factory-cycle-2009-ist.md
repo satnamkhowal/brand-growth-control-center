@@ -832,4 +832,4 @@ Next actions: retrieve the current NeGD technical/non-technical internship and B
 
 ### Cycle 13 ledger correction
 
-The cycle ledger above records one central checkpoint commit, but the post-write comparison refresh was also committed. The accurate Cycle 13 central checkpoint commit count is **2**: 03cd86e0160b4fced89ef4d7b987cdbe423c39c1 (research/ownership section) and b3b9f56fc3274943308dad00eb31f1e4cb1520f9 (branch-comparison refresh). No merge or rebase was performed.
+The table's “Central checkpoint commits” field counts substantive cycle updates: **2** — 03cd86e0160b4fced89ef4d7b987cdbe423c39c1 (research/ownership section) and b3b9f56fc3274943308dad00eb31f1e4cb1520f9 (branch-comparison refresh). Two bookkeeping commits (11fe0fef621fffe78e55ac4114e49cc80d982add and this correction) bring the total cycle-associated central branch commits to **4**. No merge or rebase was performed.
