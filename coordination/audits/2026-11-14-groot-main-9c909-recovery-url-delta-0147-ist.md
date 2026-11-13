@@ -45,3 +45,10 @@ Compared old main d9eba9445ac5d58652d9b36f026e3b6efb5e2bea with current main 9c9
 6. Master owner to record 100K/P0 versus 10K/P3 alignment, one canonical queue owner and one independent release approver. New IDs remain HOLD.
 
 This is coordination evidence only. Central main and other-brand source repositories were not changed. No approval, merge, deployment, publication or mass indexing occurred.
+
+
+## GA-B00006 exact-source execution addendum — 14 November 2026, 01:47 IST
+- Controller-branch examples.py blob `84706ec6d80b0458acd915c61943e2e477feafbe` is byte-identical to the GA-B00006 recovery PR #507 companion. Fresh Python 3.13.5 process: exit 0, output PASS for shared mutable default, fresh None-based lists, caller-owned list and shallow-copy boundary.
+- Authored SVG blob `c140a0723c290c33cc615656803794925abe9cca` matches the controller branch; XML parse PASS, 1200×630, title/description present.
+- PR #507 PHP candidate blob `9da774dbb34b7994a1dc0a8efd8f75aa0f300b3b` statically contains self-canonical, index,follow, featured-image URL and descriptive alt. No PHP lint/render/schema test was run.
+- Coordinator-run evidence only; independent QA, PHP/shared-layout/schema/route/registry/sitemap/browser/AT/HTTP/MIME and release gates remain pending. Queue/counts unchanged; no draft or asset regeneration.
