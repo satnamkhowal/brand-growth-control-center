@@ -33,7 +33,7 @@
 ## Central ownership / PR deltas
 
 - Central main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; current main README blob is `b93187c353f8112a57fffab4b383e64236976394`.
-- Central PR [#22](https://github.com/satnamkhowal/brand-growth-control-center/pull/22) remains OPEN/DRAFT on its isolated audit branch, 70 ahead / 0 behind, 31 coordination report files, zero independent reviews. This new file is a non-overlapping coordination-only report; keep PR Draft pending independent review.
+- Central PR [#22](https://github.com/satnamkhowal/brand-growth-control-center/pull/22) remains OPEN/DRAFT on its isolated audit branch, **72 ahead / 0 behind, 32 coordination report files**, zero independent reviews after this report and its read-back correction. This file is a non-overlapping coordination-only artifact; keep PR Draft pending independent review.
 - Central PRs #1 (Jaipur Engineers social), #2 (all-brand AEO/GEO) and #3 (coordination audit) are CLOSED/MERGED. Reuse PR #2's existing AEO/GEO baseline and queue; do not recreate them.
 - Current README lists eight brands but only three active owner/status rows; Groot Academy's dedicated row is still missing. Do not invent an owner or alter another brand's ownership.
 - Jaipur Engineers `je2` social repository versus `jaipur-engieneers` candidate website/deployed-origin mapping remains unresolved. Preserve both records until the owner explicitly reconciles them.
