@@ -36,3 +36,11 @@
 2. Finish GA-B00029 PHP 8.0/full-root/shared-schema/canonical/robots/route/HTTP/MIME and GA-B00016 independent editorial/zoom/AT gates.
 3. Obtain Azure Actions/storage administrator diagnosis before any retry.
 4. Preserve the 29-ID canonical queue, current brand ownership and independent release gates; no self-approval, self-merge, deployment, publication, indexing or ranking/live claim.
+
+
+## Follow-up Actions storage failure — 2026-11-13 06:55 IST
+
+- After the docs-only controller checkpoint on source PR #699, exact-head run [43344650966](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43344650966) failed before steps. Job `review-candidates` ID `131620931791` returned an empty step list.
+- Job-log retrieval returned Azure Storage `BlobNotFound` HTTP 404 at `2026-11-13T01:25:13Z` (06:55:13 IST). Zero assertions ran. No retry was triggered; administrator/storage-owner diagnosis is required.
+- The local exact-source 43/43 result remains valid coordinator-run evidence, not CI or independent approval. Source report update commit `5e80858`; source README checkpoint `830a9e4`; CONTROLLER checkpoint `96f3fcb`.
+- Central main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; no central-main or other-brand source change.
