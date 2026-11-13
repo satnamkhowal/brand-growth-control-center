@@ -258,3 +258,13 @@ Four non-overlapping research lanes were checked: student/developer programmes, 
 4. Retrieve NeGD internship and Young Professional PDFs when the official links stop returning 403; do not publish eligibility/stipend claims before then.
 5. Keep Google Student Researcher, CRISP, React, Node.js and all current scholarship/developer topics with their existing owners.
 6. No merge, deploy or publish without independent QA and approval.
+
+
+### 13 November 2026 — 21:16 IST implementation/CI addendum
+
+- Followed Mango's append-only work-log rule by adding the task record to \`docs/work-log.md\` on the same isolated PR #225 branch. The PR now has four documentation/media paths: article, metadata, original SVG and work log.
+- Final Mango PR #225 branch comparison: **7 commits ahead / 0 behind main**, exactly four changed paths. GitHub reports PR OPEN/DRAFT and mergeable=true; no review or merge.
+- Metadata was updated after final GitHub read-back: article/SVG blob SHAs, work-log path/commit, local PNG/WebP derivative sizes and hashes, and CI limitation are recorded. Article remains 2,147 words.
+- The initial PHP Architecture Check run 43457592154 failed before steps; job 131995716901 returned an empty steps list and log download returned BlobNotFound. A retry request for the failed job was accepted, but no new workflow run was visible for the latest head \`068e720dcdb92c8ca35d35c81884dbe713afc624\` at the final check. CI is unverified, not passed.
+- Independent editorial/security review and responsive browser QA remain pending. No merge, deployment, publication or indexing.
+- Central branch comparison immediately before this addendum: 169 ahead / 5 behind main (diverged). No rebase or merge.
