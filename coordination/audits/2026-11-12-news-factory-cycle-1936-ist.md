@@ -309,3 +309,108 @@ No duplicate opportunity article was created; existing owners were updated with 
 | Merged / deployed | 0 |
 
 **Next action:** independent editorial, API technical, compliance-scope and responsive/browser QA for Forsk #216; recheck NMMSS by 15 November, VSSC project windows on 15–16 November, CRISP by 29 November and Google Student Researcher by 4 December. Reconcile canonical Groot repo access before any Groot article or code write. Do not merge, deploy or publish without independent QA and separate approval.
+
+
+---
+
+## News Factory run 11 — 13 November 2026, 15:35 IST
+
+### 1. New original drafts delivered
+
+Two distinct, brand-specific English developer guides were drafted and committed to isolated branches. They are not near-duplicate syndications.
+
+**Forsk Coding School — GitHub Agent Skills**
+- Draft PR: https://github.com/satnamkhowal/forsk-coding-school/pull/218
+- Existing task: issue #218; reserved branch `news-factory-github-agent-skills-20261113-1522`.
+- Article: 2,099 words, `docs/news-factory/drafts/github-agent-skills-students-safe-copilot-workflows.md`.
+- Original media: `docs/news-factory/media/github-agent-skills-lifecycle-and-security.svg`.
+- Metadata records SEO, source dates, video gap, original-work rights, attribution, alt text, local paths, dimensions and checksums.
+- Source/date distinction: GitHub Blog article published 12 November 2026; the author separately references a GitHub Universe 2026 session but does not give its exact event date. Do not conflate those dates.
+- Current docs describe `gh skill` as public preview and require GitHub CLI 2.90.0 or later. Article covers SKILL.md, project/personal locations, preview, pin/update/publish, provenance and least-privilege safety.
+- Three intended files only; no shared task board/session-handoff changes because Forsk PR #198 owns those paths.
+- Final compare: 6 commits ahead / 0 behind main; GitHub mergeable=true, state=clean. No workflow runs or commit checks returned. No CI pass claimed.
+
+**Mango Engineers — Google Cloud API Keys remote MCP server GA**
+- Draft PR: https://github.com/satnamkhowal/mangoengineers.com/pull/218
+- Task issue: https://github.com/satnamkhowal/mangoengineers.com/issues/218
+- Branch: `news-factory-google-api-keys-mcp-ga-20261113-1535`.
+- Article: 2,243 words, `docs/news-factory/drafts/google-cloud-api-keys-mcp-server-ga-oauth-iam-security-guide.md`.
+- Original media: `docs/news-factory/media/google-cloud-api-keys-mcp-security-flow.svg`.
+- Metadata records SEO, source dates, security facts, no-price/no-residency caveats, video gap, original-work rights, attribution, alt text, local paths, dimensions and checksums.
+- Date distinction: underlying API Keys API GA on 22 August 2022; remote MCP server Preview on 25 September 2026; remote MCP server GA on 12 November 2026.
+- Article covers the global endpoint, Streamable HTTP, OAuth scope, IAM roles, key-string exposure via `apikeys.keys.getKeyString`, Model Armor payload logging and India data-residency caveat.
+- Three intended files only. Shared `docs/task-board.csv` and `docs/work-log.md` were not changed because active Mango PR #143 owns those paths.
+- Final compare: 7 commits ahead / 0 behind main; GitHub mergeable=true, state=unstable.
+- Five PHP Architecture Check runs triggered by the documentation-only draft commits all concluded failure. Latest run: https://github.com/satnamkhowal/mangoengineers.com/actions/runs/43408426464. Workflow job logs returned BlobNotFound, so the failing step/root cause is not verified. No CI pass claimed; independent review must inspect this blocker before merge.
+
+### 2. Original media register
+
+Both SVGs are original self-authored educational diagrams; no third-party image, logo or video was downloaded or re-uploaded.
+
+**Forsk**
+- SVG: 1200×675, 7,209 bytes, SHA-256 `f59842df0d5104d0359023e6df849fcf7c7616f91c5cabab0a2871bdc733a6cb`.
+- PNG: 1200×675, 134,366 bytes, SHA-256 `9ee52de71fe931166a04b1921f934aa0f115a4a24ba937f51169905106635421`.
+- WebP: 1200×675, 66,100 bytes, SHA-256 `99e6989754589ab316d2cd7a74296036a8adf77d0fb7d0b1a3f4b1b728d55567`.
+- Local directory: `/mnt/data/news-factory/2026-11-13/1535/forsk-agent-skills/`.
+
+**Mango**
+- SVG: 1200×675, 6,657 bytes, SHA-256 `c64ace6b2265af54f81ba124a31c78de3c17e9ae003a52f3b3dd7e51fa5009b2`.
+- PNG: 1200×675, 136,655 bytes, SHA-256 `ec27a7d9a2a827026d5a9e8994497cc114808f24ca73952ce6cc7df8385a933b`.
+- WebP: 1200×675, 73,980 bytes, SHA-256 `0cab498d2936f289decc7149cb37cb39a8a0317254a2353c9f4acacdca7a53a1`.
+- Local directory: `/mnt/data/news-factory/2026-11-13/1535/mango-api-keys-mcp/`.
+
+Both local SVGs parsed as XML; PNG visual inspection, WebP decoding/dimensions and relevant shell snippets with `bash -n` passed. SVG source read-back from GitHub was exact. PNG/WebP derivatives remain local preview assets; only the SVG source is committed in each draft PR. No story-specific original YouTube video ID, channel and publication date were verified for either story; no iframe was authored.
+
+### 3. Research lanes — fresh primary-source check
+
+**Opportunities / scholarships**
+- Google Student Researcher 2027: official Careers listing remains Apply-visible, India Remote eligible, rolling review, apply before 4 December 2026. The listing does not state a stipend or fee. Existing owner: Forsk #146.
+- NMMSS 2026–27: Ministry/PIB extension published 31 October; student deadline 15 November, institute verification 30 November, district verification 15 December; ₹12,000 annually; OTR and Class IX/state eligibility conditions apply. Existing owner: Forsk #173.
+- NSP All-Scholarships page still lists AICTE Swanath/Pragati/Saksham and UGC PG Studies student windows through 30 November, with later verification dates. Keep scheme-specific guideline and state caveats. Existing owners: Forsk #147 and #149.
+- NIC Digital India Internship Winter 2026: existing owner comment records official portal last updated 13 November, 506 students, 22 areas, offline 1 December 2026–31 January 2027, at least two months (extendable to three), ₹10,000/month conditional on performance and accepted final report, and institute recommendation. The portal does not display a closing date; do not infer one. Existing owner: Mango #147.
+- VSSC: INT 08 is closed; INT 09 application window is 15 February–15 March 2027 for a 1 May–31 July 2027 slot. Separate academic project routes close 15 November (BE/BTech/BSc/Diploma) and 16 November 2026, 11:59 PM (ME/MTech/Integrated/MSc/BS-MS). These are project-work routes, not a new paid internship; no stipend stated. Existing owner: Forsk #172.
+- CRISP Fellowship 2027: official portal remains open until 29 November 2026, 5:00 PM IST; 16 two-year full-time positions across 8 states; ₹9 lakh/year standard remuneration; Indian nationals with bachelor's degree or higher plus project-relevant aptitude/experience, English and local-language proficiency. Portal counter: 1,733 applications as of 13 November 11:26 AM IST; Rajasthan GIST: 240 applications / 2 positions. No application fee is stated. Existing owner: legacy Jaipur PR #51; do not treat its repository as canonical (see mapping note below).
+
+**React / frontend**
+- Official release list still shows 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026; no new November stable React release found.
+- RSC advisories remain GHSA-xqc2-xf4c-x3h3 (Critical, CVSS 9.5) and GHSA-h3gv-c5rc-p453 (High, CVSS 8.2). Existing owner: Forsk #145. No duplicate article.
+
+**Node.js / backend**
+- Official 11 November security releases: 22.23.5, 24.22.3 and 26.13.1.
+- Bulletin lists 16 CVEs: 7 High, 6 Medium and 3 Low.
+- Node.js 27.0.0-alpha.0.1.0 was published 12 November and remains Alpha, not stable/LTS.
+- Existing Mango #143 already records the unresolved low-severity CVE mismatch between bulletin CVE-2026-106071 and individual release-page CVE-2026-123873. Do not merge those identifiers or mark the existing Node draft QA-ready without maintainer clarification.
+
+**AI / cloud / developer**
+- GitHub Blog: practical Agent Skills guide published 12 November 2026; no exact date given for the separately referenced GitHub Universe session. Current Copilot docs/CLI manual show `gh skill` public preview and GitHub CLI 2.90.0+.
+- Google Cloud release notes: API Keys remote MCP server GA 12 November 2026; previously Preview 25 September 2026. The API Keys API itself was GA in 2022. This is the new Mango article owner above.
+- Existing Mango PR #215 (Gemini Enterprise Data Cloud connectors), PR #192 (Antigravity CLI), and existing Groot GKE/Agent Substrate owners were not duplicated.
+
+### 4. Repository mapping and concurrency
+
+- **Mango Engineers:** canonical connected repository `satnamkhowal/mangoengineers.com`. Read `docs/agent-start-here.md`, README/AGENTS, task board, work log and integration queue; current open PR files checked. PR #143 owns shared task-board/work-log paths, so the new draft stayed in its own three files.
+- **Forsk Coding School:** connected repository `satnamkhowal/forsk-coding-school`. Read README.txt, AI-ops task board, session handoff, issue #218 and active PR ownership. PR #198 owns shared task-board/session-handoff paths; the new draft stayed in its own three files.
+- **Groot Academy:** accessible `satnamkhowal/grootacademy.com` .agent/README.md explicitly identifies canonical repository `satnamkhowal/gta`. The canonical repo was not returned by installed-repository search and could not be fetched. No Groot write this run.
+- **Jaipur Engineers:** the accessible `satnamkhowal/jaipurengineers.com` repo's `seo-controller/BRAND-AUTHORITY.md` says the canonical repo is `satnamkhowal/je2` and explicitly says not to implement in the legacy repo. `je2` was not available in the connected repository search. Therefore the accessible `jaipurengineers.com` repo and PR #51 were treated as legacy/read-only; no new Jaipur write.
+- **Other verified network brands:** the `satnamkhowal/all-domains` master controller confirms Best Data Science Institute, Clever Ape Academy and CadMate India as separate authority lanes. Their connected repositories are discoverable, but no new story was selected for them in this bounded batch; no brand-swapped copy was created. Groot Software candidate repositories remain ambiguous; Forsk Technologies certificate repo is not treated as the canonical coding-school content repo.
+- No production route, sitemap, schema, redirect or live website was changed.
+
+### 5. Central checkpoint and production ledger
+
+Existing coordination PR reused: https://github.com/satnamkhowal/brand-growth-control-center/pull/19
+
+The central branch `ops/news-factory-cycle-20261109-2209` remains diverged: 155 ahead / 5 behind main; GitHub reports mergeable=false / dirty. This run appends to the existing checkpoint branch only. No rebase or merge.
+
+| Stage | Run 11 delta |
+|---|---:|
+| Research tracks checked | 4 |
+| New verified unowned stories selected | 2 |
+| Original English article drafts | 2 |
+| Original SVG graphics committed | 2 |
+| Local PNG/WebP derivatives | 4 |
+| Verified YouTube IDs / iframe embeds | 0 / 0 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+**Next actions:** independent editorial and security/API QA for both PR #218s; inspect the Mango PHP Architecture Check failure before any merge; recheck NMMSS by 15 November and VSSC project windows on 15–16 November; monitor CRISP through 29 November and Google Student Researcher through 4 December; reconcile canonical Groot `gta` and Jaipur `je2` repository access before any further brand writes. No merge, deployment, publication or indexing action is authorised by this cycle.
