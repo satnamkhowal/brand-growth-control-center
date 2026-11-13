@@ -7,7 +7,7 @@
 
 ## New source-repository evidence
 
-The Groot source controller committed report `marketing/blog-factory/work/B0002/qa/2026-11-13-ga29-pr713-base-path-edge-cases-1458-ist.md` at `db49d51e` (final report revision `6e7b8ec4`), added reproducible five-case runner `GA-B00029-pr713-base-path-edge-cases.py` (`5bbe6cd0`, blob `89ec23c5`), then updated CONTROLLER/README at `fb5ef6ca` and `f6ea2890`.
+The Groot source controller committed report `marketing/blog-factory/work/B0002/qa/2026-11-13-ga29-pr713-base-path-edge-cases-1458-ist.md` at `db49d51e` (final report revision `9642f5ff`), added reproducible five-case runner `GA-B00029-pr713-base-path-edge-cases.py` (`5bbe6cd0`, blob `89ec23c5`), then updated CONTROLLER/README at `fb5ef6ca` and `f6ea2890`.
 
 The committed runner accepts `--root` to target a PR #713 checkout without modifying that branch; its five tests passed in normal Python, `-O` and `-OO` against the isolated fixture. The supplemental local fixture used Git-blob-verified current-main `head.php` (`89fe435e`), current `includes/site-paths.php` (`edeaf811`), current-main shared partial (`637d161f`), PR #713's proposed shared partial (`5d6b335c`) and PR render harness (`94e3b855`). PHP 8.4.24 lint passed 4/4. Five base-path cases passed in normal Python, `-O` and `-OO`; the exact current-main partial blob `637d161f` fails all five, while the PR partial passes all five. The added cases cover mixed-case `WWW` with port, a mounted localhost preview with port/query, and an unmounted local request.
 
