@@ -218,6 +218,7 @@ Sources:
 
 - Official 11 November security releases remain **22.23.5, 24.22.3 and 26.13.1**.
 - The bulletin has 7 High, 6 Medium and 3 Low severity entries. The 24.x/26.x release pages were re-read. The existing bulletin/release-page LOW CVE mapping discrepancy (CVE-2026-106071 versus CVE-2026-123873) remains unresolved; keep the discrepancy explicit and do not treat the identifiers as aliases.
+- Node.js 27.0.0-alpha.0.1.0 is dated 12 November 2026 and remains an Alpha build, not an LTS/stable recommendation. https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.0
 - Existing owners retained: Mango PR #143/#229 and Groot PR #650. No duplicate Node article.
 
 Sources:
