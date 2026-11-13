@@ -127,3 +127,74 @@ Four non-overlapping research lanes were checked: student/developer programmes, 
 6. Do not merge, deploy or publish any draft without the required independent QA and approval.
 
 **Run conclusion:** one real Groot Academy draft and one original SVG were committed on an isolated branch; current opportunity owners were refreshed; no new article was made for opportunities or React/Node because those topics were already owned or the source evidence was incomplete. No live publication occurred.
+
+
+## 13 November 2026 — 19:07 IST follow-up
+
+### Research tracks
+
+**1) Official student/developer opportunities**
+- Google Student Researcher, 2027 remains Apply-visible on the direct Google Careers page. India is explicitly listed as Remote eligible; apply before **4 December 2026**, rolling review. Minimum degree levels include Bachelor's/Master's/PhD in the listed fields with relevant CS experience. The listing does not publish stipend, fixed duration, opening date or application fee. Existing owner: Forsk PR #146.
+- VSSC HRDD portal currently distinguishes academic project work from internship. BE/BTech/BSc/Diploma applicants use the downloaded form for the 1 Jan–31 Mar 2027 slot; last date **15 November 2026**. ME/MTech/Integrated MTech/MSc/BS-MS applicants use the online window through **16 November 2026, 11:59 PM IST**. INT 08 internship is closed; INT 09 is 1 May–31 July 2027 with applications **15 February–15 March 2027**. Existing owner: Forsk PR #172. Official portal: https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+- CRISP Fellowship 2027 official application page refreshed at **13 November 2026, 18:48 IST**: 16 full-time two-year positions across 8 states; headline remuneration ₹9 lakh/year (NISHE-ICPC positions are negotiable); applications close **29 November 2026, 5:00 PM IST**. Page snapshot shows 1,821 applications received. Indian nationals eligible; candidates select one project and one state, and local-language proficiency is required. Existing owner: Jaipur PR #51. https://fellowship.crispindia.net/
+- NeGD Careers currently lists Technical and Non-Technical Winter Internship 2026, Delhi-NCR, both closing **20 November 2026**. The linked technical PDF and non-technical PDF both returned **403 Forbidden** on this check; the Young Professional November PDF also returned 403. Do not invent eligibility, stipend, duration, application fee or seat count. Existing NeGD internship owner: Forsk PR #180; no separate technical draft created without the advertisement details. https://negd.gov.in/careers/
+- NSP Academic Year 2026–27 page currently lists active student windows. NMMSS and PM YASASVI Top Class Schools are shown through **15 November**; AICTE Pragati Degree/Diploma, AICTE Saksham Degree/Diploma, AICTE Swanath Degree/Diploma, PM-USP J&K/Ladakh, UGC PG Studies and selected other schemes are shown through **30 November**. Existing owners remain: Mango PR #143 (Pragati), Forsk #147 (Swanath), #183 (Saksham), #149 (UGC PG), #156/#166 (PM YASASVI Schools/College), #173 (NMMSS), plus existing ISI/other scheme branches. PM-USP eligibility/status discrepancy remains held for scheme-specific verification; no duplicate article. NSP page footer still says last updated June 2026, so students must verify the live form and current scheme guideline before applying. https://scholarships.gov.in/All-Scholarships
+
+**2) React / frontend**
+- React blog still identifies React 19.3 (9 September 2026) as the latest stable feature announcement. GitHub release tags dated **14 October 2026** are 19.3.1, 19.2.9, 19.1.10 and 19.0.9.
+- React advisory GHSA-xqc2-xf4c-x3h3 / CVE-2026-126187: Critical, CVSS 9.5, published **14 October**, updated **10 November**; affected React Server Components packages through 19.0.8 / 19.1.9 / 19.2.8 / 19.3.0; patched 19.0.9 / 19.1.10 / 19.2.9 / 19.3.1.
+- GHSA-h3gv-c5rc-p453: High DoS, published **14 October**, no CVE assigned; same patched release set. Existing owner: Forsk PR #145. No duplicate frontend draft. https://github.com/react/react/security/advisories · https://github.com/react/react/releases · https://react.dev/blog
+
+**3) Node.js / backend**
+- Official Node.js security releases dated **11 November 2026**: 22.23.5, 24.22.3 and 26.13.1 (all LTS). The 12 November Node 27.0.0-alpha.0.1.0 remains Alpha, not LTS.
+- Existing Node security/Alpha owners retained: Mango PR #143/#153 and Groot PR #650. No duplicate backend article. https://nodejs.org/en/blog
+
+**4) AI / cloud / developer**
+- New unowned technical story selected for Mango: Azure Databricks will default-enable the `variantShredding` table feature for new tables with a VARIANT column created using DBR 17.3+ from **18 November 2026**. This is a scheduled default-behaviour change, not a new product launch; Variant and Variant shredding were GA on 22 July 2026. The upcoming-change entry does not show its publication timestamp. Important vendor-doc mismatch retained: the upcoming notice tells DBR 15.4 users to upgrade to 16.4+, while the feature-specific page says 17.3+ is required to read/write shredded VARIANT tables. The draft recommends conservative 17.3+ testing and vendor clarification before relying on 16.4.
+- Existing Databricks Apps package repository default enablement from 13 November remains Groot PR #720; this new Mango guide covers a distinct VARIANT table feature, not the same story.
+- Existing owners preserved: Google Cloud API Keys remote MCP (Mango #218), GitHub Agent Skills (Forsk #218), Cloudflare Access token detector (Forsk #217), GKE Agent Sandbox/Agent Gateway (Groot #711), Gemini 4 Hydrogen (Groot existing branch). No duplicate story created for these topics.
+
+### Repository and ownership audit
+
+- Mango Engineers: read current `AGENTS.md`, `README.md`, `docs/agent-start-here.md`, task board, work log and integration queue. The new draft is docs/media-only and does not touch protected shared PHP/navigation/SEO/deployment files.
+- Groot Academy: read current `.agent/README.md` and current repository state; canonical pointer says `satnamkhowal/gta`, which redirects to the same repository ID as accessible `satnamkhowal/grootacademy.com`. No Groot write in this cycle.
+- Forsk Coding School: root README/AGENTS paths are absent; read current `docs/ai-ops/MASTER_TASK_BOARD.md`, `SESSION_HANDOFF.md`, `WORKER_REGISTRY.md`, current News Factory PRs/branches. The Forsk master board/handoff carry an older audit date and instruct the master controller to aggregate shared governance files; those shared files were not modified. Existing PR #145 already owns the October React security update.
+- Jaipur Engineers: read `docs/content-radar.md`; Auto Publish remains OFF. Existing CRISP PR #51 remains owner; no new Jaipur write because no approved News Factory article lane was found.
+- Central coordination: reused existing PR #19 and its append-only checkpoint file. Before this append, branch comparison was 167 ahead / 5 behind main (diverged); no rebase, merge or deployment attempted.
+
+### New production — Mango Engineers
+
+- Draft PR **#224**: https://github.com/satnamkhowal/mangoengineers.com/pull/224
+- Article: `docs/news-factory/drafts/databricks-variant-shredding-november-2026-compatibility-guide.md` — **2,091 words**, original English technical guide with SEO title/description, migration checklist, SQL examples and FAQs.
+- Original SVG: `docs/news-factory/media/databricks-variant-shredding-compatibility.svg` — **1200×675**, original editorial graphic; no third-party artwork/logo/screenshot.
+- Provenance: `docs/news-factory/drafts/databricks-variant-shredding.metadata.json` — official source URLs, publication/effective-date distinction, rights/attribution, alt text, dimensions, local paths and QA status.
+- Local PNG: `/mnt/data/news-factory/2026-11-13/1907/mango-variant-shredding/databricks-variant-shredding-compatibility.png`, 1200×675, 144,994 bytes, visually inspected.
+- Local WebP: `/mnt/data/news-factory/2026-11-13/1907/mango-variant-shredding/databricks-variant-shredding-compatibility.webp`, 1200×675, 61,620 bytes, decoded. Only the SVG is committed.
+- No story-specific YouTube video ID/channel/date/embed permission was verified; no iframe or video asset added.
+- GitHub read-back succeeded for all three files. Branch is **4 commits ahead / 0 behind main**, exactly three new paths. PR #224 remains OPEN/DRAFT and currently reports mergeable=true; no reviews or review threads returned.
+- Local checks: 2,091-word count, one H1, metadata JSON parse, SVG XML, 1200×675 dimensions, no SVG scripts/external references, PNG render/visual inspection and WebP decode PASS.
+- PHP Architecture Check run **43436771331** completed failure before steps; job 131923800398 returned an empty steps list and no logs URL. No code-level test executed and no CI pass is claimed.
+- Independent editorial/security-technical QA remains PENDING. No merge, deployment, publication or indexing claim.
+
+### Production ledger — this run only
+
+| Stage | New count |
+| --- | ---: |
+| Research tracks checked | 4 |
+| New unique unowned stories retained | 1 |
+| Original English article drafts committed | 1 |
+| Original SVG graphics committed | 1 |
+| Local PNG/WebP derivatives rendered | 2 |
+| Verified YouTube IDs / embeds | 0 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+### Next actions
+
+1. Independent editorial and technical review of Mango PR #224; resolve the DBR 16.4-versus-17.3 documentation mismatch with vendor guidance before treating the runtime minimum as settled.
+2. Recheck VSSC UG/PG application windows before 15/16 November; keep academic project work distinct from the closed INT 08 internship.
+3. Recheck NMMSS and PM YASASVI Schools before 15 November; preserve Rajasthan/Keralam/Karnataka state-specific restrictions until the official notice changes.
+4. Retrieve NeGD Technical/Non-Technical Winter 2026 and Young Professional PDFs when official links stop returning 403.
+5. Keep React, Node.js, Google Student Researcher, CRISP and all existing opportunity/developer owners in their current PRs; do not create duplicates.
+6. No merge, deploy or publish without independent QA and approval.
