@@ -400,7 +400,7 @@ Both local SVGs parsed as XML; PNG visual inspection, WebP decoding/dimensions a
 
 Existing coordination PR reused: https://github.com/satnamkhowal/brand-growth-control-center/pull/19
 
-The central branch `ops/news-factory-cycle-20261109-2209` remains diverged: 157 ahead / 5 behind main; GitHub mergeability is currently unknown. This run appends to the existing checkpoint branch only. No rebase or merge.
+The central branch `ops/news-factory-cycle-20261109-2209` remains diverged: the last verified comparison before this checkpoint commit was 159 ahead / 5 behind main; this append adds one commit. GitHub mergeability is currently unknown. No rebase or merge.
 
 | Stage | Run 11 delta |
 |---|---:|
