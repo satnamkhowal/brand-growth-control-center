@@ -356,3 +356,96 @@ Four non-overlapping research lanes were checked against official sources: (1) s
 3. Recheck VSSC UG/PG project application windows before 15–16 November; keep internship and academic project routes separate.
 4. Keep CRISP, Google Student Researcher, React and Node.js updates with their existing owners; update only when the official source materially changes.
 5. No merge, deploy or publish without independent QA and separate approval.
+
+
+
+### 13 November 2026 — 23:29 IST active News Factory cycle
+
+#### Research tracks checked
+
+Four non-overlapping tracks were checked against primary sources: (1) student/developer programmes and opportunities, (2) React/frontend releases and security, (3) Node.js/backend releases and security, and (4) AI/cloud/developer updates. Publication dates were kept separate from application, effective or session dates. No event date was invented.
+
+#### Two new, unowned student-opportunity stories retained
+
+**1) Amazon Programmer Analyst Intern — 2027 (Forsk Coding School)**
+- Official Amazon.jobs listing: https://www.amazon.jobs/en/jobs/10506542/programmer-analyst-intern-2027
+- Job ID **10506542**, title **Programmer Analyst Intern – 2027**; page showed an Apply now action at 13 November 2026, 23:29 IST.
+- Location: Hyderabad, Telangana, India (ADCI HYD 13 SEZ). The listing does not show a publication date, closing date, duration, stipend/compensation, application fee or remote-work status.
+- Role covers internal software applications/tools, integrations, platform migrations, debugging, unit tests, requirements communication and AWS S3/DynamoDB/EC2 exposure. Java is preferred; C++, C#, SQL, Perl, Python, XML and Ruby are also named.
+- Role-specific qualification says currently working toward a Bachelor's degree or higher in CS/Engineering/equivalent; the generic page footer separately says enrolled in or completed a Bachelor's. Draft flags this discrepancy rather than choosing the broader interpretation silently.
+- Full-time commitment and a university-signed availability declaration are required for selected candidates.
+- New Forsk task issue [#222](https://github.com/satnamkhowal/forsk-coding-school/issues/222); draft PR [#223](https://github.com/satnamkhowal/forsk-coding-school/pull/223).
+- Article: 2,148 words; original SVG 1200×675; local PNG/WebP derivatives 1200×675 (PNG visually inspected, WebP decoded). No third-party image reused and no verified story-specific video/iframe.
+- Branch `news-factory/amazon-programmer-analyst-intern-2027-20261113-2329`: 4 commits ahead / 0 behind Forsk main `9a25fd5a`; exactly three new files. PR OPEN/DRAFT, zero reviews/threads, no workflow runs or status entries. GitHub create response reported `mergeable=false`; do not treat as mergeable until GitHub recalculates. No merge/deploy/publish.
+
+**2) NeGD Technical Internship — Winter Programme 2026 (Forsk Coding School)**
+- Official page: https://negd.gov.in/jobs/technical-internship-winter-programme-2026/ (page publication date **12 November 2026**); official five-page PDF: https://www.meity.gov.in/static/uploads/2026/11/032b92c51d45d44365455c98ea37b0eb.pdf; careers listing: https://negd.gov.in/careers/.
+- Current NeGD careers listing shows Delhi-NCR and a **20 November 2026** deadline. PDF lists **50 positions** (40 regular-term, 10 short-term) across eight areas: software development; UI/UX/frontend; product/security testing; database programming; business analysis; data engineering/analytics; AI/ML/IoT; DevOps/automation.
+- Eligibility: engineering graduates/postgraduates or equivalent with at least **75%** in the qualifying degree; document identifies 2025/2026 graduates and 2027 final-year students. Institution sponsorship/forwarding is required.
+- Offline attendance at the organisation is required. Regular term is 6 months; short term is 2 months; neither is extendable. Token stipend is **₹20,000/month**, conditional on satisfactory performance and mentor certification every 30 days. Minimum eligibility does not guarantee selection.
+- PDF shows tentative January and December session periods but does not clearly map the 40/10 role counts to each session. Eligibility paragraph uses “technical summer internship programme” once despite the Winter Programme title; draft discloses this wording inconsistency.
+- Application form URL printed in PDF: https://forms.gle/7rK1WPeyHZqGVEXp8. It could not be opened independently in this check; the draft tells applicants to verify it before entering personal details. Application fee is not stated.
+- Kept distinct from Forsk PR #180, which covers NeGD's Non-Technical Winter Internship. Existing PR #180 received a cross-link comment; no article content was duplicated.
+- New Forsk task issue [#224](https://github.com/satnamkhowal/forsk-coding-school/issues/224); draft PR [#225](https://github.com/satnamkhowal/forsk-coding-school/pull/225).
+- Article: 2,029 words; original SVG 1200×675; local PNG/WebP derivatives 1200×675 (PNG visually inspected, WebP decoded). No third-party image reused and no verified story-specific video/iframe.
+- Branch `news-factory/negd-technical-internship-winter-2026-20261113-2329`: 3 commits ahead / 0 behind Forsk main `9a25fd5a`; exactly three new files. PR OPEN/DRAFT, zero reviews/threads, no workflow runs or status entries. GitHub create response reported `mergeable=false`; no merge/deploy/publish.
+
+#### Existing opportunity-owner status refreshes
+
+- Google Student Researcher 2027: official Google Careers page still shows Apply, India remote eligibility and a **4 December 2026** deadline with rolling review; no stipend or fixed duration stated. Existing Forsk PR #146 received a current-status comment: https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher
+- VSSC: official HRDD portal says BE/BTech/BSc/Diploma next project slot begins 1 January 2027, with a **15 November 2026** receipt cut-off; ME/MTech/MSc/BS-MS online window ends **16 November 2026, 11:59 PM IST**. Internship INT 08 is closed; INT 09 is a separate May–July 2027 intake with 15 February–15 March 2027 application window. Existing Forsk PR #172 received a status comment: https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+- NMMSS 2026–27: current NSP All-Scholarships listing still shows student application through **15 November 2026**. Existing Forsk PR #173 received a status comment: https://scholarships.gov.in/All-Scholarships
+- CRISP Fellowship 2027: official page remains open until **29 November 2026, 5:00 PM IST**, 16 positions / 8 states, ₹9 lakh/year headline remuneration, Indian nationals eligible; live page showed 1,733 applications, including 240 Rajasthan GIST applications. Existing Jaipur PR #51 remains owner; no new article.
+- NeGD Non-Technical Winter Internship remains Forsk PR #180; Technical Internship is the distinct new PR #225.
+
+#### React / frontend
+
+- Official React releases still show 19.3.1, 19.2.9, 19.1.10 and 19.0.9 dated **14 October 2026**; latest stable feature announcement remains React 19.3 dated 9 September. No new November stable release found.
+- Existing owners Forsk PR #145 (React Server Components security) and Mango PR #202 (React 19.3 feature guide) retained. No duplicate draft.
+- Sources: https://react.dev/blog and https://github.com/react/react/releases
+
+#### Node.js / backend
+
+- Official 11 November security release provides Node 22.23.5, 24.22.3 and 26.13.1. The advisory lists **16 CVEs: 7 High, 6 Medium and 3 Low**.
+- Node.js 27.0.0-alpha.0.1.0 is the latest Alpha checked from the 12 November release index; it is not LTS or a production recommendation.
+- Existing Mango/Forsk/Groot Node and backend owners retained; no duplicate article.
+- Sources: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases and https://github.com/nodejs/node/releases
+
+#### AI / cloud / developer news — no additional unowned article
+
+- GitHub's 13 November REST API support for managing AI Scan repository backlog settings is already owned by Jaipur issue #52; no duplicate. Source: https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api/
+- GitHub's 12 November Cloudflare service-token detector is already owned by Forsk PR #217; no duplicate. Source: https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare/
+- Dependabot inactive-repository alert pause (effective 8 December) remains owned by Forsk PR #165 and Groot PR #704; no duplicate. Source: https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories/
+- Gemini for Healthcare (10 November) remains Groot PR #631; Google Cloud Agent Registry standalone skills/security scanning remains Forsk PR #221; GitHub Actions ARM32 hosted-runner retirement remains Forsk PR #204. No new article was created for already-owned topics.
+
+#### Repository and coordination review
+
+- **Mango Engineers** — current main `51aa38209430bd916999073d4c710064fd864b8f`; read AGENTS.md, docs/agent-start-here.md, task board, work log, integration queue and open PR inventory. Existing React #202, Node #153, Gemini/Data Cloud #215, Databricks #225 and other current lanes retained. No Mango write.
+- **Groot Academy** — current main `a5706a7f33e389be15e36f1093b4dd953aee1737`; canonical accessible repository `satnamkhowal/grootacademy.com`; reviewed current .agent decisions and existing News Factory ownership. Gemini for Healthcare #631, Dependabot #704 and canonical 29-ID/100K controller restrictions retained; no new ID or Groot write.
+- **Forsk Coding School** — current main `9a25fd5a11641420ac716d3fd25103e6e8362fbf`; read README.txt, docs/ai-ops/MASTER_TASK_BOARD.md, docs/ai-ops/SESSION_HANDOFF.md and open PR inventory. Existing PR #198 owns shared task board/handoff paths; these were not edited. New PRs #223 and #225 add only three isolated draft/media files each.
+- **Jaipur Engineers** — current main `27cc5a6767b057932f23a85b4de3e69fe6184791`; read docs/content-radar.md. Existing PR #49 Git security, #50 Google opportunities, #51 CRISP, #43 readability and issue #52 GitHub AI Scan API retained. Auto Publish remains OFF; no Jaipur write.
+- **Central control** — main `21af139cc32a7b67aab6908c61edeb5998bd4544`; reused this existing PR #19 branch `ops/news-factory-cycle-20261109-2209` and append-only checkpoint. Before this append, branch comparison was 171 ahead / 5 behind main (diverged); no rebase or merge. PR #19 has no independent reviews/threads. Central main unchanged.
+
+#### Production ledger — this run only
+
+| Stage | New count |
+| --- | ---: |
+| Research tracks checked | 4 |
+| New unique unowned stories retained | 2 |
+| Original English article drafts committed | 2 |
+| Original SVG graphics committed | 2 |
+| Local PNG/WebP derivatives rendered | 4 |
+| Existing owner status comments | 4 |
+| Verified YouTube IDs / embeds | 0 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+#### Next actions
+
+1. Independent editorial/factual QA for Forsk PR #223 and #225; GitHub currently reports `mergeable=false` for both create responses despite direct comparisons of 4/0 and 3/0 respectively. Recheck GitHub mergeability and do not merge while status is unresolved.
+2. Independently open and verify the NeGD Google Form before directing applicants to submit; keep the official PDF as the source of the form URL.
+3. Recheck VSSC UG and PG application cut-offs before 15–16 November and NMMSS before 15 November.
+4. Recheck Amazon Programmer Analyst Intern 10506542 and Google Student Researcher 2027 status; do not infer posting dates, stipend or duration where not stated.
+5. Keep React, Node.js and AI/cloud topics with their existing owners unless an official material update creates a distinct unowned story.
+6. No merge, deployment, public route, sitemap, schema, publication or indexing claim without independent QA and separate approval.
