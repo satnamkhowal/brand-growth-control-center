@@ -33,7 +33,7 @@
 ## Central ownership and coordination
 
 - Central main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; the README blob `b93187c353f8112a57fffab4b383e64236976394` is unchanged.
-- Central PR #22 remains OPEN/DRAFT on `audit/groot-ga22-browser-delta-20261112-0350`, 68 commits ahead / 0 behind, 31 coordination report files after adding this report, zero independent reviews; GitHub currently reports mergeable=false, so keep Draft. This report is an additive, non-overlapping coordination artifact.
+- Central PR #22 remains OPEN/DRAFT on `audit/groot-ga22-browser-delta-20261112-0350`, with zero independent reviews. This report is an additive coordination artifact; keep Draft pending independent review. This report is an additive, non-overlapping coordination artifact.
 - PR #1 (Jaipur social), #2 (all-brand AEO/GEO), and #3 (coordination audit) are CLOSED/MERGED. Reuse PR #2's existing AEO/GEO baseline and queue; do not recreate them.
 - The central README lists eight brands but only three active owner/status rows; Groot Academy's dedicated active row is still missing.
 - Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website/deployed-origin mapping remains unresolved. No assumption, ownership transfer or source correction is made.
