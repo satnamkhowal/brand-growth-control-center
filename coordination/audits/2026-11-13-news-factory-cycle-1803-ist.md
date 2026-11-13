@@ -268,3 +268,91 @@ Four non-overlapping research lanes were checked: student/developer programmes, 
 - The initial PHP Architecture Check run 43457592154 failed before steps; job 131995716901 returned an empty steps list and log download returned BlobNotFound. A retry request for the failed job was accepted, but no new workflow run was visible for the latest head \`068e720dcdb92c8ca35d35c81884dbe713afc624\` at the final check. CI is unverified, not passed.
 - Independent editorial/security review and responsive browser QA remain pending. No merge, deployment, publication or indexing.
 - Central branch comparison immediately before this addendum: 169 ahead / 5 behind main (diverged). No rebase or merge.
+
+
+### 13 November 2026 — 22:08 IST active News Factory cycle
+
+#### Research tracks and source verification
+
+Four non-overlapping research lanes were checked against official sources: (1) student/developer programmes and opportunities, (2) React/frontend releases and security, (3) Node.js/backend releases and security, and (4) AI/cloud/developer news. Publication dates were kept separate from event dates; no event date was invented.
+
+**New unowned AI/cloud story retained: Google Cloud Agent Registry standalone skills and security scanning**
+- Google Cloud Agent Registry release notes publish the standalone-skills GA and skill-scanning/governance availability under **6 November 2026**. No separate launch-event date is stated. Overall Agent Registry GA was announced earlier, on 18 June 2026.
+- Standalone skills are GA; security scanning and governance are available. CMEK for skill payloads remains Preview; cross-project management boundaries remain Preview.
+- Pricing checked on the official page (last updated 10 November): registry storage/search/API operations US$0; scanning US$0 through 31 December 2026; US$8 per 1 million input tokens from 1 January 2027. Google's 2,500-token example is about US$0.02. Cloud Storage and agent runtimes can bill separately.
+- Current Agent Registry location list includes Mumbai (`asia-south1`) and Delhi (`asia-south2`). This does not guarantee that every connected service/model/runtime is available in the same region.
+- Security scanner is LLM-based and probabilistic; false positives/false negatives and approximate findings are possible. Human verification remains necessary.
+- Primary sources:
+  - https://docs.cloud.google.com/agent-registry/release-notes
+  - https://docs.cloud.google.com/agent-registry/scan-skills
+  - https://docs.cloud.google.com/agent-registry/pricing
+  - https://docs.cloud.google.com/agent-registry/locations
+  - https://docs.cloud.google.com/agent-registry/register-skills
+  - https://docs.cloud.google.com/agent-registry/skills-architecture
+  - https://docs.cloud.google.com/agent-registry/manage-skills
+
+#### Student/developer opportunities — existing owners retained
+
+- Google Student Researcher, 2027: official Google Careers listing still shows India remote eligibility and a 4 December 2026 application deadline, with rolling review. Existing Forsk PR #146 owns the guide; no duplicate was created.
+- NeGD Technical Internship (Winter Programme 2026): official careers page lists Delhi-NCR and a 20 November deadline; the dedicated job page was posted 12 November. The official page/PDF fetch is blocked (403/DisabledError), so stipend, duration and detailed eligibility were not asserted and no article was created. NeGD Non-Technical Internship is separately listed with the same deadline and remains with Forsk PR #180.
+- VSSC academic project work: official portal distinguishes the closed current project periods from the next 2027 intake. BE/BTech/BSc/Diploma applicants have a 15 November 2026 receipt cut-off for the 1 January–31 March 2027 project slot; ME/MTech/Integrated ME/MTech/MSc/Integrated MSc/BS-MS applicants have an online window through 16 November 2026, 11:59 PM IST, for the 1 January–30 June 2027 slot. INT 08 internship is closed; INT 09 is a separate May–July 2027 intake with a 15 February–15 March 2027 application window. Existing Forsk PR #172 received a status clarification comment; no duplicate article was created.
+- CRISP Fellowship 2027: official page remains open through 29 November 2026, 5:00 PM IST; 16 positions across 8 states; standard remuneration ₹9 lakh/year; Indian nationals eligible. Existing Jaipur Engineers PR #51 owns the Rajasthan GIST guide and received a status-snapshot comment (1,733 applications / 240 Rajasthan GIST applications as of 13 November, 11:26 AM IST; not selection odds).
+- NMMSS, PM YASASVI, AICTE scholarships and other current programmes remain with their existing Forsk/Mango owners. No old or closed programme was presented as newly open.
+
+#### React / frontend
+
+- React official release inventory still shows 19.3.1 (14 October 2026) as latest; 19.2.9, 19.1.10 and 19.0.9 are also dated 14 October. No new November stable release found.
+- Existing React security/content owners in Forsk PR #145 and Mango PR #202 remain authoritative; no duplicate draft.
+
+#### Node.js / backend
+
+- Official 11 November security release patches Node 22.23.5, 24.22.3 and 26.13.1. The advisory lists 16 CVEs: 7 High, 6 Medium and 3 Low.
+- Node.js 27.0.0-alpha.0.1.0 was published 12 November and is Alpha, not LTS.
+- Existing Mango/Forsk/Groot Node/security owners were preserved; no duplicate article.
+
+#### Brand repository review and write boundaries
+
+- **Mango Engineers** — read `AGENTS.md`, `docs/agent-start-here.md`, `docs/task-board.csv`, `docs/work-log.md`, `docs/integration-queue.md`, and current open PR inventory. Existing PRs #143, #153, #202, #218, #223–#225 and other active owners were preserved. No Mango write in this run.
+- **Groot Academy** — canonical repository identity is `satnamkhowal/grootacademy.com`; read `.agent/README.md`, `.agent/MASTER-HANDOFF.md`, `.agent/CURRENT-STATE.md`, `.agent/BACKLOG.md` and `.agent/DECISIONS.md`. Existing Agent Gateway, Databricks and Node/React owners were preserved. No Groot write in this run.
+- **Forsk Coding School** — current `main` at start was `9a25fd5a11641420ac716d3fd25103e6e8362fbf`; read `README.txt`, `docs/ai-ops/MASTER_TASK_BOARD.md`, `docs/ai-ops/SESSION_HANDOFF.md`, current open PRs and News Factory conventions. Existing PR #189 (cross-cloud Agent Gateway) and PR #218 (GitHub Agent Skills) are adjacent but distinct; the new draft is limited to Google Cloud Agent Registry's standalone skill registry/scanning workflow. PR #198 owns the shared Forsk task board and session handoff; neither shared file was edited.
+- **Jaipur Engineers** — canonical repository is `satnamkhowal/jaipurengineers.com` (the earlier `je2` alias resolves to it). Current open owners include PR #49 Git security, #50 Google opportunities, #51 CRISP, #43 readability and issue #52 GitHub AI Scan API. No Jaipur write in this run. Root `AGENTS.md` and `README.md` paths were not present; no instruction file was guessed.
+- No cross-brand near-duplicate article was created.
+
+#### Actual implementation — Forsk PR #221
+
+- Draft PR: https://github.com/satnamkhowal/forsk-coding-school/pull/221
+- Branch: `news-factory/google-agent-registry-skills-security-20261113-2208`
+- Base: `main@9a25fd5a11641420ac716d3fd25103e6e8362fbf`
+- Head: `66cc445d21326e380f4e36d7436bf90e8131652c`
+- Compare: **4 commits ahead / 0 behind main**; exactly three new files; PR OPEN / DRAFT / mergeable=true at final metadata check.
+- Article: `docs/news-factory/drafts/google-cloud-agent-registry-standalone-skills-ga-india-security-pricing.md`; GitHub read-back counter reports **2,585 words**, one H1, HTTPS source links and description/front matter.
+- Metadata: `docs/news-factory/drafts/google-cloud-agent-registry-standalone-skills.metadata.json`; GitHub read-back and local JSON parse pass.
+- Original SVG: `docs/news-factory/media/google-cloud-agent-registry-skills-security-governance.svg`, 1200×675; title/description present; no external image or script reference.
+- Local PNG and WebP derivatives are both 1200×675 and decoded; PNG visually inspected. Local working paths:
+  - `/mnt/data/news-factory/2026-11-13/2208/forsk-agent-registry/google-cloud-agent-registry-skills-security-governance.png`
+  - `/mnt/data/news-factory/2026-11-13/2208/forsk-agent-registry/google-cloud-agent-registry-skills-security-governance.webp`
+- No verified relevant original YouTube video ID/channel/upload date was found; no iframe or video download.
+- CI/status checks: no workflow runs and no status entries returned for the head. This is **unverified**, not a CI pass. Independent editorial, technical/security and responsive/browser QA remain pending.
+- No PHP route, homepage, navigation, sitemap, schema, redirect or production content changed. No merge, deployment, publication or indexing.
+
+#### Production ledger — this run only
+
+| Stage | New count |
+| --- | ---: |
+| Research tracks checked | 4 |
+| New unique unowned stories retained | 1 |
+| Original English article drafts committed | 1 |
+| Original SVG graphics committed | 1 |
+| Local PNG/WebP derivatives rendered | 2 |
+| Verified YouTube IDs / embeds | 0 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+#### Next actions
+
+1. Independent editorial and technical/security QA for Forsk PR #221; verify scanner limits, IAM roles, India region caveats and the 1 January 2027 token-price transition.
+2. Recheck the NeGD Technical Internship page and PDF; do not draft detailed eligibility/stipend claims until the official advertisement is accessible.
+3. Recheck VSSC UG/PG project application windows before 15–16 November; keep internship and academic project routes separate.
+4. Keep CRISP, Google Student Researcher, React and Node.js updates with their existing owners; update only when the official source materially changes.
+5. No merge, deploy or publish without independent QA and separate approval.
