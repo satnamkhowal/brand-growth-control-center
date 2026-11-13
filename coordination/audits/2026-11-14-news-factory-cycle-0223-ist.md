@@ -174,3 +174,108 @@ Next actions:
 | Merged / deployed | 0 |
 
 Cumulative historical totals were not recalculated from every open/merged repository PR in this run.
+
+
+## 14 November 2026 — 03:36 IST News Factory cycle
+
+### 1. Official student / developer opportunities
+
+Current primary-source rechecks; all remain with their existing owners, so no duplicate article was opened:
+
+- **Google Student Researcher 2027:** Google Careers listing remains the India-Remote owner item, with a 4 December 2026 application deadline and rolling review. The listing does not publish a stipend amount or fixed duration. Existing Forsk PR #146.
+- **Sage IT India Scholarship 2026:** sponsor page still shows a 15 November 2026 submission deadline, ₹50,000 one-time award paid to the institution, ages 17–30, recognized Indian college/university enrolment, all majors, individual unpublished 1,000–1,500-word article, and no entry fee. No exact closing time is published. Existing Forsk PR #184.
+- **NMMSS AY 2026–27:** NSP currently shows the student application deadline as 15 November 2026; later institute/L1 and district/L2 verification dates are separate. OTR is required; existing Forsk PR #173.
+- **VSSC academic project work:** official HRDD portal still shows UG BE/BTech/BSc/Diploma downloaded-form submission for the 1 January–31 March 2027 slot due 15 November; PG/Integrated ME/MTech/MSc/BS-MS online window closes 16 November 2026 at 11:59 PM IST for the 1 January–30 June 2027 slot. INT 08 internship is closed; INT 09 is a separate May–July 2027 internship with a 15 February–15 March 2027 application window. Do not describe academic project work as a paid internship. Existing Forsk PR #172.
+- **SDEF India Scholarship 2026–27:** sponsor page still says applications are being accepted through 30 November 2026. Existing Forsk PR #178.
+
+Primary URLs:
+- https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher/
+- https://sageitinc.com/scholarship/india
+- https://scholarships.gov.in/All-Scholarships
+- https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+- https://www.swamidayanand.org/india-scholarships-2026-27
+
+### 2. React / frontend
+
+- React's latest stable feature announcement remains **React 19.3.0 (9 September 2026)**.
+- React repository security advisories show the 14 October 2026 RSC critical RCE and Server Functions DoS advisories; patched package lines are **19.0.9, 19.1.10, 19.2.9 and 19.3.1**.
+- Existing owners retained: Forsk PR #145 and Mango PR #202. No new React article.
+
+Sources:
+- https://react.dev/blog
+- https://github.com/react/react/releases
+- https://github.com/react/react/security/advisories
+
+### 3. Node.js / backend
+
+- Official 11 November security releases remain **22.23.5, 24.22.3 and 26.13.1**.
+- The bulletin has 7 High, 6 Medium and 3 Low severity entries. The 24.x/26.x release pages were re-read. The existing bulletin/release-page LOW CVE mapping discrepancy (CVE-2026-106071 versus CVE-2026-123873) remains unresolved; keep the discrepancy explicit and do not treat the identifiers as aliases.
+- Existing owners retained: Mango PR #143/#229 and Groot PR #650. No duplicate Node article.
+
+Sources:
+- https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+- https://nodejs.org/en/blog/release/v24.22.3
+- https://nodejs.org/en/blog/release/v26.13.1
+
+### 4. AI / cloud / developer
+
+- GitHub's **13 November 2026** Changelog confirms the `repository_scan` REST API setting for AI Scan for repositories. The feature remains public preview; no separate event date, India-specific price or blanket account-eligibility guarantee is published. The new story remains isolated to Groot PR #737.
+- Other current GitHub, AWS and Google Cloud candidate branches/PRs were reviewed and left with their existing owners. No new unowned AI/cloud story was selected.
+- Jaipur's reserved `news-factory/github-ai-scan-rest-api-20261113-2013` branch compares identical to main (0 commits / 0 files); it was left untouched. No Jaipur duplicate article was created.
+
+Primary sources:
+- https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api/
+- https://docs.github.com/en/code-security/concepts/code-scanning/ai-scan-for-repositories
+- https://docs.github.com/en/rest/code-scanning/code-scanning
+
+### 5. Existing Groot draft QA and implementation
+
+- Reused Groot branch `news-factory/github-ai-scan-repository-rest-api-20261114-0223` and existing PR #737; no new PR or duplicate article created.
+- Article remains 2,622 words. Corrected 72 escaped Markdown backticks and 14 doubled shell line-continuation backslashes.
+- Read-back checks: five closed fenced blocks; three Bash examples; two JSON examples parse; `bash -n` passes for all three cURL examples using placeholder credentials. No live HTTP request or API write was made.
+- Source/editorial QA: PASS against the 13 November GitHub Changelog and current GitHub Docs. Technical QA: PARTIAL; live account/plan/API behavior not exercised. Responsive/browser QA: PENDING. Latest PR workflow query returned no runs; no CI pass is claimed.
+- Branch compare after corrections: 10 commits ahead / 0 behind main; only the article, metadata sidecar and original SVG are changed. PR remains draft/unpublished.
+- Original SVG XML parse PASS; 1200x675 viewBox, zero embedded raster image elements and zero external hrefs. Existing PNG/WebP derivatives decode at 1200x675; PNG visually inspected. Asset provenance remains original self-authored artwork; no third-party image or video downloaded.
+- No verified story-specific YouTube video ID was found; no embed was invented.
+
+PR and files:
+- https://github.com/satnamkhowal/grootacademy.com/pull/737
+- https://github.com/satnamkhowal/grootacademy.com/blob/news-factory/github-ai-scan-repository-rest-api-20261114-0223/docs/news-factory/drafts/github-ai-scan-repositories-rest-api-guide-2026.md
+- https://github.com/satnamkhowal/grootacademy.com/blob/news-factory/github-ai-scan-repository-rest-api-20261114-0223/docs/news-factory/drafts/github-ai-scan-repositories-rest-api-guide-2026.metadata.json
+- https://github.com/satnamkhowal/grootacademy.com/blob/news-factory/github-ai-scan-repository-rest-api-20261114-0223/docs/news-factory/media/ai-scan-repository-rest-api-workflow.svg
+
+### 6. Repository / central coordination review
+
+- Read current central README and the existing News Factory audit/checkpoint; re-used central PR #19 and branch `ops/news-factory-cycle-20261109-2209`.
+- Mango: current README/AGENTS, agent start guide, task board, work log and integration queue reviewed; existing Node/React/security owners preserved.
+- Groot: .agent README, handoff/current-state/backlog/decisions and current PR/branch inventory reviewed; only existing PR #737 draft files updated.
+- Forsk: README.txt, current `docs/ai-ops/MASTER_TASK_BOARD.md` and `SESSION_HANDOFF.md` reviewed. Controller-owned board/handoff/registry files were not edited; current opportunity and React owners preserved.
+- Jaipur: `docs/content-radar.md` and branch/PR inventory reviewed; Auto Publish remains OFF. No Jaipur write.
+- Central README lists additional brand names, but unverified repository mappings remain untouched.
+
+Central branch comparison before this append: **179 ahead / 5 behind main (diverged)**. No rebase, force-push or merge performed.
+
+### 7. Production delta — this cycle
+
+| Stage | New count |
+|---|---:|
+| Research tracks checked | 4 |
+| Fresh primary-source opportunities rechecked | 5 |
+| New unowned stories selected | 0 |
+| New original articles drafted | 0 |
+| Existing article drafts corrected | 1 |
+| New graphics / licensed downloads | 0 |
+| Existing media assets revalidated | 3 |
+| Verified YouTube IDs / embeds | 0 |
+| Independent source/editorial QA passes | 1 |
+| Full technical + responsive QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+### 8. Next actions
+
+1. Complete authorized live API behavior checks and responsive browser QA for Groot PR #737; keep it draft until independent gates and separate publication approval.
+2. Recheck Sage IT, NMMSS and VSSC UG on 15 November; recheck VSSC PG before 16 November 23:59 IST. Keep student application dates separate from verification deadlines.
+3. Monitor Google Student Researcher through 4 December and SDEF through 30 November; do not duplicate existing Forsk owners.
+4. Preserve the Node.js bulletin/release-page CVE mapping discrepancy until Node.js maintainers clarify it.
+5. Continue the four source lanes and draft only distinct, verified, unowned stories.
