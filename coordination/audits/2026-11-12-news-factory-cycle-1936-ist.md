@@ -385,6 +385,7 @@ Both local SVGs parsed as XML; PNG visual inspection, WebP decoding/dimensions a
 - GitHub Blog: practical Agent Skills guide published 12 November 2026; no exact date given for the separately referenced GitHub Universe session. Current Copilot docs/CLI manual show `gh skill` public preview and GitHub CLI 2.90.0+.
 - Google Cloud release notes: API Keys remote MCP server GA 12 November 2026; previously Preview 25 September 2026. The API Keys API itself was GA in 2022. This is the new Mango article owner above.
 - Existing Mango PR #215 (Gemini Enterprise Data Cloud connectors), PR #192 (Antigravity CLI), and existing Groot GKE/Agent Substrate owners were not duplicated.
+- The same 12 November Google Cloud release-note batch also includes App Engine standard-environment Direct VPC egress GA (Go/Java/Node.js/PHP/Python/Ruby), Gemini 4 Hydrogen GA (unified 1,048,576-token input/output limit; global/us/eu endpoints with US/EU data-residency and ML-processing support), Agent Gateway for GKE Preview (GKE 1.37.2-gke.1042000+ on Rapid; europe-west1/us-central1), GKE Agent Sandbox GA, and BigQuery table-level lineage GA. These were recorded as research candidates/current-owner updates, not extra near-duplicate articles in this bounded batch. Official source: https://docs.cloud.google.com/release-notes .
 
 ### 4. Repository mapping and concurrency
 
