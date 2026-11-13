@@ -43,3 +43,10 @@ These are coordinator-run local checks, not independent review, hosted PHP 8.0/P
 5. Preserve source ownership in the Groot repository; this report is coordination-only.
 
 No central-main write, cross-brand source edit, owner reassignment, self-approval, merge, deployment, publication or indexing occurred.
+
+
+## Post-commit PR metadata read-back — 2026-11-14 00:44 IST
+
+- Re-read source PR #713 after the checkpoint/comment. GitHub now reports `mergeable=true` (the earlier 00:41 read returned false while mergeability was being recalculated).
+- The stale metadata discrepancy remains: PR `base_sha=86f5289b`, `changed_files=9` and the paginated file list includes nine paths; direct `main@37102ea3... ` to `fa4bac8d...` compare remains 12 ahead / 0 behind with exactly four net intended paths.
+- PR remains OPEN/DRAFT with zero independent reviews. No approval, merge, publication or deployment.
