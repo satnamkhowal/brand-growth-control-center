@@ -938,6 +938,7 @@ Four non-overlapping research lanes were checked against primary sources: studen
 
 - Official 11 November security releases: Node.js 22.23.5, 24.22.3 and 26.13.1. The security bulletin lists 16 unique CVEs (7 HIGH, 6 MEDIUM, 3 LOW). Sources: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases ; https://nodejs.org/en/blog/release/v22.23.5/ ; https://nodejs.org/en/blog/release/v24.22.3/ ; https://nodejs.org/en/blog/release/v26.13.1/ .
 - Source discrepancy preserved for maintainer clarification: the central bulletin lists CVE-2026-106071 for the Permission Model wildcard filesystem over-grant, while the three release pages' notable-change lists show CVE-2026-123873 for a heap-snapshot destination check. Do not collapse these IDs or silently normalize the CVE table.
+- Node.js v27.0.0-alpha.0.1.0 changelog is dated 12 November 2026; the archive says first released 29 October and last updated 12 November. It is explicitly Alpha/early-testing only, not production or LTS. Notable changes include subprocess.timedOut, X.509 CSR support, DNS lookup coalescing, HTTP body batching, SEA compile cache and worker startup snapshot updates. Archive lists npm 12.2.2 and N-API v153; V8 version is displayed as undefined, so no V8 number was inferred. Existing Mango PR #153 remains owner; status comment added. Source: https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.0/ .
 - Existing Mango PR #143 remains the sole Node security owner; detailed comment added. Node.js 27.0.0-alpha.0.1.0 remains a prerelease, not a stable/LTS replacement; existing Mango #153 and Groot #650 remain owners.
 
 ### 4. AI / cloud / developer news
@@ -972,7 +973,7 @@ Four non-overlapping research lanes were checked against primary sources: studen
 | New original SVG graphics | 1 |
 | Local PNG/WebP previews | 2 |
 | Verified YouTube embeds | 0 |
-| Existing-owner research comments | 11 |
+| Existing-owner research comments | 12 |
 | Central checkpoint append | 1 |
 | Independent QA-ready increment | 0 |
 | Live/published increment | 0 |
