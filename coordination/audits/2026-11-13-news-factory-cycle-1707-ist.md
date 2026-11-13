@@ -154,3 +154,36 @@ Sources:
 6. Resolve canonical Groot `satnamkhowal/gta` access and Forsk/Jaipur repository instructions before any further writes.
 
 **No merge, deployment or publication occurred in this cycle.**
+
+
+## Run addendum — 13 November 2026, 17:07 IST: batch expanded before checkpoint close
+
+The bounded Mango batch was expanded from one to two distinct article drafts on the same isolated branch/PR to cover a verified, time-sensitive India opportunity without creating a second competing task-board/work-log branch.
+
+### Additional draft — 13th Protocol AI Hackathon 2026
+- Same draft PR: https://github.com/satnamkhowal/mangoengineers.com/pull/220
+- Task: `NF-MANGO-13TH-PROTOCOL-20261113`
+- Article: 1,958 words; path `docs/news-factory/drafts/13th-protocol-ai-hackathon-2026-india-registration-prizes-deadline.md`.
+- Metadata: `docs/news-factory/drafts/13th-protocol-ai-hackathon-2026-india-registration-prizes-deadline.metadata.json`.
+- Original SVG: `docs/news-factory/media/13th-protocol-ai-hackathon-india-timeline.svg`, 1200×675; local PNG/WebP derivatives rendered and visually inspected/decoded.
+- Official event page status: Registration open at 13 Nov 17:07 IST; deadline 18 Nov 2026, 23:00 IST. Event 28 Nov 08:00–29 Nov 12:00 IST, in person at KCCITM Greater Noida. Free registration; team size 2–4; ₹60,000 cash pool (₹30K/₹20K/₹10K). Additional 40,000 Sharp Rewards and US$150 OpenAI API credits are listed, but allocation conditions are not fully specified. Only shortlisted teams are invited to the final; registration does not guarantee selection. Travel/accommodation reimbursement is not stated.
+- The event page does not display an original publication date. Its 13 Nov 11:27 UTC build timestamp is not represented as a publication date. A dynamic participant-count timestamp of 17:15 IST was later than this run's 17:07 IST clock and those counts were omitted.
+- The organiser describes the event as powered by HackIndia, organised by KCC Institute of Technology & Management and supported by OpenAI; it is not described as an OpenAI-run programme.
+- No verified original YouTube video ID; no iframe or video asset.
+- Source/registration landing page: https://hackindia.org/2026/13th-protocol-an-ai-hackathon-2026
+
+### Updated production ledger
+
+| Stage | Final run count |
+|---|---:|
+| Research tracks checked | 4 |
+| New unique stories researched | 2 |
+| Original English article drafts | 2 (2,085 + 1,958 words) |
+| Original SVG graphics | 2 |
+| Local PNG/WebP derivatives | 4 |
+| Verified video embeds | 0 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+The two drafts, two metadata files and two SVGs, plus the shared task-board/work-log updates, are in Mango PR #220. PR #220 is still draft/open, now 10 commits ahead and 0 behind main, with 8 changed files. GitHub currently reports mergeable=true; combined commit status returned no status checks. Independent editorial, programme/eligibility, pricing/registration, browser/mobile QA and CI remain pending. No merge or deployment.
