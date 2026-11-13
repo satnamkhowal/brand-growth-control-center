@@ -915,3 +915,70 @@ Four non-overlapping research lanes were checked against primary sources: studen
 5. Keep Forsk #145, Mango #143 and existing AI/Copilot owners separate; no duplicate drafts.
 6. Keep central PR #19 and all brand PRs draft-only until their respective owners complete independent QA. No merge, rebase, deployment, publication or indexing claim.
 
+
+
+## 13 November 2026 — 06:29 IST active News Factory cycle
+
+### 1. Student programmes, internships and scholarships
+
+- **NIC Digital India Internship — Winter 2026:** the official portal https://dii.nic.in/ was checked at 06:29 IST. Its footer says Last Updated 13-11-2026; registration starts 2 November and the registration form/OTP fields are displayed. The portal states 1 December 2026–31 January 2027, offline only. No closing date or application fee is displayed; do not repeat an unverified 13 November deadline. The linked Winter 2026 guideline PDF is now readable: https://dii.nic.in/public/mainassets/images/guidelines/dii-guidelines-winter-2026.pdf . It requires Indian students at recognized Indian universities, at least 60% in the last held degree/certificate, eligible course/year combinations and excludes final-semester students or students passing out in summer 2027. It lists 22 broad areas including React, Node.js, Java, Python, cloud, AI/ML, data analytics, DevOps and cybersecurity. It states ₹10,000/month token remuneration subject to satisfactory performance and paid after completion plus acceptance of the report; accommodation is self-arranged and internship is not employment. Existing Mango PR #147 remains the sole owner; a detailed source/status comment was added.
+- **Google Student Researcher 2027:** current official Careers page shows Apply, India / Remote eligible, 4 December 2026 deadline and rolling review. Minimum qualifications include current Bachelor's/Master's/PhD enrolment in listed disciplines and experience in a computer-science area. No stipend or application fee is published. Existing Forsk PR #146 remains owner; status comment added.
+- **NMMSS 2026–27:** Ministry of Education PIB release published 31 October confirms 15 November 2026 student deadline, 30 November L1 and 15 December L2 verification, ₹12,000/year for eligible selected Class IX students, OTR requirement and school/income/marks criteria. Source: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2330985&lang=1&reg=3 . Existing Forsk PR #173 remains owner; status comment added. This is an extended deadline for an existing scheme, not a new programme launch.
+- No duplicate opportunity article was created; all three opportunities have existing draft owners.
+
+### 2. React / frontend
+
+- Official React GitHub releases still list patch tags 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026. React 19.3.0 feature release is dated 9 September. No new November stable core release found. Source: https://github.com/facebook/react/releases .
+- Existing Mango PR #202 remains the frontend owner; revalidation comment added. No duplicate React article.
+
+### 3. Node.js / backend
+
+- Official 11 November security releases: Node.js 22.23.5, 24.22.3 and 26.13.1. The security bulletin lists 16 unique CVEs (7 HIGH, 6 MEDIUM, 3 LOW). Sources: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases ; https://nodejs.org/en/blog/release/v22.23.5/ ; https://nodejs.org/en/blog/release/v24.22.3/ ; https://nodejs.org/en/blog/release/v26.13.1/ .
+- Source discrepancy preserved for maintainer clarification: the central bulletin lists CVE-2026-106071 for the Permission Model wildcard filesystem over-grant, while the three release pages' notable-change lists show CVE-2026-123873 for a heap-snapshot destination check. Do not collapse these IDs or silently normalize the CVE table.
+- Existing Mango PR #143 remains the sole Node security owner; detailed comment added. Node.js 27.0.0-alpha.0.1.0 remains a prerelease, not a stable/LTS replacement; existing Mango #153 and Groot #650 remain owners.
+
+### 4. AI / cloud / developer news
+
+- **GitHub Actions ARM32 retirement:** GitHub Changelog published 12 November; hosted Linux and Windows runners will end ARM32 job execution, including native AArch32 user-space execution, by 8 December 2026. This is not an ARM64 retirement notice. Current self-hosted docs list x64 and ARM64; the earlier Node 20/Node 24 self-hosted compatibility issue is separately explained. New Forsk Coding School [PR #204](https://github.com/satnamkhowal/forsk-coding-school/pull/204) contains a 1,964-word original guide, one original 1200×675 SVG and provenance/QA metadata. Official sources: https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement/ ; https://docs.github.com/en/actions/reference/runners/self-hosted-runners .
+- **Cloudflare secret scanning:** GitHub added the detector cloudflare_access_service_token on 12 November. Partner secrets found in public repositories are reported to the issuer through the partnership programme; user secrets generate alerts in public or private repositories. Existing Mango PR #208 remains owner; comment added. Source: https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare/ .
+- **Gemini 4 Hydrogen:** Google published the developer/model announcement on 12 November. It is positioned for rapid coding and agentic workflows; published API pricing is US$1.50 per million input tokens and US$7.50 per million output tokens across the 1M-token context window. Existing Mango PR #173 remains the Gemini 4 Argon owner; a separate Hydrogen status/comparison comment was added. Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/ .
+- AWS and Google Cloud current official news surfaces were checked; no additional distinct, fully verified unowned story was selected for a new draft this run. Existing owners were preserved.
+
+### 5. Repository, queue and coordination audit
+
+- Rechecked current repository metadata and open PR inventories for central coordination, Mango Engineers, Groot Academy, Forsk Coding School, Jaipur Engineers, Clever Ape Academy and CadMate India. Forsk Technologies mapping returned 404; Groot Software's canonical source repository was not established in the accessible set, so neither was written.
+- Forsk current main README.txt, docs/ai-ops/MASTER_TASK_BOARD.md, SESSION_HANDOFF.md, WORKER_REGISTRY.md, worker-registry.json and docs/IMAGE-PRODUCTION-WORKFLOW.md were read. Controller-only board/handoff/registry files were not modified. The ARM32 topic had no existing owner in the open PR inventory; new isolated branch and issue/PR #204 were created.
+- Mango current README, AGENTS.md, docs/agent-start-here.md, task-board.csv, work-log.md and integration-queue.md were read. Existing PR owners #147 (NIC), #143 (Node security), #202 (React), #208 (credential-theft/secret scanning) and #173 (Gemini 4 Argon) received research comments only; no overlapping source files were changed.
+- Central News Factory PR #19 branch remains diverged from main (last comparison before this append: 143 ahead / 5 behind). No rebase or merge performed; append-only checkpoint path reused.
+
+### 6. New draft, media and validation
+
+- New article: Forsk Coding School PR #204, 1,964 words, original English SEO/AEO/GEO-ready guide.
+- New graphic: one self-authored 1200×675 SVG at docs/news-factory/media/github-actions-arm32-retirement.svg. Local PNG preview 1200×675 / 141,148 bytes and WebP preview 1200×675 / 66,566 bytes were rendered; PNG opened and visually inspected. SVG is draft-only editorial media, not a production hero. No third-party image was downloaded.
+- GitHub read-back: article 1,964 words; metadata JSON parses and word count matches; matrix expression corrected and verified; SVG title/description/dimensions read back. Compare at PR creation: 5 commits ahead / 0 behind main, exactly three added files. PR #204 is OPEN/DRAFT and became mergeable=true after its body update. No workflow/CI pass is claimed.
+- No verified story-specific YouTube video with channel, upload date and permitted embedding was established. No iframe, video download or video reupload.
+- Independent editorial/source QA and responsive browser/mobile QA remain PENDING. No merge, deployment, publication, indexing or application submission.
+
+### 7. Production delta — this cycle
+
+| Deliverable | Count |
+| --- | ---: |
+| Research lanes checked | 4 |
+| New fresh verified unowned stories selected | 1 |
+| New English article drafts | 1 |
+| New original SVG graphics | 1 |
+| Local PNG/WebP previews | 2 |
+| Verified YouTube embeds | 0 |
+| Existing-owner research comments | 7 |
+| Central checkpoint append | 1 |
+| Independent QA-ready increment | 0 |
+| Live/published increment | 0 |
+
+### 8. Next actions
+
+1. Independent editorial and source QA for Forsk PR #204; confirm the migration matrix and current runner-label availability.
+2. Recheck NIC Winter 2026 portal status and any published closing date; the official page currently displays the form but no closing date.
+3. NMMSS student deadline is 15 November; verify portal submission and OTR requirements before advising applicants.
+4. Keep the Node.js CVE discrepancy explicit until Node.js maintainers clarify the bulletin/release-page identifiers.
+5. Monitor Google Student Researcher through 4 December and the 8 December GitHub Actions ARM32 change.
+6. Keep all PRs draft-only pending independent QA. No merge, deployment, publication or indexing claim.
