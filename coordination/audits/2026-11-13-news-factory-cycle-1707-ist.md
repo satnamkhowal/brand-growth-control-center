@@ -187,3 +187,18 @@ The bounded Mango batch was expanded from one to two distinct article drafts on 
 | Merged / deployed | 0 |
 
 The two drafts, two metadata files and two SVGs, plus the shared task-board/work-log updates, are in Mango PR #220. PR #220 is still draft/open, now 10 commits ahead and 0 behind main, with 8 changed files. GitHub currently reports mergeable=true; combined commit status returned no status checks. Independent editorial, programme/eligibility, pricing/registration, browser/mobile QA and CI remain pending. No merge or deployment.
+
+
+## Opportunity and owner cross-check — 13 November 2026
+
+### Google Summer 2027 PhD internships
+- Google Careers currently lists **Silicon Engineering Intern, PhD, Summer 2027** with Apply available and a **30 April 2027** application deadline. Preferred locations: Bengaluru and Hyderabad. Minimum qualification: current PhD in Computer Engineering, Computer Science, ECE, EE or related technical field, plus relevant hardware/silicon experience and programming/design tools. Preferred full-time availability: 12 weeks outside university term. No stipend amount is published.
+- Google also lists **Software Engineering PhD Intern, Summer 2027** across Bengaluru, Hyderabad and Pune; the page describes a **12+ week paid internship**, but the visible listing does not state a closing date or stipend amount.
+- Existing owners: Forsk PR #160 (broader software + silicon PhD internship article) and Jaipur Engineers PR #50 (APM + Silicon PhD internship guide). No new article created. Comments added to both to preserve distinct brand angles and avoid verbatim duplication of the shared Silicon section.
+- Official sources: https://www.google.com/about/careers/applications/jobs/results/109375266236572358-silicon-engineering-intern-phd-summer-2027 and https://www.google.com/about/careers/applications/jobs/results/109976286780105414-software-engineering-phd-intern-summer-2027
+
+### Existing owner source corrections
+- Mango PR #143 received a Node.js CVE clarification: 16 unique CVEs overall (7 High, 6 Medium, 3 Low); CVE-2026-123872 is one identifier with multiple TLS fixes; CVE-2026-126051 applies to 24.x/26.x, not 22.x.
+- Google Student Researcher 2027 remains Forsk #146: India/Remote, 4 December 2026 deadline, rolling review; stipend not published.
+- VSSC academic project deadlines remain Forsk #172: UG 15 November, PG 16 November; INT 08 closed and INT 09 is a separate 2027 internship intake.
+- React official releases remain 19.3.1 / 19.2.9 / 19.1.10 / 19.0.9 dated 14 October 2026; no November stable release found.
