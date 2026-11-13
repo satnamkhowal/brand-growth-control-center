@@ -198,3 +198,63 @@ Four non-overlapping research lanes were checked: student/developer programmes, 
 4. Retrieve NeGD Technical/Non-Technical Winter 2026 and Young Professional PDFs when official links stop returning 403.
 5. Keep React, Node.js, Google Student Researcher, CRISP and all existing opportunity/developer owners in their current PRs; do not create duplicates.
 6. No merge, deploy or publish without independent QA and approval.
+
+
+## 13 November 2026 — 21:16 IST active News Factory cycle
+
+### Research tracks and current verification
+
+- **Student/developer programmes:** Google Careers still shows Student Researcher 2027 as Apply, remote India, with a 4 December 2026 deadline and rolling review. Minimum qualifications include current enrolment in a Bachelor's, Master's or PhD programme in a listed discipline and experience in a relevant CS area. The listing does not publish a stipend or fixed duration. Existing owner: Forsk Coding School PR #146.
+- **CRISP Fellowship 2027:** the official portal showed applications open until 29 November 2026, 5:00 PM IST, 16 positions across 8 states, a two-year full-time paid programme and ₹9 lakh/year headline remuneration. Eligibility includes Indian nationals, a Bachelor's degree or higher, project aptitude and local-language proficiency. The portal displayed 1,845 applications as of 13 November 2026, 9:08 PM IST. Existing owner: Jaipur Engineers PR #51; no duplicate article created.
+- **NSP:** the live AY 2026–27 All-Scholarships page lists NMMSS student applications through 15 November; PM YASASVI Top Class Education in Schools and College through 30 November; and AICTE Swanath, Pragati and Saksham plus UGC National Scholarship for Post Graduate Studies through 30 November. The separate student-announcements page says fresh PM YASASVI Schools applicants from Rajasthan, Keralam and Karnataka must wait. Existing owners retained (including Forsk #173 and the relevant scholarship PRs); no new scholarship article created.
+- **NeGD:** the official Careers page lists Technical and Non-Technical Winter Programme 2026 internships through 20 November, plus Young Professional roles in Support/Onboarding, Content/Social Media, Creative Design, MLOps, Cloud Technology, API Development and ML Engineering through 10 December. The three linked official PDFs returned 403 Forbidden. Eligibility, stipend, duration and detailed role requirements therefore remain unverified; no new article or unsupported claims were created. Existing winter-programme owner Forsk #180 retained.
+- **React/frontend:** official React GitHub releases still list 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026. No newer November stable release was found. Existing Forsk PR #145 remains owner; no duplicate.
+- **Node.js/backend:** the 11 November 2026 official security release provides Node 22.23.5, 24.22.3 and 26.13.1. The advisory lists 16 CVEs: 7 High, 6 Medium and 3 Low. Node 27.0.0-alpha.0.1.0 was posted on 12 November and is Alpha, not LTS. Existing Mango Node/security owners and Groot PR #650 retained.
+- **AI/cloud/developer:** Azure Databricks' November release notes list Genie ZeroOps Beta on 12 November; Pages became generally available on 11 November; Databricks Genie plugins for Microsoft 365 Copilot and Grok Bot/Cursor were listed as previews on 11 November. The ZeroOps setup guide footer says last updated 11 November, distinct from the 12 November feature date. Existing Groot Databricks PRs #720 and #724 cover other features; the ZeroOps topic had no Mango task-board, issue, branch or open-PR owner and was selected as one distinct new story.
+
+### New production — Mango Engineers
+
+- Created task issue **#225** and converted it into [Draft PR #225](https://github.com/satnamkhowal/mangoengineers.com/pull/225): https://github.com/satnamkhowal/mangoengineers.com/pull/225
+- Article: \`docs/news-factory/drafts/databricks-genie-zeroops-beta-data-pipeline-observability-mango-engineers-2026.md\` — **2,147 words**, original English technical guide for data engineers and engineering learners.
+- Original SVG: \`docs/news-factory/media/databricks-genie-zeroops-data-pipeline-observability.svg\` — **1200×675**, 5,531 bytes, SHA-256 \`201bf595156be6e37219d2e6dc61c8e83cb763232690697cdf2f928a04fb0a48\`.
+- Provenance/SEO sidecar: \`docs/news-factory/drafts/databricks-genie-zeroops.metadata.json\` records source URLs, release-note date vs setup-guide update date, Beta status, India/price caveats, media rights, attribution, alt text, dimensions, local paths and QA status.
+- Local PNG: \`/mnt/data/news-factory/2026-11-13/2116/mango-genie-zeroops/databricks-genie-zeroops-data-pipeline-observability.png\` — 1200×675, 178,308 bytes, SHA-256 \`7aec192e0643b74f8ccc68a554aca18bdfcd43b2d612ed64fa3f3453b6fded64\`, visually inspected.
+- Local WebP: \`/mnt/data/news-factory/2026-11-13/2116/mango-genie-zeroops/databricks-genie-zeroops-data-pipeline-observability.webp\` — 1200×675, 49,556 bytes, SHA-256 \`cff353bc2897f0318376a1741d581f2104ff25ff396d51ae4d17b995b95e31e1\`, decoded. SVG is the committed article asset; PNG/WebP are local QA derivatives.
+- Graphic is original self-authored vector artwork; no external logos, screenshots or third-party images were reused.
+- No current official Databricks Genie ZeroOps YouTube walkthrough with verified upload metadata was found. A third-party overview dated 1 July 2026 predates the 12 November Beta release-note entry and was not embedded. No video ID or iframe was invented.
+- Article read-back: 2,147 words, one H1; metadata JSON parses; SVG XML/dimensions/safety pass; no script, foreignObject, event handlers or external hrefs; PNG visual inspection and WebP decode pass.
+- Branch \`news-factory/databricks-genie-zeroops-20261113-2116\` is **5 commits ahead / 0 behind main**, exactly three changed paths. PR #225 remains OPEN/DRAFT; GitHub now reports mergeable=true. No review or merge is recorded.
+- PHP Architecture Check run **43457592154** failed before executing any steps: job 131995716901 returned an empty steps list; fetching its logs returned BlobNotFound. A job retry request was accepted, but no new attempt/status was visible at the final check. No CI pass or code-level failure is inferred.
+- Independent editorial/security review, responsive browser QA and CI remain PENDING. No merge, deployment, publication or indexing.
+
+### Repository/coordination review
+
+- Mango: read current \`AGENTS.md\`, \`docs/agent-start-here.md\`, task board, work log and integration queue. Existing PR #223 (GKE + Cloud SQL RAG) and #224 (VARIANT shredding) remain distinct; the new ZeroOps guide does not copy either. Shared PHP/routes/sitemap/navigation files were not changed.
+- Groot Academy: read current \`.agent/MASTER-HANDOFF.md\`, \`.agent/CURRENT-STATE.md\`, \`.agent/BACKLOG.md\`, \`.agent/DECISIONS.md\` and migration status. PR #720 (Apps package repositories) and #724 (AI Runtime) remain separate. #720 compares 3 ahead / 4 behind main and #724 4 ahead / 1 behind; no rebase or merge.
+- Forsk Coding School: current open React, Google Student Researcher, Node/security, scholarship, GitHub Agent Skills and opportunity owners retained; no duplicate write.
+- Jaipur Engineers: canonical accessible repo is \`satnamkhowal/jaipurengineers.com\`. Read \`docs/content-radar.md\`; Auto Publish is OFF. PR #51 remains CRISP owner. Issue #52 is a distinct GitHub AI Scan REST API task, not Genie ZeroOps. No Jaipur content write.
+- Forsk Technologies: accessible repository README describes a static theme/demo deliverable, demo contact data and forms that download text instead of sending submissions. It is not treated as a verified live brand/content lane; no write made.
+- Central coordination reused PR #19 and this append-only checkpoint file. Before this append, branch \`ops/news-factory-cycle-20261109-2209\` compared **168 ahead / 5 behind main (diverged)**. No rebase, merge or deployment attempted.
+
+### Production ledger — this run only
+
+| Stage | New count |
+| --- | ---: |
+| Research tracks checked | 4 |
+| New unique unowned stories retained | 1 |
+| Original English article drafts committed | 1 |
+| Original SVG graphics committed | 1 |
+| Local PNG/WebP derivatives rendered | 2 |
+| Verified YouTube IDs / embeds | 0 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+### Next actions
+
+1. Independent editorial and technical/security QA for Mango PR #225; verify the Beta, permission and privacy wording against current Microsoft Learn documentation.
+2. Retry/inspect the PHP Architecture Check after GitHub exposes a new attempt; the first run had no steps and its log blob was unavailable.
+3. Recheck NMMSS before its 15 November student deadline and keep the PM YASASVI Schools state restriction visible.
+4. Retrieve NeGD internship and Young Professional PDFs when the official links stop returning 403; do not publish eligibility/stipend claims before then.
+5. Keep Google Student Researcher, CRISP, React, Node.js and all current scholarship/developer topics with their existing owners.
+6. No merge, deploy or publish without independent QA and approval.
