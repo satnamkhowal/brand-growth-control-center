@@ -929,7 +929,7 @@ Four non-overlapping research lanes were checked against primary sources: studen
 
 ### 2. React / frontend
 
-- Official React GitHub releases still list patch tags 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026. React 19.3.0 feature release is dated 9 September. No new November stable core release found. Source: https://github.com/facebook/react/releases .
+- Official React GitHub releases still list patch tags 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026. React 19.3.0 feature release is dated 9 September. No new November stable core release found. Two 14 October RSC advisories were also checked: GHSA-xqc2-xf4c-x3h3 / CVE-2026-126187 is Critical (CVSS 9.5), and GHSA-h3gv-c5rc-p453 is High (CVSS 8.2); both affect the listed react-server-dom packages through 19.3.0 and are fixed by 19.0.9, 19.1.10, 19.2.9 and 19.3.1. The critical advisory says applications not using a server or an RSC-capable framework/bundler/plugin are not affected. Sources: https://github.com/facebook/react/releases ; https://github.com/react/react/security/advisories/GHSA-xqc2-xf4c-x3h3 ; https://github.com/react/react/security/advisories/GHSA-h3gv-c5rc-p453 .
 - Existing Mango PR #202 remains the frontend owner; revalidation comment added. No duplicate React article.
 
 ### 3. Node.js / backend
@@ -970,7 +970,7 @@ Four non-overlapping research lanes were checked against primary sources: studen
 | New original SVG graphics | 1 |
 | Local PNG/WebP previews | 2 |
 | Verified YouTube embeds | 0 |
-| Existing-owner research comments | 8 |
+| Existing-owner research comments | 9 |
 | Central checkpoint append | 1 |
 | Independent QA-ready increment | 0 |
 | Live/published increment | 0 |
