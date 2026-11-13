@@ -236,3 +236,76 @@
 - NMMSS remains separately listed through 15 November 2026. Do not conflate that date with PM YASASVI's 30 November listing.
 - Sources: https://scholarships.gov.in/All-Scholarships ; https://scholarships.gov.in/home
 
+
+
+## 13 November 2026 — News Factory cycle, 14:07 IST
+
+### 1. New unowned AI/API story and draft
+
+- **OpenAI GPT-6 Luna inference residency in India** reached GA for supported API requests on **10 November 2026**. This is not a new GPT-6 Luna model launch: the API model was released on 22 September 2026.
+- India route: https://in.api.openai.com/v1; model gpt-6-luna; Responses and Chat Completions APIs; text/image inputs and text output.
+- India regional processing requires an eligible organisation with approved, active ZDR and a regional India project configured for Storage & Processing. Standard pay-as-you-go only; hosted tools unavailable. OpenAI API data-controls docs also require applicable non-US abuse-monitoring approval and a Modified Retention amendment. Image input may need enhanced ZDR/MAM approval.
+- The 10% regional-processing uplift applies to eligible models released on/after 5 March 2026. GPT-6 Luna was released 22 September 2026. For Standard prompts up to 272K input tokens, base prices are $0.10 input / $0.50 output per 1M; the article shows the arithmetic after uplift as $0.11 / $0.55 before tax/other charges.
+- System data (account data, metadata, usage, analytics, billing, support and structured output schema) and external integrations are not represented as covered by the customer-content residency guarantee. ChatGPT Enterprise/Edu inference residency is distinguished from API GA: India is a ChatGPT storage region but not currently a listed ChatGPT inference region.
+- New original Forsk Coding School article: [Draft PR #216](https://github.com/satnamkhowal/forsk-coding-school/pull/216), issue #215. 2,233 words, 6 official sources, one original 1200×675 SVG, plus local PNG/WebP derivatives. No story-specific verified original YouTube video ID/date; no iframe was invented.
+- PR #216 branch news-factory-openai-gpt6-luna-india-20261113-1407: 6 commits ahead / 0 behind main; exactly 3 intended files; GitHub reports mergeable=true. Metadata JSON and GitHub read-back pass. SVG source is 1200×675; local PNG is 1200×675 / 119,224 bytes and visually inspected; WebP is 1200×675 / 49,436 bytes and decoded. Python and shell example syntax checks pass; no live API request, workflow run or commit status was returned. Independent editorial/API/compliance/browser QA remains pending.
+- [Official OpenAI release notes](https://openai.com/products/release-notes/) · [API data controls](https://developers.openai.com/api/docs/guides/your-data) · [API pricing](https://developers.openai.com/api/docs/pricing) · [API changelog](https://developers.openai.com/api/docs/changelog) · [ChatGPT residency help](https://help.openai.com/en/articles/9903489-data-residency-and-inference-residency-for-chatgpt)
+
+### 2. Opportunities and existing owner status checks
+
+No duplicate opportunity article was created; existing owners were updated with official-source snapshots:
+
+- **Google Student Researcher 2027:** Google Careers still shows India Remote eligible, rolling review and 4 December 2026 deadline. The listing does not publish a stipend amount or separate posting date. Existing owner: [Forsk #146](https://github.com/satnamkhowal/forsk-coding-school/pull/146).
+- **NMMSS 2026–27:** PIB release dated 31 October confirms student deadline 15 November, L1 verification 30 November and L2 verification 15 December; OTR required; ₹12,000/year for selected eligible students. Existing owner: [Forsk #173](https://github.com/satnamkhowal/forsk-coding-school/pull/173).
+- **NIC Digital India Internship Winter 2026:** portal last updated 13 November; registration started 2 November; duration 1 December 2026–31 January 2027, offline only. The six-page official guideline confirms 506 students, 22 technical areas, 60% minimum and course/year restrictions; token remuneration ₹10,000/month subject to satisfactory performance and paid after accepted report. Portal does not display a closing date. Existing owner: [Mango #147](https://github.com/satnamkhowal/mangoengineers.com/pull/147).
+- **AICTE National Internship Portal:** current Browse Internships page shows 0 postings, 0 states/UTs covered and no live openings; page says ₹0 to apply. This is a portal snapshot only, not proof that all Indian internships are closed. Existing owner: [Forsk #158](https://github.com/satnamkhowal/forsk-coding-school/pull/158).
+- **CRISP Fellowship 2027:** official portal remains open until 29 November 2026, 5:00 PM IST; 16 full-time two-year positions across 8 states; ₹9 lakh/year; Indian nationals with bachelor's degree or higher and project-relevant aptitude/experience may apply. Counter: 1,733 applications as of 13 November, 11:26 AM IST; Rajasthan GIST 240 applications / 2 positions. No application fee stated. Existing owner: [Jaipur #51](https://github.com/satnamkhowal/jaipurengineers.com/pull/51).
+- **Google Silicon Engineering Intern, PhD, Summer 2027:** official Google Careers listing shows Bengaluru/Hyderabad, India; deadline 30 April 2027; PhD and relevant hardware/silicon experience. No stipend or fee listed. Existing owner: [Jaipur #50](https://github.com/satnamkhowal/jaipurengineers.com/pull/50).
+- **VSSC:** official portal shows INT 08 internship closed; INT 09 runs 1 May–31 July 2027 with application window 15 February–15 March 2027. Separate BE/BTech/BSc/Diploma academic project form deadline 15 November 2026; ME/MTech/MSc/Integrated/BS-MS online project window closes 16 November at 11:59 PM. These are project routes, not newly open paid internships; no stipend listed. Existing owner: [Forsk #172](https://github.com/satnamkhowal/forsk-coding-school/pull/172).
+
+### 3. React / frontend
+
+- Official React release list still shows 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026; no newer November stable React release found.
+- RSC advisories remain GHSA-xqc2-xf4c-x3h3 (Critical, CVSS 9.5) and GHSA-h3gv-c5rc-p453 (High, CVSS 8.2); patched lines 19.0.9 / 19.1.10 / 19.2.9 / 19.3.1.
+- Existing owner updated: [Forsk #145](https://github.com/satnamkhowal/forsk-coding-school/pull/145). No duplicate React article.
+
+### 4. Node.js / backend
+
+- Official 11 November security release versions: 22.23.5, 24.22.3 and 26.13.1.
+- Official bulletin count: 16 distinct CVEs — 7 HIGH, 6 MEDIUM, 3 LOW.
+- Node.js 27.0.0-alpha.0.1.0 published 12 November; Alpha only, not stable/LTS.
+- Existing owners updated: [Mango #143](https://github.com/satnamkhowal/mangoengineers.com/pull/143) and a repository-mapping clarification was left on the accessible grootacademy.com alias PR #650; see repository section below. No duplicate Node.js article.
+
+### 5. AI / cloud / developer news
+
+- Google Cloud release notes dated 12 November show Agent Gateway for GKE Preview (GKE 1.37.2-gke.1042000+ on Rapid channel; europe-west1 and us-central1 listed) and Gemini 4 Hydrogen GA. These were researched but no new Groot draft was created because the canonical Groot repository was not accessible through the connected GitHub search/fetch tools and its current writing queue could not be verified.
+- GitHub Changelog dated 12 November adds secret scanning detection for cloudflare_access_service_token; partner secrets in public repos are reported via the partnership programme, while user secrets create alerts in public/private repos. Existing owner [Mango #208](https://github.com/satnamkhowal/mangoengineers.com/pull/208) received a separate hardening note, not an incident attribution.
+- GitHub Changelog dated 12 November says hosted Linux and Windows runners retire ARM32 job execution on 8 December 2026, including native AArch32 user-space execution. Existing owner [Forsk #204](https://github.com/satnamkhowal/forsk-coding-school/pull/204) updated.
+- No relevant original YouTube video ID/channel/upload date was independently verified for the new OpenAI story; no iframe or video download.
+
+### 6. Repository and coordination safety
+
+- **Forsk Coding School:** read README.txt, docs/ai-ops/MASTER_TASK_BOARD.md, docs/ai-ops/SESSION_HANDOFF.md, current open PR/issue queues and recent News Factory PR files. Main base for PR #216 was 9a25fd5a11641420ac716d3fd25103e6e8362fbf. Existing PR #198 owns the task-board and session-handoff paths, so those files were not edited; new work is isolated to the three News Factory draft/media paths. No overlap with PR #198.
+- **Mango Engineers:** read docs/agent-start-here.md, docs/task-board.csv, docs/work-log.md and docs/integration-queue.md, plus root README/AGENTS and current open PR ownership. No Mango file writes; only status comments on existing owners.
+- **Jaipur Engineers:** current open PR/issue queue reviewed, including Google, CRISP, VSSC-related and readability work. No new file write; status comments only on existing owners.
+- **Groot Academy repository mapping:** the accessible satnamkhowal/grootacademy.com repository's .agent/README.md identifies **satnamkhowal/gta** as the canonical repository. satnamkhowal/gta was not returned by the connected installed-repository search and its files could not be fetched. The accessible grootacademy.com alias PR #650 and #711 received comments, then both comments were edited to clarify that they are research notes only and not canonical task assignments. No canonical Groot write or new Groot draft was made.
+- **Other brands:** no write to CadMate India, Forsk Technologies or Clever Ape Academy without a current, verified canonical repository mapping and queue.
+- Existing central PR #19 reused. Its branch ops/news-factory-cycle-20261109-2209 remains diverged; no rebase or merge. This audit is appended to the existing PR branch only.
+
+### 7. Production ledger — this run's delta
+
+| Stage | New count |
+| --- | ---: |
+| Research lanes checked | 4 |
+| New verified unowned stories selected | 1 |
+| Original English article drafts | 1 |
+| Original SVG graphics committed | 1 |
+| Local optimized PNG/WebP derivatives | 2 |
+| Existing-owner status comments | 11 |
+| Groot repository-mapping clarifications | 2 |
+| Verified YouTube videos / iframe embeds | 0 / 0 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+**Next action:** independent editorial, API technical, compliance-scope and responsive/browser QA for Forsk #216; recheck NMMSS by 15 November, VSSC project windows on 15–16 November, CRISP by 29 November and Google Student Researcher by 4 December. Reconcile canonical Groot repo access before any Groot article or code write. Do not merge, deploy or publish without independent QA and separate approval.
