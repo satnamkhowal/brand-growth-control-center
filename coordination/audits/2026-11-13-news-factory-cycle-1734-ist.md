@@ -141,7 +141,7 @@ Current source verification:
 - SVG 1200×675; local Git blob hash matches GitHub file.
 - PNG preview visually inspected; WebP decoded; both 1200×675.
 - GitHub Actions run 43424446650 (PHP Architecture Check) completed with failure on the PR head. Job `php-architecture` returned zero steps; log download returned BlobNotFound; combined commit status had no status entries. Cause is unclassified; do not attribute it to the docs-only change without logs.
-- GitHub PR metadata reports mergeable=false. No merge or rerun attempted.
+- PR #223's initial create response reported mergeable=false; a later metadata recheck at 17:37 IST reports mergeable=true. This is not a CI pass. No merge or rerun was attempted.
 - Independent editorial, cloud architecture/security, pricing/region and responsive/browser QA remain pending.
 - No public URL changed and no live publication is claimed.
 
