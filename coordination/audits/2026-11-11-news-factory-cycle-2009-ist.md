@@ -1071,3 +1071,64 @@ Four non-overlapping research lanes were checked against primary sources: studen
 4. Preserve the Node.js bulletin/release-page CVE discrepancy in Mango #143 until maintainer clarification.
 5. Continue monitoring React, Node.js, AI/cloud and GitHub Actions official sources; draft only distinct unowned stories.
 6. Keep all new drafts unmerged and unpublished until independent QA and separate approval.
+
+
+## 13 November 2026 — 16:09 IST News Factory cycle
+
+### Four research lanes
+
+**1) Official student/developer opportunities**
+- NMMSS 2026–27: Ministry of Education / PIB extension published 31 October; student submission closes **15 November 2026**, L1 verification **30 November**, L2 verification **15 December**. OTR is required; award is ₹12,000/year subject to scheme rules. Existing owner: Forsk PR #173. Official notice: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2330936&lang=1&reg=3
+- VSSC academic project work: current HRDD portal snapshot checked 13 November. BE/BTech/BSc/Diploma applicants use the downloaded form for the 1 Jan–31 Mar 2027 slot; last date **15 November 2026**. ME/MTech/Integrated MTech/MSc/BS-MS applicants have an online window through **16 November 2026, 11:59 PM IST**. INT 08 internship is closed; INT 09 is 1 May–31 July 2027 with applications 15 Feb–15 Mar 2027. Existing owner: Forsk PR #172. Official portal: https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+- Google Student Researcher 2027 remains Apply-visible for India Remote; apply before **4 December 2026**, rolling review; no stipend amount is published. Existing owner: Forsk PR #146. Official listing: https://www.google.com/about/careers/applications/jobs/results/125423735539671750
+- CRISP Fellowship 2027 remains open through **29 November 2026, 5:00 PM IST**; 16 full-time two-year positions across eight states; standard remuneration ₹9 lakh/year, with role-specific exceptions. Existing owner: Jaipur Engineers PR #51. Official application: https://crispindia.net/fellowship-programme/
+- NeGD Careers currently lists Technical and Non-Technical Winter Internship 2026, Delhi-NCR, with displayed closing date **20 November 2026**. Linked PDFs returned 403 in the current verification; only the listing, not detailed eligibility or remuneration, is newly reconfirmed. Existing owner: Forsk PR #180. https://negd.gov.in/careers/
+- Do not conflate NIC Digital India Internship Winter 2026 at https://dii.nic.in/ (Mango PR #147; its official Winter guideline was read in the 11 Nov owner update) with the separate MeitY Digital India Internship Scheme at https://intern.meity.gov.in/, whose 2026 registration is closed and whose published April application window is not the NIC Winter intake.
+
+No new unowned opportunity was selected; all time-sensitive items above already have owners.
+
+**2) React / frontend**
+- React’s official blog still lists React 19.3 (9 September 2026) as the latest stable feature announcement. React repository advisories include the 14 October 2026 RSC Critical RCE and High DoS notices. No new November stable React release found. Existing owners: Forsk PR #145 and Mango PR #202. https://react.dev/blog · https://github.com/react/react/security/advisories
+
+**3) Node.js / backend**
+- Official Node.js blog lists 22.23.5, 24.22.3 and 26.13.1 LTS releases dated 11 November; 27.0.0-alpha.0.1.0 is dated 12 November and remains Alpha. The 11 November security bulletin lists 16 CVEs (7 High, 6 Medium, 3 Low). Existing owners: Mango PR #143/#153 and Groot PR #650. No duplicate guide created. https://nodejs.org/en/blog
+
+**4) AI / cloud / developer**
+- Gemini 4 Hydrogen: Google announcement dated 12 November; model ID `gemini-4-hydrogen`, 1M unified context, four thinking levels, free API tier (rate-limited), paid Standard pricing $1.50/1M input and $7.50/1M output. India is on the supported Gemini API / AI Studio region list. Existing Groot branch `news-factory/gemini-4-hydrogen-nodejs-20261113-0510` owns the related developer guide; no cross-brand duplicate. https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/ · https://aistudio.google.com/docs/whats-new-gemini-4-hydrogen · https://ai.google.dev/gemini-api/docs/available-regions
+- Google Cloud API Keys remote MCP server GA (12 Nov): Mango PR #218.
+- GitHub Agent Skills (12 Nov): Forsk PR #218.
+- GitHub Secret Scanning Cloudflare service-token detector (12 Nov): Forsk PR #217.
+- GitHub Actions ARM32 Linux/Windows retirement (12 Nov; change date 8 Dec): Forsk PR #204.
+- GKE Agent Sandbox / Agent Substrate / Agent Gateway: Groot PR #711.
+- OpenAI GPT-6 Luna inference residency GA in India/Japan/Australia (release notes dated 10 Nov): Forsk PR #216. Official source rechecked: https://openai.com/products/release-notes/ and https://developers.openai.com/api/docs/models/gpt-6-luna
+
+### Repository and ownership review
+
+- **Forsk Coding School:** current main read, README.txt, AI-ops task board, session handoff, worker registry, image-production workflow and open News Factory PR/branch inventory reviewed. Current main observed at `9a25fd5a11641420ac716d3fd25103e6e8362fbf`. PR #217/#218 own the latest GitHub security/agent-skill stories. Shared task-board/session-handoff paths are locked by active PR #198; no shared-file edits.
+- **Mango Engineers:** AGENTS.md, README.md, agent-start guide, task board, work log and integration queue reviewed. Google API Keys MCP is already owned by PR #218; Gemini Data Cloud connectors by #215; no duplicate.
+- **Groot Academy:** canonical accessible repository is `satnamkhowal/grootacademy.com`; the separate `grootacademy` installation result is empty. Current open News Factory owners include #711 (GKE agent workloads), #650 (Node.js Alpha), and the Hydrogen Node.js branch above. Current AI-ops board and handoff reviewed.
+- **Jaipur Engineers:** central ownership record identifies `satnamkhowal/jaipurengineers.com` as canonical. Current open News Factory owners include #49 (Git security), #50 (Google India roles), #51 (CRISP), #44–#47 (internship/scholarship topics). `docs/content-radar.md` confirms Auto Publish OFF. Root README.md/AGENTS.md were not retrievable in this connector snapshot; no Jaipur write made.
+- **Central:** reused PR #19 and its append-only audit file. Its branch is currently **160 commits ahead / 5 behind main (diverged)**. This checkpoint was appended only; no rebase, merge or deployment was attempted.
+
+### Production delta
+
+| Stage | New count |
+| --- | ---: |
+| Research tracks checked | 4 |
+| New verified unowned stories | 0 |
+| New original English drafts | 0 |
+| New graphics / licensed downloads | 0 |
+| Verified YouTube IDs / embeds | 0 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+No new article or media asset was produced because every suitable fresh story found already had an active brand owner. Existing owners were left intact. No video was embedded because no story-specific original video with a verified ID, channel, date and embedding permission was established in this cycle.
+
+### Next actions
+
+1. Recheck NMMSS before 15 November and VSSC UG/PG project-work routes before 15/16 November; keep internship and academic-project routes distinct.
+2. Recheck the NeGD Winter 2026 PDFs when the official links stop returning 403.
+3. Monitor Google Student Researcher through 4 December and CRISP through 29 November.
+4. Continue React, Node.js and AI/cloud primary-source monitoring; draft only when a distinct unowned story is verified.
+5. Keep all existing draft PRs unmerged/unpublished pending independent QA and separate approval.
