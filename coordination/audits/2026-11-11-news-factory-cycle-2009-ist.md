@@ -925,6 +925,8 @@ Four non-overlapping research lanes were checked against primary sources: studen
 - **Google Student Researcher 2027:** current official Careers page shows Apply, India / Remote eligible, 4 December 2026 deadline and rolling review. Minimum qualifications include current Bachelor's/Master's/PhD enrolment in listed disciplines and experience in a computer-science area. No stipend or application fee is published. Existing Forsk PR #146 remains owner; status comment added.
 - **NMMSS 2026–27:** Ministry of Education PIB release published 31 October confirms 15 November 2026 student deadline, 30 November L1 and 15 December L2 verification, ₹12,000/year for eligible selected Class IX students, OTR requirement and school/income/marks criteria. Source: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2330985&lang=1&reg=3 . Existing Forsk PR #173 remains owner; status comment added. This is an extended deadline for an existing scheme, not a new programme launch.
 - **Telangana Innovation Startup Challenge (TISC):** official site rechecked in this cycle; it currently shows a 20 November 2026 application deadline, 1 December Demo Day at T-Hub Hyderabad and 7–9 December Startup Showcase for selected teams. It accepts startups, innovators/entrepreneurs and students/researchers, including applicants from across India and global hubs. The site explicitly says selection does not guarantee a government contract, PoC, purchase order or funding; no fixed grant/prize amount is published. Source: https://tisc.telangana.gov.in/ . Existing Forsk PR #199 remains owner; status comment added.
+- **NeGD Winter 2026 internships:** current official Careers page https://negd.gov.in/careers/ lists Technical Internship and Non-Technical Internship, both Delhi-NCR with a displayed 20 November 2026 deadline. The current November 2026 PDF links return 403 Forbidden, so eligibility, mode, duration, stipend, fee and institution-forwarding terms are not independently verified. Do not reuse 2025 PDF terms. Existing Forsk PR #180 received a source-access blocker comment.
+- **NeGD DIBD Young Professionals:** the same official page lists seven Noida roles (Support/Onboarding, Content & Social Media, Creative Design & Multimedia, MLOps, Cloud Technology Engineer, API Developer and ML Engineer) with 10 December 2026 deadline. The November 2026 JD PDF returns 403, so qualifications, experience, compensation and fees remain unverified. Existing Forsk PR #197 received a blocker/status comment.
 - No duplicate opportunity article was created; all three opportunities have existing draft owners.
 
 ### 2. React / frontend
@@ -970,7 +972,7 @@ Four non-overlapping research lanes were checked against primary sources: studen
 | New original SVG graphics | 1 |
 | Local PNG/WebP previews | 2 |
 | Verified YouTube embeds | 0 |
-| Existing-owner research comments | 9 |
+| Existing-owner research comments | 11 |
 | Central checkpoint append | 1 |
 | Independent QA-ready increment | 0 |
 | Live/published increment | 0 |
