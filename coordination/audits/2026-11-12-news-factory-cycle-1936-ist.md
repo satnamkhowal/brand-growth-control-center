@@ -322,26 +322,26 @@ Two distinct, brand-specific English developer guides were drafted and committed
 **Forsk Coding School — GitHub Agent Skills**
 - Draft PR: https://github.com/satnamkhowal/forsk-coding-school/pull/218
 - Existing task: issue #218; reserved branch `news-factory-github-agent-skills-20261113-1522`.
-- Article: 2,099 words, `docs/news-factory/drafts/github-agent-skills-students-safe-copilot-workflows.md`.
+- Article: 2,341 words, `docs/news-factory/drafts/github-agent-skills-students-safe-copilot-workflows.md`.
 - Original media: `docs/news-factory/media/github-agent-skills-lifecycle-and-security.svg`.
 - Metadata records SEO, source dates, video gap, original-work rights, attribution, alt text, local paths, dimensions and checksums.
 - Source/date distinction: GitHub Blog article published 12 November 2026; the author separately references a GitHub Universe 2026 session but does not give its exact event date. Do not conflate those dates.
 - Current docs describe `gh skill` as public preview and require GitHub CLI 2.90.0 or later. Article covers SKILL.md, project/personal locations, preview, pin/update/publish, provenance and least-privilege safety.
 - Three intended files only; no shared task board/session-handoff changes because Forsk PR #198 owns those paths.
-- Final compare: 6 commits ahead / 0 behind main; GitHub mergeable=true, state=clean. No workflow runs or commit checks returned. No CI pass claimed.
+- Final compare: 8 commits ahead / 0 behind main; GitHub mergeable=true, state=clean. No workflow runs or commit checks returned. No CI pass claimed.
 
 **Mango Engineers — Google Cloud API Keys remote MCP server GA**
 - Draft PR: https://github.com/satnamkhowal/mangoengineers.com/pull/218
 - Task issue: https://github.com/satnamkhowal/mangoengineers.com/issues/218
 - Branch: `news-factory-google-api-keys-mcp-ga-20261113-1535`.
-- Article: 2,243 words, `docs/news-factory/drafts/google-cloud-api-keys-mcp-server-ga-oauth-iam-security-guide.md`.
+- Article: 2,287 words, `docs/news-factory/drafts/google-cloud-api-keys-mcp-server-ga-oauth-iam-security-guide.md`.
 - Original media: `docs/news-factory/media/google-cloud-api-keys-mcp-security-flow.svg`.
 - Metadata records SEO, source dates, security facts, no-price/no-residency caveats, video gap, original-work rights, attribution, alt text, local paths, dimensions and checksums.
 - Date distinction: underlying API Keys API GA on 22 August 2022; remote MCP server Preview on 25 September 2026; remote MCP server GA on 12 November 2026.
 - Article covers the global endpoint, Streamable HTTP, OAuth scope, IAM roles, key-string exposure via `apikeys.keys.getKeyString`, Model Armor payload logging and India data-residency caveat.
 - Three intended files only. Shared `docs/task-board.csv` and `docs/work-log.md` were not changed because active Mango PR #143 owns those paths.
-- Final compare: 7 commits ahead / 0 behind main; GitHub mergeable=true, state=unstable.
-- Five PHP Architecture Check runs triggered by the documentation-only draft commits all concluded failure. Latest run: https://github.com/satnamkhowal/mangoengineers.com/actions/runs/43408426464. Workflow job logs returned BlobNotFound, so the failing step/root cause is not verified. No CI pass claimed; independent review must inspect this blocker before merge.
+- Final compare: 9 commits ahead / 0 behind main; GitHub mergeable=true, state=unstable.
+- Six PHP Architecture Check runs triggered by the documentation-only draft commits all concluded failure. Latest run: https://github.com/satnamkhowal/mangoengineers.com/actions/runs/43409225921. The failed job is `php-architecture`; workflow job logs returned BlobNotFound, so the failing step/root cause is not verified. No CI pass claimed; independent review must inspect this blocker before merge.
 
 ### 2. Original media register
 
@@ -399,7 +399,7 @@ Both local SVGs parsed as XML; PNG visual inspection, WebP decoding/dimensions a
 
 Existing coordination PR reused: https://github.com/satnamkhowal/brand-growth-control-center/pull/19
 
-The central branch `ops/news-factory-cycle-20261109-2209` remains diverged: 155 ahead / 5 behind main; GitHub reports mergeable=false / dirty. This run appends to the existing checkpoint branch only. No rebase or merge.
+The central branch `ops/news-factory-cycle-20261109-2209` remains diverged: 157 ahead / 5 behind main; GitHub mergeability is currently unknown. This run appends to the existing checkpoint branch only. No rebase or merge.
 
 | Stage | Run 11 delta |
 |---|---:|
@@ -419,3 +419,10 @@ The central branch `ops/news-factory-cycle-20261109-2209` remains diverged: 155 
 ### CRISP live counter recheck — 13 November 2026, 15:16 IST
 
 The official CRISP Fellowship 2027 portal refreshed its application counter to **1,788 submitted applications** as of 3:16 PM IST; Rajasthan GIST is **247 applications for 2 positions**. The programme remains open through **29 November 2026, 5:00 PM IST**, with 16 two-year full-time positions across eight states and standard remuneration of ₹9 lakh per annum. The portal states eligibility for Indian nationals with a bachelor's degree or higher plus project-relevant aptitude/experience, English and local-language proficiency. No application fee is stated on the official page. This replaces the earlier 11:26 AM counter snapshot (1,733 / Rajasthan GIST 240/2). Official source: https://fellowship.crispindia.net/ . No write to Jaipur's legacy repository: its BRAND-AUTHORITY.md names canonical `satnamkhowal/je2`, which is not available through the connected repository search.
+
+
+### Final draft revision notes
+
+- Forsk article expanded with GitHub's own Proof Agent and Data Forge examples, including the separate verifier, static-review limitation, seven-phase workflow, human checkpoints and client packaging. Final GitHub read-back: **2,341 words**; branch 8 ahead / 0 behind; PR remains Draft, mergeable=true/clean.
+- Mango article's cost section now distinguishes the absence of a stated MCP per-call price from the setup guide's general **US$300 new-customer Google Cloud credit**. It explicitly says this is not an MCP grant and account eligibility/terms must be checked. Final GitHub read-back: **2,287 words**; branch 9 ahead / 0 behind; PR remains Draft, mergeable=true/unstable.
+- Mango now has six failed `php-architecture` workflow runs, including latest run 43409225921. The logs endpoint returns BlobNotFound; no root cause has been inferred.
