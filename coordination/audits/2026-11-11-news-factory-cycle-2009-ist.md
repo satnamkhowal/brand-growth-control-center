@@ -986,3 +986,88 @@ Four non-overlapping research lanes were checked against primary sources: studen
 4. Keep the Node.js CVE discrepancy explicit until Node.js maintainers clarify the bulletin/release-page identifiers.
 5. Monitor Google Student Researcher through 4 December and the 8 December GitHub Actions ARM32 change.
 6. Keep all PRs draft-only pending independent QA. No merge, deployment, publication or indexing claim.
+
+
+## 13 November 2026 — 07:04 IST active News Factory cycle
+
+### 1. Official student programmes, scholarships and internships
+
+- **New unowned item drafted:** Azim Premji Scholarship 2026–27 Round 2 status and eligibility guide for Forsk Coding School. The Foundation's programme page states ₹30,000 per year for the duration of an eligible first undergraduate degree/diploma of 2–5 years (up to ₹1.5 lakh over five years); no application fee; no merit, caste, income or religion basis. The current application page says Round 1 is closed, Round 2 submission is scheduled for **10–31 January 2027**, and 2024/2025 cohort renewals are open through **31 December 2026**. Rajasthan is in the published eligible-state list. The main eligibility section says first-year admission in academic session 2026–27; one FAQ sentence still says 2025–26. The draft explicitly discloses this official-page inconsistency. The linked registration portal returned a CSS/loading error, so successful registration was not tested. The Foundation page does not show an original publication date; only the 13 November status-check date is recorded.
+  - Programme: https://azimpremjifoundation.org/what-we-do/education/azim-premji-scholarship/
+  - Application/eligibility: https://azimpremjifoundation.org/what-we-do/education/azim-premji-scholarship/applications/
+  - Registration: https://scholarship.azimpremjifoundation.org/s/login/SelfRegister?language=en_US
+- **Official video verified:** ID \`isVBCacm7BE\`, channel “Azim Premji Scholarship”, published 20 August 2026. The Foundation's own application page embeds it. Forsk draft contains responsive privacy-enhanced \`youtube-nocookie.com\` iframe markup, descriptive title, lazy loading, fullscreen support and fallback link. Browser playback is not claimed as tested.
+  - https://www.youtube.com/watch?v=isVBCacm7BE
+- **Google Student Researcher, 2027:** Google Careers still shows Apply, India — Remote eligible, with a 4 December 2026 deadline and rolling review. Minimum qualifications include current enrolment in a relevant Bachelor's/Master's/PhD degree and experience in a computer-science research area. Existing Forsk PR #146 remains owner; no duplicate.
+  - https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher
+- **National Scholarship Portal:** current 2026–27 list shows NMMSS student applications through 15 November 2026; multiple AICTE Pragati/Saksham/Swanath technical degree/diploma schemes, UGC Ishan Uday/PG Studies, PM YASASVI college/school, and other listed schemes through 30 November 2026. NSP page footer says “Last update on June 2026”; use the visible listing as a current portal snapshot, but do not infer that every underlying form has been independently submitted or tested. Existing Forsk owners retain NMMSS/AICTE/PM YASASVI coverage; no duplicate.
+  - https://scholarships.gov.in/All-Scholarships
+- NIC Digital India Internship, NeGD, TISC and other previously owned opportunities remain in their existing repository queues; no new unowned official notice with a complete, independently verified application/deadline/eligibility set was selected in this cycle.
+
+### 2. React / frontend
+
+- React's official GitHub release page still lists 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026. React's official blog's latest core release post remains React 19.3 dated 9 September 2026. No newer November stable React core release was found.
+- Existing React/RSC security owners remain in place; no duplicate article or graphic.
+- https://github.com/react/react/releases
+- https://react.dev/blog
+
+### 3. Node.js / backend
+
+- Official release index still shows **22.23.5**, **24.22.3** and **26.13.1** as 11 November 2026 LTS security releases. The Node.js project released **27.0.0-alpha.0.1.0** on 12 November 2026; it is Alpha, not stable/LTS. Notable Alpha changes include subprocess.timedOut, X.509 CSR generation, coalesced identical DNS lookups, HTTP body batching, SEA compile-cache and worker startup-snapshot improvements.
+- The official 11 November security bulletin lists 16 CVEs (7 HIGH, 6 MEDIUM, 3 LOW). **Source discrepancy remains unresolved:** the central bulletin lists CVE-2026-106071 for Permission Model wildcard filesystem over-grant, while the three official release pages list CVE-2026-123873 for heap-snapshot destination checking in their LOW slot. The other 15 unique identifiers align. Existing Mango PR #143 already has comments documenting the discrepancy; no second Node.js article or duplicate comment was created. Keep the two identifiers and descriptions separate until Node.js maintainers clarify.
+- Official sources:
+  - https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+  - https://nodejs.org/en/blog/release/v22.23.5
+  - https://nodejs.org/en/blog/release/v24.22.3
+  - https://nodejs.org/en/blog/release/v26.13.1
+  - https://github.com/nodejs/node/releases/tag/v27.0.0-alpha.0.1.0
+
+### 4. AI / cloud / developer news
+
+- No additional distinct, fully verified unowned official AI/cloud announcement was selected. Gemini 4 Hydrogen (12 November) remains under existing Mango PR #173 coverage; GitHub's Cloudflare secret-scanning detector (12 November) remains under Mango PR #208. No duplicate article.
+- GitHub Actions ARM32 retirement (announcement 12 November; effective 8 December 2026) remains under Forsk PR #204. It was not redrafted.
+
+### 5. Repository, queue and coordination audit
+
+- **Central control:** current README confirms this repository is coordination-only; implementation remains in brand source repositories. Existing News Factory PR #19 and append-only audit file are reused. No new central PR or checkpoint file created.
+- **Mango Engineers:** read current README/AGENTS, docs/agent-start-here.md, task-board.csv, work-log.md and integration-queue.md; reviewed current open PR owners. Existing #143 Node security, #173 Gemini, #202 React and #208 secret-scanning work remains owned. No overlapping article/file write.
+- **Groot Academy:** canonical alias \`satnamkhowal/gta\` resolves to the same repository ID as \`satnamkhowal/grootacademy.com\`. Read .agent README, master handoff, current state, backlog, decisions, migration status and migration handoff. Existing open PR inventory reviewed. Current backlog retains a blocked P0 runtime gate and P1 lead/data/media/technical/QA work; no fresh unowned Groot story was selected. No new Groot write.
+- **Forsk Coding School:** read README.txt, current main task board, session handoff, worker registry/JSON, image-production workflow and blog master plan. Worker-registry snapshot is dated 13 October and is not treated as live worker presence. Controller-owned board/handoff/registry files were not changed. No matching Azim Premji issue, PR, branch or draft slug was found. New work is isolated to the two draft paths below.
+- **Jaipur Engineers:** read README-INSTALL.md and docs/content-radar.md; the radar is review-first and Auto Publish is OFF. Existing Google APM/Silicon opportunity owner PR #50 remains untouched; no new Jaipur write.
+- Other verified brand repositories were checked for current open-PR ownership. Unverified Forsk Technologies/Groot Software repository mappings were not written.
+
+### 6. New Forsk draft and validation
+
+- Task issue: https://github.com/satnamkhowal/forsk-coding-school/issues/205
+- Draft PR: https://github.com/satnamkhowal/forsk-coding-school/pull/206
+- Branch: \`news-factory/azim-premji-scholarship-2026-27-round2-20261113-0704\`
+- Article: \`docs/news-factory/drafts/azim-premji-scholarship-2026-27-round-2-india-guide.md\` — 2,001 words, original English SEO/AEO/GEO guide.
+- Metadata: \`docs/news-factory/drafts/azim-premji-scholarship-2026-27-round-2-india-guide.metadata.json\`.
+- GitHub read-back: article word count 2,001; metadata JSON parses and matches. Round 2 dates, official FAQ conflict, video ID, privacy-enhanced embed URL, lazy loading and fallback-link assertions PASS.
+- Branch comparison: 2 commits ahead / 0 behind main; exactly two added paths. PR #206 is OPEN/DRAFT, currently mergeable=true. No workflow runs or commit statuses were returned; no CI pass is claimed.
+- **No graphic created:** Forsk's P3 image workflow requires a verified canonical/current destination page before generating a blog featured image. This is a docs-only draft, so media status is BLOCKED-PAGE-MISSING; no prompt or placeholder is counted as an asset.
+- Independent editorial/source QA, confirmation of the Foundation FAQ year discrepancy, live registration portal check and browser/mobile QA remain PENDING. No merge, deployment, publication, indexing or application submission.
+
+### 7. Production delta — this cycle
+
+| Stage | New count |
+| --- | ---: |
+| Research tracks checked | 4 |
+| New verified unowned story selected | 1 |
+| New original English article draft | 1 |
+| New original graphics | 0 |
+| Verified official YouTube videos | 1 |
+| Responsive iframe markup prepared (not playback-tested) | 1 |
+| Existing-owner duplicate articles avoided | Yes |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+### 8. Next actions
+
+1. Independent editorial/source QA for Forsk PR #206; resolve or explicitly retain the official FAQ academic-year conflict and retest the Foundation registration portal.
+2. Recheck NMMSS before its 15 November deadline and NSP schemes listed through 30 November; do not confuse student-application dates with institute/department verification dates.
+3. Monitor Google Student Researcher through 4 December.
+4. Preserve the Node.js bulletin/release-page CVE discrepancy in Mango #143 until maintainer clarification.
+5. Continue monitoring React, Node.js, AI/cloud and GitHub Actions official sources; draft only distinct unowned stories.
+6. Keep all new drafts unmerged and unpublished until independent QA and separate approval.
