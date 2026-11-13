@@ -924,6 +924,7 @@ Four non-overlapping research lanes were checked against primary sources: studen
 - **NIC Digital India Internship — Winter 2026:** the official portal https://dii.nic.in/ was checked at 06:29 IST. Its footer says Last Updated 13-11-2026; registration starts 2 November and the registration form/OTP fields are displayed. The portal states 1 December 2026–31 January 2027, offline only. No closing date or application fee is displayed; do not repeat an unverified 13 November deadline. The linked Winter 2026 guideline PDF is now readable: https://dii.nic.in/public/mainassets/images/guidelines/dii-guidelines-winter-2026.pdf . It requires Indian students at recognized Indian universities, at least 60% in the last held degree/certificate, eligible course/year combinations and excludes final-semester students or students passing out in summer 2027. It lists 22 broad areas including React, Node.js, Java, Python, cloud, AI/ML, data analytics, DevOps and cybersecurity. It states ₹10,000/month token remuneration subject to satisfactory performance and paid after completion plus acceptance of the report; accommodation is self-arranged and internship is not employment. Existing Mango PR #147 remains the sole owner; a detailed source/status comment was added.
 - **Google Student Researcher 2027:** current official Careers page shows Apply, India / Remote eligible, 4 December 2026 deadline and rolling review. Minimum qualifications include current Bachelor's/Master's/PhD enrolment in listed disciplines and experience in a computer-science area. No stipend or application fee is published. Existing Forsk PR #146 remains owner; status comment added.
 - **NMMSS 2026–27:** Ministry of Education PIB release published 31 October confirms 15 November 2026 student deadline, 30 November L1 and 15 December L2 verification, ₹12,000/year for eligible selected Class IX students, OTR requirement and school/income/marks criteria. Source: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2330985&lang=1&reg=3 . Existing Forsk PR #173 remains owner; status comment added. This is an extended deadline for an existing scheme, not a new programme launch.
+- **Telangana Innovation Startup Challenge (TISC):** official site rechecked in this cycle; it currently shows a 20 November 2026 application deadline, 1 December Demo Day at T-Hub Hyderabad and 7–9 December Startup Showcase for selected teams. It accepts startups, innovators/entrepreneurs and students/researchers, including applicants from across India and global hubs. The site explicitly says selection does not guarantee a government contract, PoC, purchase order or funding; no fixed grant/prize amount is published. Source: https://tisc.telangana.gov.in/ . Existing Forsk PR #199 remains owner; status comment added.
 - No duplicate opportunity article was created; all three opportunities have existing draft owners.
 
 ### 2. React / frontend
@@ -969,7 +970,7 @@ Four non-overlapping research lanes were checked against primary sources: studen
 | New original SVG graphics | 1 |
 | Local PNG/WebP previews | 2 |
 | Verified YouTube embeds | 0 |
-| Existing-owner research comments | 7 |
+| Existing-owner research comments | 8 |
 | Central checkpoint append | 1 |
 | Independent QA-ready increment | 0 |
 | Live/published increment | 0 |
