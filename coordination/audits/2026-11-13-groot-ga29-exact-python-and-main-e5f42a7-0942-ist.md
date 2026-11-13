@@ -88,3 +88,16 @@ PR metadata still shows its historical base and 34 changed files; the direct cur
 6. Existing mapping owner reconciles Jaipur Engineers' social and candidate website/deployed-origin roles.
 
 No central-main write, source-owner reassignment, self-approval, self-merge, deployment, publishing or mass indexing occurred.
+
+
+## Supplemental coordination delta — 2026-11-13 10:35 IST — GA-B00016 accessibility tree
+
+- Source-side controller branch `content/groot-100k-controller-20261016` adds a reproducible exact-source Chromium CDP accessibility-tree probe for the existing GA-B00016 lab; no article, visual, queue ID or publication state changed.
+- Exact lab blob `1e6832c50d3416fabfea7cb90c81c34202e20254`; probe blob `6cd75247c74baa346383898009877812d0de7661`, source commit [`9a432578`](https://github.com/satnamkhowal/grootacademy.com/commit/9a432578572286d0a3c669e33b61f5a65757506e); 27/27 coordinator-run assertions pass at 320/768/1440 CSS px. The probe covers the exposed root title, four headings, three named links, unnamed interactive controls, document language and fragment targets.
+- This is not independent screen-reader/AT review, manual 200%/400% zoom, production PHP rendering, HTTP/MIME or live accessibility approval. GA-B00016 remains CONTENT_QA.
+- Current Groot main remains `e5f42a7a0bf4a7b21a4a805c6ba09fa00b54f987`; PR #625 remains OPEN/DRAFT with 7 ahead / 10 behind, four net paths and zero independent reviews. GA-B00029 remains TECH_QA. No source PR merge or deployment.
+- Canonical queue remains 29 IDs in PR #62 order, SHA `2766216c3f47982fdba1934c96873a6892968ef1`; 23 complete drafts, 23 technical visuals, 23 PHP candidates; independent approvals 0, published 0, live verified 0. PR #68's 14 proposals and GA-B00014 refresh remain research/refresh, not finished articles.
+- Central main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; README lists eight brands but only three active control-board rows, with no Groot-specific row. PRs #1/#2/#3 are closed/merged; reuse PR #2's AEO/GEO baseline. Jaipur Engineers `je2` social vs `jaipur-engieneers` candidate website/deployed-origin mapping remains unresolved. Central PR #22 remains OPEN/DRAFT at 55 ahead / 0 behind with zero independent reviews.
+- Master Plan remains 10K possible-ID capacity and HAO-008/P3/REVIEW; user-authorized controller remains 100K/P0; issue #401 defines 100K as M4 and 1M as conditional M5. Master-owner alignment, one canonical queue owner and one independent release approver remain unrecorded. New IDs stay HOLD.
+
+No central-main write, owner reassignment, self-approval, self-merge, deployment, publication or mass indexing.
