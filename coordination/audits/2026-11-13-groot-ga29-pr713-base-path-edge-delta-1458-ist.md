@@ -18,8 +18,8 @@ This remains coordinator-run fixture evidence only. It is not PHP 8.0, hosted Ac
 - Current Groot main: `986f316b5d291dd357bd1fdb54488fa79db50e51`.
 - PR #713 head: `738abaeffac447c8734b9b465c140b6bb71d8f7d`; base snapshot `2b96297`.
 - Direct compare: 4 commits ahead / 2 behind, four changed paths.
-- OPEN/DRAFT, zero independent reviews and no reported status checks.
-- Owner must refresh the branch to current main and obtain independent review plus exact-head hosted checks after administrator diagnosis of the Azure Actions `BlobNotFound` failure.
+- OPEN/DRAFT, zero independent reviews; three exact-head hosted checks are completed failures before any step.
+- Owner must refresh the branch to current main and obtain independent review plus exact-head hosted checks after administrator diagnosis of the three Azure Actions `BlobNotFound` pre-step failures (runs 43392319956, 43392320008, 43392320026).
 
 Source changes stay in the Groot repository; no PR branch refresh, approval, merge, deployment, publishing or indexing was performed by this audit.
 
