@@ -1204,3 +1204,13 @@ No new article or media asset was produced because every suitable fresh story fo
 3. Keep Google Student Researcher and SDEF application status under review through their stated deadlines.
 4. Resolve AWS product-page “Gated preview” versus dated GA announcement discrepancy and verify current account/Region access before making India availability claims.
 5. Continue React, Node and AI/cloud monitoring; draft only when a distinct unowned story is verified.
+
+
+### 14 November 2026 — Mango PR #234 final branch/CI reconciliation
+
+- After the metadata JSON QA correction and work-log CI addendum, Mango PR #234 now compares **7 commits ahead / 0 behind main**, with the same **5 changed files** and **554 additions / 0 deletions**. Final head: \`28746ac0176308c401567d62510b09d77f680ce7\`.
+- The initial PR-creation snapshot was 5 ahead / 0 behind; that earlier count in the main cycle section is superseded by this reconciliation.
+- PHP Architecture Check runs **43536352612** and **43536597307** both completed failure before any job steps. The only job returned \`steps=null\`, no log URL, and the commit combined-status endpoint returned no entries. This is a runner/workflow/log-provisioning blocker; no PHP source-level test executed and no code-level failure/pass is inferred.
+- No workflow run was returned for final head \`28746ac0176308c401567d62510b09d77f680ce7\` at the final check.
+- Metadata JSON parse and GitHub read-back pass; local SVG hash now matches the committed GitHub blob exactly. PNG visual inspection and WebP decode pass. Independent editorial/technical QA and responsive browser review remain pending.
+- PR #234 remains OPEN / DRAFT and unmerged. No deployment, publication or indexing was performed.
