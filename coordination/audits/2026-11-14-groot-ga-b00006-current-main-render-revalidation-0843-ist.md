@@ -64,3 +64,13 @@ The latest #507/#713 jobs still have zero steps. #507 parity job `132275095535` 
 5. Keep new IDs HOLD until Master-owner priority/queue/release ownership decisions are recorded.
 
 No central-main write, source-main write, cross-brand implementation, owner reassignment, self-approval, merge, deployment, publication or indexing occurred.
+
+
+## Post-report source-main delta — 2026-11-14 08:46 IST
+
+- Groot source main advanced from `3beaff8` to `3c4c18e78808b600f606be76ccd8ae6498029ef2` (parent `3beaff8`).
+- The new commit changes only root `index.php`, adding `aria-controls="ga-filtered-courses"` to homepage course filters and the reset button. No blog-factory, recovery article, shared renderer, registry, sitemap or controller path changed.
+- Fresh direct comparisons: #507 4 ahead / 29 behind (22 recovery paths); #625 7 / 29 (four net paths); #713 12 / 3 (four net paths). PR base metadata still references `9c90902f`; owner refresh is required. #654 → #660 → #664 remain sequential at 5/0, 10/0 and 13/0 from their parents.
+- The new homepage change does not overlap the recovery/shared-head paths. Azure Actions zero-step `BlobNotFound` blocker remains; no blind retry.
+- Central main remains `21af139`; PR #22 is now 90 ahead / 0 behind, 46 coordination report files, OPEN/DRAFT, zero independent reviews. PRs #1/#2/#3 remain merged and AEO/GEO #2 reused. Groot owner row and Jaipur mapping remain unresolved.
+- No source PR branch, source main, central main, owner mapping, deployment, publication or indexing changed in this delta.
