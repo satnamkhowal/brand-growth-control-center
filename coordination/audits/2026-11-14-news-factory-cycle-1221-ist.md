@@ -134,4 +134,4 @@ Primary source: https://docs.cloud.google.com/release-notes
 | Live / published | 0 |
 | Merged / deployed | 0 |
 
-**Next:** independent editorial/technical/responsive QA for Mango PR #238; investigate the reported PR mergeability state; recheck Cloudflare's 17 November default before the date; verify Google A2A GA/Preview status; recheck the live INSPIRE portal and approaching student deadlines. No merge, deploy, publication, application submission or indexing claim.
+**Next:** independent editorial/technical/responsive QA for Mango PR #238; review the unstable mergeability state and run independent QA; recheck Cloudflare's 17 November default before the date; verify Google A2A GA/Preview status; recheck the live INSPIRE portal and approaching student deadlines. No merge, deploy, publication, application submission or indexing claim.
