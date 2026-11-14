@@ -157,3 +157,77 @@ No story-specific official/reputable original YouTube video with verifiable ID, 
 6. Continue duplicate-free AI/cloud research; evaluate AgentCore Runtime's 12 November update as a research-only candidate after brand ownership and regional/cost verification.
 
 **No merge, deployment, live publication or indexing claim.**
+
+## 14 November 2026 — 23:49 IST active News Factory cycle
+
+### Four research lanes
+
+1. **Official student/developer programmes and funding**
+   - Google Student Researcher, 2027 remains live on the official Google Careers page: India / Remote eligible, rolling review, apply before **4 December 2026**. The listing states current enrolment in a Bachelor's, Master's or PhD programme in listed disciplines and relevant CS research experience; no stipend or fixed duration is stated. Existing Forsk owner #146 retained.
+   - NASA Space Apps Challenge 2026 is taking place **14–15 November**. The official page says registration remains open until the hackathon closes on 15 November; project submission closes **15 November at 11:59 PM local time**. Teams may have up to six participants. Existing Forsk owner #231 retained; this is an active event, not a newly announced internship.
+   - Sage IT India Scholarship is open through **15 November 2026**. Official page lists a **₹50,000** one-time award paid directly to the selected student's institution, an individual 1,000–1,500-word article, all college/university majors in India, no entry fee, and winner announcement on 30 November. No exact cutoff time is published. Existing Forsk owner #184 retained.
+   - NSP AY 2026–27 currently lists NMMSS student applications through **15 November**; AICTE Pragati, Saksham and Swanath degree/diploma schemes and UGC National Scholarship for PG Studies through **30 November**. PM YASASVI Top Class Schools is listed through 30 November, but the separate NSP announcement says fresh applications are currently not available to students from **Rajasthan, Keralam and Karnataka**; those students must wait. NSP pages show a June 2026 last-update footer, so recheck the live form and scheme-specific rules before student action. Existing Forsk owners retained.
+   - No new unowned student opportunity passed the official-source and deduplication gates in this run.
+   - Primary sources: https://www.google.com/about/careers/applications/jobs/results/125423735539671750-student-researcher ; https://www.spaceappschallenge.org/2026/ ; https://sageitinc.com/scholarship/india ; https://scholarships.gov.in/All-Scholarships ; https://scholarships.gov.in/ViewMoreAnnouncement
+
+2. **React / frontend**
+   - Official React release list still shows **19.3.1, 19.2.9, 19.1.10 and 19.0.9**, all dated **14 October 2026**; React 19.3.0 was released 9 September. No newer November stable release was found. Existing React security/content owners retained; no duplicate draft.
+   - Source: https://github.com/react/react/releases
+
+3. **Node.js / backend**
+   - Official 11 November security releases remain current: **Node 22.23.5, 24.22.3 and 26.13.1**. Node **27.0.0-alpha.0.1.0** was published 12 November and is an Alpha, not LTS/stable. No newer security release was found.
+   - Existing Node security owners retained.
+   - Sources: https://nodejs.org/en/blog ; https://nodejs.org/en/blog/vulnerability/november-2026-security-releases
+
+4. **AI / cloud / developer news**
+   - GitHub's **13 November 2026** public-preview announcement adds the repository_scan property to organization/repository AI Scan REST enablement endpoints. It allows GET/PATCH configuration at scale; enabling the setting does not launch a scan. A user with write access still runs scans manually, each consuming Code Security AI credits. Enterprise policy can block enablement with HTTP 422; a combined pr_scan/repository_scan update is atomic. Repository scans are default-branch only, not scheduled/on-push, do not support self-hosted runners, and findings require human review.
+   - Official docs add important billing nuance: no Copilot license is required for repository AI Scan, but the feature consumes Code Security AI credits, including on public repositories; included credits may be used first, then usage is metered and budget-limited. The documentation states a 30-minute / 150,000-credit detection-step cap. No fixed INR price or India-specific regional availability list was found.
+   - GitHub also published a separate **13 November** Copilot model-deprecation notice with **14 December 2026** effective date. Existing Forsk Copilot/model owner #185 remains the coordination owner; no near-identical article was created.
+   - Existing GitHub/Cloudflare security topics remain with their current owners, including Forsk #204 (Actions ARM32 retirement) and Forsk #217 (Cloudflare service-token detector).
+   - Primary sources: https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api/ ; https://docs.github.com/en/code-security/concepts/code-scanning/ai-scan-for-repositories ; https://docs.github.com/en/rest/code-scanning/code-scanning ; https://docs.github.com/en/billing/concepts/product-billing/github-advanced-security ; https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december/
+
+### Jaipur Engineers AI Scan task — local-only draft; repository write blocked
+
+- Existing Jaipur issue **#52** describes the GitHub AI Scan REST API guide and expected article/media deliverables. Current open-PR search found no AI Scan PR; the issue exists, but the pre-created news-factory/github-ai-scan-rest-api-20261113-2013 branch still points to main with no draft files.
+- Crucially, the current central PR #19 control record explicitly states **Jaipur Engineers remains read-only because no approved non-public News Factory draft lane was found**. That current central gate supersedes the pre-existing issue/empty branch. No Jaipur branch, commit, PR, task-board edit or issue comment was created.
+- To preserve the research output without bypassing governance, a local-only original draft package was produced:
+  - Article: **3,004 words**, /mnt/data/jaipur-ai-scan/github-ai-scan-rest-api-jaipur-engineers.md
+  - Metadata/provenance JSON: /mnt/data/jaipur-ai-scan/github-ai-scan-rest-api-jaipur-engineers.metadata.json
+  - Original 1200×675 SVG: /mnt/data/jaipur-ai-scan/github-ai-scan-repository-rollout.svg
+  - Local PNG: /mnt/data/jaipur-ai-scan/github-ai-scan-repository-rollout.png
+  - Local optimized WebP: /mnt/data/jaipur-ai-scan/github-ai-scan-repository-rollout.webp
+- The article covers endpoint paths, repository_scan versus pr_scan, organization inheritance, enterprise policy/422 behaviour, token permissions, owner/visibility eligibility, Code Security AI-credit billing, India pricing/availability limits, public-preview caveats and a safe student lab. It does not claim Jaipur Engineers is a GitHub partner or that any Jaipur repository has AI Scan enabled.
+- Media rights: original self-authored vector; no third-party logo, screenshot, photo or downloaded graphic. Source attribution, rights basis, alt text, dimensions, local paths and SHA-256 hashes are recorded in the metadata.
+- No relevant original official YouTube video with independently verified video ID, channel, date and embed permission was found. No video ID or iframe was invented.
+- Local checks: article read-back and 3,004-word count PASS; metadata JSON parse PASS; SVG XML/title/description/dimensions PASS; PNG/WebP render/decode PASS; visual inspection PASS. Independent editorial, security/technical and responsive browser QA remain PENDING. CI NOT RUN. No live/publication state.
+
+### Repository and coordination review
+
+- Central control PR #19 and its current append-only checkpoint were read before updating this file. Current compare remains **214 commits ahead / 5 behind main (diverged)**; GitHub reports mergeable=false. No rebase, force-push or merge.
+- Accessible repository metadata and current open-PR inventories were checked for Mango Engineers, Groot Academy, Forsk Coding School, Jaipur Engineers, Clever Ape Academy, CadMate India, Forsk Technologies and the central control repository. Existing topic owners were retained; no other brand was written in this run.
+- Central PR #19's latest control record marks Jaipur Engineers read-only for News Factory drafts. The local-only package above respects that restriction.
+- No production route, PHP, sitemap, schema, navigation, redirect, shared task board or live content was changed.
+
+### Production ledger — this run
+
+| Stage | New count |
+| --- | ---: |
+| Research tracks | 4 |
+| New verified unowned story | 1 |
+| Original article drafts (local-only) | 1 |
+| Original SVG graphics | 1 |
+| Local PNG/WebP derivatives | 2 |
+| Verified YouTube IDs / embeds | 0 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+### Next actions
+
+1. Recheck Sage IT, NASA Space Apps and NMMSS deadlines on 15 November; do not imply any extension without a new official notice.
+2. Recheck the current Google Student Researcher listing before its 4 December deadline.
+3. Continue official React, Node, GitHub, Cloudflare, AWS and Google Cloud feeds; update existing owners instead of duplicating topics.
+4. Keep the Jaipur AI Scan package local until the central control board explicitly approves a non-public Jaipur draft lane.
+5. Run independent editorial, security/technical and responsive QA on the local AI Scan package before any future repository implementation.
+
+**No merge, deployment, live publication, indexing or website implementation is claimed.**
