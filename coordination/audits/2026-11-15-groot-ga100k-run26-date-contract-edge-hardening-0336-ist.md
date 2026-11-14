@@ -33,3 +33,12 @@
 6. Preserve all 29 IDs; new IDs remain HOLD.
 
 No central Main write, cross-brand source change, owner reassignment, self-approval, self-merge, deployment, publication, indexing or ranking/live claim.
+
+
+## Post-checkpoint fixture correction — 2026-11-15 03:36 IST
+
+- Read-back caught an escaping defect in the newly added Python regression fixture: the tab/newline examples were initially literal backslash sequences. Corrected the test fixture in source commit `092c28edcbd27ef9d6b2378fb271bfb141ed2461`; the test now exercises an actual tab and newline.
+- Final QA PR #755 head is `092c28edcbd27ef9d6b2378fb271bfb141ed2461`, 8 ahead / 0 behind exact #664 head, 3 QA files, 206 additions / 8 deletions, Draft, mergeable=true, zero reviews/threads.
+- Focused coordinator-run Python 3.13.5 matrix remains 13/13 PASS; not the full committed suite or independent review.
+- Exact-head workflow run [#43647248035](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43647248035), job `132607681058`, failed before steps with null steps/log URL. Job-log retrieval returned Azure BlobNotFound HTTP 404 at 2026-11-14 22:17:03 UTC. No hosted assertions ran; administrator diagnosis remains required, no retry.
+- Source Run 26 report: [https://github.com/satnamkhowal/grootacademy.com/blob/content/groot-100k-controller-20261114-run16/marketing/blog-factory/work/B0002/qa/2026-11-15-ga100k-run26-date-contract-edge-hardening-and-recovery-lineage-0336-ist.md](https://github.com/satnamkhowal/grootacademy.com/blob/content/groot-100k-controller-20261114-run16/marketing/blog-factory/work/B0002/qa/2026-11-15-ga100k-run26-date-contract-edge-hardening-and-recovery-lineage-0336-ist.md).
