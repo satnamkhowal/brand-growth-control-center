@@ -52,3 +52,11 @@ Azure Actions `BlobNotFound` remains a pre-step storage failure. No hosted asser
 5. Central owner reviews the missing Groot active row and existing repository-role mapping through the existing coordination process; no source ownership transfer is implied.
 
 No merge, deployment, publication, indexing, owner reassignment, or central Main write was performed.
+
+
+## Follow-up — GA-B00006 optimized-mode regression evidence
+
+The finished Python companion contains `assert` statements, which Python removes under `-O` and `-OO`. A separate coordinator-run harness now loads the exact companion and performs nine explicit checks that remain active in all modes. Python 3.13.5 results: 9/9 PASS in normal, `-O`, and `-OO`; `py_compile` passes for both files. This is coordinator-run evidence, not independent code approval.
+
+- [Harness](https://github.com/satnamkhowal/grootacademy.com/blob/content/groot-100k-controller-20261114-run16/marketing/blog-factory/work/B0002/qa/ga-b00006-optimized-contract-check.py)
+- [Updated source report](https://github.com/satnamkhowal/grootacademy.com/blob/content/groot-100k-controller-20261114-run16/marketing/blog-factory/work/B0002/qa/2026-11-14-ga100k-run21-recovery-date-metadata-consistency-2236-ist.md)
