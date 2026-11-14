@@ -9,7 +9,7 @@
 
 ## Source-lane delta
 
-- Run 23 added a coordinator-owned 20-case draft/release date-contract harness to the existing Groot controller successor. It passes 20/20 in Python 3.13.5 normal, `-O`, and `-OO` (60 executions); `py_compile` passes.
+- Run 23 added a coordinator-owned 20-case draft/release date-contract harness to the existing Groot controller successor. Exact Git blob `e5155602510f2c0fd890acb77498d865f24f4eba` was fetched and hash-matched locally before it passed 20/20 in Python 3.13.5 normal, `-O`, and `-OO` (60 executions); `py_compile` passes.
 - The harness is synthetic handoff evidence only. It does not modify recovery PR #660/#664, does not replace their exact repository/hosted checks, and is not independent approval.
 - Exact #660 candidate source still emits three unsupported date fields while the five original metadata records have null publication/modification dates. The current Main shared PHP layout/head omit visible/schema/meta dates when those fields are absent. #664 owner must first port draft-absence/release-validity tests; #660 owner can then remove the fields while retaining `noindex,follow`.
 - PRs #507, #625, #654, #660, #664 and #713 remain owner-controlled Drafts with zero submitted independent reviews. Azure Actions `BlobNotFound` remains a pre-step infrastructure blocker; no blind retry.
