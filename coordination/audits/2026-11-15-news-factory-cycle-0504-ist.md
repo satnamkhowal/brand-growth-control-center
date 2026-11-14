@@ -118,3 +118,7 @@ Central News Factory branch: `ops/news-factory-cycle-20261109-2209`. Recheck com
 | Merged / deployed | 0 |
 
 **Next action:** independent QA of Mango PR #253; investigate its mergeable=false state and missing CI result; recheck the 15–16 November VSSC deadlines and current NSP/NeGD/Google listings; preserve the corrected distinction between the two Copilot retirement notices.
+
+## Final central-branch comparison after this run
+
+Current compare against main: **223 commits ahead / 5 behind**, diverged. This run used append-only audit/checkpoint commits and corrected the prior date/model interpretation. No rebase, force-push or merge was performed.
