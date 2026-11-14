@@ -1132,3 +1132,75 @@ No new article or media asset was produced because every suitable fresh story fo
 3. Monitor Google Student Researcher through 4 December and CRISP through 29 November.
 4. Continue React, Node.js and AI/cloud primary-source monitoring; draft only when a distinct unowned story is verified.
 5. Keep all existing draft PRs unmerged/unpublished pending independent QA and separate approval.
+
+
+## 14 November 2026 — 06:07 IST active News Factory cycle
+
+### Four non-overlapping research lanes
+
+1. **Official programmes and opportunities**
+   - Google Careers still lists Student Researcher, 2027 as India / Remote eligible with an Apply action, a 4 December 2026 deadline and rolling review. No stipend, fixed duration or opening date is published in the listing.
+   - Sage IT India Scholarship page publication timestamp: 19 October 2026; deadline 15 November; winner announcement 30 November; ₹50,000 one-time award paid to the institution; India college/university students aged 17–30; all majors; individual 1,000–1,500-word unpublished article; no entry fee.
+   - Ministry of Education / PIB NMMSS extension published 31 October 2026 at 5:57 PM: student deadline 15 November; L1 30 November; L2 15 December; OTR required; ₹12,000/year for eligible Class IX fresh awardees in state-government, government-aided and local-body schools, subject to selection and academic/income conditions.
+   - VSSC portal recheck: UG next project slot is 1 January–31 March 2027, application cut-off 15 November; PG next slot is 1 January–30 June 2027, online window closes 16 November at 11:59 PM IST. These are **academic project work, not paid internships**. UG uses the prescribed downloaded form/email route; PG uses the online form. Both official instructions state Indian citizenship, minimum 60%/CGPA 6.32 and no stipend; no fee is charged.
+   - SDEF official page still accepts 2026–27 applications through 30 November; up to ₹50,000/year and ₹2 lakh over four years, subject to renewal; first-year full-time professional UG, 80% Class XII, family income below ₹12 lakh and no post-Class-XII gap year.
+   - Existing Forsk owners were revalidated, not duplicated: PR #146 Google Student Researcher, #172 VSSC project work, #173 NMMSS, #178 SDEF and #184 Sage IT. Fresh status/source comments were added to each existing owner.
+
+2. **React / frontend**
+   - Official React release page still shows 19.3.1 (14 October 2026) as the latest tag, with 19.2.9, 19.1.10 and 19.0.9 also dated 14 October. React 19.3.0 feature release remains dated 9 September. No newer November stable release was found.
+   - Existing owners retained: Mango issue #201 (React 19.3 feature guide) and Forsk PR #145 (October RSC security advisories). Both received dated status comments.
+
+3. **Node.js / backend**
+   - Official Node.js Project security bulletin dated 11 November 2026 confirms security updates for active 22.x, 24.x and 26.x LTS lines. Current patched versions: 22.23.5, 24.22.3 and 26.13.1.
+   - Release pages list high-severity HTTP/2 and TLS/HTTPS issues, plus medium/low issues and dependency updates. Existing Mango PR #143 owns the Node security guide and received a dated revalidation comment. Node 27 Alpha remains a separate prerelease line, not LTS.
+
+4. **AI / cloud / developer news**
+   - New unowned candidate verified: AWS Continuum for code vulnerabilities GA announcement, published 22 October 2026.
+   - AWS What's New and AWS News Blog describe the workflow; pricing page and user guide provide fee, integration, source-file and schedule details.
+   - The GA announcement names US East (N. Virginia) and US West (Oregon). The broader product overview still labels the code-vulnerability feature “Gated preview”. This mismatch and the lack of an India-region announcement are explicitly disclosed in the new article.
+   - No exact-topic original YouTube video with a verified ID/channel/date and permitted embed was found; no iframe was added.
+
+### New brand delivery — Mango Engineers
+
+- Task issue: [#233](https://github.com/satnamkhowal/mangoengineers.com/issues/233)
+- Draft PR: [#234 — AWS Continuum code vulnerabilities GA guide](https://github.com/satnamkhowal/mangoengineers.com/pull/234)
+- Branch: \`news-factory/aws-continuum-code-vulnerabilities-20261114-0607\`
+- Base: \`main\` at \`51aa38209430bd916999073d4c710064fd864b8f\`
+- Compare: 5 commits ahead / 0 behind; 5 changed files; 536 additions; no deletions.
+- Article: 2,624 words, original English SEO/AEO/GEO guide.
+- Media: original 1200×675 SVG committed; local PNG (124,225 bytes) and WebP (51,560 bytes) derivatives rendered and visually/decoding checked. No third-party graphic, logo or screenshot used.
+- Metadata: source/date/claim map, pricing caveats, region/product-page discrepancy, media provenance, alt text, dimensions, local paths and no-video decision.
+- Read-back: article, metadata, SVG, task board and work log all fetched from the draft branch. JSON parse PASS; article word count 2,624; SVG render PASS; PNG visual inspection PASS; WebP decode PASS.
+- PR is OPEN / DRAFT. GitHub reported mergeable=false at creation; no merge attempted.
+- PHP Architecture Check run 43536352612 failed before job steps: job \`php-architecture\`, \`steps=null\`, no log URL, combined status empty. Treat as runner/log provisioning blocker; no source-level PHP failure or pass is inferred.
+- Independent editorial/technical QA and responsive browser review remain pending. CI did not execute source-level checks. No live route, sitemap, redirect, course page, deployment, publication or indexing change.
+
+### Repository and ownership review
+
+- Mango Engineers: read \`AGENTS.md\`, \`docs/agent-start-here.md\`, current task board, work log and integration queue; verified current main base and exact phrase/file/issue deduplication before the new task.
+- Forsk Coding School: read \`README.txt\` and current opportunity/React owner records; added only status comments to existing owners.
+- Jaipur Engineers: read current Content Radar instructions and queue. Auto Publish remains OFF; no new approved non-public News Factory article lane was found, so no Jaipur write was made.
+- Groot Academy: reviewed the accessible \`grootacademy.com\` repository's current task records. Its own .agent handoff still points to \`satnamkhowal/gta\` as canonical, but that repository's content paths were not readable through the current connector. No new Groot write was made until canonical repository mapping is resolved.
+- Central coordination: reused this existing append-only audit file and PR #19. Current branch comparison is 183 commits ahead / 5 behind main (diverged). No rebase, force-push or merge performed.
+
+### Production delta
+
+| Stage | New count |
+| --- | ---: |
+| Research tracks checked | 4 |
+| New verified unowned stories | 1 |
+| New original English drafts | 1 |
+| New original SVG graphics | 1 |
+| Local PNG/WebP derivatives | 2 |
+| Verified YouTube IDs / embeds | 0 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+### Next actions
+
+1. Independent editorial and technical review of Mango PR #234; then responsive browser review and CI infrastructure diagnosis before any merge decision.
+2. Recheck Sage IT, NMMSS and VSSC UG deadlines on 15 November; recheck VSSC PG before 16 November, 11:59 PM IST.
+3. Keep Google Student Researcher and SDEF application status under review through their stated deadlines.
+4. Resolve AWS product-page “Gated preview” versus dated GA announcement discrepancy and verify current account/Region access before making India availability claims.
+5. Continue React, Node and AI/cloud monitoring; draft only when a distinct unowned story is verified.
