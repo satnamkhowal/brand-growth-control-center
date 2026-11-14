@@ -109,3 +109,15 @@
 - INSPIRE-SHE 2025 portal call shows 7 Nov–7 Dec 2026, 23:59 IST, but detailed current 2025 eligibility/award guidelines could not be retrieved due portal timeout; no article drafted from legacy FAQ. React latest official blog entry is 19.3 (9 Sep); Node latest Alpha is 27.0.0-alpha.0.1.0 (12 Nov), while latest security patches remain 22.23.5/24.22.3/26.13.1 (11 Nov).
 - Full evidence, source dates, repository review and blockers: [11:11 IST audit](../audits/2026-11-14-news-factory-cycle-1111-ist.md).
 
+
+
+### News Factory delta — 14 November 2026 — NF-MANGO-CLOUDFLARE-MODULE-REGISTRY-20261114-1208
+
+- **State: REVIEW / DRAFT.** New, nonduplicate Mango Engineers developer guide is tracked by [Mango PR #238](https://github.com/satnamkhowal/mangoengineers.com/pull/238), branch `news-factory/cloudflare-module-registry-20261114-1208`.
+- Cloudflare technical explainer publication date: 9 September 2026; compatibility changelog publication date: 2 November 2026; new default date: 17 November 2026 for JavaScript Workers with compatibility date `2026-11-17` or later. Earlier dates can opt in with `new_module_registry`; `legacy_module_registry` retains legacy behaviour after the default date. Existing Workers do not change solely because the calendar date arrives; Python Workers remain on legacy registry.
+- Deliverables: original 2,382-word English migration guide, SEO/source/claim metadata JSON, original 1200×675 SVG, plus local 1200×675 PNG/WebP derivatives. Metadata records source dates, price/geography caveats, video gap, provenance, attribution, alt text, local paths, sizes and SHA-256 hashes.
+- No third-party graphic, logo or screenshot used. No story-specific verified original YouTube video ID/date/embedding evidence found; no iframe or video download.
+- PR is OPEN / DRAFT, 7 commits, 3 files, 407 additions / 0 deletions, 7 ahead / 0 behind main. Article read-back and metadata word count match; JSON parses; SVG rendered; PNG/WebP decoded and visually inspected. PR API currently reports mergeable=false / mergeable_state=dirty despite a 0-behind compare; investigate before any release. Commit status checks are empty; no CI pass claimed. Independent editorial, technical and responsive QA pending.
+- Deduplication: no matching module-registry owner found in Mango, Groot, Forsk, Jaipur or central. Existing Cloudflare Spend Management (Groot #745), Kitesurf (Groot #743) and QuePaxa (Mango #216) are distinct; existing React/Node/security/opportunity owners remain unchanged.
+- No public route, PHP, sitemap/schema, navigation, shared UI, merge, deployment, publication or indexing claim.
+- Full evidence and source-date ledger: [14 November 12:21 IST audit](audits/2026-11-14-news-factory-cycle-1221-ist.md).
