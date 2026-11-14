@@ -96,3 +96,16 @@
 - No public route, schema, sitemap, PHP, shared UI, merge, deployment or publication.
 - Forsk task-board/session-handoff update is deferred because active Forsk PR #229 owns those same shared governance files; reconcile after its review.
 - Full evidence: [14 November 10:38 IST audit](audits/2026-11-14-news-factory-cycle-1038-ist.md).
+
+
+### News Factory delta — 14 November 2026 — NF-GROOT-CLOUDFLARE-SPEND-MANAGEMENT-20261114
+
+- **State: REVIEW / DRAFT.** New nonduplicate Groot Academy technical guide is tracked by [Groot issue #745](https://github.com/satnamkhowal/grootacademy.com/issues/745) and [Draft PR #745](https://github.com/satnamkhowal/grootacademy.com/pull/745), branch `news-factory/cloudflare-spend-management-workers-20261114-1111`.
+- Cloudflare Spend Management announcement published 13 November 2026; official Billing/CLI docs last updated 13 November. Beta for PayGo customers, initially Workers and Durable Objects. Controls are product-wide/account-wide, not per app. The cap is not a guaranteed maximum invoice; asynchronous metering/enforcement and excluded/in-flight charges matter.
+- Deliverables: 3,005-word original article, source/SEO/asset metadata JSON, original 1200×675 SVG. Local PNG (122,637 bytes) and WebP (55,476 bytes) derivatives are retained at `/mnt/data/news-factory/2026-11-14/1111/groot-cloudflare-spend-management/`; SVG only is committed. Metadata records original-artwork provenance, local paths, alt text, dimensions and hashes.
+- PR is OPEN / DRAFT, 3 commits, 3 files, 466 additions, 0 deletions, 3 ahead / 0 behind main, mergeable=true at read-back. Article/word count, JSON parse, SVG XML, PNG/WebP decode/dimensions/visual checks and CLI/API shell syntax passed. CLI/API examples were not executed. No status checks returned; independent editorial/technical/responsive QA pending.
+- No story-specific verified original YouTube video was found; no ID/iframe fabricated. No routes, PHP, sitemap/schema, shared UI, merge, deployment or publication.
+- NASA Space Apps remains owned by Forsk #230/#231; Cloudflare QuePaxa remains owned by Mango issue #216; Cloudflare Kitesurf remains owned by Groot #743. No duplicate drafts.
+- INSPIRE-SHE 2025 portal call shows 7 Nov–7 Dec 2026, 23:59 IST, but detailed current 2025 eligibility/award guidelines could not be retrieved due portal timeout; no article drafted from legacy FAQ. React latest official blog entry is 19.3 (9 Sep); Node latest Alpha is 27.0.0-alpha.0.1.0 (12 Nov), while latest security patches remain 22.23.5/24.22.3/26.13.1 (11 Nov).
+- Full evidence, source dates, repository review and blockers: [11:11 IST audit](../audits/2026-11-14-news-factory-cycle-1111-ist.md).
+
