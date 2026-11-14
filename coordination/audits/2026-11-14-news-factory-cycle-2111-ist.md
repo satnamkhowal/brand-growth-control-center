@@ -119,8 +119,8 @@ No story-specific official/reputable original YouTube video with verifiable ID, 
 - Metadata JSON parse: PASS.
 - SVG validation/render and 1200×675 dimensions: PASS.
 - PNG/WebP decode and visual inspection: PASS.
-- Branch comparison: **4 commits ahead / 0 behind main**.
-- PR: OPEN / DRAFT; GitHub mergeable=true at last check; 3 files, 417 additions.
+- Branch comparison: **5 commits ahead / 0 behind main**.
+- PR: OPEN / DRAFT; GitHub mergeable=true at last check; 3 files, 420 additions.
 - Workflow runs and combined status checks returned none. This is not a CI pass.
 - Independent editorial, technical/source and responsive QA: PENDING.
 - No live page, browser embed or production asset integration was tested.
