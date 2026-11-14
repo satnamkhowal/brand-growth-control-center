@@ -86,7 +86,7 @@ A previous comment #6884026363 incorrectly told the Forsk PR #185 owner to chang
 
 - GitHub's **15 October** notice schedules Claude Opus 4.8, Claude Opus 5 and GPT-5.6 Terra for **16 November 2026**.
 - GitHub's separate **13 November** notice schedules a different model set, including Gemini 3.8 Flash, for **14 December 2026**.
-- The incorrect comment #6884026363 has been edited to withdraw the wrong instruction. **Keep Forsk PR #185's original 16 November title and model list.** The separate December addendum comments #6865739827 and #6869517067 remain valid.
+- The incorrect comment #6884026363 has been edited to withdraw the wrong instruction. **Keep Forsk PR #185's original 16 November title and model list.** The separate December addendum comments #6865739827 and #6869517067 remain recorded; comment #6865739827 has been corrected to show Claude Fable 5 → Claude Fable 5.2, matching the official changelog.
 - Sources: https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/ and https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december/
 
 ## 6. Repository and coordination audit
