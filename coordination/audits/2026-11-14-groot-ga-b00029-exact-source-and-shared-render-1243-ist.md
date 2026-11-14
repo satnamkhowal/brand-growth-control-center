@@ -66,3 +66,31 @@ Master-owner reconciliation is still needed for the user-authorized 100K/P0 targ
 5. Keep GA-B00029 noindex and out of registry/sitemap until release approval.
 
 No source implementation, central Main write, owner reassignment, self-approval, self-merge, deployment, publishing or indexing occurred in this coordination delta.
+
+
+## Delta — 2026-11-14 13:53 IST: current Main, recovery base lineage and News Factory dedupe
+
+Groot source repository alias `satnamkhowal/gta` and canonical API repository `satnamkhowal/grootacademy.com` resolve to the same repository ID `1375760757`. Current source Main advanced to `7f007cbc5da988bbce401a1a50a4fbf00fa3bb24` (“Keep homepage search reset within reach”), changing only homepage CSS, homepage path-finder JavaScript and root `index.php`. No blog article, shared blog layout, registry, sitemap or canonical queue path changed.
+
+Fresh source comparisons against current Main:
+- #507 head `ab7d4c13`: 1 ahead / 111 behind; 22 historical recovery files; 0 independent reviews.
+- #625 head `d1c3d394`: 7 ahead / 33 behind; four intended paths; 0 independent reviews.
+- #713 head `fa4bac8d`: 12 ahead / 7 behind; four intended paths; 0 independent reviews.
+- #625/#713 still share the same three PHP/Python blobs and have distinct Spoken English and base-path workflows. Preserve both unique workflows and integrate shared files once.
+- #713's four exact-head Actions runs remain pre-step Azure `BlobNotFound` failures; zero hosted assertions ran. No retry was triggered.
+
+A new dependency-lineage check found that the actual base SHAs recorded by the stacked PR metadata do not equal their immediately preceding PR heads:
+- #654 base `68db39f` vs #507 head `ab7d4c13` (26 ahead / 0 behind; 27 changed paths from its recorded base).
+- #660 base `fc25231` vs #654 head `5bf6531` (32 ahead / 0 behind; 33 paths).
+- #664 base `46dcc21` vs #660 head `df9431c` (36 ahead / 0 behind; 32 paths).
+The diffs include inherited homepage/course/assets/registry/sitemap paths. These branches must be reconciled to exact parent heads and intended-only scopes by their source owners before review. No source branch was edited or merged.
+
+Cross-lane review: News Factory PR #745 is a separate Cloudflare Workers/Durable Objects Spend Management draft with three paths under `docs/news-factory`. Its topic does not appear among the 29 canonical 100K queue intents; it has no GA-B ID and is not counted in the controller ledger. Its latest recorded checks cover article/metadata word count, SVG and shell syntax; independent editorial, technical and responsive/browser QA remain pending. Existing PR #602 Google Maps in AI Studio cross-lane evidence remains in the earlier PR #20 audit and was not recreated.
+
+The canonical queue remains 29 ordered IDs; controller ledger remains 23 complete drafts, 23 visuals, 23 PHP candidates, independent component PASS 22/18/23, fully approved 0, published 0, live verified 0. GA-B00006 remains PUBLISH_PR with full article QA approval NOT YET; GA-B00029 remains TECH_QA/noindex.
+
+Central Main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; PRs #1/#2/#3 are merged and AEO/GEO PR #2 is reused. PR #22 remains Draft/open with zero independent reviews. Central README still lists eight brands and three active owner/status rows; Groot's dedicated row is missing. Jaipur Engineers `je2` social vs `jaipur-engieneers` candidate website/deployed-origin mapping remains unresolved. Master-owner 100K/P0 alignment, canonical queue owner, independent release approver and evidence-based batch criteria remain pending.
+
+Evidence: [Groot source run 12 report](https://github.com/satnamkhowal/grootacademy.com/blob/content/groot-100k-controller-20261016/marketing/blog-factory/work/B0002/qa/2026-11-14-ga100k-run12-main-7f007cbc-stack-lineage-1353-ist.md).
+
+No central Main write, brand ownership change, source implementation, self-approval, merge, deployment, publication or indexing occurred.
