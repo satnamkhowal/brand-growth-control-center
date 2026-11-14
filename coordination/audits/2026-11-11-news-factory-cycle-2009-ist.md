@@ -1214,3 +1214,65 @@ No new article or media asset was produced because every suitable fresh story fo
 - No workflow run was returned for final head \`28746ac0176308c401567d62510b09d77f680ce7\` at the final check.
 - Metadata JSON parse and GitHub read-back pass; local SVG hash now matches the committed GitHub blob exactly. PNG visual inspection and WebP decode pass. Independent editorial/technical QA and responsive browser review remain pending.
 - PR #234 remains OPEN / DRAFT and unmerged. No deployment, publication or indexing was performed.
+
+
+## 14 November 2026 — 07:03 IST active News Factory cycle
+
+### Four non-overlapping research lanes
+
+1. **Official programmes, internships and scholarships**
+   - The INSPIRE portal currently displays the existing **INSPIRE-SHE (2025)** call as open from **7 November 2026 through 7 December 2026, 23:59 IST**. This is a batch-specific application window for an established DST scheme, not a newly launched scholarship.
+   - Existing Forsk owner: [PR #167](https://github.com/satnamkhowal/forsk-coding-school/pull/167). The draft correctly separates ₹60,000/year scholarship support from the ₹20,000/year summer research mentorship grant (₹80,000 total), and states the age 17–22 / same-year Class XII and eligible B.Sc./B.S./Integrated M.Sc./M.S. requirements.
+   - The official FAQ excludes Engineering, Computer Science, Computer Applications, Bioinformatics, Instrumentation and Information Technology. Keep the article explicitly out of the “IT scholarship” category. The FAQ says applications are online; no separate application fee is stated in the checked call/FAQ, so do not assert a zero fee.
+   - Google Student Researcher 2027 remains India / Remote eligible, rolling review, deadline 4 December; no stipend or fixed duration stated. Existing Forsk PR #146 remains owner.
+   - Sage IT India Scholarship remains listed through 15 November (no exact cutoff time published), ₹50,000 one-time award to the institution, age 17–30, Indian college/university students, all majors, 1,000–1,500-word unpublished individual article, no entry fee. Existing Forsk PR #184 remains owner.
+   - NMMSS student applications remain listed through 15 November; L1 verification 30 November and L2 15 December. ₹12,000/year; OTR required; eligible Class IX fresh applicants in government/government-aided/local-body schools, subject to state selection, Class VII marks and income conditions. Existing Forsk PR #173 remains owner.
+   - VSSC UG academic project-work form deadline remains 15 November for the January–March 2027 slot; PG online academic project-work window closes 16 November at 11:59 PM IST for January–June 2027. These are unpaid academic project routes, not paid internships; INT 08 is closed and INT 09 is a separate 2027 internship intake. Existing Forsk PR #172 remains owner.
+   - SDEF remains open through 30 November under its published first-year professional UG, 80% Class XII, family-income and no-gap-year criteria. Existing Forsk PR #178 remains owner.
+   - No new unowned programme was promoted to draft in this cycle.
+
+2. **React / frontend**
+   - React's official blog and release list still show the 19.3 feature release on 9 September and the 19.3.1 / 19.2.9 / 19.1.10 / 19.0.9 patch train on 14 October 2026.
+   - No newer November stable React release or fresh official React security advisory was found.
+   - Existing owners retained: Mango issue #201 and Forsk PR #145. No duplicate article created.
+
+3. **Node.js / backend**
+   - Node.js official blog still lists 22.23.5, 24.22.3 and 26.13.1 LTS security releases on 11 November 2026, plus Node 27.0.0-alpha.0.1.0 on 12 November (Alpha, not LTS/stable).
+   - The 11 November bulletin is still the current security notice. The bulletin/release-page CVE applicability differences are already documented in Mango PR #143; no new Node article was created.
+   - Existing Mango PR #143 and Groot PR #650 remain the owners for Node security / Node 27 Alpha coverage.
+
+4. **AI / cloud / developer news**
+   - GitHub published **Gemini 4 Hydrogen in GitHub Copilot** on **13 November 2026**. It is GA, with gradual rollout to Copilot Pro, Pro+, Max, Business and Enterprise across supported clients. Usage-based billing applies; the current GitHub pricing table lists US$1.50 / 1M input tokens, US$0.075 / 1M cached input tokens and US$7.50 / 1M output tokens. No India-specific exclusion or separate migration fee is stated.
+   - This is a separate GitHub Copilot hosting/billing surface from Google Gemini Enterprise Agent Platform. A source-scope clarification was added to existing Groot issue [#700](https://github.com/satnamkhowal/grootacademy.com/issues/700) (comment ID 6869516607); no second Gemini article was created.
+   - GitHub's **13 November** Copilot deprecation notice schedules a separate group of models for **14 December 2026**: Claude Fable 5 → Fable 5.2; Claude Haiku 4.5 → Haiku 5.5 (annual individual-plan exception); Gemini 3.8 Flash → Gemini 4 Hydrogen; Gemini 4 Argon → Gemini 4 Carbon; Grok 4.6 → Grok 4.7; Kimi K3 → replacement not yet announced. This is distinct from the existing Forsk PR #185's 16 November retirement batch. A dated addendum was posted to [Forsk PR #185](https://github.com/satnamkhowal/forsk-coding-school/pull/185) (comment ID 6869517067).
+   - GitHub Secret Scanning's Cloudflare Access service-token detector (12 November) remains owned by Forsk PR #217. The new REST API AI Scan and Dependabot inactive-repository change retain existing Groot owners. No unowned story was found suitable for a separate draft.
+
+### Repository and ownership review
+
+- **Mango Engineers:** current main and AGENTS.md, docs/agent-start-here.md, docs/task-board.csv, docs/work-log.md and docs/integration-queue.md were read before any decision. Existing owners/PRs #143, #232 and #234 were checked. PR #234 is OPEN / DRAFT, 7 commits ahead / 0 behind, 5 files, mergeable=true; independent editorial/technical and responsive QA remain pending, CI not run. PR #232 is OPEN / DRAFT, 5 commits ahead / 0 behind, 3 files, mergeable=true; prior PHP Architecture Check run 43530024325 failed before steps and returned BlobNotFound 404. No retry, merge or production write.
+- **Forsk Coding School:** root AGENTS.md and README.md are not present at the checked paths; current News Factory PR owners were read directly. Existing PRs #146, #167, #172, #173, #178, #184, #185 and #217 remain the sole owners for their respective topics. No duplicate draft or branch was created.
+- **Groot Academy:** canonical repository resolves to satnamkhowal/grootacademy.com (the gta alias returns the same repository). Root README.md says # gta; root AGENTS.md and .agent/coordination were not found at those paths. Current News Factory issues #700 (Gemini 4 Hydrogen Node integration) and #703 (Dependabot inactive-repository change) were inspected. No new Groot content path was written.
+- **Jaipur Engineers:** current docs/content-radar.md was read. It explicitly keeps Auto Publish OFF and prefers updating existing ranking URLs when intent overlaps. Existing open work includes the Kiro, CRISP, Google India and Git-security items; no fresh distinct approved story or write was needed.
+- **Central control:** reused this existing append-only audit file and PR #19. Current branch ops/news-factory-cycle-20261109-2209 compares **185 commits ahead / 5 behind main (diverged)**. No rebase, force-push or merge.
+
+### Production delta for this run
+
+| Stage | New count |
+| --- | ---: |
+| Research tracks checked | 4 |
+| New verified unowned stories | 0 |
+| New original English drafts | 0 |
+| New original graphics | 0 |
+| New local raster derivatives | 0 |
+| Verified YouTube IDs / embeds | 0 |
+| Independent QA-ready | 0 |
+| Live / published | 0 |
+| Merged / deployed | 0 |
+
+### Next actions
+
+1. Recheck Sage IT, NMMSS and VSSC UG application status on 15 November; do not assume a deadline extension without a new official notice.
+2. Recheck the VSSC PG portal before 16 November, 11:59 PM IST.
+3. Verify the 16 November Copilot retirement against the exact existing Forsk guide; separately track the 14 December models.
+4. Continue Google Student Researcher through 4 December and INSPIRE-SHE / SDEF through their stated dates.
+5. Continue all four research lanes; create a new draft only when a fresh primary-source story has no existing owner and the brand intent is distinct.
