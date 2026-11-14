@@ -76,7 +76,7 @@ Deliverables: [Mango Draft PR #238](https://github.com/satnamkhowal/mangoenginee
 - Metadata: SEO/source/claim dates, pricing/geography caveats, video status, media provenance, alt text, dimensions, local paths, sizes and SHA-256.
 - Original SVG: 1200×675, committed. Local PNG and WebP derivatives: 1200×675, rendered and visually inspected.
 - No third-party graphic, Cloudflare logo or screenshot used. No relevant verified original YouTube video ID/date/embedding evidence found; no iframe was added and no video was downloaded.
-- PR remains OPEN / DRAFT. No route, sitemap, schema, PHP, shared UI or production asset changed.
+- PR remains OPEN / DRAFT; latest GitHub read-back reports mergeable=true with mergeable_state=unstable. No commit status checks were returned, so no CI pass is claimed. No route, sitemap, schema, PHP, shared UI or production asset changed.
 
 Primary sources:
 - https://developers.cloudflare.com/changelog/post/2026-11-02-module-registry-default/
@@ -115,7 +115,7 @@ Primary source: https://docs.cloud.google.com/release-notes
 | Code examples | Authored from official docs; not executed |
 | Video | No verified story-specific video; omitted |
 | GitHub branch comparison | 7 commits ahead / 0 behind main; 3 new paths |
-| PR state | OPEN / DRAFT; GitHub mergeability field reports false/dirty; do not merge |
+| PR state | OPEN / DRAFT; latest read-back mergeable=true / mergeable_state=unstable; commit statuses empty |
 | Commit status checks | Empty; no CI pass claimed |
 | Independent QA | PENDING |
 | Live / merged / deployed | 0 / 0 / 0 |
