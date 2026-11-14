@@ -236,3 +236,10 @@ No story-specific official/reputable original YouTube video with verifiable ID, 
 ### Ledger correction — 14 November 2026, 23:49 IST
 
 The GitHub AI Scan REST API topic was already present as Jaipur Engineers issue #52 before this run. It is therefore **not counted as a newly discovered or newly unowned story**. This run produced a local-only 3,004-word draft package against that existing issue, but made no Jaipur repository write because central PR #19 explicitly retains the Jaipur read-only gate. Corrected production delta: **0 new unowned stories; 1 local draft package; 1 original SVG; 2 local raster derivatives; 0 GitHub brand PRs; 0 independent QA-ready; 0 live**.
+
+
+### Final artifact and central-branch reconciliation — 14 November 2026, 23:53 IST
+
+- The local-only Jaipur AI Scan package is also bundled at /mnt/data/jaipur-ai-scan-local-draft-package.zip (5 files: article, metadata JSON, SVG source, PNG preview and WebP derivative). ZIP SHA-256: 0f81d564ba0a45145f4d89e4afae3d627b6b86cda9b02f926475a4a99455b85c.
+- Latest central checkpoint branch head: 121e7f3134da328aa41d232be41c19d9e4e75691.
+- Current compare: 216 commits ahead / 5 behind main, diverged. Central PR #19 remains OPEN / DRAFT and GitHub reports mergeable=false. No rebase, force-push or merge was performed.
