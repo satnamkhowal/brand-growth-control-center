@@ -85,3 +85,14 @@
 - No verified story-specific original YouTube video was found; no video ID/iframe was fabricated. Original SVG is committed; local PNG/WebP derivatives and complete provenance are recorded in the Forsk metadata sidecar.
 - Draft PR is OPEN / DRAFT, 10 ahead / 0 behind main, mergeable=true. No merge, deploy, publish or indexing claim.
 - Full source/status ledger: [14 November News Factory audit](audits/2026-11-14-news-factory-cycle-1011-ist.md).
+
+
+### News Factory delta — 14 November 2026 — NF-FORSK-NASA-SPACE-APPS-20261114
+
+- **State: REVIEW / DRAFT.** New current, unowned Forsk Coding School event-day guide is tracked by [task issue #230](https://github.com/satnamkhowal/forsk-coding-school/issues/230) and [Draft PR #231](https://github.com/satnamkhowal/forsk-coding-school/pull/231), branch `news-factory/nasa-space-apps-2026-india-last-call-20261114-1038`.
+- The 2026 NASA Space Apps hackathon is in progress on 14–15 November. Official page says registration/event selection/team changes remain open through event close on 15 November; project submission closes 15 November at 23:59 local time. India Universal Event/local pages are available; max team size six. No global fee/stipend/cash-award amount is published.
+- Deliverables: 2,778-word original article, source/SEO/status metadata JSON, original 1200×675 SVG and local PNG/WebP derivatives. Official registration video ID `LhYn_hPfr34` (NASA Space Apps Challenge channel, 26 August 2026) embedded with responsive privacy-enhanced markup and fallback link; not browser-tested.
+- Branch is 5 ahead / 0 behind main, 3 files, mergeable=true. Article and metadata read back; JSON parses; SVG blob matches local source; PNG/WebP render and visual checks passed. Independent editorial, technical and responsive QA pending; no CI run returned.
+- No public route, schema, sitemap, PHP, shared UI, merge, deployment or publication.
+- Forsk task-board/session-handoff update is deferred because active Forsk PR #229 owns those same shared governance files; reconcile after its review.
+- Full evidence: [14 November 10:38 IST audit](audits/2026-11-14-news-factory-cycle-1038-ist.md).
