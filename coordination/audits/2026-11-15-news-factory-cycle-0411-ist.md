@@ -75,7 +75,7 @@ Existing Forsk INSPIRE-SHE 2025 PR #167 contains a material 2025 guideline corre
 
 ### Existing AI/developer owners preserved
 
-- GitHub Copilot model retirements announced 13 November are effective **14 December**, not 16 November. Forsk PR #185 still has the stale 16 November title despite the existing correction comment; owner correction remains pending.
+- **Correction from the 05:04 audit:** Forsk PR #185 is correctly based on GitHub's 15 October notice for Claude Opus 4.8, Claude Opus 5 and GPT-5.6 Terra retiring on **16 November**. A 15 November comment incorrectly conflated it with the separate 13 November / **14 December** notice; that comment (#6884026363) has been edited to withdraw the wrong instruction. Keep PR #185's original title and model list. The separate December notice is already recorded in comments #6865739827 and #6869517067.
 - AWS Emulator local testing: Mango #250.
 - Google Cloud ADK workflow patterns: Mango #251.
 - GitHub AI Scan API: existing Jaipur/Groot ownership as recorded in previous checkpoints.
