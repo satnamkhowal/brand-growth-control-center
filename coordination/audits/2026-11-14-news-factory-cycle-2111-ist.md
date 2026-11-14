@@ -82,6 +82,13 @@ Official Node.js blog and security bulletin checked 14 November:
 
 These topics were not re-drafted or syndicated.
 
+### Additional AWS AgentCore Runtime update — existing owners, no duplicate
+
+- AWS published its next-generation AgentCore Runtime update on **12 November 2026**. The announcement describes hardware-isolated Firecracker MicroVM sessions, starts under two seconds, up to 8 vCPUs / 32 GB per session, container images up to 10 GB, and up to 68% lower memory use per session through idle-memory reclamation/scale-to-zero.
+- Exact prices and an India-specific Region/availability guarantee were not established in this pass; no new article was created.
+- Existing related owners found in current brand PR search: Groot Academy #609 (AgentCore Runtime V2 snapshot safety and Node.js guidance) and Forsk Coding School #192 (Spring AI + Amazon Bedrock agent guide). Both were preserved.
+- Primary source: https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/
+
 ## 5. Forsk Coding School implementation
 
 **Draft PR:** https://github.com/satnamkhowal/forsk-coding-school/pull/237  
