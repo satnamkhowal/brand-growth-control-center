@@ -46,7 +46,7 @@ Four non-overlapping research lanes were checked: official student/developer opp
 ## 2. React / frontend
 
 - Official React release page: https://github.com/facebook/react/releases — latest listed tags remain 19.3.1, 19.2.9, 19.1.10 and 19.0.9, all dated 14 October 2026; no newer November stable release found.
-- Critical React Server Components advisory GHSA-xqc2-xf4c-x3h3 / CVE-2026-126187 was published 14 October 2026. Affected RSC server packages include react-server-dom-webpack, react-server-dom-parcel and react-server-dom-turbopack; fixed lines are 19.0.9, 19.1.10, 19.2.9 and 19.3.1. Client-only apps without an RSC server are not affected by this advisory.
+- Critical React Server Components GHSA-xqc2-xf4c-x3h3 was published 14 October 2026; the GitHub Advisory Database CVE-2026-126187 record was published/updated 10 November 2026. Keep those record dates separate. Affected RSC server packages include react-server-dom-webpack, react-server-dom-parcel and react-server-dom-turbopack; fixed lines are 19.0.9, 19.1.10, 19.2.9 and 19.3.1. Client-only apps without an RSC server are not affected by this advisory.
 - Existing Forsk PR #145 remains the sole owner; latest status comment was already added at 06:07 IST. No duplicate React article.
 
 ## 3. Node.js / backend
