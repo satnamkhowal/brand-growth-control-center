@@ -128,7 +128,7 @@ No story-specific official/reputable original YouTube video with verifiable ID, 
 ## 6. Repository and coordination review
 
 - Central satnamkhowal/brand-growth-control-center existing PR #19 reviewed and reused.
-- Mango Engineers, Groot Academy, Forsk Coding School, Jaipur Engineers, Clever Ape Academy, CadMate India and Forsk Technologies repository metadata/open-PR inventories reviewed. No new writes were made to Mango, Groot, Jaipur or the other brands in this cycle.
+- Mango Engineers, Groot Academy, Forsk Coding School, Jaipur Engineers and CadMate India repository metadata/open-PR inventories reviewed. No new writes were made to Mango, Groot, Jaipur or CadMate in this cycle. The attempted canonical repository paths for Clever Ape Academy and Forsk Technologies returned 404; no substitute repository was guessed and no writes were made.
 - Forsk current main instructions, README.txt, master task board, session handoff, image audit and image production workflow were read. The task board/handoff remain untouched because existing PR #229 owns shared governance paths. The new work is limited to three documentation/media files.
 - No production route, PHP, sitemap, schema, navigation, redirect, shared task-board or session-handoff file was changed.
 - Central PR #19 branch remains diverged: **211 commits ahead / 5 behind main**. No rebase, force-push or merge was performed.
