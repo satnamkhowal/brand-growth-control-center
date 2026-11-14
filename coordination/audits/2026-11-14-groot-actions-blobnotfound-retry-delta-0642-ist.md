@@ -32,3 +32,8 @@ Scope: coordination-only evidence; implementation remains in Groot Academy's sou
 5. Master owner records 100K/P0 vs 10K/P3 alignment, one canonical queue owner and one independent release approver; until then new IDs remain HOLD.
 
 Counts remain 23 complete drafts/visuals/PHP candidates, component editorial/code/visual passes 22/18/23, full approvals/published/live 0/0/0. No source implementation, approval, owner reassignment, merge, deployment, publication or indexing was performed by this central audit.
+
+
+## Additional source-queue verification — 14 November 2026, 06:47 IST
+
+The source controller compared the original queue patch in merged planning PR #62 (head `567b6b27445191d6705624607dfb3cbeb5c72c32`) with the current canonical queue. Exact result: 29 original IDs, 29 current IDs, zero missing, zero extra, order preserved, no duplicate slugs or primary queries. Existing lifecycle status transitions remain on the same IDs. No queue file change or new article occurred. Full evidence is appended to the linked source report.
