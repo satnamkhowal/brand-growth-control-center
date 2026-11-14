@@ -33,7 +33,7 @@ The separate `blogs/sitemap-2027-study-guides.xml` contains 5,000 source URLs ou
 
 - Central Main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; current README still lists eight brands and only three active owner/status rows. Groot's dedicated owner row remains missing.
 - PRs #1/#2/#3 are CLOSED/MERGED. Reuse the existing AEO/GEO baseline from PR #2; do not recreate it.
-- PR #22 remains OPEN/DRAFT on `audit/groot-ga22-browser-delta-20261112-0350`, head `d2b5aa2524f47f6f90276003eaf46a07100f0892`, 53 changed files, zero independent reviews. This report is appended to that existing isolated coordination branch; no Main write.
+- PR #22 remains OPEN/DRAFT on `audit/groot-ga22-browser-delta-20261112-0350`, head `86e93efe25c4c4e51afb45cc67d85f82becaad8e`, 54 changed files, zero independent reviews. This report is appended to that existing isolated coordination branch; no Main write.
 - PR #20 remains the existing cross-lane deduplication draft; preserve its owner and files. PR #24 is an unrelated staff-operations intake PR and is not part of Groot blog implementation.
 - Jaipur Engineers `je2` social repository vs `jaipur-engieneers` candidate website/deployed-origin mapping remains unresolved. No mapping or owner was reassigned.
 - Issue #401 still states a 1,000,000 aspirational goal; the user-authorized controller is 100,000/P0, while the Master plan still records 10,000 possible opportunities/P3. No Master-owner decision was found to align the target, canonical queue owner and independent release approver. Keep the 29-ID queue immutable and new IDs on HOLD.
