@@ -121,3 +121,14 @@
 - Deduplication: no matching module-registry owner found in Mango, Groot, Forsk, Jaipur or central. Existing Cloudflare Spend Management (Groot #745), Kitesurf (Groot #743) and QuePaxa (Mango #216) are distinct; existing React/Node/security/opportunity owners remain unchanged.
 - No public route, PHP, sitemap/schema, navigation, shared UI, merge, deployment, publication or indexing claim.
 - Full evidence and source-date ledger: [14 November 12:21 IST audit](audits/2026-11-14-news-factory-cycle-1221-ist.md).
+
+
+### News Factory delta — 14 November 2026 — NF-MANGO-AKAMAI-AGENT-SANDBOX-20261114-1530
+
+- **State: REVIEW / DRAFT.** New, nonduplicate Mango Engineers guide is tracked by [issue #241](https://github.com/satnamkhowal/mangoengineers.com/issues/241) and [Draft PR #242](https://github.com/satnamkhowal/mangoengineers.com/pull/242), branch news-factory/akamai-functions-agent-sandbox-20261114-1530.
+- Primary dates: Akamai developer announcement published 10 Nov 2026; Akamai Inference + Agent Sandbox launch release published 27 Oct 2026. Akamai Functions is GA with an SLA; Agent Sandbox is still described as beta/tech preview and the product page requests access. The Spin contribution was still in the Spin Improvement Proposal process on 10 Nov; do not claim it merged or shipped in a released Spin version.
+- Deliverables: original 2,522-word article, source/claim/media/QA metadata JSON, original 1200×675 SVG architecture diagram committed. Original AI-generated raster illustration was optimized locally as 1200×675 PNG (734,207 bytes) and WebP (49,016 bytes); metadata records local paths, source, rights basis, alt text and dimensions. Article references committed SVG, not local-only raster.
+- India region, standalone Agent Sandbox price and numeric SLA are not confirmed by public sources reviewed. No third-party media or logo used. No sufficiently verified original video found; no iframe or download.
+- GitHub read-back verified all three files. Metadata JSON parses; SVG root/title/dimensions checked. Branch comparison: 3 commits ahead / 0 behind main. Status checks and workflow runs empty; no CI pass claimed. PR creation response reported mergeable=false; do not merge. Independent editorial, technical and responsive QA remain pending.
+- No production source files, shared components, routes, sitemap/schema, redirects, merge, deployment, publication or indexing claim.
+- Full evidence and four-lane source ledger: [15:30 IST audit](audits/2026-11-14-news-factory-cycle-1530-ist.md).
