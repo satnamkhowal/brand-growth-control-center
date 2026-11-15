@@ -23,7 +23,7 @@ Scope: coordination-only evidence. Source QA implementation remains in the Groot
 ## Current control-center delta
 
 - Central Main README blob: b93187c353f8112a57fffab4b383e64236976394. Main remains 21af139cc32a7b67aab6908c61edeb5998bd4544.
-- Central PR #22 remains OPEN/DRAFT on audit/groot-ga22-browser-delta-20261112-0350, 117 commits / 65 files, zero independent reviews and zero review threads.
+- Central PR #22 remains OPEN/DRAFT on audit/groot-ga22-browser-delta-20261112-0350, 119 commits / 66 files (after this Run 29 report checkpoint), zero independent reviews and zero review threads.
 - PR #1/#2/#3 remain merged; reuse the existing AEO/GEO PR #2 baseline.
 - Main README lists eight brands but only three active owner/status rows; Groot's dedicated row is missing.
 - Jaipur Engineers je2 social vs jaipur-engieneers candidate website/deployed-origin mapping remains unresolved. No ownership inference/reassignment.
