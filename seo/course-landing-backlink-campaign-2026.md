@@ -40,3 +40,11 @@ Next: extract every catalogue entry, inspect canonical routes, and implement con
 - Course destination: `https://forskcodingschool.com/full-stack-development-course-jaipur` (live search result confirmed)
 - Groot course destination: `https://grootacademy.com/courses/full-stack-development-jaipur/` (live search result confirmed)
 - Use each brand's actual card asset; do not substitute generic images or hotlink without permission. Prefer locally hosted approved copies where appropriate.
+
+## 15 November 2026 evening audit — verified repository state
+- Forsk multi-brand Full Stack draft exists on branch `seo/full-stack-multi-brand-directory-2026` at `blog/jaipur-full-stack-course-brand-directory/index.php`. Its only current cross-brand course link is to Groot Academy. This is **not** evidence of a published backlink.
+- The central all-course inventory exists on branch `seo/course-landing-backlink-inventory-2026` and records **103 Forsk** plus **30 Groot** catalogue entries (133 source entries, not 133 validated pages).
+- Four other brands (Jaipur Engineers, Mango Engineers, Clever Ape Academy, Forsk Technologies) have no verified complete course URL inventory in this campaign yet.
+- Forsk source-level image path for the Full Stack course is recorded; HTTP availability and permission to hotlink have **not** been independently verified.
+- Google Business Profile/map URLs, business NAP consistency, merges, deployment and externally indexed backlinks remain **unverified** in this campaign. Do not mark these as complete.
+- Next: verify live HTTP responses, extract course data and approved images for remaining four brands, validate canonical/NAP records, and prepare topic-specific cross-brand pages rather than indiscriminate reciprocal links.
