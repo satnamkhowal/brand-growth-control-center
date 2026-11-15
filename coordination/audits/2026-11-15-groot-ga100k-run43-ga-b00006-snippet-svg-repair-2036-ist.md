@@ -42,3 +42,9 @@ Scope: coordination-only delta. Source implementation remains in the Groot Acade
 5. Keep new article IDs HOLD until Master-owner 100K/P0 alignment, one canonical queue owner, one independent release approver and evidence-based batch criteria are recorded.
 
 No central Main edit, other-brand implementation change, ownership reassignment, self-approval, self-merge, deployment, publication or indexing.
+
+## Hosted Actions follow-up — 2026-11-15 20:36 IST
+
+- Source PR #782 exact-head run [43728700923](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43728700923), job `132856158652`, concluded failure before steps; step list empty and log retrieval Azure `BlobNotFound` HTTP 404. Hosted assertions: 0.
+- Controller PR #781 exact-head run [43729047577](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43729047577), job `132857213604`, has the same pre-step failure. Existing PR #778 run `43723054574` and shared-head PR #713 run `43490290833` also show empty step lists and BlobNotFound logs.
+- No hosted assertion ran; this is an Actions runner/log-storage initialization blocker, not a content test failure or pass. Administrator/storage-owner diagnosis is required before retry. No blind retry was made.
