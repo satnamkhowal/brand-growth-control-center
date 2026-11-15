@@ -32,3 +32,11 @@ Status: inventory in progress; no external backlinks claimed.
 - Cloud/Security: AWS, DevOps, Docker, Kubernetes, Cyber Security.
 
 Next: extract every catalogue entry, inspect canonical routes, and implement contextually relevant internal links through per-site reviewed PRs.
+
+## Verified source-level course card asset
+- Forsk Full Stack source: `full-stack-development-course-jaipur.php`
+- Image source: `assets/images/full-stack-development-course-jaipur-forsk-coding-school.webp`
+- Expected absolute image URL: `https://forskcodingschool.com/assets/images/full-stack-development-course-jaipur-forsk-coding-school.webp` (verify HTTP response before embedding)
+- Course destination: `https://forskcodingschool.com/full-stack-development-course-jaipur` (live search result confirmed)
+- Groot course destination: `https://grootacademy.com/courses/full-stack-development-jaipur/` (live search result confirmed)
+- Use each brand's actual card asset; do not substitute generic images or hotlink without permission. Prefer locally hosted approved copies where appropriate.
