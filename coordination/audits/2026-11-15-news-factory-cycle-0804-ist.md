@@ -146,3 +146,13 @@ The latest GitHub Changelog entries visible in this pass remain dated **13 Novem
 2. Retrieve the 18 November NeGD role PDFs from an accessible official source before drafting those vacancies.
 3. Recheck Google Student Researcher by 4 December and Amazon's two live listing pages; do not invent posting dates or compensation.
 4. Continue independent QA of existing drafts; keep all unapproved work in draft state.
+
+
+## 15 November 2026 — deadline-day opportunity status supplement (09:04 IST)
+
+Two existing Forsk opportunity owners were rechecked against their current official application pages; no new article was created.
+
+- **VSSC academic project work:** the official portal lists the next BE/BTech/BSc/Diploma project slot as **1 January–31 March 2027**, with a downloaded-form / institution-approval / email submission route and **15 November 2026** last date (no closing time stated). For ME/MTech/Integrated MTech/MSc/Integrated MSc/BS-MS, the next slot is **1 January–30 June 2027**, with online applications open **15 October 2026, 10:00 AM–16 November 2026, 11:59 PM IST**. The separate INT 08 internship slot (1 November 2026–31 January 2027) is marked closed; next INT 09 is 1 May–31 July 2027 with application window 15 February–15 March 2027. Do not conflate academic project work with the current internship slot. Existing owner updated: [Forsk PR #172](https://github.com/satnamkhowal/forsk-coding-school/pull/172). Source: https://vsscinternship.vssc.gov.in/HRDD_LOGIN/beforelogincontroller
+- **Sage IT India Scholarship 2026:** the official page remains live on **15 November 2026**, the displayed submission deadline; winner announcement is **30 November 2026**. Sponsor page publication timestamp is **19 October 2026, 07:00:17 -05:00**. Terms remain ₹50,000 one-time award paid to the student's institution; Indian recognised college/university students aged 17–30, all majors and degree levels; individual unpublished 1,000–1,500-word article in Word format; no entry fee. No closing hour/timezone is stated, and email receipt/acceptance was not tested. Existing owner updated: [Forsk PR #184](https://github.com/satnamkhowal/forsk-coding-school/pull/184). Source: https://sageitinc.com/scholarship/india
+
+The two source-verification comments were read back successfully. No submission was made on behalf of any applicant.
