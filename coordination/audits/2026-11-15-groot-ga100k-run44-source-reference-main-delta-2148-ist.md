@@ -46,3 +46,16 @@ Scope: coordination-only delta; implementation remains in the Groot Academy sour
 6. Central mapping owner reconciles the Jaipur repository roles and Groot board row through normal review; do not edit central Main or other-brand source files here.
 
 No central Main edit, source merge, self-approval, deployment, publication, indexing or ownership reassignment.
+
+
+## Master-issue inventory delta — 2026-11-15 21:31 IST
+
+The latest source-only checkpoint in Groot master issue [#401](https://github.com/satnamkhowal/grootacademy.com/issues/401) records:
+- 77 unique registry keys, blob `2ae5446dabb19e84d89ba3b8a41c3a325580e818`.
+- Blog sitemap: 50 URLs = 49 article routes + index, blob `5f6a6d8f7e2841f53c6dcfc5f62f443ebb9147e6`.
+- Page sitemap: 68 URLs, including 28 registry-matching root article routes, blob `212b3182276da25f7cdf00ae7f6d814564558095`.
+- Reconciliation: 49 + 28 = 77/77 registry entries, zero unmatched and zero effective-canonical overlap.
+- Separate 2027 study-guide sitemap: 5,000 source URLs, blob `069dbb6ff1e7c93396ec8fbf6a26eb52ee4bf6d8`. This is outside the 29-ID 100K controller queue and is not approved/published/live evidence.
+- A three-directory sample was flagged for repeated broad structure, fictional fixtures, self-canonical `index,follow` and no visible source/reference block. This is a bounded QA signal only, not a verdict on all 5,000 URLs.
+
+The live-published/indexed count remains UNVERIFIED. Next bounded action after current GA-B00006/recovery gates: sample the separate shard for distinct intent, source coverage, canonical consistency and rendered quality before any inclusion or indexing. No source files, registry, sitemap, central Main or other-brand implementation were changed by this coordination audit.
