@@ -40,3 +40,12 @@
 6. Master owner records 100K/P0 alignment, one canonical queue owner and one independent release approver before any new IDs or batch expansion.
 
 No central-main write, other-brand source change, ownership transfer, self-approval, merge, deployment, publication or indexing.
+
+
+## Governance source check — 2026-11-15 16:38 IST
+
+- Current source-main `marketing/blog-factory/MASTER-PLAN.md` still titles itself “10,000 Blog Capacity” and describes up to 10,000 possible IDs, explicitly not validated opportunities or a publication quota.
+- Current source-main `docs/ai-ops/MASTER_TASK_BOARD.md` keeps HAO-008 (blog factory research/creative/QA) at P3 / REVIEW.
+- Open issue [#401](https://github.com/satnamkhowal/grootacademy.com/issues/401) describes 1,000,000 as an aspirational ceiling and 100,000 as evidence-gated M4. Its latest visible owner checkpoint comment at 16:26 IST still records the conflict with the user-authorized 100K/P0 controller and says canonical queue ownership and an independent release approver are not established.
+- The controller README states that the user's 2026-10-16 100K/P0 mandate supersedes earlier separate-chat requirements and the 10,000-ID ceiling for this controller. No explicit Master-owner reconciliation/decision is visible in the latest issue checkpoint.
+- Keep the 29 existing IDs and finish repairs; do not create or reserve new IDs or expand batches until the Master owner records the 100K/P0 scope, single queue owner and independent release approver.
