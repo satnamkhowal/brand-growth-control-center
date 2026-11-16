@@ -157,3 +157,69 @@ Official sources:
 
 ### Next action
 Recheck NeGD JD PDF access and the VSSC/IIIT application routes before any new opportunity article; independently QA the existing high-priority drafts rather than create duplicate stories.
+
+
+## 2026-11-16 12:06 IST — News Factory cycle 12
+
+### Four-lane research result
+
+**1) Official programmes, internships, scholarships and grants**
+- Google Student Researcher 2027 remains listed for India / Remote, with a 4 December 2026 deadline and rolling review. The posting requires current enrolment in a Bachelor's, Master's or PhD programme in the named disciplines plus relevant CS/research experience. Existing owner: Forsk PR #146. No application was submitted.
+- NeGD Careers page 2 currently lists the following Delhi-NCR roles with an 18 November 2026 deadline: Frontend Developer; Junior L1/L2 Application Support; Junior QA & Security Support; Junior Backend/Mobile Developer; Manager—Development, Support & Onboarding; Platform & Security Engineer; DevSecOps Engineer; AppSec Specialist; QA Tester; Full Stack Developer; Product Manager. The official linked Frontend and Backend/Mobile PDFs returned 403 Forbidden on this check. Salary, experience, degree criteria, fees and full application conditions remain unverified; no article was drafted from titles alone. Official listing: https://negd.gov.in/hi/careers/page/2/
+- NeGD Technical and Non-Technical Winter Internships remain on their respective official pages with a 20 November 2026 deadline; existing Forsk PRs #225 and #180 remain owners. No form submission or acceptance test was performed.
+- CRISP Fellowship 2027 remains open through 29 November 2026, 5:00 PM IST: 16 two-year full-time positions across 8 states, standard remuneration ₹9 lakh/year (NISHE-ICPC positions have negotiable remuneration), Indian nationals with bachelor's degree or higher plus project-fit skills. The last valid snapshot before this run's 12:06 IST cutoff was the 11:10 AM IST snapshot recorded in the 11:29 checkpoint: 2,259 overall applications and 300 for Rajasthan GIST's 2 positions. A later page snapshot labelled 12:11 PM is after this run's cutoff and was not used. Existing Jaipur PR #51 remains owner.
+- NEC Winter Internship 2026 remains advertised through 30 November. The current page shows a Login/Register link and a 3 November update; the NEC archive lists 2 November publication; the application index shows a 10 November update. The revised notice was digitally signed 27 October. The 2025 policy confirms India-recognised UG/PG/research-scholar routes, category-specific 55% thresholds, a separate recent-graduate consideration route, 50% seats for NER students, 50% for women as far as possible, up to two months with at least one month in person at Shillong, 75% attendance, no promised monthly stipend, and only possible field-visit TA/DA. The direct Invest Meghalaya application route returned no readable page content at 12:06; submission acceptance, remaining seats and any portal-side fee remain unverified.
+  - The existing Forsk draft is now tracked by [PR #252](https://github.com/satnamkhowal/forsk-coding-school/pull/252), branch `news-factory/nec-winter-internship-2026-1129`, 3 commits ahead / 0 behind main, 3 added files, OPEN/DRAFT, mergeable=true. This run did not create or modify its files.
+  - A coordinator source-check comment was added: [PR #252 comment 6909499460](https://github.com/satnamkhowal/forsk-coding-school/pull/252#issuecomment-6909499460). It records the official-source cross-check, the missing NEC archive link in the article's source list, the article/metadata word-count convention to reconcile (2,990 whitespace-separated body tokens after front-matter removal vs metadata 3,064), and the fact that no CI workflow/status was returned. This is not independent QA or approval.
+- React Summit US 2026 takes place 17 and 20 November: the official organiser page describes 17 November as a hybrid day in New York/online and 20 November as a remote day joinable from anywhere. Existing Forsk React Summit guide remains owner; no duplicate article.
+- AWS SDK for .NET 4.1 was announced 11 November; an existing Mango draft already owns this topic. No duplicate article.
+- No official primary-source notice was found for the circulating “AICTE Industry Fellowship 2026” lead; it remains unverified and was not promoted as an open programme.
+
+**2) React / frontend**
+- React's official blog still lists React 19.3 (9 September 2026) as its latest feature-release announcement. Official patch tags last checked remain 19.3.1, 19.2.9, 19.1.10 and 19.0.9 (14 October). No newer stable release or new November React security advisory was found. Existing owners remain Forsk PR #145 and Mango PR #202.
+- React Summit US is an event, not a new React release; its 17/20 November dates and online format are recorded above. Existing Forsk event-guide owner retained.
+
+**3) Node.js / backend**
+- Latest official security bulletin remains 11 November 2026. Patched versions: 22.23.5, 24.22.3 and 26.13.1. The bulletin lists 16 entries (7 High, 6 Medium, 3 Low); applicability must remain CVE/release-line specific.
+- Node 27.0.0-alpha.0.1.0 was published 12 November and remains Alpha, not LTS or a production replacement.
+- No newer stable/security release found. Existing owners remain Mango PR #143/#229 and Groot PR #774.
+
+**4) AI / cloud / developer news**
+- Google Cloud release notes through 13 November include Cloud Quotas GA, Apigee X 1-18-0-apigee-9, Gemini Enterprise A2A 3-legged OAuth/Agent Identity and related single-user quota controls. Existing owners remain Mango #282/#283, Jaipur #62 and Groot #797.
+- GitHub Changelog entries checked through 13 November include Copilot model changes; existing Mango/Forsk owners remain in place.
+- AWS SDK for .NET 4.1 (11 November) remains with the existing Mango draft. No duplicate story was created.
+- No additional fresh, fully verified, unowned AI/cloud story passed the repository-ownership gate in this run.
+
+### Repository and concurrency review
+- Central News Factory remains on PR #19 / branch `ops/news-factory-cycle-20261109-2209`. Before this append, compare was **239 ahead / 5 behind main**, status diverged; PR OPEN/DRAFT and mergeable=false. Only the existing append-only audit file was updated. No rebase, force-push, merge or PR-body rewrite.
+- Mango: reread README, AGENTS, `docs/agent-start-here.md`, task board, work log and integration queue. Current queue/open PR review confirms the AWS SDK for .NET 4.1 story already has a Mango owner; React/Node and Google Cloud topics remain assigned. No Mango write.
+- Groot: reread `.agent/README.md`, CURRENT-STATE, DECISIONS, MASTER-HANDOFF and BACKLOG. Existing blog-factory gate keeps routine blog production at P3 DEFER behind P1 homepage/UX and runtime/lead QA; existing Node/AI/cloud owners remain. No Groot write.
+- Forsk: reread README.txt, `docs/ai-ops/MASTER_TASK_BOARD.md`, `SESSION_HANDOFF.md` and open PR inventory. The master board/session handoff remain controller-owned. Existing PR #252 is active; this run only added the source-check comment and did not alter its branch or shared governance files.
+- Jaipur: reread `docs/content-radar.md`, `docs/IMAGE-PRODUCTION-WORKFLOW.md` and current open PR inventory. Auto Publish remains OFF; existing CRISP, React/backend, Apigee and GitHub-security owners remain. No Jaipur write.
+- No unverified adjacent brand/repository was added to this cycle.
+
+### This-run production ledger
+| Stage | This run |
+|---|---:|
+| Research lanes checked | 4 |
+| New verified stories suitable for an unowned draft | 0 |
+| New article drafts | 0 |
+| Existing draft PRs source-rechecked | 1 (NEC Winter Internship, Forsk #252) |
+| New graphics / downloaded media | 0 |
+| Verified YouTube embeds | 0 |
+| New brand PRs / commits | 0 |
+| Status comments added | 1 (Forsk #252 coordinator source-check) |
+| Central checkpoint commits | 1 |
+| Independent QA-ready | 0 |
+| Live / merged / deployed | 0 |
+
+### Checks and blockers
+- Official NEC winter page, signed notice PDF, Internship Policy 2025 and direct application route opened. The application service returned a page with no readable lines; do not claim submission acceptance.
+- Official NeGD page 2 opened; linked Frontend and Backend/Mobile job-description PDFs returned 403. No salary/eligibility terms inferred.
+- React official blog/conference calendar, Node.js official security bulletin, CRISP portal, Google Careers, Google Cloud release notes and GitHub Changelog were rechecked.
+- NEC PR #252 article/metadata/SVG were read from the active branch. Metadata JSON parses; SVG includes title/description, 1200×675 dimensions and no external href. Plain whitespace word-count convention differs from metadata; archive citation link is missing from the article's source list. No commit status or workflow run was returned. Independent editorial, eligibility and responsive QA remain pending.
+- No third-party media/video was downloaded; no video embed was inserted because no story-specific video with verified ID and embed permission was established.
+- No merge, deployment, publication or indexing claim.
+
+### Next action
+Have the NEC draft owner reconcile the article source-list/word-count metadata notes, then obtain independent editorial and eligibility QA plus responsive rendering. Recheck the NeGD 18 November job-description PDFs and current portal acceptance before drafting any role guide. Continue existing React/Node/AI/cloud owners without duplication.
