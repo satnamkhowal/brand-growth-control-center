@@ -43,3 +43,6 @@ Source PR #811 exact-head Actions run #43809256895 (run 218) completed failure; 
 ## Current-head CI follow-up
 
 After documentation/checkpoint-only updates, source PR #811 head is `5841ed3288931c1865c99e4b43f829e62fed6510` (OPEN/DRAFT, mergeable true, 7 commits, 4 files, zero independent reviews). Exact-current-head Actions run [#43809801881](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43809801881), run 220, also failed before steps: job #133108683319 has empty steps, runner_id 0 and zero hosted assertions. Earlier run #43809256895 (run 218) had the same pre-step pattern on the prior head. The supported payload does not expose root cause; no Azure attribution or retry is made. Changes after run 218 were documentation/controller/report only; run 220 tested the updated head.
+
+
+After run 220, source PR #811 advanced to head `333739c6510a7e58c6c8a49b12e28401cd142e16`. Compare from the run-220 head `5841ed3288931c1865c99e4b43f829e62fed6510` shows only README, CONTROLLER.json and QA-report changes; the test/checker code is unchanged. No workflow result exists for this latest docs-only head.
