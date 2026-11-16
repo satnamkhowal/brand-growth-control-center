@@ -7,7 +7,7 @@ Observed: 2026-11-16 08:38 IST
 - Brand: Groot Academy; domain: https://grootacademy.com/.
 - User alias satnamkhowal/gta resolves to satnamkhowal/grootacademy.com, repository ID 1375760757.
 - Source implementation and QA tooling remain in the Groot repository. This central report is coordination-only; no other brand repository or owner files were changed.
-- Source checkpoint branch: content/groot-100k-controller-20261116-run55-metadata-parity-gate, successor of Run 54. Latest source checkpoint commit: eab6927566a2fd3288e59bef70eef38aa4f5e4ec.
+- Source checkpoint branch: content/groot-100k-controller-20261116-run55-metadata-parity-gate, successor of Run 54. [PR #807](https://github.com/satnamkhowal/grootacademy.com/pull/807) is OPEN/DRAFT, 5 commits / 5 files, zero independent reviews; exact-head hosted workflow runs: none (skip-CI checkpoint). Latest source checkpoint commit after PR-link updates: d0e0a157d2382923b48a751a41aba0e90b87beb5.
 - Source Main remains 21059089fb17d10200a386c7ef648d478bf700d7. Latest commit is limited to course-finder CSS and courses/index.php; no blog-factory overlap.
 
 ## New bounded evidence — GA-B00006 metadata parity
