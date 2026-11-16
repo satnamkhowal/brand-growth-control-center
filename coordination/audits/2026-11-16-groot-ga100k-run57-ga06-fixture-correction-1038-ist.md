@@ -33,3 +33,8 @@ The exact committed Run 56 test suite ran locally on Python 3.13.5: 24/24 in nor
 Source owner reconciles the four real GA-B00006 PHP/metadata fields on PR #785 while preserving the date-less/noindex draft contract. Then rerun the corrected parity check and independently render the shared BlogPosting/BreadcrumbList/canonical/robots/date output. Keep the #713 owner refresh and #788 → #778 → #760 → #755 review gates intact. Azure administrator diagnosis is still required before hosted CI.
 
 No owner reassignment, other-brand source edit, self-approval, merge, deployment, publishing or indexing.
+
+
+## Hosted workflow follow-up
+
+Source PR #811 exact-head Actions run #43809256895 (run 218) completed failure; its only job #133106983904 has empty steps, runner_id 0 and zero hosted assertions. The supported run/job payload does not expose a root-cause log. Historical BlobNotFound is not asserted as the cause of this specific run without log evidence; no retry was attempted. The local Python 24-test module is byte-identical to the corrected test-file blob; the locally reconstructed checker copy was not byte-for-byte blob-verified, so local tests are not represented as hosted CI evidence.
