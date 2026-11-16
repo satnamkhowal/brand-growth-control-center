@@ -95,3 +95,65 @@ Official sources:
 - MeitY vacancy index: https://www.meity.gov.in/offerings/vacancies
 - Technical notice PDF: https://www.meity.gov.in/static/uploads/2026/11/032b92c51d45d44365455c98ea37b0eb.pdf
 - Non-technical notice PDF: https://www.meity.gov.in/static/uploads/2026/11/53935d4075991e5c3f211f053b583270.pdf
+
+
+## 2026-11-16 09:03 IST — News Factory cycle 11
+
+### Four-lane research result
+
+**1) Official programmes, internships, scholarships and grants**
+- Google Careers still lists **Student Researcher, 2027** as India / Remote eligible, with a **4 December 2026** deadline and rolling review. Minimum qualification remains current enrolment in a Bachelor's, Master's or PhD programme in the listed disciplines plus experience in a relevant computer-science research area. Existing owner: Forsk PR #146.
+- NeGD still lists the separate Technical and Non-Technical Winter 2026 internships in Delhi-NCR with **20 November 2026** deadlines. Existing owners: Forsk PR #225 and #180. Official pages were rechecked; no form submission or response-acceptance test was performed.
+- IIIT Kottayam Network Science Research Lab still lists a **20 November 2026** deadline, **25 November** start, four-week minimum, UG/PG CS/Math/Data Science eligibility and **₹5,000** fee. The live page says Online while the linked official brochure says Hybrid; retain this unresolved discrepancy. No stipend amount is stated. Existing owner: Forsk PR #227.
+- CGPDTM's current portal still displays “Batch is LIVE NOW” for the **16 November 2026** batch, but the underlying public notice is dated **27 June 2025** and describes a year-round, non-remunerative programme subject to availability. Do not call it a new November launch. Existing owner: Forsk PR #249.
+- VSSC HRDD portal status is route-specific and internally contradictory: UG BE/BTech/BSc/Diploma project-work application cut-off **15 November** has passed; INT 08 internship application is closed; INT 09 is May–July 2027 with a 15 February–15 March 2027 application window. For PG/integrated ME/MTech/MSc/BS-MS project work, the portal labels the current slot “closed” while still printing an application window ending **16 November 2026, 11:59 PM**. Do not advertise the PG route as open without confirmed form acceptance. Existing owner: Forsk PR #172.
+- NeGD Careers page 1 and page 2 currently list eight BHASHINI/DIBD Young Professional titles in Noida with a displayed **10 December 2026** deadline, and separate Delhi-NCR roles with **18 November 2026** deadlines (including Frontend Developer, Backend/Mobile, QA/Security, Platform/Security, DevSecOps, AppSec and Full Stack). The official index confirms titles, locations and dates only. Linked JD PDFs returned **403 Forbidden**, so qualifications, experience, salary, fee and application terms for the additional roles remain unverified; no new article was drafted. Existing BHASHINI article owner: Forsk PR #197.
+- AWS Education Equity Initiative remains available through an official “Apply now” route with rolling review and no fixed closing date. Its original announcement is **4 December 2024**, not a new November 2026 launch. AWS describes a global organisation-level programme; organisations new to AWS may request up to **US$10,000 in AWS Promotional Credits**, not cash. The official application requires an active AWS Account ID; a Free Tier Free Plan must upgrade to a Paid Plan; only one application can be active at a time; AWS expects to respond within about three weeks. No country-by-country list is published, so India-specific eligibility remains unconfirmed. Existing owner: Mango PR #274; status/form correction comment added.
+- NMMSS's published 15 November 2026 deadline has passed; do not present it as open on 16 November. Other existing scholarship owners remain unchanged.
+
+**2) React / frontend**
+- React's official versions page still identifies **19.3** as latest stable; GitHub release tags show **19.3.1, 19.2.9, 19.1.10 and 19.0.9**, all dated **14 October 2026**. React 19.3 feature announcement is dated **9 September 2026**. No newer stable release or new November React security advisory was found.
+- Existing owners remain Forsk PR #145 (React Server Components security catch-up) and Mango PR #202 (React 19.3 frontend features/upgrade guide). No duplicate draft.
+
+**3) Node.js / backend**
+- Latest official Node.js security bulletin remains **11 November 2026**, with patched lines **22.23.5, 24.22.3 and 26.13.1**. The bulletin lists 16 entries (7 High, 6 Medium, 3 Low); release-line applicability must remain CVE-specific.
+- **Node 27.0.0-alpha.0.1.0** was published **12 November** and remains Alpha, not LTS or a production replacement.
+- No newer official Node.js stable/security release was found. Existing owners remain Mango PR #143/#229 and Groot PR #774; no duplicate draft.
+
+**4) AI / cloud / developer news**
+- Google Cloud release notes dated **13 November 2026** include Cloud Quotas GA, Apigee X **1-18-0-apigee-9**, Gemini Enterprise A2A 3-legged OAuth with Agent Identity auth manager GA, and single-user quota limits for AI developer tools GA. Existing owners remain Mango PR #282/#283, Jaipur PR #62 and Groot PR #797.
+- GitHub Changelog's latest November entries checked remain dated **13 November** (Gemini 4 Hydrogen in Copilot, GHES support in Copilot app and selected model retirements). Existing Mango/Forsk owners remain in place.
+- AWS's 11 November “ICYMI” roundup is a recap of October launches, not a newly announced 16 November feature. No new unowned article was justified.
+
+### Repository and concurrency review
+- Central News Factory remains on existing PR #19 / branch `ops/news-factory-cycle-20261109-2209`. Current compare: **238 ahead / 5 behind main**, status diverged; PR remains OPEN/DRAFT and GitHub reports mergeable=false. Main base is `21af139cc32a7b67aab6908c61edeb5998bd4544`. No rebase, force-push or merge.
+- Mango: read README, AGENTS, `docs/agent-start-here.md`, task board, work log and integration queue. Existing News Factory owners include #143, #202, #229, #274, #282 and #283. Shared task-board/work-log paths remain occupied by active branches; no brand source write.
+- Groot: read `.agent/README.md`, DECISIONS, CURRENT-STATE, BACKLOG, `docs/ai-ops/README.md`, master task board and session handoff. Existing owners include #774 and #797 plus the established blog-factory controller. No new source write.
+- Forsk: read `README.txt`, `docs/ai-ops/MASTER_TASK_BOARD.md` and `SESSION_HANDOFF.md`; repository contract reserves board/handoff aggregation to the controller. Existing opportunity and React/Node owners were retained. No new branch or PR.
+- Jaipur: read `docs/content-radar.md`, current queue and `docs/IMAGE-PRODUCTION-WORKFLOW.md`; Auto Publish remains OFF and existing owners include #51, #56, #62, #65 and #70. No new source write.
+- No verified new story passed all primary-source, eligibility/status and duplicate gates for a fresh article. The NeGD 18 November job PDFs are blocked by official-host 403; details were not inferred from aggregators.
+
+### This-run production ledger
+| Stage | This run |
+|---|---:|
+| Research lanes checked | 4 |
+| Existing opportunities/news revalidated | 8+ |
+| New verified story suitable for an unowned draft | 0 |
+| New article drafts | 0 |
+| Existing drafts revalidated | 4 (AWS EEI, IIIT Kottayam, Google Student Researcher, Node/React release owners) |
+| New graphics / downloaded media | 0 |
+| Verified YouTube embeds | 0 |
+| New brand commits / PRs | 0 |
+| Status comments added to existing owners | 3 (Mango #274; Forsk #197 and #227) |
+| Independent QA-ready | 0 |
+| Live / merged / deployed | 0 |
+
+### Checks and blockers
+- Official React, Node.js, Google Careers, NeGD, VSSC, IIIT Kottayam and AWS sources opened/rechecked.
+- Existing repository instructions and open PR inventories reviewed before any writes.
+- No third-party graphic or video downloaded; no iframe added because no story-specific video with independently verified embed suitability was established.
+- NeGD's additional November JDs remain blocked by official media-host 403. VSSC PG project-work status remains contradictory. IIIT Kottayam delivery mode remains Online vs Hybrid between page and brochure.
+- No independent editorial/technical QA was completed in this run. No merge, deployment, publication or indexing claim.
+
+### Next action
+Recheck NeGD JD PDF access and the VSSC/IIIT application routes before any new opportunity article; independently QA the existing high-priority drafts rather than create duplicate stories.
