@@ -38,3 +38,15 @@ Coordination-only delta. Re-read Central Main README and the 2026-10-19 Groot la
 - Preserve the existing AEO/GEO PR #2 baseline and every other brand's task ownership.
 
 No Central Main change, other-brand source change, self-approval, self-merge, deployment, publication or indexing.
+
+
+## Post-checkpoint Actions follow-up — 2026-11-17 03:42 IST
+
+The Run 68 source checkpoint commit triggered another associated workflow attempt:
+
+- [Workflow run #43967732518](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43967732518), run number 252, same “Blog factory review candidates” workflow.
+- Job `133651477496` (`review-candidates`) completed/failure; job steps returned an empty array and `logs_url=null`.
+- Direct job-log fetch returned Azure Storage `BlobNotFound` HTTP 404 at `2026-11-16T22:12:33.0914241Z`.
+- Hosted assertions: 0. The underlying workflow root cause remains UNKNOWN; no retry was initiated.
+
+This second failure is recorded as a new observation, not as proof of a particular runner/storage root cause. Administrator/storage-owner diagnosis remains required before retry. All article counts, queue rows and release gates remain unchanged.
