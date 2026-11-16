@@ -223,3 +223,67 @@ Recheck NeGD JD PDF access and the VSSC/IIIT application routes before any new o
 
 ### Next action
 Have the NEC draft owner reconcile the article source-list/word-count metadata notes, then obtain independent editorial and eligibility QA plus responsive rendering. Recheck the NeGD 18 November job-description PDFs and current portal acceptance before drafting any role guide. Continue existing React/Node/AI/cloud owners without duplication.
+
+
+## 16 November 2026 — 17:45 IST cycle
+
+### Four research lanes
+
+1. **Student / developer opportunities**
+   - Google Student Researcher 2027 remains an existing Forsk owner (#146): India remote eligibility is listed; current application deadline remains 4 December 2026. No duplicate draft.
+   - CRISP Fellowship 2027 remains Jaipur Engineers PR #51: 16 two-year full-time positions across 8 states; standard remuneration ₹9 lakh/year; Indian nationals with bachelor's degree or higher and project-fit criteria; deadline 29 November 2026, 5:00 PM IST. The official portal snapshot at **16 November 2026, 5:27 PM IST** shows **2,405 total submitted applications** and **317 Rajasthan GIST applications for 2 positions**. These are submitted counts, not selection odds. Status comment added to the existing owner PR.
+   - NSP PM-USP CSSS 2026–27 fresh applications remain open through 30 November; the NSP Students announcement separately lists 31 October as the renewal student deadline and later verification dates. The scheme is longstanding, not a new launch. Existing Forsk PR #259 owns the fresh-applications guide.
+   - NeGD technical/other vacancies and winter internships remain with Forsk owners #180/#197/#225; some linked job-description PDFs still return 403, so salary/eligibility details are not inferred.
+   - **AICTE Industry Fellowship Programme 2026–27 Phase 2** is a fresh research lead reported by Indian Express (14 Nov), TOI (15–16 Nov) and India Today (16 Nov): reports describe faculty applications through 15 December, one-year industry immersion, up to 350 faculty, and ₹1 lakh/month (₹75,000 AICTE plus at least ₹25,000 industry), alongside continued parent-institution salary. However, the official ifp.aicte.gov.in portal did not return readable content in this check and no primary circular was accessible. Keep this **research-only / not independently primary-verified**; do not create an article or state the details as official until the portal or an AICTE circular is accessible.
+
+2. **React / frontend**
+   - React 19.3.1 (14 Oct) remains the latest official stable tag; no newer stable release found.
+   - Next.js November security release: seven advisories dated 3 Nov; patch tags 16.4.5 and 15.5.29; latest stable 16.4.6 (9 Nov); 16.5.0-canary.52 (15 Nov UTC) is pre-release. Existing Forsk PR #260 owns the original guide; no duplicate.
+
+3. **Node.js / backend**
+   - The official 11 Nov security bulletin remains current: patched LTS versions 22.23.5, 24.22.3 and 26.13.1; 16 CVEs (7 High, 6 Medium, 3 Low). Node 27.0.0-alpha.0.1.0 (12 Nov) remains Alpha, not production LTS. Existing Mango #143/#229 and Groot #774 ownership retained.
+
+4. **AI / cloud / developer news**
+   - Google Cloud release notes remain current through the 15 Nov Publisher Agent 2.7.2 / SOAR 6.3.107 update; Mango PR #286 owns the Publisher Agent guide. Existing Cloud Quotas, Apigee and Gemini owners retained.
+   - GitHub Changelog is current through 13 Nov in the checked listing: Gemini 4 Hydrogen GA, GHES support in Copilot app, AI Scan REST API public preview and scheduled Copilot model deprecations. Existing Mango/Forsk/Groot/Jaipur owners retained. Do not state universal Copilot model retirement without reconciling the 15 Oct schedule with current supported-model documentation.
+
+### Existing Forsk draft batch and independent review
+
+Two original draft PRs already created by the current News Factory worker tasks in this same conversation were read back and independently source-checked; this cycle did not create a third article:
+
+- [Forsk PR #259 — PM-USP CSSS 2026–27 fresh applications](https://github.com/satnamkhowal/forsk-coding-school/pull/259): OPEN/DRAFT, 5 commits ahead / 0 behind main, 3 files, mergeable. Article and metadata both contain 2,777 whitespace words; JSON parses; SVG title/description and 1200×675 dimensions present. NSP live status, scheme rates/eligibility, free direct application and ₹30 CSC assisted-service charge checked. Review comment [5919909863](https://github.com/satnamkhowal/forsk-coding-school/pull/259#pullrequestreview-5919909863) flags a PR-description-only word-count typo (2,767 vs actual/metadata 2,777). Applicant login, responsive browser and CI remain untested.
+- [Forsk PR #260 — Next.js November 2026 security guide](https://github.com/satnamkhowal/forsk-coding-school/pull/260): OPEN/DRAFT, 3 commits ahead / 0 behind main, 3 files, mergeable. Article and metadata both contain 2,251 words; seven distinct GHSA IDs match the current official GitHub security overview; release tags and support policy checked; metadata JSON parses; SVG title/description and 1200×675 dimensions present with no script or external href. Review comment [5919910227](https://github.com/satnamkhowal/forsk-coding-school/pull/260#pullrequestreview-5919910227) records targeted technical/source QA. Full editorial/security review, responsive browser QA and CI remain pending.
+
+No Actions workflow runs were returned for either PR head SHA. The PR descriptions record local PNG/WebP derivatives, but this cycle did not independently access those recorded local raster paths. No video embed was verified; no third-party media was downloaded or reuploaded.
+
+### Repository and concurrency review
+
+- Central News Factory remains PR #19 / branch ops/news-factory-cycle-20261109-2209. Before this append, compare was **240 ahead / 5 behind main**, status diverged; PR OPEN/DRAFT and mergeable=false. Only this existing append-only audit file is updated. No rebase, force-push, merge or PR-body rewrite.
+- Mango: current README, AGENTS, docs/agent-start-here.md, task board, work log and integration queue read. Existing Node.js, React, Google Cloud, AWS and Publisher Agent owners retained; no Mango write.
+- Groot: .agent/README.md, MASTER-HANDOFF, CURRENT-STATE, BACKLOG and DECISIONS read. Routine blog factory remains P3 DEFER behind P1 homepage/UX and runtime/lead QA gates; no Groot write.
+- Forsk: README.txt, docs/ai-ops/MASTER_TASK_BOARD.md, SESSION_HANDOFF.md and active PR inventory reviewed. Existing PRs #252 (NEC), #253 (BigQuery federated-query Preview), #254 (OpenAI API migration), #259 (PM-USP) and #260 (Next.js) remain distinct. Controller-owned board/session handoff and worker registry untouched.
+- Jaipur: README-INSTALL, docs/content-radar.md and current News Factory PR inventory reviewed. Existing #50 (Google APM/Silicon), #51 (CRISP) and #56 (GITAM challenge) retained. Content Radar Auto Publish remains OFF.
+- No unverified adjacent brand/repository was added.
+
+### This-run production ledger
+
+| Stage | This run |
+|---|---:|
+| Research lanes checked | 4 |
+| New primary-source opportunities suitable for an unowned draft | 0 |
+| New article files created by this run | 0 |
+| Existing worker drafts independently reviewed | 2 (Forsk #259 and #260) |
+| New original SVGs created by this run | 0 |
+| Existing original SVG sources read/checked | 2 |
+| Local PNG/WebP derivatives independently verified this run | 0 |
+| Verified YouTube embeds | 0 |
+| New brand PRs / commits | 0 |
+| Independent QA review comments | 2 |
+| Existing opportunity status comments | 1 (Jaipur #51 CRISP) |
+| Central checkpoint commits | 1 (this append) |
+| Fully independent QA-ready | 0 |
+| Live / merged / deployed | 0 |
+
+### Next action
+
+Have the Forsk owner correct the PR #259 description word-count typo; complete responsive browser and CI QA for #259/#260; test applicant-login status only with the authorised applicant; recheck AICTE's official portal/circular before drafting the faculty fellowship lead; and continue current owners without duplicate stories. No merge, deployment, publication or indexing is claimed.
