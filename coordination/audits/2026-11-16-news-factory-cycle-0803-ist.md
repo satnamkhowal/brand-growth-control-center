@@ -287,3 +287,66 @@ No Actions workflow runs were returned for either PR head SHA. The PR descriptio
 ### Next action
 
 Have the Forsk owner correct the PR #259 description word-count typo; complete responsive browser and CI QA for #259/#260; test applicant-login status only with the authorised applicant; recheck AICTE's official portal/circular before drafting the faculty fellowship lead; and continue current owners without duplicate stories. No merge, deployment, publication or indexing is claimed.
+
+
+---
+
+## 18:40 IST cycle addendum — 16 November 2026
+
+### Research findings
+
+#### Student, developer and career opportunities
+- **BHASHINI Young Professional recruitment (existing Forsk owner #197):** revalidated against the MeitY advertisement dated 10 November 2026 and the current NeGD careers listing. Eight positions are listed, one under each designation. The official notice requires at least one year of role-specific professional experience and expressly excludes internship/training experience from that minimum; maximum age is 32 on the last application date; consolidated remuneration is ₹50,000/month inclusive of all; current location is Noida with possible posting elsewhere in India; initial contract is one year or until project end, whichever is earlier. NeGD lists 10 December 2026 as the closing date. The linked Google Form was not accessible in this check; submission acceptance was not tested. Existing draft: https://github.com/satnamkhowal/forsk-coding-school/pull/197.
+- **Separate BHASHINI Manager-Admin posting:** MeitY’s 12 November notice is a different single vacancy, with a 22 November deadline, maximum age 58 and 5+ years of relevant procurement/administration experience. It is not one of the eight Young Professional roles and was not added to the Forsk YP article.
+- **NeGD technology openings:** current official Careers page lists 12 Delhi-NCR roles with an 18 November 2026 closing date, including Frontend Developer, Junior Backend/Mobile Developer, DevSecOps Engineer, Platform & Security Engineer, AppSec Specialist, QA Tester and Full Stack Developer. Every linked job-description PDF tested in this run returned 403; salary, experience and detailed eligibility therefore remain unverified. No article was drafted from the listing alone.
+- **NeGD Winter Internships:** Technical and Non-Technical listings remain open to 20 November 2026 and were posted 12 November. Existing Forsk owners #225 and #180 retained; no duplicate.
+- **KSCST 50th Student Project Programme:** official submission window is 21 September–30 November 2026, 5 PM, but proposals are accepted only from eligible final-year students at institutions established in Karnataka. The programme page describes modest financial support without a fixed current award amount. The adjacent Mango PR #265 already covers a student-project opportunity, and this Karnataka-only call has weak geo-fit for the verified Jaipur audience; research retained, no new article.
+- **PM-USP CSSS, Google Student Researcher 2027 and CRISP Fellowship 2027:** existing Forsk/Jaipur owners retained; no new article or status claim made without a new portal snapshot.
+
+#### React / frontend
+- React GitHub release list still shows 19.3.1 (14 October 2026) as latest stable; 19.3.0 is dated 9 September. No newer stable release or new 16 November security advisory found.
+- Next.js November advisories remain covered by existing Forsk PR #260. No duplicate.
+
+#### Node.js / backend
+- Node.js official blog still lists 26.13.1, 24.22.3 and 22.23.5 as the 11 November security releases, with 27.0.0-alpha.0.1.0 dated 12 November as Alpha only.
+- The 11 November bulletin lists 16 patched vulnerability entries: 7 High, 6 Medium and 3 Low. No newer stable/security release found. Existing Mango/Groot owners retained.
+
+#### AI / Cloud / developer news
+- **Microsoft AB-100 exam skills update:** effective 16 November 2026. Current official weights: Plan 35–40%, Design 30–35%, Deploy 20–25%. The study guide says the planning and design shares increased while deployment decreased. Passing score 700; no retirement date listed; Expert certification requires AB-100 plus at least one of 15 listed Associate prerequisites. English is listed; Hindi is not. Price is country/region-based; exact India amount was not visible in the current official page view. A new Forsk draft was created as PR #261.
+- **GitHub Copilot model retirement:** the scheduled 16 November date is stated in the existing Forsk PR #185. However, the current supported-models documentation still lists Claude Opus 4.8, Claude Opus 5 and GPT-5.6 Terra as GA. Actual account/client rollout is therefore not confirmed; article language must retain this caveat.
+- GitHub Changelog’s latest surfaced November entries are dated 13 November; no newer official AI/developer release found in this run.
+
+### Repository and ownership review
+- Central News Factory branch ops/news-factory-cycle-20261109-2209 is 241 commits ahead / 5 behind main and remains diverged. No rebase or merge performed.
+- Mango repository task board, AGENTS/start instructions, work log and integration queue reviewed. Existing student-project article PR #265 and other active workers retained; no shared task-board edit.
+- Groot .agent README, backlog, current state and master handoff reviewed. Routine blog factory remains P3 deferred behind P1 homepage/UX and runtime/lead QA gates; no Groot write.
+- Forsk README.txt, docs/ai-ops/MASTER_TASK_BOARD.md, SESSION_HANDOFF.md, current main and active PR ownership reviewed. Controller-owned board/handoff untouched. Existing BHASHINI #197 and Copilot #185 retained.
+- Jaipur README-INSTALL, Content Radar and current PR ownership reviewed. Existing CRISP #51 retained; Auto Publish remains OFF.
+
+### New draft implementation — Forsk Coding School
+- Draft PR: https://github.com/satnamkhowal/forsk-coding-school/pull/261
+- Branch: news-factory/forsk-ab100-exam-update-20261116-1840
+- Base: current Forsk main SHA 521455ae974948db9775102f7d210ad3b7664f7d.
+- Two files: one original English article (2,105 words) and one JSON source/QA metadata sidecar.
+- Video: Microsoft Learn verified YouTube channel, ID PXrv_8v65hk, published 3 August 2026. This is a course preview, not the 16 November exam update. Embed permission could not be verified, so only a fallback link is recorded; no iframe and no video download.
+- Media: no graphic added. Forsk’s current workflow defers P3 blog-image work behind 12 P0 missing course-image references. No third-party asset downloaded or assumed reusable.
+- Read-back confirmed both files on the new branch; metadata JSON parses; exactly two changed files; no iframe. Independent editorial, responsive/browser and CI QA remain pending. India-specific exam booking price and live booking were not tested.
+
+### This-run production ledger
+| Stage | Count |
+|---|---:|
+| Research lanes | 4 |
+| Fresh primary-source stories suitable for new unowned drafts | 1 (Microsoft AB-100 exam update) |
+| New article drafts | 1 |
+| New original graphics | 0 |
+| Third-party graphics downloaded | 0 |
+| Verified YouTube embeds | 0 |
+| Verified video fallback links | 1 |
+| New brand Draft PRs | 1 (Forsk #261) |
+| Existing PR status/research comments | 2 (Forsk #197, #185) |
+| Central checkpoint commits | 1 (this append) |
+| Independent QA-ready | 0 |
+| Live / merged / deployed | 0 |
+
+### Next action
+Independent editorial and responsive/browser QA for Forsk #261; confirm India-local AB-100 fee only in the official booking flow; recheck NeGD job-description PDF access before writing a vacancy roundup; continue existing React/Node/AI owners without duplicate drafts. No merge, deployment, publication or indexing is claimed.
