@@ -79,3 +79,19 @@ Sources:
 - MeitY Startup Hub homepage / Cohort 3 announcement: https://msh.meity.gov.in/
 - AIC ISB participating incubator page (deadline and conditional up-to-₹10 lakh support): https://aicisb.org/meity-genesis-eir/
 - Official MSH application route (JS-rendered; form state not readable): https://mshportal.meity.gov.in/ext/form/23966/1/apply
+
+
+## NeGD stipend detail — 16 November 2026
+
+The two Winter 2026 internships remain separate:
+- Technical: the MeitY-hosted official PDF states **₹20,000/month**, conditional on satisfactory performance and mentor certification after each 30-day period; regular-term duration is six months and short-term duration two months. The application deadline is **20 November 2026**.
+- Non-technical: the MeitY-hosted official PDF states **₹15,000/month**, but remuneration is paid only after completion of the full tenure and acceptance of the submitted report. The application deadline is **20 November 2026**.
+
+Publication-date distinction: the individual NeGD job pages display 12 November 2026, while the MeitY vacancy index lists 11 November 2026. Existing Forsk PRs #225 and #180 remain the respective owners; the linked forms were not submitted and live response acceptance was not tested.
+
+Official sources:
+- Technical listing: https://negd.gov.in/jobs/technical-internship-winter-programme-2026/
+- Non-technical listing: https://negd.gov.in/jobs/non-technical-internship-winter-programme-2026/
+- MeitY vacancy index: https://www.meity.gov.in/offerings/vacancies
+- Technical notice PDF: https://www.meity.gov.in/static/uploads/2026/11/032b92c51d45d44365455c98ea37b0eb.pdf
+- Non-technical notice PDF: https://www.meity.gov.in/static/uploads/2026/11/53935d4075991e5c3f211f053b583270.pdf
