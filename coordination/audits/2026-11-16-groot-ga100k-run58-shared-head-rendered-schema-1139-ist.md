@@ -11,7 +11,7 @@ Source follow-up: [PR #813](https://github.com/satnamkhowal/grootacademy.com/pul
 - PHP 8.4.24 lint and both rendered fixture modes pass. Draft mode emits `noindex,follow`, one canonical, exactly one BlogPosting and one BreadcrumbList, and no article date meta/schema fields. Dated mode emits `index,follow`, one canonical, one BlogPosting and one BreadcrumbList, plus the two expected date meta/schema fields.
 - The local fixture stubbed root `head.php` and `includes/site-paths.php` to isolate the shared partial. This is not full-root/article rendering, PHP 8.0 hosted CI, browser/AT, HTTP/MIME or release approval.
 - The exact GA-B00006 source/metadata pair on PR #785 still has four genuine mismatches (robots, date_published, date_modified, display_date); the featured-image ALT matches. Source-owner reconciliation is still pending under the existing #755 date-less/noindex draft contract.
-- Source PR #813 is OPEN/DRAFT, 8 commits / 4 files, stacked on PR #811, and GitHub currently reports mergeable=false. No merge or source-owner branch edit.
+- Source PR #813 is OPEN/DRAFT with four intended files, stacked on PR #811, zero independent reviews; latest GitHub read-back reports mergeable=true. No merge or source-owner branch edit.
 
 ## Current source and queue state
 
