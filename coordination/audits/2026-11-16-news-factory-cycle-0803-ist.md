@@ -68,3 +68,14 @@ Metadata JSON parse, SVG XML parse, PNG/WebP decode and 1200×675 dimensions pas
 ## Next action
 
 After Mango PRs #282/#283 release the shared task-board/work-log paths, claim the Google SecOps 2.7.2 draft as a distinct News Factory task and open an isolated draft PR. Independently QA the two local drafts before any merge or publication decision.
+
+
+## Additional opportunity status correction — 16 November 2026
+
+**GENESIS EIR Cohort 3 is closed, not a current opening.** The MeitY Startup Hub homepage still carries a stale “call live” description, but the cohort was launched on 4 August 2026 and the published application deadline was **3 September 2026**. A participating GENESIS incubator (AIC ISB) lists financial assistance of up to **₹10 lakh**, subject to approval and tranche conditions, and the same 3 September closing date. The official MSH application route is on the government domain but renders a JavaScript shell in this check, so its current form state could not be read. Do not publish it as open or newly announced; wait for a new official cohort call.
+
+Sources:
+- MeitY Startup Hub GENESIS scheme: https://msh.meity.gov.in/schemes/genesis
+- MeitY Startup Hub homepage / Cohort 3 announcement: https://msh.meity.gov.in/
+- AIC ISB participating incubator page (deadline and conditional up-to-₹10 lakh support): https://aicisb.org/meity-genesis-eir/
+- Official MSH application route (JS-rendered; form state not readable): https://mshportal.meity.gov.in/ext/form/23966/1/apply
