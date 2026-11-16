@@ -46,3 +46,6 @@ After documentation/checkpoint-only updates, source PR #811 head is `5841ed32889
 
 
 After run 220, source PR #811 advanced to head `333739c6510a7e58c6c8a49b12e28401cd142e16`. Compare from the run-220 head `5841ed3288931c1865c99e4b43f829e62fed6510` shows only README, CONTROLLER.json and QA-report changes; the test/checker code is unchanged. No workflow result exists for this latest docs-only head.
+
+
+Third source workflow observation: run [#43810102920](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43810102920), run 223, head `f24931bbd6ee3558bc22cea5eaf8ff44e1ee7c24`, job #133109651053. It also failed before steps (empty steps, runner_id 0, zero hosted assertions); root cause is not exposed. No retry was attempted. This is recorded as a repeated pre-step environment failure pattern, not attributed to Azure without logs.
