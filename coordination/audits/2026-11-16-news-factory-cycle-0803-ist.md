@@ -350,3 +350,16 @@ Have the Forsk owner correct the PR #259 description word-count typo; complete r
 
 ### Next action
 Independent editorial and responsive/browser QA for Forsk #261; confirm India-local AB-100 fee only in the official booking flow; recheck NeGD job-description PDF access before writing a vacancy roundup; continue existing React/Node/AI owners without duplicate drafts. No merge, deployment, publication or indexing is claimed.
+
+
+### KSCST 50th Series — guideline PDF verification supplement
+A direct read of the official 9-page 50th Series guideline PDF clarified the exact conditions:
+- Institutions and universities must be established within Karnataka; final-year students must be in B.E., B.Arch., M.Tech., M.Sc., M.Sc./M.Tech. Agriculture, MBA or MCA.
+- Maximum four students per team; one proposal per team and one project per student; maximum two guides.
+- Project Guide, HOD and Principal/institutional endorsement and signatures are required.
+- The institution must have no outstanding Utilization Certificate / Statement of Expenditure submissions for previously sanctioned SPP projects.
+- Processing fee is ₹1,180 per project, inclusive of GST, payable by NEFT/UPI; it is non-refundable and non-transferable.
+- The call does not publish a fixed standard sponsorship amount. Selected project sanction amounts are determined through evaluation and transferred to the institution.
+- The 50th Series deadline remains 30 November 2026, 5:00 PM.
+
+The current 50th Series guideline PDF was directly opened; this replaces any inference from the prior 49th Series rules. The call remains held from brand drafting because of Karnataka-only institutional eligibility, the existing Mango student-project article cluster and Jaipur geo-fit.
