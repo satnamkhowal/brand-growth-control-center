@@ -38,3 +38,8 @@ No owner reassignment, other-brand source edit, self-approval, merge, deployment
 ## Hosted workflow follow-up
 
 Source PR #811 exact-head Actions run #43809256895 (run 218) completed failure; its only job #133106983904 has empty steps, runner_id 0 and zero hosted assertions. The supported run/job payload does not expose a root-cause log. Historical BlobNotFound is not asserted as the cause of this specific run without log evidence; no retry was attempted. The local Python 24-test module is byte-identical to the corrected test-file blob; the locally reconstructed checker copy was not byte-for-byte blob-verified, so local tests are not represented as hosted CI evidence.
+
+
+## Current-head CI follow-up
+
+After documentation/checkpoint-only updates, source PR #811 head is `5841ed3288931c1865c99e4b43f829e62fed6510` (OPEN/DRAFT, mergeable true, 7 commits, 4 files, zero independent reviews). Exact-current-head Actions run [#43809801881](https://github.com/satnamkhowal/grootacademy.com/actions/runs/43809801881), run 220, also failed before steps: job #133108683319 has empty steps, runner_id 0 and zero hosted assertions. Earlier run #43809256895 (run 218) had the same pre-step pattern on the prior head. The supported payload does not expose root cause; no Azure attribution or retry is made. Changes after run 218 were documentation/controller/report only; run 220 tested the updated head.
