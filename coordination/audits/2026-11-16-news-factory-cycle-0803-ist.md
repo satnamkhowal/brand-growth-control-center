@@ -363,3 +363,7 @@ A direct read of the official 9-page 50th Series guideline PDF clarified the exa
 - The 50th Series deadline remains 30 November 2026, 5:00 PM.
 
 The current 50th Series guideline PDF was directly opened; this replaces any inference from the prior 49th Series rules. The call remains held from brand drafting because of Karnataka-only institutional eligibility, the existing Mango student-project article cluster and Jaipur geo-fit.
+
+
+### NeGD opening-count correction
+The 18 November 2026 NeGD Delhi-NCR vacancy list contains **11** role listings, not 12. The separate Young Professional: AI Engineer listing on the same page is dated 10 December 2026 and belongs to the BHASHINI Young Professional group, not the 18 November vacancy batch. All 11 job-description PDFs linked from the 18 November list returned 403 during this run; detailed eligibility and remuneration remain unverified.
