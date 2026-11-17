@@ -61,3 +61,8 @@ No approval or release is implied by this coordination report.
 - PR #831 exact-head run [44054627061](https://github.com/satnamkhowal/grootacademy.com/actions/runs/44054627061), job `133940685219`: conclusion failure before any step; `steps=[]`, `logs_url=null`, hosted assertions 0. Job-log retrieval returned Azure Storage `BlobNotFound` HTTP 404 at `2026-11-17T09:25:44.3618637Z`.
 - PR #817 checkpoint run [44055373663](https://github.com/satnamkhowal/grootacademy.com/actions/runs/44055373663), job `133943255891`: same pre-step failure; `steps=[]`, `logs_url=null`, hosted assertions 0. Job-log retrieval returned Azure Storage `BlobNotFound` HTTP 404 at `2026-11-17T09:25:45.7205844Z`.
 - These are runner/log-provisioning failures, not test assertion results. Root cause remains UNKNOWN; repository administrator/storage owner diagnosis is required. No retry was made.
+
+
+## Regression test refinement
+
+The committed test now separates the no-false-positive case (a literal `=>` inside a value string must not imply a metadata key) from the positive nested-literal-key case. Updated coordinator helper differential: **11/11 PASS**; value-reader differential remains **5/5 PASS**; inserted helper and test-method AST parsing PASS. This remains focused coordinator evidence, not the complete committed suite or independent QA.
