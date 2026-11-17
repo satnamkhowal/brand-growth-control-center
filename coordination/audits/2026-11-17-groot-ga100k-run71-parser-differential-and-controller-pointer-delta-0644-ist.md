@@ -45,3 +45,17 @@ Scope: coordination-only evidence. No Central Main, Groot production source or o
 | Jaipur mapping | Existing JE/central mapping owners | Unresolved | Record social, production website and deployed-origin roles with evidence |
 
 No Central Main write, source-owner edit, other-brand implementation, owner reassignment, self-approval, merge, deployment, publication or indexing. Central PR #27 remains Draft pending independent review.
+
+
+## Post-checkpoint Main protection verification — 2026-11-17 06:44 IST
+
+Fresh GitHub branch-object read on exact Main SHA `78edc3af373cdbaf634c7111fa349864dd55be8a`:
+
+- `GET /repos/satnamkhowal/grootacademy.com/branches/main` returned `protected:false`.
+- The same response reports `protection.enabled:false`, required-status-check enforcement `off`, and empty required-check/context lists.
+- `GET /branches/main/protection` returned HTTP 403 `Resource not accessible by integration`.
+- `GET /rulesets` returned HTTP 403 because GitHub requires Pro or a public repository. Keep the repository private; do not change visibility. Effective ruleset coverage is **UNVERIFIED**, not absent.
+
+Current classic Main branch protection and required checks are not enabled. Treat as a P1 release-governance risk, not a confirmed production outage. Existing tracker [Groot issue #570](https://github.com/satnamkhowal/grootacademy.com/issues/570) is the owner action: repository owner/admin must configure private-compatible PR-only protection, at least one independent review, required checks and force-push/deletion restrictions, then verify effective enforcement. No settings were changed.
+
+Source controller follow-up commit: `852326a901e007e61ce2bfa2ec93f150305838b1`. Source PR #817 head after this checkpoint: `852326a901e007e61ce2bfa2ec93f150305838b1` (OPEN/DRAFT; independent review count remains zero).
