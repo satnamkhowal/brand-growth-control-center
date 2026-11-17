@@ -54,3 +54,10 @@ Scope: coordination-only. Source implementation and QA ownership remain in the G
 6. Jaipur mapping owner reconciles the social repository and candidate website against deployed origin without deleting either workstream.
 
 No approval or release is implied by this coordination report.
+
+
+## Post-checkpoint hosted workflow evidence (tool-reported 2026-11-17T09:25:44Z–09:25:45Z)
+
+- PR #831 exact-head run [44054627061](https://github.com/satnamkhowal/grootacademy.com/actions/runs/44054627061), job `133940685219`: conclusion failure before any step; `steps=[]`, `logs_url=null`, hosted assertions 0. Job-log retrieval returned Azure Storage `BlobNotFound` HTTP 404 at `2026-11-17T09:25:44.3618637Z`.
+- PR #817 checkpoint run [44055373663](https://github.com/satnamkhowal/grootacademy.com/actions/runs/44055373663), job `133943255891`: same pre-step failure; `steps=[]`, `logs_url=null`, hosted assertions 0. Job-log retrieval returned Azure Storage `BlobNotFound` HTTP 404 at `2026-11-17T09:25:45.7205844Z`.
+- These are runner/log-provisioning failures, not test assertion results. Root cause remains UNKNOWN; repository administrator/storage owner diagnosis is required. No retry was made.
