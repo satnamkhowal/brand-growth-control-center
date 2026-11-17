@@ -35,7 +35,7 @@ Scope: current-main and ownership delta only; no repeated AEO/GEO crawl and no o
 
 - [Groot PR #848](https://github.com/satnamkhowal/grootacademy.com/pull/848) is an OPEN/DRAFT child of #847, limited to two existing QA files. Exact #847 helper review reproduced three classification gaps: explicit foreign `@vocab` with bare BlogPosting over-accepted; valid schema.org term aliases under-recognized; trailing-slash `/BlogPosting/` IRI over-accepted.
 - Bounded local term/compact-IRI expansion and context ordering/reset handling were added with nine regression tests.
-- Coordinator-run Python 3.13.5 focused differential: 15/15 context cases and 4/4 inherited `@graph` cases PASS; helper and nine inserted test methods AST parse PASS.
+- Coordinator-run Python 3.13.5 focused differential: 15/15 context cases, 4/4 inherited `@graph` cases and 5/5 additional top-level-array/nested-graph alias inheritance, child override/reset and ordered-context cases PASS (24/24 total); helper and nine inserted test methods AST parse PASS.
 - This is not the committed full suite, PHP 8.0, hosted CI, independent QA or release approval. PR #847/#848 have zero independent reviews. Parent #847 Actions run `44166227355` failed before steps with Azure BlobNotFound HTTP 404; hosted assertions 0. Administrator diagnosis required; no blind retry.
 - No article, bitmap image, PHP candidate, production file, registry, sitemap, route, deployment or publication change in Run 92.
 
