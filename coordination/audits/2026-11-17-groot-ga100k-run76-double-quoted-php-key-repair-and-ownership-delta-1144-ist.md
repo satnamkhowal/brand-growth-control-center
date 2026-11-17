@@ -20,7 +20,7 @@ Run 75's exact PR #788 parser finding was addressed in isolated child [Groot PR 
 - Escaped/interpolated double-quoted keys are treated as ambiguous and fail closed; escaped/interpolated values are not guessed.
 - Regression coverage spans all three date keys with null, empty and ISO values, plus dynamic/escaped key and value cases.
 - Coordinator-focused Python 3.13.5 harness: 9/9 safe cases, 2/2 ambiguous-key cases and 2/2 ambiguous-value cases PASS. Inserted unittest AST parse PASS. PHP 8.4.24 syntax/runtime fixture PASS.
-- PR #827 is OPEN/DRAFT with zero independent reviews. The complete committed suite, PHP 8.0, hosted Actions assertions and independent review remain pending. Prior hosted Actions failures were before steps with Azure BlobNotFound; no blind retry was made.
+- PR #827 is OPEN/DRAFT with zero independent reviews. The complete committed suite, PHP 8.0 and independent review remain pending. New Actions evidence: PR #827 run `44030546277` / job `133861153757` and PR #817 run `44030797345` / job `133861991222` both completed failure before steps (`steps=[]`); log retrieval returned Azure `BlobNotFound` HTTP 404 at `2026-11-17T06:24:56Z`. Hosted assertions executed: 0. This is runner/log-storage initialization failure, not a parser/test assertion failure; administrator/storage-owner diagnosis is required, no blind retry.
 
 The parent PR #788 remains OPEN/DRAFT with zero reviews/review threads. Separate PR #755 date-less/noindex contract review remains mandatory before source-owner reconciliation of GA-B00006's four PHP/metadata fields.
 
