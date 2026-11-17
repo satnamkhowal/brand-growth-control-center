@@ -78,3 +78,10 @@ Updated PR #831 head: `0fdc4916157698fb448b05ace506e49a1daeb034`, five commits, 
 ## Final Run 79 regression refinement
 
 The no-false-positive fixture now also places literal `...` and `=>` inside a PHP string value; the scanner must not treat either as array unpacking/key syntax. Inserted test-method AST parse PASS and updated coordinator helper differential **14/14 PASS**. Value-reader remains **7/7 PASS**; PHP 8.4.24 lint PASS; array-unpack/union/array-merge runtime **3/3 PASS**; prior direct computed-key runtime **6/6 PASS**. Full committed suite, PHP 8.0 and independent review remain pending.
+
+
+## Post-checkpoint current-Main delta
+
+- Main advanced from `0f3b7a1c53f2c7ccabb7c3fa5141967f382ac61e` to `388e4a7058ce02897110b3ed114ccd441e2a5875` (commit timestamp `2026-11-17T09:29:28Z`, message “Clarify empty roadmap search state”).
+- Compare: 1 ahead / 0 behind; only `career-roadmaps-2027.php` changed. No blog-factory, recovery QA, shared blog layout/schema, registry, sitemap, route or queue overlap.
+- No rebase or Main write; the controller branch and stacked QA child remain isolated.
