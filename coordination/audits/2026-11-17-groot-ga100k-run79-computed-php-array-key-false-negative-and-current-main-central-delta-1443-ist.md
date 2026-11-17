@@ -73,3 +73,8 @@ The committed test now separates the no-false-positive case (a literal `=>` insi
 A further false-negative was reproduced after the computed-key repair: PHP array unpacking (`[...$dates]`), array union (`['robots' => ...] + $dates`) and a computed top-level `$blog = array_merge(...)` assignment can inject `date_published` without a direct literal key. PHP 8.4.24 runtime confirmed all three patterns (3/3). The bounded reader now rejects array unpacking, unsupported top-level blog assignments and root-array trailing expressions; direct static arrays remain supported.
 
 Updated PR #831 head: `0fdc4916157698fb448b05ace506e49a1daeb034`, five commits, two QA files, OPEN/DRAFT, mergeable, zero independent reviews. Updated coordinator checks: Python helper 13/13, value reader 7/7, inserted AST parse PASS, PHP 8.4.24 lint PASS, array-unpack/union/array-merge runtime 3/3, prior direct computed-key runtime 6/6. Full committed suite and PHP 8.0 remain pending. This is still coordinator-run focused evidence, not independent approval.
+
+
+## Final Run 79 regression refinement
+
+The no-false-positive fixture now also places literal `...` and `=>` inside a PHP string value; the scanner must not treat either as array unpacking/key syntax. Inserted test-method AST parse PASS and updated coordinator helper differential **14/14 PASS**. Value-reader remains **7/7 PASS**; PHP 8.4.24 lint PASS; array-unpack/union/array-merge runtime **3/3 PASS**; prior direct computed-key runtime **6/6 PASS**. Full committed suite, PHP 8.0 and independent review remain pending.
