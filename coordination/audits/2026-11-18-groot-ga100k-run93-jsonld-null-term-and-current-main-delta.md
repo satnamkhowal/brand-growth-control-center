@@ -9,7 +9,7 @@
 - Groot current Main: `388e4a7058ce02897110b3ed114ccd441e2a5875`. Latest commit is outside `marketing/blog-factory`; no article/shared-head/registry/sitemap/queue overlap.
 - Controller successor PR #846 head: `6ce2d57beca61aad6c8aef3d53905afc68ff48eb`; Run 93 checkpoint is proposed in child PR #850.
 - QA child PR #849 head: `fb6f952dde4f26ee0dbba962bf517493dea5a9cd`, based on exact #848 head `e97e56eb2d47e4bdb562d3edfb03e703799ddf15`. It closes two reproduced false positives in the JSON-LD BlogPosting predicate: slash-normalized schema.org context lookalikes and explicit null term fallback to `@vocab`.
-- Coordinator-side focused Python 3.13.5 helper differential: 15/15 expected outcomes. This is not the committed full suite, PHP 8.0, hosted CI or independent approval. PR #849/#848/#847 have zero submitted reviews.
+- Coordinator-side focused Python 3.13.5 helper differential: 18/18 expected outcomes. This is not the committed full suite, PHP 8.0, hosted CI or independent approval. PR #849/#848/#847 have zero submitted reviews.
 - Parent #847 Actions run 44166227355/job 134332904835 failed before steps; Azure BlobNotFound HTTP 404, hosted assertions 0. Administrator/storage-owner diagnosis is still required; no retry.
 - GA-B00006 remains `PUBLISH_PR` with four PHP/metadata differences; independent #755 date-less/noindex approval is still a prerequisite.
 
@@ -40,3 +40,10 @@
 5. Central mapping owner reconciles Jaipur repository roles with deployed-origin evidence.
 
 No Central Main write, source implementation in another brand, owner reassignment, merge, deployment, publication or indexing occurred.
+
+
+### Run 93 follow-up — 2026-11-18 03:43 IST
+
+- Two additional committed tests cover an inherited null term inside `@graph` and a child-context mapping that overrides that inherited null term. Coordinator-side graph differential 3/3; combined focused helper differential 18/18.
+- QA PR #849 latest head is `e6ee0c5fce422f336f362ffd8a6cb3c3c56151eb`; it remains OPEN/DRAFT with no independent review. Controller checkpoint PR #850 is OPEN/DRAFT.
+- No queue or article changes. The 29-ID queue and 23/23/23 draft/visual/PHP-candidate ledger remain unchanged; approved/published/live remain 0/0/0.
