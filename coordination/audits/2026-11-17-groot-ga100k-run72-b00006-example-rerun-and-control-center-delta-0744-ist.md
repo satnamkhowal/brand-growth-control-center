@@ -34,3 +34,8 @@
 5. Central coordinator reconciles the missing Groot owner/status row and Jaipur repository-role mapping through normal review, without this audit assigning owners.
 
 No Central Main write, source ownership change, other-brand implementation, self-approval, merge, deployment, publication or indexing.
+
+
+## Full-checkout blocker recorded during Run 72
+
+A direct `git ls-remote https://github.com/satnamkhowal/grootacademy.com.git` attempt exited 128 with `Could not resolve host: github.com`. The complete checkout is not mounted in the local runtime. GitHub's file-content API was available for exact-file reads, but it does not provide a working local repository tree here. Therefore the full committed PR #788 suite was not executed; this is an environment/network blocker, not a test failure or PASS. Resume on a runtime with a complete checkout and network access, then run the exact PR #788 head suite and independent review.
