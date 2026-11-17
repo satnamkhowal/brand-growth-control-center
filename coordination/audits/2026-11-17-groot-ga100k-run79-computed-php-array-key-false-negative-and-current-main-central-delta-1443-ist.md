@@ -66,3 +66,10 @@ No approval or release is implied by this coordination report.
 ## Regression test refinement
 
 The committed test now separates the no-false-positive case (a literal `=>` inside a value string must not imply a metadata key) from the positive nested-literal-key case. Updated coordinator helper differential: **11/11 PASS**; value-reader differential remains **5/5 PASS**; inserted helper and test-method AST parsing PASS. This remains focused coordinator evidence, not the complete committed suite or independent QA.
+
+
+## Additional PHP array-injection gap (Run 79 extension)
+
+A further false-negative was reproduced after the computed-key repair: PHP array unpacking (`[...$dates]`), array union (`['robots' => ...] + $dates`) and a computed top-level `$blog = array_merge(...)` assignment can inject `date_published` without a direct literal key. PHP 8.4.24 runtime confirmed all three patterns (3/3). The bounded reader now rejects array unpacking, unsupported top-level blog assignments and root-array trailing expressions; direct static arrays remain supported.
+
+Updated PR #831 head: `0fdc4916157698fb448b05ace506e49a1daeb034`, five commits, two QA files, OPEN/DRAFT, mergeable, zero independent reviews. Updated coordinator checks: Python helper 13/13, value reader 7/7, inserted AST parse PASS, PHP 8.4.24 lint PASS, array-unpack/union/array-merge runtime 3/3, prior direct computed-key runtime 6/6. Full committed suite and PHP 8.0 remain pending. This is still coordinator-run focused evidence, not independent approval.
