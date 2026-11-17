@@ -43,3 +43,9 @@ Controller-scoped counts remain 23 complete drafts / 23 visuals / 23 PHP candida
 5. Central mapping owner continues Jaipur social-vs-candidate-site reconciliation using deployed-origin evidence.
 
 No Central Main write, source implementation, other-brand file change, ownership reassignment, merge, deployment, publication or indexing occurred.
+
+## Run 86 implementation follow-up — PR #840
+
+A QA-only child [PR #840](https://github.com/satnamkhowal/grootacademy.com/pull/840) is stacked on exact PR #755 head `20f3452ece2dd1b5e8359c34bbc12a8834262914`. It recursively checks all parsed JSON-LD objects and nested `@graph` values for `datePublished`/`dateModified`, and adds negative fixtures for Article, NewsArticle and nested @graph. Coordinator-local fixture harness: 3/3 negative cases rejected; clean date-less BlogPosting control 1/1; inserted unittest AST parse PASS. PR #840 remains OPEN/DRAFT with zero independent reviews/threads. Exact Actions run 44112866506/job 134142894736 failed with null steps and null job log URL; hosted assertions 0. No retry or approval.
+
+PR #755 was linked to the child through comment [6952271905](https://github.com/satnamkhowal/grootacademy.com/pull/755#issuecomment-6952271905). Independent review of #840 and its #755 parent remains required before GA-B00006 metadata changes.
