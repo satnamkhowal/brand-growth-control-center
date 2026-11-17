@@ -47,3 +47,8 @@ No Central Main write, source implementation in another brand, owner reassignmen
 - Two additional committed tests cover an inherited null term inside `@graph` and a child-context mapping that overrides that inherited null term. Coordinator-side graph differential 3/3; combined focused helper differential 18/18.
 - QA PR #849 latest head is `e6ee0c5fce422f336f362ffd8a6cb3c3c56151eb`; it remains OPEN/DRAFT with no independent review. Controller checkpoint PR #850 is OPEN/DRAFT.
 - No queue or article changes. The 29-ID queue and 23/23/23 draft/visual/PHP-candidate ledger remain unchanged; approved/published/live remain 0/0/0.
+
+
+### Run 93 queue reconciliation
+
+The original planning branch, active controller successor and current Main all retain the same 29 IDs/order. Queue SHAs: original `c12a915e06c8100a350b21338311651df0f35094`; active canonical `0b0685b89c8833f9f8b49d7e223c166145082956`; Main `a42107125efd657e21f29face2b3e0392c165376`. Main's status distribution is MERGE 3 / REFRESH 2 / IDEA 13 / TECH_QA 10 / CONTENT_QA 1 and its controller snapshot reports 11 drafts. Active canonical status distribution is MERGE 3 / REFRESH 2 / IDEA 1 / PUBLISH_PR 5 / TECH_QA 17 / CONTENT_QA 1 and its controller reports 23 drafts. Do not overwrite the active queue from Main. No queue write.
