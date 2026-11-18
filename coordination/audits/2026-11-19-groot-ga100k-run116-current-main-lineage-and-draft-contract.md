@@ -47,3 +47,8 @@ No other-brand implementation, Central Main change, merge, deployment, publicati
 - Exact-head Markdown content-parity run: [44391038781](https://github.com/satnamkhowal/grootacademy.com/actions/runs/44391038781), job `135108437632`, conclusion failure.
 - Job payload has `steps=null` and `logs_url=null`; log retrieval returned Azure `BlobNotFound` HTTP 404 at 2026-11-18T20:31:48Z.
 - No Markdown parity assertion ran. Treat this as runner/log-storage initialization evidence, not an article-content failure or a test PASS. Administrator diagnosis remains required; no retry was attempted.
+
+
+## Controller checkpoint head after Run 116 commits
+
+After the Run 116 report/README/CONTROLLER and post-trigger addendum commits, the verified successor branch head is `da16abafbadda09ba4d264d02fce7f9a4f3193a2`. Comparing it with original branch head `48c1d0d6bf81d3648ead4feafe2158e23ecbde94` confirms 380 commits ahead / 0 behind, with the same merge base. The original controller branch still has no common ancestor with current Main; no Main merge is possible without owner-approved migration.
