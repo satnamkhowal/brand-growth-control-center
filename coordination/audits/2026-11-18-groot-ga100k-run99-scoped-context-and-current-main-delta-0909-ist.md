@@ -45,3 +45,12 @@ Scope: coordination-only delta. No Central Main change, no all-brand crawl, no s
 5. Central owner records Groot 100K/P0 accountability, one canonical queue writer and one independent release approver. Keep new IDs/batches HOLD.
 
 No self-approval, self-merge, deployment, publication or mass indexing.
+
+
+## Run 99 follow-up — source QA guard repaired conservatively
+
+The scoped-context false-negative reported above was addressed on the existing source PR #855 branch (no third code branch). The helper now fails closed when a term definition carries nested `@context`; two property-scoped/type-scoped regression methods were added. Exact source head `d1b94441a6649b8dd8ebda2513b867f0c3b4dec7`; PR #840 is an ancestor (20 ahead / 0 behind, two QA files).
+
+Coordinator-local Python 3.13.5 focused mirror: **4/4 PASS** (two fail-closed cases and two clean controls); inserted test-method AST parse PASS. Full committed suite remains NOT RUN. New exact-head Actions run [44233324394](https://github.com/satnamkhowal/grootacademy.com/actions/runs/44233324394), job `134563389629`, failed before steps; log fetch returned Azure BlobNotFound HTTP 404, hosted assertions 0. PR #855 remains Draft with 0 reviews/threads.
+
+Next: independent review, healthy-checkout full suite, PHP 8.0, PR #755 date-less/noindex review, then GA-B00006 release integration. No approval, merge, deployment or publication.
