@@ -37,3 +37,8 @@ Groot ledger unchanged: 23 complete drafts, 23 technical visuals, 23 PHP candida
 7. Keep new IDs HOLD until those governance/release prerequisites are met.
 
 No central Main change, other-brand source change, owner reassignment, merge, deployment, publication or indexing.
+
+
+### Additional processor limitation
+
+- PyLD is not installed. The installed RDFLib 7.5.0 JSON-LD parser raised `AttributeError: 'NoneType' object has no attribute 'get_id'` on `@propagate:false` fixtures; this was excluded from the coordinator-local 15/15 matrix and is not treated as an independent conformance result.
