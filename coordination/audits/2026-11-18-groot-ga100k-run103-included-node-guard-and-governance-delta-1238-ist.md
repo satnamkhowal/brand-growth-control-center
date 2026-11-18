@@ -58,3 +58,8 @@ Run 103 created 0 articles, 0 images and 0 PHP candidates; no queue write, sourc
 5. Central/Jaipur owners: reconcile the social-vs-website/deployed-origin mapping explicitly.
 
 No Central Main write, owner reassignment, self-approval, self-merge, deployment, publication or mass indexing.
+
+
+## Post-commit Actions readback — 12:38 IST
+
+The exact source head `dc81bb78f90d28a058bfaad208104e650c3250c7` triggered Actions run [44257891136](https://github.com/satnamkhowal/grootacademy.com/actions/runs/44257891136), job `134643875587` (`recovered-article-qa`). It completed as failure before any step: `steps: []`, `logs_url: null`; direct log retrieval returned Azure `BlobNotFound` HTTP 404 at `2026-11-18T07:25:57.6157922Z`. Hosted assertions **0**. This is infrastructure/log-artifact evidence, not a source test failure or a passing CI run. No retry without administrator/storage-owner diagnosis.
