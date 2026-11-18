@@ -40,3 +40,10 @@
 6. Reconcile the Jaipur Engineers repository/workstream mapping without assuming either `je2` or `jaipur-engieneers` is wrong.
 
 No other-brand implementation, Central Main change, merge, deployment, publication or indexing was performed.
+
+
+## Post-PR #868 hosted-runner observation
+
+- Exact-head Markdown content-parity run: [44391038781](https://github.com/satnamkhowal/grootacademy.com/actions/runs/44391038781), job `135108437632`, conclusion failure.
+- Job payload has `steps=null` and `logs_url=null`; log retrieval returned Azure `BlobNotFound` HTTP 404 at 2026-11-18T20:31:48Z.
+- No Markdown parity assertion ran. Treat this as runner/log-storage initialization evidence, not an article-content failure or a test PASS. Administrator diagnosis remains required; no retry was attempted.
