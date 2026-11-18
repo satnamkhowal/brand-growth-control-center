@@ -8,7 +8,7 @@
 - User alias `satnamkhowal/gta` resolves to `satnamkhowal/grootacademy.com`, repository ID `1375760757`.
 - Source Main observed at `a36cba9629a3d8a267b0660277967c72c02056a1`. Latest commit changes only `internship-alumni/index.php`; no blog-factory/article/queue/shared-layout/registry/sitemap overlap.
 - Source PR #855 remains OPEN/DRAFT at `16ef59949b4de4c149fad023ebf4742246e29335`, two QA files, 111 test methods, 0 independent reviews and 0 review threads. Exact-head Actions run [44303621580](https://github.com/satnamkhowal/grootacademy.com/actions/runs/44303621580) failed before steps with Azure BlobNotFound HTTP 404; hosted assertions 0. No retry.
-- Run 109's RDFLib 7.5.0 smoke is recorded as 12/12 synthetic cases; it is not W3C conformance, the full committed suite, PHP 8.0 or independent approval.
+- Run 109 recorded 12/12 parser cases; Run 110 independently extended the RDFLib 7.5.0 Dataset differential to 14/14 expected unique BlogPosting subject counts across default and named-graph quads. This is not W3C conformance, the full committed suite, PHP 8.0 or independent approval.
 - Run 110 reconciled stale Run 101 README/CONTROLLER pointers with the Run 107–109 evidence already present in source PR #863. New source checkpoint [PR #864](https://github.com/satnamkhowal/grootacademy.com/pull/864) is documentation-only and Draft.
 
 ## Queue, article and release state
@@ -34,3 +34,8 @@
 5. Keep new article IDs/batches HOLD until existing release gates and ownership are explicit.
 
 No Central Main write, ownership reassignment, other-brand source change, merge, deployment, publication or mass indexing.
+
+
+## Run 110 additional parser evidence
+
+Fresh Python 3.13.5 / RDFLib 7.5.0 Dataset differential: **14/14 expected node counts PASS** across nested property and Organization controls; type-map node/IRI values and @none; @reverse, @list, @set, @index, @id, @included and named @graph; @json literal exclusion; and @nest same-node behavior. This is parser semantic evidence only, not W3C conformance or source PR #855 approval. No source code or production files changed.
