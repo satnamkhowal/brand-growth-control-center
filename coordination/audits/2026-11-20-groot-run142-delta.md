@@ -8,11 +8,11 @@
 - User-facing alias satnamkhowal/gta resolves to repository ID 1375760757, canonical satnamkhowal/grootacademy.com; domain grootacademy.com.
 - No Mango Engineers repository, content, queue or branch is involved.
 - Current Groot source Main: 0aa396859d3af70935280275b524a51dadc48868. The latest five commits affect homepage styling, homepage alumni showcase, alumni profiles and course FAQ ordering; this run did not change Main.
-- The source controller's historical branch content/groot-100k-controller-20261016 was read before work. It remains an isolated ledger with no common ancestor to current Main; active source work continued from the exact Run141 candidate PR #909 rather than writing to the stale historical branch.
+- The source controller's historical branch content/groot-100k-controller-20261016 was read before work. Its Run41 queue snapshot is blob c12a915e06c8100a350b21338311651df0f35094 (29 IDs; GA-B00005=IDEA). The separate Run140 PR #908 candidate is blob 7f0c005fec5cd2ad1e3691864019a97d480632f3 (29 IDs; GA-B00005=CONTENT_QA) and remains the sole corrected queue candidate. The historical branch is an isolated ledger with no common ancestor to current Main; active source work continued from the exact Run141 candidate PR #909 rather than writing to the stale historical branch.
 
 ## Run142 source implementation
 
-- [Groot source PR #910](https://github.com/satnamkhowal/grootacademy.com/pull/910) is an OPEN/DRAFT child of [PR #909](https://github.com/satnamkhowal/grootacademy.com/pull/909), based on its exact head. Its current head is 205d5f16515fb79bd8b9183a52e2dd4c9709e5e4; it has 13 commits (9 source/checkpoint commits plus 4 docs-only Actions/controller checkpoint commits), 8 changed files, zero reviews and zero review threads.
+- [Groot source PR #910](https://github.com/satnamkhowal/grootacademy.com/pull/910) is an OPEN/DRAFT child of [PR #909](https://github.com/satnamkhowal/grootacademy.com/pull/909), based on its exact head. Its current head is b4a3b2a87b73d00372b74066a9b84971fe5a0346; it has 16 commits (9 source/checkpoint commits plus 7 docs-only Actions/queue-pointer checkpoint commits), 8 changed files, zero reviews and zero review threads.
 - A new GA-B00005 false-positive was reproduced: Python numeric equality treated int 101 as equal to Decimal("101") and float 101.0, producing same_key_type=false but orphan_fact_keys=[].
 - The companion also allowed a Boolean query to match an integer key and silently skipped missing ProductID values in sales_for_product().
 - Run142 changes duplicate/orphan detection to exact (type, value) pairs; validates every product/sales ProductID column and the requested filter key; rejects blank/unsupported filters; and uses exact-type matching.
