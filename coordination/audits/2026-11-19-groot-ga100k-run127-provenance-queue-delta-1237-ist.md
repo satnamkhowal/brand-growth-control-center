@@ -40,3 +40,5 @@ Next actions remain with their owners: independent GA-B00005 editorial/code/visu
 ## Post-checkpoint exact-head workflow result
 
 The updated source PR #888 head triggered workflow run [#44479493559](https://github.com/satnamkhowal/grootacademy.com/actions/runs/44479493559), job `135407980994`. It failed before steps; the step list is empty and log retrieval returned Azure `BlobNotFound HTTP 404`. Hosted assertions: 0. This is a second observed pre-step failure; no retry was triggered and administrator/storage diagnosis remains required.
+
+A further exact-head workflow run [#44479869410](https://github.com/satnamkhowal/grootacademy.com/actions/runs/44479869410), job `135409220067`, also failed before steps with an empty step list and Azure `BlobNotFound HTTP 404`; hosted assertions remain 0. No retry. This confirms the blocker persists across the updated Run 127 PR head.
