@@ -61,3 +61,15 @@ GA-B00005 remains CONTENT_QA; no PHP candidate, approval, registry/sitemap entry
 | Jaipur mapping | Existing Central mapping owner | Record production website, social repository and deployed-origin evidence separately |
 
 No source implementation, queue, central README/control board, ownership assignment, merge, deployment, publication or indexing changed in this coordination delta. No other brand files were touched.
+
+
+## Run140 delta — 2026-11-20 01:03 IST
+
+- Reused the existing Groot 100K/P0 coordination lane and the merged AEO/GEO PR #2 baseline; no fresh multi-brand crawl or duplicate AEO/GEO audit was run.
+- New source evidence: the OPEN/DRAFT Groot PR #908 queue candidate had one GA-B00005 row with 20 cells under its 19-column header. The current `validate_queue.py` used `csv.DictReader` but ignored the extra `None`-key cell. Groot Run140 repairs the candidate row, adds strict extra/missing/malformed CSV checks and six regression cases (6/6 coordinator-local PASS). The canonical Run61 PR #817 queue remains unchanged at blob `f8bd604cfe37d4b865f4ccf022ddd29e2d114694`; all 29 planning IDs/order remain intact. Source implementation and tests stay in the Groot repository; this central report records coordination only.
+- Current source Main `0aa396859d3af70935280275b524a51dadc48868` is seven commits beyond shared-head PR #867's base `9821d9a39afa6bbd992e9a9e430d2f375c8553b1`. The exact PR #867 partial patch deletes only duplicate base and placement stylesheet references; it does not delete `groot-contextual-faqs.css`. This corrects the previous Run139 report wording. PR #867 remains owner-controlled, OPEN/DRAFT and unreviewed; current-Main refresh and rendered review remain pending.
+- Central Main remains `70d500412703f605bc61354ab2c60188f06e15f9`. PR #1/#2/#3 remain merged; existing AEO/GEO PR #2 baseline is reused. Central PR #42 remains OPEN/DRAFT with independent review pending.
+- The control board still lists eight brands but only three active owner/status rows; Groot's dedicated 100K/P0 accountable owner, canonical queue writer and independent release approver remain unrecorded. Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website/deployed-origin mapping remains unresolved. No owner or repository was reassigned.
+- No Central Main write, source implementation, merge, deployment, publication or indexing occurred.
+
+**Next central action:** central owner records Groot's accountable P0 owner, canonical queue writer and independent release approver, while the existing source owners complete the GA-B00005 and shared-head review gates. Preserve the Jaipur mapping as unresolved until deployed-origin evidence is available.
