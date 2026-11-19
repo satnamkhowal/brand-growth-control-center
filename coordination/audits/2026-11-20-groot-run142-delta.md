@@ -12,7 +12,7 @@
 
 ## Run142 source implementation
 
-- [Groot source PR #910](https://github.com/satnamkhowal/grootacademy.com/pull/910) is an OPEN/DRAFT child of [PR #909](https://github.com/satnamkhowal/grootacademy.com/pull/909), based on its exact head. Its current head is 001d371b35be68d62b36c362a3a5381092d09798; it has 12 commits (9 source/checkpoint commits plus 3 docs-only Actions checkpoint commits), 8 changed files, zero reviews and zero review threads.
+- [Groot source PR #910](https://github.com/satnamkhowal/grootacademy.com/pull/910) is an OPEN/DRAFT child of [PR #909](https://github.com/satnamkhowal/grootacademy.com/pull/909), based on its exact head. Its current head is 205d5f16515fb79bd8b9183a52e2dd4c9709e5e4; it has 13 commits (9 source/checkpoint commits plus 4 docs-only Actions/controller checkpoint commits), 8 changed files, zero reviews and zero review threads.
 - A new GA-B00005 false-positive was reproduced: Python numeric equality treated int 101 as equal to Decimal("101") and float 101.0, producing same_key_type=false but orphan_fact_keys=[].
 - The companion also allowed a Boolean query to match an integer key and silently skipped missing ProductID values in sales_for_product().
 - Run142 changes duplicate/orphan detection to exact (type, value) pairs; validates every product/sales ProductID column and the requested filter key; rejects blank/unsupported filters; and uses exact-type matching.
