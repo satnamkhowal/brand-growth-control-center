@@ -107,3 +107,9 @@ Next: independent GA-B00005 editorial/code/visual review; owner-controlled PR #8
 - Central owner should record the Groot P0 owner, one queue writer and one independent release approver. Mapping owner retains the Jaipur repository-role reconciliation. Source lane continues independent GA-B00005 review and owner-controlled PR #867 refresh. No full crawl repeated.
 
 No self-approval, self-merge, deployment, publication or mass indexing.
+
+
+#### Run136 hosted-check follow-up
+
+- Run136 exact successor head `60161440f3e519af203f5439a735571001308bb2` triggered workflow 44577576379/job 135749137400, which failed before steps. Log retrieval returned Azure `BlobNotFound` HTTP 404 at `2026-11-19T17:29:43.6014949Z`; hosted assertions 0.
+- Together with parent Run135 workflow 44565032843, two successive runs show the same pre-step storage/log retrieval failure. No retry or manual dispatch was triggered; administrator/storage-owner diagnosis is required before retry.
