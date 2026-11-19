@@ -48,7 +48,7 @@ No self-approval, self-merge, deployment, publication or mass indexing.
 - Python 3.13.5 coordinator execution: script PASS; 9/9 tests in normal, `-O`, `-OO`; py_compile and focused import snippet PASS. Independent editorial/code/visual review remains pending.
 - Current shared-head PR #867 remains OPEN/DRAFT, with zero independent reviews/threads. Its current patch removes duplicate base/placement references but also removes the unique contextual-FAQ stylesheet. Existing owner comment #7011758624 requests preserving that include; no owner files were modified.
 - Source review PR [#902](https://github.com/satnamkhowal/grootacademy.com/pull/902) is OPEN/DRAFT, based on the Run123 controller branch; it changes eight factory files only and has no independent review yet. No Main-bound PR, PHP candidate, route, registry, sitemap, deployment or publication change.
-- Queue reconciliation: original planning branch and canonical Run61 queue each contain 29 ordered IDs. Run61 `blogs.csv` blob `d1f700f12ffe0fcf323f2d2b8dd67b1bfc959102` records GA-B00005=RESEARCH (Master accepted PR #68). Main and Run123 copies show IDEA and are stale/read-only. No queue write.
+- Queue reconciliation: original planning branch and canonical Run61 queue each contain 29 ordered IDs. Run61 `blogs.csv` blob `f8bd604cfe37d4b865f4ccf022ddd29e2d114694` now records GA-B00005=CONTENT_QA after one scoped canonical-row update (RESEARCH → CONTENT_QA; duplicate_check REQUIRED → DONE) following the completed brief/article/assets and coordinator self-check. All 29 IDs/order remain unchanged; the other 28 rows were not written. Main and Run123 copies show IDEA and are stale/read-only.
 
 ### Central coordination delta
 
@@ -64,6 +64,6 @@ No self-approval, self-merge, deployment, publication or mass indexing.
 - Complete drafts / technical visuals / PHP candidates: 24 / 24 / 23.
 - Independent editorial/code/visual PASS: 22 / 18 / 23.
 - Fully approved / published / live verified: 0 / 0 / 0.
-- Run134 new articles / images / queue writes: 0 / 0 / 0.
+- Run134 new articles / images: 0 / 0; canonical queue writes: 1 scoped row (GA-B00005 only).
 
 Next: obtain a distinct independent reviewer for GA-B00005 and source PR #902; source owner refreshes #867 preserving contextual FAQ CSS; then candidate/exporter and full PHP 8.0/8.4, schema, route, browser/AT, HTTP/MIME release checks. Administrator diagnosis remains required for Azure Actions BlobNotFound before any hosted retry. Keep new IDs and batch expansion HOLD. No self-approval, self-merge, deployment, publication or mass indexing.
