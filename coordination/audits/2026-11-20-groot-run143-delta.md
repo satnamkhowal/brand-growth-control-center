@@ -15,7 +15,7 @@
 
 ## Queue and release coordination
 
-- The single corrected queue candidate remains [source PR #908](https://github.com/satnamkhowal/grootacademy.com/pull/908), with 29 original planning IDs in the original order and 19 fields per row.
+- The single corrected queue candidate remains [source PR #908](https://github.com/satnamkhowal/grootacademy.com/pull/908), with 29 original planning IDs in the original order and 19 fields per row. A parsed comparison against merged planning PR #62 confirms all 29 IDs are unique and exact-order identical; merged research PR #68 contains 14 proceed proposals plus GA-B00014 as a separate in-place refresh.
 - Historical Run61 base PR #817 remains malformed and unchanged; PR #908 remains the only corrected candidate. Independent review and owner-controlled integration are still required.
 - No queue write occurred in Run143. No new queue or duplicate content lane was created.
 - Current source Main and the GA-B00006 recovery/release gates are unchanged. PR #867 owner refresh, PHP 8.0/8.4/full-root/shared-schema/canonical/robots/registry/sitemap/route/browser/accessibility/HTTP/MIME and Azure Actions BlobNotFound administrator diagnosis remain separate blockers.
