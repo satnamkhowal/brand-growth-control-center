@@ -305,3 +305,110 @@ PHP, Chromium and container runtimes remain absent, so existing rendered/browser
 - Central ownership, PR #2 AEO/GEO baseline, PR #3 coordination lane and Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate-site reconciliation are unchanged. No source implementation, merge, deployment or publishing occurred here.
 
 Exact next action: execute GA-B00024 PHP rendering and shared schema/H1 validation in a PHP-capable environment, then verify registry/route/canonical/image/internal links and both downloads over HTTP before independent release review.
+
+
+## Delta — 2026-11-09: Groot repository rename and current-main release handoff
+
+Scope remains coordination-only. Current central main is `31af61b9a796472b7eb13d6b254aa6d9dc2ecc34`; its latest commit changes the Forsk Coding School desktop-smoke checkpoint only. The main README still requires one owner per task and keeps implementation in each verified brand repository. No unchanged AEO/GEO crawl was repeated.
+
+### Repository identity and ownership
+
+- The authoritative Groot Academy controller is still the existing 100K factory, not a second content lane.
+- Its controller on `content/groot-100k-controller-20261016` identifies current repository `satnamkhowal/grootacademy.com`, GitHub repository ID `1375760757`, and records `satnamkhowal/gta` as the previous repository alias with a permanent redirect observed 2026-11-02.
+- Repository search/API resolution finds the current `grootacademy.com` repository and its existing controller branch/PR history; `gta` is not a separate current repository result. Treat this as a repository rename/alias, not a second source or a new owner.
+- Central draft PR #15 still names `satnamkhowal/gta` as the verified Groot repository. That is consistent as the old alias but should be normalized to the current GitHub name during central-owner review; do not create a duplicate task or repository mapping.
+- Central PRs #1, #2 and #3 are merged. PR #2's existing eight-brand AEO/GEO baseline and follow-up queue remain the source of truth; no duplicate baseline was created.
+- PR #13 is merged as a separate P2 Groot review-index coordination log; its deployment remains unverified and it is not evidence of 100K blog publication.
+- PR #15 remains draft/unmerged. Its draft says Jaipur Engineers' `jaipurengineers.com` repository is the same repository ID formerly named `je2`; it does not explicitly resolve the separate `jaipur-engieneers` candidate-site role. Keep that mapping open rather than infer that either source is wrong.
+
+### Groot 100K factory evidence
+
+- Planning PR #62 is merged and preserves the 29 canonical IDs; research PR #68 is merged with 14 proceed proposals and one in-place GA-B00014 refresh. GA-B00014 is not a new article.
+- The controller reports 29 unique queue IDs, 23 complete drafts, 23 authored technical visuals, 23 deterministic PHP candidates, 18 independent code passes, one refresh package, zero independent publication approvals and zero published/live-verified articles.
+- GA-B00029 is complete and has independent content/static-integration PASS. Its PHP candidate remains a review artifact; static checks are not PHP rendering, HTTP delivery, publication approval or deployment.
+- Draft PR #569 is the current-main successor, based on main `0648b79e`, with head `814e3a5161ef0b7a0acece1d8fc6a99c86b64686`. It is still open/draft and does not change production blog routes, registry or sitemap.
+
+### Current Actions blocker and next action
+
+- After the documented retry, GitHub Actions runs `42587458022` (Blog factory QA) and `42587457707` (review candidates) failed before any steps; their latest jobs had zero steps, `logs_url=null`, and log retrieval returned `BlobNotFound`.
+- Updating the review branch triggered another pair: `42629878885` (QA) and `42629878636` (review candidates). Latest jobs `129203105761` and `129203105169` again report zero steps and no log URL. The exact GitHub-side cause is not exposed; no queue, Python CI or PHP-lint result is inferred.
+- The bounded workflow itself is present and includes queue validation, exporter/guard tests, static-candidate checks and `php -l`. No speculative workflow edit was made because the failures occur before the first step.
+- Exact next action: repository Actions administrator inspects runner availability and Actions permissions/limits, then reruns PR #569. Once a real job starts, require successful PHP lint and regression/static checks, then separately complete rendered H1/TOC, BlogPosting/BreadcrumbList, canonical/internal-link/SVG/download HTTP-MIME checks and independent release review.
+- Approved/live counts remain 0/0. No self-merge, deployment, publishing, mass indexing, cross-brand implementation or ownership reassignment occurred.
+
+This delta records verified repository identity and the new pre-step CI evidence only. Central coordination remains the owner; implementation stays in Groot Academy's current repository.
+
+
+## Delta — 2026-11-09: latest PR #569 Actions diagnostics
+
+This is a coordination-only delta against central main `31af61b9a796472b7eb13d6b254aa6d9dc2ecc34`. The central README's one-owner/source-repository rule remains unchanged. Existing AEO/GEO PR #2 baseline and follow-up queue were reused; no new portfolio crawl or brand implementation was created.
+
+- Groot's canonical controller remains the existing 100K lane in repository `satnamkhowal/grootacademy.com` (repository ID `1375760757`), with `satnamkhowal/gta` retained as the previous alias. No duplicate owner or second factory was created.
+- Re-read the controller branch README, CONTROLLER.json and canonical queue. Queue validation by readback found 29 rows and 29 unique IDs, GA-B00001–GA-B00029. All original planning IDs remain intact; GA-B00014 remains a single in-place refresh.
+- Factory counts remain 23 complete original drafts, 23 authored technical visuals, 23 PHP review candidates, 18 independent code passes, zero independent publication approvals and zero live-verified articles. Static candidate checks do not imply PHP rendering or deployment.
+- Current-main successor PR #569 is still draft/unmerged. Its branch `qa/groot-100k-current-main-20261109` is based on current main `0648b79ee0775e810251192a61b8ae6d842980f4`; after this run's review-only checkpoint commits its head is `533bfdebb871d77855a3d27a7934a15196c76543`. The branch remains 0 commits behind main; only factory documentation/controller and the existing review workflow were updated. No production routes, registry, sitemap or live assets changed.
+- Latest Actions runs `42629878885` (Blog factory QA) and `42629878636` (review candidates) both failed before any step. Jobs `129203105761` and `129203105169` expose zero steps and `logs_url=null`; log retrieval returns `BlobNotFound`. The workflow YAML was read back and contains the intended queue/regression/static/PHP-lint steps. The exact GitHub-side runner/permissions cause remains unknown; no CI or PHP-lint result is inferred and no speculative workflow edit or blind retry was made.
+- Exact next action: repository Actions administrator checks runner availability and repository Actions permissions/limits. Once a real job starts, require queue/regression/static checks and PHP lint, then separately complete rendered H1/TOC, BlogPosting/BreadcrumbList, canonical/internal-link/SVG/download HTTP-MIME checks and independent release review.
+- Central PR #17 remains draft/unmerged; central PR #15 remains draft and its Jaipur Engineers candidate-site role reconciliation remains open. PRs #1/#2/#3 remain merged; the AEO/GEO baseline is not recreated. No ownership reassignment, self-merge, deployment, publishing, indexing or cross-brand file edits occurred.
+
+
+
+## Delta — 2026-11-09: checkpoint-triggered Actions retry
+
+The three review-only source checkpoint commits moved PR #569 to `533bfdebb871d77855a3d27a7934a15196c76543` (28 commits ahead / 0 behind current main `0648b79ee0775e810251192a61b8ae6d842980f4`). Because the existing workflow path filter includes `marketing/blog-factory/**`, those documentation changes scheduled another QA and candidate run; no workflow YAML was altered.
+
+- Blog factory QA run `42633981849`, job `129217185515`: failure, zero steps, `logs_url=null`, log retrieval `BlobNotFound`.
+- Review candidates run `42633981783`, job `129217184843`: failure, zero steps, `logs_url=null`, log retrieval `BlobNotFound`.
+- Job-step readbacks are empty; log fetches independently return `BlobNotFound`. The failure remains before the first workflow step. Exact GitHub-side cause is unknown; no CI/PHP result is inferred.
+- This run stopped source-branch writes after observing that the documentation-only trigger itself creates more failed workflow runs. The latest run IDs and diagnostics are recorded in the PR #569 conversation; no additional blind retry or speculative workflow edit was made.
+- The canonical queue remains 29 rows / 29 unique IDs. Factory counts remain 23 complete drafts, 23 visuals, 23 PHP candidates, 18 independent code passes, approved 0, live-verified 0. GA-B00014 remains a refresh, not a new article.
+- Exact next action: repository Actions administrator checks runner availability and repository Actions permissions/limits; then trigger one real run. Continue PHP lint, rendered schema/route/HTTP and independent release review only after the job executes.
+
+Central ownership, PR #2 AEO/GEO baseline and all other brand ownership boundaries remain unchanged. No merge, deployment, publishing, indexing or cross-brand implementation occurred.
+
+
+## Delta — 2026-11-09: PR #569 merge-scope preservation review
+
+A fresh compare of PR #569 against current main shows the successor branch 28 commits ahead and 0 behind. Its diff includes 16 deletions within the existing `marketing/blog-factory/` subtree: the legacy master/pilot/R1/worker planning documents, the 2026-10-13 audit/inventory, B0001 image and QA handoffs, and B0001 research records/hand-off/proposal CSV. These may be superseded by the consolidated controller, but they are current-main files and should not disappear without an explicit reviewer decision.
+
+Targeted readback confirms the existing GA-B00017 and GA-B00018 briefs carry their key reader intent/evidence boundaries; the PR branch does not carry the GA-B00019 research record, although its completed article and QA artifacts remain. The original proposal CSV is also absent from the successor while the canonical 29-row queue is preserved. This is a provenance/merge-scope reconciliation item, not a rejection of the 23 completed drafts.
+
+The concern was recorded as a PR #569 review comment. No files were restored or removed, no main write occurred, and no self-approval/merge/deployment was performed. Independent reviewer should mark each legacy file intentionally superseded or request restoration before merging. Central owner and brand-source ownership remain unchanged.
+
+
+## Delta — 2026-11-09: PR #569 provenance-preservation repair
+
+Coordination-only update; implementation ownership remains in Groot Academy's source repository. Read current central main README at `b93187c353f8112a57fffab4b383e64236976394`, current main audit report at blob `4b8eff4134579b6ccb1723a24ebd48eb6e0dbaa0`, open PR #17, ownership PR #15, and closed coordination PR #3. Existing AEO/GEO baseline and Jaipur mapping were not recreated or changed.
+
+- Groot's canonical source remains repository ID `1375760757`, currently named `satnamkhowal/grootacademy.com`; `satnamkhowal/gta` is its prior alias. No second Groot owner or factory was created.
+- PR #569 head `db2f89e903eb9189a1c712029337dc347e50e269` now restores six exact current-main B0001 research provenance artifacts: GA-B00005, GA-B00017, GA-B00018, GA-B00019, research HANDOFF and queue-proposals.csv. These are evidence records, not additional articles or another queue.
+- Ten other historical planning/worker/image/QA files are intentionally superseded in the active controller tree, with source blob IDs and reasons recorded in Groot's `marketing/blog-factory/reconciliation/PR569-legacy-artifact-disposition-20261109.md`. They remain in Git history. Independent reviewer decision is still required before merge; no source merge was performed.
+- Canonical queue remains 29 rows / 29 unique IDs. Factory metrics remain 23 complete drafts, 23 visuals, 23 PHP candidates, 18 independent code passes, 0 independent publication approvals and 0 live-verified articles. GA-B00014 remains an in-place refresh.
+- Newest PR #569 Actions runs `42633981849` and `42633981783` both failed before step creation; jobs `129217185515` and `129217184843` expose zero steps and no log URL, with `BlobNotFound` on log retrieval. No CI/PHP result or root cause is claimed. Exact next action: repository Actions administrator diagnoses runner availability/permissions and triggers a real job; then the independent reviewer checks the file-disposition report.
+- PR #15 remains draft; Jaipur Engineers' production/social repository-role mapping is still an open reconciliation, not a proven error. PR #3 is closed; the existing AEO/GEO PR #2 baseline is reused. No other brand files or owners were touched.
+
+No merge, deployment, publishing, indexing, ranking claim, or ownership reassignment occurred.
+
+
+## Delta — 2026-11-09: source-provenance and latest Actions cross-check
+
+- Rechecked the original planning PR #62 patch: exactly 29 unique canonical IDs, `GA-B00001`–`GA-B00029`.
+- Rechecked closed Research PR #68: 15 per-ID research records/proposal rows, comprising 14 proceed proposals and GA-B00014 as the single in-place refresh. Research records, proposal rows and refreshes are not counted as completed articles.
+- Groot PR #569 now restores six exact current-main research provenance blobs (GA-B00005/17/18/19, B0001 research HANDOFF and queue-proposals.csv). Ten other historical planning/worker/image/QA paths have documented supersession decisions in the Groot source repository at `marketing/blog-factory/reconciliation/PR569-legacy-artifact-disposition-20261109.md`. The canonical `queue/blogs.csv` remains the only operational queue.
+- PR #569 latest head is `db2f89e903eb9189a1c712029337dc347e50e269`, still draft/unmerged, 37 commits ahead / 0 behind the exact main snapshot. No production routes, registry, sitemap or deployment files changed.
+- The latest checkpoint-triggered runs `42643554008` and `42643554025` again failed before steps. Jobs `129250670708` and `129250667243` expose empty steps, no log URL and `BlobNotFound`; no CI/PHP result is inferred. Root cause remains unknown pending repository Actions administrator diagnosis.
+- Factory counts unchanged: 23 complete drafts, 23 visuals, 23 PHP candidates, 18 independent code passes, 0 independent publication approvals and 0 live-verified articles. No article was added or regenerated.
+
+Central PR #17 remains draft/unmerged. PR #15 remains draft; Jaipur Engineers production/social mapping is still open. PR #3 is closed and the existing AEO/GEO baseline is reused. No other brand owner/files, merge, deployment, publishing, indexing or ranking claim changed.
+
+
+## Delta — 2026-11-09: local PHP evidence and MIME boundary
+
+- Groot source PR #569 added `work/B0002/qa/GA-B00029-local-runtime-20261109.md` and updated its controller/README checkpoint. Local PHP 8.4.24 lint passed for the GA-B00029 candidate and exact current-main shared `blog-layout.php` / `partials/head.php` blobs. An isolated local render with stubbed site chrome passed 9/9 H1/H2/TOC/canonical/robots/BlogPosting/BreadcrumbList/date/internal-link assertions. This is not production render or independent release approval.
+- Python 3.13.5 execution: GA-B00029 SQLite tests 6/6; draft verifier 25/25 in normal, `-O`, `-OO`; compilation PASS. The fixture's ordinary/apostrophe/injection-shaped checks preserved all three fictional rows.
+- Local PHP development-server HTTP returned article 200 `text/html`, SVG 200 `image/svg+xml`, but both `.py` downloads had no Content-Type. The manifest continues to require `text/plain` or `text/x-python`; production Apache MIME remains unverified and no manifest relaxation was made.
+- GA-B00016 browser remains blocked: Chromium 144 exists but Playwright is absent; custom CDP navigation did not reach DOM assertions. Zero browser assertions; manual zoom untested.
+- Latest factory Actions runs `42646113896` and `42646113900` again failed before steps. Jobs `129259699145` and `129259698935` have empty step arrays, no log URL and `BlobNotFound`. Root cause is not exposed; repository Actions administrator intervention remains required.
+- No factory counts changed: 29 queue IDs, 23 complete drafts, 23 visuals, 23 PHP candidates, approved 0, live-verified 0. PR #569 remains draft/unmerged. No other brand source files, ownership, AEO/GEO baseline or Jaipur mapping changed.
+
+Next: independent reviewer checks the legacy-file disposition; repository administrator restores actual Actions runner/job execution; verify `.py` MIME on authorized production-equivalent Apache; then complete remaining exact-main render/HTTP and independent release gates. No merge, publishing, deployment or indexing.
