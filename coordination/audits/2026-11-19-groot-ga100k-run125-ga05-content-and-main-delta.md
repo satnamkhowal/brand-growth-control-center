@@ -38,3 +38,26 @@
 5. Central owner: record the Groot 100K/P0 accountable owner, one canonical queue writer and one independent release approver; separately reconcile Jaipur repository roles.
 
 No self-merge, deployment, publication or mass indexing is authorised by this report.
+
+
+## Run 126 delta — 2026-11-19 11:43 IST: GA-B00005 asset metadata and current-main evidence
+
+This is a bounded coordination-only delta. Central Main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; PR #1/#2/#3 remain merged. PR #28 remains OPEN/DRAFT and was not dispatched. Existing AEO/GEO PR #2 baseline and queue are reused.
+
+### Verified source changes and blockers
+
+- The `satnamkhowal/gta` alias is recorded in the Groot controller as redirecting to canonical private repository `satnamkhowal/grootacademy.com` (repository ID `1375760757`). The source implementation remains in that repository.
+- Current Groot Main advanced to `f1b9033815baebf372c8d05760d6f7f9622b546b`. The relevant `b1f486b` change adds a shared contextual FAQ helper; GA-B00005 already has a Frequently asked questions H2, so the helper is designed to suppress duplicate generated FAQs. The other new Main commit is a course-review import readiness audit, not a blog-factory source change.
+- [Source PR #886](https://github.com/satnamkhowal/grootacademy.com/pull/886) is a Draft child of Run 125 / PR #884. It corrects an existing GA-B00005 featured WebP size record from 28,832 to the verified 14,450 bytes in the image manifest and self-check. It changes five review/checkpoint files only; no article, image bytes, queue, PHP route, registry, sitemap, Main or deployment changed.
+- Exact GA-B00005 code was re-executed on Python 3.13.5: 13/13 normal, 13/13 `-O`, 13/13 `-OO`; compilation/demo PASS. Authored SVG XML/accessibility-source checks PASS; no browser/raster visual approval is claimed.
+- PR #884 exact-head workflow run 44468969341 failed before steps (job steps/log URL null); log retrieval returned Azure BlobNotFound HTTP 404. Hosted assertions: 0. Administrator diagnosis required; no blind retry.
+- PR #867 is 10 ahead / 2 behind current Main; PR #507 is 5 ahead / 2 behind. Both remain Draft and require their source owner to refresh/review. No source owner or reviewer was reassigned.
+
+### Queue, ledger and governance
+
+- Canonical queue remains the Run 61 branch, blob `d1f700f12ffe0fcf323f2d2b8dd67b1bfc959102`, with all 29 ordered IDs. GA-B00005 remains RESEARCH. Its B1 brief file exists while the queue note still says the B2 brief is pending; the canonical queue writer should reconcile the stage/note. No queue write was made.
+- Ledger unchanged: 24 complete drafts / 24 visual packages / 23 PHP candidates; independent editorial/code/visual PASS 22/18/23; fully approved/published/live 0/0/0.
+- Central control board still does not record Groot 100K/P0 accountable owner, one canonical queue writer or independent release approver. Keep this as an open governance gap; do not assign an owner from inference.
+- Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website mapping remains unresolved. PR #1/#2/#3 evidence is reused; no duplicate AEO/GEO baseline or other-brand source implementation was created.
+
+Exact next action: central owner reconciles the Groot P0 owner/queue-writer/release-approver fields and Jaipur repository-role mapping. Groot source owner handles PR #867/#507 refreshes and Azure administrator diagnosis; independent reviewer handles GA-B00005. No merge, deployment, publication or indexing is claimed.
