@@ -80,3 +80,30 @@ Next: obtain a distinct independent reviewer for GA-B00005 and source PR #902; s
 - No other brand implementation, Central Main, source Main, deployment, publication or indexing was changed.
 
 Next: independent GA-B00005 editorial/code/visual review; owner-controlled PR #867 refresh/review; then noindex/date-less PHP candidate and full PHP/schema/route/browser/AT/HTTP/MIME release gates. Azure BlobNotFound administrator diagnosis remains required before hosted retries. New IDs/batch expansion remain HOLD.
+
+
+### Run136 delta — 2026-11-19 22:39 IST
+
+#### Groot source lane
+
+- Source repository identity remains the verified alias mapping `satnamkhowal/gta` → `satnamkhowal/grootacademy.com`, repository ID 1375760757. The Run136 source successor is [PR #905](https://github.com/satnamkhowal/grootacademy.com/pull/905), Draft child of [PR #903](https://github.com/satnamkhowal/grootacademy.com/pull/903); no source Main change.
+- GA-B00005 Python preflight now rejects non-finite float keys and unhashable keys on either relationship side with row context, and an empty one-side table no longer passes uniqueness. Five regression tests were added; Python 3.13.5 example, 16/16 normal/-O/-OO tests and py_compile PASS. This is coordinator-run evidence only; independent editorial/code/visual review remains pending.
+- The existing generated bitmap and authored SVG were reused. No new article/image, canonical queue write, PHP candidate, registry/sitemap, deployment or publication change. Canonical Run61 queue remains 29 IDs; GA-B00005 CONTENT_QA.
+- Run135 Actions run 44565032843/job 135704327833 failed before steps; Azure BlobNotFound HTTP 404, hosted assertions 0. Administrator diagnosis is required before retry; none was triggered.
+- Current source Main remains `0aa396859d3af70935280275b524a51dadc48868`. PR #867 remains 10 ahead/7 behind with four intended files and zero independent reviews; its owner refresh must preserve exactly one contextual-FAQ stylesheet. Main branch API reports protection disabled and required status checks off; no settings changed.
+
+#### Central coordination
+
+- Central Main advanced from `21af139cc32a7b67aab6908c61edeb5998bd4544` to `70d500412703f605bc61354ab2c60188f06e15f9`. The new commit only links the canonical queue review PR; no implementation or ownership change.
+- Main README blob remains `b93187c353f8112a57fffab4b383e64236976394`; it still lists eight brands but only three active owner/status rows. Groot 100K/P0 accountable owner, canonical queue writer and independent release approver remain unrecorded.
+- Central PR #39 remains OPEN/DRAFT with zero independent reviews; this Run136 evidence is appended to the existing coordination-only branch. PRs #1/#2/#3 are merged; reuse the existing AEO/GEO PR #2 baseline. PR #28 remains Draft and was not dispatched.
+- Jaipur Engineers `je2` social versus `jaipur-engieneers` candidate website/deployed-origin mapping remains unresolved. Preserve both workstreams; no repository ownership inference or reassignment.
+
+#### Ledger and next action
+
+- Complete drafts / technical visuals / PHP candidates: 24 / 24 / 23.
+- Independent editorial/code/visual PASS: 22 / 18 / 23.
+- Fully approved / published / live verified: 0 / 0 / 0.
+- Central owner should record the Groot P0 owner, one queue writer and one independent release approver. Mapping owner retains the Jaipur repository-role reconciliation. Source lane continues independent GA-B00005 review and owner-controlled PR #867 refresh. No full crawl repeated.
+
+No self-approval, self-merge, deployment, publication or mass indexing.
