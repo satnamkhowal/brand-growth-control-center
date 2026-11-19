@@ -67,3 +67,16 @@ No self-approval, self-merge, deployment, publication or mass indexing.
 - Run134 new articles / images: 0 / 0; canonical queue writes: 1 scoped row (GA-B00005 only).
 
 Next: obtain a distinct independent reviewer for GA-B00005 and source PR #902; source owner refreshes #867 preserving contextual FAQ CSS; then candidate/exporter and full PHP 8.0/8.4, schema, route, browser/AT, HTTP/MIME release checks. Administrator diagnosis remains required for Azure Actions BlobNotFound before any hosted retry. Keep new IDs and batch expansion HOLD. No self-approval, self-merge, deployment, publication or mass indexing.
+
+
+### Run135 delta — 2026-11-19 21:40 IST
+
+- Source successor [PR #903](https://github.com/satnamkhowal/grootacademy.com/pull/903) is OPEN/DRAFT, stacked on Run134 PR #902. It repairs a reproduced GA-B00005 Python preflight false-negative: empty and whitespace-only text keys were treated as valid keys because only `None` counted as blank.
+- Exact fetched GitHub blobs were executed with Python 3.13.5: example script exit 0, 11/11 tests PASS in normal/`-O`/`-OO`, both files compile, and local Git blob hashes match the fetched blobs. This is coordinator evidence only; independent code review remains pending.
+- The article clarifies that blank-key handling is a sample-preflight convention, not a claim to emulate every Power BI import conversion. Existing bitmap/SVG are reused; no new article or image.
+- Canonical Run61 queue remains 29 unique IDs in exact planning order; GA-B00005 remains CONTENT_QA. No Run135 queue write. Factory ledger remains 24 drafts / 24 technical visuals / 23 PHP candidates; independent PASS 22/18/23; fully approved/published/live 0/0/0.
+- Current source Main is `0aa396859d3af70935280275b524a51dadc48868`. PR #867 remains OPEN/DRAFT, 10 ahead / 7 behind, four intended paths, zero independent reviews/threads. New owner handoff comment [#7015022569](https://github.com/satnamkhowal/grootacademy.com/pull/867#issuecomment-7015022569) asks for current-Main refresh and exactly one contextual-FAQ stylesheet include.
+- Central Main remains `21af139cc32a7b67aab6908c61edeb5998bd4544`; this coordination PR remains OPEN/DRAFT with zero independent reviews/threads. README still lists eight brands and three active owner/status rows, with Groot's row missing. PRs #1/#2/#3 remain merged; existing AEO/GEO PR #2 baseline is reused; Jaipur `je2` social vs `jaipur-engieneers` candidate-site mapping remains unresolved.
+- No other brand implementation, Central Main, source Main, deployment, publication or indexing was changed.
+
+Next: independent GA-B00005 editorial/code/visual review; owner-controlled PR #867 refresh/review; then noindex/date-less PHP candidate and full PHP/schema/route/browser/AT/HTTP/MIME release gates. Azure BlobNotFound administrator diagnosis remains required before hosted retries. New IDs/batch expansion remain HOLD.
