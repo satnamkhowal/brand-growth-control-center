@@ -73,3 +73,11 @@ No source implementation, queue, central README/control board, ownership assignm
 - No Central Main write, source implementation, merge, deployment, publication or indexing occurred.
 
 **Next central action:** central owner records Groot's accountable P0 owner, canonical queue writer and independent release approver, while the existing source owners complete the GA-B00005 and shared-head review gates. Preserve the Jaipur mapping as unresolved until deployed-origin evidence is available.
+
+
+### Run140 strict-base-queue correction
+
+- A strict CSV parse of the actual Run61 PR #817 base blob `f8bd604cfe37d4b865f4ccf022ddd29e2d114694` fails at line 6 with `unexpected "M" after closing quote` in the GA-B00005 notes. The base queue is malformed; it was not changed in Run140.
+- The prior Run139 report attributed blob `a056ec6d...` to the Run61 base. That blob was actually the PR #908 candidate. The repaired PR #908 candidate is now `7f0c005fec5cd2ad1e3691864019a97d480632f3`: strict CSV parse PASS, 29 rows, 19 fields per row, unique IDs and exact planning PR #62 order. It is the sole correction candidate, not yet canonical; independent review and owner-controlled integration remain pending.
+- The queue validator now rejects extra/missing cells and malformed quotes; seven coordinator-local Python 3.13.5 regression tests pass 7/7. This is not a hosted Actions result or independent approval.
+- No Central Main or canonical PR #817 base write occurred. Keep the single queue owner and do not create a second queue.
