@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "purpose": "Authoritative brand-to-repository lock registry. Canonical source repositories must not be changed by cross-brand work unless this registry is explicitly updated.",
+  "last_verified": "2026-11-26",
+  "repository_owner": "satnamkhowal",
+  "brands": [
+    {
+      "brand": "Jaipur Engineers",
+      "canonical_repository": "satnamkhowal/jaipurengineers.com",
+      "canonical_website": "https://jaipurengineers.com",
+      "status": "locked",
+      "notes": "Canonical website/source repo. Historical typo/alternate repository names are not authoritative."
+    },
+    {
+      "brand": "Mango Engineers",
+      "canonical_repository": "satnamkhowal/mangoengineers.com",
+      "canonical_website": "https://mangoengineers.com",
+      "status": "locked"
+    },
+    {
+      "brand": "Forsk Coding School",
+      "canonical_repository": "satnamkhowal/forsk-coding-school",
+      "canonical_website": "https://forskcodingschool.com",
+      "status": "locked"
+    },
+    {
+      "brand": "Groot Academy",
+      "canonical_repository": "satnamkhowal/grootacademy.com",
+      "canonical_website": "https://grootacademy.com",
+      "status": "locked",
+      "notes": "Legacy/supporting repos such as grootacademy and groot-academy-website are not canonical unless explicitly promoted here."
+    },
+    {
+      "brand": "Clever Ape Academy",
+      "canonical_repository": "satnamkhowal/cleverapeacademy.com",
+      "canonical_website": "https://cleverapeacademy.com",
+      "status": "locked"
+    },
+    {
+      "brand": "CadMate India",
+      "canonical_repository": "satnamkhowal/cadmateindia.com",
+      "canonical_website": "https://cadmateindia.com",
+      "status": "locked"
+    },
+    {
+      "brand": "Groot Software",
+      "canonical_repository": "satnamkhowal/grootsoftware.com",
+      "canonical_website": "https://grootsoftware.com",
+      "status": "locked"
+    },
+    {
+      "brand": "Forsk Technologies",
+      "canonical_repository": "satnamkhowal/forsktechnologies.com",
+      "canonical_website": "https://forsktechnologies.com",
+      "status": "locked"
+    }
+  ],
+  "merge_policy": {
+    "default_branch": "main",
+    "require_review_before_merge": true,
+    "merge_only_after_analysis": true,
+    "draft_prs_block_merge": true,
+    "failed_or_missing_ci_block_merge": true,
+    "diverged_branches_require_current_main_reconciliation": true,
+    "do_not_force_push": true,
+    "do_not_merge_without_reviewing_changed_files": true,
+    "repository_identity_changes_require_registry_update": true
+  }
+}
