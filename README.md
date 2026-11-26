@@ -9,7 +9,7 @@ Central coordination hub for eight brands and their authorized workstreams.
 - Never mark work as complete without a verifiable link or test result.
 - Use this repository for coordination only; implementation remains in each brand's source repository.
 - **Canonical brand repository identities are locked** in [data/brand-repository-locks.json](data/brand-repository-locks.json. Treat that registry as authoritative for repository selection after brand/domain renames. Historical, misspelled, discarded, certificate, or supporting repositories are not canonical unless explicitly listed.
-- Merge policy: analyze every PR and branch first. Draft PRs, failed/missing CI, unsafe or unverified changes, and branches diverged from main must not be merged until reconciled and validated. Never force-push as a merge shortcut.
+- Merge policy: analyze every PR and branch first. Draft PRs, failed/missing CI, unsafe or unverified changes, and branches diverged from main must not be merged until reconciled and validated. Never force-push as a merge shortcut. See the [26 November 2026 brand repository audit](docs/brand-repository-merge-audit-2026-11-26.md) for the current triage snapshot.
 
 ## Brands
 
