@@ -8,6 +8,8 @@ Central coordination hub for eight brands and their authorized workstreams.
 - Record the repository, priority, validation, deployment state, and next action.
 - Never mark work as complete without a verifiable link or test result.
 - Use this repository for coordination only; implementation remains in each brand's source repository.
+- **Canonical brand repository identities are locked** in [data/brand-repository-locks.json](data/brand-repository-locks.json. Treat that registry as authoritative for repository selection after brand/domain renames. Historical, misspelled, discarded, certificate, or supporting repositories are not canonical unless explicitly listed.
+- Merge policy: analyze every PR and branch first. Draft PRs, failed/missing CI, unsafe or unverified changes, and branches diverged from main must not be merged until reconciled and validated. Never force-push as a merge shortcut.
 
 ## Brands
 
@@ -24,8 +26,9 @@ Central coordination hub for eight brands and their authorized workstreams.
 
 | Priority | Brand | Owner | Status | Evidence / next action |
 | --- | --- | --- | --- | --- |
-| P0 | Jaipur Engineers | Account 1 / Master Supervisor | In review | Validate the existing enquiry-form change and confirm production deployment. |
-| P0 | Central coordination | Account 1 / Master Supervisor | Active | Add each brand repository, access status, and active task after verification. |
+| P0 | Jaipur Engineers | Account 1 / Master Supervisor | In review | Audit open PRs and branches; reconcile safe changes to current main and validate before merging. |
+| P0 | Canonical brand repository locks | Central Controller | Locked | [Canonical repository lock registry](data/brand-repository-locks.json); all eight brand source repositories recorded. |
+| P0 | Central coordination | Account 1 / Master Supervisor | Active | Maintain canonical repository mapping, access status, active task and validation evidence. |
 | P0 | Forsk Coding School | Forsk implementation / Central Controller | In review | [2026-10-23 work log + continuation prompt](documents/forsk-coding-school/WORK-LOG-2026-10-23.md): alumni PR #39 merged to code; trainers PR #38 still open; events hub branch and brochure/SEO QA pending. |
 
 ## Update format
